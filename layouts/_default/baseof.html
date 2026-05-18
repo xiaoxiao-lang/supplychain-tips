@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="robots" content="index, follow">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, "Microsoft YaHei", sans-serif; line-height: 1.7; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+    header { text-align: center; padding: 40px 0; border-bottom: 1px solid #eee; }
+    h1 { font-size: 1.8em; margin-bottom: 10px; }
+    h2 { font-size: 1.4em; margin: 30px 0 15px; }
+    h3 { font-size: 1.2em; margin: 20px 0 10px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav { margin-top: 15px; }
+    .nav a { margin: 0 10px; color: #666; }
+    .post-list { list-style: none; }
+    .post-list li { padding: 15px 0; border-bottom: 1px solid #f5f5f5; }
+    .post-list h3 { margin: 0; }
+    .post-meta { color: #999; font-size: 0.9em; margin-top: 5px; }
+    .content { margin: 30px 0; }
+    .content p { margin: 15px 0; }
+    .content ul, .content ol { margin: 15px 0 15px 25px; }
+    .content li { margin: 5px 0; }
+    .content blockquote { border-left: 4px solid #0066cc; padding-left: 15px; margin: 20px 0; color: #666; }
+    .content code { background: #f5f5f5; padding: 2px 6px; border-radius: 3px; }
+    .content pre { background: #f5f5f5; padding: 15px; overflow-x: auto; border-radius: 5px; margin: 20px 0; }
+    .tag { display: inline-block; background: #f0f0f0; padding: 2px 10px; border-radius: 15px; font-size: 0.85em; margin: 3px; color: #666; }
+    .wechat-box { background: #f9f9f9; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; text-align: center; margin: 40px 0; }
+    footer { text-align: center; padding: 40px 0; color: #999; font-size: 0.9em; border-top: 1px solid #eee; margin-top: 50px; }
+    @media (max-width: 600px) { body { padding: 15px; } h1 { font-size: 1.5em; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
+    <p style="color:#666;margin-top:10px;">{{ .Site.Params.description }}</p>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/tags/">标签</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </header>
+  <main>
+    {{ .Content }}
+  </main>
+  <footer>
+    <p>&copy; 2026 {{ .Site.Title }} · 关注公众号「供应链那些事」</p>
+  </footer>
+</body>
+</html>
