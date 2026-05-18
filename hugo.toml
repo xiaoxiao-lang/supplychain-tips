@@ -16,8 +16,9 @@ enableRobotsTXT = true
   posts = "/posts/:slug/"
 
 [params]
-  description = "专注供应链管理知识分享，从采购到物流，从入门到精通"
+  description = "甲方乙方供应链 - 专注供应链管理知识分享，从采购到物流，从入门到精通"
   keywords = ["供应链管理", "采购", "物流", "仓储", "ERP"]
+  author = "甲方乙方供应链"
 
 [sitemap]
   changefreq = "daily"
