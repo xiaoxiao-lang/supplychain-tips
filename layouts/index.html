@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+<article class="post-preview">
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  <p class="post-meta">{{ .Date.Format "2006-01-02" }}{{ if .Params.tags }} · {{ range first 3 .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}{{ end }}</p>
+  <p>{{ .Summary }}</p>
+  <p><a href="{{ .Permalink }}">阅读全文 →</a></p>
+</article>
+{{ end }}
+{{ end }}
