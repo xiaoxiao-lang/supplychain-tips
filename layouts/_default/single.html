@@ -1,15 +1,22 @@
 {{ define "main" }}
 <article class="single-post">
-  <h1 style="font-size:1.8em;margin-bottom:10px;">{{ .Title }}</h1>
-  <p class="post-meta">{{ .Date.Format "2006-01-02" }}{{ if .Params.tags }} · {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}{{ end }}</p>
-  <hr style="margin:20px 0;border:none;border-top:1px solid #eee;">
+  <h1>{{ .Title }}</h1>
+  <div class="post-meta">
+    {{ .Date.Format "2006年1月2日" }}
+    {{ if .Params.tags }}
+      {{ range .Params.tags }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+    {{ end }}
+  </div>
   <div class="content">
     {{ .Content }}
   </div>
-  <div class="wechat-box">
+  <div class="cta-card">
     <p><strong>觉得有用？</strong></p>
-    <p>关注公众号「甲方乙方供应链」，获取更多干货</p>
-    <p style="margin-top:10px;"><a href="https://mp.weixin.qq.com/" target="_blank">点击关注 →</a></p>
+    <p>关注公众号「甲方乙方供应链」</p>
+    <p>获取更多供应链干货</p>
+    <a href="https://mp.weixin.qq.com/" target="_blank">点击关注 →</a>
   </div>
 </article>
 {{ end }}
