@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中小企业 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A/</link><description>Recent content in 中小企业 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A/index.xml" rel="self" type="application/rss+xml"/><item><title>上了ERP系统，我差点把公司干黄了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>说出来你可能不信。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中小企业 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A/</link><description>Recent content in 中小企业 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万，我才发现WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-pitfalls/</guid><description>&lt;p>哥们儿，先说个真事儿。&lt;/p>
+&lt;p>去年，我在一家年销售额快2个亿的服装公司干供应链。老板拍桌子：“库存周转天数从90天压到45天，做不到你走人。”&lt;/p>
+&lt;p>我当时手一抖，差点没把手机摔了。&lt;/p>
+&lt;p>因为那时候，我们仓库还靠Excel和纸质单子。货找不着、发错货、盘点对不上，一个月光报废就几十万。老板不知道？他知道，但他觉得“系统都是坑钱的”。&lt;/p>
+&lt;p>直到我硬着头皮上了套WMS，三个月后库存从500万压到280万，老板才闭嘴。&lt;/p>
+&lt;p>但你知道吗？80%的公司上了WMS，反而更乱。为啥？因为&lt;strong>这3个坑，踩一个就够你喝一壶&lt;/strong>。&lt;/p>
+&lt;h3 id="坑1把wms当电子台账活该被坑">坑1：把WMS当“电子台账”，活该被坑&lt;/h3>
+&lt;p>很多人选WMS，第一句话：“能管库存就行。”&lt;/p>
+&lt;p>&lt;strong>醒醒吧。&lt;/strong>&lt;/p>
+&lt;p>WMS不是Excel的升级版，不是把纸上的数字搬到电脑里就完事儿了。它是一个&lt;strong>流程引擎&lt;/strong>。&lt;/p>
+&lt;p>举个例子。我们以前拣货，靠老员工“记忆法”——“那个蓝色的箱子在C区第二排”。老员工请假，新人进去就抓瞎。&lt;/p>
+&lt;p>上了WMS后，&lt;strong>系统直接告诉你去哪拿、拿多少、拿完放哪&lt;/strong>。新人上手只要2小时。&lt;/p>
+&lt;p>但如果你不重构流程，&lt;strong>直接把Excel的逻辑导入WMS&lt;/strong>，那叫“新瓶装旧酒”。结果就是：货还是乱，盘点还是对不上，系统反而成了累赘。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先梳理仓库的&lt;strong>标准作业流程&lt;/strong>（SOP）：收货、上架、拣货、发货、盘点。&lt;/li>
+&lt;li>再选WMS，看它能不能&lt;strong>强制你按流程走&lt;/strong>。比如：没扫描条码不能收货，货没放到指定位置不能确认。&lt;/li>
+&lt;li>别买那种“啥都能改”的定制版。&lt;strong>流程一改，系统就废&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;h3 id="坑2上系统不配硬件等于花钱买教训">坑2：上系统不配硬件，等于花钱买教训&lt;/h3>
+&lt;p>“WMS买好了，老铁，仓库是不是就起飞了？”&lt;/p>
+&lt;p>“醒醒，你的PDA呢？条码枪呢？标签纸呢？”&lt;/p>
+&lt;p>我以前的公司，老板为了省1万块，只买了软件，硬件用旧的。结果呢？员工用手机拍照扫码，&lt;strong>反光、对焦慢、容易出错&lt;/strong>。一天下来，人比机器还累。&lt;/p>
+&lt;p>&lt;strong>WMS的灵魂是实时数据&lt;/strong>。入库、出库、移位，每一笔操作都要在&lt;strong>秒级&lt;/strong>内回传。要是硬件拉胯，数据延迟，&lt;strong>系统里显示有货，实际货在哪儿没人知道&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>PDA（手持终端）&lt;/strong>：必买。别省。安卓系统的就行，抗摔、续航长、带激光扫描头。&lt;/li>
+&lt;li>&lt;strong>条码打印机&lt;/strong>：买热敏的，别买针式的。热敏快、噪音小、维护简单。&lt;/li>
+&lt;li>&lt;strong>无线网络&lt;/strong>：仓库里WiFi要覆盖全，&lt;strong>不能有死角&lt;/strong>。建议装5G专用AP（无线接入点）。&lt;/li>
+&lt;li>&lt;strong>货架标签&lt;/strong>：用&lt;strong>二维码&lt;/strong>或RFID（射频识别）。别用普通标签，容易脏、容易掉。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>预算分配建议&lt;/strong>：软件:硬件 = 6:4。硬件别省，省了后期你哭都来不及。&lt;/p>
+&lt;h3 id="坑3上线就不管了等着被库存反噬">坑3：上线就不管了，等着被库存“反噬”&lt;/h3>
+&lt;p>WMS上线第一天，大家都很兴奋。第二天，开始有人抱怨：“系统太慢了”“流程太麻烦了”“不如以前快”。&lt;/p>
+&lt;p>&lt;strong>这时候你要是心软，就完了。&lt;/strong>&lt;/p>
+&lt;p>WMS是&lt;strong>反人性&lt;/strong>的。它不让你凭感觉干活，它要你&lt;strong>每一步都按规定来&lt;/strong>。老员工会觉得“被管着”，不习惯。&lt;/p>
+&lt;p>但你要知道，&lt;strong>习惯是用出来的，不是想出来的&lt;/strong>。&lt;/p>
+&lt;p>我们上线第一个月，发货效率反而降了20%。老板差点把我骂死。但我坚持：&lt;strong>不按系统操作，就不算发货&lt;/strong>。第二个月，效率回升30%；第三个月，效率翻倍。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>上线后第一个月&lt;/strong>：每天开15分钟复盘会，只解决3个最大的问题。&lt;/li>
+&lt;li>&lt;strong>设立“系统管理员”&lt;/strong>：专人负责培训、答疑、优化配置。别让IT兼着，他不懂业务。&lt;/li>
+&lt;li>&lt;strong>数据监控&lt;/strong>：每天看&lt;strong>盘点准确率、发货及时率、库存周转率&lt;/strong>。这三个指标不达标，说明系统没用好。&lt;/li>
+&lt;li>&lt;strong>别怕员工抱怨&lt;/strong>：90%的抱怨是因为不熟悉。&lt;strong>坚持一星期，他们就会爱上它&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;h3 id="最后说句掏心窝的">最后说句掏心窝的&lt;/h3>
+&lt;p>库存压了500万，不是系统的问题，是人的问题。WMS不是万能药，但它是&lt;strong>你从“凭经验管仓库”到“凭数据管仓库”的跳板&lt;/strong>。&lt;/p>
+&lt;p>月薪5千的采购，靠Excel和微信跟单；月薪5万的采购，靠系统动态调整安全库存。&lt;strong>差的不只是工资，是思维方式&lt;/strong>。&lt;/p>
+&lt;p>如果你现在还在用Excel管仓库，听我一句：&lt;strong>趁早换WMS&lt;/strong>。别等到库存压死现金流了，才后悔。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>上了ERP系统，我差点把公司干黄了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>说出来你可能不信。&lt;/p>
 &lt;p>我哥们，开工厂的，去年上了套ERP，花了小100万。半年后，差点把公司干黄了。&lt;/p>
 &lt;p>不是系统不行，是&lt;strong>人差点疯了&lt;/strong>。&lt;/p>
 &lt;p>库存数据永远对不上，财务和库房天天吵架。销售说货有的是，生产说原材料早没了。老板拍桌子：你们系统不是通的吗？！底下人白眼：通是通，但没一个准的。&lt;/p>

@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>甲方乙方供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%94%B2%E6%96%B9%E4%B9%99%E6%96%B9%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 甲方乙方供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%94%B2%E6%96%B9%E4%B9%99%E6%96%B9%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链数字化？别等库存爆仓才后悔</title><link>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</guid><description>&lt;p>兄弟，你听我说。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>甲方乙方供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%94%B2%E6%96%B9%E4%B9%99%E6%96%B9%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 甲方乙方供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%94%B2%E6%96%B9%E4%B9%99%E6%96%B9%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>运一车危险品差点赔掉裤衩，这5个坑别踩</title><link>https://supplychain-tips.pages.dev/posts/dangerous-goods-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/dangerous-goods-pitfalls/</guid><description>&lt;p>兄弟，你是不是也觉得危险品运输就是个“贴个标签、找个司机”的活？&lt;/p>
+&lt;p>&lt;strong>我劝你趁早醒醒。&lt;/strong>&lt;/p>
+&lt;p>上个月我一个做化工贸易的朋友，就因为一车“普通涂料”被运政扣了。货值30万，罚款20万，外加停业整顿三个月。最后才知道，那涂料闪点超标，压根儿就是3类易燃液体。&lt;/p>
+&lt;p>他当时在群里发了一句：“运一车危险品差点赔掉裤衩，这5个坑你们别踩。”&lt;/p>
+&lt;p>我听完后背发凉。这年头，危险品运输就是踩钢丝——踩对了，利润比普货高30%-50%；踩错了，罚款、扣车、甚至爆炸，直接让你回到解放前。&lt;/p>
+&lt;p>今天我就把这5个坑扒干净。&lt;strong>全是硬核干货，看完能帮你省下一辆宝马。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1分类搞错等于给炸弹贴安全标签">坑1：分类搞错，等于给炸弹贴“安全标签”&lt;/h3>
+&lt;p>很多人觉得“我货小，量少，贴个普货标签就过了”。&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>危险品分类不是你想贴啥就贴啥。它分9大类，像爆炸品、气体、易燃液体、氧化物质……每一类下面的细项，比你的前任还复杂。&lt;/p>
+&lt;p>比如，&lt;strong>锂电池&lt;/strong>是9类杂项，但有些含电解液的锂离子电池，其实是4.1类易燃固体。你按9类走，包装、标记、运输方式全错，一旦出事，保险公司直接拒赔。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>查MSDS（物质安全数据表）&lt;/strong>：这是身份证。别信供应商嘴里的“没事”，让他们提供第14项“运输信息”。&lt;/li>
+&lt;li>&lt;strong>用官方数据库&lt;/strong>：联合国《关于危险货物运输的建议书》网上能查。不会查？百度“危险货物一览表”，对着UN编号找。&lt;/li>
+&lt;li>&lt;strong>实在拿不准，花几百块找第三方检测&lt;/strong>：比起罚款，这钱是“最便宜的安全套”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：分类错了，后面全是屁话。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑2包装省了50块赔了5万块">坑2：包装省了50块，赔了5万块&lt;/h3>
+&lt;p>&lt;strong>危险品包装不是箱子加泡泡纸。&lt;/strong>&lt;/p>
+&lt;p>我见过有人用普通纸箱装双氧水，结果路上颠簸，纸箱湿了破了，双氧水流了一车，还和车厢铁皮反应——差点着火。&lt;/p>
+&lt;p>正规危险品包装分I类、II类、III类，对应高风险、中风险、低风险。每类包装都有跌落、堆码、气密性测试。你省下的那几十块包装费，最后会变成天价赔偿。&lt;/p>
+&lt;p>&lt;strong>避坑清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>包装必须带“UN标记”&lt;/strong>：比如“UN 1A1/Y1.2/100”，代表这是I类钢桶，通过测试。&lt;/li>
+&lt;li>&lt;strong>内包装和外包装之间要加吸附材料&lt;/strong>：万一漏了能兜住，别让液体到处跑。&lt;/li>
+&lt;li>&lt;strong>封口要拧死&lt;/strong>：别用普通胶带缠一圈就完事，必须用防拆封条。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：包装不是省钱的地方，是保命的地方。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3单据写错字货被扣三天">坑3：单据写错字，货被扣三天&lt;/h3>
+&lt;p>危险品运输的单据，比你的简历还严格。&lt;/p>
+&lt;p>&lt;strong>运单、装箱单、MSDS、安全标签、运输条件鉴定书&lt;/strong>……少一张，或者写错一个字，比如“丙酮”写成“丙醇”，直接扣车。&lt;/p>
+&lt;p>我见过最离谱的：一个司机把UN编号“UN 1203”（汽油）写成了“UN 1202”（柴油），结果到检查站，对方一看：不对啊，你这车是柴油车，拉的却是汽油？&lt;strong>直接扣车+调查三天。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么不出事？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>用模板&lt;/strong>：别自己瞎编。去当地运管部门网站下标准格式，或者用物流软件的自动生成功能。&lt;/li>
+&lt;li>&lt;strong>核对三遍&lt;/strong>：品名、UN编号、危险类别、包装等级、件数、净重——每个数字都得对。&lt;/li>
+&lt;li>&lt;strong>电子版+纸质版都带&lt;/strong>：现在很多检查站要扫二维码，提前把电子单上传到系统。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>单据就是你货的“身份证”，写错了，你连解释的机会都没有。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑4司机是普货老司机危险品就是新司机">坑4：司机是“普货老司机”，危险品就是“新司机”&lt;/h3>
+&lt;p>&lt;strong>危险品司机不是开过卡车就行。&lt;/strong>&lt;/p>
+&lt;p>他们得考&lt;strong>危险品运输从业资格证&lt;/strong>，并且每两年再培训。但很多公司为了省钱，找个普货司机就上路。&lt;/p>
+&lt;p>结果呢？路上爆胎，司机不知道停车放警示牌，反而下车抽烟；遇到泄漏，第一反应是拿水冲，结果水碰到化学品产生有毒气体。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>查证&lt;/strong>：上车前看司机有没有“危险品运输从业资格证”，还必须在有效期内。&lt;/li>
+&lt;li>&lt;strong>培训&lt;/strong>：别光靠司机自学。你出钱，请专业的危化品安全培训师，搞一整天实操：灭火器怎么用、泄漏怎么堵、逃生路线怎么选。&lt;/li>
+&lt;li>&lt;strong>应急包&lt;/strong>：车上必须配防毒面具、防化手套、吸附棉、急救箱。别省。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：司机不是工具人，是你的第一道防线。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5应急方案是纸老虎出事就傻眼">坑5：应急方案是“纸老虎”，出事就傻眼&lt;/h3>
+&lt;p>很多公司的“应急预案”就是网上抄的，打印出来塞文件柜吃灰。&lt;/p>
+&lt;p>&lt;strong>但危险品运输最怕的就是“真出事”。&lt;/strong>&lt;/p>
+&lt;p>比如泄漏了，你该打哪个电话？是消防119、环保12369，还是公司安全员？现场该疏散多远？100米还是500米？&lt;/p>
+&lt;p>我见过一个案例：一车甲苯泄漏，司机按预案打电话给安全员，安全员在开会没接，司机慌了，原地等了20分钟。结果甲苯挥发，附近居民闻到报警，消防来了，&lt;strong>定性为“未及时启动应急响应”，公司被罚15万。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>靠谱的应急方案长这样：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>电话清单要贴在驾驶室&lt;/strong>：消防、环保、公司、保险、危废处置公司——5个号码，缺一不可。&lt;/li>
+&lt;li>&lt;strong>现场处置卡要简洁&lt;/strong>：别写长篇大论。就三步：停车熄火、疏散人群、打哪个电话。最好做成口袋卡，司机随身带。&lt;/li>
+&lt;li>&lt;strong>每季度搞一次桌面演练&lt;/strong>：不用真拉货，但要在会议室里把泄漏场景模拟一遍。谁负责报警？谁负责引导？谁负责拍照取证？练熟了，真出事才不慌。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>应急方案不是纸，是命。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>危险品运输其实就是**“细节控的修罗场”**。&lt;/p>
+&lt;p>分类、包装、单据、司机、应急——每一个环节都是雷。但你只要踩对一步，就能把同行甩开一条街。&lt;/p>
+&lt;p>这行里，&lt;strong>赚大钱的，都是把安全当信仰的狠人。&lt;/strong>&lt;/p>
+&lt;p>别等到被扣车、被罚款、被起诉，才后悔没早点看这篇文章。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>，下篇聊：危险品仓储的10个要命细节，看完你就不敢乱放货了。&lt;/p>
+&lt;hr>
+&lt;p>（全文约1800字，纯手工打磨，拿走不谢。）&lt;/p></description></item><item><title>供应链数字化？别等库存爆仓才后悔</title><link>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</guid><description>&lt;p>兄弟，你听我说。&lt;/p>
 &lt;p>你是不是也这样？每天被老板追着问“库存周转率怎么又降了”，供应商那边电话打爆了催款，仓库里堆的货够卖到明年双十一，可销售还在喊“这个单品断货了，赶紧补！”&lt;/p>
 &lt;p>&lt;strong>别问我是怎么知道的，干过供应链的都懂。&lt;/strong>&lt;/p>
 &lt;p>数字化转型？听起来高大上，像是我花三百万上个SAP就能解决的事儿。但现实是——**你花了一大笔钱，上了个系统，结果数据还是靠人手工录，报表还是excel拉，老板看着大屏上花花绿绿的图表，问你“这个月的采购计划呢？”你只能尴尬地说：“系统还没跑顺……”&lt;/p>

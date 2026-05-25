@@ -36,9 +36,13 @@ git add .
 git commit -m "Auto update: %date% %time%"
 git push origin main
 if %errorlevel% neq 0 (
-    echo [ERROR] Git push failed
-    pause
-    exit /b 1
+    echo [WARN] Git push failed, trying GitHub API fallback...
+    "C:\Users\peilu\.workbuddy\binaries\python\versions\3.14.3\python.exe" scripts\github_api_push.py
+    if %errorlevel% neq 0 (
+        echo [ERROR] GitHub API push also failed
+        pause
+        exit /b 1
+    )
 )
 
 REM Done

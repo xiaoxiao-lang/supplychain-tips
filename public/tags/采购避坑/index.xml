@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/</link><description>Recent content in 采购避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商管不好，3年亏掉一套房</title><link>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</guid><description>&lt;p>&lt;strong>先讲个真事。&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/</link><description>Recent content in 采购避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：供应链别瞎卷</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</guid><description>&lt;p>&lt;strong>兄弟，你是不是也被“供应链”这三个字给忽悠瘸了？&lt;/strong>&lt;/p>
+&lt;p>去年年底，我盯着仓库里堆成山的货，手机里是财务催款的微信，面前是老板拍桌子的怒吼：“500万的库存！你他妈是开超市还是做供应链？”&lt;/p>
+&lt;p>那一刻我差点以为我要去送外卖了。&lt;/p>
+&lt;p>别笑。你如果干过供应链，一定懂这种&lt;strong>想死的心&lt;/strong>。&lt;/p>
+&lt;p>老板天天喊“降本增效”，业务部天天催“快发货”，财务天天吼“别压钱”。你夹在中间，像个三明治里的火腿片，两头被夹，中间还差点被烤熟。&lt;/p>
+&lt;p>你以为供应链管理是高端大气上档次？是麦肯锡PPT里的“端到端协同”？拉倒吧，现实中就是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>采购&lt;/strong>：供应商说涨价10%，不涨就断供。&lt;/li>
+&lt;li>&lt;strong>仓库&lt;/strong>：爆仓了，货堆到天花板，叉车都开不进去。&lt;/li>
+&lt;li>&lt;strong>销售&lt;/strong>：客户要明天到货，但物流说今天没车了。&lt;/li>
+&lt;li>&lt;strong>老板&lt;/strong>：为什么库存周转率这么低？&lt;/li>
+&lt;/ul>
+&lt;p>今天我不跟你扯什么“VUCA时代”“数字化赋能”这种鬼话。我就说说，&lt;strong>库存压了500万之后，我脑子被开了一枪，才想明白的3个真相。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别特么迷信零库存那是大厂的春药中小厂的毒药">1. 别特么迷信“零库存”，那是大厂的春药，中小厂的毒药&lt;/h3>
+&lt;p>你是不是也听过这种神话：丰田的“Just In Time”，戴尔的“零库存模式”。牛逼吧？优雅吧？你以为你也能学？&lt;/p>
+&lt;p>&lt;strong>醒醒吧兄弟。&lt;/strong>&lt;/p>
+&lt;p>大厂玩零库存，是因为人家有话语权。供应商就住隔壁，随时给你送货。人家现金流充沛，断供一天能扛住。&lt;/p>
+&lt;p>你一个中小厂，供应商离你800公里，物流动不动就停运。你跟人家学零库存？&lt;/p>
+&lt;p>&lt;strong>结果就是：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>某个配件没到，整条产线停工。一天损失几万块。&lt;/li>
+&lt;li>工人闲着没事干，还得发工资。&lt;/li>
+&lt;li>客户订单延期，直接罚款。&lt;/li>
+&lt;/ul>
+&lt;p>我当初就是被“零库存”三个字忽悠瘸了。库存压到历史最低，结果碰上原材料涨价+限电，供应商直接说：“没货，你等着吧。”&lt;/p>
+&lt;p>我等了三天，老板骂了我三天。&lt;/p>
+&lt;p>&lt;strong>真相是什么？&lt;/strong>&lt;/p>
+&lt;p>对于99%的公司，&lt;strong>安全库存就是保命符&lt;/strong>。别听那些专家瞎扯“库存是万恶之源”。没有库存，你连恶的机会都没有。&lt;/p>
+&lt;p>我的经验是：&lt;strong>按“最小订货量+1.5倍安全周期”来备&lt;/strong>。比如你正常卖100件，采购周期是7天，那就备够卖10天的量。别多，也别少。&lt;/p>
+&lt;p>&lt;strong>库存不是魔鬼，没库存才是。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-别把供应商当乙方你跪下求他的时候比追女朋友还卑微">2. 别把供应商当“乙方”，你跪下求他的时候，比追女朋友还卑微&lt;/h3>
+&lt;p>干采购的，是不是觉得自己是甲方？手里握着单子，供应商得求你？&lt;/p>
+&lt;p>&lt;strong>太天真了。&lt;/strong>&lt;/p>
+&lt;p>你去看看你那些核心供应商，哪个不是大爷？你去催货试试：“王总，这批货能不能提前两天？”人家回你一句：“不行，产能排满了。要不你找别家？”&lt;/p>
+&lt;p>你找别家？别家更贵，质量更差，交期更长。&lt;/p>
+&lt;p>&lt;strong>所以，真正的供应链高手，都在做一件事：把供应商变成“自己人”。&lt;/strong>&lt;/p>
+&lt;p>怎么变？不是请他吃饭喝酒洗脚。那是上个世纪的玩法。&lt;/p>
+&lt;p>&lt;strong>3个实操方法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>透明化你的需求&lt;/strong>：别藏着掖着。把你这半年的预测计划，直接甩给供应商。让他提前备料、排产。他稳了，你才能稳。&lt;/li>
+&lt;li>&lt;strong>别压榨到极致&lt;/strong>：很多采购以把价格压到对方没利润为荣。傻X！供应商没利润，要么偷工减料，要么直接不跟你玩了。&lt;strong>留出合理利润，关键时刻他才会帮你。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>建立“救火”机制&lt;/strong>：跟核心供应商签个“应急协议”。平时正常价，紧急时刻加价20%优先供货。别觉得亏，比起断供损失，这20%算个屁。&lt;/li>
+&lt;/ul>
+&lt;p>我现在的做法是：&lt;strong>每年把核心供应商老板请到公司，开个“战略研讨会”。&lt;/strong> 不是吃喝，是真聊业务痛点。他缺资金？我帮他对接银行。他缺订单？我帮他一起做市场预测。&lt;/p>
+&lt;p>&lt;strong>你把供应商当兄弟，他才会在你掉坑里时拉你一把。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别把计划当摆设那是你唯一的救命稻草">3. 别把“计划”当摆设，那是你唯一的救命稻草&lt;/h3>
+&lt;p>“计划赶不上变化”——这是供应链人最爱说的借口。&lt;/p>
+&lt;p>&lt;strong>借口！全是借口！&lt;/strong>&lt;/p>
+&lt;p>变化是常态，但计划是让你在变化中不翻车的底盘。&lt;/p>
+&lt;p>你去看看那些牛逼的供应链，哪个不是&lt;strong>计划做得像打仗&lt;/strong>？销售预测、生产排程、采购到货、物流发运，环环相扣。&lt;/p>
+&lt;p>而你呢？销售说“客户要1000件”，你傻乎乎地备了1000件的料。结果客户临时改口“只要500件”。剩下的500件，压在仓库里，变成一堆废铁。&lt;/p>
+&lt;p>&lt;strong>真相是：计划不是用来“准”的，是用来“纠偏”的。&lt;/strong>&lt;/p>
+&lt;p>怎么做？&lt;strong>两个动作：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“滚动预测”&lt;/strong>：别做“月度计划”这种傻事。做&lt;strong>周滚动&lt;/strong>。比如这周预测下周的，下周再预测下下周的。不断修正，像开车一样，随时微调方向盘。&lt;/li>
+&lt;li>&lt;strong>“产销协同会”&lt;/strong>：每周一次，拉上销售、生产、采购、财务。&lt;strong>谁牛逼谁说话，谁拍脑袋谁滚蛋。&lt;/strong> 销售必须给出预测依据，生产必须报出产能瓶颈。别让供应链一个人扛下所有。&lt;/li>
+&lt;/ul>
+&lt;p>我现在的原则是：&lt;strong>宁可计划多改几次，也别让库存多堆一天。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>最后说一句扎心的：&lt;/strong>&lt;/p>
+&lt;p>供应链管理，本质不是管货，是&lt;strong>管人&lt;/strong>。管老板的预期、管销售的嘴、管供应商的心、管自己的节奏。&lt;/p>
+&lt;p>别卷了，卷不动了。&lt;strong>先活下来，再谈降本增效。&lt;/strong>&lt;/p>
+&lt;p>如果你也曾经或正在被库存、交期、供应商搞到崩溃，&lt;strong>点个赞&lt;/strong>，让我知道我不是一个人在战斗。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p>
+&lt;p>那里有一群天天跟库存、供应商、老板斗智斗勇的“战友”，等你来。&lt;/p></description></item><item><title>签了300份合同才懂：这4个坑专坑采购人</title><link>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</guid><description>&lt;p>先讲个事儿。&lt;/p>
+&lt;p>上周，我一个做采购的朋友小张，差点被一份合同整到离职。&lt;/p>
+&lt;p>事情是这样的：他跟供应商签了个年度框架协议，价格谈得特漂亮，比市场价低了15%。老板还表扬了他一顿，说他“会来事”。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>第一批货到了，质检发现尺寸全偏了0.5毫米。&lt;/strong>&lt;/p>
+&lt;p>退货？供应商说“合同里没写验收标准，按行业惯例，误差1毫米以内都算合格”。&lt;/p>
+&lt;p>重新采购？交期已经拖了2周，产线等米下锅，老板拍桌子骂人。&lt;/p>
+&lt;p>最后，小张自己贴了5000块请供应商吃饭，求人家紧急返工。&lt;/p>
+&lt;p>&lt;strong>你以为是供应商刁难？不对。是你合同没写死。&lt;/strong>&lt;/p>
+&lt;p>干了5年采购，签了300多份合同，我踩过的坑比你见过的供应商还多。今天不说虚的，就聊4个&lt;strong>让你当场血压飙升的合同陷阱&lt;/strong>——全是真金白银换来的教训。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-价格条款别光写含税价小心被含死">1. 价格条款：别光写“含税价”，小心被“含”死&lt;/h3>
+&lt;p>很多采购签合同，价格那栏就写“含税价XXX元”。&lt;/p>
+&lt;p>&lt;strong>你以为稳了？&lt;/strong>&lt;/p>
+&lt;p>结果发票一来：增值税专票13%，你公司财务只认专票抵扣。供应商给你开普票，你一分钱税都抵不了。更骚的操作是，有的供应商写“含税价”，但不写税率，等你要发票时，他给你补一句：“哥，我们要加6个点的税点才能开专票。”&lt;/p>
+&lt;p>&lt;strong>你怎么办？&lt;/strong>&lt;/p>
+&lt;p>合同白纸黑字写着“含税价”，但没写具体税率。你去找老板告状，老板只会说一句：“你当时为什么没写清楚？”&lt;/p>
+&lt;p>&lt;strong>怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>必须写清&lt;/strong>：含13%增值税专用发票&lt;/li>
+&lt;li>&lt;strong>必须写死&lt;/strong>：价格有效期（比如“本合同价格有效期至2024年12月31日，期间不因原材料波动调整”）&lt;/li>
+&lt;li>&lt;strong>预留后手&lt;/strong>：如果价格波动超过10%，双方重新协商，但要有调价公式（比如参考“上海有色网当月均价”）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：价格条款不是写个数字就完事，而要写清楚“这个数字到底包含了什么”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-交付条款别信15天交货要写从哪天开始算">2. 交付条款：别信“15天交货”，要写“从哪天开始算”&lt;/h3>
+&lt;p>“我们保证15天交货。”——这句话，我听了不下200遍。&lt;/p>
+&lt;p>然后呢？&lt;/p>
+&lt;ul>
+&lt;li>第1天：供应商说“合同还没盖章，等流程”。&lt;/li>
+&lt;li>第5天：供应商说“原材料还没到，等两天”。&lt;/li>
+&lt;li>第10天：供应商说“机器坏了，修一下”。&lt;/li>
+&lt;li>第15天：供应商说“今天发货，明天到”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果呢？你产线停了一天，损失十几万。供应商说“我没违约啊，我15天内发了货”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>你是不是想骂人？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>问题出在哪？&lt;/strong>
+合同只写了“15天内交货”，但没写**“15天从哪天开始算”**。是合同签订日？是预付款到账日？还是供应商确认订单日？&lt;/p>
+&lt;p>&lt;strong>怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>写死起算点&lt;/strong>：“交货期自甲方支付预付款到乙方账户之日起计算，共15个自然日”&lt;/li>
+&lt;li>&lt;strong>写清逾期罚则&lt;/strong>：每逾期一天，按合同金额的0.5%支付违约金，累计不超过10%&lt;/li>
+&lt;li>&lt;strong>写清分批交付&lt;/strong>：如果需要分批，每一批的交付时间和数量必须单列&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：供应商的“15天”，是从你付钱那一刻才开始倒计时的。你不写清楚，他就永远在“等”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-验收条款别只写按国家标准这等于没写">3. 验收条款：别只写“按国家标准”，这等于没写&lt;/h3>
+&lt;p>很多合同里，验收标准就一句话：“按国家相关标准执行”。&lt;/p>
+&lt;p>&lt;strong>我告诉你，这句话等于废话。&lt;/strong>&lt;/p>
+&lt;p>因为国家标准往往是最低要求，而且很多标准是推荐性的（GB/T），不是强制性的（GB）。供应商可以理直气壮地说：“我这产品符合国标啊，你凭什么拒收？”&lt;/p>
+&lt;p>&lt;strong>更坑的是&lt;/strong>：有些行业标准是“行业惯例”，合同里根本没写。等你发现货不对板，供应商一句“行业都这样”就把你怼回来了。&lt;/p>
+&lt;p>&lt;strong>怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>写具体参数&lt;/strong>：尺寸公差±0.2mm，硬度HRC58-62，表面粗糙度Ra1.6&lt;/li>
+&lt;li>&lt;strong>附上样品&lt;/strong>：合同附件必须包含“封样确认单”，双方签字盖章，作为验收依据&lt;/li>
+&lt;li>&lt;strong>写清验收流程&lt;/strong>：到货后几个工作日内验收？抽检比例是多少？不合格怎么处理？（退货？换货？扣款？）&lt;/li>
+&lt;li>&lt;strong>留好“一票否决权”&lt;/strong>：比如“任何一项关键指标不合格，甲方有权整批退回”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>验收不是靠“人情”，是靠“参数”。你写越细，供应商越不敢糊弄。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-付款条款别信月结30天小心变成年结365天">4. 付款条款：别信“月结30天”，小心变成“年结365天”&lt;/h3>
+&lt;p>“我们月结30天”——这句话听起来很规范，对吧？&lt;/p>
+&lt;p>但现实是：&lt;/p>
+&lt;ul>
+&lt;li>你货到了，发票开了，供应商说：“财务流程要15天。”&lt;/li>
+&lt;li>15天后，你催款，供应商说：“老板出差了，等回来签字。”&lt;/li>
+&lt;li>30天后，你催款，供应商说：“最近资金紧张，下个月吧。”&lt;/li>
+&lt;li>60天后，你怒了，供应商说：“合同写的‘月结30天’，但没写逾期罚息啊。”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你算算，从交货到真正收款，拖了多久？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>写清“起算点”&lt;/strong>：付款期自“甲方收到乙方发票且货物验收合格之日”起计算&lt;/li>
+&lt;li>&lt;strong>写清“罚息”&lt;/strong>：逾期付款，按每天万分之五支付逾期利息，且甲方有权暂停后续订单&lt;/li>
+&lt;li>&lt;strong>写清“付款条件”&lt;/strong>：比如“收到全额发票后30个工作日内支付”，别留模糊空间&lt;/li>
+&lt;li>&lt;strong>考虑“阶梯付款”&lt;/strong>：预付款30%，验收合格付60%，质保期满付10%（质保期要写清，比如1年）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>付款条款不是“给钱的时间”，而是“控制供应商的筹码”。你越早把钱全付了，供应商越不把你当回事。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="结尾你以为合同是纸其实它是武器">结尾：你以为合同是“纸”，其实它是“武器”&lt;/h3>
+&lt;p>做了5年采购，我最大的感悟是：&lt;strong>合同不是签完就锁进抽屉的文件，而是你从谈判开始就要打磨的武器。&lt;/strong>&lt;/p>
+&lt;p>你写得越细，供应商越不敢钻空子。
+你写得越模糊，供应商就越敢试探你的底线。&lt;/p></description></item><item><title>供应商管不好，3年亏掉一套房</title><link>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</guid><description>&lt;p>&lt;strong>先讲个真事。&lt;/strong>&lt;/p>
 &lt;p>上个月跟一个老采购喝酒，他干了8年，去年刚升总监。
 喝到第三杯，他叹气：“我前三年，把公司坑惨了。”&lt;/p>
 &lt;p>问他怎么坑的？

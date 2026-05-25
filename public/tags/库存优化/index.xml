@@ -1,4 +1,237 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/</link><description>Recent content in 库存优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存积压500万，才搞懂WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</guid><description>&lt;p>兄弟，你仓库是不是也这样？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/</link><description>Recent content in 库存优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万，我才发现WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-pitfalls/</guid><description>&lt;p>哥们儿，先说个真事儿。&lt;/p>
+&lt;p>去年，我在一家年销售额快2个亿的服装公司干供应链。老板拍桌子：“库存周转天数从90天压到45天，做不到你走人。”&lt;/p>
+&lt;p>我当时手一抖，差点没把手机摔了。&lt;/p>
+&lt;p>因为那时候，我们仓库还靠Excel和纸质单子。货找不着、发错货、盘点对不上，一个月光报废就几十万。老板不知道？他知道，但他觉得“系统都是坑钱的”。&lt;/p>
+&lt;p>直到我硬着头皮上了套WMS，三个月后库存从500万压到280万，老板才闭嘴。&lt;/p>
+&lt;p>但你知道吗？80%的公司上了WMS，反而更乱。为啥？因为&lt;strong>这3个坑，踩一个就够你喝一壶&lt;/strong>。&lt;/p>
+&lt;h3 id="坑1把wms当电子台账活该被坑">坑1：把WMS当“电子台账”，活该被坑&lt;/h3>
+&lt;p>很多人选WMS，第一句话：“能管库存就行。”&lt;/p>
+&lt;p>&lt;strong>醒醒吧。&lt;/strong>&lt;/p>
+&lt;p>WMS不是Excel的升级版，不是把纸上的数字搬到电脑里就完事儿了。它是一个&lt;strong>流程引擎&lt;/strong>。&lt;/p>
+&lt;p>举个例子。我们以前拣货，靠老员工“记忆法”——“那个蓝色的箱子在C区第二排”。老员工请假，新人进去就抓瞎。&lt;/p>
+&lt;p>上了WMS后，&lt;strong>系统直接告诉你去哪拿、拿多少、拿完放哪&lt;/strong>。新人上手只要2小时。&lt;/p>
+&lt;p>但如果你不重构流程，&lt;strong>直接把Excel的逻辑导入WMS&lt;/strong>，那叫“新瓶装旧酒”。结果就是：货还是乱，盘点还是对不上，系统反而成了累赘。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先梳理仓库的&lt;strong>标准作业流程&lt;/strong>（SOP）：收货、上架、拣货、发货、盘点。&lt;/li>
+&lt;li>再选WMS，看它能不能&lt;strong>强制你按流程走&lt;/strong>。比如：没扫描条码不能收货，货没放到指定位置不能确认。&lt;/li>
+&lt;li>别买那种“啥都能改”的定制版。&lt;strong>流程一改，系统就废&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;h3 id="坑2上系统不配硬件等于花钱买教训">坑2：上系统不配硬件，等于花钱买教训&lt;/h3>
+&lt;p>“WMS买好了，老铁，仓库是不是就起飞了？”&lt;/p>
+&lt;p>“醒醒，你的PDA呢？条码枪呢？标签纸呢？”&lt;/p>
+&lt;p>我以前的公司，老板为了省1万块，只买了软件，硬件用旧的。结果呢？员工用手机拍照扫码，&lt;strong>反光、对焦慢、容易出错&lt;/strong>。一天下来，人比机器还累。&lt;/p>
+&lt;p>&lt;strong>WMS的灵魂是实时数据&lt;/strong>。入库、出库、移位，每一笔操作都要在&lt;strong>秒级&lt;/strong>内回传。要是硬件拉胯，数据延迟，&lt;strong>系统里显示有货，实际货在哪儿没人知道&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>PDA（手持终端）&lt;/strong>：必买。别省。安卓系统的就行，抗摔、续航长、带激光扫描头。&lt;/li>
+&lt;li>&lt;strong>条码打印机&lt;/strong>：买热敏的，别买针式的。热敏快、噪音小、维护简单。&lt;/li>
+&lt;li>&lt;strong>无线网络&lt;/strong>：仓库里WiFi要覆盖全，&lt;strong>不能有死角&lt;/strong>。建议装5G专用AP（无线接入点）。&lt;/li>
+&lt;li>&lt;strong>货架标签&lt;/strong>：用&lt;strong>二维码&lt;/strong>或RFID（射频识别）。别用普通标签，容易脏、容易掉。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>预算分配建议&lt;/strong>：软件:硬件 = 6:4。硬件别省，省了后期你哭都来不及。&lt;/p>
+&lt;h3 id="坑3上线就不管了等着被库存反噬">坑3：上线就不管了，等着被库存“反噬”&lt;/h3>
+&lt;p>WMS上线第一天，大家都很兴奋。第二天，开始有人抱怨：“系统太慢了”“流程太麻烦了”“不如以前快”。&lt;/p>
+&lt;p>&lt;strong>这时候你要是心软，就完了。&lt;/strong>&lt;/p>
+&lt;p>WMS是&lt;strong>反人性&lt;/strong>的。它不让你凭感觉干活，它要你&lt;strong>每一步都按规定来&lt;/strong>。老员工会觉得“被管着”，不习惯。&lt;/p>
+&lt;p>但你要知道，&lt;strong>习惯是用出来的，不是想出来的&lt;/strong>。&lt;/p>
+&lt;p>我们上线第一个月，发货效率反而降了20%。老板差点把我骂死。但我坚持：&lt;strong>不按系统操作，就不算发货&lt;/strong>。第二个月，效率回升30%；第三个月，效率翻倍。&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>上线后第一个月&lt;/strong>：每天开15分钟复盘会，只解决3个最大的问题。&lt;/li>
+&lt;li>&lt;strong>设立“系统管理员”&lt;/strong>：专人负责培训、答疑、优化配置。别让IT兼着，他不懂业务。&lt;/li>
+&lt;li>&lt;strong>数据监控&lt;/strong>：每天看&lt;strong>盘点准确率、发货及时率、库存周转率&lt;/strong>。这三个指标不达标，说明系统没用好。&lt;/li>
+&lt;li>&lt;strong>别怕员工抱怨&lt;/strong>：90%的抱怨是因为不熟悉。&lt;strong>坚持一星期，他们就会爱上它&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;h3 id="最后说句掏心窝的">最后说句掏心窝的&lt;/h3>
+&lt;p>库存压了500万，不是系统的问题，是人的问题。WMS不是万能药，但它是&lt;strong>你从“凭经验管仓库”到“凭数据管仓库”的跳板&lt;/strong>。&lt;/p>
+&lt;p>月薪5千的采购，靠Excel和微信跟单；月薪5万的采购，靠系统动态调整安全库存。&lt;strong>差的不只是工资，是思维方式&lt;/strong>。&lt;/p>
+&lt;p>如果你现在还在用Excel管仓库，听我一句：&lt;strong>趁早换WMS&lt;/strong>。别等到库存压死现金流了，才后悔。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白：供应链别瞎卷</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</guid><description>&lt;p>&lt;strong>兄弟，你是不是也被“供应链”这三个字给忽悠瘸了？&lt;/strong>&lt;/p>
+&lt;p>去年年底，我盯着仓库里堆成山的货，手机里是财务催款的微信，面前是老板拍桌子的怒吼：“500万的库存！你他妈是开超市还是做供应链？”&lt;/p>
+&lt;p>那一刻我差点以为我要去送外卖了。&lt;/p>
+&lt;p>别笑。你如果干过供应链，一定懂这种&lt;strong>想死的心&lt;/strong>。&lt;/p>
+&lt;p>老板天天喊“降本增效”，业务部天天催“快发货”，财务天天吼“别压钱”。你夹在中间，像个三明治里的火腿片，两头被夹，中间还差点被烤熟。&lt;/p>
+&lt;p>你以为供应链管理是高端大气上档次？是麦肯锡PPT里的“端到端协同”？拉倒吧，现实中就是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>采购&lt;/strong>：供应商说涨价10%，不涨就断供。&lt;/li>
+&lt;li>&lt;strong>仓库&lt;/strong>：爆仓了，货堆到天花板，叉车都开不进去。&lt;/li>
+&lt;li>&lt;strong>销售&lt;/strong>：客户要明天到货，但物流说今天没车了。&lt;/li>
+&lt;li>&lt;strong>老板&lt;/strong>：为什么库存周转率这么低？&lt;/li>
+&lt;/ul>
+&lt;p>今天我不跟你扯什么“VUCA时代”“数字化赋能”这种鬼话。我就说说，&lt;strong>库存压了500万之后，我脑子被开了一枪，才想明白的3个真相。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别特么迷信零库存那是大厂的春药中小厂的毒药">1. 别特么迷信“零库存”，那是大厂的春药，中小厂的毒药&lt;/h3>
+&lt;p>你是不是也听过这种神话：丰田的“Just In Time”，戴尔的“零库存模式”。牛逼吧？优雅吧？你以为你也能学？&lt;/p>
+&lt;p>&lt;strong>醒醒吧兄弟。&lt;/strong>&lt;/p>
+&lt;p>大厂玩零库存，是因为人家有话语权。供应商就住隔壁，随时给你送货。人家现金流充沛，断供一天能扛住。&lt;/p>
+&lt;p>你一个中小厂，供应商离你800公里，物流动不动就停运。你跟人家学零库存？&lt;/p>
+&lt;p>&lt;strong>结果就是：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>某个配件没到，整条产线停工。一天损失几万块。&lt;/li>
+&lt;li>工人闲着没事干，还得发工资。&lt;/li>
+&lt;li>客户订单延期，直接罚款。&lt;/li>
+&lt;/ul>
+&lt;p>我当初就是被“零库存”三个字忽悠瘸了。库存压到历史最低，结果碰上原材料涨价+限电，供应商直接说：“没货，你等着吧。”&lt;/p>
+&lt;p>我等了三天，老板骂了我三天。&lt;/p>
+&lt;p>&lt;strong>真相是什么？&lt;/strong>&lt;/p>
+&lt;p>对于99%的公司，&lt;strong>安全库存就是保命符&lt;/strong>。别听那些专家瞎扯“库存是万恶之源”。没有库存，你连恶的机会都没有。&lt;/p>
+&lt;p>我的经验是：&lt;strong>按“最小订货量+1.5倍安全周期”来备&lt;/strong>。比如你正常卖100件，采购周期是7天，那就备够卖10天的量。别多，也别少。&lt;/p>
+&lt;p>&lt;strong>库存不是魔鬼，没库存才是。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-别把供应商当乙方你跪下求他的时候比追女朋友还卑微">2. 别把供应商当“乙方”，你跪下求他的时候，比追女朋友还卑微&lt;/h3>
+&lt;p>干采购的，是不是觉得自己是甲方？手里握着单子，供应商得求你？&lt;/p>
+&lt;p>&lt;strong>太天真了。&lt;/strong>&lt;/p>
+&lt;p>你去看看你那些核心供应商，哪个不是大爷？你去催货试试：“王总，这批货能不能提前两天？”人家回你一句：“不行，产能排满了。要不你找别家？”&lt;/p>
+&lt;p>你找别家？别家更贵，质量更差，交期更长。&lt;/p>
+&lt;p>&lt;strong>所以，真正的供应链高手，都在做一件事：把供应商变成“自己人”。&lt;/strong>&lt;/p>
+&lt;p>怎么变？不是请他吃饭喝酒洗脚。那是上个世纪的玩法。&lt;/p>
+&lt;p>&lt;strong>3个实操方法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>透明化你的需求&lt;/strong>：别藏着掖着。把你这半年的预测计划，直接甩给供应商。让他提前备料、排产。他稳了，你才能稳。&lt;/li>
+&lt;li>&lt;strong>别压榨到极致&lt;/strong>：很多采购以把价格压到对方没利润为荣。傻X！供应商没利润，要么偷工减料，要么直接不跟你玩了。&lt;strong>留出合理利润，关键时刻他才会帮你。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>建立“救火”机制&lt;/strong>：跟核心供应商签个“应急协议”。平时正常价，紧急时刻加价20%优先供货。别觉得亏，比起断供损失，这20%算个屁。&lt;/li>
+&lt;/ul>
+&lt;p>我现在的做法是：&lt;strong>每年把核心供应商老板请到公司，开个“战略研讨会”。&lt;/strong> 不是吃喝，是真聊业务痛点。他缺资金？我帮他对接银行。他缺订单？我帮他一起做市场预测。&lt;/p>
+&lt;p>&lt;strong>你把供应商当兄弟，他才会在你掉坑里时拉你一把。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别把计划当摆设那是你唯一的救命稻草">3. 别把“计划”当摆设，那是你唯一的救命稻草&lt;/h3>
+&lt;p>“计划赶不上变化”——这是供应链人最爱说的借口。&lt;/p>
+&lt;p>&lt;strong>借口！全是借口！&lt;/strong>&lt;/p>
+&lt;p>变化是常态，但计划是让你在变化中不翻车的底盘。&lt;/p>
+&lt;p>你去看看那些牛逼的供应链，哪个不是&lt;strong>计划做得像打仗&lt;/strong>？销售预测、生产排程、采购到货、物流发运，环环相扣。&lt;/p>
+&lt;p>而你呢？销售说“客户要1000件”，你傻乎乎地备了1000件的料。结果客户临时改口“只要500件”。剩下的500件，压在仓库里，变成一堆废铁。&lt;/p>
+&lt;p>&lt;strong>真相是：计划不是用来“准”的，是用来“纠偏”的。&lt;/strong>&lt;/p>
+&lt;p>怎么做？&lt;strong>两个动作：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“滚动预测”&lt;/strong>：别做“月度计划”这种傻事。做&lt;strong>周滚动&lt;/strong>。比如这周预测下周的，下周再预测下下周的。不断修正，像开车一样，随时微调方向盘。&lt;/li>
+&lt;li>&lt;strong>“产销协同会”&lt;/strong>：每周一次，拉上销售、生产、采购、财务。&lt;strong>谁牛逼谁说话，谁拍脑袋谁滚蛋。&lt;/strong> 销售必须给出预测依据，生产必须报出产能瓶颈。别让供应链一个人扛下所有。&lt;/li>
+&lt;/ul>
+&lt;p>我现在的原则是：&lt;strong>宁可计划多改几次，也别让库存多堆一天。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>最后说一句扎心的：&lt;/strong>&lt;/p>
+&lt;p>供应链管理，本质不是管货，是&lt;strong>管人&lt;/strong>。管老板的预期、管销售的嘴、管供应商的心、管自己的节奏。&lt;/p>
+&lt;p>别卷了，卷不动了。&lt;strong>先活下来，再谈降本增效。&lt;/strong>&lt;/p>
+&lt;p>如果你也曾经或正在被库存、交期、供应商搞到崩溃，&lt;strong>点个赞&lt;/strong>，让我知道我不是一个人在战斗。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p>
+&lt;p>那里有一群天天跟库存、供应商、老板斗智斗勇的“战友”，等你来。&lt;/p></description></item><item><title>库存压了500万才明白：预测不是算命</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-tips/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-tips/</guid><description>&lt;p>你有没有过这种经历？&lt;/p>
+&lt;p>年初拍脑袋定了个销量目标，信心满满地备了一大堆货。结果半年过去，货全压在仓库里，老板天天追着你问：&lt;strong>“库存周转率怎么这么低？”&lt;/strong>&lt;/p>
+&lt;p>你一脸委屈：&lt;strong>“我TM哪知道客户突然不买了？”&lt;/strong>&lt;/p>
+&lt;p>别急，这不是你一个人的问题。干了10年供应链，我见过太多人被需求预测坑得血本无归。今天咱们就聊聊：&lt;strong>预测到底怎么做，才能不把自己玩死？&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-先别学模型先避开这三个坑">1. 先别学模型，先避开这三个坑&lt;/h3>
+&lt;p>很多人一上来就学什么时间序列、机器学习，结果数据一跑，预测还是一团浆糊。为啥？因为&lt;strong>你踩的坑比学的招数多&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>坑1：把预测当成“算命”&lt;/strong>&lt;/p>
+&lt;p>“上个月卖了1000，这个月我猜能卖1200”——这不叫预测，这叫&lt;strong>瞎蒙&lt;/strong>。&lt;/p>
+&lt;p>真正的预测，是基于历史数据+市场信号+合理假设，&lt;strong>算出来的概率&lt;/strong>。不是靠拍脑袋，而是靠&lt;strong>算概率&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>坑2：只看总量，不看结构&lt;/strong>&lt;/p>
+&lt;p>“我们整体预测准确率80%”——听着挺牛逼是吧？结果拆开一看：A类爆款预测准确率95%，B类长尾产品预测准确率30%。你80%的平均值，&lt;strong>掩盖了真正的风险&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>坑3：预测完就完了，没有复盘&lt;/strong>&lt;/p>
+&lt;p>这是最致命的。很多公司预测是一锤子买卖：上个月预测完，这个月卖完，&lt;strong>从来没人问“为什么准/为什么不准”&lt;/strong>。没有复盘，你永远在同一个坑里反复摔。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-五个落地技巧把预测准确率拉到80">2. 五个落地技巧，把预测准确率拉到80%&lt;/h3>
+&lt;p>好，既然坑都踩了，咱们怎么爬出来？直接上干货。&lt;/p>
+&lt;p>&lt;strong>技巧1：先分类，再预测&lt;/strong>&lt;/p>
+&lt;p>别一上来就对所有产品用同一套方法。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类爆款&lt;/strong>（销量前20%）：用时间序列+市场趋势，按月预测&lt;/li>
+&lt;li>&lt;strong>B类常规品&lt;/strong>（中间60%）：用移动平均法，按周预测&lt;/li>
+&lt;li>&lt;strong>C类长尾品&lt;/strong>（最后20%）：直接按历史平均值，或者&lt;strong>直接按库存消耗速度补货&lt;/strong>，别费劲预测了&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：80%的精力花在A类产品上，剩下的20%够用就行。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>技巧2：用“库存天数”代替“库存金额”&lt;/strong>&lt;/p>
+&lt;p>老板问你“库存多少”，你回答“500万”。老板一脸懵逼：&lt;strong>“这是多了还是少了？”&lt;/strong>&lt;/p>
+&lt;p>换成“库存天数”呢？你说“按当前销售速度，够卖45天”。老板一听就懂：&lt;strong>“正常周转是30天，45天说明多了15天的货。”&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>把预测结果转化成业务语言，老板才会重视你。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>技巧3：学会用“滚动预测”&lt;/strong>&lt;/p>
+&lt;p>别一年只做一次预测。&lt;strong>每个月更新一次未来三个月的预测&lt;/strong>，基于真实销售数据+市场变化。&lt;/p>
+&lt;p>比如：你1月份预测Q1卖10万件。到了2月份，发现1月实际只卖了2万件，那你就得把Q1预测调低到8万件。&lt;strong>这叫“纠偏”，不是“打脸”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>技巧4：引入“误差容忍度”&lt;/strong>&lt;/p>
+&lt;p>预测永远不可能100%准。所以你要&lt;strong>提前告诉老板&lt;/strong>：“我预测下个月卖1000件，误差范围±20%。”&lt;/p>
+&lt;p>这意味着，你最多备1200件的货，最低备800件的货。&lt;strong>超出这个范围，不是预测的问题，是市场出了幺蛾子。&lt;/strong>&lt;/p>
+&lt;p>这样老板就不会因为你多备了200件货，就骂你预测不准。&lt;/p>
+&lt;p>&lt;strong>技巧5：用“交叉验证”防止拍脑袋&lt;/strong>&lt;/p>
+&lt;p>一个人预测容易偏，两个人预测容易吵。怎么办？&lt;/p>
+&lt;p>&lt;strong>让销售、市场、供应链三方各自做一版预测，然后开会对比。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>销售说：下个月能卖2000件&lt;/li>
+&lt;li>市场说：我们搞活动，能卖2500件&lt;/li>
+&lt;li>供应链说：根据历史数据，最多卖1800件&lt;/li>
+&lt;/ul>
+&lt;p>取三个数的中位数，或者加权平均，&lt;strong>比任何一个人拍脑袋都准。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-从事后解释到事前预防">3. 从“事后解释”到“事前预防”&lt;/h3>
+&lt;p>很多公司做预测，本质上是在&lt;strong>给失误找理由&lt;/strong>。&lt;/p>
+&lt;p>“上个月预测不准，因为台风来了，货没到货。”——这叫事后解释。&lt;/p>
+&lt;p>真正的预测高手，做的是&lt;strong>事前预防&lt;/strong>。&lt;/p>
+&lt;p>比如，你知道每年6月是雨季，那就提前在5月把货备好。你知道国庆节是销售旺季，那就提前在8月下订单。&lt;/p>
+&lt;p>&lt;strong>预测的本质，不是猜未来，而是管理不确定性。&lt;/strong>&lt;/p>
+&lt;p>你没法控制天气、政策、竞品，但你可以控制自己的备货节奏、订单时间、安全库存。&lt;/p>
+&lt;p>&lt;strong>把不确定性转化为确定性动作，这才是预测的价值。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>做预测，别把它当成一个技术活，也别当成一个玄学活。&lt;/p>
+&lt;p>它是一个&lt;strong>管理活&lt;/strong>——管你的数据、管你的流程、管你的库存。&lt;/p>
+&lt;p>最后送你一句话：&lt;strong>预测从来不是为了猜对，而是为了让你在猜错时，损失最小。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货～&lt;/p></description></item><item><title>月薪5千和5万的供应链人，差在“黑箱”破了没</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</guid><description>&lt;p>&lt;strong>兄弟，你还在“盲人摸象”吗？&lt;/strong>&lt;/p>
+&lt;p>凌晨2点，你被电话吵醒。&lt;/p>
+&lt;p>“那批货卡在海关了，客户说再不到就取消订单，Q3的KPI要完蛋。”&lt;/p>
+&lt;p>你翻身打开系统，界面一片空白。你只知道货“在路上”，但具体在哪个码头、哪个柜子、哪个环节卡住了？不知道。&lt;/p>
+&lt;p>你开始疯狂打电话：问货代、问报关行、问司机……最后发现，是系统没更新，货其实早到了。&lt;/p>
+&lt;p>&lt;strong>这不是段子。&lt;/strong> 这可能是你，是我，是80%供应链人的日常。&lt;/p>
+&lt;p>你月薪5千，因为你是个“消防员”，天天救火。你月薪5万，因为你是个“操盘手”，火还没着，你就把火柴扔了。&lt;/p>
+&lt;p>&lt;strong>差距在哪？就三个字：可视化。&lt;/strong>&lt;/p>
+&lt;p>别觉得这是高大上的黑话。说人话就是：&lt;strong>你能不能像看抖音直播一样，看你的货？&lt;/strong>&lt;/p>
+&lt;p>今天，我就把这块“黑箱”给你砸了。不讲PPT，不画饼，全是扎心的大实话。&lt;/p>
+&lt;h3 id="1-别让老板问你货呢你得自己先知道货在哪">1. 别让老板问你“货呢”，你得自己先知道“货在哪”&lt;/h3>
+&lt;p>我见过太多供应链人，最怕老板问：“我们的库存周转率为什么这么低？”&lt;/p>
+&lt;p>你支支吾吾，说“生产延误了”“物流堵车了”“销售预测不准”。老板看你的眼神，像看一个骗子。&lt;/p>
+&lt;p>&lt;strong>真相是什么？&lt;/strong> 不是你不知道，是你根本&lt;strong>没有数据&lt;/strong>。&lt;/p>
+&lt;p>可视化第一步，不是什么高大上的AI大屏。是&lt;strong>把异常暴露在阳光下&lt;/strong>。&lt;/p>
+&lt;p>打个比方，你追女朋友，你只知道她“在忙”，但你不知道她在加班、在打游戏、还是在跟别人约会。你心里没底，就会焦虑，就会瞎猜。&lt;/p>
+&lt;p>货也一样。&lt;/p>
+&lt;p>你只知道“在途”，但你不知道：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>它到底在哪个仓库趴着？&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>是不是被某个小物流商偷偷拼车了？&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>报关资料有没有差一个章？&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 别跟我扯什么上SAP、上WMS。对小公司、小团队来说，最简单粗暴的办法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>用共享表格：&lt;/strong> 每天下班前，让每个环节的人填一个“红绿灯”。绿灯正常，黄灯预警，红灯立刻拉群。&lt;/li>
+&lt;li>&lt;strong>用公共物流平台：&lt;/strong> 货代、快递、物流商API一接，手机就能看轨迹。&lt;/li>
+&lt;li>&lt;strong>关键节点设“报警器”：&lt;/strong> 比如，货从A仓库出发，超过24小时没到B仓库，自动弹消息。&lt;/li>
+&lt;/ul>
+&lt;p>你不需要100%的实时，你需要的是&lt;strong>80%的确定性&lt;/strong>。剩下的20%，靠人盯。&lt;/p>
+&lt;p>&lt;strong>记住：&lt;/strong> 可视化不是让你“看”，是让你“管”。你能管到什么程度，取决于你能看到什么程度。&lt;/p>
+&lt;h3 id="2-别当数据搬运工要做数据翻译官">2. 别当“数据搬运工”，要做“数据翻译官”&lt;/h3>
+&lt;p>很多供应链人，一提到可视化，就开始搞“大屏”。&lt;/p>
+&lt;p>老板面前放个70寸电视，上面红红绿绿，各种曲线，看着很牛X。但老板问你：“这个库存水位为什么从绿色变黄色了？”&lt;/p>
+&lt;p>你答不上来。因为你只是把数据从系统里“搬”到了屏幕上。&lt;/p>
+&lt;p>&lt;strong>这不叫可视化，这叫“数据搬运工”。&lt;/strong> 月薪5千的那种。&lt;/p>
+&lt;p>月薪5万的人，会怎么做？&lt;/p>
+&lt;p>他会&lt;strong>把数据翻译成“人话”&lt;/strong>。&lt;/p>
+&lt;p>比如：&lt;/p>
+&lt;ul>
+&lt;li>绿色库存 -&amp;gt; &lt;strong>“安全，正常发货”&lt;/strong>&lt;/li>
+&lt;li>黄色库存 -&amp;gt; &lt;strong>“预警，采购计划得提前3天”&lt;/strong>&lt;/li>
+&lt;li>红色库存 -&amp;gt; &lt;strong>“危险，赶紧找替代供应商，或者跟客户协商延期”&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>你看，他不是在展示数据，他是在&lt;strong>展示决策&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>再举个例子：&lt;/strong>&lt;/p>
+&lt;p>你老板问你：“最近物流成本怎么涨了10%？”&lt;/p>
+&lt;p>你：“因为油价涨了，运费高了。”（废话）&lt;/p>
+&lt;p>月薪5万的人：“因为&lt;strong>长三角&lt;/strong>到&lt;strong>珠三角&lt;/strong>的整车线路，&lt;strong>天天不满载&lt;/strong>。原因是销售部最近&lt;strong>接了很多小单&lt;/strong>，导致我们不得不发零担。我建议：（1）跟销售部拉通，小单合并发货周期；（2）或者找一家能拼车的区域物流商。”&lt;/p>
+&lt;p>看到了吗？他看到了&lt;strong>根本原因&lt;/strong>、&lt;strong>关联关系&lt;/strong>、&lt;strong>解决方案&lt;/strong>。&lt;/p>
+&lt;p>所以，别只看“库存金额”，要看到“库存周转天数”；别只看“订单满足率”，要看到“缺货的SKU是哪些、因为什么缺”；别只看“物流时效”，要看到“哪个环节的延误最坑”。&lt;/p>
+&lt;p>&lt;strong>总结一句：&lt;/strong> 可视化，是让你&lt;strong>从“看数据”变成“看生意”&lt;/strong>。你懂生意，老板才给你加薪。&lt;/p>
+&lt;h3 id="3-别想着一步登天先搞定一个点">3. 别想着一步登天，先搞定“一个点”&lt;/h3>
+&lt;p>我知道，很多兄弟一听到“可视化”，就头大。&lt;/p>
+&lt;p>“要上系统吧？要花钱吧？要IT支持吧？老板不会批的。”&lt;/p>
+&lt;p>&lt;strong>打住！&lt;/strong> 别自己吓自己。&lt;/p>
+&lt;p>你不需要一开始就搞全链路可视化，那玩意儿是大厂玩的。你先搞定&lt;strong>最痛的那个点&lt;/strong>。&lt;/p></description></item><item><title>库存积压500万，才搞懂WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</guid><description>&lt;p>兄弟，你仓库是不是也这样？&lt;/p>
 &lt;p>账上库存还有1000件，找货发现只有800件。客户催单，你翻遍货架，最后发现那200件压在角落里吃灰。盘点？呵，一盘点就发现差几十万，财务追着你问，你只能尴尬说“系统数据有延迟”。&lt;/p>
 &lt;p>我见过一个老板，干了5年电商，账面库存3000万，实际能卖的只有2500万。那500万去哪了？被过期、损坏、错放、丢失，硬生生“吃”掉了。他后来跟我说：“&lt;strong>早知道WMS这3个坑，我能省下500万&lt;/strong>。”&lt;/p>
 &lt;p>WMS（仓库管理系统）听起来高大上，但90%的企业用成了“摆设”。今天不扯概念，就聊聊我踩过的坑，和帮你省钱的3条铁律。&lt;/p>
