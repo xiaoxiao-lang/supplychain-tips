@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98/</link><description>Recent content in 库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库KPI看这5个就够了，别被忽悠瘸了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</guid><description>&lt;p>兄弟，你是不是也这样？&lt;/p>
+&lt;p>月初开会，老板拿着一张Excel甩你脸上：“仓库KPI怎么又红了？库存周转率、准确率、成本率……你到底在管啥？”&lt;/p>
+&lt;p>你心里一万句MMP：“我特么每天搬箱子、盘点、发快递，忙得跟狗一样，你给我看这些虚头巴脑的数字？”&lt;/p>
+&lt;p>别急。&lt;/p>
+&lt;p>我干仓库这行十年了，从月薪5千的小仓管熬到月薪5万的供应链总监。踩过的坑比你吃过的盐还多。今天我就把话撂这：&lt;strong>仓库KPI，看这5个就够了。多了是扯淡，少了是送死。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>别信那些网上吹得天花乱坠的“全维度指标体系”，那是给咨询公司送钱的。咱打工的，只关心一件事：怎么让老板闭嘴，怎么让自己少背锅。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-库存准确率你的命根子">1. 库存准确率：你的“命根子”&lt;/h3>
+&lt;p>&lt;strong>老板最爱问：“库存到底准不准？”&lt;/strong> 这问题一出，你后背发凉。&lt;/p>
+&lt;p>为什么？因为库存不准，后面全崩。采购多下单，销售瞎承诺，财务对不上账，最后全赖你。你冤不冤？冤！但谁让你数据烂呢？&lt;/p>
+&lt;p>&lt;strong>库存准确率 = 盘点正确的SKU数 ÷ 总SKU数 × 100%&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>别盯着99.9%吹牛逼。&lt;/strong> 你仓库有1万个SKU，错1个就是99.99%，但那个错的可能值100万。所以，&lt;strong>别只看比率，要看绝对值。&lt;/strong> 每周抽盘，重点盯着高价、高流转、易出错的SKU。错了就复盘，是货位乱了？还是系统没更新？别只会骂人。&lt;/p>
+&lt;p>&lt;strong>实操建议：&lt;/strong> 搞个“日清日结”，每天下班前把当天变动过的库存过一遍，哪怕花10分钟。3个月后，准确率不到99.5%你来找我。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-库存周转率老板的兴奋剂你的催命符">2. 库存周转率：老板的“兴奋剂”，你的“催命符”&lt;/h3>
+&lt;p>老板为什么老盯着周转率？因为&lt;strong>库存压着钱&lt;/strong>。钱躺在仓库里，就是死钱。周转率高了，说明钱转得快，现金流好，老板就能多开一家店、多发点奖金（画饼专用）。&lt;/p>
+&lt;p>&lt;strong>库存周转率 = 销售成本 ÷ 平均库存&lt;/strong>&lt;/p>
+&lt;p>这公式看着简单，但坑在哪？&lt;strong>平均库存怎么算？&lt;/strong> 有人用 (期初+期末)/2，有人用12个月平均。&lt;strong>你跟老板要对齐口径。&lt;/strong> 别自己瞎算，回头老板说“你算低了，再加把劲”，你哭都来不及。&lt;/p>
+&lt;p>&lt;strong>扎心真相：&lt;/strong> 周转率不是越高越好。你拼命压库存，结果断货了，销售骂你“废物”。&lt;strong>找到那个平衡点，才是真本事。&lt;/strong> 比如，快消品周转率7-12次/年，重工设备可能就1-2次。别拿自己短板跟别人长板比。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-订单履行率客户的满意度你的kpi底线">3. 订单履行率：客户的“满意度”，你的“KPI底线”&lt;/h3>
+&lt;p>这指标说白了就是：&lt;strong>客户要的东西，你发没发出去？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>订单履行率 = 按时按量发货的订单数 ÷ 总订单数 × 100%&lt;/strong>&lt;/p>
+&lt;p>别小看它。&lt;strong>这是你和销售之间最硬的“通行证”。&lt;/strong> 销售在外拼命签单，结果你发不出货，客户投诉，销售回来骂你“饭桶”。你冤不冤？但谁让你库存不准、拣货太慢？&lt;/p>
+&lt;p>&lt;strong>血泪教训：&lt;/strong> 别把“订单履行率”当平均数。&lt;strong>你要拆着看：&lt;/strong> 比如，A类客户（大客户大单）必须100%履行，B类客户98%，C类客户95%。&lt;strong>把有限的资源，花在最赚钱的客户身上。&lt;/strong> 别傻乎乎地一视同仁，最后两边不讨好。&lt;/p>
+&lt;p>&lt;strong>一句话总结：&lt;/strong> 订单履行率低于95%，别跟我谈什么精细化管理，先解决基础问题。&lt;/p>
+&lt;hr>
+&lt;h3 id="4-人效老板的算盘你的护身符">4. 人效：老板的“算盘”，你的“护身符”&lt;/h3>
+&lt;p>老板最烦什么？&lt;strong>“为什么人这么多，效率还这么低？”&lt;/strong>&lt;/p>
+&lt;p>所以，你得拿数据告诉他：&lt;strong>我的人，没闲着。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>人效 = 总拣货物件数（或总订单数） ÷ 总工时&lt;/strong>&lt;/p>
+&lt;p>别只算总人数。&lt;strong>你要算“有效工时”。&lt;/strong> 很多人上班8小时，真正干活可能就4小时。剩下的时间在摸鱼、等单、找货。你要做的是：&lt;strong>减少等待，减少无效动作。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>实战技巧：&lt;/strong> 引入“波次拣货”或者“分区拣货”，把路线优化了。或者搞个“拣货排行榜”，谁今天拣得最多，发个小红包。&lt;strong>别搞虚的，就搞钱。&lt;/strong> 员工开心，老板看到数字也开心。&lt;/p></description></item></channel></rss>

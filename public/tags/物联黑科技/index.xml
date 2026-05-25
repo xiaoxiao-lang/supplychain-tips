@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物联黑科技 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E9%BB%91%E7%A7%91%E6%8A%80/</link><description>Recent content in 物联黑科技 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E9%BB%91%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml"/><item><title>库存对不上？你缺的不是人，是这3个RFID骚操作</title><link>https://supplychain-tips.pages.dev/posts/rfid-inventory-tips/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-inventory-tips/</guid><description>&lt;p>&lt;strong>兄弟，你还在为库存对不上而熬夜？&lt;/strong>&lt;/p>
+&lt;p>上周一个做电商的朋友半夜给我发微信，说他仓库又炸了。&lt;/p>
+&lt;p>盘点三天，账实差异率8%。老板拍桌子，他差点拍自己。&lt;/p>
+&lt;p>“我加了两个人，换了两套系统，还搞了半年绩效考核，结果这破库存该乱还是乱。你说我是不是该把仓库一把火烧了？”&lt;/p>
+&lt;p>我回他：“你缺的不是人，你缺的是RFID。”&lt;/p>
+&lt;p>他愣了半天：“啥玩意儿？射频识别？那不是超市防盗门上的东西吗？”&lt;/p>
+&lt;p>看吧，这就是问题。&lt;/p>
+&lt;p>&lt;strong>很多人以为RFID=智能标签+贵+大厂专属。&lt;/strong> 大错特错。&lt;/p>
+&lt;p>今天我就用3个真实案例，告诉你RFID到底怎么帮你把库存误差从10%干到0.5%，顺便还能省掉一个盘点员的工资。&lt;/p>
+&lt;p>别急着划走，看完你会发现：这玩意儿比你想象中便宜，效果比你想象中猛。&lt;/p>
+&lt;hr>
+&lt;h3 id="01-别把rfid当高科技它就是你的数字眼线">01 别把RFID当“高科技”，它就是你的数字眼线&lt;/h3>
+&lt;p>先说人话。&lt;/p>
+&lt;p>RFID就是个&lt;strong>不插电、不用对准、能隔空读数据的标签&lt;/strong>。&lt;/p>
+&lt;p>你拿扫码枪，得一个一个对准条码，累死。RFID呢？一个读写器，一秒钟扫几百个，隔着一米多远的箱子也能读。&lt;/p>
+&lt;p>&lt;strong>它不挑姿势，不挑距离，不挑光线。&lt;/strong>&lt;/p>
+&lt;p>说白了，传统库存管理靠人眼+手动。RFID靠&lt;strong>电磁波+自动批量&lt;/strong>。&lt;/p>
+&lt;p>你说哪个更靠谱？&lt;/p>
+&lt;p>我见过太多仓库：条码被磨花了、贴歪了、被胶带缠住了。扫码枪扫半天扫不出来，员工直接“人工录入”——然后数据就飞了。&lt;/p>
+&lt;p>&lt;strong>RFID不存在这个问题。&lt;/strong> 只要芯片没物理损坏，隔着纸箱、塑料膜、木托盘都能读。&lt;/p>
+&lt;p>所以，别再觉得RFID是啥高精尖。它就是给你每个货配了个“永不掉线的智能眼线”。&lt;/p>
+&lt;hr>
+&lt;h3 id="02-真实案例3000万的库存一个仓库主管如何用rfid翻盘">02 真实案例：3000万的库存，一个仓库主管如何用RFID翻盘&lt;/h3>
+&lt;p>有个做汽配零件的朋友，仓库里SKU超过8000个，库存金额3000多万。&lt;/p>
+&lt;p>以前怎么做盘点？&lt;/p>
+&lt;p>&lt;strong>每月一次全盘，10个人，干3天。&lt;/strong> 累成狗不说，每次盘完差异率8%-12%。老板问怎么回事，他说“正常损耗”。老板说“你正常个屁”。&lt;/p>
+&lt;p>后来他干了三件事，就靠RFID。&lt;/p>
+&lt;p>&lt;strong>第一件事：在货架和托盘上贴RFID标签。&lt;/strong>&lt;/p>
+&lt;p>不是每个商品贴，是按“库位+批次”贴。一个托盘一个标签，里面放啥、放多少，系统里一绑就行。&lt;/p>
+&lt;p>&lt;strong>第二件事：在叉车上装读写器。&lt;/strong>&lt;/p>
+&lt;p>叉车每次取货、放货，读写器自动扫描标签。系统实时更新库存位置和数量。&lt;/p>
+&lt;p>&lt;strong>第三件事：门口装固定读写器。&lt;/strong>&lt;/p>
+&lt;p>货物进出库，不用停车、不用掏单子，直接开过去，系统自动生成出入库记录。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>盘点时间从3天变成3小时——你没看错。&lt;/strong> 差异率从8%降到0.5%以下。那个仓库主管今年年终奖翻倍，还升了总监。&lt;/p>
+&lt;p>他跟我喝酒时说：“以前我觉得管理库存靠人盯人，现在我发现，靠科技流氓。”&lt;/p>
+&lt;hr>
+&lt;h3 id="03-避坑指南为什么有人花了20万效果还不如扫码枪">03 避坑指南：为什么有人花了20万，效果还不如扫码枪？&lt;/h3>
+&lt;p>RFID是好东西，但我也见过翻车的。&lt;/p>
+&lt;p>有个工厂老板，听人说RFID能降本增效，一激动买了20万的设备。结果上了以后，&lt;strong>数据乱飞，误读率30%，员工骂娘，最后又换回扫码枪。&lt;/strong>&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>&lt;strong>三个坑，你千万别踩。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>坑1：标签贴错了位置&lt;/strong>&lt;/p>
+&lt;p>RFID怕金属、怕水。你把标签直接贴在金属货架上，或者冷冻库里的塑料袋上，信号直接衰减80%。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 金属表面用&lt;strong>抗金属标签&lt;/strong>，液体或冷冻品用&lt;strong>特殊封装标签&lt;/strong>。别省那几毛钱。&lt;/p>
+&lt;p>&lt;strong>坑2：读写器选低了&lt;/strong>&lt;/p>
+&lt;p>便宜的读写器，读取距离短、抗干扰差。仓库里叉车、电机、手机一堆电磁干扰，便宜货直接罢工。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 选工业级读写器，功率可调，频率稳定。别图便宜买家用级玩具。&lt;/p>
+&lt;p>&lt;strong>坑3：系统没打通&lt;/strong>&lt;/p>
+&lt;p>RFID只是采集数据，真正管用的是&lt;strong>后台系统&lt;/strong>。你采了数据，但WMS（仓库管理系统）不支持，或者接口没开发好，数据就是死数据。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 上RFID之前，先确认你的系统能对接。别买完设备才发现，数据得手动导出再导入——那还不如扫码枪。&lt;/p>
+&lt;hr>
+&lt;h3 id="04-不是大厂才配用小老板也能玩得起">04 不是大厂才配用，小老板也能玩得起&lt;/h3>
+&lt;p>很多人觉得RFID是“世界500强专属”。&lt;/p>
+&lt;p>&lt;strong>错。&lt;/strong>&lt;/p>
+&lt;p>现在一个无源RFID标签，批量采购成本才&lt;strong>3-5毛钱&lt;/strong>。读写器便宜的几百块，好点的两三千。一套基础的RFID出入库系统，几千块就能搞定。&lt;/p>
+&lt;p>&lt;strong>算笔账：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>你仓库一年盘点人工成本：10人×3天×200元/天=6000元（每月）&lt;/li>
+&lt;li>一年就是7万多&lt;/li>
+&lt;li>加上误差导致的丢货、错货、补货成本，随便10万+&lt;/li>
+&lt;li>一套RFID系统，投入2-3万，一年回本&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这不香？&lt;/strong>&lt;/p>
+&lt;p>而且现在很多SaaS（软件即服务）系统，按月付费，不用一次性掏大钱。你连买个软件都分期，RFID也可以。&lt;/p></description></item></channel></rss>

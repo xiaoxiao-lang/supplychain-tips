@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>末端配送 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%9C%AB%E7%AB%AF%E9%85%8D%E9%80%81/</link><description>Recent content in 末端配送 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%9C%AB%E7%AB%AF%E9%85%8D%E9%80%81/index.xml" rel="self" type="application/rss+xml"/><item><title>最后一公里，正在吃掉你的利润</title><link>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</guid><description>&lt;p>兄弟，你算过没有？&lt;/p>
+&lt;p>你公司每发一单货，光是&lt;strong>最后一公里&lt;/strong>，可能就吃掉你20%-50%的利润。&lt;/p>
+&lt;p>别不信。看看你屏幕右下角那个物流费用报表，再想想最近客服群里那些“怎么还没到”的咆哮。&lt;/p>
+&lt;p>&lt;strong>最后一公里&lt;/strong>，这个听起来像“就差最后一步”的东西，实际上是个&lt;strong>无底洞&lt;/strong>。它不生产利润，只负责吞噬。&lt;/p>
+&lt;p>今天不扯学术定义，不聊“智慧物流”PPT。咱们就聊点干的、疼的、能落地的。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-为什么说最后一公里是利润黑洞">1. 为什么说最后一公里是“利润黑洞”？&lt;/h3>
+&lt;p>你以为是送货上门？错了。&lt;/p>
+&lt;p>&lt;strong>是成本、是时效、是用户体验，更是你那随时可能崩盘的利润率。&lt;/strong>&lt;/p>
+&lt;p>我给你拆解一下，这钱是怎么没的：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>人力成本：&lt;/strong> 快递小哥的单价越来越低，但人越来越难招。一个片区一天派200件，每件赚8毛，还要赔笑脸、扛投诉、应付保安。&lt;strong>人工费，是所有成本里最刚性的，你压不下去。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>车辆空驶：&lt;/strong> 你的车从仓库装满出发，但送完这一波，它得空车回来，或者满城找下一波货。&lt;strong>空驶率平均30%-40%，这烧的不是油，是纯利润。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>二次投递：&lt;/strong> 客户不在家、电话打不通、放快递柜超时被收费……&lt;strong>一次没送成，下次还得再跑一趟。&lt;/strong> 数据说二次投递成本占末端配送的15%以上。&lt;/li>
+&lt;li>&lt;strong>逆向退货：&lt;/strong> 电商狂欢节后，退货率高达30%。&lt;strong>退货的物流成本，是正向配送的2-3倍。&lt;/strong> 你卖货赚的钱，有一半在退货路上烧掉了。&lt;/li>
+&lt;li>&lt;strong>投诉与罚款：&lt;/strong> 客户说“快递员态度差”，平台扣你100。客户说“外包装破损”，你赔200。&lt;strong>这些隐性成本，最后都会算到你头上来。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>说白了，&lt;strong>最后一公里不是“送”，而是“填坑”&lt;/strong>。填人力的坑、填效率的坑、填客户情绪的坑。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-那些年我们踩过的5个坑">2. 那些年我们踩过的5个坑&lt;/h3>
+&lt;p>我见过太多人，一上来就学大厂搞“无人配送车”、“无人机”、“前置仓”。兄弟，你先别急。&lt;/p>
+&lt;p>&lt;strong>月薪5千的物流人看趋势，月薪5万的物流人看成本。&lt;/strong> 先看看你有没有踩过这些坑：&lt;/p>
+&lt;p>&lt;strong>坑1：盲目追求“当日达”&lt;/strong>
+你为了满足老板的KPI，或者为了抢一个客户，承诺“上午下单，下午送到”。结果呢？&lt;strong>为了那20%的急单，你需要养一批冗余运力，80%的时间在闲置。&lt;/strong> 成本直接翻倍，你扛得住吗？&lt;/p>
+&lt;p>&lt;strong>坑2：把所有鸡蛋放一个篮子&lt;/strong>
+只跟一家快递公司合作。它涨价你只能认，它爆仓你只能等。&lt;strong>单一供应商，等于把你的命交到别人手里。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>坑3：忽略“最后100米”&lt;/strong>
+你只盯着“从网点到客户家”这段路，却忽略了&lt;strong>小区不让进、写字楼要排队、客户要求放门口&lt;/strong>这些“最后100米”的细节。一个保安拦路，可能让你的配送员多花20分钟。&lt;/p>
+&lt;p>&lt;strong>坑4：用“人肉”对抗“数据”&lt;/strong>
+客户地址是手写的，快递员靠脑子记路，调度靠人工打电话。&lt;strong>没有数据系统，你永远不知道哪条路线最省油，哪个时间段最堵，哪个客户最爱投诉。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>坑5：只算“显性成本”，不算“隐性成本”&lt;/strong>
+你只盯着运费、人工、车辆折旧。但&lt;strong>你算过没？因为配送延迟导致的客户流失成本？因为包裹破损导致的品牌信任成本？&lt;/strong> 这些才是真正的“大钱”。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-怎么把被吃掉的钱抢回来">3. 怎么把被吃掉的钱抢回来？&lt;/h3>
+&lt;p>别怕，坑踩完了，该上干货了。&lt;/p>
+&lt;p>&lt;strong>第一招：用“动态定价”替代“一口价”&lt;/strong>
+别对所有客户都收一样的配送费。&lt;strong>对时效敏感、愿意多付钱的客户（比如白领、妈妈群），收高价做“极速达”。&lt;/strong> 对价格敏感、不着急的客户（比如学生、囤货党），收低价做“定时达”或“自提”。&lt;strong>把运力卖给愿意出高价的人，这才是商业逻辑。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第二招：把“人”换成“算法”&lt;/strong>
+别让你的快递员凭经验跑。&lt;strong>上一套路径优化系统&lt;/strong>（便宜的几千块就有）。它告诉你：先送A路再送B路，能省20分钟；避开那个学校门口，能省15分钟。&lt;strong>一单省5毛，一天几千单，你算算。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第三招：把“最后一公里”变成“最后一米”&lt;/strong>
+&lt;strong>搞定物业、保安、快递柜。&lt;/strong> 跟小区物业谈“快递驿站”，跟写字楼谈“集中代收点”，跟便利店谈“合作代贴”。&lt;strong>把跟人打交道的事，变成跟规则打交道的事。&lt;/strong> 你的快递员就不用跟保安吵架了。&lt;/p>
+&lt;p>&lt;strong>第四招：用“共配”模式分摊成本&lt;/strong>
+如果你不是巨头，别自己建配送队。&lt;strong>加入“区域共配”平台&lt;/strong>，跟附近几个小商家、小快递公司拼车、拼人、拼网点。&lt;strong>一辆车送10家店的货，成本平摊，比你单独养一辆车便宜一半。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第五招：把“退货”变成“逆向供应链”&lt;/strong>
+别把退货当麻烦，把它当机会。&lt;strong>设计一个“上门取件+换货”的闭环。&lt;/strong> 客户要退一个，你顺便带一个新商品给他。&lt;strong>把退货的物流成本，变成下一次销售的获客成本。&lt;/strong> 这需要你打通系统，但值得。&lt;/p>
+&lt;hr>
+&lt;h3 id="4-未来3年活下去的关键">4. 未来3年，活下去的关键&lt;/h3>
+&lt;p>别想着靠最后一公里发财。&lt;strong>它本来就是微利甚至亏损的。&lt;/strong>&lt;/p>
+&lt;p>你要做的，不是把最后一公里做“好”，而是把它做“薄”。&lt;/p>
+&lt;p>&lt;strong>薄到成本结构能支撑你活下去，薄到客户体验不成为你增长的瓶颈。&lt;/strong>&lt;/p>
+&lt;p>那些天天喊着“极致体验”的公司，要么是互联网巨头烧钱养着，要么是还没算清楚账。&lt;/p>
+&lt;p>&lt;strong>在供应链里，活下来的不是最聪明的，而是对成本最敏感的。&lt;/strong>&lt;/p>
+&lt;p>记住，&lt;strong>最后一公里的本质，不是“送”，而是“算”。&lt;/strong> 算清楚每单的边际成本，算清楚每个客户的真实价值，算清楚每一次配送的隐性代价。&lt;/p>
+&lt;p>当你开始算这些数字，你会发现，&lt;strong>那些被吃掉的钱，其实都藏在你看不见的“效率”里。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

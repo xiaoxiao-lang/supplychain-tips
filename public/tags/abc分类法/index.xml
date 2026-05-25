@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ABC分类法 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/</link><description>Recent content in ABC分类法 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：ABC分类法就是骗人的</title><link>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</guid><description>&lt;p>你有没有过这种崩溃时刻？&lt;/p>
+&lt;p>库房里堆满了SKU，老板天天催你清库存，你拿着ABC分类法，吭哧吭哧把A类商品管得死死的，结果月底一算账，利润还是负数。&lt;/p>
+&lt;p>更扎心的是，隔壁部门那个月薪5万的总监，人家啥都不管，就盯着几个单品，库存周转率比你高一倍。&lt;/p>
+&lt;p>你问他秘诀？他笑笑说：“ABC？那是给新手挖的坑。”&lt;/p>
+&lt;p>别不服。我干了10年供应链，踩过500万库存的坑，今天就把这3个反常识的真相摊开讲。&lt;strong>保你看完想删掉Excel里的ABC表格。&lt;/strong>&lt;/p>
+&lt;h3 id="1-你以为a类是亲儿子其实是吸血鬼">1. 你以为A类是亲儿子？其实是吸血鬼&lt;/h3>
+&lt;p>先问个灵魂问题：&lt;strong>你凭什么说A类是重要的？&lt;/strong>&lt;/p>
+&lt;p>按ABC分类法的标准动作，销售额占比70%的SKU就是A类，要重点监控、严控库存、频繁盘点。&lt;/p>
+&lt;p>听起来没毛病对吧？但现实是——&lt;strong>A类商品往往是利润最低的“流量款”。&lt;/strong>&lt;/p>
+&lt;p>举个例子。你卖手机壳，A类单品是那个19.9元的爆款，月销10万件，占销售额60%。但你算过毛利吗？进货价18元，加上运费、包装、平台抽成，卖一个亏0.5元。这就是典型的“赔本赚吆喝”。&lt;/p>
+&lt;p>而C类商品呢？一个定制手机壳卖199元，月销100件，毛利60%。利润是A类爆款的&lt;strong>120倍&lt;/strong>。&lt;/p>
+&lt;p>你用ABC分类法，把所有资源砸在A类上——拼命压库存、申请促销、跟供应商死磕交期。结果呢？越管越亏，因为你管的是“虚假繁荣”。&lt;/p>
+&lt;p>&lt;strong>真相：ABC用销售额或库存金额做权重，但利润才是亲爹。&lt;/strong>&lt;/p>
+&lt;p>所以，别一头扎进ABC的坑。第一步，把“销售额”换成“毛利率”重新分类。&lt;strong>毛利率最高的单品，才是你的真A类。&lt;/strong>&lt;/p>
+&lt;h3 id="2-8020法则那是你的幻觉">2. 80/20法则？那是你的幻觉&lt;/h3>
+&lt;p>ABC分类法的理论根基是帕累托法则——20%的SKU贡献80%的价值。听起来很爽，但现实是：&lt;strong>你的库存结构根本不符合这个比例。&lt;/strong>&lt;/p>
+&lt;p>随便拉一家中小型企业的SKU清单，你会发现：很多品类里，前5%的SKU贡献了50%的销售额，但后60%的SKU贡献了20%的销售额。&lt;strong>中间那35%的SKU，全是“长尾僵尸”。&lt;/strong>&lt;/p>
+&lt;p>这些“僵尸”单品，你按ABC分，它们可能属于B类或C类。但你既不敢砍掉（怕影响客户体验），又不敢压太多库存（卖不动）。结果就是：&lt;strong>库存越管越乱，资金全压在滞销品上。&lt;/strong>&lt;/p>
+&lt;p>更可怕的是，很多公司根本没做&lt;strong>动态ABC&lt;/strong>。你用去年的数据分好类，今年市场变了，A类变C类，C类变A类。你还在盯着去年的“明星”猛管，结果新爆款断货，老爆款变死货。&lt;/p>
+&lt;p>&lt;strong>真相：ABC分类法是一个静态的、事后诸葛亮的工具。它告诉你过去怎么样，但管不了明天。&lt;/strong>&lt;/p>
+&lt;p>解决方案很简单：&lt;strong>每个月重新算一次分类权重。&lt;/strong> 别用年数据，用近3个月的滚动数据。动态分类，才能抓住市场风向。&lt;/p>
+&lt;h3 id="3-管c类才是降本的核心">3. 管C类才是降本的核心&lt;/h3>
+&lt;p>你肯定觉得，C类商品价值低、动销慢，管它干嘛？放那吃灰呗。&lt;/p>
+&lt;p>错了。&lt;strong>C类商品才是库存成本的隐形杀手。&lt;/strong>&lt;/p>
+&lt;p>算笔账：一个C类单品，库存周转天数180天，库存金额5000元。你觉得小意思，才5000块。但你有1000个这样的C类单品呢？&lt;strong>就是500万的资金被锁死。&lt;/strong>&lt;/p>
+&lt;p>这些钱如果拿来周转，按年化10%的资本成本算，一年就浪费50万。更别提仓储费、报废损失、盘点人工成本。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，怎么管C类？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>砍&lt;/strong>：动销率低于10%的单品，直接下架。别舍不得，客户不会因为少了3个冷门SKU就不下单。&lt;/li>
+&lt;li>&lt;strong>改&lt;/strong>：改成按订单生产（MTO）或供应商直发（VMI）。别囤货，让供应商帮你背库存。&lt;/li>
+&lt;li>&lt;strong>绑&lt;/strong>：把C类商品和A类捆绑销售，比如买耳机送线材，清掉库存。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最狠的采购总监，把公司80%的C类SKU砍掉后，库存周转率直接提升40%。老板问他客户投诉怎么办？他说：“让客户选替代品，选不了就认栽。总比公司亏死强。”&lt;/p>
+&lt;h3 id="最后说句扎心的">最后说句扎心的&lt;/h3>
+&lt;p>ABC分类法本身没错，错的是你把它当万能药。&lt;/p>
+&lt;p>真正的库存管理，不是按销售额分三六九等，而是&lt;strong>按利润、按动态、按成本结构&lt;/strong>去博弈。月薪5千的采购在死守规则，月薪5万的采购在打破规则。&lt;/p>
+&lt;p>&lt;strong>别让你的库存，成为老板心口的刺。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

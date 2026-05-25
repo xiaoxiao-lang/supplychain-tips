@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/</link><description>Recent content in 库存优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存积压500万，才搞懂WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</guid><description>&lt;p>兄弟，你仓库是不是也这样？&lt;/p>
+&lt;p>账上库存还有1000件，找货发现只有800件。客户催单，你翻遍货架，最后发现那200件压在角落里吃灰。盘点？呵，一盘点就发现差几十万，财务追着你问，你只能尴尬说“系统数据有延迟”。&lt;/p>
+&lt;p>我见过一个老板，干了5年电商，账面库存3000万，实际能卖的只有2500万。那500万去哪了？被过期、损坏、错放、丢失，硬生生“吃”掉了。他后来跟我说：“&lt;strong>早知道WMS这3个坑，我能省下500万&lt;/strong>。”&lt;/p>
+&lt;p>WMS（仓库管理系统）听起来高大上，但90%的企业用成了“摆设”。今天不扯概念，就聊聊我踩过的坑，和帮你省钱的3条铁律。&lt;/p>
+&lt;h3 id="1-别把wms当电子表格它是个调度大脑">1. 别把WMS当“电子表格”，它是个“调度大脑”&lt;/h3>
+&lt;p>很多人一上WMS，就干一件事：&lt;strong>把Excel数据搬进去，然后继续用Excel管人&lt;/strong>。结果呢？系统是系统，人是人，数据永远对不上。&lt;/p>
+&lt;p>&lt;strong>血泪教训：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>系统显示库存充足，实际货位空了——&lt;strong>没锁库&lt;/strong>&lt;/li>
+&lt;li>发货时发现A货位是B产品——&lt;strong>没做定位&lt;/strong>&lt;/li>
+&lt;li>退货入库，随手一放——&lt;strong>没做批次管理&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>
+WMS的核心不是“记”，而是“管”。它应该像大脑一样指挥：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>上架&lt;/strong>：扫码，告诉你去哪个货位&lt;/li>
+&lt;li>&lt;strong>拣货&lt;/strong>：系统规划最短路径，推最优路线&lt;/li>
+&lt;li>&lt;strong>发货&lt;/strong>：自动校验，错发直接报警&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么判断你的WMS是不是“大脑”？&lt;/strong>
+问3个问题：&lt;/p>
+&lt;ol>
+&lt;li>能不能实时知道每个货位有什么、有多少？&lt;/li>
+&lt;li>能不能一键生成拣货单，按库位顺序排序？&lt;/li>
+&lt;li>能不能做到“先进先出”，自动推荐最早批次？&lt;/li>
+&lt;/ol>
+&lt;p>如果答案是“不能”，那你买的只是个“电子账本”，不是WMS。&lt;/p>
+&lt;h3 id="2-别迷信全自动化先理清你的sku">2. 别迷信“全自动化”，先理清你的SKU&lt;/h3>
+&lt;p>“我要上全自动！AGV机器人！无人仓！”——这话我听过不下20遍。&lt;/p>
+&lt;p>结果呢？自动化设备进场，发现&lt;strong>基础数据一塌糊涂&lt;/strong>。SKU命名混乱、条码重复、货位编码缺失。机器人找不到货，系统报错，最后全变“人工辅助”。&lt;/p>
+&lt;p>&lt;strong>真相是：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>如果你的SKU超过500个，先花2周&lt;strong>整理编码规则&lt;/strong>&lt;/li>
+&lt;li>如果你的仓库面积超过1000平，先做&lt;strong>货位规划&lt;/strong>&lt;/li>
+&lt;li>如果你的退货率高过10%，先优化&lt;strong>入库流程&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么理？&lt;/strong> 给你个傻瓜清单：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>统一命名&lt;/strong>：不要“A款-红色-大号”，而是“SKU-颜色-尺寸-批次”&lt;/li>
+&lt;li>&lt;strong>条码化&lt;/strong>：每个货位贴唯一码，每个SKU贴条码，手机就能扫&lt;/li>
+&lt;li>&lt;strong>分区管理&lt;/strong>：快流区、慢流区、退货区、残次区，物理隔开&lt;/li>
+&lt;/ul>
+&lt;p>自动化是锦上添花，不是雪中送炭。基础没打好，花50万买WMS，不如花5000块买个扫码枪。&lt;/p>
+&lt;h3 id="3-别指望一次性上线wms得长在业务里">3. 别指望“一次性上线”，WMS得“长”在业务里&lt;/h3>
+&lt;p>很多公司上WMS，选个“标准化产品”，导入数据，培训一遍，然后觉得万事大吉。&lt;strong>3个月后，业务变了，系统没变，又回到手工时代。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真实案例：&lt;/strong>
+一个做服装的朋友，每年上新2000个SKU。他的WMS不支持“预售+现货”混合管理。结果预售订单发货时，系统找不到货，只能人工一个个核对。&lt;strong>双11爆仓，发货延迟3天，差评如潮。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>关键思维：&lt;/strong>
+WMS不是买回来的“工具”，而是长出来的“能力”。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>选型时&lt;/strong>：问供应商“你们支持多仓库、多批次、多货主吗？”&lt;/li>
+&lt;li>&lt;strong>上线后&lt;/strong>：每周复盘“流程有没有卡点？数据有没有异常？”&lt;/li>
+&lt;li>&lt;strong>迭代中&lt;/strong>：每季度优化一次规则，比如“改包装策略”、“调拣货路径”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么避免“一次性”陷阱？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>选能&lt;strong>自定义规则&lt;/strong>的系统（比如PDA操作、打印模板）&lt;/li>
+&lt;li>留&lt;strong>接口&lt;/strong>：对接ERP、TMS、电商平台，别搞“数据孤岛”&lt;/li>
+&lt;li>找&lt;strong>有实施经验的团队&lt;/strong>，别信“万能系统”&lt;/li>
+&lt;/ul>
+&lt;h3 id="说人话的总结">说人话的总结&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>坑1&lt;/strong>：把WMS当账本 → &lt;strong>当大脑&lt;/strong>，让它指挥人&lt;/li>
+&lt;li>&lt;strong>坑2&lt;/strong>：盲目上自动化 → &lt;strong>先理SKU&lt;/strong>，再谈技术&lt;/li>
+&lt;li>&lt;strong>坑3&lt;/strong>：一次性上线 → &lt;strong>持续迭代&lt;/strong>，让它长在业务里&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最后一句扎心的：&lt;/strong>
+库存积压的不是货，是认知税。这500万，你非要交了才懂吗？&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货，我们下期聊聊采购怎么用WMS治供应商。&lt;/p></description></item><item><title>库存压了500万才搞懂：JIT根本不是省钱的</title><link>https://supplychain-tips.pages.dev/posts/jit-mistakes-truth/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-mistakes-truth/</guid><description>&lt;p>兄弟，你被JIT骗了。&lt;/p>
+&lt;p>不是我杠。你想想，是不是一听到“JIT准时制”，脑子里就蹦出三个字：&lt;strong>零库存&lt;/strong>？然后老板眼冒绿光，觉得省钱了，让你赶紧搞？结果呢？&lt;/p>
+&lt;p>&lt;strong>库存是少了，但产线停了。&lt;/strong> 缺料、断供、急单满天飞，销售在前面骂娘，生产在后面甩锅。你夹在中间像个受气包，月底一看报表，&lt;strong>物流费翻了三倍，成本比之前还高。&lt;/strong>&lt;/p>
+&lt;p>别问我怎么知道的。我前年压了500万库存，没被JIT搞死，差点被“伪JIT”搞破产。今天咱们不整虚的，就聊聊：&lt;strong>JIT到底是个什么东西？为什么90%的人搞错了？&lt;/strong>&lt;/p>
+&lt;h3 id="1-先别聊丰田了你被零库存pua了">1. 先别聊丰田了，你被“零库存”PUA了&lt;/h3>
+&lt;p>很多人一提JIT，必谈丰田。说丰田怎么怎么牛，零件刚到就上线，仓库里空空如也。&lt;/p>
+&lt;p>&lt;strong>醒醒吧。&lt;/strong> 丰田的精益，是建立在&lt;strong>极度稳定&lt;/strong>的供应链、&lt;strong>极其成熟的供应商关系&lt;/strong>、以及&lt;strong>变态级的计划准确性&lt;/strong>上的。你一个做小家电的，供应商三天两头换，客户订单说砍就砍，你学丰田？学个寂寞。&lt;/p>
+&lt;p>JIT的核心，&lt;strong>根本不是“零库存”&lt;/strong>。字面意思看：Just In Time，&lt;strong>刚刚好&lt;/strong>。&lt;/p>
+&lt;p>什么叫刚刚好？不是仓库里没货，而是&lt;strong>你需要的东西，在需要的时间，以需要的数量，出现在需要的地方&lt;/strong>。&lt;/p>
+&lt;p>这就跟你点外卖一样。你希望的是：我中午12点饿，外卖11点59分到。这叫JIT。但现实往往是：外卖10点半就来了，等你要吃，凉了（库存过剩）；或者下午2点才到，你饿过劲儿了（缺料）。&lt;/p>
+&lt;p>&lt;strong>所以，JIT不是消灭库存，是消灭“不确定”。&lt;/strong> 库存本身不是恶，&lt;strong>恶的是“囤了用不上”和“要用却没有”&lt;/strong>。你品，你细品。&lt;/p>
+&lt;h3 id="2-为什么你越jit越没谱这3个坑你踩了几个">2. 为什么你越“JIT”，越“没谱”？这3个坑你踩了几个&lt;/h3>
+&lt;p>我在供应链群里做过个小调查，问“搞JIT最头疼什么？”答案出奇一致：&lt;strong>计划赶不上变化，一变化就崩盘。&lt;/strong>&lt;/p>
+&lt;p>这不是JIT的锅，是你踩了坑。&lt;/p>
+&lt;h4 id="坑一只盯着工厂忘了看上游">坑一：只盯着工厂，忘了看上游&lt;/h4>
+&lt;p>很多“JIT新手”最大的动作就是：逼死仓库。要求仓库必须当天进出，必须零误差。仓库大哥累成狗，结果呢？原材料供应商那边，今天送错规格，明天晚到3小时。&lt;/p>
+&lt;p>&lt;strong>你仓库再快，也架不住上游拉稀啊！&lt;/strong> 真正的JIT，是从供应商的供应商开始的。你没搞定上游的交付稳定性，就别谈JIT。&lt;/p>
+&lt;h4 id="坑二把精益当成了抠门">坑二：把“精益”当成了“抠门”&lt;/h4>
+&lt;p>有些老板特逗，学了JIT后，觉得运输费、仓储费全是浪费。于是：&lt;strong>“把物流商换成最便宜的！”“把安全库存砍掉一半！”&lt;/strong>&lt;/p>
+&lt;p>结果呢？便宜的物流商动不动丢件，运输时效全靠运气。安全库存一砍，客户一个急单，你就得花20倍的价钱去发顺丰空运、甚至包车。&lt;/p>
+&lt;p>&lt;strong>记住，JIT省的是“浪费”，不是“投资”。&lt;/strong> 该花的钱（如稳定的物流、靠谱的供应商、必要的缓冲库存）你一分别省。省小钱，赔大钱。&lt;/p>
+&lt;h4 id="坑三信息流是断的还在那儿瞎准时">坑三：信息流是断的，还在那儿瞎“准时”&lt;/h4>
+&lt;p>这是最致命的。我见过一家工厂，销售部、生产部、采购部各用各的系统。销售签了个大单，采购不知道；生产临时改了个工艺，供应商不知道。&lt;/p>
+&lt;p>最后的结果就是：&lt;strong>采购凭感觉下单，供应商凭运气送货。&lt;/strong> 这种信息黑洞下，你搞JIT？JIT个寂寞。&lt;/p>
+&lt;p>JIT就像跳舞，&lt;strong>信息的节奏要对&lt;/strong>。如果连节拍器都没有，你俩只能互相踩脚。&lt;/p>
+&lt;h3 id="3-高手怎么玩jit记住这5个不止">3. 高手怎么玩JIT？记住这5个“不止”&lt;/h3>
+&lt;p>别慌，JIT不是玄学。真正把JIT玩明白的人，都做对了这几步。不是让你照搬，是给你个思考框架。&lt;/p>
+&lt;p>&lt;strong>第一，不止看库存数量，更看“库存周转天数”。&lt;/strong>
+别纠结仓库里有多少货，去算你的&lt;strong>库存周转天数&lt;/strong>。从原材料到成品卖出，要多少天？100天就是100天的资金压着。JIT的目标，是把这个天数降到&lt;strong>行业平均线以下&lt;/strong>。比如你是做快消的，20天是及格，10天是优秀。&lt;/p>
+&lt;p>&lt;strong>第二，不止看送货准时率，更看“补货前置期”。&lt;/strong>
+供应商说要7天到，你信了。结果他每次第6天才发货。这算准时吗？算，但没吊用。你要关注的是&lt;strong>补货前置期&lt;/strong>。他能不能在你下订单后的48小时内，把货送到？如果能，你的库存就可以压到48小时以内。&lt;/p>
+&lt;p>&lt;strong>第三，不止看仓库面积，更看“动线效率”。&lt;/strong>
+仓库空不等于JIT。如果你仓库里全是“死库存”（放了一两年没动的），你仓库再空也是浪费。JIT的仓库，应该是&lt;strong>流动的&lt;/strong>。今天进，明天出，最多呆三天。&lt;strong>动线要短，周转要快。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第四，不止看成本，更看“总拥有成本”。&lt;/strong>
+别只看采购价。你为了省5毛钱的原材料，导致生产故障率飙升，最后维修费、报废费加起来，成本反而多花了2块。JIT要算大账，&lt;strong>算整个链条的总拥有成本&lt;/strong>，而不是单点成本。&lt;/p>
+&lt;p>&lt;strong>第五，不止看系统，更看“人”。&lt;/strong>
+最牛的JIT，不是上了个MES系统、WMS系统就完事了。而是&lt;strong>你的采购、计划、仓库、生产这帮人，能不能像狼群一样协作&lt;/strong>。系统只是工具，核心是人的意识和流程。如果销售部签单前不通知生产部，那神仙系统也救不了你。&lt;/p>
+&lt;h3 id="写在最后jit是结果不是目标">写在最后：JIT是结果，不是目标&lt;/h3>
+&lt;p>说了这么多，总结一句话：&lt;strong>别把JIT当成省钱的手段，它应该是你供应链能力提升后，自然而然的结果。&lt;/strong>&lt;/p>
+&lt;p>当你把供应商管理得服服帖帖，把需求预测做到八九不离十，把内部协作磨合成肌肉记忆时，你会发现：&lt;strong>库存自然就降了，资金自然就活了，成本自然就低了。&lt;/strong>&lt;/p>
+&lt;p>这才是JIT的真相：&lt;strong>用极致的确定性，对抗市场的不确定性。&lt;/strong>&lt;/p>
+&lt;p>如果你现在还在为库存发愁，先别急着学丰田。&lt;strong>先回去看看你的计划准不准，供应商靠不靠谱，信息流通不通。&lt;/strong> 把这三点打通，你离JIT就不远了。&lt;/p>
+&lt;p>行了，今天先唠到这儿。觉得有用，&lt;strong>关注公众号「甲方乙方供应链」&lt;/strong>，咱下回聊怎么搞定那些“不听话”的供应商。&lt;/p></description></item><item><title>库存压了500万才明白的事：安全库存是个坑？</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-mistakes/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-mistakes/</guid><description>&lt;p>先讲个真事儿。&lt;/p>
+&lt;p>去年年底，我一位做电商供应链的朋友，被老板叫进办公室，劈头盖脸一顿骂。&lt;/p>
+&lt;p>仓库里堆满了货，资金链快断了，库存周转天数飙到120天。老板指着ERP系统里的“安全库存”预警，吼他：&lt;strong>“你设置的这是什么神仙安全库存？货都烂在仓库里了！”&lt;/strong>&lt;/p>
+&lt;p>朋友委屈得要死：我这不是怕断货嘛，你看这个SKU，以前每天卖100件，我设了200件安全库存，谁知道双十一销量没爆，退货率爆了，货全压手里了。&lt;/p>
+&lt;p>&lt;strong>你看，安全库存这玩意儿，搞好了是护身符，搞不好就是催命符。&lt;/strong>&lt;/p>
+&lt;p>今天我就用几个真实踩坑故事，把安全库存这点事儿扒干净。不整那些云里雾里的公式，只讲怎么少花冤枉钱。&lt;/p>
+&lt;h3 id="1-别把安全库存当成甩锅库存">1. 别把“安全库存”当成“甩锅库存”&lt;/h3>
+&lt;p>很多人对安全库存的理解，就俩字：&lt;strong>堆货&lt;/strong>。&lt;/p>
+&lt;p>老板问：“会不会断货？”
+你拍胸脯：“我多备了30%的安全库存，绝对稳！”&lt;/p>
+&lt;p>结果呢？钱都压在了货上，现金流一断，公司直接凉半截。&lt;/p>
+&lt;p>&lt;strong>真相是：安全库存不是越“安全”越好，而是越“精准”越好。&lt;/strong>&lt;/p>
+&lt;p>你想啊，你设了500件安全库存，结果供应商交货延迟了3天，你仓库里还有450件，这500件是不是纯属浪费？&lt;/p>
+&lt;p>&lt;strong>安全库存的真正作用，是帮你扛住“需求波动”和“供应波动”这两个不确定性。&lt;/strong> 不是让你用库存去填管理黑洞的。&lt;/p>
+&lt;p>我见过最离谱的案例：某公司采购为了省事，把所有SKU的安全库存天数都设成了30天。结果有个SKU，供应商就在隔壁园区，下单第二天就到货，这30天安全库存纯属脑补。仓库租金、资金利息、折旧损耗，全打了水漂。&lt;/p>
+&lt;p>&lt;strong>所以，第一刀：砍掉那些不必要的安全库存。&lt;/strong> 怎么砍？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>先看供应周期短的：&lt;/strong> 供应商能3天到货的，安全库存设1周干嘛？改成3天就行。&lt;/li>
+&lt;li>&lt;strong>再看需求稳定的：&lt;/strong> 每天固定卖50件的，安全库存可以设低一点，用实时补货代替囤货。&lt;/li>
+&lt;li>&lt;strong>最后看呆滞品：&lt;/strong> 半年没动过的SKU，直接取消安全库存，卖完拉倒。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-公式不是万能的但没公式是万万不能的">2. 公式不是万能的，但没公式是万万不能的&lt;/h3>
+&lt;p>有人说了：“我懂，要用公式算。安全库存 = Z * σ * √LT，对不对？”&lt;/p>
+&lt;p>&lt;strong>对，但不全对。&lt;/strong>&lt;/p>
+&lt;p>公式是死的，人是活的。你拿着Excel算出来的数字，跟实际销售数据一对比，可能差出10倍。&lt;/p>
+&lt;p>为什么？因为公式默认需求是“正态分布”的，但现实世界里的销量，经常是“抽风式”的。比如突然来了个直播带货大爆单，或者竞争对手搞了个价格战，你的需求曲线直接变成心电图。&lt;/p>
+&lt;p>&lt;strong>更扎心的是：很多公司连基础数据都算不准。&lt;/strong> 历史销量不准，提前期不准，订单准确率低，你拿什么算？算出来的数字你敢信？&lt;/p>
+&lt;p>&lt;strong>那怎么办？别硬套公式，用“业务直觉+数据验证”的土办法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先拍脑袋：&lt;/strong> 根据历史经验，给每个SKU定一个“安全库存天数”。比如，爆款设15天，常规款设7天，冷门款设3天。&lt;/li>
+&lt;li>&lt;strong>再拿数据验证：&lt;/strong> 拉出过去3个月的“缺货记录”。看看缺货是因为安全库存设低了，还是因为供应商临时涨价/罢工/物流爆仓。&lt;/li>
+&lt;li>&lt;strong>动态调整：&lt;/strong> 每个月复盘一次，把“缺货天数”和“库存周转率”两个指标挂上钩。缺货多了就加，周转太慢就减。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住，安全库存不是一锤子买卖，它是动态博弈。&lt;/strong>&lt;/p>
+&lt;h3 id="3-比安全库存更重要的是安全思维">3. 比安全库存更重要的，是“安全思维”&lt;/h3>
+&lt;p>说了这么多，你可能觉得我在否定安全库存。错，安全库存本身没毛病，有毛病的是&lt;strong>用库存掩盖管理问题&lt;/strong>。&lt;/p>
+&lt;p>举个例子：你的供应商交付率只有80%，你靠堆安全库存来弥补。这就像家里漏雨，你不修屋顶，反而用脸盆去接。接得再多，雨停了屋顶还是漏，下次下雨你照样得接着。&lt;/p>
+&lt;p>&lt;strong>真正的“安全思维”，是去源头解决问题：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>优化供应商交付：&lt;/strong> 跟供应商签对赌协议，延迟交货罚款；或者多找几个备选供应商，别把鸡蛋放一个篮子里。&lt;/li>
+&lt;li>&lt;strong>提升需求预测：&lt;/strong> 别光靠采购拍脑袋，拉着销售、市场、运营一起开会。把促销计划、新品上市、竞品动态全揉进来。&lt;/li>
+&lt;li>&lt;strong>缩短补货周期：&lt;/strong> 能搞VMI（供应商管理库存）就搞，不能搞的，把补货频率从一周一次改成三天一次。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：安全库存是最后的保险，不是日常的补丁。&lt;/strong>&lt;/p>
+&lt;p>我认识一个供应链总监，他团队的安全库存天数只有行业平均的一半，但他们的缺货率比同行低30%。为什么？因为他们把80%的精力花在了&lt;strong>消除不确定性&lt;/strong>上，而不是堆库存。&lt;/p>
+&lt;h3 id="总结一下别让安全库存坑了你">总结一下，别让安全库存坑了你&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>别堆货：&lt;/strong> 安全库存不是越多越好，精准才是王道。&lt;/li>
+&lt;li>&lt;strong>别迷信公式：&lt;/strong> 公式是工具，不是答案。用数据动态调整。&lt;/li>
+&lt;li>&lt;strong>别当甩锅工具：&lt;/strong> 回到源头，砍掉管理黑洞，比多备货有用100倍。&lt;/li>
+&lt;/ol>
+&lt;p>最后，送你一句我常跟人说的话：&lt;strong>如果你发现仓库里全是安全库存，那说明你的供应链，一点都不安全。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」，回复「安全库存」，送你一套自用的动态调整模板。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>干了10年供应链，那些坑我替你踩过了，下次接着聊。&lt;/strong>&lt;/p></description></item><item><title>月薪5千和5万的采购，差在需求预测这3个动作</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>上个月，我跟一个做快消的采购兄弟喝酒，他骂骂咧咧：老板让他背“缺货率”和“库存周转”两个KPI，但他算了一下，全年库存报废了300万，结果月底还要因为缺货被销售投诉。&lt;/p>
+&lt;p>“我他妈到底该多备还是少备？”&lt;/p>
+&lt;p>我问他：“你需求预测怎么做的？”&lt;/p>
+&lt;p>他理直气壮：“Excel拉一下去年同期的数据，再问问销售老王，他拍脑袋说下个月涨20%，我就按这个数下单。”&lt;/p>
+&lt;p>&lt;strong>看懂了吗？这不是采购的问题，这是整个公司的“玄学式预测”。&lt;/strong>&lt;/p>
+&lt;p>你如果干采购超过3年，一定见过这种场景：销售说“下个月大卖”，你加量下单，结果货到了，活动取消了；销售说“保守一点”，你少订了，结果竞品断货，你们爆了。&lt;/p>
+&lt;p>&lt;strong>需求预测不是算命的，是算账的。&lt;/strong> 月薪5千的采购靠直觉，月薪5万的采购靠动作。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作一别信拍脑袋学会挖数据">动作一：别信“拍脑袋”，学会“挖数据”&lt;/h3>
+&lt;p>大多数采购的需求预测，就两步：&lt;/p>
+&lt;ol>
+&lt;li>打开Excel，复制去年同期的数。&lt;/li>
+&lt;li>问销售：“下个月你觉得呢？”&lt;/li>
+&lt;/ol>
+&lt;p>销售说“涨10%”，你就加10%。这叫&lt;strong>伪预测&lt;/strong>。&lt;/p>
+&lt;p>真正的需求预测，第一件事是&lt;strong>清理数据垃圾&lt;/strong>。&lt;/p>
+&lt;p>你去年同期的数据能直接用吗？&lt;/p>
+&lt;ul>
+&lt;li>去年搞了双十一，今年没有？&lt;/li>
+&lt;li>去年那个月有疫情封控？&lt;/li>
+&lt;li>去年竞品缺货你爆单了？&lt;/li>
+&lt;/ul>
+&lt;p>这些“噪声”不剔除，预测就是错的。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购怎么干？&lt;/strong>&lt;/p>
+&lt;p>拿一个案例：某化妆品品牌采购，发现“618”和“双11”前后，常规品的销量会暴跌30%。
+于是她建了一个**“促销前后需求波动系数”**，把历史促销期的数据单独标注，再算常规期的日均销量。&lt;/p>
+&lt;p>结果：错峰备货，库存周转从45天降到18天。&lt;/p>
+&lt;p>&lt;strong>动作清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>清洗数据：剔除促销、缺货、异常事件的影响&lt;/li>
+&lt;li>找规律：不是“同比”，而是“环比+季节性+趋势”&lt;/li>
+&lt;li>量化：用“移动平均法”或“简单指数平滑”算出基准值，别用“我觉得”&lt;/li>
+&lt;/ul>
+&lt;p>别觉得难，Excel就能干。关键是你愿不愿意把“拍脑袋”变成“算公式”。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作二别跟销售对赌学会拆信号">动作二：别跟销售“对赌”，学会“拆信号”&lt;/h3>
+&lt;p>销售跟你说“下个月能卖1000件”，你信不信？&lt;/p>
+&lt;p>大多数采购的反应：&lt;/p>
+&lt;ul>
+&lt;li>信了，结果卖不动，背锅。&lt;/li>
+&lt;li>不信，结果爆单，背锅。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心问题：你把需求预测当成了“判断题”，其实它是个“概率题”。&lt;/strong>&lt;/p>
+&lt;p>月薪5万的采购，会做一件事：&lt;strong>把销售的话拆成信号。&lt;/strong>&lt;/p>
+&lt;p>比如销售说“下个月涨20%”，你要追问：&lt;/p>
+&lt;ul>
+&lt;li>这个增长来自新客户还是老客户复购？&lt;/li>
+&lt;li>是推广投入拉动的，还是季节性自然增长？&lt;/li>
+&lt;li>有没有竞品动作？&lt;/li>
+&lt;/ul>
+&lt;p>然后，你会发现问题：
+销售说的“涨20%”，实际只是“预期”，但没有任何数据支撑。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>建一个**“信心指数”**机制：&lt;/p>
+&lt;ul>
+&lt;li>销售预估时，必须附上3个支撑点（比如：已签合同金额、历史转化率、广告预算）。&lt;/li>
+&lt;li>然后你根据历史准确率，给这个预估打个折。&lt;/li>
+&lt;li>比如销售过去3个月的预估平均偏差是30%，那这次就只信70%。&lt;/li>
+&lt;/ul>
+&lt;p>别觉得这是“不信任”，这叫&lt;strong>量化风险&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>一个真实案例：&lt;/strong>&lt;/p>
+&lt;p>某电子元器件采购，发现销售每次报量都偏乐观30%。
+他直接做了一张表：销售预估 vs 实际出货，把每个销售的历史偏差率算出来。
+然后每次下单时，按“预估×（1-偏差率）”来调整。&lt;/p>
+&lt;p>结果：缺货率从15%降到5%，库存成本降了20%。&lt;/p>
+&lt;p>&lt;strong>记住：需求预测不是听一个人的话，而是把所有人的话变成数字，再处理。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="动作三别一刀切学会分层备货">动作三：别“一刀切”，学会“分层备货”&lt;/h3>
+&lt;p>很多采购最大的毛病：&lt;strong>所有SKU用一套预测逻辑。&lt;/strong>&lt;/p>
+&lt;p>爆款、长尾、新品、淘汰品，全用去年的同比算。
+结果：爆款缺货，长尾压死，新品一上线就滞销。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，把SKU分成三类：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>1. 高周转爆款（A类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>周度预测，用历史均值+趋势修正。&lt;/li>
+&lt;li>安全库存按“缺货成本”定，宁可多备5%，不能断。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 长尾慢动品（C类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>月度预测，甚至季度预测。&lt;/li>
+&lt;li>安全库存按“持有成本”定，宁可缺货，不能压货。&lt;/li>
+&lt;li>用“定期订购”策略，别频繁下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 新品/活动品（X类）&lt;/strong>&lt;/p></description></item><item><title>干了6年供应链，才敢说这5个坑别踩</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>&lt;strong>在供应链干了6年，我差点被一个坑送走。&lt;/strong>&lt;/p>
+&lt;p>第一次背锅，是刚入职第二年。
+老板问：“库存怎么又爆了？”
+我瞄了眼报表，底气十足：“销售乱预测，生产瞎排期，关我屁事。”
+结果呢？老板让我滚去仓库，自己盘点三天。&lt;/p>
+&lt;p>三天后，我坐在仓库纸箱上，看着积灰的200万库存，突然懂了：
+&lt;strong>供应链这行，不是谁对谁错的问题，是谁能活下来的问题。&lt;/strong>&lt;/p>
+&lt;p>后来，我踩了无数坑，赔了300多万库存学费，才摸清这几个生存法则。
+今天不跟你讲彼得·德鲁克，也不拽SCOR模型。
+就唠5个你马上能用的血泪教训。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别信安全库存那是你的催命符">1. 别信“安全库存”，那是你的催命符&lt;/h3>
+&lt;p>刚入行时，老采购教我：“安全库存设高点，稳。”
+我真听话，每个SKU都按历史峰值留两倍。
+结果呢？仓库成了博物馆，货堆得像金字塔。老板巡视时脸都绿了：“你囤这些是等人穿越来买？”&lt;/p>
+&lt;p>&lt;strong>真相是：安全库存是懒人逻辑，不是避险逻辑。&lt;/strong>&lt;/p>
+&lt;p>后来我换了算法：&lt;/p>
+&lt;ul>
+&lt;li>先问自己：这个SKU，断货1天损失多少？&lt;/li>
+&lt;li>再算：库存成本vs缺货成本，哪个更痛？&lt;/li>
+&lt;li>最后拍板：敢不敢让它断货三天？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果：库存从300万砍到120万，缺货率反而降了30%。&lt;/strong>
+诀窍就一个：&lt;strong>别用平均数骗自己，用真实波动算上限。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-供应商说没问题你就要出大问题">2. 供应商说“没问题”，你就要出大问题&lt;/h3>
+&lt;p>有次大促前，核心供应商拍胸脯：“产能管够，交期稳如狗。”
+我信了，没备选方案。
+结果呢？对方原材料被卡，硬拖了10天。我这边仓库全空，客服被骂到哭，老板拍桌子：“你供应链是纸糊的？”&lt;/p>
+&lt;p>&lt;strong>记住：供应链里，100%的信任等于100%的炸弹。&lt;/strong>&lt;/p>
+&lt;p>后来我定了死规矩：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>关键物料必须双供&lt;/strong>，哪怕第二个供应商贵15%&lt;/li>
+&lt;li>&lt;strong>每周一次交期确认&lt;/strong>，超过3天预警直接发红牌&lt;/li>
+&lt;li>&lt;strong>合同里写违约金&lt;/strong>，但别指望靠它赚钱，防的是“我再想想”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别做老好人。供应链里，好人死于心软。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-库存周转率比毛利率更值钱">3. 库存周转率，比毛利率更值钱&lt;/h3>
+&lt;p>我见过太多人：&lt;/p>
+&lt;ul>
+&lt;li>毛利20%，很爽，但库存周转率0.5次/年&lt;/li>
+&lt;li>货堆在库房，利息吃掉利润，最后亏到哭&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账：&lt;/strong>
+假设你毛利率20%，年周转2次，实际年化收益才40%。
+但如果周转做到6次，哪怕毛利只有10%，年化收益也有60%。&lt;/p>
+&lt;p>&lt;strong>库存不是资产，是负债。&lt;/strong>
+你每多囤一天，就是给银行打工一天。&lt;/p>
+&lt;p>我自己定的KPI：&lt;/p>
+&lt;ul>
+&lt;li>快消品：周转必须≥12次/年&lt;/li>
+&lt;li>工业品：至少4次/年&lt;/li>
+&lt;li>低于这个数，直接砍SKU或降库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别贪多。20个高周转SKU，比200个滞销货赚得多。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-系统是工具不是爸爸">4. 系统是工具，不是爸爸&lt;/h3>
+&lt;p>很多公司砸钱上ERP、WMS，觉得上了就万事大吉。
+我见过最离谱的：花了500万上SAP，结果员工天天手动填Excel。问为啥，答：“系统不准，还是自己算靠谱。”&lt;/p>
+&lt;p>&lt;strong>系统不是万能的，没系统是万万不能的。&lt;/strong>
+但你得明白：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>系统是框架，数据是血液&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>别等系统帮你思考，你得先想明白流程&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我常用的土办法：&lt;/p>
+&lt;ul>
+&lt;li>先用Excel跑三个月流程，把坑全踩一遍&lt;/li>
+&lt;li>流程稳定了，再上系统固化&lt;/li>
+&lt;li>系统上线后，每周抽查数据，差1%就追责&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：不解决问题的系统，就是一堆废铁。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-别跟销售称兄道弟他们会坑死你">5. 别跟销售称兄道弟，他们会坑死你&lt;/h3>
+&lt;p>最痛的一次教训：
+销售拍胸脯：“下季度订单翻倍，你赶紧备货！”
+我连夜下单，压了500万库存。
+结果呢？市场变了，订单跌了60%。销售甩锅：“我说的是预测，又不是承诺。”&lt;/p>
+&lt;p>&lt;strong>供应链和销售的本质是博弈，不是兄弟。&lt;/strong>
+后来我立的规矩：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>所有销售预测必须签字&lt;/strong>，超30%偏差直接扣奖金&lt;/li>
+&lt;li>&lt;strong>备货上限=销量预测×0.8&lt;/strong>，多出来的让销售自己申请&lt;/li>
+&lt;li>&lt;strong>每周开产销协调会&lt;/strong>，让销售现场拍胸脯，我在旁边录音&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别打我脸。打一次，我就让你背锅背到哭。&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才懂：SKU管理就4个字</title><link>https://supplychain-tips.pages.dev/posts/sku-management-tips/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-tips/</guid><description>&lt;p>兄弟们，聊个扎心话题。&lt;/p>
+&lt;p>你有没有过这种经历？打开后台，SKU列表拉不到底，几百上千个品，看着密密麻麻，心里还挺踏实——产品多，机会多嘛。&lt;/p>
+&lt;p>但一到月底算账，傻眼了。&lt;/p>
+&lt;p>库存积压了500万，现金流比纸还薄，库房里一堆货，卖得动的没几个，卖不动的堆到落灰。老板问你：这些破烂什么时候清掉？你只能苦笑：打折都没人要。&lt;/p>
+&lt;p>别笑，这场景，我见过太多。&lt;/p>
+&lt;p>很多人觉得SKU管理就是给产品编个号，方便入库出库。大错特错。&lt;/p>
+&lt;p>SKU管理说白了，就4个字：&lt;strong>敢砍敢留&lt;/strong>。&lt;/p>
+&lt;p>砍得越狠，活得越久。&lt;/p>
+&lt;p>今天不跟你扯大道理，直接上干货。我踩过的坑，你最好别踩。&lt;/p>
+&lt;h3 id="1-别拿sku当护身符那是催命符">1. 别拿SKU当护身符，那是催命符&lt;/h3>
+&lt;p>很多老板有个毛病：觉得SKU多=产品线丰富=竞争力强。&lt;/p>
+&lt;p>这是最毒的鸡汤。&lt;/p>
+&lt;p>&lt;strong>真实情况是：80%的利润，来自20%的SKU。剩下的80%，全是库存炸弹。&lt;/strong>&lt;/p>
+&lt;p>我之前带过一个客户，做家居日用品的。后台SKU 800多个，光杯子就有50种颜色。老板天天吹“全品类覆盖”，结果呢？&lt;/p>
+&lt;p>爆款就3个，贡献了70%的销量。剩下的杯子，有的半年卖不出1个，库房里堆成山。&lt;/p>
+&lt;p>我问老板：为什么留这么多？他理直气壮：万一有人要呢？&lt;/p>
+&lt;p>&lt;strong>“万一”是库存杀手。&lt;/strong>&lt;/p>
+&lt;p>你每多一个SKU，就要多一份采购、仓储、管理、维护的成本。更别说那些卖不动的，每天白白吃掉你的仓储费、资金利息。&lt;/p>
+&lt;p>&lt;strong>正确做法：把SKU当宝贝，别当垃圾。&lt;/strong> 不是所有东西都配拥有一个SKU。&lt;/p>
+&lt;p>&lt;strong>怎么判断该不该留？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续3个月销量为0？砍。&lt;/li>
+&lt;li>毛利率低于20%？砍。&lt;/li>
+&lt;li>动销率低于10%？砍。&lt;/li>
+&lt;/ul>
+&lt;p>别心疼。砍掉90%的垃圾SKU，你的清闲程度和利润，反而会翻倍。&lt;/p>
+&lt;h3 id="2-爆款sku别瞎扩一招鲜吃遍天">2. 爆款SKU别瞎扩，一招鲜吃遍天&lt;/h3>
+&lt;p>有人说了：那我砍掉垃圾，专注爆款总行了吧？&lt;/p>
+&lt;p>错。&lt;/p>
+&lt;p>另一个坑是：爆款SKU，盲目扩张。&lt;/p>
+&lt;p>你以为爆款量大，多做几个变体（颜色、尺寸、包装）能赚更多？&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>我见过一个做蓝牙耳机的商家。一款爆了，月销10万单。然后他脑子一热，搞了12个颜色、6种包装、3个版本。SKU从1个变成216个。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>采购端：每种颜色备货，库存压力爆炸。&lt;/li>
+&lt;li>生产端：换线频率高，成本飙升。&lt;/li>
+&lt;li>销售端：消费者选择困难症，转化率反而掉了。&lt;/li>
+&lt;/ul>
+&lt;p>最后爆款没撑住，库存全砸手里。&lt;/p>
+&lt;p>&lt;strong>记住：爆款的核心是极致单品，不是花里胡哨。&lt;/strong>&lt;/p>
+&lt;p>一个爆款SKU，最多留2-3个变体（比如经典款、升级款、性价比款）。别拿消费者当傻子，他们买爆款，图的就是简单、直接、不纠结。&lt;/p>
+&lt;p>&lt;strong>怎么优化爆款SKU？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每次只推1个主推变体，其他做备选。&lt;/li>
+&lt;li>测试数据说话：哪个变体销量高、退货率低，就留哪个。&lt;/li>
+&lt;li>别搞什么“私人定制”，那是大厂玩的，你玩不起。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-新品sku别狂上先测再铺">3. 新品SKU别狂上，先测再铺&lt;/h3>
+&lt;p>很多供应链人有个通病：新品一开发，立刻铺全渠道。SKU一上就几百个，仓库塞满，心里才踏实。&lt;/p>
+&lt;p>&lt;strong>结果呢？&lt;/strong> 一上线就扑街，库存变死货。&lt;/p>
+&lt;p>&lt;strong>聪明人怎么做？先测再铺。&lt;/strong>&lt;/p>
+&lt;p>具体操作：&lt;/p>
+&lt;ul>
+&lt;li>用&lt;strong>最小可行性产品（MVP）&lt;/strong> 验证。&lt;/li>
+&lt;li>先上1-2个SKU，用小流量测试转化率、退货率、用户反馈。&lt;/li>
+&lt;li>数据好，再慢慢扩；数据差，立刻停，成本可控。&lt;/li>
+&lt;/ul>
+&lt;p>我之前跟一个做美妆的朋友聊。她每次推新品，只做1000个SKU（其实就是1000个单品），发到社群和私域里试水。卖得好，才敢大货备货。卖不动？那1000个就当送福利了，不心疼。&lt;/p>
+&lt;p>&lt;strong>反观那些一上来就备10万件的，不是傻就是家里有矿。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住：新品SKU，是试错成本，不是利润来源。&lt;/strong>&lt;/p>
+&lt;h3 id="4-动态管理别让sku变成僵尸">4. 动态管理，别让SKU变成僵尸&lt;/h3>
+&lt;p>SKU管理不是一锤子买卖。你砍完了，优化完了，就完事了？&lt;/p>
+&lt;p>&lt;strong>不可能。&lt;/strong> 市场在变，消费者在变，你的SKU也得跟着变。&lt;/p>
+&lt;p>很多公司的问题在于：&lt;strong>SKU是静态的。&lt;/strong> 上架了就不管了，直到过期、报废、退市。&lt;/p>
+&lt;p>这就叫“僵尸SKU”。活着的时候没贡献，死了还占着资源。&lt;/p>
+&lt;p>&lt;strong>动态管理怎么做？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>季度复盘：&lt;/strong> 每3个月拉一次SKU清单。砍掉连续3个月零销量的。&lt;/li>
+&lt;li>&lt;strong>月度监控：&lt;/strong> 监控每个SKU的动销率、库存周转天数、毛利率。低于预警线的，立刻处理。&lt;/li>
+&lt;li>&lt;strong>周度优化：&lt;/strong> 对于爆款SKU，每周看一次数据。库存够不够？要不要补货？有没有新竞品出现？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别嫌麻烦。&lt;/strong> 你不管SKU，SKU就管你。最后管到你现金流断裂，仓库爆炸。&lt;/p></description></item><item><title>库存压了500万才懂：JIT就是个骗局？</title><link>https://supplychain-tips.pages.dev/posts/jit-just-in-time-trap/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-just-in-time-trap/</guid><description>&lt;p>兄弟，你听我说。&lt;/p>
+&lt;p>上周有个做小家电的老板找我，愁得头发都快掉光了。他仓库里堆了价值500万的货，资金链崩得比橡皮筋还紧，结果呢？&lt;strong>最爆款的型号，断货了。&lt;/strong>&lt;/p>
+&lt;p>“我上个月刚信了JIT的邪，把安全库存砍了大半，想着零库存爽歪歪。结果供应商那边一个火情，我这边的单子全黄了。”&lt;/p>
+&lt;p>他点了一根烟，眼神飘忽：“JIT准时制，到底是不是个大骗局？”&lt;/p>
+&lt;p>我笑了。这问题，问得太好了。&lt;/p>
+&lt;p>很多人把JIT当神话，一上来就喊“零库存”、“消灭浪费”。结果呢？要么像这位老板一样，断货断到怀疑人生；要么就是内部怨声载道，生产线上天天像在打仗。&lt;/p>
+&lt;p>&lt;strong>JIT不是不能玩，是90%的人玩法错了。&lt;/strong>&lt;/p>
+&lt;p>今天，咱们就把它扒干净。不端着，不上课，就当咱俩在烧烤摊唠嗑。聊聊那些让你库存压500万才明白的事。&lt;/p>
+&lt;hr>
+&lt;h3 id="01-搞懂jit之前先搞懂你为啥被坑">01 搞懂JIT之前，先搞懂你为啥被坑&lt;/h3>
+&lt;p>很多公司上JIT，其实就一个原因：&lt;strong>老板看了本书，觉得库存都是罪恶。&lt;/strong>&lt;/p>
+&lt;p>“你看丰田，人家零库存，利润多高！我们这破仓库，每年光保管费就够养一个部门了，砍！”&lt;/p>
+&lt;p>然后呢？一刀切。&lt;/p>
+&lt;p>采购被逼着砍订单量，生产被逼着搞小批量。供应商受不了，要么涨价，要么断供。销售那边客户催得紧，最后全公司拉着横幅喊“保交付”，比打仗还乱。&lt;/p>
+&lt;p>你发现没？&lt;strong>JIT最大的坑，不是它本身，是“望文生义”。&lt;/strong>&lt;/p>
+&lt;p>你以为JIT是“我随要你随到”，实际上JIT是“我们俩配合得严丝合缝”。&lt;/p>
+&lt;p>就像谈恋爱。你以为对象是你肚子里的蛔虫，你一个眼神他就懂。但实际上，你没说，他没猜，最后就是一场灾难。&lt;/p>
+&lt;p>&lt;strong>JIT的本质，不是“零库存”，而是“准时”。&lt;/strong> 准时意味着什么？意味着&lt;strong>信息流和物流的完美同步&lt;/strong>。你生产计划还没排好，就敢让供应商送货？你不断货谁断货？&lt;/p>
+&lt;p>所以，在你大喊“我要上JIT”之前，先问问自己：&lt;/p>
+&lt;ul>
+&lt;li>你的销售预测准吗？偏差是不是经常超过30%？&lt;/li>
+&lt;li>你的供应商配合度够吗？它愿意为你改产线、备产能吗？&lt;/li>
+&lt;li>你的生产系统稳吗？设备故障率、不良率能控住吗？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果这三个问题，你有一个答案是“No”，那你现在玩JIT，就是找死。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="02-玩转jit的铁律别被零库存洗脑了">02 玩转JIT的铁律：别被“零库存”洗脑了&lt;/h3>
+&lt;p>那是不是说，中小企业就别碰JIT了？&lt;/p>
+&lt;p>也不是。但你要记住三条铁律，这是我从被坑到上岸，花了真金白银换来的。&lt;/p>
+&lt;p>&lt;strong>铁律一：先稳后快，别为了快而快&lt;/strong>&lt;/p>
+&lt;p>JIT的精髓是“拉动式生产”。后道工序要什么，前道工序才生产。但你得先保证后道工序的需求是稳定的。&lt;/p>
+&lt;p>怎么稳？&lt;strong>把生产节拍算清楚。&lt;/strong>&lt;/p>
+&lt;p>别拍脑袋定计划。去现场数，你这条线，一分钟能出几个产品？客户下单的节奏是啥样的？把波动性搞清楚，再去谈“拉动”。&lt;/p>
+&lt;p>&lt;strong>铁律二：供应商不是工具，是队友&lt;/strong>&lt;/p>
+&lt;p>很多公司压供应商价格、压交期，觉得天经地义。但玩JIT，你得把供应商当“外协车间”。&lt;/p>
+&lt;p>你要做的是：&lt;/p>
+&lt;ul>
+&lt;li>共享你的生产计划（至少提前2周）&lt;/li>
+&lt;li>帮他们稳定质量&lt;/li>
+&lt;li>甚至帮他们优化流程&lt;/li>
+&lt;/ul>
+&lt;p>你对他好，他才能在关键时刻不掉链子。&lt;strong>JIT最怕的，就是供应链上的“黑天鹅”。&lt;/strong> 一个环节断，全盘崩。&lt;/p>
+&lt;p>&lt;strong>铁律三：永远留一张“底牌”&lt;/strong>&lt;/p>
+&lt;p>别信“零库存”的鬼话。那是丰田干了30年才敢喊的口号。&lt;/p>
+&lt;p>你是什么体量？你的抗风险能力有丰田强吗？&lt;/p>
+&lt;p>所以，&lt;strong>保留一个“安全库存”的缓冲垫&lt;/strong>。不是让你把仓库堆满，而是针对最长交期、最不稳定的物料，留一点库存。&lt;/p>
+&lt;p>这个库存，就是你的“保险”。平时不用，一旦出事，它能救你命。&lt;/p>
+&lt;hr>
+&lt;h3 id="03-实操指南从入门到真香只需4步">03 实操指南：从入门到真香，只需4步&lt;/h3>
+&lt;p>光讲道理不行，咱们上干货。怎么一步步把JIT落地，还不翻车？&lt;/p>
+&lt;p>&lt;strong>第一步：从“一个流”开始，别搞大跃进&lt;/strong>&lt;/p>
+&lt;p>别一上来就全厂搞。选一条最稳定的产线，或者一个最成熟的品类，先试点。&lt;/p>
+&lt;p>比如，你是做电子组装的。选那个月产量最大、工艺最成熟的产品。把它的生产工序拆成“一个流”——单件流动，不堆料。&lt;/p>
+&lt;p>&lt;strong>结果：&lt;/strong> 你立马会看到，生产周期从几天缩到几小时，在制品库存肉眼可见地往下掉。&lt;/p>
+&lt;p>&lt;strong>第二步：看板是信号，不是摆设&lt;/strong>&lt;/p>
+&lt;p>很多人把看板当装饰品。挂墙上，没人看。&lt;/p>
+&lt;p>真正的看板，是&lt;strong>拉动生产的指令&lt;/strong>。后道工序取走一个零件，就往前道工序发出一张看板（电子或实体），告诉你：我需要补一个。&lt;/p>
+&lt;p>&lt;strong>记住：没有看板，就不生产，不搬运。&lt;/strong> 把这条当纪律，强制执行。&lt;/p>
+&lt;p>&lt;strong>第三步：建立“快速换模”能力&lt;/strong>&lt;/p>
+&lt;p>JIT最怕换线。一换线，几十分钟甚至几小时就浪费了。&lt;/p>
+&lt;p>你得想办法把换模时间降到10分钟以内。比如，提前准备工具、标准化工装、并行作业。&lt;/p>
+&lt;p>&lt;strong>这玩意儿练好了，你的柔性生产能力直接起飞。&lt;/strong> 小批量、多品种的单子，你也能接得下。&lt;/p>
+&lt;p>&lt;strong>第四步：每天开“站立会议”，盯紧异常&lt;/strong>&lt;/p>
+&lt;p>JIT的日常，就是不断发现并解决问题。&lt;/p>
+&lt;p>每天早上8点，生产、采购、质量的人站一起（没错，站着，开快会），花15分钟，只谈三件事：&lt;/p>
+&lt;ul>
+&lt;li>昨天哪条线停了？为什么？&lt;/li>
+&lt;li>哪个物料没到？原因是什么？&lt;/li>
+&lt;li>今天的计划有没有变动？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>不讨论方案，只暴露问题。&lt;/strong> 问题暴露了，责任部门领走，下班前给结果。&lt;/p></description></item><item><title>库存压了500万才明白，MRP其实就这3步</title><link>https://supplychain-tips.pages.dev/posts/mrp-three-steps/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-three-steps/</guid><description>&lt;p>&lt;strong>别被ERP骗了，MRP不是个按钮&lt;/strong>&lt;/p>
+&lt;p>兄弟，咱们聊点实在的。&lt;/p>
+&lt;p>你是不是也这样？每个月月底，对着ERP系统里那一串物料编码，头大得像被门夹过。系统跑一次MRP，结果出来一堆建议采购单，你一看，好家伙，有些料要买5000个，有些料显示“负数”——系统让你补货，但仓库里堆着去年买的2000个还没拆封。&lt;/p>
+&lt;p>你问IT怎么回事，IT说“数据问题”。你问PMC，PMC说“计划没问题”。你问自己，这MRP到底是不是个玄学？&lt;/p>
+&lt;p>我告诉你，&lt;strong>MRP不是个按钮&lt;/strong>。别指望点一下鼠标，系统就能替你搞定一切。&lt;/p>
+&lt;p>干了10年供应链，库存压了500万，天天被老板盯着库存周转率，后来发现，其实MRP就那几步破事。今天给你拆开揉碎讲清楚。&lt;/p>
+&lt;p>&lt;strong>### 第一步：搞清楚你到底要卖什么——MPS是命根子&lt;/strong>&lt;/p>
+&lt;p>MRP的全称叫“物料需求计划”，但很多公司连“需求”都搞不清楚就开始跑计划。&lt;/p>
+&lt;p>真相是：&lt;strong>MPS（主生产计划）才是MRP的亲爹&lt;/strong>。&lt;/p>
+&lt;p>别笑，真事。我见过太多公司，销售拍脑袋说“这个月我们要卖1000台”，然后PMC直接拿这个数让MRP跑采购计划。结果月底销售只卖了300台，仓库堆了700台的料。&lt;/p>
+&lt;p>你问我怎么办？凉拌。&lt;/p>
+&lt;p>&lt;strong>MPS必须靠谱&lt;/strong>。怎么做？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别只看销售预测&lt;/strong>，要看历史数据+趋势+异常系数。比如去年双十一卖爆了，今年你敢不敢按去年的量备货？敢，就准备好库存压半年。&lt;/li>
+&lt;li>&lt;strong>给MPS加个“缓冲带”&lt;/strong>。比如你算出来需要1000个成品，MPS只做800个，留200个的弹性。这叫“安全库存”，但别像我当年一样，安全库存设了300%，最后仓库变成“库存博物馆”。&lt;/li>
+&lt;li>&lt;strong>MPS定下来就别天天改&lt;/strong>。今天加500，明天减300，MRP会疯，采购会疯，供应商会把你拉黑。&lt;/li>
+&lt;/ul>
+&lt;p>记住一句话：&lt;strong>MPS是爹，MRP是儿子。爹不靠谱，儿子一定乱跑。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 第二步：把BOM表当情书一样对待——数据洁癖是美德&lt;/strong>&lt;/p>
+&lt;p>BOM（物料清单）是MRP的骨架。但很多公司的BOM表，比前任的关系还乱。&lt;/p>
+&lt;p>举个例子：你的产品需要A、B、C三种物料。BOM表里写的是“A：1个，B：2个，C：3个”。但实际生产中，因为设计变更，A已经改成1.5个了。BOM表没更新。&lt;/p>
+&lt;p>MRP一跑，它以为A只要1个，结果你买了1000个，实际用掉1500个，缺料500个。生产线停了，你的电话被打爆。&lt;/p>
+&lt;p>&lt;strong>BOM表必须精确到小数点&lt;/strong>。怎么治？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周做一次BOM审计&lt;/strong>。别觉得麻烦，缺料一次损失的工时和加班费，够你买三个月的数据洁癖。&lt;/li>
+&lt;li>&lt;strong>设计变更必须走流程&lt;/strong>。别让工程师偷偷改图纸，然后微信通知你“老张，BOM我改了啊”。你问他改了啥，他发你一个表情包。这种同事，建议拉黑。&lt;/li>
+&lt;li>&lt;strong>ERP里的BOM版本要管好&lt;/strong>。旧版本别删，留着查账用。万一MRP跑错了，还能回头找原因。&lt;/li>
+&lt;/ul>
+&lt;p>说到底，&lt;strong>MRP就是个算数的机器&lt;/strong>。你给它的数据是屎，它算出来的计划就是屎。别怪系统，怪你自己。&lt;/p>
+&lt;p>&lt;strong>### 第三步：算清楚提前期——别被“7天交货”忽悠&lt;/strong>&lt;/p>
+&lt;p>MRP的核心逻辑很简单：&lt;strong>什么时间，需要什么料，需要多少&lt;/strong>。&lt;/p>
+&lt;p>但很多公司死就死在“提前期”上。&lt;/p>
+&lt;p>采购说“这个料供应商7天交货”，你信了，MRP里设了7天提前期。结果供应商第10天才到货，生产线等料，你被骂成狗。&lt;/p>
+&lt;p>&lt;strong>提前期不是供应商的承诺，是历史数据+风险系数&lt;/strong>。&lt;/p>
+&lt;p>怎么算？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>找过去3个月的实际到货天数&lt;/strong>。如果是7-12天波动，别设7天，设10天。多出的3天叫“安全提前期”。&lt;/li>
+&lt;li>&lt;strong>区分“长交期料”和“短交期料”&lt;/strong>。进口芯片、定制模具，这种料提前期可能30-60天，必须单独管理。别和普通电阻混在一起跑MRP，不然你会被“负数库存”逼疯。&lt;/li>
+&lt;li>&lt;strong>供应商的产能波动要考虑&lt;/strong>。比如春节前、双十一前，供应商自己也缺料，提前期翻倍是常态。这时候MRP要手动调整，别指望系统自动聪明。&lt;/li>
+&lt;/ul>
+&lt;p>还有一点：&lt;strong>别被“安全库存”骗了&lt;/strong>。很多公司设安全库存是为了掩盖MRP跑不准。结果安全库存越设越高，库存越压越多。最后老板问“库存为什么这么高”，你说“为了保证不缺料”。老板说“那为什么还缺料？”——你哑口无言。&lt;/p>
+&lt;p>&lt;strong>安全库存是止痛药，不是救命药。MRP算得准，才是根治。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 第四步：跑MRP不是一次性的活——动态调整才是王道&lt;/strong>&lt;/p>
+&lt;p>很多人以为，一个月跑一次MRP，生成采购单，然后就可以躺平了。&lt;/p>
+&lt;p>错。&lt;/p>
+&lt;p>&lt;strong>市场在变，订单在变，供应商也在变。MRP必须动态更新。&lt;/strong>&lt;/p>
+&lt;p>我见过最牛的公司，每天凌晨自动跑一次MRP，然后把异常的物料推送到采购手机上。采购早上起来看一眼，就知道今天该催哪个单。&lt;/p>
+&lt;p>&lt;strong>怎么做到动态调整？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ERP里设置“计划冻结期”&lt;/strong>。比如未来7天的计划不能随便动，保证生产稳定。7天之后可以灵活调整。&lt;/li>
+&lt;li>&lt;strong>每周开一次“MRP复盘会”&lt;/strong>。别开会就是吵架，要带着数据来：哪些物料缺料了？为什么？BOM错了还是提前期错了？记录原因，下次改进。&lt;/li>
+&lt;li>&lt;strong>学会用“异常清单”&lt;/strong>。MRP跑完，别只看正常的需求，重点关注“负数库存”、“超量需求”、“未到货”这些异常项。这些才是真正会要你命的坑。&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>MRP不是算一次就完事，它是活的东西。你不管它，它迟早会捅你一刀。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 最后说点扎心的&lt;/strong>&lt;/p>
+&lt;p>月薪5千的采购，天天忙着催货、填单、被骂。月薪5万的采购，天天忙着分析数据、优化流程、跟老板汇报“库存周转率提升了20%”。&lt;/p>
+&lt;p>差距在哪？不是能力，是思维方式。&lt;/p>
+&lt;p>MRP这件事，说到底就是：&lt;strong>需求准、BOM准、提前期准、动态调整&lt;/strong>。4个准，你做到3个，公司就不会被库存压死；做到4个，你就是供应链大神。&lt;/p>
+&lt;p>别嫌我说话难听。库存压了500万才明白的事，今天免费告诉你了。&lt;/p>
+&lt;p>&lt;strong>最后一句：&lt;/strong>
+如果你觉得这篇有用，别自己藏着。转发给你的同事、同行，尤其是那个天天加班催料的倒霉蛋。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货
+——毕竟，供应链人的苦，只有我们自己懂。&lt;/p></description></item><item><title>库存压了500万才明白的需求预测真相</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-truth/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-truth/</guid><description>&lt;p>上周一个采购兄弟半夜给我发微信：&lt;strong>“老哥，我刚批了300万的备货计划，现在老板天天盯着我骂。”&lt;/strong>&lt;/p>
+&lt;p>我问他怎么回事。&lt;/p>
+&lt;p>他说去年双十一爆单爆得爽，老板一拍脑袋说今年翻倍备货。结果今年消费疲软，仓库里堆了500多万的货，&lt;strong>连过道都走不了人&lt;/strong>。财务天天催他出库存，销售天天喊卖不动，老板开会就问他“当时怎么预测的”。&lt;/p>
+&lt;p>&lt;strong>他问我：需求预测这东西，到底有没有靠谱的方法？&lt;/strong>&lt;/p>
+&lt;p>我回他：&lt;strong>别信什么“精准预测”的鬼话。&lt;/strong> 干了10年供应链，我见过的坑比你吃过的盐还多。今天不整虚的，直接说3个最要命的误区——&lt;strong>你踩过1个，至少亏50万。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="误区一把历史数据当亲爹">误区一：把“历史数据”当亲爹&lt;/h3>
+&lt;p>很多公司做预测，就是拉过去3年的销售数据，然后&lt;strong>线性外推&lt;/strong>。&lt;/p>
+&lt;p>去年卖100，今年增长10%，于是备110。看似合理，但你想想：&lt;/p>
+&lt;ul>
+&lt;li>去年疫情封控，销量全靠社区团购撑，今年全面放开，数据能一样吗？&lt;/li>
+&lt;li>去年竞品缺货，你捡漏多卖了30%，今年竞品补货了，你还能躺赢？&lt;/li>
+&lt;li>去年你搞了个大促，销量虚高，今年不搞了，库存等着烂吧？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>历史数据是后视镜，不是导航仪。&lt;/strong>&lt;/p>
+&lt;p>我一个客户，做母婴用品的，去年囤了一堆婴儿湿巾。结果今年出生率断崖式下跌，仓库里堆到过期都卖不掉。&lt;strong>他问我怎么办，我说：你现在最该做的不是预测，是清仓。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真正的高手怎么做？&lt;/strong>&lt;/p>
+&lt;p>不是看历史，是看&lt;strong>信号&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>电商搜索指数涨了？赶紧备货&lt;/li>
+&lt;li>竞品开始降价了？压住库存&lt;/li>
+&lt;li>原材料期货跌了？别急着下单&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：预测不是算数，是读风向。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="误区二追求100精准">误区二：追求“100%精准”&lt;/h3>
+&lt;p>有一类老板，天天喊 &lt;strong>“需求预测必须准到90%以上”&lt;/strong>。&lt;/p>
+&lt;p>我跟你说，&lt;strong>这种老板不是蠢就是坏&lt;/strong>。需求预测的本质是&lt;strong>概率游戏&lt;/strong>，不是做数学题。&lt;/p>
+&lt;p>你要是真能做到90%准确率，那你应该去&lt;strong>做天气预报&lt;/strong>，而不是卖货。&lt;/p>
+&lt;p>&lt;strong>现实是什么？&lt;/strong> 你猜对了，仓库不够用；你猜错了，库存爆仓。所以&lt;strong>高手不追求精准，他们追求弹性&lt;/strong>。&lt;/p>
+&lt;p>什么意思？&lt;/p>
+&lt;p>就是&lt;strong>做最坏的打算，留最好的余地&lt;/strong>。&lt;/p>
+&lt;p>举个栗子：&lt;/p>
+&lt;ul>
+&lt;li>你预测下个月卖1000件，别傻乎乎备2000件&lt;/li>
+&lt;li>而是备800件保底，再签200件的急单协议&lt;/li>
+&lt;li>万一真爆了，加钱让供应商加急生产&lt;/li>
+&lt;/ul>
+&lt;p>这样哪怕你预测错了，&lt;strong>损失也有限&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>记住：库存是成本，不是资产。&lt;/strong> 你多囤的那200件，不是赚了，是&lt;strong>压在脖子上的刀&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="误区三只看销量不看场景">误区三：只看“销量”，不看“场景”&lt;/h3>
+&lt;p>很多采购做预测，只看&lt;strong>销量数字&lt;/strong>。&lt;/p>
+&lt;p>销量涨了，就多备；销量跌了，就少备。&lt;strong>但销量背后是什么？没人关心。&lt;/strong>&lt;/p>
+&lt;p>我给你讲个真事：&lt;/p>
+&lt;p>我有个朋友做服装，去年秋天羽绒服爆了，销量翻倍。他赶紧加单，结果入冬后卖不动了。怎么回事？&lt;/p>
+&lt;p>&lt;strong>因为去年是“拉尼娜年”，冷得早。今年是“厄尔尼诺年”，暖冬。&lt;/strong>&lt;/p>
+&lt;p>你光看销量涨，不看天气变化，&lt;strong>这不是预测，这是赌博&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>场景预测才是核心：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>季节性产品&lt;/strong>：看天气、看节气&lt;/li>
+&lt;li>&lt;strong>节日性产品&lt;/strong>：看放假安排、看消费趋势&lt;/li>
+&lt;li>&lt;strong>爆款产品&lt;/strong>：看社交媒体、看KOL种草&lt;/li>
+&lt;li>&lt;strong>长尾产品&lt;/strong>：看复购率、看用户生命周期&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你关注的不应该是“卖了多少”，而是“为什么卖”和“还会不会卖”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="那到底怎么练需求预测">那到底怎么练需求预测？&lt;/h3>
+&lt;p>别急着要模板，先练&lt;strong>3个基本功&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 学会“拆解”&lt;/strong>&lt;/p>
+&lt;p>别只看总销量。拆开看：&lt;/p>
+&lt;ul>
+&lt;li>哪些是自然增长？哪些是促销拉动？&lt;/li>
+&lt;li>哪些是新客买的？哪些是老客复购？&lt;/li>
+&lt;li>哪些是刚需？哪些是冲动消费？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>拆得越细，预测越准。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2. 学会“找参照”&lt;/strong>&lt;/p>
+&lt;p>找不到规律？看看同行：&lt;/p>
+&lt;ul>
+&lt;li>竞品上新节奏是什么？&lt;/li>
+&lt;li>行业大盘是涨是跌？&lt;/li>
+&lt;li>供应链上游的产能情况如何？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别闭门造车，要借别人的数据当参考。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>3. 学会“试错”&lt;/strong>&lt;/p>
+&lt;p>小批量、多批次、快速迭代。&lt;/p>
+&lt;ul>
+&lt;li>先备一个月试试水&lt;/li>
+&lt;li>卖得好再加单&lt;/li>
+&lt;li>卖不动立刻止损&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>预测不是一次性的，是不断调整的动态过程。&lt;/strong>&lt;/p></description></item><item><title>库存压了500万，我才搞懂周转率</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/</guid><description>&lt;p>哥们，你有没有过这种经历——&lt;/p>
+&lt;p>仓库堆得像快递站，老板路过脸都绿了，问你：“库存周转率多少？”你心里一虚，嘴上报了个数，结果老板冷笑：“你报的这是库存周转率，还是你的人生周转率？”&lt;/p>
+&lt;p>别笑。这事我干过。&lt;/p>
+&lt;p>当年我刚干采购那会，库存压了500万，老板拍桌子骂我“库存会呼吸吗？怎么越压越多”。我才发现，库存周转率这玩意，不是算个数字交差，而是能救你命的。&lt;/p>
+&lt;p>今天不整虚的，直接聊3个我踩过的坑。看完你就知道，为什么别人库房转得跟陀螺一样，你的却像死水一潭。&lt;/p>
+&lt;h3 id="1-以为周转率越高越好错小心断货断到哭">1. 以为周转率越高越好？错！小心断货断到哭&lt;/h3>
+&lt;p>刚入行时，我跟着一篇文章学“周转率要高”。于是拼命压库存，什么快消品、热销品，只备一周的量。结果呢？供应商晚了两天发货，我的货架直接空了。老板当着客户的面骂我：“你搞的是库存，还是行为艺术？”&lt;/p>
+&lt;p>&lt;strong>真相是什么？&lt;/strong>&lt;/p>
+&lt;p>周转率不是孤独的游戏。它要跟&lt;strong>服务水平&lt;/strong>一起看。&lt;/p>
+&lt;ul>
+&lt;li>周转率太高 → 库存薄如纸 → 断货风险飙升&lt;/li>
+&lt;li>周转率太低 → 库存堆成山 → 资金压得喘不过气&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确的玩法：&lt;/strong>&lt;/p>
+&lt;p>算一个叫“安全库存”的东西。比如你某个SKU，平均日销100个，补货周期7天，那最低安全库存就是100 × 7 = 700个。你再根据自己的资金和风险承受能力，加20%-30%的缓冲。&lt;/p>
+&lt;p>别盲目追高周转，&lt;strong>先保证别断货&lt;/strong>。断货一次，损失的不止是销售额，还有客户信任。&lt;/p>
+&lt;h3 id="2-以为算个平均值就完事错要按abc分类干">2. 以为算个平均值就完事？错！要按ABC分类干&lt;/h3>
+&lt;p>有一阵，我特爱看报表里那个“整体周转率”。数字还挺好看，12次/年，感觉自己是供应链天才。结果一查明细，发现真相是：A类爆款周转20次，C类滞销品只有2次。平均值被A类拉高了，但C类货压了半年，成本早把利润吃光了。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>用&lt;strong>ABC分类法&lt;/strong>（也叫帕累托分析法）：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（高价值、高周转）&lt;/strong>：销售额占比高，品种少，管得最严。每周盘点，周转目标设在12-24次/年。&lt;/li>
+&lt;li>&lt;strong>B类（中等）&lt;/strong>：库存管理可以稍微松点，目标6-12次/年。&lt;/li>
+&lt;li>&lt;strong>C类（低价值、慢周转）&lt;/strong>：销售额低，但品种多。别费太多精力，目标2-4次/年。甚至可以接受“慢”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>实操动作：&lt;/strong>&lt;/p>
+&lt;p>每个月拉一张表，按销售额排序，把前20%的SKU标为A类，后50%的标为C类。然后：&lt;/p>
+&lt;ul>
+&lt;li>A类：专人盯，每天看库存水位&lt;/li>
+&lt;li>B类：每周看一次&lt;/li>
+&lt;li>C类：每月清一次，该打折打折，该报废报废&lt;/li>
+&lt;/ul>
+&lt;p>别让C类货拖累你的整体周转率。&lt;strong>把资源花在刀刃上&lt;/strong>。&lt;/p>
+&lt;h3 id="3-以为周转率是采购的事错它是全公司的锅">3. 以为周转率是采购的事？错！它是全公司的锅&lt;/h3>
+&lt;p>最扎心的坑是——我辛辛苦苦把周转率从5次拉到8次，结果销售团队搞了个大促，一次性进了300万的货，压了两个月没卖。老板又来骂我：“库存周转率怎么又掉下来了？”&lt;/p>
+&lt;p>我特么想骂人。&lt;/p>
+&lt;p>&lt;strong>真相：库存周转率是公司级的KPI，不是采购一个人的考核。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销售团队&lt;/strong>：为了冲业绩，疯狂囤货，不考虑库存周转&lt;/li>
+&lt;li>&lt;strong>生产团队&lt;/strong>：为了降低生产成本，一次生产一大批，库存直接爆仓&lt;/li>
+&lt;li>&lt;strong>财务团队&lt;/strong>：为了减少资金占用，拼命压采购账期，结果供应商不发货&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>拉所有人开“库存周转会”&lt;/strong>：每月一次，销售、采购、生产、财务必须到场。会上只聊一件事：未来30天的库存计划。&lt;/li>
+&lt;li>&lt;strong>用数据说话&lt;/strong>：做一个简单的仪表盘，显示每个SKU的周转率、库存天数、断货预警。谁搞事，数据直接砸脸上。&lt;/li>
+&lt;li>&lt;strong>把库存周转跟绩效挂钩&lt;/strong>：比如销售团队的奖金，跟“库存周转率”或“库存金额”挂钩。卖得多不一定好，卖得快才是王道。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住一个公式：&lt;/strong>
+库存周转率 = 销售成本 ÷ 平均库存&lt;/p>
+&lt;p>库存不是你的敌人，&lt;strong>但压死库存的锅，不能你一个人背&lt;/strong>。&lt;/p>
+&lt;h3 id="最后送一句扎心的话">最后，送一句扎心的话&lt;/h3>
+&lt;p>库存周转率，不是算出来的，是干出来的。&lt;/p>
+&lt;p>你盯着Excel算半天，不如去仓库走一趟，看看哪些货在吃灰，哪些货在生钱。&lt;strong>搞懂周转率，就是搞懂钱在怎么转&lt;/strong>。&lt;/p>
+&lt;p>别再让老板问你“周转率多少”时，你只能报个数字。下次，你可以告诉他：“这个月我们A类品周转了15次，C类品我们清掉了30%，整体周转率从6次提到了9次，现金流释放了200万。”&lt;/p>
+&lt;p>相信我，老板听完，眼神都不一样了。&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」，回复“周转率”，送你一套库存周转率自检表+ABC分类模板。&lt;/p></description></item><item><title>库存压了500万才明白：WMS是救命稻草</title><link>https://supplychain-tips.pages.dev/posts/wms-inventory-lesson/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-inventory-lesson/</guid><description>&lt;p>兄弟们，先说个真事。&lt;/p>
+&lt;p>去年，我认识的一个老板，做电商的，仓库里堆满了货，库存压了整整500万。他天天对着Excel表格算账，眼珠子都快瞪出来了，结果呢？&lt;strong>年终盘点，发现30%的货过期了，还有20%根本找不到在哪。&lt;/strong>&lt;/p>
+&lt;p>他当场崩溃，跟我说：“我这500万，算是喂了狗。”&lt;/p>
+&lt;p>我问他：“你上WMS了吗？”&lt;/p>
+&lt;p>他一脸懵：“WMS？那不是大厂才用的吗？我这小庙，用不起吧？”&lt;/p>
+&lt;p>&lt;strong>你看，这就是最致命的认知差。&lt;/strong>&lt;/p>
+&lt;p>很多人觉得WMS（仓库管理系统）是烧钱的黑科技，是给那些月流水几千万的大佬玩的。但现实是，&lt;strong>月亏5万的小仓，比月赚50万的大仓，更需要它。&lt;/strong>&lt;/p>
+&lt;p>今天，我就把压了500万库存才换来的教训，掰开了揉碎了讲给你听。不扯概念，只讲人话，全是干货。如果看完你还不懂，那我劝你赶紧转行。&lt;/p>
+&lt;hr>
+&lt;h3 id="第一个坑你以为人脑比电脑靠谱">第一个坑：你以为“人脑”比“电脑”靠谱？&lt;/h3>
+&lt;p>我见过太多仓库，还停留在“人治”阶段。老板拍脑袋补货，库管拍胸脯说“货都在”，结果呢？&lt;strong>找货半小时，发货全靠吼。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>你想想，你仓库里有多少SKU？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>如果是几十个，那没问题，你拿个本子记都行。&lt;/li>
+&lt;li>但如果你有上千个，甚至上万个，你还靠人脑？那就是在赌博。&lt;/li>
+&lt;/ul>
+&lt;p>我那个老板朋友，就是典型的例子。他手下有个老库管，干了8年，号称“活地图”。老板对他言听计从，补货、出库、盘点，全听他一人指挥。&lt;/p>
+&lt;p>结果呢？老库管一请假，整个仓库直接瘫痪。新来的员工连货架号都找不到，发错货、漏发货，客户投诉电话打爆。&lt;/p>
+&lt;p>&lt;strong>WMS系统怎么救你？&lt;/strong>&lt;/p>
+&lt;p>它不依赖“人肉记忆”。每个货位都有唯一编码，系统精准定位。你扫码，它告诉你A-02-03货架第三层有货。你捡货，它规划最短路径。你盘点，它自动比对差异。&lt;/p>
+&lt;p>&lt;strong>说白了，WMS就是把“老库管的大脑”变成了“全公司的共享大脑”。&lt;/strong> 离职了换人，系统不会变，效率不会降。&lt;/p>
+&lt;p>&lt;strong>别迷信“人脑”了，你的大脑是用来决策的，不是用来记货位的。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="第二个坑库存数据是黑箱你永远在猜">第二个坑：库存数据是“黑箱”，你永远在猜&lt;/h3>
+&lt;p>很多管理者，对库存的认知就三个字：&lt;strong>差不多&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>“我们大概有5000件。”&lt;/li>
+&lt;li>“这批货应该还能撑两周。”&lt;/li>
+&lt;li>“那个货好像卖得不错，再补点吧。”&lt;/li>
+&lt;/ul>
+&lt;p>“差不多”就是“差很多”。&lt;/p>
+&lt;p>&lt;strong>库存数据的黑洞，会让你不知不觉把钱烧光。&lt;/strong>&lt;/p>
+&lt;p>我见过一个做服装的，旺季补货，系统显示某款T恤还有300件库存，他放心大胆地卖了三天。结果第三天，客户下单，仓库说没货了。一查才发现，那300件其实是次品，卡在退货区没处理。&lt;/p>
+&lt;p>&lt;strong>就这一下，直接损失十几万订单，还赔了客户信任。&lt;/strong>&lt;/p>
+&lt;p>WMS系统解决的就是这个痛点。它给你的是 &lt;strong>“实时的、精准的”&lt;/strong> 数据。&lt;/p>
+&lt;ul>
+&lt;li>入库扫码，数量、批次、位置，一秒录入。&lt;/li>
+&lt;li>出库扫码，谁拿的、去哪了、货在哪，全程追踪。&lt;/li>
+&lt;li>库存变动，实时更新，进出有痕。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你打开手机，就能看到仓库里每一件货的“生死簿”。&lt;/strong>&lt;/p>
+&lt;p>哪个SKU动销快，需要补货；哪个SKU滞销半年了，该清仓；哪个批次快过期了，要优先出库。&lt;strong>清清楚楚，明明白白。&lt;/strong>&lt;/p>
+&lt;p>别再靠“猜”做生意了。&lt;strong>你的钱，不应该睡在仓库里，更不应该睡在“黑箱”里。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="第三个坑效率低到发指你还在自我感动">第三个坑：效率低到发指，你还在自我感动&lt;/h3>
+&lt;p>有些仓库管理者，特别容易自我感动。&lt;/p>
+&lt;p>“你看我多努力，每天加班到12点，亲自盯着发货。”
+“我们团队执行力强，一天能发500单。”&lt;/p>
+&lt;p>醒醒吧，兄弟。&lt;strong>你所谓的“努力”，在系统面前，可能一文不值。&lt;/strong>&lt;/p>
+&lt;p>我合作过一个电商客户，人工拣货，人均一天拣300件。累得半死，差错率还高达5%。用了WMS之后呢？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>路径优化：&lt;/strong> 系统自动规划最短拣货路线，少走50%冤枉路。&lt;/li>
+&lt;li>&lt;strong>波次拣选：&lt;/strong> 把订单合并，一次拣多单，效率翻倍。&lt;/li>
+&lt;li>&lt;strong>智能分配：&lt;/strong> 把热销品放在黄金货位，冷门品放高处。&lt;/li>
+&lt;/ul>
+&lt;p>结果，同样的人，同样的仓库，人均日拣货量直接飙到800件，差错率降到0.5%以下。&lt;/p>
+&lt;p>&lt;strong>你还在用“蛮力”跟“算法”赛跑？&lt;/strong>&lt;/p>
+&lt;p>别傻了，年轻人。你的时间很值钱，你的员工的时间也很值钱。&lt;strong>把重复的、低价值的劳动交给系统，把人解放出来，去做更有价值的事——比如思考怎么多卖货。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="第四个坑以为wms很贵其实你的库存损耗更贵">第四个坑：以为WMS很贵？其实你的库存损耗更贵&lt;/h3>
+&lt;p>很多人一听说WMS，第一反应就是：“是不是很贵？我们小公司用不起。”&lt;/p>
+&lt;p>&lt;strong>这是最大的误解。&lt;/strong>&lt;/p>
+&lt;p>WMS系统早就不是大厂的专利了。现在市面上，&lt;strong>几千块就能搞定的SaaS版WMS，一大把。&lt;/strong> 按年付费，随用随停，成本低到忽略不计。&lt;/p>
+&lt;p>&lt;strong>你算一笔账：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>你的库存损耗率是多少？5%？10%？还是20%？&lt;/li>
+&lt;li>你因为发错货、漏发货，赔了多少钱？&lt;/li>
+&lt;li>你因为盘点不准，多补了多少货？&lt;/li>
+&lt;li>你因为效率低，多付了多少人工费？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些隐形成本加起来，够你买一百个WMS系统了。&lt;/strong>&lt;/p>
+&lt;p>我那个压了500万的老板朋友，去年终于咬牙上了WMS。一年下来，库存损耗率从15%降到3%，人工成本省了30%，客户投诉少了90%。&lt;/p>
+&lt;p>&lt;strong>你算算，他是不是一年就回本了？&lt;/strong>&lt;/p>
+&lt;p>所以，别再说“用不起”了。&lt;strong>真正用不起的，是你看着库存一点点烂在仓库里，却无能为力的那种绝望。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="总结一下wms不是选择题而是生存题">总结一下：WMS不是选择题，而是生存题&lt;/h3>
+&lt;p>对于今天的仓库管理者来说，WMS系统已经不是“要不要上”的问题，而是 &lt;strong>“什么时候上”的问题。&lt;/strong>&lt;/p></description></item><item><title>库存压了800万才懂：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>&lt;strong>兄弟，你被MRP坑过吗？&lt;/strong>&lt;/p>
+&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年底，我一个做电子厂供应链的朋友，半夜给我打电话，声音都是抖的。&lt;/p>
+&lt;p>“完了，库存积压了800万，老板让我明天滚蛋。”&lt;/p>
+&lt;p>我问怎么回事。他说，MRP跑出来说未来三个月订单需求暴增，采购按系统建议狂下单，结果订单突然被砍了60%。仓库堆满了芯片，资金链差点断裂。&lt;/p>
+&lt;p>挂完电话我就在想——&lt;strong>这么多人的公司，月薪两三万的供应链总监，竟然被一个系统算得找不着北。&lt;/strong>&lt;/p>
+&lt;p>更扎心的是，很多人一边骂MRP垃圾，一边又离不开它。为什么？因为不用MRP，你连排产都做不了；用了MRP，它又像个任性的女朋友，随时给你挖坑。&lt;/p>
+&lt;p>今天不跟你扯教科书那一套。我直接说3个血泪教训，让你搞懂MRP到底该怎么用，&lt;strong>怎么让系统真正给你省钱，而不是让你背锅。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-mrp不是神它只是个算数工具">1. MRP不是神，它只是个算数工具&lt;/h3>
+&lt;p>&lt;strong>别把系统当决策者，它连初中生都不如。&lt;/strong>&lt;/p>
+&lt;p>很多人以为，MRP跑出来的数据就是圣旨。采购按它下单，计划按它排产，仓库按它备货。结果呢？一出事，全赖系统。&lt;/p>
+&lt;p>但你想过没有——MRP就是个加减乘除的机器，它根本不知道你的供应商靠不靠谱，客户会不会临时改单，产线良品率到底多少。&lt;/p>
+&lt;p>&lt;strong>它只做三件事：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>用BOM（物料清单）算出你需要多少料&lt;/li>
+&lt;li>用库存数据算出你现在还有多少&lt;/li>
+&lt;li>用订单数据算出你还要补多少&lt;/li>
+&lt;/ul>
+&lt;p>然后给你一个数字。&lt;/p>
+&lt;p>数字没错，但前提是&lt;strong>你给它喂的数据是屎&lt;/strong>，它拉出来的就是屎。&lt;/p>
+&lt;p>我见过太多公司，BOM表里物料编号都写错，库存数据三天没更新，客户订单还是上周的。然后一群人对着MRP的报表开会，讨论得热火朝天，最后发现——&lt;strong>方向全错了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住一句话：Garbage in，Garbage out。&lt;/strong>&lt;/p>
+&lt;p>你的数据不准，MRP就是个摆设。你的数据准了，它才是个好用的算盘。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-安全库存不是安全是毒药">2. 安全库存不是安全，是毒药&lt;/h3>
+&lt;p>&lt;strong>你设的安全库存，可能正在吃掉你的利润。&lt;/strong>&lt;/p>
+&lt;p>这是MRP最坑的地方。&lt;/p>
+&lt;p>很多人为了“万无一失”，给每个物料都设一个高高的安全库存。MRP跑出来一看，需求1000，库存800，安全库存300——好，补500。&lt;/p>
+&lt;p>结果呢？仓库里堆满了“以防万一”的料，资金全压在那里，周转率低得吓人。老板一看报表，问：“怎么库存又高了？”你说：“这是安全库存。”&lt;/p>
+&lt;p>&lt;strong>老板心里想的是：安全个屁，这分明是库存炸弹。&lt;/strong>&lt;/p>
+&lt;p>那怎么办？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分类设库存&lt;/strong>：ABC分析法听过没？A类贵价物料，安全库存设低点，甚至不设；C类便宜料，可以高一点。&lt;/li>
+&lt;li>&lt;strong>动态调整&lt;/strong>：安全库存不是定了就不能改。每个月根据实际出货、供应商交期、生产波动，手动调一调。&lt;/li>
+&lt;li>&lt;strong>别让MRP自动补&lt;/strong>：很多系统默认勾选“自动补安全库存”，你一不注意，它就帮你疯狂下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相是：安全库存是给管理失误买的保险。你管理越烂，保险越贵。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-计划赶不上变化那就让计划更短">3. 计划赶不上变化？那就让计划更短&lt;/h3>
+&lt;p>&lt;strong>为什么你的MRP永远不准？因为你计划周期太长了。&lt;/strong>&lt;/p>
+&lt;p>很多公司喜欢做季度计划、半年计划。MRP跑一次，然后三个月不动。&lt;/p>
+&lt;p>但现实是什么？客户今天下单，明天改单，后天取消。产线今天正常，明天故障，后天缺料。&lt;/p>
+&lt;p>&lt;strong>你拿着三个月前的计划，去应对今天的市场，不亏钱谁亏钱？&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的案例：一家做小家电的公司，MRP计划周期是60天。结果一个爆款上线后，需求突然暴增3倍。系统还在按旧计划下单，采购不知道，供应商没准备。等反应过来，货期已经晚了两个月，市场份额被对手抢走了。&lt;/p>
+&lt;p>&lt;strong>解决方案就一句话：缩短计划周期，加快迭代频率。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周跑一次MRP&lt;/strong>，别偷懒。系统不累，你累点没事。&lt;/li>
+&lt;li>&lt;strong>滚动计划&lt;/strong>：别做死板的月度计划，用滚动13周计划。每周更新一次，动态调整未来三个月的采购和生产。&lt;/li>
+&lt;li>&lt;strong>关键物料单独盯&lt;/strong>：对交期长、价值高的物料，要手动跟进，别全交给系统。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：MRP反应越快，你踩坑越少。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-别让mrp背锅先管好你的数据">4. 别让MRP背锅，先管好你的数据&lt;/h3>
+&lt;p>&lt;strong>数据不准，MRP就是废铁。&lt;/strong>&lt;/p>
+&lt;p>这句话我说第二遍了，但值得再强调一次。&lt;/p>
+&lt;p>我进过一家公司，库存差异率高达20%。什么意思？系统显示库存1000，实际只有800。MRP跑出来说不用补，结果产线第二天就缺料停工了。&lt;/p>
+&lt;p>&lt;strong>最恐怖的是，他们还在用这个数据做决策。&lt;/strong>&lt;/p>
+&lt;p>怎么解决？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>盘点频次提高&lt;/strong>：别等年底盘点。高价值物料每周盘一次，普通物料每月盘一次。&lt;/li>
+&lt;li>&lt;strong>系统录入要严格&lt;/strong>：入库、出库、退料，每一步都要有人签字确认。别让员工“先干活后补单”。&lt;/li>
+&lt;li>&lt;strong>BOM表要实时更新&lt;/strong>：物料变更、替代料、版本升级，必须第一时间更新系统。不然MRP算出来的都是错误。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据准了，MRP才有意义。不然你就是在拿错误的数据，做错误的决策，最后得出错误的结果。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-人机结合才是mrp的正确用法">5. 人机结合，才是MRP的正确用法&lt;/h3>
+&lt;p>&lt;strong>系统帮你算，人帮你决策。&lt;/strong>&lt;/p>
+&lt;p>这是最后一点，也是最核心的一点。&lt;/p>
+&lt;p>MRP能告诉你“缺什么”“缺多少”，但它不能告诉你“该不该买”。&lt;/p>
+&lt;p>比如，MRP算出你需要补1000个芯片。但你知道供应商下周要涨价，或者客户可能在改单，或者产线有批不良品要返工——这些信息，MRP不知道。&lt;/p>
+&lt;p>&lt;strong>所以，正确的流程是：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>MRP跑出数据&lt;/li>
+&lt;li>你结合市场、供应商、产线信息做判断&lt;/li>
+&lt;li>人工调整后，再给采购下指令&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别做MRP的奴隶，做它的主人。&lt;/strong>&lt;/p></description></item></channel></rss>

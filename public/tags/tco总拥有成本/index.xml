@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCO总拥有成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/tco%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC/</link><description>Recent content in TCO总拥有成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/tco%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>采购只看价格？你亏掉的钱能买一套房</title><link>https://supplychain-tips.pages.dev/posts/tco-hidden-costs/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-hidden-costs/</guid><description>&lt;p>前两天跟一个做采购的朋友撸串，他灌了半瓶啤酒，红着眼跟我说：&lt;/p>
+&lt;p>&lt;strong>“我被老板骂惨了。就因为去年贪便宜，买了那批‘性价比超高’的二手叉车。”&lt;/strong>&lt;/p>
+&lt;p>结果呢？买回来第一个月，维修费花了3万。第二个月，电池报废，换一套1万5。第三个月，直接趴窝，耽误生产线两天，损失订单20万。&lt;/p>
+&lt;p>他拍着桌子吼：“现在算下来，总成本比买新的贵了整整一倍！老板说我是‘省钱天才’，讽刺的那种。”&lt;/p>
+&lt;p>我听完，就回了他一句话：“兄弟，你缺的不是省钱技巧，你缺的是TCO脑子。”&lt;/p>
+&lt;hr>
+&lt;h3 id="01-为什么你拼命省钱老板却觉得你在亏钱">01. 为什么你拼命省钱，老板却觉得你在亏钱？&lt;/h3>
+&lt;p>别笑。这种“省小钱亏大钱”的坑，90%的采购都踩过。&lt;/p>
+&lt;p>&lt;strong>因为你把“价格”当成了“成本”。&lt;/strong>&lt;/p>
+&lt;p>你盯着供应商报价单上的那个数字，恨不得砍到脚踝，以为这就是为公司省钱了。但真相是——&lt;strong>那个数字只是冰山一角。&lt;/strong>&lt;/p>
+&lt;p>水面下藏着什么？&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>隐形成本1：维修保养的“无底洞”&lt;/strong>
+便宜设备=故障率高。今天坏个电机，明天断根皮带。供应商售后？打10个电话接1个，上门还要另收费。你光跟维修师傅周旋的时间，都够再谈一个项目了。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本2：停机带来的“滚雪球”&lt;/strong>
+设备一停，产线跟着停。人工费照付，客户交期延误，罚款单跟雪花一样飞来。算过这笔账吗？&lt;strong>停机一小时 = 吃掉你一年的砍价成果。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本3：能源消耗的“慢性毒药”&lt;/strong>
+低效设备=电费狂飙。同样的产出，老旧的电机比新款的能耗高30%。你省下的那点采购差价，两年全交给电网了。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本4：培训和管理的心累&lt;/strong>
+买个复杂的破系统，员工不会用，你得组织培训3天。买个劣质原料，质检退货流程走半个月。这些都是人力，都是钱。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以，老板骂你，不是因为你没省钱，而是因为你只省了明面上的钱，却在看不见的地方，把公司往死里亏。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="02-tco是个啥别怕不讲公式">02. TCO是个啥？别怕，不讲公式&lt;/h3>
+&lt;p>TCO，全称Total Cost of Ownership，总拥有成本。&lt;/p>
+&lt;p>听起来高大上？其实就是一句话：&lt;strong>别只看买它花多少钱，要看拥有它、用它、直到扔掉它，一共花了多少钱。&lt;/strong>&lt;/p>
+&lt;p>就像你买手机。
+价格3000块的安卓机，用一年卡成PPT，换屏要800，电池一年就不行了。
+价格6000块的iPhone，用三年还流畅，二手还能卖2000。&lt;/p>
+&lt;p>哪个更划算？
+&lt;strong>不是看买入价，是看“三年总成本”。&lt;/strong>&lt;/p>
+&lt;p>采购也一样。
+买一台设备，你至少要考虑这几个阶段：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>购买前：&lt;/strong> 价格、运输、安装、调试、税费&lt;/li>
+&lt;li>&lt;strong>使用中：&lt;/strong> 能耗、耗材、维修、保养、人工、停机损失&lt;/li>
+&lt;li>&lt;strong>使用后：&lt;/strong> 折旧、二手残值、处置成本&lt;/li>
+&lt;/ul>
+&lt;p>把这些加起来，才叫&lt;strong>真实成本&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="03-3招让老板对你刮目相看">03. 3招让老板对你刮目相看&lt;/h3>
+&lt;p>好了，道理都懂，怎么落地？给你3个可以直接用的狠招。&lt;/p>
+&lt;h4 id="第1招谈判时把隐形炸弹全炸出来">第1招：谈判时，把“隐形炸弹”全炸出来&lt;/h4>
+&lt;p>别跟供应商只谈裸价。你要逼他们把以下东西摊在桌面上谈：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>质保期多长？&lt;/strong> 最好要求&lt;strong>整机保修&lt;/strong>，别只保修核心件。&lt;/li>
+&lt;li>&lt;strong>维修响应时间？&lt;/strong> 要求&lt;strong>4小时上门，24小时解决&lt;/strong>，超时罚款。&lt;/li>
+&lt;li>&lt;strong>耗材价格锁定？&lt;/strong> 签合同时就约定未来3年的滤芯、刀片等耗材价格，防止坐地起价。&lt;/li>
+&lt;li>&lt;strong>培训费用全包？&lt;/strong> 要求供应商免费提供操作培训和技术资料。&lt;/li>
+&lt;/ul>
+&lt;p>把这些条款写进合同，你就把供应商绑在了你的战车上。他敢卖次品？他自己先亏到哭。&lt;/p>
+&lt;h4 id="第2招做个tco模型用数据打脸">第2招：做个TCO模型，用数据打脸&lt;/h4>
+&lt;p>别拍脑袋。拿个Excel，把你选的A方案（便宜货）和B方案（贵但好）的所有成本列出来。&lt;/p>
+&lt;p>&lt;strong>举个真实例子：&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">成本项目&lt;/th>
+ &lt;th style="text-align: left">A方案（便宜叉车）&lt;/th>
+ &lt;th style="text-align: left">B方案（品牌叉车）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">购买价&lt;/td>
+ &lt;td style="text-align: left">8万&lt;/td>
+ &lt;td style="text-align: left">15万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年维修费&lt;/td>
+ &lt;td style="text-align: left">2万（第一年）&lt;/td>
+ &lt;td style="text-align: left">0.5万（质保内）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年电费&lt;/td>
+ &lt;td style="text-align: left">3万&lt;/td>
+ &lt;td style="text-align: left">1.8万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年停机损失（预估）&lt;/td>
+ &lt;td style="text-align: left">5万&lt;/td>
+ &lt;td style="text-align: left">0.5万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>3年总成本&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>8+2&lt;em>3+3&lt;/em>3+5*3 = 38万&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>15+0.5&lt;em>3+1.8&lt;/em>3+0.5*3 = 23.4万&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>看清楚没？B方案虽然买入价贵了7万，但&lt;strong>3年总成本反而省了14.6万&lt;/strong>。&lt;/p></description></item></channel></rss>

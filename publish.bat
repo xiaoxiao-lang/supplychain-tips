@@ -1,45 +1,47 @@
 @echo off
-REM ========================================
-REM 自动发布脚本 - 每天定时执行
-REM 1. 生成新文章
-REM 2. 编译Hugo
-REM 3. 推送到GitHub
-REM 4. Cloudflare Pages自动部署
-REM ========================================
+chcp 65001 >nul
+
+REM Auto publish script - Run daily
+REM 1. Generate articles
+REM 2. Build Hugo
+REM 3. Push to GitHub
+REM 4. Cloudflare Pages auto deploy
 
 cd /d D:\myseosite
 
-REM 设置Git路径
+REM Setup Git path
 set PATH=%PATH%;C:\Users\peilu\AppData\Local\Git\cmd
 
-REM 生成新文章
-echo [1/4] 生成今日文章...
+REM Step 1: Generate articles
+echo [1/4] Generating articles...
 "C:\Users\peilu\.workbuddy\binaries\python\versions\3.14.3\python.exe" scripts\generate_article.py
 if %errorlevel% neq 0 (
-    echo [ERROR] 文章生成失败
+    echo [ERROR] Article generation failed
     pause
     exit /b 1
 )
 
-REM 编译Hugo
-echo [2/4] 编译Hugo...
+REM Step 2: Build Hugo
+echo [2/4] Building Hugo site...
 "C:\Users\peilu\AppData\Local\hugo\hugo.exe" --minify
 if %errorlevel% neq 0 (
-    echo [ERROR] Hugo编译失败
+    echo [ERROR] Hugo build failed
     pause
     exit /b 1
 )
 
-REM Git提交
-echo [3/4] 提交到Git...
+REM Step 3: Git commit and push
+echo [3/4] Committing to Git...
 git add .
-git commit -m "自动更新: %date% %time%"
+git commit -m "Auto update: %date% %time%"
 git push origin main
 if %errorlevel% neq 0 (
-    echo [ERROR] Git推送失败
+    echo [ERROR] Git push failed
     pause
     exit /b 1
 )
 
-echo [4/4] 完成！Cloudflare Pages正在部署中...
-echo [OK] 全部完成！
+REM Done
+echo [4/4] Complete! Cloudflare Pages deploying...
+echo OK all done!
+pause

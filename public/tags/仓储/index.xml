@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8/</link><description>Recent content in 仓储 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库管理的5个关键指标（KPI）</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</guid><description>&lt;h1 id="仓库管理的5个关键指标kpi">仓库管理的5个关键指标（KPI）&lt;/h1>
+&lt;p>仓库是供应链的心脏。今天说说衡量仓库管理水平最重要的5个KPI。&lt;/p>
+&lt;h2 id="1-库存准确率">1. 库存准确率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：盘点准确数量 ÷ 账面数量 × 100%&lt;/p>
+&lt;ul>
+&lt;li>优秀：99.5%以上&lt;/li>
+&lt;li>良好：98%-99%&lt;/li>
+&lt;li>合格：95%-98%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>提升方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>推行条码管理&lt;/li>
+&lt;li>定期盘点（每日小盘、每周大盘）&lt;/li>
+&lt;li>责任到人&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-订单履约率">2. 订单履约率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：按时完成订单数 ÷ 总订单数 × 100%&lt;/p>
+&lt;p>这是客户最关心的指标。电商行业要求99%以上。&lt;/p>
+&lt;p>&lt;strong>提升方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>优化拣货路径&lt;/li>
+&lt;li>引入RF枪/PDA&lt;/li>
+&lt;li>错峰备货&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-库内周转率">3. 库内周转率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：出库金额 ÷ 平均库存金额&lt;/p>
+&lt;p>周转率越高，说明资金占用越少。&lt;/p>
+&lt;p>制造业通常要求8-12次/年。&lt;/p>
+&lt;h2 id="4-人均产值">4. 人均产值&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：月出库金额 ÷ 仓库总人数&lt;/p>
+&lt;p>反映仓库的人效水平。&lt;/p>
+&lt;h2 id="5-货损货差率">5. 货损货差率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：货损货差金额 ÷ 总出库金额 × 100%&lt;/p>
+&lt;p>零售行业要求0.1%以内。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>建议&lt;/strong>：不要同时抓所有指标，先从最影响业务的1-2个开始，达成后再加下一个。&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>关注公众号「供应链那些事」，一起交流仓库管理经验。&lt;/em>&lt;/p></description></item></channel></rss>

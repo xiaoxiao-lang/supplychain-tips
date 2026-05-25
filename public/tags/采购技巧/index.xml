@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购技巧 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%8A%80%E5%B7%A7/</link><description>Recent content in 采购技巧 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>招标采购水多深？我踩了5个坑才懂</title><link>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</guid><description>&lt;p>你经历过那种绝望吗？&lt;/p>
+&lt;p>凌晨两点，你盯着电脑上密密麻麻的标书，眼睛快瞎了。报价、资质、技术方案……每一个字都认识，连起来就是天书。&lt;/p>
+&lt;p>第二天开标，领导坐你旁边，眼神像刀子。你手心冒汗，心里只有一个念头：千万别出幺蛾子。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>供应商临场加价、资质造假、技术条款写漏了……你当场社死，恨不得找个地缝钻进去。&lt;/p>
+&lt;p>这不是段子，这是我刚干采购时的日常。&lt;/p>
+&lt;p>干了8年，从被供应商怼到哭，到如今能跟老江湖对飙暗话，这5个坑我帮你踩过了。&lt;/p>
+&lt;h3 id="1-别信最高性价比那是最大的忽悠">1. 别信“最高性价比”，那是最大的忽悠&lt;/h3>
+&lt;p>“我们这方案，绝对是最高性价比！”&lt;/p>
+&lt;p>这话熟不熟？每个供应商都这么说。但真相是：&lt;strong>性价比是个伪命题。&lt;/strong>&lt;/p>
+&lt;p>你看中价格低，他就在服务上砍一刀。你要求技术高，他就在报价里藏雷。真正的高性价比，是&lt;strong>价格、技术、服务、风险&lt;/strong>四个维度的平衡。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 别只看总价，把每一项拆开。比如：&lt;/p>
+&lt;ul>
+&lt;li>价格：单项报价是否合理？有没有低价中标、后期加项的坑？&lt;/li>
+&lt;li>技术：参数是否达标？有没有“独家条款”？&lt;/li>
+&lt;li>服务：售后响应时间、质保年限，写进合同了吗？&lt;/li>
+&lt;li>风险：供应商的财务状况、过往履约记录，查过吗？&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>没有完美的方案，只有你能接受的代价。&lt;/strong> 做决策前，拿这四点过一遍筛子，能筛掉80%的坑。&lt;/p>
+&lt;h3 id="2-招标文件写不好后面全是火葬场">2. 招标文件写不好，后面全是火葬场&lt;/h3>
+&lt;p>很多新手觉得，招标文件就是模板填空。大错特错！&lt;/p>
+&lt;p>你文件里一个模糊的“等”，就能让供应商钻空子。你忘了写“必须本地有售后网点”，中标后他就能告诉你“我们外包”。&lt;/p>
+&lt;p>&lt;strong>我吃过最大的亏，是没写清楚验收标准。&lt;/strong>&lt;/p>
+&lt;p>那是一次设备采购，合同里写了“设备运行稳定”。结果人家拿来的东西，三天一小修、五天一大修。我找供应商理论，人家翻出合同说：“运行稳定啊，没爆炸不是？”&lt;/p>
+&lt;p>我当时……算了，不提了。&lt;/p>
+&lt;p>&lt;strong>避坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>写死参数&lt;/strong>：技术指标、性能数据，能写多具体写多具体。&lt;/li>
+&lt;li>&lt;strong>写清流程&lt;/strong>：投标截止时间、开标地点、答疑方式，别留模糊地带。&lt;/li>
+&lt;li>&lt;strong>写明罚则&lt;/strong>：延期交货怎么罚？质量不合格怎么退？白纸黑字写清楚。&lt;/li>
+&lt;/ul>
+&lt;p>一句话：&lt;strong>招标文件越细致，后面的坑越少。&lt;/strong>&lt;/p>
+&lt;h3 id="3-供应商考察别变成一日游">3. 供应商考察，别变成“一日游”&lt;/h3>
+&lt;p>“考察？走个过场呗，一起吃顿饭、拍个照就完了。”&lt;/p>
+&lt;p>你要是这么想，就等着被坑吧。我见过最狠的：供应商租了个豪华办公室，样品间摆满设备，实际上就是个空壳公司。中标后，货发不出来，项目直接烂尾。&lt;/p>
+&lt;p>&lt;strong>考察不是旅游，是打仗。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看生产线&lt;/strong>：设备是不是满负荷运行？工人操作熟练吗？这能看出真实产能。&lt;/li>
+&lt;li>&lt;strong>查仓库&lt;/strong>：库存是不是积压？物料堆放整齐吗？这能看出管理水平。&lt;/li>
+&lt;li>&lt;strong>聊员工&lt;/strong>：随便拉个技术员问问，“你们上次项目出过啥问题？” 真实答案往往跟官方吹的不一样。&lt;/li>
+&lt;li>&lt;strong>翻记录&lt;/strong>：要他们提供过去3年的合同和验收单，打电话给老客户核实。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心原则：&lt;/strong> 不要只看他们想给你看的，要看他们不想给你看的。&lt;/p>
+&lt;h3 id="4-评标环节最容易灯下黑">4. 评标环节，最容易“灯下黑”&lt;/h3>
+&lt;p>评标时，你是不是经常这样：价格最低？选他！技术分最高？选他！关系最铁？选他！&lt;/p>
+&lt;p>停！这3个标准，单拎出来都是坑。&lt;/p>
+&lt;p>&lt;strong>价格最低&lt;/strong> = 可能低价中标、后期加价、偷工减料。
+&lt;strong>技术最高&lt;/strong> = 可能过度设计、浪费预算、后续维护成本爆炸。
+&lt;strong>关系最铁&lt;/strong> = 可能牺牲质量、被领导甩锅、甚至吃牢饭。&lt;/p>
+&lt;p>&lt;strong>正确姿势：&lt;/strong> 建立一套&lt;strong>综合评分体系&lt;/strong>。&lt;/p>
+&lt;p>比如：&lt;/p>
+&lt;ul>
+&lt;li>价格权重：40%（别超过50%，否则容易坏事儿）&lt;/li>
+&lt;li>技术权重：30%（核心指标必须达标）&lt;/li>
+&lt;li>服务权重：20%（响应速度、售后能力）&lt;/li>
+&lt;li>风险权重：10%（财务状况、履约记录）&lt;/li>
+&lt;/ul>
+&lt;p>打分前，让所有评委背靠背打分，最后再合议。&lt;strong>别让一个人说了算，也别让关系户钻空子。&lt;/strong>&lt;/p>
+&lt;h3 id="5-中标后别放松合同才是真战场">5. 中标后别放松，合同才是真战场&lt;/h3>
+&lt;p>很多人觉得，中标了就万事大吉。天真！&lt;/p>
+&lt;p>合同里一个“原则上”，就能让你哭都哭不出来。比如：“原则上，供应商应在30天内交货。” 结果人家60天才到，你还没法罚他，因为“原则上”不是“必须”。&lt;/p></description></item><item><title>月薪5千和5万的采购，差在需求预测这3个动作</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>上个月，我跟一个做快消的采购兄弟喝酒，他骂骂咧咧：老板让他背“缺货率”和“库存周转”两个KPI，但他算了一下，全年库存报废了300万，结果月底还要因为缺货被销售投诉。&lt;/p>
+&lt;p>“我他妈到底该多备还是少备？”&lt;/p>
+&lt;p>我问他：“你需求预测怎么做的？”&lt;/p>
+&lt;p>他理直气壮：“Excel拉一下去年同期的数据，再问问销售老王，他拍脑袋说下个月涨20%，我就按这个数下单。”&lt;/p>
+&lt;p>&lt;strong>看懂了吗？这不是采购的问题，这是整个公司的“玄学式预测”。&lt;/strong>&lt;/p>
+&lt;p>你如果干采购超过3年，一定见过这种场景：销售说“下个月大卖”，你加量下单，结果货到了，活动取消了；销售说“保守一点”，你少订了，结果竞品断货，你们爆了。&lt;/p>
+&lt;p>&lt;strong>需求预测不是算命的，是算账的。&lt;/strong> 月薪5千的采购靠直觉，月薪5万的采购靠动作。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作一别信拍脑袋学会挖数据">动作一：别信“拍脑袋”，学会“挖数据”&lt;/h3>
+&lt;p>大多数采购的需求预测，就两步：&lt;/p>
+&lt;ol>
+&lt;li>打开Excel，复制去年同期的数。&lt;/li>
+&lt;li>问销售：“下个月你觉得呢？”&lt;/li>
+&lt;/ol>
+&lt;p>销售说“涨10%”，你就加10%。这叫&lt;strong>伪预测&lt;/strong>。&lt;/p>
+&lt;p>真正的需求预测，第一件事是&lt;strong>清理数据垃圾&lt;/strong>。&lt;/p>
+&lt;p>你去年同期的数据能直接用吗？&lt;/p>
+&lt;ul>
+&lt;li>去年搞了双十一，今年没有？&lt;/li>
+&lt;li>去年那个月有疫情封控？&lt;/li>
+&lt;li>去年竞品缺货你爆单了？&lt;/li>
+&lt;/ul>
+&lt;p>这些“噪声”不剔除，预测就是错的。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购怎么干？&lt;/strong>&lt;/p>
+&lt;p>拿一个案例：某化妆品品牌采购，发现“618”和“双11”前后，常规品的销量会暴跌30%。
+于是她建了一个**“促销前后需求波动系数”**，把历史促销期的数据单独标注，再算常规期的日均销量。&lt;/p>
+&lt;p>结果：错峰备货，库存周转从45天降到18天。&lt;/p>
+&lt;p>&lt;strong>动作清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>清洗数据：剔除促销、缺货、异常事件的影响&lt;/li>
+&lt;li>找规律：不是“同比”，而是“环比+季节性+趋势”&lt;/li>
+&lt;li>量化：用“移动平均法”或“简单指数平滑”算出基准值，别用“我觉得”&lt;/li>
+&lt;/ul>
+&lt;p>别觉得难，Excel就能干。关键是你愿不愿意把“拍脑袋”变成“算公式”。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作二别跟销售对赌学会拆信号">动作二：别跟销售“对赌”，学会“拆信号”&lt;/h3>
+&lt;p>销售跟你说“下个月能卖1000件”，你信不信？&lt;/p>
+&lt;p>大多数采购的反应：&lt;/p>
+&lt;ul>
+&lt;li>信了，结果卖不动，背锅。&lt;/li>
+&lt;li>不信，结果爆单，背锅。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心问题：你把需求预测当成了“判断题”，其实它是个“概率题”。&lt;/strong>&lt;/p>
+&lt;p>月薪5万的采购，会做一件事：&lt;strong>把销售的话拆成信号。&lt;/strong>&lt;/p>
+&lt;p>比如销售说“下个月涨20%”，你要追问：&lt;/p>
+&lt;ul>
+&lt;li>这个增长来自新客户还是老客户复购？&lt;/li>
+&lt;li>是推广投入拉动的，还是季节性自然增长？&lt;/li>
+&lt;li>有没有竞品动作？&lt;/li>
+&lt;/ul>
+&lt;p>然后，你会发现问题：
+销售说的“涨20%”，实际只是“预期”，但没有任何数据支撑。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>建一个**“信心指数”**机制：&lt;/p>
+&lt;ul>
+&lt;li>销售预估时，必须附上3个支撑点（比如：已签合同金额、历史转化率、广告预算）。&lt;/li>
+&lt;li>然后你根据历史准确率，给这个预估打个折。&lt;/li>
+&lt;li>比如销售过去3个月的预估平均偏差是30%，那这次就只信70%。&lt;/li>
+&lt;/ul>
+&lt;p>别觉得这是“不信任”，这叫&lt;strong>量化风险&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>一个真实案例：&lt;/strong>&lt;/p>
+&lt;p>某电子元器件采购，发现销售每次报量都偏乐观30%。
+他直接做了一张表：销售预估 vs 实际出货，把每个销售的历史偏差率算出来。
+然后每次下单时，按“预估×（1-偏差率）”来调整。&lt;/p>
+&lt;p>结果：缺货率从15%降到5%，库存成本降了20%。&lt;/p>
+&lt;p>&lt;strong>记住：需求预测不是听一个人的话，而是把所有人的话变成数字，再处理。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="动作三别一刀切学会分层备货">动作三：别“一刀切”，学会“分层备货”&lt;/h3>
+&lt;p>很多采购最大的毛病：&lt;strong>所有SKU用一套预测逻辑。&lt;/strong>&lt;/p>
+&lt;p>爆款、长尾、新品、淘汰品，全用去年的同比算。
+结果：爆款缺货，长尾压死，新品一上线就滞销。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，把SKU分成三类：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>1. 高周转爆款（A类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>周度预测，用历史均值+趋势修正。&lt;/li>
+&lt;li>安全库存按“缺货成本”定，宁可多备5%，不能断。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 长尾慢动品（C类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>月度预测，甚至季度预测。&lt;/li>
+&lt;li>安全库存按“持有成本”定，宁可缺货，不能压货。&lt;/li>
+&lt;li>用“定期订购”策略，别频繁下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 新品/活动品（X类）&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白：ABC分类法就是骗人的</title><link>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</guid><description>&lt;p>你有没有过这种崩溃时刻？&lt;/p>
+&lt;p>库房里堆满了SKU，老板天天催你清库存，你拿着ABC分类法，吭哧吭哧把A类商品管得死死的，结果月底一算账，利润还是负数。&lt;/p>
+&lt;p>更扎心的是，隔壁部门那个月薪5万的总监，人家啥都不管，就盯着几个单品，库存周转率比你高一倍。&lt;/p>
+&lt;p>你问他秘诀？他笑笑说：“ABC？那是给新手挖的坑。”&lt;/p>
+&lt;p>别不服。我干了10年供应链，踩过500万库存的坑，今天就把这3个反常识的真相摊开讲。&lt;strong>保你看完想删掉Excel里的ABC表格。&lt;/strong>&lt;/p>
+&lt;h3 id="1-你以为a类是亲儿子其实是吸血鬼">1. 你以为A类是亲儿子？其实是吸血鬼&lt;/h3>
+&lt;p>先问个灵魂问题：&lt;strong>你凭什么说A类是重要的？&lt;/strong>&lt;/p>
+&lt;p>按ABC分类法的标准动作，销售额占比70%的SKU就是A类，要重点监控、严控库存、频繁盘点。&lt;/p>
+&lt;p>听起来没毛病对吧？但现实是——&lt;strong>A类商品往往是利润最低的“流量款”。&lt;/strong>&lt;/p>
+&lt;p>举个例子。你卖手机壳，A类单品是那个19.9元的爆款，月销10万件，占销售额60%。但你算过毛利吗？进货价18元，加上运费、包装、平台抽成，卖一个亏0.5元。这就是典型的“赔本赚吆喝”。&lt;/p>
+&lt;p>而C类商品呢？一个定制手机壳卖199元，月销100件，毛利60%。利润是A类爆款的&lt;strong>120倍&lt;/strong>。&lt;/p>
+&lt;p>你用ABC分类法，把所有资源砸在A类上——拼命压库存、申请促销、跟供应商死磕交期。结果呢？越管越亏，因为你管的是“虚假繁荣”。&lt;/p>
+&lt;p>&lt;strong>真相：ABC用销售额或库存金额做权重，但利润才是亲爹。&lt;/strong>&lt;/p>
+&lt;p>所以，别一头扎进ABC的坑。第一步，把“销售额”换成“毛利率”重新分类。&lt;strong>毛利率最高的单品，才是你的真A类。&lt;/strong>&lt;/p>
+&lt;h3 id="2-8020法则那是你的幻觉">2. 80/20法则？那是你的幻觉&lt;/h3>
+&lt;p>ABC分类法的理论根基是帕累托法则——20%的SKU贡献80%的价值。听起来很爽，但现实是：&lt;strong>你的库存结构根本不符合这个比例。&lt;/strong>&lt;/p>
+&lt;p>随便拉一家中小型企业的SKU清单，你会发现：很多品类里，前5%的SKU贡献了50%的销售额，但后60%的SKU贡献了20%的销售额。&lt;strong>中间那35%的SKU，全是“长尾僵尸”。&lt;/strong>&lt;/p>
+&lt;p>这些“僵尸”单品，你按ABC分，它们可能属于B类或C类。但你既不敢砍掉（怕影响客户体验），又不敢压太多库存（卖不动）。结果就是：&lt;strong>库存越管越乱，资金全压在滞销品上。&lt;/strong>&lt;/p>
+&lt;p>更可怕的是，很多公司根本没做&lt;strong>动态ABC&lt;/strong>。你用去年的数据分好类，今年市场变了，A类变C类，C类变A类。你还在盯着去年的“明星”猛管，结果新爆款断货，老爆款变死货。&lt;/p>
+&lt;p>&lt;strong>真相：ABC分类法是一个静态的、事后诸葛亮的工具。它告诉你过去怎么样，但管不了明天。&lt;/strong>&lt;/p>
+&lt;p>解决方案很简单：&lt;strong>每个月重新算一次分类权重。&lt;/strong> 别用年数据，用近3个月的滚动数据。动态分类，才能抓住市场风向。&lt;/p>
+&lt;h3 id="3-管c类才是降本的核心">3. 管C类才是降本的核心&lt;/h3>
+&lt;p>你肯定觉得，C类商品价值低、动销慢，管它干嘛？放那吃灰呗。&lt;/p>
+&lt;p>错了。&lt;strong>C类商品才是库存成本的隐形杀手。&lt;/strong>&lt;/p>
+&lt;p>算笔账：一个C类单品，库存周转天数180天，库存金额5000元。你觉得小意思，才5000块。但你有1000个这样的C类单品呢？&lt;strong>就是500万的资金被锁死。&lt;/strong>&lt;/p>
+&lt;p>这些钱如果拿来周转，按年化10%的资本成本算，一年就浪费50万。更别提仓储费、报废损失、盘点人工成本。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，怎么管C类？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>砍&lt;/strong>：动销率低于10%的单品，直接下架。别舍不得，客户不会因为少了3个冷门SKU就不下单。&lt;/li>
+&lt;li>&lt;strong>改&lt;/strong>：改成按订单生产（MTO）或供应商直发（VMI）。别囤货，让供应商帮你背库存。&lt;/li>
+&lt;li>&lt;strong>绑&lt;/strong>：把C类商品和A类捆绑销售，比如买耳机送线材，清掉库存。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最狠的采购总监，把公司80%的C类SKU砍掉后，库存周转率直接提升40%。老板问他客户投诉怎么办？他说：“让客户选替代品，选不了就认栽。总比公司亏死强。”&lt;/p>
+&lt;h3 id="最后说句扎心的">最后说句扎心的&lt;/h3>
+&lt;p>ABC分类法本身没错，错的是你把它当万能药。&lt;/p>
+&lt;p>真正的库存管理，不是按销售额分三六九等，而是&lt;strong>按利润、按动态、按成本结构&lt;/strong>去博弈。月薪5千的采购在死守规则，月薪5万的采购在打破规则。&lt;/p>
+&lt;p>&lt;strong>别让你的库存，成为老板心口的刺。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>库存压了500万才懂的数学公式</title><link>https://supplychain-tips.pages.dev/posts/eoq-secrets/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-secrets/</guid><description>&lt;p>&lt;strong>你算过吗？每次订货都是赌命。&lt;/strong>&lt;/p>
+&lt;p>上周有个做快消品的兄弟找我喝酒，一上来就叹气：“哥，我仓库里堆了500万的货，可上个月又断货三次，老板差点把我开了。”&lt;/p>
+&lt;p>他干了8年采购，月薪还是8千。另一家公司同级别的女孩，月薪5万，仓库周转率是他的3倍。&lt;/p>
+&lt;p>&lt;strong>差别在哪？&lt;/strong>&lt;/p>
+&lt;p>那女孩不会拍脑袋订货。她懂一个叫“经济订货量（EOQ）”的数学公式。&lt;/p>
+&lt;p>我知道你一听“数学公式”就头大。别急，今天不讲课，就当群里唠嗑。我保证，看完这个公式，你就能把压在仓库里的500万救出来。&lt;/p>
+&lt;h3 id="订货多了压钱订少了断货咋整">订货多了压钱，订少了断货，咋整？&lt;/h3>
+&lt;p>你是不是也这样？老板一催货，你就拍脑袋：“这次订500箱吧，反正不怕多。”结果第二天库存报警，资金被锁死。或者旺季来了，你咬牙只订200箱，结果爆单断货，客户骂娘。&lt;/p>
+&lt;p>&lt;strong>这背后就一个问题：你根本不知道“订多少”最划算。&lt;/strong>&lt;/p>
+&lt;p>你以为订货是拍脑袋的事？错了。这是数学题。&lt;/p>
+&lt;p>&lt;strong>经济订货量（EOQ）&lt;/strong> 就是帮你算：&lt;strong>每次订多少，能让总成本最低&lt;/strong>。&lt;/p>
+&lt;p>总成本包括两坨：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>订货成本&lt;/strong>：下订单、运输、验货的钱。订得越频繁，这钱花得越多。&lt;/li>
+&lt;li>&lt;strong>持有成本&lt;/strong>：仓储、资金占用、损耗的钱。库存越多，这钱烧得越狠。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>EOQ就是那个平衡点：&lt;/strong> 订货成本=持有成本时，总成本最低。&lt;/p>
+&lt;p>&lt;strong>举个栗子：&lt;/strong> 你一年卖1万件T恤。如果每次订100件，要下100次单，运费每单200元，订货成本=200×100=2万。但库存少，持有成本低。如果每次订1000件，只下10次单，订货成本=200×10=2千。但库存多，持有成本飙升，比如仓储费、资金利息，算下来可能每年1万8。&lt;/p>
+&lt;p>&lt;strong>你看，不是订得越少越好，也不是越多越好。&lt;/strong> EOQ帮你找到那个“刚好”的数字。&lt;/p>
+&lt;h3 id="公式长啥样别怕小学数学就能搞定">公式长啥样？别怕，小学数学就能搞定&lt;/h3>
+&lt;p>&lt;strong>EOQ公式：&lt;/strong>
+&lt;strong>Q = √(2DS / H)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Q&lt;/strong> = 每次最佳订货量&lt;/li>
+&lt;li>&lt;strong>D&lt;/strong> = 年需求量（一年卖多少）&lt;/li>
+&lt;li>&lt;strong>S&lt;/strong> = 单次订货成本（下1单花多少钱）&lt;/li>
+&lt;li>&lt;strong>H&lt;/strong> = 单位年持有成本（1件货放一年花多少钱）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别被根号吓到。&lt;/strong> 你手机计算器就能按。&lt;/p>
+&lt;p>&lt;strong>实战案例：&lt;/strong> 你卖充电宝，年需求D=10,000个，每次下单成本S=500元（运费+人工），每个充电宝年持有成本H=10元（仓储+资金利息）。&lt;/p>
+&lt;p>&lt;strong>Q = √(2×10,000×500 / 10) = √(1,000,000) = 1,000个&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>结论：&lt;/strong> 每次订1,000个，总成本最低。&lt;/p>
+&lt;p>&lt;strong>你想想，你平时订多少？&lt;/strong> 是不是要么订500个（怕断货所以狂下单），要么订3,000个（图省事一次囤够）。前者订货成本翻倍，后者持有成本爆炸。&lt;/p>
+&lt;p>&lt;strong>算完这个，你就能少踩两个大坑：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>坑1：&lt;/strong> 以为“多订点能摊薄运费”。错了，运费摊薄了，但仓储费、资金利息这些隐性成本会吃掉利润。&lt;/li>
+&lt;li>&lt;strong>坑2：&lt;/strong> 以为“小批量勤订货能灵活”。错了，订单频率太高，运费和管理成本直接起飞。&lt;/li>
+&lt;/ul>
+&lt;h3 id="别死背公式这3个点才决定成败">别死背公式！这3个点才决定成败&lt;/h3>
+&lt;p>公式谁都能套，但真正拉开差距的是这3个变量：&lt;/p>
+&lt;p>&lt;strong>1. 年需求量D：别拍脑袋，用历史数据+趋势预测&lt;/strong>&lt;/p>
+&lt;p>你上年卖了1万件，但今年新品上市，可能直接翻倍。&lt;strong>D不准，公式白算。&lt;/strong> 建议用过去6个月平均销量，再乘以1.2（保守增长系数）。&lt;/p>
+&lt;p>&lt;strong>2. 订货成本S：别只算运费，把隐藏成本挖出来&lt;/strong>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>精益生产 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7/</link><description>Recent content in 精益生产 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才懂：JIT就是个骗局？</title><link>https://supplychain-tips.pages.dev/posts/jit-just-in-time-trap/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-just-in-time-trap/</guid><description>&lt;p>兄弟，你听我说。&lt;/p>
+&lt;p>上周有个做小家电的老板找我，愁得头发都快掉光了。他仓库里堆了价值500万的货，资金链崩得比橡皮筋还紧，结果呢？&lt;strong>最爆款的型号，断货了。&lt;/strong>&lt;/p>
+&lt;p>“我上个月刚信了JIT的邪，把安全库存砍了大半，想着零库存爽歪歪。结果供应商那边一个火情，我这边的单子全黄了。”&lt;/p>
+&lt;p>他点了一根烟，眼神飘忽：“JIT准时制，到底是不是个大骗局？”&lt;/p>
+&lt;p>我笑了。这问题，问得太好了。&lt;/p>
+&lt;p>很多人把JIT当神话，一上来就喊“零库存”、“消灭浪费”。结果呢？要么像这位老板一样，断货断到怀疑人生；要么就是内部怨声载道，生产线上天天像在打仗。&lt;/p>
+&lt;p>&lt;strong>JIT不是不能玩，是90%的人玩法错了。&lt;/strong>&lt;/p>
+&lt;p>今天，咱们就把它扒干净。不端着，不上课，就当咱俩在烧烤摊唠嗑。聊聊那些让你库存压500万才明白的事。&lt;/p>
+&lt;hr>
+&lt;h3 id="01-搞懂jit之前先搞懂你为啥被坑">01 搞懂JIT之前，先搞懂你为啥被坑&lt;/h3>
+&lt;p>很多公司上JIT，其实就一个原因：&lt;strong>老板看了本书，觉得库存都是罪恶。&lt;/strong>&lt;/p>
+&lt;p>“你看丰田，人家零库存，利润多高！我们这破仓库，每年光保管费就够养一个部门了，砍！”&lt;/p>
+&lt;p>然后呢？一刀切。&lt;/p>
+&lt;p>采购被逼着砍订单量，生产被逼着搞小批量。供应商受不了，要么涨价，要么断供。销售那边客户催得紧，最后全公司拉着横幅喊“保交付”，比打仗还乱。&lt;/p>
+&lt;p>你发现没？&lt;strong>JIT最大的坑，不是它本身，是“望文生义”。&lt;/strong>&lt;/p>
+&lt;p>你以为JIT是“我随要你随到”，实际上JIT是“我们俩配合得严丝合缝”。&lt;/p>
+&lt;p>就像谈恋爱。你以为对象是你肚子里的蛔虫，你一个眼神他就懂。但实际上，你没说，他没猜，最后就是一场灾难。&lt;/p>
+&lt;p>&lt;strong>JIT的本质，不是“零库存”，而是“准时”。&lt;/strong> 准时意味着什么？意味着&lt;strong>信息流和物流的完美同步&lt;/strong>。你生产计划还没排好，就敢让供应商送货？你不断货谁断货？&lt;/p>
+&lt;p>所以，在你大喊“我要上JIT”之前，先问问自己：&lt;/p>
+&lt;ul>
+&lt;li>你的销售预测准吗？偏差是不是经常超过30%？&lt;/li>
+&lt;li>你的供应商配合度够吗？它愿意为你改产线、备产能吗？&lt;/li>
+&lt;li>你的生产系统稳吗？设备故障率、不良率能控住吗？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果这三个问题，你有一个答案是“No”，那你现在玩JIT，就是找死。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="02-玩转jit的铁律别被零库存洗脑了">02 玩转JIT的铁律：别被“零库存”洗脑了&lt;/h3>
+&lt;p>那是不是说，中小企业就别碰JIT了？&lt;/p>
+&lt;p>也不是。但你要记住三条铁律，这是我从被坑到上岸，花了真金白银换来的。&lt;/p>
+&lt;p>&lt;strong>铁律一：先稳后快，别为了快而快&lt;/strong>&lt;/p>
+&lt;p>JIT的精髓是“拉动式生产”。后道工序要什么，前道工序才生产。但你得先保证后道工序的需求是稳定的。&lt;/p>
+&lt;p>怎么稳？&lt;strong>把生产节拍算清楚。&lt;/strong>&lt;/p>
+&lt;p>别拍脑袋定计划。去现场数，你这条线，一分钟能出几个产品？客户下单的节奏是啥样的？把波动性搞清楚，再去谈“拉动”。&lt;/p>
+&lt;p>&lt;strong>铁律二：供应商不是工具，是队友&lt;/strong>&lt;/p>
+&lt;p>很多公司压供应商价格、压交期，觉得天经地义。但玩JIT，你得把供应商当“外协车间”。&lt;/p>
+&lt;p>你要做的是：&lt;/p>
+&lt;ul>
+&lt;li>共享你的生产计划（至少提前2周）&lt;/li>
+&lt;li>帮他们稳定质量&lt;/li>
+&lt;li>甚至帮他们优化流程&lt;/li>
+&lt;/ul>
+&lt;p>你对他好，他才能在关键时刻不掉链子。&lt;strong>JIT最怕的，就是供应链上的“黑天鹅”。&lt;/strong> 一个环节断，全盘崩。&lt;/p>
+&lt;p>&lt;strong>铁律三：永远留一张“底牌”&lt;/strong>&lt;/p>
+&lt;p>别信“零库存”的鬼话。那是丰田干了30年才敢喊的口号。&lt;/p>
+&lt;p>你是什么体量？你的抗风险能力有丰田强吗？&lt;/p>
+&lt;p>所以，&lt;strong>保留一个“安全库存”的缓冲垫&lt;/strong>。不是让你把仓库堆满，而是针对最长交期、最不稳定的物料，留一点库存。&lt;/p>
+&lt;p>这个库存，就是你的“保险”。平时不用，一旦出事，它能救你命。&lt;/p>
+&lt;hr>
+&lt;h3 id="03-实操指南从入门到真香只需4步">03 实操指南：从入门到真香，只需4步&lt;/h3>
+&lt;p>光讲道理不行，咱们上干货。怎么一步步把JIT落地，还不翻车？&lt;/p>
+&lt;p>&lt;strong>第一步：从“一个流”开始，别搞大跃进&lt;/strong>&lt;/p>
+&lt;p>别一上来就全厂搞。选一条最稳定的产线，或者一个最成熟的品类，先试点。&lt;/p>
+&lt;p>比如，你是做电子组装的。选那个月产量最大、工艺最成熟的产品。把它的生产工序拆成“一个流”——单件流动，不堆料。&lt;/p>
+&lt;p>&lt;strong>结果：&lt;/strong> 你立马会看到，生产周期从几天缩到几小时，在制品库存肉眼可见地往下掉。&lt;/p>
+&lt;p>&lt;strong>第二步：看板是信号，不是摆设&lt;/strong>&lt;/p>
+&lt;p>很多人把看板当装饰品。挂墙上，没人看。&lt;/p>
+&lt;p>真正的看板，是&lt;strong>拉动生产的指令&lt;/strong>。后道工序取走一个零件，就往前道工序发出一张看板（电子或实体），告诉你：我需要补一个。&lt;/p>
+&lt;p>&lt;strong>记住：没有看板，就不生产，不搬运。&lt;/strong> 把这条当纪律，强制执行。&lt;/p>
+&lt;p>&lt;strong>第三步：建立“快速换模”能力&lt;/strong>&lt;/p>
+&lt;p>JIT最怕换线。一换线，几十分钟甚至几小时就浪费了。&lt;/p>
+&lt;p>你得想办法把换模时间降到10分钟以内。比如，提前准备工具、标准化工装、并行作业。&lt;/p>
+&lt;p>&lt;strong>这玩意儿练好了，你的柔性生产能力直接起飞。&lt;/strong> 小批量、多品种的单子，你也能接得下。&lt;/p>
+&lt;p>&lt;strong>第四步：每天开“站立会议”，盯紧异常&lt;/strong>&lt;/p>
+&lt;p>JIT的日常，就是不断发现并解决问题。&lt;/p>
+&lt;p>每天早上8点，生产、采购、质量的人站一起（没错，站着，开快会），花15分钟，只谈三件事：&lt;/p>
+&lt;ul>
+&lt;li>昨天哪条线停了？为什么？&lt;/li>
+&lt;li>哪个物料没到？原因是什么？&lt;/li>
+&lt;li>今天的计划有没有变动？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>不讨论方案，只暴露问题。&lt;/strong> 问题暴露了，责任部门领走，下班前给结果。&lt;/p></description></item></channel></rss>

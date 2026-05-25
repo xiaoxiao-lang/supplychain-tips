@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>账期管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%B4%A6%E6%9C%9F%E7%AE%A1%E7%90%86/</link><description>Recent content in 账期管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%B4%A6%E6%9C%9F%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>月供3万的老板，被供应链金融坑得想哭</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance/</guid><description>&lt;p>上个月，我一个做服装代工的老铁，半夜给我打电话。&lt;/p>
+&lt;p>“哥，我撑不住了。”&lt;/p>
+&lt;p>他刚接了个大单，甲方是某知名品牌，账期90天。他咬着牙垫了500万面料款，工人加班加点赶出货。货交了，甲方财务说：“发票流程走完了，下下个月排款。”眼看工资要发，房租要交，他跑去银行申请贷款，客户经理看了一眼流水：“你这种小企业，没抵押物，批不了。”&lt;/p>
+&lt;p>&lt;strong>500万压在账上，每天利息滚雪球。&lt;/strong> 他最后拿了高利贷，月息3分，三个月利息就吞了他45万。&lt;/p>
+&lt;p>“早知道这单不接了，亏房租都不止。”他叹气。&lt;/p>
+&lt;p>这不就是供应链金融的经典剧本吗？大企业利用账期压榨供应商，供应商缺钱就找银行、保理、甚至高利贷。表面叫“金融”，实际是&lt;strong>把风险甩给最底层的小老板&lt;/strong>。&lt;/p>
+&lt;p>我干了8年供应链管理，踩过坑，也见过别人踩坑。今天就把供应链金融的“温柔一刀”掰开揉碎，给你看明白。&lt;/p>
+&lt;h3 id="1-你以为的融资神器其实是吸血泵">1. 你以为的“融资神器”，其实是“吸血泵”&lt;/h3>
+&lt;p>很多老板一听供应链金融，眼睛发亮：能用应收账款提前拿钱？太香了。&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>我见过最狠的案例：一个工厂给某家电巨头供货，账期6个月。工厂急用钱，找了家保理公司，保理公司说：可以，但你要签个“无追索权保理”。合同一签，保理公司收了3%手续费，然后等账款到期，甲方以“质量瑕疵”为由拒绝付款。保理公司转头找工厂：“账款收不回来，你赔。”&lt;/p>
+&lt;p>&lt;strong>工厂哑巴吃黄连。&lt;/strong> 合同里写的“无追索权”，但条款里留了后门：如果因为“货物瑕疵”导致拒付，责任还是工厂的。甲方拖款，保理公司甩锅，工厂两头被榨。&lt;/p>
+&lt;p>&lt;strong>核心坑：&lt;/strong> 很多供应链金融产品，本质是&lt;strong>把大企业的信用风险，转嫁给小企业&lt;/strong>。你用应收账款换现金，但一旦甲方赖账或被拖欠，你不仅要还钱，还得付高额罚息。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>选“保理”前，先查甲方信用评级，别光看品牌响。&lt;/li>
+&lt;li>合同里必须注明：&lt;strong>“因甲方原因拒付，不追溯供应商”&lt;/strong>。&lt;/li>
+&lt;li>小单子别碰保理，手续费吃掉利润，还不如找熟人借。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-账期是毒药越喝越穷">2. 账期是毒药，越喝越穷&lt;/h3>
+&lt;p>我认识一个做包装印刷的，给某新消费品牌供货。品牌方说：“先供3个月，第4个月开始按60天结。”他算了算，月回款50万，账期60天，意味着他至少有100万资金被占用。&lt;/p>
+&lt;p>他咬牙接了。因为不接，订单就没了。&lt;/p>
+&lt;p>结果3个月后，品牌方又说：“我们调整账期到90天，但给你多5%订单量。”他算了一笔账：回款周期拉长，利息成本暴涨，5%的订单利润全被吃掉。&lt;strong>他其实在亏本干活。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真相：&lt;/strong> 账期就是大企业给你的“隐形高利贷”。你垫的钱，利息按年化10%-15%算，而你的净利率可能只有5%。&lt;strong>账期拖一天，你就是在给甲方打工。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>3招破局：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>谈判筹码：&lt;/strong> 首次合作只签30天账期，过了磨合期再谈更长。&lt;/li>
+&lt;li>&lt;strong>现金折扣：&lt;/strong> 跟甲方说“提前10天付款，打9.8折”，大企业财务很乐意。&lt;/li>
+&lt;li>&lt;strong>备选方案：&lt;/strong> 手里留3个月流动资金，别把命押在一个客户上。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-仓单质押小心货没了债还在">3. 仓单质押？小心“货没了，债还在”&lt;/h3>
+&lt;p>去年有个做钢材贸易的朋友，把仓库里的货质押给银行，换了300万贷款。结果市场行情暴跌，钢材价格跌了30%。银行评估后说：你的质押品价值不足，需要补保证金。他拿不出，银行直接把货按市场价拍卖，拍卖价只有市价的6折。&lt;/p>
+&lt;p>&lt;strong>货没了，欠银行的200万还得还。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>仓单质押的坑：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>银行只认货不认人，价格波动时，你被强制平仓。&lt;/li>
+&lt;li>有些仓库是“假仓单”，货早就被挪用了，你背上空头债。&lt;/li>
+&lt;li>你交的仓储费和保险费，可能比利息还贵。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>只选国有或上市公司仓库，别信小仓库的“便宜”。&lt;/li>
+&lt;li>货值跌15%前，主动补仓，别等银行催。&lt;/li>
+&lt;li>合同里写“跌价保护条款”：低于某个价格，允许你赎回或换货。&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-供应链金融的底层逻辑你不是客户你是韭菜">4. 供应链金融的“底层逻辑”：你不是客户，你是韭菜&lt;/h3>
+&lt;p>说到底，供应链金融为什么这么火？因为银行和金融公司发现：&lt;strong>小企业缺钱，但大企业信用好，中间套利空间巨大。&lt;/strong>&lt;/p>
+&lt;p>比如一家保理公司，从银行拿到4%的资金成本，然后给供应商放款收12%的利息。中间8个点，就是纯利润。小企业拿着8%的融资成本，去接利润只有3%的订单，等于给金融公司打工。&lt;/p>
+&lt;p>&lt;strong>你以为是融资，其实是做慈善。&lt;/strong>&lt;/p>
+&lt;p>我见过最聪明的老板，根本不碰这些花里胡哨的金融工具。他怎么做？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>订单不接账期超过45天&lt;/strong>，除非利润翻倍。&lt;/li>
+&lt;li>&lt;strong>每月对账，逾期3天直接停货&lt;/strong>，让甲方财务打电话来求。&lt;/li>
+&lt;li>&lt;strong>用现金折扣代替融资&lt;/strong>，比如“10天内付款打9.5折”，客户为了省钱，提前打钱。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑：&lt;/strong> 你不是银行，别去搞复杂的金融操作。&lt;strong>现金流是你自己的命，别交给别人。&lt;/strong>&lt;/p>
+&lt;h3 id="最后说点实在的">最后说点实在的&lt;/h3>
+&lt;p>供应链金融就像一把刀，用好了能切菜，用不好就割自己手。你缺钱的时候，别病急乱投医，先算清楚账：&lt;/p>
+&lt;ul>
+&lt;li>融资成本 &amp;lt; 订单利润？ 可以碰。&lt;/li>
+&lt;li>融资成本 &amp;gt; 订单利润？ 赶紧跑。&lt;/li>
+&lt;li>甲方信用差？ 别碰任何金融工具，直接谈现金。&lt;/li>
+&lt;/ul>
+&lt;p>记住一句话：&lt;strong>你赚到的每一分钱，都要能落袋为安，而不是变成应收账款。&lt;/strong>&lt;/p></description></item></channel></rss>

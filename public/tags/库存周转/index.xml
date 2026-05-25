@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存周转 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC/</link><description>Recent content in 库存周转 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万才懂：这4招能救命</title><link>https://supplychain-tips.pages.dev/posts/inventory-life-saving-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-life-saving-tips/</guid><description>&lt;p>兄弟，你有没有过这种体验？&lt;/p>
+&lt;ul>
+&lt;li>仓库堆得跟迷宫一样，找卷胶带要翻半小时&lt;/li>
+&lt;li>月底盘点，账上写着“50万”，实际数出来不到20万&lt;/li>
+&lt;li>老板天天喊“降库存”，结果一查，呆料占了三分之一&lt;/li>
+&lt;li>你为了省钱，一次买了半年量的包装材料，结果产品改版，全废了&lt;/li>
+&lt;/ul>
+&lt;p>别问我怎么知道的，因为我之前也是那个&lt;strong>傻白甜&lt;/strong>。&lt;/p>
+&lt;p>干了6年供应链，看过太多公司，库存从几百万滚到几千万，最后现金流断裂，老板跑路，库管员拿着对讲机喊着“清仓大甩卖”。&lt;/p>
+&lt;p>库存不是资产，&lt;strong>库存是负债&lt;/strong>，是压在你账面上的血。今天我就把踩过的坑、学到的诈，全抖出来。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别再傻傻全备学会给命根子上保险">1. 别再傻傻“全备”：学会给命根子上保险&lt;/h3>
+&lt;p>以前我管库存，脑子里就一根筋：&lt;strong>“宁可多买，不能断货”&lt;/strong>。&lt;/p>
+&lt;p>结果呢？畅销品堆成山，冷门货落满灰，仓库租金比利润还高。&lt;/p>
+&lt;p>后来被一位老前辈骂醒了：&lt;strong>“你他妈是在开博物馆，不是在开工厂。”&lt;/strong>&lt;/p>
+&lt;p>狠招是什么？&lt;strong>ABC-XYZ分类法&lt;/strong>，别被名字唬住，说白了就是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（高价值/高销量）&lt;/strong>：比如你家爆款手机的屏幕。这类货，&lt;strong>必须算得死死的&lt;/strong>。用VMI（供应商管理库存），让厂家帮你存，你付“按需提货费”。或者签框架协议，锁定价格，分批交货。&lt;/li>
+&lt;li>&lt;strong>B类（中等价值/中等销量）&lt;/strong>：比如常规的螺丝、包装盒。安全库存设成&lt;strong>1.5倍&lt;/strong>周期用量，盯紧订单，别瞎屯。&lt;/li>
+&lt;li>&lt;strong>C类（低价值/低销量）&lt;/strong>：比如一些半年卖不掉的特殊配件。&lt;strong>直接砍掉&lt;/strong>，或者跟供应商谈“代卖”，卖出去再结账。别为了省几块钱运费，把几万块锁在仓库里。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑：80%的库存成本，只来自20%的SKU。&lt;/strong> 把精力放在A类上，别为了鸡毛蒜皮的事累死。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-盘点别月底才搞玩动态抽查">2. 盘点：别月底才搞，玩“动态抽查”&lt;/h3>
+&lt;p>一提到盘点，大家头都大。&lt;/p>
+&lt;p>“兄弟们，今晚加班盘点！”
+“又盘？上个月不是刚盘过？”
+“仓库那么大，数到明天早上也数不完啊！”&lt;/p>
+&lt;p>传统的月盘、年盘，不仅效率低，而且&lt;strong>数据滞后&lt;/strong>。等你发现少了500件货，黄花菜都凉了。&lt;/p>
+&lt;p>&lt;strong>真正的高手，玩的是“动态盘点”。&lt;/strong>&lt;/p>
+&lt;p>什么意思？就是&lt;strong>每天抽着盘&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高频盘&lt;/strong>：A类物料，每天出货后，抽10%的SKU，用RFID或者扫码枪扫一遍。5分钟搞定。&lt;/li>
+&lt;li>&lt;strong>中频盘&lt;/strong>：B类物料，每周抽盘一次。&lt;/li>
+&lt;li>&lt;strong>低频盘&lt;/strong>：C类物料，一个月甚至一季度盘一次。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键点：盘完立刻更新系统，别拖。&lt;/strong>&lt;/p>
+&lt;p>我以前公司，每天下午4点，库管员拿着PDA，把今天动过的货全扫一遍。账实不符？当场找原因，是发错了还是偷了？立刻解决。&lt;/p>
+&lt;p>&lt;strong>好处&lt;/strong>：不用月底熬夜，数据随时准确，老板问起来，你张嘴就能答。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-砍掉僵尸库存狠心才能活">3. 砍掉“僵尸库存”：狠心才能活&lt;/h3>
+&lt;p>每个仓库里，都有那么一批货。&lt;/p>
+&lt;ul>
+&lt;li>型号老掉牙，客户早不买了&lt;/li>
+&lt;li>因为一个订单订多了，结果订单取消，货烂在手里&lt;/li>
+&lt;li>生产计划拍脑袋，备了一堆料，结果产品改版&lt;/li>
+&lt;/ul>
+&lt;p>这些货，我叫它**“僵尸库存”**。它们不仅占地方，还吃钱——仓储费、管理费、资金利息。&lt;/p>
+&lt;p>&lt;strong>怎么处理？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步：定义标准。&lt;/strong> 比如，连续90天没有出库记录的，自动标记为“呆料”。&lt;/li>
+&lt;li>&lt;strong>第二步：立刻行动。&lt;/strong> 别犹豫，能退货的退货，能折价卖的就折价卖，能改用的改用。实在不行，&lt;strong>直接报废&lt;/strong>。与其让它们耗着，不如清空空间，盘活现金流。&lt;/li>
+&lt;li>&lt;strong>第三步：源头控制。&lt;/strong> 建立“呆料预警机制”。采购下单前，系统自动弹窗：“这个SKU已经60天没动过了，你确定要买吗？”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住一个真理：&lt;/strong> 卖不出去的库存，就是废铁。&lt;strong>留着就是等死。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-用数据算命别拍脑袋订货">4. 用数据“算命”：别拍脑袋订货&lt;/h3>
+&lt;p>很多公司订货，全靠老板心情或者销售拍胸脯。&lt;/p>
+&lt;p>“下个月销量肯定翻倍！”
+“赶紧备5000套！”&lt;/p>
+&lt;p>结果呢？销量没来，库存上去了。&lt;/p>
+&lt;p>&lt;strong>正确的做法：用历史数据+周期性算法。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步：拉出去年同期的销售数据。&lt;/strong> 去掉促销、疫情等极端值。&lt;/li>
+&lt;li>&lt;strong>第二步：引入“安全库存公式”。&lt;/strong> 别怕数学，就是个&lt;strong>简单公式&lt;/strong>：&lt;/li>
+&lt;li>安全库存 = Z值（缺货风险系数）× 需求标准差 × √(补货周期)&lt;/li>
+&lt;li>看不懂？没关系。&lt;strong>直接上工具：&lt;/strong> 用Excel的STDEV函数算标准差，或者用WMS（仓库管理系统）自动生成。&lt;/li>
+&lt;li>&lt;strong>第三步：设置“再订货点”&lt;/strong>。比如，库存低于500件时，系统自动发邮件给采购：“该补货了”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别再用“感觉”管理库存了，用数据。&lt;/strong>&lt;/p></description></item></channel></rss>

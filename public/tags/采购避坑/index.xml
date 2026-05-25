@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/</link><description>Recent content in 采购避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商管不好，3年亏掉一套房</title><link>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-management-pain/</guid><description>&lt;p>&lt;strong>先讲个真事。&lt;/strong>&lt;/p>
+&lt;p>上个月跟一个老采购喝酒，他干了8年，去年刚升总监。
+喝到第三杯，他叹气：“我前三年，把公司坑惨了。”&lt;/p>
+&lt;p>问他怎么坑的？
+&lt;strong>“选供应商，只看价格。便宜就签，压账期、砍单价，自我感觉牛得不行。结果呢？&lt;/strong>
+&lt;strong>第一批货就出问题，质检不过关，客户退货，公司赔了80万。”&lt;/strong>&lt;/p>
+&lt;p>他顿了顿：“那80万，我到现在还记在工资单上。”&lt;/p>
+&lt;p>这不是段子。
+&lt;strong>供应商关系管理这六个字，看着虚，实际上就是钱——你的钱，公司的钱。&lt;/strong>&lt;/p>
+&lt;p>今天不扯那些MBA教材里的定义，咱们聊点干的。
+&lt;strong>这4个坑，你自己对号入座，踩过几个。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-以为压价是本事实则是在埋雷">1. 以为“压价”是本事，实则是在埋雷&lt;/h3>
+&lt;p>很多采购入行第一课：&lt;strong>砍价。&lt;/strong>
+老板说：“你去谈，价格越低越好。”
+于是你对着供应商一顿砍，从10块砍到8块，回头还沾沾自喜：“我真牛。”&lt;/p>
+&lt;p>&lt;strong>醒醒。&lt;/strong>&lt;/p>
+&lt;p>供应商不是傻子，你砍掉那2块钱，人家从哪补回来？
+&lt;strong>三个字：偷工减料。&lt;/strong>&lt;/p>
+&lt;p>材质换便宜的、工艺省两步、公差放宽——表面上你省了2块，实际上产品寿命缩短30%，退货率飙升。
+最后给公司擦屁股的，还是你。&lt;/p>
+&lt;p>&lt;strong>真正的高手怎么干？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先搞清楚供应商的成本结构：原料、人工、物流、损耗，一项一项拆。&lt;/li>
+&lt;li>再问自己：&lt;strong>我能不能帮他把别的成本降下来？&lt;/strong>
+比如换更近的物流、集中采购量、缩短付款周期。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：压价是下限，降本是上限。&lt;/strong>
+你能帮供应商省的钱，才是你真正的“谈判筹码”。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-把供应商当乙方迟早被反噬">2. 把供应商当“乙方”，迟早被反噬&lt;/h3>
+&lt;p>我见过最离谱的采购，跟供应商说话是这种语气：
+“你赶紧给我交货，不然换人！”
+“这点事都搞不定，你们怎么做的？”&lt;/p>
+&lt;p>&lt;strong>兄弟，你以为你在训员工？&lt;/strong>&lt;/p>
+&lt;p>供应商不是你的下属，是&lt;strong>合作伙伴&lt;/strong>。
+你这边单子小、账期长、态度还差，人家凭什么给你好脸色？&lt;/p>
+&lt;p>&lt;strong>一个真实的案例：&lt;/strong>
+某电子厂，采购经理对一家核心芯片供应商颐指气使了两年。
+结果芯片缺货那一年，所有客户都被优先供货，唯独他们公司断供3个月。
+生产线停了，一天损失50万。&lt;/p>
+&lt;p>&lt;strong>供应商关系管理的核心，是“关系”二字。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>逢年过节发条消息，不用多贵，一句问候就行。&lt;/li>
+&lt;li>遇到供应商交期紧张，主动问一句：“需要我帮忙协调吗？”&lt;/li>
+&lt;li>付款别拖，哪怕晚一天，也提前说一声。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你以为这是“讨好”？不，这是风险对冲。&lt;/strong>
+关键时刻，能救你命的，不是合同里的条款，是你们之间那点“人情”。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-只盯着大供应商忽略了小团队的爆发力">3. 只盯着“大供应商”，忽略了小团队的爆发力&lt;/h3>
+&lt;p>大部分公司选供应商的流程：
+查规模、看资质、比报价——最后往往选头部大厂。&lt;/p>
+&lt;p>&lt;strong>没问题吧？问题大了。&lt;/strong>&lt;/p>
+&lt;p>大供应商的优势是稳定，但劣势也很明显：&lt;/p>
+&lt;ul>
+&lt;li>响应慢：你加一个急单，人家流程走一周。&lt;/li>
+&lt;li>配合度低：你提个定制需求，人家嫌麻烦。&lt;/li>
+&lt;li>议价权低：人家不缺你这一单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>而小供应商呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>灵活：今天下单，明天就能改。&lt;/li>
+&lt;li>肯干：你给个机会，人家恨不得把命都搭上。&lt;/li>
+&lt;li>成长快：跟着你一起跑，磨合成本越来越低。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么选？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>核心物料找大厂&lt;/strong>：保底，别断供。&lt;/li>
+&lt;li>&lt;strong>非核心+创新性物料找小团队&lt;/strong>：试错成本低，而且容易建立“铁杆关系”。&lt;/li>
+&lt;/ul>
+&lt;p>我认识一个采购总监，他在&lt;strong>非关键物料&lt;/strong>上专门扶持了3家小供应商，从几十万做到几千万的体量。
+现在这3家，逢年过节给他送特产，遇到市场波动主动给他锁价。
+&lt;strong>为什么？&lt;/strong>
+因为是他把人家带起来的。&lt;/p>
+&lt;p>&lt;strong>别看不起小供应商，他们可能就是你未来的“王牌”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-从不复盘踩过的坑还会再踩">4. 从不复盘，踩过的坑还会再踩&lt;/h3>
+&lt;p>&lt;strong>你做采购，有没有做过这件事：&lt;/strong>
+把过去一年所有供应商的表现，拉个表格打分？&lt;/p></description></item><item><title>干了6年供应链，才敢说这5个坑别踩</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>&lt;strong>在供应链干了6年，我差点被一个坑送走。&lt;/strong>&lt;/p>
+&lt;p>第一次背锅，是刚入职第二年。
+老板问：“库存怎么又爆了？”
+我瞄了眼报表，底气十足：“销售乱预测，生产瞎排期，关我屁事。”
+结果呢？老板让我滚去仓库，自己盘点三天。&lt;/p>
+&lt;p>三天后，我坐在仓库纸箱上，看着积灰的200万库存，突然懂了：
+&lt;strong>供应链这行，不是谁对谁错的问题，是谁能活下来的问题。&lt;/strong>&lt;/p>
+&lt;p>后来，我踩了无数坑，赔了300多万库存学费，才摸清这几个生存法则。
+今天不跟你讲彼得·德鲁克，也不拽SCOR模型。
+就唠5个你马上能用的血泪教训。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别信安全库存那是你的催命符">1. 别信“安全库存”，那是你的催命符&lt;/h3>
+&lt;p>刚入行时，老采购教我：“安全库存设高点，稳。”
+我真听话，每个SKU都按历史峰值留两倍。
+结果呢？仓库成了博物馆，货堆得像金字塔。老板巡视时脸都绿了：“你囤这些是等人穿越来买？”&lt;/p>
+&lt;p>&lt;strong>真相是：安全库存是懒人逻辑，不是避险逻辑。&lt;/strong>&lt;/p>
+&lt;p>后来我换了算法：&lt;/p>
+&lt;ul>
+&lt;li>先问自己：这个SKU，断货1天损失多少？&lt;/li>
+&lt;li>再算：库存成本vs缺货成本，哪个更痛？&lt;/li>
+&lt;li>最后拍板：敢不敢让它断货三天？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果：库存从300万砍到120万，缺货率反而降了30%。&lt;/strong>
+诀窍就一个：&lt;strong>别用平均数骗自己，用真实波动算上限。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-供应商说没问题你就要出大问题">2. 供应商说“没问题”，你就要出大问题&lt;/h3>
+&lt;p>有次大促前，核心供应商拍胸脯：“产能管够，交期稳如狗。”
+我信了，没备选方案。
+结果呢？对方原材料被卡，硬拖了10天。我这边仓库全空，客服被骂到哭，老板拍桌子：“你供应链是纸糊的？”&lt;/p>
+&lt;p>&lt;strong>记住：供应链里，100%的信任等于100%的炸弹。&lt;/strong>&lt;/p>
+&lt;p>后来我定了死规矩：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>关键物料必须双供&lt;/strong>，哪怕第二个供应商贵15%&lt;/li>
+&lt;li>&lt;strong>每周一次交期确认&lt;/strong>，超过3天预警直接发红牌&lt;/li>
+&lt;li>&lt;strong>合同里写违约金&lt;/strong>，但别指望靠它赚钱，防的是“我再想想”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别做老好人。供应链里，好人死于心软。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-库存周转率比毛利率更值钱">3. 库存周转率，比毛利率更值钱&lt;/h3>
+&lt;p>我见过太多人：&lt;/p>
+&lt;ul>
+&lt;li>毛利20%，很爽，但库存周转率0.5次/年&lt;/li>
+&lt;li>货堆在库房，利息吃掉利润，最后亏到哭&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账：&lt;/strong>
+假设你毛利率20%，年周转2次，实际年化收益才40%。
+但如果周转做到6次，哪怕毛利只有10%，年化收益也有60%。&lt;/p>
+&lt;p>&lt;strong>库存不是资产，是负债。&lt;/strong>
+你每多囤一天，就是给银行打工一天。&lt;/p>
+&lt;p>我自己定的KPI：&lt;/p>
+&lt;ul>
+&lt;li>快消品：周转必须≥12次/年&lt;/li>
+&lt;li>工业品：至少4次/年&lt;/li>
+&lt;li>低于这个数，直接砍SKU或降库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别贪多。20个高周转SKU，比200个滞销货赚得多。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-系统是工具不是爸爸">4. 系统是工具，不是爸爸&lt;/h3>
+&lt;p>很多公司砸钱上ERP、WMS，觉得上了就万事大吉。
+我见过最离谱的：花了500万上SAP，结果员工天天手动填Excel。问为啥，答：“系统不准，还是自己算靠谱。”&lt;/p>
+&lt;p>&lt;strong>系统不是万能的，没系统是万万不能的。&lt;/strong>
+但你得明白：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>系统是框架，数据是血液&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>别等系统帮你思考，你得先想明白流程&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我常用的土办法：&lt;/p>
+&lt;ul>
+&lt;li>先用Excel跑三个月流程，把坑全踩一遍&lt;/li>
+&lt;li>流程稳定了，再上系统固化&lt;/li>
+&lt;li>系统上线后，每周抽查数据，差1%就追责&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：不解决问题的系统，就是一堆废铁。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-别跟销售称兄道弟他们会坑死你">5. 别跟销售称兄道弟，他们会坑死你&lt;/h3>
+&lt;p>最痛的一次教训：
+销售拍胸脯：“下季度订单翻倍，你赶紧备货！”
+我连夜下单，压了500万库存。
+结果呢？市场变了，订单跌了60%。销售甩锅：“我说的是预测，又不是承诺。”&lt;/p>
+&lt;p>&lt;strong>供应链和销售的本质是博弈，不是兄弟。&lt;/strong>
+后来我立的规矩：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>所有销售预测必须签字&lt;/strong>，超30%偏差直接扣奖金&lt;/li>
+&lt;li>&lt;strong>备货上限=销量预测×0.8&lt;/strong>，多出来的让销售自己申请&lt;/li>
+&lt;li>&lt;strong>每周开产销协调会&lt;/strong>，让销售现场拍胸脯，我在旁边录音&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别打我脸。打一次，我就让你背锅背到哭。&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+&lt;p>我前同事老李，去年拍胸脯上了套新系统，号称“智能MRP，一键算清物料”。老板当场批了50万。&lt;/p>
+&lt;p>半年后，仓库爆仓，300万原材料烂在架子上。生产线上却因为缺一个螺丝，停了三天。&lt;/p>
+&lt;p>老板开会指着鼻子骂：“你不是说系统能算好？”&lt;/p>
+&lt;p>老李那表情，比吃苦瓜还难看。&lt;/p>
+&lt;p>这事不怪老李，也不怪MRP。&lt;/p>
+&lt;p>&lt;strong>怪就怪，太多人把MRP当神了。&lt;/strong>&lt;/p>
+&lt;p>上系统的时候，销售拍脑袋给个预测，工程闭着眼改BOM（物料清单），采购闷头下订单。MRP吭哧吭哧算完，给你一张“完美计划”——然后现实一巴掌扇过来：客户改需求了，供应商延期了，质检卡住了。&lt;/p>
+&lt;p>你盯着系统里那堆数字，心里一万匹草泥马：&lt;strong>这玩意儿到底是救我，还是坑我？&lt;/strong>&lt;/p>
+&lt;p>今天不扯虚的。我干了7年供应链，踩过坑、背过锅、压过500万的库存，才搞明白下面这5件事。&lt;/p>
+&lt;p>废话不说，直接上干货。&lt;/p>
+&lt;h3 id="1-别信mrp算出的安全库存那是骗自己的">1. 别信MRP算出的“安全库存”，那是骗自己的&lt;/h3>
+&lt;p>你肯定见过这种画面：领导一拍桌子，“安全库存给我设30天！” 销售跟着吼，“不，50天！” 你默默在系统里填了个45天。&lt;/p>
+&lt;p>&lt;strong>结果呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存周转率低到被老板骂&lt;/li>
+&lt;li>呆滞物料堆成山，处理时连运费都亏&lt;/li>
+&lt;li>遇上真缺货，发现安全库存全是“心理安慰剂”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>为什么？&lt;/strong> 因为安全库存不是算出来的，是&lt;strong>跑出来的&lt;/strong>。&lt;/p>
+&lt;p>真正的高手怎么干？&lt;/p>
+&lt;ul>
+&lt;li>拿过去3个月的出库数据，算出标准差&lt;/li>
+&lt;li>加上供应商的实际交货波动（别信合同上的天数）&lt;/li>
+&lt;li>再乘个1.5的“怂逼系数”（给自己留口气）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别用平均数，用中位数。&lt;/strong> 平均数是给鬼看的，中位数才是人吃的饭。&lt;/p>
+&lt;h3 id="2-主生产计划mps不准mrp就是算命的">2. 主生产计划（MPS）不准，MRP就是算命的&lt;/h3>
+&lt;p>这句话我恨不得刻在所有老板的脑门上。&lt;/p>
+&lt;p>MPS（主生产计划）是MRP的爹。爹都不靠谱，儿子再聪明也是瞎折腾。&lt;/p>
+&lt;p>我见过最离谱的：销售说“下个月要卖10万台”，生产排了10万台的料。结果实际只卖了3000台。理由是“客户临时砍单了”。临时？这借口能糊弄鬼呢？&lt;/p>
+&lt;p>&lt;strong>怎么防？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MPS必须分“锁定区”和“预测区”&lt;/strong>。锁定区（比如未来2周）不准改，改一次罚500块。预测区（2-4周）可以微调，但幅度不能超20%。&lt;/li>
+&lt;li>&lt;strong>每周开一次S&amp;amp;OP（销售与运营计划）会议&lt;/strong>。别搞成过家家，销售、生产、采购、财务坐一起，当面对质。谁的数据离谱，谁请喝下午茶。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-bom物料清单不干净mrp就是垃圾进垃圾出">3. BOM（物料清单）不干净，MRP就是垃圾进垃圾出&lt;/h3>
+&lt;p>你以为BOM就是一张清单？太天真了。&lt;/p>
+&lt;p>我见过一家工厂，BOM里有一个螺丝，规格写的是“M6&lt;em>20不锈钢”。采购按这个买了5万颗。结果产线说装不上——因为图纸更新了，螺丝型号早改成“M6&lt;/em>25”了。&lt;/p>
+&lt;p>&lt;strong>5万颗螺丝，全废了。&lt;/strong>&lt;/p>
+&lt;p>BOM的坑，比马里亚纳海沟还深：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>版本混乱&lt;/strong>：工程改完没通知，BOM还是老版&lt;/li>
+&lt;li>&lt;strong>虚拟件横行&lt;/strong>：为了简单，把几个物料合成一个虚拟件，结果MRP算不出真实需求&lt;/li>
+&lt;li>&lt;strong>替代料没标&lt;/strong>：明明能用A料代替B料，系统不知道，一断货就抓瞎&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周审计一次BOM&lt;/strong>，找工程签字确认&lt;/li>
+&lt;li>&lt;strong>所有替代料必须在系统里标清楚&lt;/strong>，别靠人工记&lt;/li>
+&lt;li>&lt;strong>设一个“BOM变更冻结期”&lt;/strong>，比如生产前3天不能改&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-供应商数据比你的库存数据更重要">4. 供应商数据比你的库存数据更重要&lt;/h3>
+&lt;p>很多公司天天盯着库存，却对供应商的“家底”一无所知。&lt;/p>
+&lt;p>我给你讲个真事：我朋友公司MRP跑出来要买1000个电机，系统显示库存够，因为供应商说“随时能发货”。结果下单后，供应商说“原材料涨价了，要加30%”。朋友老板气得骂娘，但货已经断了，只能乖乖掏钱。&lt;/p>
+&lt;p>&lt;strong>供应商数据，才是MRP的命根子。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>交货准确率&lt;/strong>：别只看准时率，看实际天数波动。比如承诺7天，实际是5-15天，这种供应商得拉黑。&lt;/li>
+&lt;li>&lt;strong>产能瓶颈&lt;/strong>：别只知道他能做100个，要问他“如果突然加单50%，要多久？”&lt;/li>
+&lt;li>&lt;strong>付款周期&lt;/strong>：这直接影响你的现金流，别等到月底才发现钱不够付。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>建议：每个月更新一次供应商的“能力画像”，并同步到MRP里。&lt;/strong> 做不到？那就手动调参数，把交货期自动+30%。&lt;/p>
+&lt;h3 id="5-最后一条别把mrp当甩锅工具">5. 最后一条：别把MRP当甩锅工具&lt;/h3>
+&lt;p>这可能是最扎心的。&lt;/p>
+&lt;p>很多人上了MRP之后，就以为“系统会管一切”。订单缺了？怪系统没提醒。库存爆了？怪系统算错了。老板骂你？你两手一摊：“系统的问题。”&lt;/p>
+&lt;p>&lt;strong>醒醒吧。MRP是工具，不是大脑。&lt;/strong>&lt;/p>
+&lt;p>它只能告诉你“该买什么、买多少”。但&lt;strong>为什么买、什么时候买、要不要调整&lt;/strong>，得靠你。&lt;/p>
+&lt;ul>
+&lt;li>客户突然说要加单？你得手动调MPS&lt;/li>
+&lt;li>供应商说这批货延期？你得冲进系统改采购订单&lt;/li>
+&lt;li>仓库发现实物对不上？你得去翻账本，不是骂系统&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>月薪5千的采购，等着MRP给答案。月薪5万的采购，用MRP算完，再自己跑一遍逻辑。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>结语：&lt;/p></description></item><item><title>供应商评估这5个坑，我踩了才醒</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>先讲个我自己的故事。&lt;/p>
+&lt;p>去年Q2，我负责一个核心物料，供应商A报价比竞品低12%。老板在周会上拍桌子：“这还用评估？赶紧签！抢产能！”我硬着头皮走流程，评估表上勾了“质量合格”“交期达标”，实际上——样品是对方连夜赶制的特供版，工厂我去都没去过。&lt;/p>
+&lt;p>结果呢？量产第三周，批次不良率飙到18%，产线停了两天，老板把我骂得狗血淋头。那个供应商A呢？电话打不通，微信不回，连质保金都没扣回来——因为合同里根本没约定赔付比例。&lt;/p>
+&lt;p>&lt;strong>我踩的第一个坑：评估就是走流程，不是真打仗。&lt;/strong>&lt;/p>
+&lt;p>你是不是也这样？供应商评估表填得比情书还整齐，但实际就是“价格及格，其他全凭运气”。别装了，这行里80%的采购都干过这种事。&lt;/p>
+&lt;p>今天我就把这5个坑摊开说，每一个都是用钱、加班、背锅换来的。你不想成为下一个我，就好好看。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑1只看价格不看隐形成本">### 坑1：只看价格，不看“隐形成本”&lt;/h3>
+&lt;p>采购圈最经典的笑话：老板说“我要最便宜的”，然后你选的供应商，到货延迟了3天，产线停了，老板又说“你怎么不选靠谱的”。&lt;/p>
+&lt;p>&lt;strong>价格越低，隐形成本越高。&lt;/strong> 这不是鸡汤，是数学。&lt;/p>
+&lt;p>你算过吗？一个报价低10%的供应商，如果：&lt;/p>
+&lt;ul>
+&lt;li>交期不准时，导致你紧急空运费：成本直接+15%&lt;/li>
+&lt;li>质量抽检不合格，返工工时：成本+8%&lt;/li>
+&lt;li>售后服务响应慢，你亲自去现场擦屁股：时间成本+你的血压&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最扎心的真相：&lt;/strong> 低价供应商往往在账期、包装、最小起订量上卡你。你以为省了单价，结果现金流被拖死，仓库堆满呆滞料。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 评估时别只盯着单价，要算“总拥有成本”。把运费、损耗、退货率、维护费全部列出来，做成一张表。老板再拍桌子，你就把表拍回去：“老板，这个价买回来，最后成本比别家贵20%。”&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑2迷信高大上资质忽略真实交付力">### 坑2：迷信“高大上”资质，忽略真实交付力&lt;/h3>
+&lt;p>有些采购一看到ISO认证、行业排名、上市公司背景，就膝盖发软。觉得“大厂肯定没问题”。&lt;/p>
+&lt;p>&lt;strong>醒醒。&lt;/strong> 大厂的坑比小厂还深。&lt;/p>
+&lt;p>我合作过一个世界500强供应商，官网做得跟苹果发布会似的。结果呢？订单下了之后，对方客户经理换了3个，每次沟通都要重新讲需求。最后交期延误了2个月，理由是什么？“总部流程审批慢。”&lt;/p>
+&lt;p>你品，你细品。&lt;/p>
+&lt;p>&lt;strong>真正要看的是“交付力”，不是“画皮力”。&lt;/strong> 怎么判断？&lt;/p>
+&lt;ul>
+&lt;li>问对方：你们最近3个月的准时交付率是多少？别听他说“95%以上”，让他拿出系统截图。&lt;/li>
+&lt;li>问他们客户：你上次和他们合作，最满意和最抓狂的是什么？直接打电话给他们的现有客户，别怕冒犯，做这行就要脸皮厚。&lt;/li>
+&lt;li>偷偷看他们工厂：门口停车多不多？员工下班早不早？这些细节比任何PPT都真实。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-坑3不做现场审核全凭感觉">### 坑3：不做现场审核，全凭“感觉”&lt;/h3>
+&lt;p>我见过最离谱的采购评估：给对方发个Excel表格，对方填好回传，然后采购说“嗯，看着挺正规的”，就签了。&lt;/p>
+&lt;p>&lt;strong>大哥，你这是在找对象，只看了照片就领证？&lt;/strong>&lt;/p>
+&lt;p>现场审核不是“去拍个照发朋友圈”，是去闻味道、看角落、问工人。我教你3个狠招：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>突击检查：&lt;/strong> 别约时间，直接杀过去。看看对方仓库是不是堆满积灰的物料，生产线是不是在赶工你的订单（如果没你的单，说明他们产能不饱和）。&lt;/li>
+&lt;li>&lt;strong>问一线工人：&lt;/strong> “你们最近加班多吗？”“工资按时发吗？”工人说“好久没发奖金了”，你就知道这家公司现金流紧张，随时可能跑路。&lt;/li>
+&lt;li>&lt;strong>看厕所：&lt;/strong> 别笑。厕所干净程度直接反映管理水平。车间厕所又脏又臭，说明管理层眼里没有“人”，自然也不会有“质量”。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住：&lt;/strong> 供应商评估的本质，是看“人”和“系统”。系统可以伪装，但人很难。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑4忽略财务状况把命交给老赖">### 坑4：忽略财务状况，把命交给“老赖”&lt;/h3>
+&lt;p>你信不信，很多采购连供应商的资产负债表都没看过？&lt;/p>
+&lt;p>去年我一个朋友，合作了2年的供应商突然倒闭，预付款打了水漂，还欠了200万货款。他跑去一看，对方老板早把公司资产转移了，名下只剩一辆五菱宏光。&lt;/p>
+&lt;p>&lt;strong>评估供应商，必须像评估你的相亲对象一样，查清楚对方“家底”。&lt;/strong>&lt;/p>
+&lt;p>怎么查？3步走：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>要财务报表：&lt;/strong> 不看多复杂，就看“流动比率”（大于2算安全）和“资产负债率”（低于60%算健康）。如果对方支支吾吾不肯给，直接pass。&lt;/li>
+&lt;li>&lt;strong>查工商司法：&lt;/strong> 企查查、天眼查用起来。看有没有诉讼、被执行人、经营异常。如果有，问清楚原因，别自己骗自己“应该是误会”。&lt;/li>
+&lt;li>&lt;strong>看现金流：&lt;/strong> 问他们“你们给上游付款是月结还是现结？”如果上游都不信任他们，你凭什么信任？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：&lt;/strong> 供应商的财务健康，就是你的供应链安全。别等对方暴雷了，你才哭着说“我以为他是好人”。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑5只进不出没有退出机制">### 坑5：只进不出，没有“退出机制”&lt;/h3>
+&lt;p>很多采购把供应商评估当成“一锤子买卖”：选定了就不动了，合作3年也没重新评估过。&lt;/p>
+&lt;p>&lt;strong>这是最危险的懒政。&lt;/strong>&lt;/p>
+&lt;p>供应商会变：老板换人了、设备老化了、市场变了。你3年前选的优等生，现在可能变成了差生。&lt;/p>
+&lt;p>&lt;strong>我自己的做法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每季度做一次“健康体检”：&lt;/strong> 准时率、不良率、配合度、价格竞争力，打ABCD四个等级。&lt;/li>
+&lt;li>&lt;strong>每年淘汰末位10%：&lt;/strong> 强制引入新供应商竞争。别怕麻烦，你不淘汰他，市场就会淘汰你。&lt;/li>
+&lt;li>&lt;strong>合同里写清楚“分手条款”：&lt;/strong> 比如质量问题累计3次，你有一票否决权直接终止合作；比如账期到期未发货，你有权从押金里扣款。&lt;strong>别当老好人，合同就是用来撕的。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 供应商评估不是选美，是相亲之后的婚后生活。你要有随时换人的底气，而不是被对方拿捏。&lt;/p></description></item><item><title>合同签错这3个字，公司白亏80万</title><link>https://supplychain-tips.pages.dev/posts/contract-mistakes-cost/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-mistakes-cost/</guid><description>&lt;p>上周一个采购老铁找我喝酒，脸都绿了。&lt;/p>
+&lt;p>他签了个原料采购合同，单价写了“含税”，但没写“含运费”。结果货到了，供应商甩过来一张3万8的物流发票，说合同里没含运费，必须另付。&lt;/p>
+&lt;p>老板当场拍桌子：“你是采购还是散财童子？”&lt;/p>
+&lt;p>这事还真不怪供应商黑心。合同是你签的，字是你写的，你没写清楚，人家按对自己有利的方式执行，你有脾气吗？&lt;/p>
+&lt;p>我干了8年采购，见过太多人因为合同签得稀里糊涂，被坑得裤衩都不剩。今天就把那些&lt;strong>血淋淋的教训&lt;/strong>摊开说，全是实操经验，看完至少帮你公司省10万。&lt;/p>
+&lt;hr>
+&lt;h3 id="第一个坑价格条款里的一字千金">第一个坑：价格条款里的“一字千金”&lt;/h3>
+&lt;p>很多采购小白签合同，价格栏就写个数字，后面跟个“含税价”。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>“含税”含的是什么税？增值税13个点还是6个点？含不含运费？含不含卸货费？含不含包装费？&lt;/p>
+&lt;p>我见过最离谱的合同，写的是“含税到厂价”，结果供应商到货了，说“到厂价不含上楼”。工厂在5楼没电梯，一吨货上楼再加2000块搬运费。&lt;/p>
+&lt;p>&lt;strong>正确写法应该是这样的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>单价：XX元/吨（含13%增值税专票）&lt;/li>
+&lt;li>运费：含（送货至XX仓库，含卸货）&lt;/li>
+&lt;li>包装：含（托盘缠绕膜包装，每托XX公斤）&lt;/li>
+&lt;li>付款：货到票到30天&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一字不写清，多花好几万。&lt;/strong>&lt;/p>
+&lt;p>特别是那种&lt;strong>价格浮动条款&lt;/strong>，更要命。有的合同写“价格随市场波动调整”，结果原材料涨了5%，供应商给你涨15%。你说不合理？合同上白纸黑字写的“随市场波动”，你怎么举证？&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 把调价机制写死。比如“当主要原材料价格波动超过10%时，双方协商调整，调整幅度不超过原材料成本变动比例的80%”。记住，&lt;strong>写死的条款才是你的护身符&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="第二个坑验收标准里的耍流氓">第二个坑：验收标准里的“耍流氓”&lt;/h3>
+&lt;p>合同里最容易被动手脚的地方，就是验收。&lt;/p>
+&lt;p>很多采购写：“按国家相关标准执行”。&lt;/p>
+&lt;p>&lt;strong>国家什么标准？GB/T还是GB？哪个编号？哪一年版本？&lt;/strong>&lt;/p>
+&lt;p>不写清楚，就等于给供应商留了后门。&lt;/p>
+&lt;p>真实案例：某公司采购一批电子元器件，验收条款写的是“符合行业标准”。货到了，外观没问题，但上机就坏。供应商说：“行业标准只要外观完好、功能正常就行，你上机坏了是你使用问题。”——人家真没违约，因为合同没写“上机合格率”。&lt;/p>
+&lt;p>&lt;strong>验收条款必须这么写：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>验收依据：&lt;/strong> 明确写“以双方签字确认的《技术规格书》（附件1）为准”&lt;/li>
+&lt;li>&lt;strong>验收方式：&lt;/strong> 写清楚“每批次抽检20%，不合格率超过3%则整批退回”&lt;/li>
+&lt;li>&lt;strong>验收地点：&lt;/strong> 写“在甲方工厂验收，验收结果以甲方书面确认为准”&lt;/li>
+&lt;li>&lt;strong>异议期：&lt;/strong> 写“验收不合格的，甲方有权在7日内提出异议，供应商应在3日内处理”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最狠的一招：&lt;/strong> 加一句“&lt;strong>最终解释权归甲方所有&lt;/strong>”。虽然法律上不一定完全站得住，但谈判时能压住对方的气焰。&lt;/p>
+&lt;p>记住，&lt;strong>验收条款越模糊，你的风险越大&lt;/strong>。你让供应商钻了空子，老板只会骂你，不会骂供应商。&lt;/p>
+&lt;hr>
+&lt;h3 id="第三个坑违约责任里的纸老虎">第三个坑：违约责任里的“纸老虎”&lt;/h3>
+&lt;p>合同里违约责任写“双方协商解决”，等于没写。&lt;/p>
+&lt;p>&lt;strong>什么叫协商？就是扯皮。&lt;/strong> 你扯得过供应商的专业法务吗？&lt;/p>
+&lt;p>很多采购怕写重了得罪供应商，结果出事了，供应商拖你半年，你一点办法没有。&lt;/p>
+&lt;p>&lt;strong>违约条款要写具体、可执行：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>延迟交货：&lt;/strong> “每延迟一天，按合同金额的0.5%支付违约金，超过15天甲方有权单方解约并要求赔偿损失”&lt;/li>
+&lt;li>&lt;strong>质量不合格：&lt;/strong> “乙方承担全部退换货费用，并赔偿甲方因此造成的停工损失”&lt;/li>
+&lt;li>&lt;strong>知识产权侵权：&lt;/strong> “如乙方提供的产品侵犯第三方知识产权，乙方承担全部责任并赔偿甲方全部损失”&lt;/li>
+&lt;/ul>
+&lt;p>有人会说：“写这么狠，供应商不签怎么办？”&lt;/p>
+&lt;p>&lt;strong>那你得看情况。&lt;/strong> 如果是买方市场，你没主动权？但如果是卖方市场，你也别太怂。&lt;strong>合同是谈出来的，不是签出来的。&lt;/strong> 你可以让步，但要让得有价值。比如违约金从每天1%降到0.3%，但换一个“付款账期延长30天”。&lt;/p>
+&lt;p>&lt;strong>记住：&lt;/strong> 所有让步都要写在合同里，口头承诺等于放屁。&lt;/p>
+&lt;hr>
+&lt;h3 id="第四个坑争议解决里的异地审判">第四个坑：争议解决里的“异地审判”&lt;/h3>
+&lt;p>这个坑最隐蔽，但最致命。&lt;/p>
+&lt;p>很多合同里写“争议由乙方所在地法院管辖”。你公司在北京，供应商在新疆，出事了你去新疆打官司？来回机票、律师费、时间成本，算下来比合同金额还贵。&lt;/p>
+&lt;p>&lt;strong>正确写法：&lt;/strong> “争议由甲方所在地人民法院管辖”。如果对方不同意，退一步写“合同签订地人民法院管辖”。你把签订地写你自己的城市，也行。&lt;/p>
+&lt;p>&lt;strong>千万别嫌麻烦。&lt;/strong> 我一个朋友签了份200万的设备合同，争议条款写的是“由乙方所在地仲裁”。后来设备出问题了，乙方在深圳，他在哈尔滨。去深圳仲裁，费用花了20多万，还得请深圳的律师。最后仲裁赢了，但钱还没执行回来。&lt;strong>这20多万的仲裁费，够买你两年钓鱼装备了。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="第五个坑附件管理里的隐形炸弹">第五个坑：附件管理里的“隐形炸弹”&lt;/h3>
+&lt;p>合同正文写再好，附件是空的，等于白写。&lt;/p>
+&lt;p>采购合同最怕的就是“正文是一套，附件是另一套”。尤其是技术规格书、图纸、样品确认单，这些附件才是合同的核心。&lt;/p>
+&lt;p>&lt;strong>几个血泪教训：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>附件要双方签字盖章，&lt;/strong> 不要只发个电子版。电子版可以PS，原件才有法律效力。&lt;/li>
+&lt;li>&lt;strong>附件清单要写清楚：&lt;/strong> “本合同附件包括：1. 技术规格书（共5页）；2. 样品照片（共3页）；3. 质量保证书（共1页）”&lt;/li>
+&lt;li>&lt;strong>附件的修改要写补充协议：&lt;/strong> 别口头说“规格改了，你按新的做”。出事了，供应商说你没通知过，你怎么办？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最简单的方法：&lt;/strong> 合同末尾加一句“&lt;strong>本合同附件与正文具有同等法律效力，如附件与正文冲突，以正文为准&lt;/strong>”。把主动权抓在自己手里。&lt;/p></description></item><item><title>采购只看价格？你亏掉的钱能买一套房</title><link>https://supplychain-tips.pages.dev/posts/tco-hidden-costs/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-hidden-costs/</guid><description>&lt;p>前两天跟一个做采购的朋友撸串，他灌了半瓶啤酒，红着眼跟我说：&lt;/p>
+&lt;p>&lt;strong>“我被老板骂惨了。就因为去年贪便宜，买了那批‘性价比超高’的二手叉车。”&lt;/strong>&lt;/p>
+&lt;p>结果呢？买回来第一个月，维修费花了3万。第二个月，电池报废，换一套1万5。第三个月，直接趴窝，耽误生产线两天，损失订单20万。&lt;/p>
+&lt;p>他拍着桌子吼：“现在算下来，总成本比买新的贵了整整一倍！老板说我是‘省钱天才’，讽刺的那种。”&lt;/p>
+&lt;p>我听完，就回了他一句话：“兄弟，你缺的不是省钱技巧，你缺的是TCO脑子。”&lt;/p>
+&lt;hr>
+&lt;h3 id="01-为什么你拼命省钱老板却觉得你在亏钱">01. 为什么你拼命省钱，老板却觉得你在亏钱？&lt;/h3>
+&lt;p>别笑。这种“省小钱亏大钱”的坑，90%的采购都踩过。&lt;/p>
+&lt;p>&lt;strong>因为你把“价格”当成了“成本”。&lt;/strong>&lt;/p>
+&lt;p>你盯着供应商报价单上的那个数字，恨不得砍到脚踝，以为这就是为公司省钱了。但真相是——&lt;strong>那个数字只是冰山一角。&lt;/strong>&lt;/p>
+&lt;p>水面下藏着什么？&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>隐形成本1：维修保养的“无底洞”&lt;/strong>
+便宜设备=故障率高。今天坏个电机，明天断根皮带。供应商售后？打10个电话接1个，上门还要另收费。你光跟维修师傅周旋的时间，都够再谈一个项目了。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本2：停机带来的“滚雪球”&lt;/strong>
+设备一停，产线跟着停。人工费照付，客户交期延误，罚款单跟雪花一样飞来。算过这笔账吗？&lt;strong>停机一小时 = 吃掉你一年的砍价成果。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本3：能源消耗的“慢性毒药”&lt;/strong>
+低效设备=电费狂飙。同样的产出，老旧的电机比新款的能耗高30%。你省下的那点采购差价，两年全交给电网了。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>隐形成本4：培训和管理的心累&lt;/strong>
+买个复杂的破系统，员工不会用，你得组织培训3天。买个劣质原料，质检退货流程走半个月。这些都是人力，都是钱。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以，老板骂你，不是因为你没省钱，而是因为你只省了明面上的钱，却在看不见的地方，把公司往死里亏。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="02-tco是个啥别怕不讲公式">02. TCO是个啥？别怕，不讲公式&lt;/h3>
+&lt;p>TCO，全称Total Cost of Ownership，总拥有成本。&lt;/p>
+&lt;p>听起来高大上？其实就是一句话：&lt;strong>别只看买它花多少钱，要看拥有它、用它、直到扔掉它，一共花了多少钱。&lt;/strong>&lt;/p>
+&lt;p>就像你买手机。
+价格3000块的安卓机，用一年卡成PPT，换屏要800，电池一年就不行了。
+价格6000块的iPhone，用三年还流畅，二手还能卖2000。&lt;/p>
+&lt;p>哪个更划算？
+&lt;strong>不是看买入价，是看“三年总成本”。&lt;/strong>&lt;/p>
+&lt;p>采购也一样。
+买一台设备，你至少要考虑这几个阶段：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>购买前：&lt;/strong> 价格、运输、安装、调试、税费&lt;/li>
+&lt;li>&lt;strong>使用中：&lt;/strong> 能耗、耗材、维修、保养、人工、停机损失&lt;/li>
+&lt;li>&lt;strong>使用后：&lt;/strong> 折旧、二手残值、处置成本&lt;/li>
+&lt;/ul>
+&lt;p>把这些加起来，才叫&lt;strong>真实成本&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="03-3招让老板对你刮目相看">03. 3招让老板对你刮目相看&lt;/h3>
+&lt;p>好了，道理都懂，怎么落地？给你3个可以直接用的狠招。&lt;/p>
+&lt;h4 id="第1招谈判时把隐形炸弹全炸出来">第1招：谈判时，把“隐形炸弹”全炸出来&lt;/h4>
+&lt;p>别跟供应商只谈裸价。你要逼他们把以下东西摊在桌面上谈：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>质保期多长？&lt;/strong> 最好要求&lt;strong>整机保修&lt;/strong>，别只保修核心件。&lt;/li>
+&lt;li>&lt;strong>维修响应时间？&lt;/strong> 要求&lt;strong>4小时上门，24小时解决&lt;/strong>，超时罚款。&lt;/li>
+&lt;li>&lt;strong>耗材价格锁定？&lt;/strong> 签合同时就约定未来3年的滤芯、刀片等耗材价格，防止坐地起价。&lt;/li>
+&lt;li>&lt;strong>培训费用全包？&lt;/strong> 要求供应商免费提供操作培训和技术资料。&lt;/li>
+&lt;/ul>
+&lt;p>把这些条款写进合同，你就把供应商绑在了你的战车上。他敢卖次品？他自己先亏到哭。&lt;/p>
+&lt;h4 id="第2招做个tco模型用数据打脸">第2招：做个TCO模型，用数据打脸&lt;/h4>
+&lt;p>别拍脑袋。拿个Excel，把你选的A方案（便宜货）和B方案（贵但好）的所有成本列出来。&lt;/p>
+&lt;p>&lt;strong>举个真实例子：&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">成本项目&lt;/th>
+ &lt;th style="text-align: left">A方案（便宜叉车）&lt;/th>
+ &lt;th style="text-align: left">B方案（品牌叉车）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">购买价&lt;/td>
+ &lt;td style="text-align: left">8万&lt;/td>
+ &lt;td style="text-align: left">15万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年维修费&lt;/td>
+ &lt;td style="text-align: left">2万（第一年）&lt;/td>
+ &lt;td style="text-align: left">0.5万（质保内）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年电费&lt;/td>
+ &lt;td style="text-align: left">3万&lt;/td>
+ &lt;td style="text-align: left">1.8万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">年停机损失（预估）&lt;/td>
+ &lt;td style="text-align: left">5万&lt;/td>
+ &lt;td style="text-align: left">0.5万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>3年总成本&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>8+2&lt;em>3+3&lt;/em>3+5*3 = 38万&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>15+0.5&lt;em>3+1.8&lt;/em>3+0.5*3 = 23.4万&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>看清楚没？B方案虽然买入价贵了7万，但&lt;strong>3年总成本反而省了14.6万&lt;/strong>。&lt;/p></description></item><item><title>库存压了800万才懂：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>&lt;strong>兄弟，你被MRP坑过吗？&lt;/strong>&lt;/p>
+&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年底，我一个做电子厂供应链的朋友，半夜给我打电话，声音都是抖的。&lt;/p>
+&lt;p>“完了，库存积压了800万，老板让我明天滚蛋。”&lt;/p>
+&lt;p>我问怎么回事。他说，MRP跑出来说未来三个月订单需求暴增，采购按系统建议狂下单，结果订单突然被砍了60%。仓库堆满了芯片，资金链差点断裂。&lt;/p>
+&lt;p>挂完电话我就在想——&lt;strong>这么多人的公司，月薪两三万的供应链总监，竟然被一个系统算得找不着北。&lt;/strong>&lt;/p>
+&lt;p>更扎心的是，很多人一边骂MRP垃圾，一边又离不开它。为什么？因为不用MRP，你连排产都做不了；用了MRP，它又像个任性的女朋友，随时给你挖坑。&lt;/p>
+&lt;p>今天不跟你扯教科书那一套。我直接说3个血泪教训，让你搞懂MRP到底该怎么用，&lt;strong>怎么让系统真正给你省钱，而不是让你背锅。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-mrp不是神它只是个算数工具">1. MRP不是神，它只是个算数工具&lt;/h3>
+&lt;p>&lt;strong>别把系统当决策者，它连初中生都不如。&lt;/strong>&lt;/p>
+&lt;p>很多人以为，MRP跑出来的数据就是圣旨。采购按它下单，计划按它排产，仓库按它备货。结果呢？一出事，全赖系统。&lt;/p>
+&lt;p>但你想过没有——MRP就是个加减乘除的机器，它根本不知道你的供应商靠不靠谱，客户会不会临时改单，产线良品率到底多少。&lt;/p>
+&lt;p>&lt;strong>它只做三件事：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>用BOM（物料清单）算出你需要多少料&lt;/li>
+&lt;li>用库存数据算出你现在还有多少&lt;/li>
+&lt;li>用订单数据算出你还要补多少&lt;/li>
+&lt;/ul>
+&lt;p>然后给你一个数字。&lt;/p>
+&lt;p>数字没错，但前提是&lt;strong>你给它喂的数据是屎&lt;/strong>，它拉出来的就是屎。&lt;/p>
+&lt;p>我见过太多公司，BOM表里物料编号都写错，库存数据三天没更新，客户订单还是上周的。然后一群人对着MRP的报表开会，讨论得热火朝天，最后发现——&lt;strong>方向全错了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住一句话：Garbage in，Garbage out。&lt;/strong>&lt;/p>
+&lt;p>你的数据不准，MRP就是个摆设。你的数据准了，它才是个好用的算盘。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-安全库存不是安全是毒药">2. 安全库存不是安全，是毒药&lt;/h3>
+&lt;p>&lt;strong>你设的安全库存，可能正在吃掉你的利润。&lt;/strong>&lt;/p>
+&lt;p>这是MRP最坑的地方。&lt;/p>
+&lt;p>很多人为了“万无一失”，给每个物料都设一个高高的安全库存。MRP跑出来一看，需求1000，库存800，安全库存300——好，补500。&lt;/p>
+&lt;p>结果呢？仓库里堆满了“以防万一”的料，资金全压在那里，周转率低得吓人。老板一看报表，问：“怎么库存又高了？”你说：“这是安全库存。”&lt;/p>
+&lt;p>&lt;strong>老板心里想的是：安全个屁，这分明是库存炸弹。&lt;/strong>&lt;/p>
+&lt;p>那怎么办？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分类设库存&lt;/strong>：ABC分析法听过没？A类贵价物料，安全库存设低点，甚至不设；C类便宜料，可以高一点。&lt;/li>
+&lt;li>&lt;strong>动态调整&lt;/strong>：安全库存不是定了就不能改。每个月根据实际出货、供应商交期、生产波动，手动调一调。&lt;/li>
+&lt;li>&lt;strong>别让MRP自动补&lt;/strong>：很多系统默认勾选“自动补安全库存”，你一不注意，它就帮你疯狂下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相是：安全库存是给管理失误买的保险。你管理越烂，保险越贵。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-计划赶不上变化那就让计划更短">3. 计划赶不上变化？那就让计划更短&lt;/h3>
+&lt;p>&lt;strong>为什么你的MRP永远不准？因为你计划周期太长了。&lt;/strong>&lt;/p>
+&lt;p>很多公司喜欢做季度计划、半年计划。MRP跑一次，然后三个月不动。&lt;/p>
+&lt;p>但现实是什么？客户今天下单，明天改单，后天取消。产线今天正常，明天故障，后天缺料。&lt;/p>
+&lt;p>&lt;strong>你拿着三个月前的计划，去应对今天的市场，不亏钱谁亏钱？&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的案例：一家做小家电的公司，MRP计划周期是60天。结果一个爆款上线后，需求突然暴增3倍。系统还在按旧计划下单，采购不知道，供应商没准备。等反应过来，货期已经晚了两个月，市场份额被对手抢走了。&lt;/p>
+&lt;p>&lt;strong>解决方案就一句话：缩短计划周期，加快迭代频率。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周跑一次MRP&lt;/strong>，别偷懒。系统不累，你累点没事。&lt;/li>
+&lt;li>&lt;strong>滚动计划&lt;/strong>：别做死板的月度计划，用滚动13周计划。每周更新一次，动态调整未来三个月的采购和生产。&lt;/li>
+&lt;li>&lt;strong>关键物料单独盯&lt;/strong>：对交期长、价值高的物料，要手动跟进，别全交给系统。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：MRP反应越快，你踩坑越少。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-别让mrp背锅先管好你的数据">4. 别让MRP背锅，先管好你的数据&lt;/h3>
+&lt;p>&lt;strong>数据不准，MRP就是废铁。&lt;/strong>&lt;/p>
+&lt;p>这句话我说第二遍了，但值得再强调一次。&lt;/p>
+&lt;p>我进过一家公司，库存差异率高达20%。什么意思？系统显示库存1000，实际只有800。MRP跑出来说不用补，结果产线第二天就缺料停工了。&lt;/p>
+&lt;p>&lt;strong>最恐怖的是，他们还在用这个数据做决策。&lt;/strong>&lt;/p>
+&lt;p>怎么解决？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>盘点频次提高&lt;/strong>：别等年底盘点。高价值物料每周盘一次，普通物料每月盘一次。&lt;/li>
+&lt;li>&lt;strong>系统录入要严格&lt;/strong>：入库、出库、退料，每一步都要有人签字确认。别让员工“先干活后补单”。&lt;/li>
+&lt;li>&lt;strong>BOM表要实时更新&lt;/strong>：物料变更、替代料、版本升级，必须第一时间更新系统。不然MRP算出来的都是错误。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据准了，MRP才有意义。不然你就是在拿错误的数据，做错误的决策，最后得出错误的结果。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-人机结合才是mrp的正确用法">5. 人机结合，才是MRP的正确用法&lt;/h3>
+&lt;p>&lt;strong>系统帮你算，人帮你决策。&lt;/strong>&lt;/p>
+&lt;p>这是最后一点，也是最核心的一点。&lt;/p>
+&lt;p>MRP能告诉你“缺什么”“缺多少”，但它不能告诉你“该不该买”。&lt;/p>
+&lt;p>比如，MRP算出你需要补1000个芯片。但你知道供应商下周要涨价，或者客户可能在改单，或者产线有批不良品要返工——这些信息，MRP不知道。&lt;/p>
+&lt;p>&lt;strong>所以，正确的流程是：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>MRP跑出数据&lt;/li>
+&lt;li>你结合市场、供应商、产线信息做判断&lt;/li>
+&lt;li>人工调整后，再给采购下指令&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别做MRP的奴隶，做它的主人。&lt;/strong>&lt;/p></description></item></channel></rss>

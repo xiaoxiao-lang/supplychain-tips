@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万，我才学会算这笔账</title><link>https://supplychain-tips.pages.dev/posts/eoq-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-tips/</guid><description>&lt;p>哥们，先问你个扎心的问题：&lt;strong>你仓库里有多少货，是压了超过3个月还没动过的？&lt;/strong>&lt;/p>
+&lt;p>我猜，你肯定脑瓜子嗡嗡的。上个月我被老板骂得狗血淋头，原因很简单：&lt;strong>库存压了300万现金，周转慢得像头老牛。&lt;/strong> 老板拍着桌子吼：“你他妈是搞采购还是搞收藏？”&lt;/p>
+&lt;p>我当时那个憋屈啊。我心想，我每次都尽量&lt;strong>批量买&lt;/strong>，图的就是单价便宜、运费省，咋还成了罪人？&lt;/p>
+&lt;p>后来，一个搞了15年供应链的老炮儿点醒了我。他叼着烟，慢悠悠地说：“你他妈这是‘贪小便宜吃大亏’的典型。&lt;strong>买得多不等于赚得多，你得算那个‘经济订货量’&lt;/strong>。”&lt;/p>
+&lt;p>啥叫经济订货量（EOQ）？别急，今天咱们不整那些高大上的公式，就聊聊这玩意儿怎么从你口袋里把钱省下来。&lt;/p>
+&lt;h3 id="你被量越大越便宜骗了多久">你被“量越大越便宜”骗了多久？&lt;/h3>
+&lt;p>你是不是也这样？供应商一打电话：“王总，这个月搞活动，买1000件打8折，买5000件直接给你6折！” 你脑子一热，直接下了5000件。&lt;/p>
+&lt;p>爽吗？爽。&lt;strong>但爽完就是噩梦。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>现金没了：&lt;/strong> 你的钱全变成了一堆铁疙瘩，躺在仓库吃灰。&lt;/li>
+&lt;li>&lt;strong>仓储费爆炸：&lt;/strong> 仓库租金、水电、管理员工资，每个月光付这个就得几千块。&lt;/li>
+&lt;li>&lt;strong>货过期/过时：&lt;/strong> 电子产品、食品、甚至快消品，放久了要么贬值，要么直接报废。&lt;/li>
+&lt;li>&lt;strong>资金周转不动：&lt;/strong> 现金流一断，下个月工资都发不出来，你还谈什么发展？&lt;/li>
+&lt;/ul>
+&lt;p>简单说，你为了省那一点&lt;strong>单价成本&lt;/strong>，硬生生把&lt;strong>总成本&lt;/strong>给拉高了。&lt;/p>
+&lt;p>&lt;strong>这就是典型的“穷人思维”：只盯着显性的采购价，忽略了隐性的持有成本。&lt;/strong>&lt;/p>
+&lt;h3 id="算这笔账之前先理解3个隐形杀手">算这笔账之前，先理解3个“隐形杀手”&lt;/h3>
+&lt;p>要搞懂经济订货量，你得先认清这三兄弟：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>订货成本：&lt;/strong> 你每次下单，要跟供应商扯皮、处理发票、安排物流。这些都是成本。&lt;strong>订货次数越多，这个成本越高。&lt;/strong> 比如，一次订货的行政成本是500块，你订了10次，就是5000块。&lt;/li>
+&lt;li>&lt;strong>持有成本：&lt;/strong> 货到了你手里，就开始烧钱。仓储费、保险费、资金占用利息、货损风险。&lt;strong>这个成本是按“年”算的，通常占库存价值的20%-30%！&lt;/strong> 你压了100万的货，一年光持有成本就20-30万。&lt;/li>
+&lt;li>&lt;strong>缺货成本：&lt;/strong> 这个最要命。客户要货你没有，订单黄了，口碑砸了。&lt;strong>缺货造成的损失，有时候比多买几倍的货还惨。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>所以，经济订货量（EOQ）的逻辑很简单：&lt;strong>找到那个点，让你的“订货成本”和“持有成本”加起来最小。&lt;/strong>&lt;/p>
+&lt;h3 id="怎么算我教你3步小学水平就行">怎么算？我教你3步，小学水平就行&lt;/h3>
+&lt;p>你别被公式吓到。网上那些EOQ公式确实看着挺吓人，但咱普通人用Excel就能搞定。&lt;/p>
+&lt;p>&lt;strong>第一步：盘清楚你的“家底”&lt;/strong>&lt;/p>
+&lt;p>你需要知道三个数字：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>年度需求量（D）：&lt;/strong> 你这个货一年能卖多少？别拍脑袋，看近12个月的历史数据。比如，一年卖 &lt;strong>1万件&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>单次订货成本（S）：&lt;/strong> 每次下单，你要花多少钱？包括采购员工资、运费、通讯费、差旅费。比如，一次 &lt;strong>500块&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>单位持有成本（H）：&lt;/strong> 一件货放一年，要花多少钱？这个一般取库存价值的20%-30%。假设一件货成本 &lt;strong>100块&lt;/strong>，持有成本就是 &lt;strong>20-30块&lt;/strong>。咱们取中间值 &lt;strong>25块&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：套用“傻瓜公式”&lt;/strong>&lt;/p>
+&lt;p>别慌，就一个简单的乘除：
+&lt;strong>经济订货量（EOQ）= √( 2 × D × S ÷ H )&lt;/strong>&lt;/p>
+&lt;p>用上面的数字算一下：
+EOQ = √( 2 × 10,000 × 500 ÷ 25 ) = √( 10,000,000 ÷ 25 ) = √400,000 ≈ &lt;strong>632件&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才懂的数学公式</title><link>https://supplychain-tips.pages.dev/posts/eoq-secrets/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-secrets/</guid><description>&lt;p>&lt;strong>你算过吗？每次订货都是赌命。&lt;/strong>&lt;/p>
+&lt;p>上周有个做快消品的兄弟找我喝酒，一上来就叹气：“哥，我仓库里堆了500万的货，可上个月又断货三次，老板差点把我开了。”&lt;/p>
+&lt;p>他干了8年采购，月薪还是8千。另一家公司同级别的女孩，月薪5万，仓库周转率是他的3倍。&lt;/p>
+&lt;p>&lt;strong>差别在哪？&lt;/strong>&lt;/p>
+&lt;p>那女孩不会拍脑袋订货。她懂一个叫“经济订货量（EOQ）”的数学公式。&lt;/p>
+&lt;p>我知道你一听“数学公式”就头大。别急，今天不讲课，就当群里唠嗑。我保证，看完这个公式，你就能把压在仓库里的500万救出来。&lt;/p>
+&lt;h3 id="订货多了压钱订少了断货咋整">订货多了压钱，订少了断货，咋整？&lt;/h3>
+&lt;p>你是不是也这样？老板一催货，你就拍脑袋：“这次订500箱吧，反正不怕多。”结果第二天库存报警，资金被锁死。或者旺季来了，你咬牙只订200箱，结果爆单断货，客户骂娘。&lt;/p>
+&lt;p>&lt;strong>这背后就一个问题：你根本不知道“订多少”最划算。&lt;/strong>&lt;/p>
+&lt;p>你以为订货是拍脑袋的事？错了。这是数学题。&lt;/p>
+&lt;p>&lt;strong>经济订货量（EOQ）&lt;/strong> 就是帮你算：&lt;strong>每次订多少，能让总成本最低&lt;/strong>。&lt;/p>
+&lt;p>总成本包括两坨：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>订货成本&lt;/strong>：下订单、运输、验货的钱。订得越频繁，这钱花得越多。&lt;/li>
+&lt;li>&lt;strong>持有成本&lt;/strong>：仓储、资金占用、损耗的钱。库存越多，这钱烧得越狠。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>EOQ就是那个平衡点：&lt;/strong> 订货成本=持有成本时，总成本最低。&lt;/p>
+&lt;p>&lt;strong>举个栗子：&lt;/strong> 你一年卖1万件T恤。如果每次订100件，要下100次单，运费每单200元，订货成本=200×100=2万。但库存少，持有成本低。如果每次订1000件，只下10次单，订货成本=200×10=2千。但库存多，持有成本飙升，比如仓储费、资金利息，算下来可能每年1万8。&lt;/p>
+&lt;p>&lt;strong>你看，不是订得越少越好，也不是越多越好。&lt;/strong> EOQ帮你找到那个“刚好”的数字。&lt;/p>
+&lt;h3 id="公式长啥样别怕小学数学就能搞定">公式长啥样？别怕，小学数学就能搞定&lt;/h3>
+&lt;p>&lt;strong>EOQ公式：&lt;/strong>
+&lt;strong>Q = √(2DS / H)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Q&lt;/strong> = 每次最佳订货量&lt;/li>
+&lt;li>&lt;strong>D&lt;/strong> = 年需求量（一年卖多少）&lt;/li>
+&lt;li>&lt;strong>S&lt;/strong> = 单次订货成本（下1单花多少钱）&lt;/li>
+&lt;li>&lt;strong>H&lt;/strong> = 单位年持有成本（1件货放一年花多少钱）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别被根号吓到。&lt;/strong> 你手机计算器就能按。&lt;/p>
+&lt;p>&lt;strong>实战案例：&lt;/strong> 你卖充电宝，年需求D=10,000个，每次下单成本S=500元（运费+人工），每个充电宝年持有成本H=10元（仓储+资金利息）。&lt;/p>
+&lt;p>&lt;strong>Q = √(2×10,000×500 / 10) = √(1,000,000) = 1,000个&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>结论：&lt;/strong> 每次订1,000个，总成本最低。&lt;/p>
+&lt;p>&lt;strong>你想想，你平时订多少？&lt;/strong> 是不是要么订500个（怕断货所以狂下单），要么订3,000个（图省事一次囤够）。前者订货成本翻倍，后者持有成本爆炸。&lt;/p>
+&lt;p>&lt;strong>算完这个，你就能少踩两个大坑：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>坑1：&lt;/strong> 以为“多订点能摊薄运费”。错了，运费摊薄了，但仓储费、资金利息这些隐性成本会吃掉利润。&lt;/li>
+&lt;li>&lt;strong>坑2：&lt;/strong> 以为“小批量勤订货能灵活”。错了，订单频率太高，运费和管理成本直接起飞。&lt;/li>
+&lt;/ul>
+&lt;h3 id="别死背公式这3个点才决定成败">别死背公式！这3个点才决定成败&lt;/h3>
+&lt;p>公式谁都能套，但真正拉开差距的是这3个变量：&lt;/p>
+&lt;p>&lt;strong>1. 年需求量D：别拍脑袋，用历史数据+趋势预测&lt;/strong>&lt;/p>
+&lt;p>你上年卖了1万件，但今年新品上市，可能直接翻倍。&lt;strong>D不准，公式白算。&lt;/strong> 建议用过去6个月平均销量，再乘以1.2（保守增长系数）。&lt;/p>
+&lt;p>&lt;strong>2. 订货成本S：别只算运费，把隐藏成本挖出来&lt;/strong>&lt;/p></description></item></channel></rss>

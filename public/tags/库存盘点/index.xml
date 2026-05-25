@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存盘点 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%9B%98%E7%82%B9/</link><description>Recent content in 库存盘点 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%9B%98%E7%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：RFID是降本神器还是智商税？</title><link>https://supplychain-tips.pages.dev/posts/rfid-inventory-truth/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-inventory-truth/</guid><description>&lt;p>兄弟，跟你说句掏心窝子的话。&lt;/p>
+&lt;p>&lt;strong>我亲眼见过一家公司，库存账面值500万，年终盘点时发现货少了80万。&lt;/strong>&lt;/p>
+&lt;p>老板当场脸绿了。不是被偷了，是&lt;strong>账实不符&lt;/strong>——系统显示有货，仓库里根本找不到，或者早就过期烂在角落了。&lt;/p>
+&lt;p>后来他们花了几十万上RFID，一年内把库存准确率从75%干到了99.5%，每年省下来的损耗和人力成本，直接把设备钱赚回来了。&lt;/p>
+&lt;p>但我也见过另一家公司。&lt;/p>
+&lt;p>老板拍脑袋上了RFID，花了大几十万，结果员工骂娘、系统瘫痪、标签天天掉，最后成了仓库里一堆吃灰的“高科技摆设”。&lt;/p>
+&lt;p>所以，&lt;strong>RFID到底是不是降本神器？还是纯纯的智商税？&lt;/strong>&lt;/p>
+&lt;p>今天不跟你扯那些百度百科式的定义，咱们就唠点干的、疼的、能直接拿来用的。&lt;/p>
+&lt;hr>
+&lt;h3 id="为什么你盘点一次仓库要了半条命">为什么你盘点一次仓库，要了半条命？&lt;/h3>
+&lt;p>先想想，你现在是怎么管库存的？&lt;/p>
+&lt;p>&lt;strong>传统模式&lt;/strong>（大部分中小公司的现状）：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>人工数&lt;/strong>：两个人，一个拿纸质单子，一个打手电筒。蹲在货架前面，“1、2、3……这一个箱子码垛了，看不见底下”，然后凭感觉写个数。&lt;/li>
+&lt;li>&lt;strong>扫码枪&lt;/strong>：比纯人工强点，但每个SKU（库存量单位）都要怼上去“滴”一下。一个托盘100箱货？你得拆开，挨个“滴滴滴”100下。大促期间，仓库里全是“滴滴滴”的声音，跟开拖拉机似的。&lt;/li>
+&lt;li>&lt;strong>录入Excel&lt;/strong>：数完了，回办公室，把草稿纸上的数字一个一个敲进电脑。手一抖，5000箱打成500箱，下个月采购直接按500箱补货，妥妥断货。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>结果呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>盘点一次，至少3天，全员上阵。&lt;/strong> 销售、财务、甚至行政小姐姐都得去仓库搬砖。&lt;/li>
+&lt;li>&lt;strong>盘点完，数据还是错的。&lt;/strong> 因为漏数、多数、输入错误，账和实永远对不上。&lt;/li>
+&lt;li>&lt;strong>库存成本失控。&lt;/strong> 你不知道哪些是死库存（呆滞料），哪些正缺货。只能凭感觉补货，最后要么积压几百万资金，要么订单来了发不出货。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>痛点扎心吗？&lt;/strong>&lt;/p>
+&lt;p>这就是供应链里最经典的“账实不符”黑洞。你每天拼命做计划、控成本，结果连自己家底有多少货都搞不清楚。&lt;/p>
+&lt;p>&lt;strong>这时候，RFID闪亮登场了。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="rfid到底是个啥说人话">RFID到底是个啥？说人话！&lt;/h3>
+&lt;p>别慌，不跟你讲什么“射频识别”“电磁耦合”这种术语。你只需要知道：&lt;/p>
+&lt;p>&lt;strong>RFID = 一个“电子身份证” + 一个“远距离感应器”&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>电子身份证（标签/Tag）&lt;/strong>：就是贴在你每个商品、每个托盘上的那个小卡片。它长得很像不干胶贴纸，但里面藏着一个微型芯片和天线。&lt;/li>
+&lt;li>&lt;strong>远距离感应器（读写器/Reader）&lt;/strong>：可以是一个门框、一把手抢、或者一个像路由器一样的东西。它发出无线电波，能“隔空”读取3米、5米甚至10米外的电子身份证信息。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以，RFID的核心能力就一句话：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>不用碰，就能知道箱子里有什么。&lt;/strong>&lt;/p>
+&lt;p>对比一下：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">动作&lt;/th>
+ &lt;th style="text-align: left">传统扫码&lt;/th>
+ &lt;th style="text-align: left">RFID&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>距离&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">必须怼上去，0距离&lt;/td>
+ &lt;td style="text-align: left">几米外就能读&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>速度&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">一次只能读一个&lt;/td>
+ &lt;td style="text-align: left">一秒能读几百个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>批量&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">必须拆箱、逐个扫&lt;/td>
+ &lt;td style="text-align: left">隔着一整箱货、甚至隔着纸箱都能读&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>人工&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">高度依赖人&lt;/td>
+ &lt;td style="text-align: left">基本自动化&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>举个实战例子：&lt;/strong>&lt;/p>
+&lt;p>你有一整托盘货，100箱，每箱10个SKU。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>扫码模式&lt;/strong>：把托盘拉到空地上，拆开所有箱子，搬出一个扫一个。两个人，干半小时。&lt;/li>
+&lt;li>&lt;strong>RFID模式&lt;/strong>：推着托盘过一下“门框”（固定式读写器），或者拿手持机对着托盘晃一圈。&lt;strong>3秒钟，1000个SKU全部读取完毕，数据自动上传系统。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以，RFID不是智商税，它是物理外挂。&lt;/strong> 前提是，你得会玩。&lt;/p>
+&lt;hr>
+&lt;h3 id="上rfid之前先问自己这3个问题">上RFID之前，先问自己这3个问题&lt;/h3>
+&lt;p>很多人踩坑，就是上去就买设备，结果发现“水土不服”。&lt;/p>
+&lt;p>&lt;strong>问题1：你的货品和环境允许贴标签吗？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>金属和液体是RFID的天敌。&lt;/strong> 无线电波遇到金属会反射，遇到液体会吸收。你仓库里全是金属螺丝、瓶装饮料？那普通标签贴上就是废纸，必须用&lt;strong>抗金属标签&lt;/strong>或&lt;strong>特殊天线设计&lt;/strong>，成本直接翻几倍。&lt;/li>
+&lt;li>&lt;strong>环境太脏/太低温？&lt;/strong> 水泥厂、冷库（-20°C以下）对标签的耐候性要求极高，便宜的标签会直接掉下来或者读不到。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>问题2：你老板是真的想解决问题，还是想追概念？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>真想解决问题&lt;/strong>：他会听你讲投入产出比（ROI），会愿意先拿一个库区做试点，会接受前期数据混乱的阵痛期。&lt;/li>
+&lt;li>&lt;strong>追概念&lt;/strong>：他只会说“别人家都上了，我们也上”，然后定个不切实际的KPI（关键绩效指标），比如“一个月内库存准确率必须达到99.9%”。这种项目，大概率会烂尾。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>问题3：你的系统（WMS/ERP）准备好接数据了吗？&lt;/strong>&lt;/p>
+&lt;p>RFID最大的价值是&lt;strong>实时数据&lt;/strong>。但如果你公司的ERP系统还是老古董，数据进去后没人处理、不联动业务流程，那RFID就只是一个高级的“扫码枪”，产生一堆没用的数据垃圾。&lt;/p>
+&lt;p>&lt;strong>记住：RFID是工具，不是解药。&lt;/strong> 它解决的是“采集效率”和“数据准确性”的问题，解决不了你“采购拍脑袋”和“销售乱承诺”的问题。&lt;/p></description></item><item><title>库存压了500万才懂：RFID就是降维打击</title><link>https://supplychain-tips.pages.dev/posts/rfid-inventory-blow/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-inventory-blow/</guid><description>&lt;p>兄弟，先别急着关页面。&lt;/p>
+&lt;p>我知道，你现在大概率正盯着仓库盘点表头皮发麻：上个月又盘亏了30万的货，老板拍桌子问你“库存去哪了”，你只能憋出一句“可能是系统误差”。&lt;/p>
+&lt;p>或者，你刚装完一套几百万的WMS系统，结果发现出库效率依然拉胯，扫码枪像老太太过马路，工人每天要走两万步，腿都跑细了。&lt;/p>
+&lt;p>库存压了500万、盘点通宵、货物丢失——这些痛，干过供应链的都懂。&lt;/p>
+&lt;p>但我要告诉你一个扎心的事实：&lt;strong>这些破事，90%都能用RFID技术解决。&lt;/strong> 不是画饼，不是PPT上的黑话，是真的能落地、能省钱、能让你在老板面前硬气一回的东西。&lt;/p>
+&lt;p>RFID，全称Radio Frequency Identification，中文叫射频识别。听着高大上？不，它就是个“智能贴纸”。跟超市防盗扣、公交卡差不多原理。&lt;/p>
+&lt;p>&lt;strong>核心就一句话：让每件货都能自己“说话”，不用人盯着。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-扫码枪那是上个世纪的玩法">1. 扫码枪？那是上个世纪的玩法&lt;/h3>
+&lt;p>你还在用PDA扫码枪？兄弟，那是“点对点”的祖宗级操作。每扫一个码，都得把枪怼到条码上，几毫米的距离，跟打靶似的。仓库里堆了3层高的货架，你让工人踩着梯子扫？效率能高才见鬼。&lt;/p>
+&lt;p>&lt;strong>RFID怎么干？简单粗暴。&lt;/strong>&lt;/p>
+&lt;p>想象一下，你给每个箱子贴上一张指甲盖大小的电子标签。然后，你拿着一个手持终端，或者直接装个固定式读卡器在仓库门口。&lt;strong>不需要“扫”，只需要“经过”或“靠近”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>一托盘货从门口推过去，3秒内，读卡器自动“喊”出：&lt;strong>“货物A 50件已入库，货物B 30件已出库，货物C 20件正在途中。”&lt;/strong>&lt;/li>
+&lt;li>盘点？不用翻箱倒柜。拿着读卡器在货架前走一圈，&lt;strong>几百件货的数据自动上传&lt;/strong>，误差率从5%下降到0.1%以内。&lt;/li>
+&lt;li>找货？输入SKU，读卡器直接告诉你“在3排2列5层”，误差不超过半米。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别跟我扯什么“条码更便宜”。&lt;/strong> 条码省下来的那点纸钱，够你赔几次盘亏的？一个RFID标签现在成本3毛钱左右，批量买更便宜。&lt;strong>你盘亏一次损失几千上万，够买几万个标签了。&lt;/strong>&lt;/p>
+&lt;h3 id="2-盘点通宵那是体力活不是技术活">2. 盘点“通宵”？那是体力活，不是技术活&lt;/h3>
+&lt;p>干过仓库的都懂，每月盘点就是大型“渡劫现场”。关仓库、拉闸、全员上阵，拿个纸笔或PDA，从晚上8点搞到凌晨3点，腿软眼花，最后数据还对不上。老板问：“还差5万块的货去哪了？”你只能沉默。&lt;/p>
+&lt;p>&lt;strong>RFID让你从“体力活”变成“喝咖啡”。&lt;/strong>&lt;/p>
+&lt;p>怎么干？你只需要推着一个类似行李箱的手持车，或者干脆装个固定式读卡器在仓库顶棚。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>固定式读卡器&lt;/strong>：24小时自动扫描，每10秒更新一次库存报告。你坐在办公室打开电脑，就能看见：“当前库存：3567件，与系统差异：0件。”&lt;/li>
+&lt;li>&lt;strong>手持式/手推车&lt;/strong>：以前盘点一整个仓库要5小时，现在&lt;strong>半小时搞定&lt;/strong>。推着车走一圈，所有数据自动录入，还能实时预警：“注意！A区少了一箱货，B区多了一箱。”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你问我为什么？&lt;/strong> 因为RFID能同时读取几百个标签，而且不怕遮挡。条码只能一对一，RFID可以&lt;strong>一对多&lt;/strong>。这就是降维打击。&lt;/p>
+&lt;p>&lt;strong>省下的时间，你干点啥不好？&lt;/strong> 研究研究采购策略，或者早点回家陪老婆孩子，不比在仓库闻灰尘强？&lt;/p>
+&lt;h3 id="3-货物消失别让员工背锅">3. 货物“消失”？别让员工背锅&lt;/h3>
+&lt;p>“货去哪了？是不是被偷了？”这种话，说出来得罪人，不说又憋屈。实际上，很多时候是流程漏洞：工人搬错库位、发货时漏拣、退货没及时入库。&lt;/p>
+&lt;p>&lt;strong>RFID能当你的“天眼”。&lt;/strong>&lt;/p>
+&lt;p>在每个关键节点装读卡器：&lt;strong>收货口、发货口、货架库位、电梯口、甚至叉车上&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>工人搬货时，如果没扫描库位标签，系统直接报警：&lt;strong>“警告！你正在将货物A放入B区，请放回正确位置。”&lt;/strong>&lt;/li>
+&lt;li>发货时，系统自动核对订单和托盘标签：&lt;strong>“订单5件，实际装了6件，请重新确认。”&lt;/strong>&lt;/li>
+&lt;li>退货时，商品被贴上RFID标签后，自动归入“退货待处理库”，不用人工登记。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据说话最硬气。&lt;/strong> 以前丢货、错货，查监控要两天。现在系统能精确到&lt;strong>哪个员工、几点几分、在哪个库位、操作了哪件货&lt;/strong>。谁敢甩锅？谁背锅？&lt;/p>
+&lt;h3 id="4-搞rfid是不是得花大价钱">4. 搞RFID，是不是得花大价钱？&lt;/h3>
+&lt;p>很多人一听“技术”就怕，觉得要上ERP、上MES、请咨询公司，没个百八十万下不来。&lt;/p>
+&lt;p>&lt;strong>错！那是五年前的老黄历了。&lt;/strong>&lt;/p>
+&lt;p>现在RFID方案已经非常成熟，&lt;strong>可以“小步快跑”&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>入门级&lt;/strong>：买10个手持读卡器（几百块一个）+ 几千个标签（3毛一个）。总共不到1万块，就能把一个关键库房先盘活。先跑通，再复制。&lt;/li>
+&lt;li>&lt;strong>进阶版&lt;/strong>：加装固定式读卡器（几千块一个）+ 安装一个轻量级中间件（几千块）。总投入&lt;strong>2-5万&lt;/strong>，就能实现出入库自动扫描、实时库存、异常预警。&lt;/li>
+&lt;li>&lt;strong>土豪版&lt;/strong>：全仓覆盖，无人值守，自动盘点，甚至跟AGV小车联动。投入&lt;strong>10-30万&lt;/strong>，但一年能省下的盘亏损失和人工成本，绝对不止这个数。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账：&lt;/strong>
+你仓库一个月盘亏3万，一年就是36万。加上盘点的人工成本（5个人，每人加班费200，每月一次，一年1.2万），还有错发退货的损失。&lt;strong>你花5万上RFID，一年就能回本，后面全是纯赚。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>别犹豫了。&lt;/strong> 这玩意儿不是科幻片，不是PPT，是实实在在能帮你从“苦逼采购/仓库主管”变成“公司降本增效功臣”的武器。&lt;/p>
+&lt;p>你还在等什么？等老板把你叫到办公室说“库存又亏损了，扣你绩效”吗？&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>合同签不对，采购干到废</title><link>https://supplychain-tips.pages.dev/posts/contract-management-tips/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-tips/</guid><description>&lt;p>你有没有过这种“签完合同想抽自己”的时刻？&lt;/p>
+&lt;p>供应商交货晚了3天，你急得跳脚，结果翻出合同一看——&lt;strong>根本没写违约金条款&lt;/strong>。对方摊手：“按合同办事，我没违规啊。”&lt;/p>
+&lt;p>你气得想骂街，但只能憋回去。老板问起来，你只能弱弱说一句：“合同……不是我拟的。”&lt;/p>
+&lt;p>别笑。干采购的，谁没为合同吃过亏？&lt;/p>
+&lt;p>&lt;strong>合同，不是法务的事，是你的事。&lt;/strong> 法务只负责合法合规，但里面的坑、条款、细节，只有你懂业务。合同签不对，后面全是坑。&lt;/p>
+&lt;p>我总结了5个采购合同里&lt;strong>最容易踩的坑&lt;/strong>。全是真金白银换来的教训，建议你直接收藏。&lt;/p>
+&lt;h3 id="1-不写交付标准--给自己埋雷">1. 不写“交付标准” = 给自己埋雷&lt;/h3>
+&lt;p>很多人签合同，只写“交付时间”和“数量”。但&lt;strong>交付标准&lt;/strong>呢？&lt;/p>
+&lt;p>比如你采购一批螺丝，合同写“符合国家标准”。结果送来一批歪瓜裂枣，你说不合格，供应商说“你看，它确实是螺丝啊”。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong> 必须在合同里写清楚：&lt;/p>
+&lt;ul>
+&lt;li>外观要求（无毛刺、表面处理）&lt;/li>
+&lt;li>性能参数（扭矩、硬度）&lt;/li>
+&lt;li>验收方式（抽检比例、判定标准）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>建议：&lt;/strong> 直接附录一份《验收标准》，签字盖章。别怕麻烦，省掉验收环节后，扯皮成本是你想象不到的。&lt;/p>
+&lt;h3 id="2-违约金条款别只写按合同约定">2. 违约金条款，别只写“按合同约定”&lt;/h3>
+&lt;p>这我见的太多了。违约金条款写“按合同法规定”，或者更离谱的“双方协商解决”。&lt;/p>
+&lt;p>你品，你细品。&lt;strong>“协商解决”= 没解决。&lt;/strong>&lt;/p>
+&lt;p>一旦出问题，你找供应商协商，人家说“生意难做，通融一下”，你怎么办？&lt;/p>
+&lt;p>&lt;strong>正确的做法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>明确&lt;strong>计算方式&lt;/strong>：比如“每逾期一天，按合同总金额的0.1%支付违约金”&lt;/li>
+&lt;li>设置&lt;strong>上限&lt;/strong>：比如“违约金总额不超过合同总额的30%”&lt;/li>
+&lt;li>写清楚&lt;strong>触发条件&lt;/strong>：比如“逾期超过15天，甲方有权单方面解除合同”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 合同不是请客吃饭，是防身的刀。你不亮出来，人家就当你是软柿子。&lt;/p>
+&lt;h3 id="3-付款条款别搞先款后货">3. 付款条款，别搞“先款后货”&lt;/h3>
+&lt;p>有些采购新手，被供应商一句“我们大厂都是先付款再发货”就忽悠了。&lt;/p>
+&lt;p>醒醒！&lt;strong>你拿了钱，就是孙子。&lt;/strong> 供应商拖货、质量瑕疵，你一点办法没有，只能催。&lt;/p>
+&lt;p>&lt;strong>最稳妥的结构：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>预付款&lt;/strong>（10%-30%）：用于采购原材料，但必须有账期&lt;/li>
+&lt;li>&lt;strong>到货款&lt;/strong>（40%-50%）：货到验收合格后付&lt;/li>
+&lt;li>&lt;strong>质保金&lt;/strong>（10%-20%）：质保期结束后付&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>进阶玩法：&lt;/strong> 设置“阶梯付款”。比如第一批货合格付30%，第二批合格付50%，最后一批合格付尾款。倒逼供应商重视质量。&lt;/p>
+&lt;h3 id="4-争议解决别写仲裁或诉讼">4. 争议解决，别写“仲裁或诉讼”&lt;/h3>
+&lt;p>很多合同模板里写“双方协商不成，可向法院提起诉讼或仲裁委员会仲裁”。&lt;/p>
+&lt;p>&lt;strong>这是最废的条款。&lt;/strong> 等于没说。&lt;/p>
+&lt;p>&lt;strong>你要做的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>明确管辖地&lt;/strong>：写“甲方所在地人民法院”。这样万一打官司，你不用跑供应商老家去。&lt;/li>
+&lt;li>&lt;strong>选择仲裁还是诉讼&lt;/strong>：金额大、情况复杂的选仲裁（一裁终局，快）；金额小的选诉讼（成本低）。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别小看这条。&lt;/strong> 我一个朋友，合同没写管辖地，被供应商告到新疆（对方注册地），光飞过去开庭的机票就花了小一万。最后赔了3万，机票钱还不算诉讼费。&lt;/p>
+&lt;h3 id="5-知识产权与保密条款99的人忽略">5. 知识产权与保密条款，99%的人忽略&lt;/h3>
+&lt;p>你采购了个定制设备，供应商把图纸拿去卖了，或者用了你的技术方案去服务你的竞争对手。&lt;/p>
+&lt;p>&lt;strong>合同里没约定，你只能干瞪眼。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>必须加的条款：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>知识产权归属&lt;/strong>：明确“定制产品的图纸、技术文档、设计方案等知识产权归甲方所有”&lt;/li>
+&lt;li>&lt;strong>保密义务&lt;/strong>：约定保密范围、期限、违约责任&lt;/li>
+&lt;li>&lt;strong>竞业限制&lt;/strong>（可选）：比如“供应商不得在合同期内，为甲方的直接竞争对手提供类似服务”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别觉得这是大公司才操心的事。&lt;/strong> 小公司技术被抄，死得更快。&lt;/p>
+&lt;hr>
+&lt;p>以上5点，够你用3年。&lt;/p>
+&lt;p>但我知道，看完你可能会说：“道理我都懂，但实际合同都是法务/老板定的，我没法改啊。”&lt;/p>
+&lt;p>&lt;strong>那就把文章甩给他们看。&lt;/strong>&lt;/p>
+&lt;p>合同管理不是一个人的事，是团队的事。你作为采购，&lt;strong>最懂业务，最有话语权&lt;/strong>。你不主动提，别人永远不知道你的痛点。&lt;/p>
+&lt;p>&lt;strong>最后，送你一句真话：&lt;/strong>
+好的采购，不止会砍价，更会管合同。合同管好了，公司少亏钱，你少背锅。&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>合同签错这3个字，公司白亏80万</title><link>https://supplychain-tips.pages.dev/posts/contract-mistakes-cost/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-mistakes-cost/</guid><description>&lt;p>上周一个采购老铁找我喝酒，脸都绿了。&lt;/p>
+&lt;p>他签了个原料采购合同，单价写了“含税”，但没写“含运费”。结果货到了，供应商甩过来一张3万8的物流发票，说合同里没含运费，必须另付。&lt;/p>
+&lt;p>老板当场拍桌子：“你是采购还是散财童子？”&lt;/p>
+&lt;p>这事还真不怪供应商黑心。合同是你签的，字是你写的，你没写清楚，人家按对自己有利的方式执行，你有脾气吗？&lt;/p>
+&lt;p>我干了8年采购，见过太多人因为合同签得稀里糊涂，被坑得裤衩都不剩。今天就把那些&lt;strong>血淋淋的教训&lt;/strong>摊开说，全是实操经验，看完至少帮你公司省10万。&lt;/p>
+&lt;hr>
+&lt;h3 id="第一个坑价格条款里的一字千金">第一个坑：价格条款里的“一字千金”&lt;/h3>
+&lt;p>很多采购小白签合同，价格栏就写个数字，后面跟个“含税价”。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>“含税”含的是什么税？增值税13个点还是6个点？含不含运费？含不含卸货费？含不含包装费？&lt;/p>
+&lt;p>我见过最离谱的合同，写的是“含税到厂价”，结果供应商到货了，说“到厂价不含上楼”。工厂在5楼没电梯，一吨货上楼再加2000块搬运费。&lt;/p>
+&lt;p>&lt;strong>正确写法应该是这样的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>单价：XX元/吨（含13%增值税专票）&lt;/li>
+&lt;li>运费：含（送货至XX仓库，含卸货）&lt;/li>
+&lt;li>包装：含（托盘缠绕膜包装，每托XX公斤）&lt;/li>
+&lt;li>付款：货到票到30天&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一字不写清，多花好几万。&lt;/strong>&lt;/p>
+&lt;p>特别是那种&lt;strong>价格浮动条款&lt;/strong>，更要命。有的合同写“价格随市场波动调整”，结果原材料涨了5%，供应商给你涨15%。你说不合理？合同上白纸黑字写的“随市场波动”，你怎么举证？&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 把调价机制写死。比如“当主要原材料价格波动超过10%时，双方协商调整，调整幅度不超过原材料成本变动比例的80%”。记住，&lt;strong>写死的条款才是你的护身符&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="第二个坑验收标准里的耍流氓">第二个坑：验收标准里的“耍流氓”&lt;/h3>
+&lt;p>合同里最容易被动手脚的地方，就是验收。&lt;/p>
+&lt;p>很多采购写：“按国家相关标准执行”。&lt;/p>
+&lt;p>&lt;strong>国家什么标准？GB/T还是GB？哪个编号？哪一年版本？&lt;/strong>&lt;/p>
+&lt;p>不写清楚，就等于给供应商留了后门。&lt;/p>
+&lt;p>真实案例：某公司采购一批电子元器件，验收条款写的是“符合行业标准”。货到了，外观没问题，但上机就坏。供应商说：“行业标准只要外观完好、功能正常就行，你上机坏了是你使用问题。”——人家真没违约，因为合同没写“上机合格率”。&lt;/p>
+&lt;p>&lt;strong>验收条款必须这么写：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>验收依据：&lt;/strong> 明确写“以双方签字确认的《技术规格书》（附件1）为准”&lt;/li>
+&lt;li>&lt;strong>验收方式：&lt;/strong> 写清楚“每批次抽检20%，不合格率超过3%则整批退回”&lt;/li>
+&lt;li>&lt;strong>验收地点：&lt;/strong> 写“在甲方工厂验收，验收结果以甲方书面确认为准”&lt;/li>
+&lt;li>&lt;strong>异议期：&lt;/strong> 写“验收不合格的，甲方有权在7日内提出异议，供应商应在3日内处理”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最狠的一招：&lt;/strong> 加一句“&lt;strong>最终解释权归甲方所有&lt;/strong>”。虽然法律上不一定完全站得住，但谈判时能压住对方的气焰。&lt;/p>
+&lt;p>记住，&lt;strong>验收条款越模糊，你的风险越大&lt;/strong>。你让供应商钻了空子，老板只会骂你，不会骂供应商。&lt;/p>
+&lt;hr>
+&lt;h3 id="第三个坑违约责任里的纸老虎">第三个坑：违约责任里的“纸老虎”&lt;/h3>
+&lt;p>合同里违约责任写“双方协商解决”，等于没写。&lt;/p>
+&lt;p>&lt;strong>什么叫协商？就是扯皮。&lt;/strong> 你扯得过供应商的专业法务吗？&lt;/p>
+&lt;p>很多采购怕写重了得罪供应商，结果出事了，供应商拖你半年，你一点办法没有。&lt;/p>
+&lt;p>&lt;strong>违约条款要写具体、可执行：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>延迟交货：&lt;/strong> “每延迟一天，按合同金额的0.5%支付违约金，超过15天甲方有权单方解约并要求赔偿损失”&lt;/li>
+&lt;li>&lt;strong>质量不合格：&lt;/strong> “乙方承担全部退换货费用，并赔偿甲方因此造成的停工损失”&lt;/li>
+&lt;li>&lt;strong>知识产权侵权：&lt;/strong> “如乙方提供的产品侵犯第三方知识产权，乙方承担全部责任并赔偿甲方全部损失”&lt;/li>
+&lt;/ul>
+&lt;p>有人会说：“写这么狠，供应商不签怎么办？”&lt;/p>
+&lt;p>&lt;strong>那你得看情况。&lt;/strong> 如果是买方市场，你没主动权？但如果是卖方市场，你也别太怂。&lt;strong>合同是谈出来的，不是签出来的。&lt;/strong> 你可以让步，但要让得有价值。比如违约金从每天1%降到0.3%，但换一个“付款账期延长30天”。&lt;/p>
+&lt;p>&lt;strong>记住：&lt;/strong> 所有让步都要写在合同里，口头承诺等于放屁。&lt;/p>
+&lt;hr>
+&lt;h3 id="第四个坑争议解决里的异地审判">第四个坑：争议解决里的“异地审判”&lt;/h3>
+&lt;p>这个坑最隐蔽，但最致命。&lt;/p>
+&lt;p>很多合同里写“争议由乙方所在地法院管辖”。你公司在北京，供应商在新疆，出事了你去新疆打官司？来回机票、律师费、时间成本，算下来比合同金额还贵。&lt;/p>
+&lt;p>&lt;strong>正确写法：&lt;/strong> “争议由甲方所在地人民法院管辖”。如果对方不同意，退一步写“合同签订地人民法院管辖”。你把签订地写你自己的城市，也行。&lt;/p>
+&lt;p>&lt;strong>千万别嫌麻烦。&lt;/strong> 我一个朋友签了份200万的设备合同，争议条款写的是“由乙方所在地仲裁”。后来设备出问题了，乙方在深圳，他在哈尔滨。去深圳仲裁，费用花了20多万，还得请深圳的律师。最后仲裁赢了，但钱还没执行回来。&lt;strong>这20多万的仲裁费，够买你两年钓鱼装备了。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="第五个坑附件管理里的隐形炸弹">第五个坑：附件管理里的“隐形炸弹”&lt;/h3>
+&lt;p>合同正文写再好，附件是空的，等于白写。&lt;/p>
+&lt;p>采购合同最怕的就是“正文是一套，附件是另一套”。尤其是技术规格书、图纸、样品确认单，这些附件才是合同的核心。&lt;/p>
+&lt;p>&lt;strong>几个血泪教训：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>附件要双方签字盖章，&lt;/strong> 不要只发个电子版。电子版可以PS，原件才有法律效力。&lt;/li>
+&lt;li>&lt;strong>附件清单要写清楚：&lt;/strong> “本合同附件包括：1. 技术规格书（共5页）；2. 样品照片（共3页）；3. 质量保证书（共1页）”&lt;/li>
+&lt;li>&lt;strong>附件的修改要写补充协议：&lt;/strong> 别口头说“规格改了，你按新的做”。出事了，供应商说你没通知过，你怎么办？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最简单的方法：&lt;/strong> 合同末尾加一句“&lt;strong>本合同附件与正文具有同等法律效力，如附件与正文冲突，以正文为准&lt;/strong>”。把主动权抓在自己手里。&lt;/p></description></item></channel></rss>

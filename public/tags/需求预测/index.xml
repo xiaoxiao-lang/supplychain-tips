@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>需求预测 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/</link><description>Recent content in 需求预测 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>月薪5千和5万的采购，差在需求预测这3个动作</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>上个月，我跟一个做快消的采购兄弟喝酒，他骂骂咧咧：老板让他背“缺货率”和“库存周转”两个KPI，但他算了一下，全年库存报废了300万，结果月底还要因为缺货被销售投诉。&lt;/p>
+&lt;p>“我他妈到底该多备还是少备？”&lt;/p>
+&lt;p>我问他：“你需求预测怎么做的？”&lt;/p>
+&lt;p>他理直气壮：“Excel拉一下去年同期的数据，再问问销售老王，他拍脑袋说下个月涨20%，我就按这个数下单。”&lt;/p>
+&lt;p>&lt;strong>看懂了吗？这不是采购的问题，这是整个公司的“玄学式预测”。&lt;/strong>&lt;/p>
+&lt;p>你如果干采购超过3年，一定见过这种场景：销售说“下个月大卖”，你加量下单，结果货到了，活动取消了；销售说“保守一点”，你少订了，结果竞品断货，你们爆了。&lt;/p>
+&lt;p>&lt;strong>需求预测不是算命的，是算账的。&lt;/strong> 月薪5千的采购靠直觉，月薪5万的采购靠动作。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作一别信拍脑袋学会挖数据">动作一：别信“拍脑袋”，学会“挖数据”&lt;/h3>
+&lt;p>大多数采购的需求预测，就两步：&lt;/p>
+&lt;ol>
+&lt;li>打开Excel，复制去年同期的数。&lt;/li>
+&lt;li>问销售：“下个月你觉得呢？”&lt;/li>
+&lt;/ol>
+&lt;p>销售说“涨10%”，你就加10%。这叫&lt;strong>伪预测&lt;/strong>。&lt;/p>
+&lt;p>真正的需求预测，第一件事是&lt;strong>清理数据垃圾&lt;/strong>。&lt;/p>
+&lt;p>你去年同期的数据能直接用吗？&lt;/p>
+&lt;ul>
+&lt;li>去年搞了双十一，今年没有？&lt;/li>
+&lt;li>去年那个月有疫情封控？&lt;/li>
+&lt;li>去年竞品缺货你爆单了？&lt;/li>
+&lt;/ul>
+&lt;p>这些“噪声”不剔除，预测就是错的。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购怎么干？&lt;/strong>&lt;/p>
+&lt;p>拿一个案例：某化妆品品牌采购，发现“618”和“双11”前后，常规品的销量会暴跌30%。
+于是她建了一个**“促销前后需求波动系数”**，把历史促销期的数据单独标注，再算常规期的日均销量。&lt;/p>
+&lt;p>结果：错峰备货，库存周转从45天降到18天。&lt;/p>
+&lt;p>&lt;strong>动作清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>清洗数据：剔除促销、缺货、异常事件的影响&lt;/li>
+&lt;li>找规律：不是“同比”，而是“环比+季节性+趋势”&lt;/li>
+&lt;li>量化：用“移动平均法”或“简单指数平滑”算出基准值，别用“我觉得”&lt;/li>
+&lt;/ul>
+&lt;p>别觉得难，Excel就能干。关键是你愿不愿意把“拍脑袋”变成“算公式”。&lt;/p>
+&lt;hr>
+&lt;h3 id="动作二别跟销售对赌学会拆信号">动作二：别跟销售“对赌”，学会“拆信号”&lt;/h3>
+&lt;p>销售跟你说“下个月能卖1000件”，你信不信？&lt;/p>
+&lt;p>大多数采购的反应：&lt;/p>
+&lt;ul>
+&lt;li>信了，结果卖不动，背锅。&lt;/li>
+&lt;li>不信，结果爆单，背锅。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心问题：你把需求预测当成了“判断题”，其实它是个“概率题”。&lt;/strong>&lt;/p>
+&lt;p>月薪5万的采购，会做一件事：&lt;strong>把销售的话拆成信号。&lt;/strong>&lt;/p>
+&lt;p>比如销售说“下个月涨20%”，你要追问：&lt;/p>
+&lt;ul>
+&lt;li>这个增长来自新客户还是老客户复购？&lt;/li>
+&lt;li>是推广投入拉动的，还是季节性自然增长？&lt;/li>
+&lt;li>有没有竞品动作？&lt;/li>
+&lt;/ul>
+&lt;p>然后，你会发现问题：
+销售说的“涨20%”，实际只是“预期”，但没有任何数据支撑。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>建一个**“信心指数”**机制：&lt;/p>
+&lt;ul>
+&lt;li>销售预估时，必须附上3个支撑点（比如：已签合同金额、历史转化率、广告预算）。&lt;/li>
+&lt;li>然后你根据历史准确率，给这个预估打个折。&lt;/li>
+&lt;li>比如销售过去3个月的预估平均偏差是30%，那这次就只信70%。&lt;/li>
+&lt;/ul>
+&lt;p>别觉得这是“不信任”，这叫&lt;strong>量化风险&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>一个真实案例：&lt;/strong>&lt;/p>
+&lt;p>某电子元器件采购，发现销售每次报量都偏乐观30%。
+他直接做了一张表：销售预估 vs 实际出货，把每个销售的历史偏差率算出来。
+然后每次下单时，按“预估×（1-偏差率）”来调整。&lt;/p>
+&lt;p>结果：缺货率从15%降到5%，库存成本降了20%。&lt;/p>
+&lt;p>&lt;strong>记住：需求预测不是听一个人的话，而是把所有人的话变成数字，再处理。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="动作三别一刀切学会分层备货">动作三：别“一刀切”，学会“分层备货”&lt;/h3>
+&lt;p>很多采购最大的毛病：&lt;strong>所有SKU用一套预测逻辑。&lt;/strong>&lt;/p>
+&lt;p>爆款、长尾、新品、淘汰品，全用去年的同比算。
+结果：爆款缺货，长尾压死，新品一上线就滞销。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，把SKU分成三类：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>1. 高周转爆款（A类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>周度预测，用历史均值+趋势修正。&lt;/li>
+&lt;li>安全库存按“缺货成本”定，宁可多备5%，不能断。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 长尾慢动品（C类）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>月度预测，甚至季度预测。&lt;/li>
+&lt;li>安全库存按“持有成本”定，宁可缺货，不能压货。&lt;/li>
+&lt;li>用“定期订购”策略，别频繁下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 新品/活动品（X类）&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白的需求预测真相</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-truth/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-truth/</guid><description>&lt;p>上周一个采购兄弟半夜给我发微信：&lt;strong>“老哥，我刚批了300万的备货计划，现在老板天天盯着我骂。”&lt;/strong>&lt;/p>
+&lt;p>我问他怎么回事。&lt;/p>
+&lt;p>他说去年双十一爆单爆得爽，老板一拍脑袋说今年翻倍备货。结果今年消费疲软，仓库里堆了500多万的货，&lt;strong>连过道都走不了人&lt;/strong>。财务天天催他出库存，销售天天喊卖不动，老板开会就问他“当时怎么预测的”。&lt;/p>
+&lt;p>&lt;strong>他问我：需求预测这东西，到底有没有靠谱的方法？&lt;/strong>&lt;/p>
+&lt;p>我回他：&lt;strong>别信什么“精准预测”的鬼话。&lt;/strong> 干了10年供应链，我见过的坑比你吃过的盐还多。今天不整虚的，直接说3个最要命的误区——&lt;strong>你踩过1个，至少亏50万。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="误区一把历史数据当亲爹">误区一：把“历史数据”当亲爹&lt;/h3>
+&lt;p>很多公司做预测，就是拉过去3年的销售数据，然后&lt;strong>线性外推&lt;/strong>。&lt;/p>
+&lt;p>去年卖100，今年增长10%，于是备110。看似合理，但你想想：&lt;/p>
+&lt;ul>
+&lt;li>去年疫情封控，销量全靠社区团购撑，今年全面放开，数据能一样吗？&lt;/li>
+&lt;li>去年竞品缺货，你捡漏多卖了30%，今年竞品补货了，你还能躺赢？&lt;/li>
+&lt;li>去年你搞了个大促，销量虚高，今年不搞了，库存等着烂吧？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>历史数据是后视镜，不是导航仪。&lt;/strong>&lt;/p>
+&lt;p>我一个客户，做母婴用品的，去年囤了一堆婴儿湿巾。结果今年出生率断崖式下跌，仓库里堆到过期都卖不掉。&lt;strong>他问我怎么办，我说：你现在最该做的不是预测，是清仓。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真正的高手怎么做？&lt;/strong>&lt;/p>
+&lt;p>不是看历史，是看&lt;strong>信号&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>电商搜索指数涨了？赶紧备货&lt;/li>
+&lt;li>竞品开始降价了？压住库存&lt;/li>
+&lt;li>原材料期货跌了？别急着下单&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：预测不是算数，是读风向。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="误区二追求100精准">误区二：追求“100%精准”&lt;/h3>
+&lt;p>有一类老板，天天喊 &lt;strong>“需求预测必须准到90%以上”&lt;/strong>。&lt;/p>
+&lt;p>我跟你说，&lt;strong>这种老板不是蠢就是坏&lt;/strong>。需求预测的本质是&lt;strong>概率游戏&lt;/strong>，不是做数学题。&lt;/p>
+&lt;p>你要是真能做到90%准确率，那你应该去&lt;strong>做天气预报&lt;/strong>，而不是卖货。&lt;/p>
+&lt;p>&lt;strong>现实是什么？&lt;/strong> 你猜对了，仓库不够用；你猜错了，库存爆仓。所以&lt;strong>高手不追求精准，他们追求弹性&lt;/strong>。&lt;/p>
+&lt;p>什么意思？&lt;/p>
+&lt;p>就是&lt;strong>做最坏的打算，留最好的余地&lt;/strong>。&lt;/p>
+&lt;p>举个栗子：&lt;/p>
+&lt;ul>
+&lt;li>你预测下个月卖1000件，别傻乎乎备2000件&lt;/li>
+&lt;li>而是备800件保底，再签200件的急单协议&lt;/li>
+&lt;li>万一真爆了，加钱让供应商加急生产&lt;/li>
+&lt;/ul>
+&lt;p>这样哪怕你预测错了，&lt;strong>损失也有限&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>记住：库存是成本，不是资产。&lt;/strong> 你多囤的那200件，不是赚了，是&lt;strong>压在脖子上的刀&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="误区三只看销量不看场景">误区三：只看“销量”，不看“场景”&lt;/h3>
+&lt;p>很多采购做预测，只看&lt;strong>销量数字&lt;/strong>。&lt;/p>
+&lt;p>销量涨了，就多备；销量跌了，就少备。&lt;strong>但销量背后是什么？没人关心。&lt;/strong>&lt;/p>
+&lt;p>我给你讲个真事：&lt;/p>
+&lt;p>我有个朋友做服装，去年秋天羽绒服爆了，销量翻倍。他赶紧加单，结果入冬后卖不动了。怎么回事？&lt;/p>
+&lt;p>&lt;strong>因为去年是“拉尼娜年”，冷得早。今年是“厄尔尼诺年”，暖冬。&lt;/strong>&lt;/p>
+&lt;p>你光看销量涨，不看天气变化，&lt;strong>这不是预测，这是赌博&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>场景预测才是核心：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>季节性产品&lt;/strong>：看天气、看节气&lt;/li>
+&lt;li>&lt;strong>节日性产品&lt;/strong>：看放假安排、看消费趋势&lt;/li>
+&lt;li>&lt;strong>爆款产品&lt;/strong>：看社交媒体、看KOL种草&lt;/li>
+&lt;li>&lt;strong>长尾产品&lt;/strong>：看复购率、看用户生命周期&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你关注的不应该是“卖了多少”，而是“为什么卖”和“还会不会卖”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="那到底怎么练需求预测">那到底怎么练需求预测？&lt;/h3>
+&lt;p>别急着要模板，先练&lt;strong>3个基本功&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 学会“拆解”&lt;/strong>&lt;/p>
+&lt;p>别只看总销量。拆开看：&lt;/p>
+&lt;ul>
+&lt;li>哪些是自然增长？哪些是促销拉动？&lt;/li>
+&lt;li>哪些是新客买的？哪些是老客复购？&lt;/li>
+&lt;li>哪些是刚需？哪些是冲动消费？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>拆得越细，预测越准。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2. 学会“找参照”&lt;/strong>&lt;/p>
+&lt;p>找不到规律？看看同行：&lt;/p>
+&lt;ul>
+&lt;li>竞品上新节奏是什么？&lt;/li>
+&lt;li>行业大盘是涨是跌？&lt;/li>
+&lt;li>供应链上游的产能情况如何？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别闭门造车，要借别人的数据当参考。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>3. 学会“试错”&lt;/strong>&lt;/p>
+&lt;p>小批量、多批次、快速迭代。&lt;/p>
+&lt;ul>
+&lt;li>先备一个月试试水&lt;/li>
+&lt;li>卖得好再加单&lt;/li>
+&lt;li>卖不动立刻止损&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>预测不是一次性的，是不断调整的动态过程。&lt;/strong>&lt;/p></description></item></channel></rss>

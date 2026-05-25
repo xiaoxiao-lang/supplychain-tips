@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万，我才学会算安全库存</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</guid><description>&lt;p>先讲个真事，别笑。&lt;/p>
+&lt;p>我第一年干采购的时候，被老板骂得狗血淋头，原因很简单——&lt;strong>断货了&lt;/strong>。客户订单飞进来，仓库却没货。销售在群里@我，老板在办公室拍桌子，那一刻我觉得自己离被开就差一张离职单。&lt;/p>
+&lt;p>怎么办？我当时的解决方案很“聪明”：&lt;strong>多备点&lt;/strong>。原来备两周的量，直接拉到四周。不够？再翻一倍。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>三个月后，仓库堆满了灰，老板又骂我了。因为现金流被库存吃了，周转率跌到负数，财务小姐姐看我的眼神像看杀父仇人。&lt;/p>
+&lt;p>&lt;strong>库存多了怕死，库存少了等死。&lt;/strong> 这大概是每个供应链人最扎心的痛。&lt;/p>
+&lt;p>后来我花了两年，踩了无数坑，才搞明白一件事：&lt;strong>安全库存不是拍脑袋的“多备一点”，而是一道数学题。&lt;/strong>&lt;/p>
+&lt;p>今天这篇，我就把这道题的解法掰开揉碎了跟你讲。不整虚的，全是实操。&lt;/p>
+&lt;hr>
+&lt;h3 id="安全库存的皇帝新衣你穿了吗">安全库存的“皇帝新衣”，你穿了吗？&lt;/h3>
+&lt;p>先自测一下：你的安全库存是怎么定的？&lt;/p>
+&lt;ul>
+&lt;li>“凭经验，老员工说备两周就两周。”&lt;/li>
+&lt;li>“拍脑袋，旺季多备点，淡季少备点。”&lt;/li>
+&lt;li>“抄作业，看竞争对手备多少我就备多少。”&lt;/li>
+&lt;/ul>
+&lt;p>如果你中了一条，恭喜你，你穿上了安全库存的“皇帝新衣”。看起来有，实际上裸奔。&lt;/p>
+&lt;p>&lt;strong>安全库存的本质是什么？&lt;/strong> 不是“防止断货”，而是 &lt;strong>“在不确定性和成本之间，找一个最不亏的平衡点”&lt;/strong>。&lt;/p>
+&lt;p>你多备一天，仓库租金、资金利息、过期风险都在涨；你少备一天，订单丢失、客户投诉、紧急补货成本都在涨。&lt;/p>
+&lt;p>&lt;strong>安全库存不是越多越好，而是“刚刚好”。&lt;/strong>&lt;/p>
+&lt;p>那“刚刚好”怎么算？往下看。&lt;/p>
+&lt;hr>
+&lt;h3 id="3步算对安全库存砍掉30多余库存">3步算对安全库存，砍掉30%多余库存&lt;/h3>
+&lt;p>先泼盆冷水：没有一个公式能100%适用所有企业。但有一个基础算法，能帮你至少砍掉30%的无效库存。&lt;/p>
+&lt;p>&lt;strong>核心公式：安全库存 = Z × σ × √L&lt;/strong>&lt;/p>
+&lt;p>别被字母吓到，拆开就是三个变量：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Z：服务水平系数&lt;/strong>（你用几分钱换100%不断货？）&lt;/li>
+&lt;li>&lt;strong>σ：需求波动&lt;/strong>（你的订单有多抽风？）&lt;/li>
+&lt;li>&lt;strong>L：补货周期&lt;/strong>（从下单到到货要多久？）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第一步：确定你的Z值&lt;/strong>&lt;/p>
+&lt;p>Z值就是“你愿意冒多大风险”。常见的对应关系：&lt;/p>
+&lt;ul>
+&lt;li>95%的服务水平 → Z=1.65（允许5%的订单断货）&lt;/li>
+&lt;li>99%的服务水平 → Z=2.33（几乎不断货）&lt;/li>
+&lt;li>99.9% → Z=3.09（土豪玩法，一般行业别学）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>我给你的建议：&lt;/strong> 别傻乎乎设99%。你卖的是卫生纸还是奢侈品？卫生纸断货一天客户会死吗？不会。但奢侈品断货一天，客户可能就去了爱马仕。&lt;/p>
+&lt;p>&lt;strong>90%-95%是大多数行业的最优解。&lt;/strong> 多出来的库存，全是你的钱。&lt;/p>
+&lt;p>&lt;strong>第二步：算σ（需求标准差）&lt;/strong>&lt;/p>
+&lt;p>这是最硬核的一步，但你别被名字吓到。简单说：&lt;strong>你把过去10周或20周的实际销量拉出来，用Excel的STDEV函数跑一下&lt;/strong>。&lt;/p>
+&lt;p>比如你过去10周的销量是：100, 105, 98, 110, 95, 120, 85, 130, 90, 115。跑出来σ大概是13.5。&lt;/p>
+&lt;p>这意味着什么？你的需求波动不算大。如果σ是50，那你的需求像过山车，库存要备得更深。&lt;/p>
+&lt;p>&lt;strong>第三步：算L（补货周期）&lt;/strong>&lt;/p>
+&lt;p>注意，这里不是“供应商说几天就几天”。&lt;strong>你要算实际天数&lt;/strong>：从你下单到货物入仓，中间多少天。包括：&lt;/p>
+&lt;ul>
+&lt;li>供应商生产天数（别信承诺，看历史表现）&lt;/li>
+&lt;li>物流运输天数（含清关、中转）&lt;/li>
+&lt;li>质检入库天数（很多人漏了这个）&lt;/li>
+&lt;/ul>
+&lt;p>比如，供应商说7天，实际平均10天，那就用10。&lt;/p>
+&lt;p>&lt;strong>来个实战：&lt;/strong>&lt;/p>
+&lt;p>假设你卖的是网红水杯，服务水平定95%（Z=1.65），需求标准差σ=20，补货周期L=10天。&lt;/p></description></item><item><title>库存对不上？你缺的不是人，是这3个RFID骚操作</title><link>https://supplychain-tips.pages.dev/posts/rfid-inventory-tips/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-inventory-tips/</guid><description>&lt;p>&lt;strong>兄弟，你还在为库存对不上而熬夜？&lt;/strong>&lt;/p>
+&lt;p>上周一个做电商的朋友半夜给我发微信，说他仓库又炸了。&lt;/p>
+&lt;p>盘点三天，账实差异率8%。老板拍桌子，他差点拍自己。&lt;/p>
+&lt;p>“我加了两个人，换了两套系统，还搞了半年绩效考核，结果这破库存该乱还是乱。你说我是不是该把仓库一把火烧了？”&lt;/p>
+&lt;p>我回他：“你缺的不是人，你缺的是RFID。”&lt;/p>
+&lt;p>他愣了半天：“啥玩意儿？射频识别？那不是超市防盗门上的东西吗？”&lt;/p>
+&lt;p>看吧，这就是问题。&lt;/p>
+&lt;p>&lt;strong>很多人以为RFID=智能标签+贵+大厂专属。&lt;/strong> 大错特错。&lt;/p>
+&lt;p>今天我就用3个真实案例，告诉你RFID到底怎么帮你把库存误差从10%干到0.5%，顺便还能省掉一个盘点员的工资。&lt;/p>
+&lt;p>别急着划走，看完你会发现：这玩意儿比你想象中便宜，效果比你想象中猛。&lt;/p>
+&lt;hr>
+&lt;h3 id="01-别把rfid当高科技它就是你的数字眼线">01 别把RFID当“高科技”，它就是你的数字眼线&lt;/h3>
+&lt;p>先说人话。&lt;/p>
+&lt;p>RFID就是个&lt;strong>不插电、不用对准、能隔空读数据的标签&lt;/strong>。&lt;/p>
+&lt;p>你拿扫码枪，得一个一个对准条码，累死。RFID呢？一个读写器，一秒钟扫几百个，隔着一米多远的箱子也能读。&lt;/p>
+&lt;p>&lt;strong>它不挑姿势，不挑距离，不挑光线。&lt;/strong>&lt;/p>
+&lt;p>说白了，传统库存管理靠人眼+手动。RFID靠&lt;strong>电磁波+自动批量&lt;/strong>。&lt;/p>
+&lt;p>你说哪个更靠谱？&lt;/p>
+&lt;p>我见过太多仓库：条码被磨花了、贴歪了、被胶带缠住了。扫码枪扫半天扫不出来，员工直接“人工录入”——然后数据就飞了。&lt;/p>
+&lt;p>&lt;strong>RFID不存在这个问题。&lt;/strong> 只要芯片没物理损坏，隔着纸箱、塑料膜、木托盘都能读。&lt;/p>
+&lt;p>所以，别再觉得RFID是啥高精尖。它就是给你每个货配了个“永不掉线的智能眼线”。&lt;/p>
+&lt;hr>
+&lt;h3 id="02-真实案例3000万的库存一个仓库主管如何用rfid翻盘">02 真实案例：3000万的库存，一个仓库主管如何用RFID翻盘&lt;/h3>
+&lt;p>有个做汽配零件的朋友，仓库里SKU超过8000个，库存金额3000多万。&lt;/p>
+&lt;p>以前怎么做盘点？&lt;/p>
+&lt;p>&lt;strong>每月一次全盘，10个人，干3天。&lt;/strong> 累成狗不说，每次盘完差异率8%-12%。老板问怎么回事，他说“正常损耗”。老板说“你正常个屁”。&lt;/p>
+&lt;p>后来他干了三件事，就靠RFID。&lt;/p>
+&lt;p>&lt;strong>第一件事：在货架和托盘上贴RFID标签。&lt;/strong>&lt;/p>
+&lt;p>不是每个商品贴，是按“库位+批次”贴。一个托盘一个标签，里面放啥、放多少，系统里一绑就行。&lt;/p>
+&lt;p>&lt;strong>第二件事：在叉车上装读写器。&lt;/strong>&lt;/p>
+&lt;p>叉车每次取货、放货，读写器自动扫描标签。系统实时更新库存位置和数量。&lt;/p>
+&lt;p>&lt;strong>第三件事：门口装固定读写器。&lt;/strong>&lt;/p>
+&lt;p>货物进出库，不用停车、不用掏单子，直接开过去，系统自动生成出入库记录。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>盘点时间从3天变成3小时——你没看错。&lt;/strong> 差异率从8%降到0.5%以下。那个仓库主管今年年终奖翻倍，还升了总监。&lt;/p>
+&lt;p>他跟我喝酒时说：“以前我觉得管理库存靠人盯人，现在我发现，靠科技流氓。”&lt;/p>
+&lt;hr>
+&lt;h3 id="03-避坑指南为什么有人花了20万效果还不如扫码枪">03 避坑指南：为什么有人花了20万，效果还不如扫码枪？&lt;/h3>
+&lt;p>RFID是好东西，但我也见过翻车的。&lt;/p>
+&lt;p>有个工厂老板，听人说RFID能降本增效，一激动买了20万的设备。结果上了以后，&lt;strong>数据乱飞，误读率30%，员工骂娘，最后又换回扫码枪。&lt;/strong>&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>&lt;strong>三个坑，你千万别踩。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>坑1：标签贴错了位置&lt;/strong>&lt;/p>
+&lt;p>RFID怕金属、怕水。你把标签直接贴在金属货架上，或者冷冻库里的塑料袋上，信号直接衰减80%。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 金属表面用&lt;strong>抗金属标签&lt;/strong>，液体或冷冻品用&lt;strong>特殊封装标签&lt;/strong>。别省那几毛钱。&lt;/p>
+&lt;p>&lt;strong>坑2：读写器选低了&lt;/strong>&lt;/p>
+&lt;p>便宜的读写器，读取距离短、抗干扰差。仓库里叉车、电机、手机一堆电磁干扰，便宜货直接罢工。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 选工业级读写器，功率可调，频率稳定。别图便宜买家用级玩具。&lt;/p>
+&lt;p>&lt;strong>坑3：系统没打通&lt;/strong>&lt;/p>
+&lt;p>RFID只是采集数据，真正管用的是&lt;strong>后台系统&lt;/strong>。你采了数据，但WMS（仓库管理系统）不支持，或者接口没开发好，数据就是死数据。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 上RFID之前，先确认你的系统能对接。别买完设备才发现，数据得手动导出再导入——那还不如扫码枪。&lt;/p>
+&lt;hr>
+&lt;h3 id="04-不是大厂才配用小老板也能玩得起">04 不是大厂才配用，小老板也能玩得起&lt;/h3>
+&lt;p>很多人觉得RFID是“世界500强专属”。&lt;/p>
+&lt;p>&lt;strong>错。&lt;/strong>&lt;/p>
+&lt;p>现在一个无源RFID标签，批量采购成本才&lt;strong>3-5毛钱&lt;/strong>。读写器便宜的几百块，好点的两三千。一套基础的RFID出入库系统，几千块就能搞定。&lt;/p>
+&lt;p>&lt;strong>算笔账：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>你仓库一年盘点人工成本：10人×3天×200元/天=6000元（每月）&lt;/li>
+&lt;li>一年就是7万多&lt;/li>
+&lt;li>加上误差导致的丢货、错货、补货成本，随便10万+&lt;/li>
+&lt;li>一套RFID系统，投入2-3万，一年回本&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这不香？&lt;/strong>&lt;/p>
+&lt;p>而且现在很多SaaS（软件即服务）系统，按月付费，不用一次性掏大钱。你连买个软件都分期，RFID也可以。&lt;/p></description></item><item><title>库存压了300万，我才学会这5招</title><link>https://supplychain-tips.pages.dev/posts/inventory-tips-5/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-tips-5/</guid><description>&lt;p>兄弟们，我先讲个真事。&lt;/p>
+&lt;p>去年有个做服装电商的朋友，双十一前备了500万的货，结果款式扑街，到现在仓库里堆着300万的呆滞料，每多放一天，仓储费、资金成本就哗啦啦地烧。老板问他库存怎么管，他挠头说：“我……我按去年销量乘以1.5备的。”&lt;/p>
+&lt;p>你是不是也干过这种事？或者见过这样的同事？&lt;/p>
+&lt;p>库存管理这事，说简单也简单，说难是真坑。我干了8年供应链，踩过最大的坑就是——&lt;strong>总觉得库存越多越安全&lt;/strong>。直到账上现金流吃紧，仓库塞到叉车都开不进去，才明白一个道理：&lt;strong>库存是负债，不是资产&lt;/strong>。&lt;/p>
+&lt;p>今天不整虚的，直接上5个我花了真金白银换来的经验。如果你也在管库存，或者被老板追着问“为啥周转率这么低”，建议你看到第3条，因为前两条是常规操作，后三条才是保命技能。&lt;/p>
+&lt;h3 id="1-别信直觉信数据abc分类法">1. 别信直觉，信数据：ABC分类法&lt;/h3>
+&lt;p>很多新手管库存，喜欢“一碗水端平”——所有SKU都备一样的量。结果呢？A类爆款断货，C类冷门堆成山。&lt;/p>
+&lt;p>&lt;strong>核心逻辑&lt;/strong>：20%的SKU贡献80%的销售额，剩下的80%只占20%。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（高价值/高周转）&lt;/strong>：比如iPhone手机壳，一天卖200个。&lt;strong>重点盯&lt;/strong>，每周复盘一次，安全库存设高一点，缺货就是丢钱。&lt;/li>
+&lt;li>&lt;strong>B类（中价值/中周转）&lt;/strong>：比如充电宝，一周卖50个。&lt;strong>按月调整&lt;/strong>，别太勤快，也别放羊。&lt;/li>
+&lt;li>&lt;strong>C类（低价值/低周转）&lt;/strong>：比如手机支架，一个月卖10个。&lt;strong>能少备就少备&lt;/strong>，甚至可以设置“只接单再生产”模式。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>扎心提示&lt;/strong>：别跟我说“我们品类多，分不过来”。用Excel拉个排序，顶多半小时。你少刷两条抖音，这钱就省出来了。&lt;/p>
+&lt;h3 id="2-动态安全库存别用去年的尺子量今年的脚">2. 动态安全库存：别用去年的尺子量今年的脚&lt;/h3>
+&lt;p>我见过最离谱的，是有人用2020年的销量去备2024年的货。大哥，市场变天了好吗？&lt;/p>
+&lt;p>&lt;strong>怎么算？&lt;/strong> 别整复杂公式，记住这个傻瓜版：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存 = （最大日销量 × 最长补货周期）- （平均日销量 × 平均补货周期）&lt;/strong>&lt;/li>
+&lt;li>举个栗子：你卖辣条，平时一天卖100包，但双十一期间一天卖500包。供应商平时3天到货，但旺季要5天。那安全库存就得按（500×5）-（100×3）= 2200包来算。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键&lt;/strong>：安全库存不是固定的。每季度至少调一次，旺季前手动拉高，淡季主动砍掉20%。你要是懒，等断货了别哭。&lt;/p>
+&lt;h3 id="3-呆滞料预警别等到发霉了才想起来清">3. 呆滞料预警：别等到发霉了才想起来清&lt;/h3>
+&lt;p>仓库里最害人的不是缺货，是“觉得以后还能用”的呆滞料。多少公司库存报表上写着“价值200万”，实际连20万都卖不出去？&lt;/p>
+&lt;p>&lt;strong>实操方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>设定呆滞标准&lt;/strong>：超过180天没动过的货，直接标记为“待处理”。&lt;/li>
+&lt;li>&lt;strong>每月出报表&lt;/strong>：用ERP系统拉一张“呆滞料清单”，按金额从高到低排。&lt;/li>
+&lt;li>&lt;strong>处理动作&lt;/strong>：能退货的退，能调拨的调拨，实在不行打折清仓。&lt;strong>记住：亏本卖也比烂在仓库里强&lt;/strong>，仓储费、资金成本、贬值风险，算下来可能亏更多。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>血泪教训&lt;/strong>：我见过有人囤了3万箱雨伞，结果连续两年没下雨。最后当废品卖的，连运费都没赚回来。&lt;strong>别跟天气对赌，别跟市场较劲。&lt;/strong>&lt;/p>
+&lt;h3 id="4-盘点不是月末仪式是日常防弹衣">4. 盘点不是月末仪式，是日常防弹衣&lt;/h3>
+&lt;p>很多公司盘点就是“月底突击对账”，结果发现账实不符，大家互相甩锅。其实盘点应该像刷牙——每天做一次太累，但每周至少刷两次。&lt;/p>
+&lt;p>&lt;strong>推荐方法：循环盘点法&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>把仓库分成几个区，每天抽一个区盘点。&lt;/li>
+&lt;li>比如周一盘A区，周二盘B区，不耽误正常发货。&lt;/li>
+&lt;li>发现差异超过1%的SKU，当场查明原因，是系统录入错了？还是被人顺走了？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>好处&lt;/strong>：不用等月底通宵，心里有底，老板问起来你能立刻报出“今天A区有3个SKU差异，原因是出库时漏扫了条码”。&lt;strong>专业感直接拉满&lt;/strong>。&lt;/p>
+&lt;h3 id="5-别一个人扛让销售和采购背锅">5. 别一个人扛，让销售和采购背锅&lt;/h3>
+&lt;p>库存管理明明是全公司的活，但很多公司都丢给仓库或者采购一个人。结果呢？销售只管冲业绩，不管库存；采购只管压价，不管周转。&lt;/p>
+&lt;p>&lt;strong>破局方法&lt;/strong>：搞一个 &lt;strong>“库存周会”&lt;/strong> ，每周一15分钟，拉上销售、采购、财务三方。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销售要回答&lt;/strong>：下周重点推哪几个SKU？有没有促销计划？&lt;/li>
+&lt;li>&lt;strong>采购要回答&lt;/strong>：哪些供应商要涨价？哪些物料要提前锁单？&lt;/li>
+&lt;li>&lt;strong>财务要回答&lt;/strong>：库存周转率目标是多少？超了怎么罚？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>重点&lt;/strong>：定一个 &lt;strong>“库存周转率KPI”&lt;/strong> ，比如“每月周转不低于4次”。没达标？销售和采购各扣10%绩效。别笑，狠招才能治懒病。&lt;/p>
+&lt;hr>
+&lt;p>最后说句掏心窝的：库存管理没有特效药，只有下笨功夫。&lt;/p>
+&lt;p>别指望买一套SaaS系统就自动搞定，也别幻想老板突然开悟给你加人。&lt;strong>真正的技巧，就是把那5招反复练，练到形成肌肉记忆。&lt;/strong>&lt;/p>
+&lt;p>对了，如果你觉得这文章有货，&lt;strong>关注公众号「甲方乙方供应链」&lt;/strong>，我每周都会写点供应链的实操干货，不装逼，只讲真话。咱们群里见。&lt;/p></description></item><item><title>库存压了500万才明白：VMI就是救命稻草</title><link>https://supplychain-tips.pages.dev/posts/vmi-rescue/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-rescue/</guid><description>&lt;p>&lt;strong>你猜，供应链人最崩溃的瞬间是什么？&lt;/strong>&lt;/p>
+&lt;p>不是供应商断货，不是老板催KPI，而是——
+&lt;strong>仓库里堆了500万的货，但产线就是停线了。&lt;/strong>&lt;/p>
+&lt;p>就离谱。
+明明库存报表上数字漂亮，但实际需要的物料永远缺。你说气不气人？&lt;/p>
+&lt;p>这事儿我干了8年，直到被逼到墙角，才搞明白一个道理：
+&lt;strong>别自己扛库存，让供应商来扛。&lt;/strong>&lt;/p>
+&lt;p>对，就是VMI（供应商管理库存）。
+别觉得这是大厂专属，中小厂玩好了，一样翻盘。&lt;/p>
+&lt;hr>
+&lt;h3 id="为什么你越管库存库存越崩">为什么你越管库存，库存越崩？&lt;/h3>
+&lt;p>先问个扎心的：
+&lt;strong>你公司里，谁在管库存？&lt;/strong>&lt;/p>
+&lt;p>大概率是采购。但采购的KPI是啥？
+“别断货！”
+于是呢？疯狂下订单，疯狂囤货。
+结果就是：&lt;/p>
+&lt;ul>
+&lt;li>库房里堆满“备胎”物料，但产线要的急货永远没有&lt;/li>
+&lt;li>资金全压在仓库里，现金流比你的发际线还危险&lt;/li>
+&lt;li>月底盘点，财务追着你问“这堆灰是啥时候买的？”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你越努力，库存越失控。&lt;/strong>
+因为你自己扛库存，就是在赌命——赌预测准、赌供应商靠谱、赌客户不变卦。
+现实是：&lt;strong>预测永远是错的。&lt;/strong>&lt;/p>
+&lt;p>那VMI怎么破局？
+简单说：&lt;strong>把库存的“锅”甩给供应商。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="vmi到底是个啥3句话讲透">VMI到底是个啥？3句话讲透&lt;/h3>
+&lt;p>别被高大上的名字唬住。VMI本质就3条：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>供应商看你的库存数据&lt;/strong>
+通过系统或共享表格，供应商实时知道你用了多少、还剩多少。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>供应商主动补货&lt;/strong>
+不用你催，他根据消耗速度，自己安排送货。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>你用了再付钱&lt;/strong>
+货入库，但所有权还是供应商的。你从仓库“拿走”用了，才算采购。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>听着很爽是吧？&lt;/strong>
+但别急，这玩意儿不是灵丹妙药。没搞对，比你自己管还惨。&lt;/p>
+&lt;hr>
+&lt;h3 id="3个坑踩一个就完蛋">3个坑，踩一个就完蛋&lt;/h3>
+&lt;h4 id="坑1数据不透明等于白搞">坑1：数据不透明，等于白搞&lt;/h4>
+&lt;p>VMI的核心是&lt;strong>信息共享&lt;/strong>。
+但很多公司搞VMI，还是老一套：&lt;/p>
+&lt;ul>
+&lt;li>给供应商一个Excel表，每月更新一次&lt;/li>
+&lt;li>或者系统数据延迟3天&lt;/li>
+&lt;/ul>
+&lt;p>这不叫VMI，叫&lt;strong>自欺欺人&lt;/strong>。
+供应商看到的是过期数据，补的货要么多了要么少了。
+结局：库存没降，断货更频繁。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>
+上系统。哪怕用个共享的在线表格，也得实时更新。
+别舍不得那点IT预算，断一次产线，损失够你买10年系统。&lt;/p>
+&lt;h4 id="坑2供应商不是傻子别想白嫖">坑2：供应商不是傻子，别想白嫖&lt;/h4>
+&lt;p>VMI的本质是&lt;strong>风险转移&lt;/strong>。
+你把库存风险甩给供应商，人家凭什么接？
+很多采购一上来就压价：“VMI了，你降价10%。”
+供应商扭头就走。&lt;/p>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>给供应商更长账期（比如60天）&lt;/li>
+&lt;li>或者承诺采购量保底&lt;/li>
+&lt;li>甚至分一点利润给他&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>VMI是双赢，不是单方面压榨。&lt;/strong>&lt;/p>
+&lt;h4 id="坑3别让vmi变成甩手掌柜">坑3：别让VMI变成“甩手掌柜”&lt;/h4>
+&lt;p>有些公司搞了VMI，采购就彻底躺平了。
+天天刷手机，等着供应商送货。
+结果呢？供应商自己也很忙，漏送了也没人盯。&lt;/p>
+&lt;p>&lt;strong>VMI只是工具，不是免死金牌。&lt;/strong>
+你依然得定期复盘：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率有没有提高？&lt;/li>
+&lt;li>缺货率有没有下降？&lt;/li>
+&lt;li>供应商是不是在偷懒？&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="实操版vmi落地指南照着抄">实操版VMI落地指南（照着抄）&lt;/h3>
+&lt;p>别整虚的，直接上干货。
+&lt;strong>4步走，1个月见效：&lt;/strong>&lt;/p>
+&lt;h4 id="第1步选对物料">第1步：选对物料&lt;/h4>
+&lt;p>不是所有物料都适合VMI。
+&lt;strong>优先选：&lt;/strong>&lt;/p></description></item><item><title>库存压了300万，我才学会算这笔账</title><link>https://supplychain-tips.pages.dev/posts/eoq-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-tips/</guid><description>&lt;p>哥们，先问你个扎心的问题：&lt;strong>你仓库里有多少货，是压了超过3个月还没动过的？&lt;/strong>&lt;/p>
+&lt;p>我猜，你肯定脑瓜子嗡嗡的。上个月我被老板骂得狗血淋头，原因很简单：&lt;strong>库存压了300万现金，周转慢得像头老牛。&lt;/strong> 老板拍着桌子吼：“你他妈是搞采购还是搞收藏？”&lt;/p>
+&lt;p>我当时那个憋屈啊。我心想，我每次都尽量&lt;strong>批量买&lt;/strong>，图的就是单价便宜、运费省，咋还成了罪人？&lt;/p>
+&lt;p>后来，一个搞了15年供应链的老炮儿点醒了我。他叼着烟，慢悠悠地说：“你他妈这是‘贪小便宜吃大亏’的典型。&lt;strong>买得多不等于赚得多，你得算那个‘经济订货量’&lt;/strong>。”&lt;/p>
+&lt;p>啥叫经济订货量（EOQ）？别急，今天咱们不整那些高大上的公式，就聊聊这玩意儿怎么从你口袋里把钱省下来。&lt;/p>
+&lt;h3 id="你被量越大越便宜骗了多久">你被“量越大越便宜”骗了多久？&lt;/h3>
+&lt;p>你是不是也这样？供应商一打电话：“王总，这个月搞活动，买1000件打8折，买5000件直接给你6折！” 你脑子一热，直接下了5000件。&lt;/p>
+&lt;p>爽吗？爽。&lt;strong>但爽完就是噩梦。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>现金没了：&lt;/strong> 你的钱全变成了一堆铁疙瘩，躺在仓库吃灰。&lt;/li>
+&lt;li>&lt;strong>仓储费爆炸：&lt;/strong> 仓库租金、水电、管理员工资，每个月光付这个就得几千块。&lt;/li>
+&lt;li>&lt;strong>货过期/过时：&lt;/strong> 电子产品、食品、甚至快消品，放久了要么贬值，要么直接报废。&lt;/li>
+&lt;li>&lt;strong>资金周转不动：&lt;/strong> 现金流一断，下个月工资都发不出来，你还谈什么发展？&lt;/li>
+&lt;/ul>
+&lt;p>简单说，你为了省那一点&lt;strong>单价成本&lt;/strong>，硬生生把&lt;strong>总成本&lt;/strong>给拉高了。&lt;/p>
+&lt;p>&lt;strong>这就是典型的“穷人思维”：只盯着显性的采购价，忽略了隐性的持有成本。&lt;/strong>&lt;/p>
+&lt;h3 id="算这笔账之前先理解3个隐形杀手">算这笔账之前，先理解3个“隐形杀手”&lt;/h3>
+&lt;p>要搞懂经济订货量，你得先认清这三兄弟：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>订货成本：&lt;/strong> 你每次下单，要跟供应商扯皮、处理发票、安排物流。这些都是成本。&lt;strong>订货次数越多，这个成本越高。&lt;/strong> 比如，一次订货的行政成本是500块，你订了10次，就是5000块。&lt;/li>
+&lt;li>&lt;strong>持有成本：&lt;/strong> 货到了你手里，就开始烧钱。仓储费、保险费、资金占用利息、货损风险。&lt;strong>这个成本是按“年”算的，通常占库存价值的20%-30%！&lt;/strong> 你压了100万的货，一年光持有成本就20-30万。&lt;/li>
+&lt;li>&lt;strong>缺货成本：&lt;/strong> 这个最要命。客户要货你没有，订单黄了，口碑砸了。&lt;strong>缺货造成的损失，有时候比多买几倍的货还惨。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>所以，经济订货量（EOQ）的逻辑很简单：&lt;strong>找到那个点，让你的“订货成本”和“持有成本”加起来最小。&lt;/strong>&lt;/p>
+&lt;h3 id="怎么算我教你3步小学水平就行">怎么算？我教你3步，小学水平就行&lt;/h3>
+&lt;p>你别被公式吓到。网上那些EOQ公式确实看着挺吓人，但咱普通人用Excel就能搞定。&lt;/p>
+&lt;p>&lt;strong>第一步：盘清楚你的“家底”&lt;/strong>&lt;/p>
+&lt;p>你需要知道三个数字：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>年度需求量（D）：&lt;/strong> 你这个货一年能卖多少？别拍脑袋，看近12个月的历史数据。比如，一年卖 &lt;strong>1万件&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>单次订货成本（S）：&lt;/strong> 每次下单，你要花多少钱？包括采购员工资、运费、通讯费、差旅费。比如，一次 &lt;strong>500块&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>单位持有成本（H）：&lt;/strong> 一件货放一年，要花多少钱？这个一般取库存价值的20%-30%。假设一件货成本 &lt;strong>100块&lt;/strong>，持有成本就是 &lt;strong>20-30块&lt;/strong>。咱们取中间值 &lt;strong>25块&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：套用“傻瓜公式”&lt;/strong>&lt;/p>
+&lt;p>别慌，就一个简单的乘除：
+&lt;strong>经济订货量（EOQ）= √( 2 × D × S ÷ H )&lt;/strong>&lt;/p>
+&lt;p>用上面的数字算一下：
+EOQ = √( 2 × 10,000 × 500 ÷ 25 ) = √( 10,000,000 ÷ 25 ) = √400,000 ≈ &lt;strong>632件&lt;/strong>&lt;/p></description></item><item><title>库存压了300万才懂：这4招能救命</title><link>https://supplychain-tips.pages.dev/posts/inventory-life-saving-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-life-saving-tips/</guid><description>&lt;p>兄弟，你有没有过这种体验？&lt;/p>
+&lt;ul>
+&lt;li>仓库堆得跟迷宫一样，找卷胶带要翻半小时&lt;/li>
+&lt;li>月底盘点，账上写着“50万”，实际数出来不到20万&lt;/li>
+&lt;li>老板天天喊“降库存”，结果一查，呆料占了三分之一&lt;/li>
+&lt;li>你为了省钱，一次买了半年量的包装材料，结果产品改版，全废了&lt;/li>
+&lt;/ul>
+&lt;p>别问我怎么知道的，因为我之前也是那个&lt;strong>傻白甜&lt;/strong>。&lt;/p>
+&lt;p>干了6年供应链，看过太多公司，库存从几百万滚到几千万，最后现金流断裂，老板跑路，库管员拿着对讲机喊着“清仓大甩卖”。&lt;/p>
+&lt;p>库存不是资产，&lt;strong>库存是负债&lt;/strong>，是压在你账面上的血。今天我就把踩过的坑、学到的诈，全抖出来。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别再傻傻全备学会给命根子上保险">1. 别再傻傻“全备”：学会给命根子上保险&lt;/h3>
+&lt;p>以前我管库存，脑子里就一根筋：&lt;strong>“宁可多买，不能断货”&lt;/strong>。&lt;/p>
+&lt;p>结果呢？畅销品堆成山，冷门货落满灰，仓库租金比利润还高。&lt;/p>
+&lt;p>后来被一位老前辈骂醒了：&lt;strong>“你他妈是在开博物馆，不是在开工厂。”&lt;/strong>&lt;/p>
+&lt;p>狠招是什么？&lt;strong>ABC-XYZ分类法&lt;/strong>，别被名字唬住，说白了就是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（高价值/高销量）&lt;/strong>：比如你家爆款手机的屏幕。这类货，&lt;strong>必须算得死死的&lt;/strong>。用VMI（供应商管理库存），让厂家帮你存，你付“按需提货费”。或者签框架协议，锁定价格，分批交货。&lt;/li>
+&lt;li>&lt;strong>B类（中等价值/中等销量）&lt;/strong>：比如常规的螺丝、包装盒。安全库存设成&lt;strong>1.5倍&lt;/strong>周期用量，盯紧订单，别瞎屯。&lt;/li>
+&lt;li>&lt;strong>C类（低价值/低销量）&lt;/strong>：比如一些半年卖不掉的特殊配件。&lt;strong>直接砍掉&lt;/strong>，或者跟供应商谈“代卖”，卖出去再结账。别为了省几块钱运费，把几万块锁在仓库里。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑：80%的库存成本，只来自20%的SKU。&lt;/strong> 把精力放在A类上，别为了鸡毛蒜皮的事累死。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-盘点别月底才搞玩动态抽查">2. 盘点：别月底才搞，玩“动态抽查”&lt;/h3>
+&lt;p>一提到盘点，大家头都大。&lt;/p>
+&lt;p>“兄弟们，今晚加班盘点！”
+“又盘？上个月不是刚盘过？”
+“仓库那么大，数到明天早上也数不完啊！”&lt;/p>
+&lt;p>传统的月盘、年盘，不仅效率低，而且&lt;strong>数据滞后&lt;/strong>。等你发现少了500件货，黄花菜都凉了。&lt;/p>
+&lt;p>&lt;strong>真正的高手，玩的是“动态盘点”。&lt;/strong>&lt;/p>
+&lt;p>什么意思？就是&lt;strong>每天抽着盘&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高频盘&lt;/strong>：A类物料，每天出货后，抽10%的SKU，用RFID或者扫码枪扫一遍。5分钟搞定。&lt;/li>
+&lt;li>&lt;strong>中频盘&lt;/strong>：B类物料，每周抽盘一次。&lt;/li>
+&lt;li>&lt;strong>低频盘&lt;/strong>：C类物料，一个月甚至一季度盘一次。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键点：盘完立刻更新系统，别拖。&lt;/strong>&lt;/p>
+&lt;p>我以前公司，每天下午4点，库管员拿着PDA，把今天动过的货全扫一遍。账实不符？当场找原因，是发错了还是偷了？立刻解决。&lt;/p>
+&lt;p>&lt;strong>好处&lt;/strong>：不用月底熬夜，数据随时准确，老板问起来，你张嘴就能答。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-砍掉僵尸库存狠心才能活">3. 砍掉“僵尸库存”：狠心才能活&lt;/h3>
+&lt;p>每个仓库里，都有那么一批货。&lt;/p>
+&lt;ul>
+&lt;li>型号老掉牙，客户早不买了&lt;/li>
+&lt;li>因为一个订单订多了，结果订单取消，货烂在手里&lt;/li>
+&lt;li>生产计划拍脑袋，备了一堆料，结果产品改版&lt;/li>
+&lt;/ul>
+&lt;p>这些货，我叫它**“僵尸库存”**。它们不仅占地方，还吃钱——仓储费、管理费、资金利息。&lt;/p>
+&lt;p>&lt;strong>怎么处理？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步：定义标准。&lt;/strong> 比如，连续90天没有出库记录的，自动标记为“呆料”。&lt;/li>
+&lt;li>&lt;strong>第二步：立刻行动。&lt;/strong> 别犹豫，能退货的退货，能折价卖的就折价卖，能改用的改用。实在不行，&lt;strong>直接报废&lt;/strong>。与其让它们耗着，不如清空空间，盘活现金流。&lt;/li>
+&lt;li>&lt;strong>第三步：源头控制。&lt;/strong> 建立“呆料预警机制”。采购下单前，系统自动弹窗：“这个SKU已经60天没动过了，你确定要买吗？”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住一个真理：&lt;/strong> 卖不出去的库存，就是废铁。&lt;strong>留着就是等死。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-用数据算命别拍脑袋订货">4. 用数据“算命”：别拍脑袋订货&lt;/h3>
+&lt;p>很多公司订货，全靠老板心情或者销售拍胸脯。&lt;/p>
+&lt;p>“下个月销量肯定翻倍！”
+“赶紧备5000套！”&lt;/p>
+&lt;p>结果呢？销量没来，库存上去了。&lt;/p>
+&lt;p>&lt;strong>正确的做法：用历史数据+周期性算法。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步：拉出去年同期的销售数据。&lt;/strong> 去掉促销、疫情等极端值。&lt;/li>
+&lt;li>&lt;strong>第二步：引入“安全库存公式”。&lt;/strong> 别怕数学，就是个&lt;strong>简单公式&lt;/strong>：&lt;/li>
+&lt;li>安全库存 = Z值（缺货风险系数）× 需求标准差 × √(补货周期)&lt;/li>
+&lt;li>看不懂？没关系。&lt;strong>直接上工具：&lt;/strong> 用Excel的STDEV函数算标准差，或者用WMS（仓库管理系统）自动生成。&lt;/li>
+&lt;li>&lt;strong>第三步：设置“再订货点”&lt;/strong>。比如，库存低于500件时，系统自动发邮件给采购：“该补货了”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别再用“感觉”管理库存了，用数据。&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白：ABC分类法就是骗人的</title><link>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-myth-busting/</guid><description>&lt;p>你有没有过这种崩溃时刻？&lt;/p>
+&lt;p>库房里堆满了SKU，老板天天催你清库存，你拿着ABC分类法，吭哧吭哧把A类商品管得死死的，结果月底一算账，利润还是负数。&lt;/p>
+&lt;p>更扎心的是，隔壁部门那个月薪5万的总监，人家啥都不管，就盯着几个单品，库存周转率比你高一倍。&lt;/p>
+&lt;p>你问他秘诀？他笑笑说：“ABC？那是给新手挖的坑。”&lt;/p>
+&lt;p>别不服。我干了10年供应链，踩过500万库存的坑，今天就把这3个反常识的真相摊开讲。&lt;strong>保你看完想删掉Excel里的ABC表格。&lt;/strong>&lt;/p>
+&lt;h3 id="1-你以为a类是亲儿子其实是吸血鬼">1. 你以为A类是亲儿子？其实是吸血鬼&lt;/h3>
+&lt;p>先问个灵魂问题：&lt;strong>你凭什么说A类是重要的？&lt;/strong>&lt;/p>
+&lt;p>按ABC分类法的标准动作，销售额占比70%的SKU就是A类，要重点监控、严控库存、频繁盘点。&lt;/p>
+&lt;p>听起来没毛病对吧？但现实是——&lt;strong>A类商品往往是利润最低的“流量款”。&lt;/strong>&lt;/p>
+&lt;p>举个例子。你卖手机壳，A类单品是那个19.9元的爆款，月销10万件，占销售额60%。但你算过毛利吗？进货价18元，加上运费、包装、平台抽成，卖一个亏0.5元。这就是典型的“赔本赚吆喝”。&lt;/p>
+&lt;p>而C类商品呢？一个定制手机壳卖199元，月销100件，毛利60%。利润是A类爆款的&lt;strong>120倍&lt;/strong>。&lt;/p>
+&lt;p>你用ABC分类法，把所有资源砸在A类上——拼命压库存、申请促销、跟供应商死磕交期。结果呢？越管越亏，因为你管的是“虚假繁荣”。&lt;/p>
+&lt;p>&lt;strong>真相：ABC用销售额或库存金额做权重，但利润才是亲爹。&lt;/strong>&lt;/p>
+&lt;p>所以，别一头扎进ABC的坑。第一步，把“销售额”换成“毛利率”重新分类。&lt;strong>毛利率最高的单品，才是你的真A类。&lt;/strong>&lt;/p>
+&lt;h3 id="2-8020法则那是你的幻觉">2. 80/20法则？那是你的幻觉&lt;/h3>
+&lt;p>ABC分类法的理论根基是帕累托法则——20%的SKU贡献80%的价值。听起来很爽，但现实是：&lt;strong>你的库存结构根本不符合这个比例。&lt;/strong>&lt;/p>
+&lt;p>随便拉一家中小型企业的SKU清单，你会发现：很多品类里，前5%的SKU贡献了50%的销售额，但后60%的SKU贡献了20%的销售额。&lt;strong>中间那35%的SKU，全是“长尾僵尸”。&lt;/strong>&lt;/p>
+&lt;p>这些“僵尸”单品，你按ABC分，它们可能属于B类或C类。但你既不敢砍掉（怕影响客户体验），又不敢压太多库存（卖不动）。结果就是：&lt;strong>库存越管越乱，资金全压在滞销品上。&lt;/strong>&lt;/p>
+&lt;p>更可怕的是，很多公司根本没做&lt;strong>动态ABC&lt;/strong>。你用去年的数据分好类，今年市场变了，A类变C类，C类变A类。你还在盯着去年的“明星”猛管，结果新爆款断货，老爆款变死货。&lt;/p>
+&lt;p>&lt;strong>真相：ABC分类法是一个静态的、事后诸葛亮的工具。它告诉你过去怎么样，但管不了明天。&lt;/strong>&lt;/p>
+&lt;p>解决方案很简单：&lt;strong>每个月重新算一次分类权重。&lt;/strong> 别用年数据，用近3个月的滚动数据。动态分类，才能抓住市场风向。&lt;/p>
+&lt;h3 id="3-管c类才是降本的核心">3. 管C类才是降本的核心&lt;/h3>
+&lt;p>你肯定觉得，C类商品价值低、动销慢，管它干嘛？放那吃灰呗。&lt;/p>
+&lt;p>错了。&lt;strong>C类商品才是库存成本的隐形杀手。&lt;/strong>&lt;/p>
+&lt;p>算笔账：一个C类单品，库存周转天数180天，库存金额5000元。你觉得小意思，才5000块。但你有1000个这样的C类单品呢？&lt;strong>就是500万的资金被锁死。&lt;/strong>&lt;/p>
+&lt;p>这些钱如果拿来周转，按年化10%的资本成本算，一年就浪费50万。更别提仓储费、报废损失、盘点人工成本。&lt;/p>
+&lt;p>&lt;strong>月薪5万的采购，怎么管C类？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>砍&lt;/strong>：动销率低于10%的单品，直接下架。别舍不得，客户不会因为少了3个冷门SKU就不下单。&lt;/li>
+&lt;li>&lt;strong>改&lt;/strong>：改成按订单生产（MTO）或供应商直发（VMI）。别囤货，让供应商帮你背库存。&lt;/li>
+&lt;li>&lt;strong>绑&lt;/strong>：把C类商品和A类捆绑销售，比如买耳机送线材，清掉库存。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最狠的采购总监，把公司80%的C类SKU砍掉后，库存周转率直接提升40%。老板问他客户投诉怎么办？他说：“让客户选替代品，选不了就认栽。总比公司亏死强。”&lt;/p>
+&lt;h3 id="最后说句扎心的">最后说句扎心的&lt;/h3>
+&lt;p>ABC分类法本身没错，错的是你把它当万能药。&lt;/p>
+&lt;p>真正的库存管理，不是按销售额分三六九等，而是&lt;strong>按利润、按动态、按成本结构&lt;/strong>去博弈。月薪5千的采购在死守规则，月薪5万的采购在打破规则。&lt;/p>
+&lt;p>&lt;strong>别让你的库存，成为老板心口的刺。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链协同3大坑，我踩了5年才爬出来</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>你有没有想过，&lt;strong>为什么你的供应链天天炸锅，别人的却像开了挂？&lt;/strong>&lt;/p>
+&lt;p>上周一个采购兄弟找我喝酒，红着眼说：“我们公司上个月压了800万库存，老板让我写检讨。可明明是销售乱承诺、生产瞎排期、物流总掉链子，凭什么让我背锅？”&lt;/p>
+&lt;p>我听完，把干了10年的血泪经验拍在桌上：&lt;strong>供应链协同不是喊口号，是玩命躲坑。&lt;/strong> 今天不扯理论，就聊我踩了5年才爬出来的3个天坑。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑一信息孤岛你以为的协同其实是各玩各的">坑一：信息孤岛——你以为的协同，其实是各玩各的&lt;/h3>
+&lt;p>&lt;strong>最扎心的场景：&lt;/strong>
+销售拍胸脯跟客户说“7天交货”，转头甩一张Excel给采购。
+采购一看傻眼：核心物料要30天采购周期。
+生产部呢？按自己的节奏排产，发现缺料了才骂采购“为啥不早说”。
+物流最后出场，发现货没齐，车白等一天。&lt;/p>
+&lt;p>&lt;strong>我踩过的坑：&lt;/strong>
+2019年，我们公司做双11大促。销售部提前2个月给预测，说A产品要10万件。
+采购拼命囤货，结果销售中途改方案，主推B产品。
+最后A库存积压300万，B产品断货赔了违约金。
+复盘时才发现：&lt;strong>销售的计划藏在微信群里，采购的订单锁在ERP里，生产的排期写在白板上。&lt;/strong> 每个部门都觉得自己在“干活”，但合起来就是一场灾难。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>统一数据平台&lt;/strong>：别再用Excel传来传去。上系统，哪怕先用钉钉+简道云搭个轻量级协同表，让所有数据实时更新。&lt;/li>
+&lt;li>&lt;strong>强制共享&lt;/strong>：我定了个规矩——任何部门调整计划，必须在共享文档里标注“影响范围”。不填？下次会上一顿怼。&lt;/li>
+&lt;li>&lt;strong>设“信息官”&lt;/strong>：每周一次跨部门碰头会，只干一件事：把所有人的数据对一遍，找出冲突点。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 信息不透明，协同就是放屁。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑二库存黑洞越管越多越多越慌">坑二：库存黑洞——越管越多，越多越慌&lt;/h3>
+&lt;p>&lt;strong>灵魂拷问：&lt;/strong>
+你公司的库存，是不是像前男友的心——猜不透、理不清、还总爆雷？
+你以为囤货是防断料，结果成了套牢。你以为JIT（零库存）是潮流，结果一波动就断供。&lt;/p>
+&lt;p>&lt;strong>我的血泪史：&lt;/strong>
+2021年，我们引入“智能补货系统”，以为能躺平。结果系统疯狂建议囤货，因为算法只考虑了历史销量，没算到：&lt;strong>供应商突然涨价、港口罢工、客户临时砍单。&lt;/strong> 三个月后，仓库堆满了“系统觉得该囤”的货，销售却说“行情变了，这些卖不动了”。&lt;/p>
+&lt;p>&lt;strong>后来怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ABC分类法&lt;/strong>：别搞一刀切。A类（高价值/长周期）按订单备，B类（中等）设安全库存，C类（低价值/易得）随用随买。&lt;/li>
+&lt;li>&lt;strong>动态缓冲&lt;/strong>：安全库存不是定死的。比如你给某物料设了10天安全量，但发现供应商经常晚3天？直接调到15天。别信什么“理论公式”，&lt;strong>活数据比死模型管用&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>定期“清淤”&lt;/strong>：每月一次库存盘点，把呆滞品挑出来。能退的退，能折价卖的卖，哪怕报废也别占地方。&lt;strong>库存是负债，不是资产。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>扎心真相：&lt;/strong> 你囤的不是货，是焦虑。协同的第一步，是让库存会“呼吸”。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑三流程断裂以为在接力实际在甩锅">坑三：流程断裂——以为在接力，实际在甩锅&lt;/h3>
+&lt;p>&lt;strong>常见画面：&lt;/strong>
+采购说“我下单了，供应商没发货”——怪供应商。
+生产说“我排产了，物料没到”——怪采购。
+物流说“我派车了，货没齐”——怪生产。
+销售说“我签单了，客户投诉”——怪所有人。&lt;/p>
+&lt;p>&lt;strong>我遇到过最离谱的事：&lt;/strong>
+一个紧急订单，销售提前3天通知了。采购当天就下单，但&lt;strong>供应商的确认函发到了采购的私人邮箱&lt;/strong>，采购没看。
+生产按原计划排产，直到开工才发现缺料。
+追责时，采购说“我发了”，供应商说“我回了”，但就是没人核验。&lt;strong>流程没有闭环，等于没流程。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么闭环？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每个环节设“确认键”&lt;/strong>：下单后，必须确认供应商收到；收货后，必须确认质检通过。没确认？系统自动报警。&lt;/li>
+&lt;li>&lt;strong>跨部门“握手”规则&lt;/strong>：比如生产部要提前2天告诉采购“这个单要加急”，采购必须在4小时内回复“能不能搞定”。超时不回？默认可以，出问题算采购的。&lt;/li>
+&lt;li>&lt;strong>用工具锁死流程&lt;/strong>：别信“人盯人”。上系统，设置强制步骤——不填完上一个字段，下一个就打不开。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：&lt;/strong> 没有闭环的协同，就是互相甩锅大赛。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说点真话">最后说点真话&lt;/h3>
+&lt;p>供应链协同，不是买套软件、开几次会就能搞定。&lt;strong>本质是砍掉部门墙，让数据流动起来，让责任分得清。&lt;/strong>&lt;/p>
+&lt;p>我见过最牛的公司，靠的是&lt;strong>三个字：认、干、扛&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>认&lt;/strong>：承认信息不透明，承认库存会压死人，承认流程有漏洞。&lt;/li>
+&lt;li>&lt;strong>干&lt;/strong>：用最笨的方法——每天对一遍数据，每周清一次库存，每月改一次流程。&lt;/li>
+&lt;li>&lt;strong>扛&lt;/strong>：出问题时，别先分锅，先解决问题。协同是“我们”，不是“你们”。&lt;/li>
+&lt;/ul>
+&lt;p>如果你现在还在一个人扛，或者刚入行被坑得怀疑人生，&lt;strong>别慌，这些都正常&lt;/strong>。我从月薪5000干到年薪50万，靠的就是把每个坑都踩实了，再爬出来。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」&lt;/strong>，后台回复“协同”，我把我用过的库存模板、流程检查清单发你。别再让你的供应链，成为背锅之旅。&lt;/p></description></item><item><title>供应链数字化？别等库存爆仓才后悔</title><link>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/</guid><description>&lt;p>兄弟，你听我说。&lt;/p>
+&lt;p>你是不是也这样？每天被老板追着问“库存周转率怎么又降了”，供应商那边电话打爆了催款，仓库里堆的货够卖到明年双十一，可销售还在喊“这个单品断货了，赶紧补！”&lt;/p>
+&lt;p>&lt;strong>别问我是怎么知道的，干过供应链的都懂。&lt;/strong>&lt;/p>
+&lt;p>数字化转型？听起来高大上，像是我花三百万上个SAP就能解决的事儿。但现实是——**你花了一大笔钱，上了个系统，结果数据还是靠人手工录，报表还是excel拉，老板看着大屏上花花绿绿的图表，问你“这个月的采购计划呢？”你只能尴尬地说：“系统还没跑顺……”&lt;/p>
+&lt;p>&lt;strong>醒醒吧，这不是转型，这是烧钱。&lt;/strong>&lt;/p>
+&lt;p>今天我不跟你扯那些云里雾里的概念，什么中台、什么数据湖、什么区块链溯源。咱就聊点&lt;strong>实在的、能落地、明天就能用的&lt;/strong>。就像群里老哥吐槽的那样：“数字化不是请客吃饭，是打仗。”&lt;/p>
+&lt;hr>
+&lt;h3 id="01-别急着上系统先把你那堆野路子数据理清楚">01 别急着上系统，先把你那堆“野路子”数据理清楚&lt;/h3>
+&lt;p>我见过太多老板，一上来就说：“小王，你给我上个ERP，我要数字化！”&lt;/p>
+&lt;p>结果呢？ERP上线第一天，财务说“采购订单和发票对不上”，仓库说“入库单上的货号都是手写的”，生产说“BOM（物料清单）里的料号跟仓库的库存编码根本不是一套”。&lt;/p>
+&lt;p>&lt;strong>乱成一锅粥。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>为什么？因为你的基础数据就是脏的、乱的、矛盾的。&lt;/strong>&lt;/p>
+&lt;p>你想想，你家仓库里的物料、供应商、客户，是不是有好几套编码？业务部门叫“白色A款”，仓库叫“W-001”，采购系统里又是“PA-白色-2023”。三个系统，三个名字，你让数据怎么通？通什么通？&lt;/p>
+&lt;p>&lt;strong>数字化最核心的，不是系统有多牛，而是数据有多干净。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>统一编码：&lt;/strong> 做一套“身份证”。所有物料、供应商、客户，在内部只有一个唯一编码。别管业务部门怎么叫，系统里只认这个码。从明天开始，新采购的物料，必须先申请编码，再下单。&lt;/li>
+&lt;li>&lt;strong>拉通口径：&lt;/strong> 什么是“库存”？是仓库里能卖的吗？还是在途的？在制的？要跟财务、销售、生产吵架，吵清楚。口径不一致，所有报表都是扯淡。&lt;/li>
+&lt;li>&lt;strong>清洗历史数据：&lt;/strong> 花一周时间，把过去三年的采购订单、入库单、发票，找人核对一遍。虽然痛苦，但这叫&lt;strong>还债&lt;/strong>。不还这个债，你上任何系统都是白搭。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住，数据是数字化的地基。地基是豆腐渣，楼盖得越高，死得越快。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="02-别盯着大屏看先把预测这头怪兽打趴下">02 别盯着大屏看，先把“预测”这头怪兽打趴下&lt;/h3>
+&lt;p>很多老板喜欢在办公室挂个大屏，上面跑着各种实时数据，看起来很唬人。但如果你问他：“下周这个SKU（单品）大概卖多少？”他大概率会说：“你问我，我问谁？”&lt;/p>
+&lt;p>&lt;strong>数字化最大的谎言，就是“有了数据就能预测未来”。&lt;/strong>&lt;/p>
+&lt;p>别傻了。市场是动荡的，客户需求是变化的，供应商交期是随机的。你指望全知全能的AI告诉你明天该进多少货？&lt;strong>它连你今天仓库里真实的数据都拿不到。&lt;/strong>&lt;/p>
+&lt;p>那怎么办？&lt;strong>放弃幻想，拥抱“滚动计划”。&lt;/strong>&lt;/p>
+&lt;p>别再做什么年度、季度采购计划了，那是计划经济。现在的打法叫**“小步快跑，高频迭代”**。&lt;/p>
+&lt;p>&lt;strong>具体怎么玩？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>建立“销售-库存-采购”的铁三角周会。&lt;/strong> 每周一次，雷打不动。销售说下周预计要卖多少，库存说现在能发多少，采购说供应商最快能什么时候到。&lt;/li>
+&lt;li>&lt;strong>用“安全库存”替代“预测”。&lt;/strong> 别试图预测明天卖多少，你只需要回答一个问题：“如果这个品突然卖爆了，我最多能承受多久断货？那就按这个时间备货。” 这叫 &lt;strong>“以不变应万变”&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>把“库存周转率”作为核心KPI。&lt;/strong> 别只看销售额。你卖一个亿，但仓库里压了八千万的货，这叫虚假繁荣。&lt;strong>库存就是现金，压着不动就是死钱。&lt;/strong> 每周看报表，盯着“周转天数”，超过60天的库存，立刻启动促销或退货。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住，数字化不是让你变成算命先生，而是让你在不确定的世界里，做一个反应最快的扑街。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="03-别自己闷头干把供应商拉上你的贼船">03 别自己闷头干，把供应商拉上你的“贼船”&lt;/h3>
+&lt;p>很多公司做数字化，只盯着自己的一亩三分地。ERP、WMS（仓库管理系统）、MES（生产执行系统），自己玩得飞起。但一抬头，发现供应商还在用微信传订单，用excel对账。&lt;/p>
+&lt;p>&lt;strong>这不叫数字化，这叫“信息孤岛”。&lt;/strong>&lt;/p>
+&lt;p>你这边系统里已经生成了采购订单，那边供应商的仓库根本不知道要备料。等你催货的时候，他才告诉你：“不好意思，原材料还在路上。” &lt;strong>你崩不崩溃？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真正的供应链数字化，是端到端的。&lt;/strong>&lt;/p>
+&lt;p>你得把&lt;strong>核心供应商&lt;/strong>拉进来。&lt;/p>
+&lt;p>&lt;strong>怎么做？不一定要花大钱上SRM（供应商关系管理系统）。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>最低成本方案：&lt;/strong> 给核心供应商开一个账号，让他能登录你的系统（哪怕只是个简陋的订单看板）。他能实时看到你的预测订单、交期要求、库存消耗情况。这样，他就能提前备料、安排产能。&lt;/li>
+&lt;li>&lt;strong>进阶方案：&lt;/strong> 用企业微信/钉钉建一个“供应商协同群”。不是用来发红包的，是&lt;strong>系统集成&lt;/strong>。比如，你的ERP系统可以自动把“到货计划”推送到群里，供应商确认后，系统自动更新交期。&lt;strong>减少人工沟通，就是减少错误和扯皮。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>终极方案（看情况）：&lt;/strong> 跟核心供应商做数据直连。比如，你的库存系统跟他的生产系统打通。他卖给你的原材料，你看得到他的库存水位。这叫&lt;strong>全链路透明&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>为什么要这么干？&lt;/strong>&lt;/p>
+&lt;p>因为&lt;strong>供应链的竞争，本质是“供应链网络”的竞争。&lt;/strong> 你一个人跑得快没用，你得带上你的队友一起跑。当你的供应商能跟你同步响应市场变化时，你才真正有了护城河。&lt;/p>
+&lt;p>&lt;strong>别再把供应商当工具人了，他是你的战友。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>说了这么多，其实就是一句话：&lt;strong>别被“数字化转型”四个字吓住，也别被忽悠着花冤枉钱。&lt;/strong>&lt;/p>
+&lt;p>它不是什么玄学，就是&lt;strong>三件事：数据干净、计划滚动、协同拉通。&lt;/strong>&lt;/p>
+&lt;p>你问月薪5千的采购和月薪5万的采购差在哪？&lt;/p>
+&lt;p>&lt;strong>月薪5千的采购，在等系统告诉他买什么；月薪5万的采购，在用系统里的数据，跟销售、供应商吵架，把库存和成本压到最低。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>别光想，先干起来。哪怕明天先把仓库里的物料编码统一了，也是巨大的进步。&lt;/strong>&lt;/p>
+&lt;p>如果你的供应链还是一团乱麻，不知道从哪下手，或者想看看别人是怎么踩坑的——&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>，群里大把老炮等着跟你唠。&lt;/p></description></item><item><title>库存压了500万才懂的数学公式</title><link>https://supplychain-tips.pages.dev/posts/eoq-secrets/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-secrets/</guid><description>&lt;p>&lt;strong>你算过吗？每次订货都是赌命。&lt;/strong>&lt;/p>
+&lt;p>上周有个做快消品的兄弟找我喝酒，一上来就叹气：“哥，我仓库里堆了500万的货，可上个月又断货三次，老板差点把我开了。”&lt;/p>
+&lt;p>他干了8年采购，月薪还是8千。另一家公司同级别的女孩，月薪5万，仓库周转率是他的3倍。&lt;/p>
+&lt;p>&lt;strong>差别在哪？&lt;/strong>&lt;/p>
+&lt;p>那女孩不会拍脑袋订货。她懂一个叫“经济订货量（EOQ）”的数学公式。&lt;/p>
+&lt;p>我知道你一听“数学公式”就头大。别急，今天不讲课，就当群里唠嗑。我保证，看完这个公式，你就能把压在仓库里的500万救出来。&lt;/p>
+&lt;h3 id="订货多了压钱订少了断货咋整">订货多了压钱，订少了断货，咋整？&lt;/h3>
+&lt;p>你是不是也这样？老板一催货，你就拍脑袋：“这次订500箱吧，反正不怕多。”结果第二天库存报警，资金被锁死。或者旺季来了，你咬牙只订200箱，结果爆单断货，客户骂娘。&lt;/p>
+&lt;p>&lt;strong>这背后就一个问题：你根本不知道“订多少”最划算。&lt;/strong>&lt;/p>
+&lt;p>你以为订货是拍脑袋的事？错了。这是数学题。&lt;/p>
+&lt;p>&lt;strong>经济订货量（EOQ）&lt;/strong> 就是帮你算：&lt;strong>每次订多少，能让总成本最低&lt;/strong>。&lt;/p>
+&lt;p>总成本包括两坨：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>订货成本&lt;/strong>：下订单、运输、验货的钱。订得越频繁，这钱花得越多。&lt;/li>
+&lt;li>&lt;strong>持有成本&lt;/strong>：仓储、资金占用、损耗的钱。库存越多，这钱烧得越狠。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>EOQ就是那个平衡点：&lt;/strong> 订货成本=持有成本时，总成本最低。&lt;/p>
+&lt;p>&lt;strong>举个栗子：&lt;/strong> 你一年卖1万件T恤。如果每次订100件，要下100次单，运费每单200元，订货成本=200×100=2万。但库存少，持有成本低。如果每次订1000件，只下10次单，订货成本=200×10=2千。但库存多，持有成本飙升，比如仓储费、资金利息，算下来可能每年1万8。&lt;/p>
+&lt;p>&lt;strong>你看，不是订得越少越好，也不是越多越好。&lt;/strong> EOQ帮你找到那个“刚好”的数字。&lt;/p>
+&lt;h3 id="公式长啥样别怕小学数学就能搞定">公式长啥样？别怕，小学数学就能搞定&lt;/h3>
+&lt;p>&lt;strong>EOQ公式：&lt;/strong>
+&lt;strong>Q = √(2DS / H)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Q&lt;/strong> = 每次最佳订货量&lt;/li>
+&lt;li>&lt;strong>D&lt;/strong> = 年需求量（一年卖多少）&lt;/li>
+&lt;li>&lt;strong>S&lt;/strong> = 单次订货成本（下1单花多少钱）&lt;/li>
+&lt;li>&lt;strong>H&lt;/strong> = 单位年持有成本（1件货放一年花多少钱）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别被根号吓到。&lt;/strong> 你手机计算器就能按。&lt;/p>
+&lt;p>&lt;strong>实战案例：&lt;/strong> 你卖充电宝，年需求D=10,000个，每次下单成本S=500元（运费+人工），每个充电宝年持有成本H=10元（仓储+资金利息）。&lt;/p>
+&lt;p>&lt;strong>Q = √(2×10,000×500 / 10) = √(1,000,000) = 1,000个&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>结论：&lt;/strong> 每次订1,000个，总成本最低。&lt;/p>
+&lt;p>&lt;strong>你想想，你平时订多少？&lt;/strong> 是不是要么订500个（怕断货所以狂下单），要么订3,000个（图省事一次囤够）。前者订货成本翻倍，后者持有成本爆炸。&lt;/p>
+&lt;p>&lt;strong>算完这个，你就能少踩两个大坑：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>坑1：&lt;/strong> 以为“多订点能摊薄运费”。错了，运费摊薄了，但仓储费、资金利息这些隐性成本会吃掉利润。&lt;/li>
+&lt;li>&lt;strong>坑2：&lt;/strong> 以为“小批量勤订货能灵活”。错了，订单频率太高，运费和管理成本直接起飞。&lt;/li>
+&lt;/ul>
+&lt;h3 id="别死背公式这3个点才决定成败">别死背公式！这3个点才决定成败&lt;/h3>
+&lt;p>公式谁都能套，但真正拉开差距的是这3个变量：&lt;/p>
+&lt;p>&lt;strong>1. 年需求量D：别拍脑袋，用历史数据+趋势预测&lt;/strong>&lt;/p>
+&lt;p>你上年卖了1万件，但今年新品上市，可能直接翻倍。&lt;strong>D不准，公式白算。&lt;/strong> 建议用过去6个月平均销量，再乘以1.2（保守增长系数）。&lt;/p>
+&lt;p>&lt;strong>2. 订货成本S：别只算运费，把隐藏成本挖出来&lt;/strong>&lt;/p></description></item></channel></rss>

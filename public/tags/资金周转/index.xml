@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资金周转 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%B5%84%E9%87%91%E5%91%A8%E8%BD%AC/</link><description>Recent content in 资金周转 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%B5%84%E9%87%91%E5%91%A8%E8%BD%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>干供应链3年，被这5个金融坑干趴了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</guid><description>&lt;hr>
+&lt;p>兄弟，你最近是不是也这样？&lt;/p>
+&lt;p>客户那边账期拖到60天，供应商却天天催你“现结”。你夹在中间，白天死磕供应商，晚上死磕老板，结果老板一句“想办法周转一下”，你瞬间破防。&lt;/p>
+&lt;p>&lt;strong>你不是缺订单，你是缺钱。&lt;/strong>&lt;/p>
+&lt;p>钱在哪？在货里，在客户的合同里，在仓库落灰的库存里。&lt;/p>
+&lt;p>于是你开始盯上“供应链金融”。这东西听起来高大上，不就是拿账本换钱嘛。但我要告诉你，&lt;strong>供应链金融的水，比你老板画的大饼还深。&lt;/strong>&lt;/p>
+&lt;p>我干供应链三年，前两年被坑得裤衩都快没了。今天分享5个我自己踩过、身边朋友也踩过的坑。不整虚的，全是真金白银换来的教训。&lt;/p>
+&lt;h3 id="1-应收账款融资小心变成无限循环贷">1. 应收账款融资？小心变成“无限循环贷”&lt;/h3>
+&lt;p>先问个扎心的：你拿应收账款去融资，银行或保理公司批了80%额度。你觉得爽了，钱到手了。&lt;/p>
+&lt;p>&lt;strong>但你知道这钱怎么还吗？&lt;/strong>&lt;/p>
+&lt;p>答案很残酷：&lt;strong>等你客户回款。&lt;/strong>&lt;/p>
+&lt;p>你客户回款靠什么？靠你继续给他供货。一旦你资金链断了，供货慢了，客户回款就卡了。你这边融资到期，那边客户钱没到——你只能再去借一笔新的，填旧账。&lt;/p>
+&lt;p>&lt;strong>这就是死循环。&lt;/strong>&lt;/p>
+&lt;p>我见过最惨的，一家公司用应收账款融了500万，最后因为一笔坏账，导致所有融资全部违约，老板直接跑路。&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别把应收账款当“无息贷款”。&lt;/strong> 它本质是“以信用换时间”，但时间不可控。&lt;/li>
+&lt;li>&lt;strong>给客户的分级账龄做评估。&lt;/strong> 账龄超过90天的，别拿去融资，那是定时炸弹。&lt;/li>
+&lt;li>&lt;strong>留够3个月的现金缓冲。&lt;/strong> 哪怕客户拖款，你也不至于崩盘。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-库存质押银行只认能秒变现的货">2. 库存质押？银行只认“能秒变现”的货&lt;/h3>
+&lt;p>库存也能换钱？听起来很美。但你去银行办库存质押，银行会告诉你：&lt;strong>我们只认这三种货。&lt;/strong>&lt;/p>
+&lt;p>一是&lt;strong>大宗商品&lt;/strong>（钢材、铜、铝），价格透明且有人接盘。
+二是&lt;strong>标品&lt;/strong>（苹果手机、茅台酒），流通快、价格稳。
+三是&lt;strong>原材料&lt;/strong>（塑料粒子、包装纸），行业标准统一。&lt;/p>
+&lt;p>&lt;strong>你的货呢？&lt;/strong>&lt;/p>
+&lt;p>定制配件、季节性商品、快消品里的临期品——银行看都不看一眼。为什么？因为一旦你违约，银行要自己卖货。你的定制配件别人用不上，临期品卖不掉，银行砸手里了。&lt;/p>
+&lt;p>&lt;strong>真实案例：&lt;/strong> 有个做服装的兄弟，拿一仓库“冬季羽绒服”去质押，11月去办的。银行说行，但你得签协议：&lt;strong>如果明年3月前没还清，货归银行。&lt;/strong> 结果他资金链断了，银行把羽绒服打折卖给批发市场，他亏了200万。&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>只拿“硬通货”质押。&lt;/strong> 比如你仓库里囤的铜、铝、纸箱、包装膜。&lt;/li>
+&lt;li>&lt;strong>别碰长账龄库存。&lt;/strong> 超过6个月的货，银行根本不认。&lt;/li>
+&lt;li>&lt;strong>了解银行“处置条款”。&lt;/strong> 问清楚：违约后，银行怎么卖你的货？折价多少？你能回购吗？&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-订单融资是救命稻草还是压死骆驼的稻草">3. 订单融资？是救命稻草，还是压死骆驼的稻草？&lt;/h3>
+&lt;p>你接到一个大订单，客户是知名品牌，合同签得美滋滋。但你没钱备料、没钱生产。这时候有人告诉你：&lt;strong>拿订单去融资啊！&lt;/strong>&lt;/p>
+&lt;p>别急着高兴。订单融资的“连环套”是这样的：&lt;/p>
+&lt;p>银行把钱打给你，要求你专款专用——只能买原材料。你买了料，招了人，开始生产。然后客户突然说：&lt;strong>这批货不急，下个月再发货。&lt;/strong>&lt;/p>
+&lt;p>你的货在仓库里，客户的款没到。银行那边却开始催你还钱。你怎么办？&lt;/p>
+&lt;p>&lt;strong>更狠的玩法是：&lt;/strong> 有的金融机构会要求你&lt;strong>把客户的回款账户托管给它们&lt;/strong>。也就是说，客户把钱打给你，直接先扣掉本金利息，剩下的才给你。你连跟客户催款的资格都没有。&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>订单融资只适合“交付周期短”的单子。&lt;/strong> 如果从接单到回款超过3个月，别碰。&lt;/li>
+&lt;li>&lt;strong>看清“回款托管”条款。&lt;/strong> 如果银行要求你把客户账户托管，你等于把命交出去了。&lt;/li>
+&lt;li>&lt;strong>跟客户签“交货确认函”。&lt;/strong> 明确发货时间、验收标准、付款节点。否则银行随时可以认定你“违约”。&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-保理融资小心被反向保理收割">4. 保理融资？小心被“反向保理”收割&lt;/h3>
+&lt;p>保理听起来专业：你把应收账款卖给保理公司，他们给你钱。但市面上有&lt;strong>两种保理&lt;/strong>，差别比你老板的颜值还大。&lt;/p>
+&lt;p>&lt;strong>正向保理：&lt;/strong> 你拿着客户的应收账款去找保理公司。保理公司会查你客户的信用。如果客户信用好，直接打钱。如果客户信用差，你等着被拒。&lt;/p>
+&lt;p>&lt;strong>反向保理：&lt;/strong> 保理公司先跟你的“大客户”合作，把大客户的应付账款打包成资产包，然后让你去申请融资。听着很牛逼，对吧？&lt;/p>
+&lt;p>&lt;strong>真相是：&lt;/strong> 反向保理的本质是&lt;strong>大客户在薅你的羊毛&lt;/strong>。大客户通过反向保理，把账期从60天拉到120天，供应商却需要承担更长的资金占用成本。而且，反向保理通常要求你&lt;strong>放弃对客户的追索权&lt;/strong>——客户赖账，你只能自己扛。&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>优先做“无追索权保理”。&lt;/strong> 这意味着保理公司要自己扛客户违约风险。&lt;/li>
+&lt;li>&lt;strong>别碰“反向保理”的长期协议。&lt;/strong> 如果客户要求你签超过90天的反向保理，直接拒绝。&lt;/li>
+&lt;li>&lt;strong>查一下保理公司的“真实案例”。&lt;/strong> 问问同行：这个保理公司有没有因为客户赖账而拒赔的？&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-千万别信零利息的融资">5. 千万别信“零利息”的融资&lt;/h3>
+&lt;p>朋友圈里经常刷到：“供应链融资，零利息，秒到账！”你心动了吗？&lt;/p></description></item></channel></rss>

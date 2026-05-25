@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑指南 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><description>Recent content in 采购避坑指南 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml"/><item><title>合同签不对，采购干到废</title><link>https://supplychain-tips.pages.dev/posts/contract-management-tips/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-tips/</guid><description>&lt;p>你有没有过这种“签完合同想抽自己”的时刻？&lt;/p>
+&lt;p>供应商交货晚了3天，你急得跳脚，结果翻出合同一看——&lt;strong>根本没写违约金条款&lt;/strong>。对方摊手：“按合同办事，我没违规啊。”&lt;/p>
+&lt;p>你气得想骂街，但只能憋回去。老板问起来，你只能弱弱说一句：“合同……不是我拟的。”&lt;/p>
+&lt;p>别笑。干采购的，谁没为合同吃过亏？&lt;/p>
+&lt;p>&lt;strong>合同，不是法务的事，是你的事。&lt;/strong> 法务只负责合法合规，但里面的坑、条款、细节，只有你懂业务。合同签不对，后面全是坑。&lt;/p>
+&lt;p>我总结了5个采购合同里&lt;strong>最容易踩的坑&lt;/strong>。全是真金白银换来的教训，建议你直接收藏。&lt;/p>
+&lt;h3 id="1-不写交付标准--给自己埋雷">1. 不写“交付标准” = 给自己埋雷&lt;/h3>
+&lt;p>很多人签合同，只写“交付时间”和“数量”。但&lt;strong>交付标准&lt;/strong>呢？&lt;/p>
+&lt;p>比如你采购一批螺丝，合同写“符合国家标准”。结果送来一批歪瓜裂枣，你说不合格，供应商说“你看，它确实是螺丝啊”。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong> 必须在合同里写清楚：&lt;/p>
+&lt;ul>
+&lt;li>外观要求（无毛刺、表面处理）&lt;/li>
+&lt;li>性能参数（扭矩、硬度）&lt;/li>
+&lt;li>验收方式（抽检比例、判定标准）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>建议：&lt;/strong> 直接附录一份《验收标准》，签字盖章。别怕麻烦，省掉验收环节后，扯皮成本是你想象不到的。&lt;/p>
+&lt;h3 id="2-违约金条款别只写按合同约定">2. 违约金条款，别只写“按合同约定”&lt;/h3>
+&lt;p>这我见的太多了。违约金条款写“按合同法规定”，或者更离谱的“双方协商解决”。&lt;/p>
+&lt;p>你品，你细品。&lt;strong>“协商解决”= 没解决。&lt;/strong>&lt;/p>
+&lt;p>一旦出问题，你找供应商协商，人家说“生意难做，通融一下”，你怎么办？&lt;/p>
+&lt;p>&lt;strong>正确的做法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>明确&lt;strong>计算方式&lt;/strong>：比如“每逾期一天，按合同总金额的0.1%支付违约金”&lt;/li>
+&lt;li>设置&lt;strong>上限&lt;/strong>：比如“违约金总额不超过合同总额的30%”&lt;/li>
+&lt;li>写清楚&lt;strong>触发条件&lt;/strong>：比如“逾期超过15天，甲方有权单方面解除合同”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 合同不是请客吃饭，是防身的刀。你不亮出来，人家就当你是软柿子。&lt;/p>
+&lt;h3 id="3-付款条款别搞先款后货">3. 付款条款，别搞“先款后货”&lt;/h3>
+&lt;p>有些采购新手，被供应商一句“我们大厂都是先付款再发货”就忽悠了。&lt;/p>
+&lt;p>醒醒！&lt;strong>你拿了钱，就是孙子。&lt;/strong> 供应商拖货、质量瑕疵，你一点办法没有，只能催。&lt;/p>
+&lt;p>&lt;strong>最稳妥的结构：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>预付款&lt;/strong>（10%-30%）：用于采购原材料，但必须有账期&lt;/li>
+&lt;li>&lt;strong>到货款&lt;/strong>（40%-50%）：货到验收合格后付&lt;/li>
+&lt;li>&lt;strong>质保金&lt;/strong>（10%-20%）：质保期结束后付&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>进阶玩法：&lt;/strong> 设置“阶梯付款”。比如第一批货合格付30%，第二批合格付50%，最后一批合格付尾款。倒逼供应商重视质量。&lt;/p>
+&lt;h3 id="4-争议解决别写仲裁或诉讼">4. 争议解决，别写“仲裁或诉讼”&lt;/h3>
+&lt;p>很多合同模板里写“双方协商不成，可向法院提起诉讼或仲裁委员会仲裁”。&lt;/p>
+&lt;p>&lt;strong>这是最废的条款。&lt;/strong> 等于没说。&lt;/p>
+&lt;p>&lt;strong>你要做的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>明确管辖地&lt;/strong>：写“甲方所在地人民法院”。这样万一打官司，你不用跑供应商老家去。&lt;/li>
+&lt;li>&lt;strong>选择仲裁还是诉讼&lt;/strong>：金额大、情况复杂的选仲裁（一裁终局，快）；金额小的选诉讼（成本低）。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别小看这条。&lt;/strong> 我一个朋友，合同没写管辖地，被供应商告到新疆（对方注册地），光飞过去开庭的机票就花了小一万。最后赔了3万，机票钱还不算诉讼费。&lt;/p>
+&lt;h3 id="5-知识产权与保密条款99的人忽略">5. 知识产权与保密条款，99%的人忽略&lt;/h3>
+&lt;p>你采购了个定制设备，供应商把图纸拿去卖了，或者用了你的技术方案去服务你的竞争对手。&lt;/p>
+&lt;p>&lt;strong>合同里没约定，你只能干瞪眼。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>必须加的条款：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>知识产权归属&lt;/strong>：明确“定制产品的图纸、技术文档、设计方案等知识产权归甲方所有”&lt;/li>
+&lt;li>&lt;strong>保密义务&lt;/strong>：约定保密范围、期限、违约责任&lt;/li>
+&lt;li>&lt;strong>竞业限制&lt;/strong>（可选）：比如“供应商不得在合同期内，为甲方的直接竞争对手提供类似服务”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别觉得这是大公司才操心的事。&lt;/strong> 小公司技术被抄，死得更快。&lt;/p>
+&lt;hr>
+&lt;p>以上5点，够你用3年。&lt;/p>
+&lt;p>但我知道，看完你可能会说：“道理我都懂，但实际合同都是法务/老板定的，我没法改啊。”&lt;/p>
+&lt;p>&lt;strong>那就把文章甩给他们看。&lt;/strong>&lt;/p>
+&lt;p>合同管理不是一个人的事，是团队的事。你作为采购，&lt;strong>最懂业务，最有话语权&lt;/strong>。你不主动提，别人永远不知道你的痛点。&lt;/p>
+&lt;p>&lt;strong>最后，送你一句真话：&lt;/strong>
+好的采购，不止会砍价，更会管合同。合同管好了，公司少亏钱，你少背锅。&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

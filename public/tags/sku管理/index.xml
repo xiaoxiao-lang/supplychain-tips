@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/</link><description>Recent content in SKU管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才懂：SKU管理就4个字</title><link>https://supplychain-tips.pages.dev/posts/sku-management-tips/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-tips/</guid><description>&lt;p>兄弟们，聊个扎心话题。&lt;/p>
+&lt;p>你有没有过这种经历？打开后台，SKU列表拉不到底，几百上千个品，看着密密麻麻，心里还挺踏实——产品多，机会多嘛。&lt;/p>
+&lt;p>但一到月底算账，傻眼了。&lt;/p>
+&lt;p>库存积压了500万，现金流比纸还薄，库房里一堆货，卖得动的没几个，卖不动的堆到落灰。老板问你：这些破烂什么时候清掉？你只能苦笑：打折都没人要。&lt;/p>
+&lt;p>别笑，这场景，我见过太多。&lt;/p>
+&lt;p>很多人觉得SKU管理就是给产品编个号，方便入库出库。大错特错。&lt;/p>
+&lt;p>SKU管理说白了，就4个字：&lt;strong>敢砍敢留&lt;/strong>。&lt;/p>
+&lt;p>砍得越狠，活得越久。&lt;/p>
+&lt;p>今天不跟你扯大道理，直接上干货。我踩过的坑，你最好别踩。&lt;/p>
+&lt;h3 id="1-别拿sku当护身符那是催命符">1. 别拿SKU当护身符，那是催命符&lt;/h3>
+&lt;p>很多老板有个毛病：觉得SKU多=产品线丰富=竞争力强。&lt;/p>
+&lt;p>这是最毒的鸡汤。&lt;/p>
+&lt;p>&lt;strong>真实情况是：80%的利润，来自20%的SKU。剩下的80%，全是库存炸弹。&lt;/strong>&lt;/p>
+&lt;p>我之前带过一个客户，做家居日用品的。后台SKU 800多个，光杯子就有50种颜色。老板天天吹“全品类覆盖”，结果呢？&lt;/p>
+&lt;p>爆款就3个，贡献了70%的销量。剩下的杯子，有的半年卖不出1个，库房里堆成山。&lt;/p>
+&lt;p>我问老板：为什么留这么多？他理直气壮：万一有人要呢？&lt;/p>
+&lt;p>&lt;strong>“万一”是库存杀手。&lt;/strong>&lt;/p>
+&lt;p>你每多一个SKU，就要多一份采购、仓储、管理、维护的成本。更别说那些卖不动的，每天白白吃掉你的仓储费、资金利息。&lt;/p>
+&lt;p>&lt;strong>正确做法：把SKU当宝贝，别当垃圾。&lt;/strong> 不是所有东西都配拥有一个SKU。&lt;/p>
+&lt;p>&lt;strong>怎么判断该不该留？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续3个月销量为0？砍。&lt;/li>
+&lt;li>毛利率低于20%？砍。&lt;/li>
+&lt;li>动销率低于10%？砍。&lt;/li>
+&lt;/ul>
+&lt;p>别心疼。砍掉90%的垃圾SKU，你的清闲程度和利润，反而会翻倍。&lt;/p>
+&lt;h3 id="2-爆款sku别瞎扩一招鲜吃遍天">2. 爆款SKU别瞎扩，一招鲜吃遍天&lt;/h3>
+&lt;p>有人说了：那我砍掉垃圾，专注爆款总行了吧？&lt;/p>
+&lt;p>错。&lt;/p>
+&lt;p>另一个坑是：爆款SKU，盲目扩张。&lt;/p>
+&lt;p>你以为爆款量大，多做几个变体（颜色、尺寸、包装）能赚更多？&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>我见过一个做蓝牙耳机的商家。一款爆了，月销10万单。然后他脑子一热，搞了12个颜色、6种包装、3个版本。SKU从1个变成216个。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>采购端：每种颜色备货，库存压力爆炸。&lt;/li>
+&lt;li>生产端：换线频率高，成本飙升。&lt;/li>
+&lt;li>销售端：消费者选择困难症，转化率反而掉了。&lt;/li>
+&lt;/ul>
+&lt;p>最后爆款没撑住，库存全砸手里。&lt;/p>
+&lt;p>&lt;strong>记住：爆款的核心是极致单品，不是花里胡哨。&lt;/strong>&lt;/p>
+&lt;p>一个爆款SKU，最多留2-3个变体（比如经典款、升级款、性价比款）。别拿消费者当傻子，他们买爆款，图的就是简单、直接、不纠结。&lt;/p>
+&lt;p>&lt;strong>怎么优化爆款SKU？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每次只推1个主推变体，其他做备选。&lt;/li>
+&lt;li>测试数据说话：哪个变体销量高、退货率低，就留哪个。&lt;/li>
+&lt;li>别搞什么“私人定制”，那是大厂玩的，你玩不起。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-新品sku别狂上先测再铺">3. 新品SKU别狂上，先测再铺&lt;/h3>
+&lt;p>很多供应链人有个通病：新品一开发，立刻铺全渠道。SKU一上就几百个，仓库塞满，心里才踏实。&lt;/p>
+&lt;p>&lt;strong>结果呢？&lt;/strong> 一上线就扑街，库存变死货。&lt;/p>
+&lt;p>&lt;strong>聪明人怎么做？先测再铺。&lt;/strong>&lt;/p>
+&lt;p>具体操作：&lt;/p>
+&lt;ul>
+&lt;li>用&lt;strong>最小可行性产品（MVP）&lt;/strong> 验证。&lt;/li>
+&lt;li>先上1-2个SKU，用小流量测试转化率、退货率、用户反馈。&lt;/li>
+&lt;li>数据好，再慢慢扩；数据差，立刻停，成本可控。&lt;/li>
+&lt;/ul>
+&lt;p>我之前跟一个做美妆的朋友聊。她每次推新品，只做1000个SKU（其实就是1000个单品），发到社群和私域里试水。卖得好，才敢大货备货。卖不动？那1000个就当送福利了，不心疼。&lt;/p>
+&lt;p>&lt;strong>反观那些一上来就备10万件的，不是傻就是家里有矿。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住：新品SKU，是试错成本，不是利润来源。&lt;/strong>&lt;/p>
+&lt;h3 id="4-动态管理别让sku变成僵尸">4. 动态管理，别让SKU变成僵尸&lt;/h3>
+&lt;p>SKU管理不是一锤子买卖。你砍完了，优化完了，就完事了？&lt;/p>
+&lt;p>&lt;strong>不可能。&lt;/strong> 市场在变，消费者在变，你的SKU也得跟着变。&lt;/p>
+&lt;p>很多公司的问题在于：&lt;strong>SKU是静态的。&lt;/strong> 上架了就不管了，直到过期、报废、退市。&lt;/p>
+&lt;p>这就叫“僵尸SKU”。活着的时候没贡献，死了还占着资源。&lt;/p>
+&lt;p>&lt;strong>动态管理怎么做？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>季度复盘：&lt;/strong> 每3个月拉一次SKU清单。砍掉连续3个月零销量的。&lt;/li>
+&lt;li>&lt;strong>月度监控：&lt;/strong> 监控每个SKU的动销率、库存周转天数、毛利率。低于预警线的，立刻处理。&lt;/li>
+&lt;li>&lt;strong>周度优化：&lt;/strong> 对于爆款SKU，每周看一次数据。库存够不够？要不要补货？有没有新竞品出现？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别嫌麻烦。&lt;/strong> 你不管SKU，SKU就管你。最后管到你现金流断裂，仓库爆炸。&lt;/p></description></item></channel></rss>

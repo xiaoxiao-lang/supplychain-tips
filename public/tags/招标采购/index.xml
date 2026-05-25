@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>招标采购 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/</link><description>Recent content in 招标采购 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/index.xml" rel="self" type="application/rss+xml"/><item><title>招标采购水多深？我踩了5个坑才懂</title><link>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</guid><description>&lt;p>你经历过那种绝望吗？&lt;/p>
+&lt;p>凌晨两点，你盯着电脑上密密麻麻的标书，眼睛快瞎了。报价、资质、技术方案……每一个字都认识，连起来就是天书。&lt;/p>
+&lt;p>第二天开标，领导坐你旁边，眼神像刀子。你手心冒汗，心里只有一个念头：千万别出幺蛾子。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>供应商临场加价、资质造假、技术条款写漏了……你当场社死，恨不得找个地缝钻进去。&lt;/p>
+&lt;p>这不是段子，这是我刚干采购时的日常。&lt;/p>
+&lt;p>干了8年，从被供应商怼到哭，到如今能跟老江湖对飙暗话，这5个坑我帮你踩过了。&lt;/p>
+&lt;h3 id="1-别信最高性价比那是最大的忽悠">1. 别信“最高性价比”，那是最大的忽悠&lt;/h3>
+&lt;p>“我们这方案，绝对是最高性价比！”&lt;/p>
+&lt;p>这话熟不熟？每个供应商都这么说。但真相是：&lt;strong>性价比是个伪命题。&lt;/strong>&lt;/p>
+&lt;p>你看中价格低，他就在服务上砍一刀。你要求技术高，他就在报价里藏雷。真正的高性价比，是&lt;strong>价格、技术、服务、风险&lt;/strong>四个维度的平衡。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 别只看总价，把每一项拆开。比如：&lt;/p>
+&lt;ul>
+&lt;li>价格：单项报价是否合理？有没有低价中标、后期加项的坑？&lt;/li>
+&lt;li>技术：参数是否达标？有没有“独家条款”？&lt;/li>
+&lt;li>服务：售后响应时间、质保年限，写进合同了吗？&lt;/li>
+&lt;li>风险：供应商的财务状况、过往履约记录，查过吗？&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>没有完美的方案，只有你能接受的代价。&lt;/strong> 做决策前，拿这四点过一遍筛子，能筛掉80%的坑。&lt;/p>
+&lt;h3 id="2-招标文件写不好后面全是火葬场">2. 招标文件写不好，后面全是火葬场&lt;/h3>
+&lt;p>很多新手觉得，招标文件就是模板填空。大错特错！&lt;/p>
+&lt;p>你文件里一个模糊的“等”，就能让供应商钻空子。你忘了写“必须本地有售后网点”，中标后他就能告诉你“我们外包”。&lt;/p>
+&lt;p>&lt;strong>我吃过最大的亏，是没写清楚验收标准。&lt;/strong>&lt;/p>
+&lt;p>那是一次设备采购，合同里写了“设备运行稳定”。结果人家拿来的东西，三天一小修、五天一大修。我找供应商理论，人家翻出合同说：“运行稳定啊，没爆炸不是？”&lt;/p>
+&lt;p>我当时……算了，不提了。&lt;/p>
+&lt;p>&lt;strong>避坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>写死参数&lt;/strong>：技术指标、性能数据，能写多具体写多具体。&lt;/li>
+&lt;li>&lt;strong>写清流程&lt;/strong>：投标截止时间、开标地点、答疑方式，别留模糊地带。&lt;/li>
+&lt;li>&lt;strong>写明罚则&lt;/strong>：延期交货怎么罚？质量不合格怎么退？白纸黑字写清楚。&lt;/li>
+&lt;/ul>
+&lt;p>一句话：&lt;strong>招标文件越细致，后面的坑越少。&lt;/strong>&lt;/p>
+&lt;h3 id="3-供应商考察别变成一日游">3. 供应商考察，别变成“一日游”&lt;/h3>
+&lt;p>“考察？走个过场呗，一起吃顿饭、拍个照就完了。”&lt;/p>
+&lt;p>你要是这么想，就等着被坑吧。我见过最狠的：供应商租了个豪华办公室，样品间摆满设备，实际上就是个空壳公司。中标后，货发不出来，项目直接烂尾。&lt;/p>
+&lt;p>&lt;strong>考察不是旅游，是打仗。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看生产线&lt;/strong>：设备是不是满负荷运行？工人操作熟练吗？这能看出真实产能。&lt;/li>
+&lt;li>&lt;strong>查仓库&lt;/strong>：库存是不是积压？物料堆放整齐吗？这能看出管理水平。&lt;/li>
+&lt;li>&lt;strong>聊员工&lt;/strong>：随便拉个技术员问问，“你们上次项目出过啥问题？” 真实答案往往跟官方吹的不一样。&lt;/li>
+&lt;li>&lt;strong>翻记录&lt;/strong>：要他们提供过去3年的合同和验收单，打电话给老客户核实。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心原则：&lt;/strong> 不要只看他们想给你看的，要看他们不想给你看的。&lt;/p>
+&lt;h3 id="4-评标环节最容易灯下黑">4. 评标环节，最容易“灯下黑”&lt;/h3>
+&lt;p>评标时，你是不是经常这样：价格最低？选他！技术分最高？选他！关系最铁？选他！&lt;/p>
+&lt;p>停！这3个标准，单拎出来都是坑。&lt;/p>
+&lt;p>&lt;strong>价格最低&lt;/strong> = 可能低价中标、后期加价、偷工减料。
+&lt;strong>技术最高&lt;/strong> = 可能过度设计、浪费预算、后续维护成本爆炸。
+&lt;strong>关系最铁&lt;/strong> = 可能牺牲质量、被领导甩锅、甚至吃牢饭。&lt;/p>
+&lt;p>&lt;strong>正确姿势：&lt;/strong> 建立一套&lt;strong>综合评分体系&lt;/strong>。&lt;/p>
+&lt;p>比如：&lt;/p>
+&lt;ul>
+&lt;li>价格权重：40%（别超过50%，否则容易坏事儿）&lt;/li>
+&lt;li>技术权重：30%（核心指标必须达标）&lt;/li>
+&lt;li>服务权重：20%（响应速度、售后能力）&lt;/li>
+&lt;li>风险权重：10%（财务状况、履约记录）&lt;/li>
+&lt;/ul>
+&lt;p>打分前，让所有评委背靠背打分，最后再合议。&lt;strong>别让一个人说了算，也别让关系户钻空子。&lt;/strong>&lt;/p>
+&lt;h3 id="5-中标后别放松合同才是真战场">5. 中标后别放松，合同才是真战场&lt;/h3>
+&lt;p>很多人觉得，中标了就万事大吉。天真！&lt;/p>
+&lt;p>合同里一个“原则上”，就能让你哭都哭不出来。比如：“原则上，供应商应在30天内交货。” 结果人家60天才到，你还没法罚他，因为“原则上”不是“必须”。&lt;/p></description></item><item><title>招标采购水太深？这3个坑我替你踩了</title><link>https://supplychain-tips.pages.dev/posts/bidding-pitfalls/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-pitfalls/</guid><description>&lt;p>兄弟，你最近是不是也被招标搞到头秃？&lt;/p>
+&lt;p>一边是老板催着“降本增效”，一边是供应商天天给你画大饼。报个价吧，低得离谱；审个资质吧，像在扫雷；评个标吧，评委们眼神互相躲闪，跟演谍战片似的。&lt;/p>
+&lt;p>我干了6年招标采购，前3年交的学费，够买一辆宝马3系了。今天不跟你扯什么“招标管理办法”那种废话，就唠点干的——&lt;strong>这3个坑，我替你踩了，你别再往里跳。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑一低价中标那是钓鱼的钩子">坑一：低价中标？那是“钓鱼”的钩子&lt;/h3>
+&lt;p>你是不是也遇到过这种场面：&lt;/p>
+&lt;blockquote>
+&lt;p>“王总，只要100万！别人报120万，我们直接让利20个点！”
+你一看，卧槽，这预算省得太香了，老板肯定夸我。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>停！&lt;/strong> 千万别上头。&lt;/p>
+&lt;p>&lt;strong>低价中标，大概率是“钓鱼工程”。&lt;/strong> 你以为是捡了便宜，其实是人家给你下了套。怎么解？往后看。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步，报价低于成本线？直接拉黑。&lt;/strong> 别听他说“薄利多销”。一个正常企业，毛利低于15%基本就是亏本。他敢报20%的折扣，说明不是想偷工减料，就是后期靠增项、变更、拖工期往回捞。&lt;/li>
+&lt;li>&lt;strong>第二步，看履约保证金。&lt;/strong> 正常是合同额的5%-10%。如果对方痛快答应，甚至主动提出“保证金翻倍”，你更要小心——他根本不打算正经履约，这笔钱早就算在“钓鱼成本”里了。&lt;/li>
+&lt;li>&lt;strong>第三步，查过往项目的“烂尾率”。&lt;/strong> 别光看他的官网案例。去天眼查、企查查搜一下，看他有多少“合同纠纷”和“工程款拖欠”的官司。一条差评，顶十张PPT。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：招标采购不是比谁更便宜，而是比谁更靠谱。&lt;/strong> 用低价吸引你上钩的，99%是想吃你的本金。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑二资质造假神仙也救不了你">坑二：资质造假？神仙也救不了你&lt;/h3>
+&lt;p>我见过最离谱的案例：一个做保洁的公司，资质文件里赫然写着“拥有军用级精密加工设备”。你猜怎么着？他直接在网上找了一张德国机床的图片，PS一下就交了。&lt;/p>
+&lt;p>&lt;strong>你如果只看纸质版，永远发现不了。&lt;/strong> 怎么破？&lt;/p>
+&lt;p>&lt;strong>一定要做“动态验证”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步，官网查“三证”。&lt;/strong> 营业执照、资质证书、特种作业许可证，别光看盖章。登录国家企业信用信息公示系统、全国建筑市场监管公共服务平台，直接输入编号查。过期、注销、吊销的，一律pass。&lt;/li>
+&lt;li>&lt;strong>第二步，实地考察是底线。&lt;/strong> 别信视频、别信照片。直接杀到他的办公地址、生产车间。看看有没有人、有没有设备、有没有在干活。如果办公室就一张桌子、三台电话，那绝对是皮包公司。&lt;/li>
+&lt;li>&lt;strong>第三步，查“关联方”。&lt;/strong> 用企查查查一下他的股东、高管。如果发现他背后还有5家跟你招标内容一模一样的公司，基本可以断定是“围标”或者“串标”团伙。&lt;strong>直接举报，别犹豫。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>资质造假，是招标采购的“癌症”。&lt;/strong> 你放进来一个假货，后面整个项目都可能塌方。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑三评标猫腻别当睁眼瞎">坑三：评标猫腻？别当“睁眼瞎”&lt;/h3>
+&lt;p>你是不是觉得，评标就是走个过场，反正有评委打分？&lt;/p>
+&lt;p>&lt;strong>太天真了。&lt;/strong>&lt;/p>
+&lt;p>我见过最骚的操作：评标前一夜，某个评委的微信突然多了个陌生好友，头像是个美女。第二天，那个评委给某家公司的“技术方案”打了满分。而那个方案，其实就是把竞争对手的标书，改了个封面。&lt;/p>
+&lt;p>&lt;strong>评标环节，是腐败的高发区。&lt;/strong> 怎么防？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一步，评委库要“盲抽”。&lt;/strong> 别让采购部门自己定评委。用系统随机抽取，而且只通知时间地点，不通知项目信息。评委到了现场，才拆开标书。&lt;/li>
+&lt;li>&lt;strong>第二步，商务标和技术标要“双盲”。&lt;/strong> 商务标只写价格，技术标只写方案。评委打分时，不知道哪份标书是哪家公司的。&lt;strong>这能直接干掉80%的“人情分”。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>第三步，打分要“公开透明”。&lt;/strong> 别打分完就散会。要求评委现场签字确认，并录制视频。如果有人敢写“方案有创新”这种模棱两可的话，直接让他解释清楚。&lt;strong>含糊其辞 = 心里有鬼。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>评标的本质，是筛选出最靠谱的合作伙伴，而不是比谁“关系硬”。&lt;/strong> 你只要把规则定死，猫腻就进不来。&lt;/p>
+&lt;hr>
+&lt;p>最后说句扎心的：&lt;strong>招标采购，不是为了讨好老板，也不是为了压榨供应商。它是你保护自己、守护公司利益的最后一道防线。&lt;/strong>&lt;/p>
+&lt;p>如果你现在手里正压着几个标，感觉心里没底，别慌。&lt;/p>
+&lt;p>&lt;strong>把这篇文章转给同事看，我们一起避坑。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，后台回复“避坑”，我把我这些年整理的《招标采购防坑清单》发你。&lt;/p></description></item></channel></rss>

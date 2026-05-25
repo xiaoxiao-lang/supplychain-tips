@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储自动化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E8%87%AA%E5%8A%A8%E5%8C%96/</link><description>Recent content in 仓储自动化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库堆成山，老板却说你效率低？这3招绝了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-tips/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-tips/</guid><description>&lt;p>哥们儿，你有没有这种经历？&lt;/p>
+&lt;p>&lt;strong>大半夜加班，看着仓库里堆得跟迷宫似的货，心里直骂娘。&lt;/strong>&lt;/p>
+&lt;p>老板还站你旁边叨叨：“咋又爆仓了？发货还这么慢？你行不行啊？”&lt;/p>
+&lt;p>你一边搬箱子一边想：我特么是仓库主管，不是搬运工啊！&lt;/p>
+&lt;p>我懂。真的懂。&lt;/p>
+&lt;p>前两年我帮一个做家电的朋友做咨询，他那仓库，1300平，每天出库单子能铺满一桌子。结果呢？&lt;/p>
+&lt;p>&lt;strong>人累得跟狗一样，效率低得跟蜗牛一样。&lt;/strong>&lt;/p>
+&lt;p>新来的拣货员，第一天干完直接提离职，说“这活干不了一点”。&lt;/p>
+&lt;p>后来我给他上了三招自动化，没花大几十万买机器人，就是“轻量化”改造。结果呢？&lt;/p>
+&lt;p>&lt;strong>库存周转率翻了一倍，原来10个人干的活，现在5个人搞定，而且那5个人还天天夸我“太爽了”。&lt;/strong>&lt;/p>
+&lt;p>今天我就把这3招拆给你看，都是真金白银砸出来的经验。&lt;/p>
+&lt;hr>
+&lt;h3 id="-第一招别跟风上agv先给货架上户口">### 第一招：别跟风上AGV，先给货架“上户口”&lt;/h3>
+&lt;p>很多老板一上来就砸钱买AGV小车，觉得“自动化=机器人”。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>连你家小区快递柜都知道哪个格子里有快递，你仓库的货架要是“黑户”，再贵的机器人也是瞎子。&lt;/p>
+&lt;p>&lt;strong>核心动作就一个：给每一个库位，上电子身份证。&lt;/strong>&lt;/p>
+&lt;p>别再用A区B区、1排2列这种&lt;strong>人脑记忆法&lt;/strong>了。上二维码或者RFID标签。&lt;/p>
+&lt;p>你想想，你让新员工去A-01-03拿货，他得找半天。但你要是让他&lt;strong>扫码&lt;/strong>，系统直接告诉他：“往前走18米，右手边第3个货架，第4层，第7个格子。”&lt;/p>
+&lt;p>&lt;strong>秒找。零误差。&lt;/strong>&lt;/p>
+&lt;p>我那朋友就是这么干的。花了不到3000块，买了打印机和标签纸，把货架全贴了一遍。&lt;/p>
+&lt;p>&lt;strong>效果呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>新人上手时间：从3天 → &lt;strong>2小时&lt;/strong>&lt;/li>
+&lt;li>拣货出错率：从5% → &lt;strong>0.1%&lt;/strong> （基本没出过错）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别想着一步登天，先把你仓库的“地基”打牢。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="-第二招别让人满场飞用波次拣货治懒癌">### 第二招：别让人“满场飞”，用“波次拣货”治懒癌&lt;/h3>
+&lt;p>仓库效率低，90%的问题出在&lt;strong>路径&lt;/strong>上。&lt;/p>
+&lt;p>你让拣货员按单子跑，一张单子10个品，他得从南跑到北，再从北跑回南。一天下来，微信步数3万步，比外卖小哥还猛。&lt;/p>
+&lt;p>&lt;strong>你以为他勤快？不，这是最蠢的“无效运动”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么治？上“波次拣货”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>原理特简单：&lt;/strong> 把同一时间段、同一区域、同一品类的订单，&lt;strong>合并成一个大单&lt;/strong>，一次性捡出来，然后分拣。&lt;/p>
+&lt;p>比如：&lt;/p>
+&lt;ul>
+&lt;li>早上9点到10点的订单，全是“洗发水+沐浴露”。&lt;/li>
+&lt;li>不用让张三跑一趟，李四跑一趟。&lt;/li>
+&lt;li>&lt;strong>直接让张三去A区，一次性把50瓶洗发水全捡出来。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>再让李四去B区，把50瓶沐浴露全捡出来。&lt;/strong>&lt;/li>
+&lt;li>最后集中到一起，按订单分一分。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>效率翻倍，人还轻松。&lt;/strong>&lt;/p>
+&lt;p>我那朋友原来每天出库400单，人累得半死。用了波次拣货后，直接冲到800单，&lt;strong>员工下午4点就开始摸鱼了&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>记住，自动化不是让人跑得更快，而是让人少跑路。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="-第三招别当甩手掌柜用数据倒逼库存瘦身">### 第三招：别当“甩手掌柜”，用数据倒逼库存“瘦身”&lt;/h3>
+&lt;p>很多老板仓库乱，根子在&lt;strong>库存不准&lt;/strong>。&lt;/p>
+&lt;p>账面有100个，实际只有80个。发货时捡不到，只能紧急补货，或者给客户道歉。&lt;/p>
+&lt;p>&lt;strong>这就是典型的“数据黑洞”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么用自动化干掉这个黑洞？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>上WMS（仓库管理系统）基础版，或者用Excel都行，关键是要做“实时盘点”。&lt;/strong>&lt;/p>
+&lt;p>不是月底大扫除那种盘点，是&lt;strong>动态盘点&lt;/strong>。&lt;/p>
+&lt;p>比如：&lt;/p>
+&lt;ul>
+&lt;li>每天出库后，系统自动减库存。&lt;/li>
+&lt;li>系统设置安全库存预警：低于50件，自动提醒你补货。&lt;/li>
+&lt;li>或者设定&lt;strong>ABC分类法&lt;/strong>：A类高价值商品，每周盘点一次；C类低价值耗材，一月一次。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别让你的仓库变成“毛坯房”，数据就是你的装修图纸。&lt;/strong>&lt;/p>
+&lt;p>我那朋友原来库存周转率只有4次/年，压了300万的货在仓库。用了数据倒逼后，&lt;strong>周转率提到了8次/年&lt;/strong>，库存直接砍掉了150万。&lt;/p>
+&lt;p>&lt;strong>老板说：原来多出来的钱，够买一辆宝马了。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="写在最后别把自动化当万能药">写在最后：别把自动化当“万能药”&lt;/h3>
+&lt;p>说了这么多，我想泼一盆冷水。&lt;/p>
+&lt;p>&lt;strong>仓储自动化不是买几台机器就完事了。&lt;/strong>&lt;/p>
+&lt;p>它是一个&lt;strong>系统工程&lt;/strong>。&lt;/p>
+&lt;p>你先把上面三步走完，大概率能干掉50%以上的低效问题。&lt;/p>
+&lt;p>如果还有老板让你花几十万买AGV，你先让他花200块钱买本《仓库管理》看看。&lt;/p>
+&lt;p>&lt;strong>记住，真正的降本增效，是从“不让人累”开始的。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」，获取更多干货&lt;/strong>&lt;/p></description></item></channel></rss>

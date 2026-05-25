@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商评估 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/</link><description>Recent content in 供应商评估 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估这5个坑，我踩了才醒</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>先讲个我自己的故事。&lt;/p>
+&lt;p>去年Q2，我负责一个核心物料，供应商A报价比竞品低12%。老板在周会上拍桌子：“这还用评估？赶紧签！抢产能！”我硬着头皮走流程，评估表上勾了“质量合格”“交期达标”，实际上——样品是对方连夜赶制的特供版，工厂我去都没去过。&lt;/p>
+&lt;p>结果呢？量产第三周，批次不良率飙到18%，产线停了两天，老板把我骂得狗血淋头。那个供应商A呢？电话打不通，微信不回，连质保金都没扣回来——因为合同里根本没约定赔付比例。&lt;/p>
+&lt;p>&lt;strong>我踩的第一个坑：评估就是走流程，不是真打仗。&lt;/strong>&lt;/p>
+&lt;p>你是不是也这样？供应商评估表填得比情书还整齐，但实际就是“价格及格，其他全凭运气”。别装了，这行里80%的采购都干过这种事。&lt;/p>
+&lt;p>今天我就把这5个坑摊开说，每一个都是用钱、加班、背锅换来的。你不想成为下一个我，就好好看。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑1只看价格不看隐形成本">### 坑1：只看价格，不看“隐形成本”&lt;/h3>
+&lt;p>采购圈最经典的笑话：老板说“我要最便宜的”，然后你选的供应商，到货延迟了3天，产线停了，老板又说“你怎么不选靠谱的”。&lt;/p>
+&lt;p>&lt;strong>价格越低，隐形成本越高。&lt;/strong> 这不是鸡汤，是数学。&lt;/p>
+&lt;p>你算过吗？一个报价低10%的供应商，如果：&lt;/p>
+&lt;ul>
+&lt;li>交期不准时，导致你紧急空运费：成本直接+15%&lt;/li>
+&lt;li>质量抽检不合格，返工工时：成本+8%&lt;/li>
+&lt;li>售后服务响应慢，你亲自去现场擦屁股：时间成本+你的血压&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最扎心的真相：&lt;/strong> 低价供应商往往在账期、包装、最小起订量上卡你。你以为省了单价，结果现金流被拖死，仓库堆满呆滞料。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 评估时别只盯着单价，要算“总拥有成本”。把运费、损耗、退货率、维护费全部列出来，做成一张表。老板再拍桌子，你就把表拍回去：“老板，这个价买回来，最后成本比别家贵20%。”&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑2迷信高大上资质忽略真实交付力">### 坑2：迷信“高大上”资质，忽略真实交付力&lt;/h3>
+&lt;p>有些采购一看到ISO认证、行业排名、上市公司背景，就膝盖发软。觉得“大厂肯定没问题”。&lt;/p>
+&lt;p>&lt;strong>醒醒。&lt;/strong> 大厂的坑比小厂还深。&lt;/p>
+&lt;p>我合作过一个世界500强供应商，官网做得跟苹果发布会似的。结果呢？订单下了之后，对方客户经理换了3个，每次沟通都要重新讲需求。最后交期延误了2个月，理由是什么？“总部流程审批慢。”&lt;/p>
+&lt;p>你品，你细品。&lt;/p>
+&lt;p>&lt;strong>真正要看的是“交付力”，不是“画皮力”。&lt;/strong> 怎么判断？&lt;/p>
+&lt;ul>
+&lt;li>问对方：你们最近3个月的准时交付率是多少？别听他说“95%以上”，让他拿出系统截图。&lt;/li>
+&lt;li>问他们客户：你上次和他们合作，最满意和最抓狂的是什么？直接打电话给他们的现有客户，别怕冒犯，做这行就要脸皮厚。&lt;/li>
+&lt;li>偷偷看他们工厂：门口停车多不多？员工下班早不早？这些细节比任何PPT都真实。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-坑3不做现场审核全凭感觉">### 坑3：不做现场审核，全凭“感觉”&lt;/h3>
+&lt;p>我见过最离谱的采购评估：给对方发个Excel表格，对方填好回传，然后采购说“嗯，看着挺正规的”，就签了。&lt;/p>
+&lt;p>&lt;strong>大哥，你这是在找对象，只看了照片就领证？&lt;/strong>&lt;/p>
+&lt;p>现场审核不是“去拍个照发朋友圈”，是去闻味道、看角落、问工人。我教你3个狠招：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>突击检查：&lt;/strong> 别约时间，直接杀过去。看看对方仓库是不是堆满积灰的物料，生产线是不是在赶工你的订单（如果没你的单，说明他们产能不饱和）。&lt;/li>
+&lt;li>&lt;strong>问一线工人：&lt;/strong> “你们最近加班多吗？”“工资按时发吗？”工人说“好久没发奖金了”，你就知道这家公司现金流紧张，随时可能跑路。&lt;/li>
+&lt;li>&lt;strong>看厕所：&lt;/strong> 别笑。厕所干净程度直接反映管理水平。车间厕所又脏又臭，说明管理层眼里没有“人”，自然也不会有“质量”。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住：&lt;/strong> 供应商评估的本质，是看“人”和“系统”。系统可以伪装，但人很难。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑4忽略财务状况把命交给老赖">### 坑4：忽略财务状况，把命交给“老赖”&lt;/h3>
+&lt;p>你信不信，很多采购连供应商的资产负债表都没看过？&lt;/p>
+&lt;p>去年我一个朋友，合作了2年的供应商突然倒闭，预付款打了水漂，还欠了200万货款。他跑去一看，对方老板早把公司资产转移了，名下只剩一辆五菱宏光。&lt;/p>
+&lt;p>&lt;strong>评估供应商，必须像评估你的相亲对象一样，查清楚对方“家底”。&lt;/strong>&lt;/p>
+&lt;p>怎么查？3步走：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>要财务报表：&lt;/strong> 不看多复杂，就看“流动比率”（大于2算安全）和“资产负债率”（低于60%算健康）。如果对方支支吾吾不肯给，直接pass。&lt;/li>
+&lt;li>&lt;strong>查工商司法：&lt;/strong> 企查查、天眼查用起来。看有没有诉讼、被执行人、经营异常。如果有，问清楚原因，别自己骗自己“应该是误会”。&lt;/li>
+&lt;li>&lt;strong>看现金流：&lt;/strong> 问他们“你们给上游付款是月结还是现结？”如果上游都不信任他们，你凭什么信任？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：&lt;/strong> 供应商的财务健康，就是你的供应链安全。别等对方暴雷了，你才哭着说“我以为他是好人”。&lt;/p>
+&lt;hr>
+&lt;h3 id="-坑5只进不出没有退出机制">### 坑5：只进不出，没有“退出机制”&lt;/h3>
+&lt;p>很多采购把供应商评估当成“一锤子买卖”：选定了就不动了，合作3年也没重新评估过。&lt;/p>
+&lt;p>&lt;strong>这是最危险的懒政。&lt;/strong>&lt;/p>
+&lt;p>供应商会变：老板换人了、设备老化了、市场变了。你3年前选的优等生，现在可能变成了差生。&lt;/p>
+&lt;p>&lt;strong>我自己的做法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每季度做一次“健康体检”：&lt;/strong> 准时率、不良率、配合度、价格竞争力，打ABCD四个等级。&lt;/li>
+&lt;li>&lt;strong>每年淘汰末位10%：&lt;/strong> 强制引入新供应商竞争。别怕麻烦，你不淘汰他，市场就会淘汰你。&lt;/li>
+&lt;li>&lt;strong>合同里写清楚“分手条款”：&lt;/strong> 比如质量问题累计3次，你有一票否决权直接终止合作；比如账期到期未发货，你有权从押金里扣款。&lt;strong>别当老好人，合同就是用来撕的。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 供应商评估不是选美，是相亲之后的婚后生活。你要有随时换人的底气，而不是被对方拿捏。&lt;/p></description></item></channel></rss>

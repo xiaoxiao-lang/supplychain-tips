@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购效率 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%95%88%E7%8E%87/</link><description>Recent content in 采购效率 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml"/><item><title>采购流程优化3步走，省下的钱够发年终奖</title><link>https://supplychain-tips.pages.dev/posts/procurement-optimization-steps/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-optimization-steps/</guid><description>&lt;p>&lt;strong>兄弟，你还在为一张采购单等三天审批？&lt;/strong>&lt;/p>
+&lt;p>半夜11点，你盯着OA系统里那个“审批中”的图标，心里一万头草泥马奔腾。生产部催着要原料，仓库说库存告急，财务那边说预算没批。你夹在中间，像个夹心饼干，两头受气。&lt;/p>
+&lt;p>这不是你的错。&lt;strong>是流程烂。&lt;/strong>&lt;/p>
+&lt;p>我见过太多采购，每天80%的时间花在“填表-找人签字-解释为什么签字-等签字”上。真正用在分析供应商、谈价格、优化供应链上的时间，不到20%。&lt;/p>
+&lt;p>说白了，你把精力都耗在“内耗”上了。&lt;/p>
+&lt;p>今天咱不聊虚的，就聊&lt;strong>3个能立刻落地、立竿见影的流程优化动作&lt;/strong>。不端不装，全是实战血泪。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-干掉无效审批不是所有单子都要老板签">1. 干掉“无效审批”：不是所有单子都要老板签&lt;/h3>
+&lt;p>很多公司有个“毒瘤”习惯：&lt;strong>金额一刀切&lt;/strong>。超过5万找总监，超过10万找副总，超过50万找老板。&lt;/p>
+&lt;p>结果就是：老板天天签几十万的单子，签到手软。而采购为了买个急用的螺丝刀，也得等老板的“已阅”。&lt;/p>
+&lt;p>&lt;strong>你不是在搞采购，你是在搞“盖章马拉松”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么优化？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第一招：分层分级，把审批权还给懂的人。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>小额高频（比如1万以下）：&lt;/strong> 直接授权给采购主管或组长，每月汇总报备。别让老板看几十块的订单，他的时间比这贵。&lt;/li>
+&lt;li>&lt;strong>中额常规（1万-30万）：&lt;/strong> 走“采购+财务+使用部门”三方会签，不要老板。只要预算内有，且流程合规，直接过。&lt;/li>
+&lt;li>&lt;strong>大额战略（30万以上）：&lt;/strong> 才需要老板+管理层集体决策。但前提是，必须附上&lt;strong>至少3家比价单+风险评估报告&lt;/strong>，让老板只做选择题，不做填空题。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二招：引入“事后审计”代替“事前审批”。&lt;/strong>&lt;/p>
+&lt;p>有些紧急单，比如产线停线等着换零件，你非要走完3天审批，生产线都凉了。这时候，可以走“绿色通道”：&lt;strong>先执行，后补单&lt;/strong>。但必须有个硬约束：事后由内审部门抽查，如果发现违规，双倍处罚（包括采购和批准人）。&lt;/p>
+&lt;p>别怕出事。&lt;strong>真正要防的，不是那1%的紧急风险，而是99%的日常效率浪费。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="2-把人肉对接变成系统自动跑">2. 把“人肉对接”变成“系统自动跑”&lt;/h3>
+&lt;p>你手机上是不是有至少20个供应商的微信？每天不是在催货，就是在催发票。&lt;/p>
+&lt;p>&lt;strong>这效率，比人工算账还低。&lt;/strong>&lt;/p>
+&lt;p>很多采购流程卡在“信息孤岛”上：采购用OA，财务用金蝶，仓库用WMS，供应商连个ERP都没有。&lt;/p>
+&lt;p>结果是：你这边签了合同，仓库不知道到货时间；财务那头发票来了，合同还没归档。&lt;strong>一个流程，三套系统，全靠你当“人肉交换机”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么优化？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>核心动作：打通“采购-仓库-财务”三个系统接口。&lt;/strong>&lt;/p>
+&lt;p>不需要搞多高端的ERP。很多中小企业，用钉钉/飞书/企微，就能实现：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>需求端：&lt;/strong> 使用部门在系统里提交“采购申请”，自动关联物料编码和库存数据。如果库存充足，系统直接驳回，不用你人工查。&lt;/li>
+&lt;li>&lt;strong>执行端：&lt;/strong> 供应商确认订单后，系统自动生成“到货计划”，推送到仓库的PDA（手持终端）。货一到，扫码入库，&lt;strong>数据自动回传&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>结算端：&lt;/strong> 发票扫描上传，系统自动匹配合同和入库单。匹配成功后，自动进入付款流程。&lt;strong>再也不用手动对账。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实案例：&lt;/strong> 我朋友公司，原来采购部5个人，天天加班。后来把OA和金蝶打通，供应商在微信小程序里确认发货，仓库扫码入库，财务自动结算。&lt;strong>现在3个人干5个人的活，还有时间摸鱼。&lt;/strong>（不是，是还有时间做供应商绩效分析）&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别让比价成为流程的遮羞布">3. 别让“比价”成为流程的遮羞布&lt;/h3>
+&lt;p>很多采购流程里，最“神圣”的一步就是比价。三家报价，选最低的。&lt;/p>
+&lt;p>&lt;strong>看起来公平，实际上蠢得可以。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为&lt;strong>低价不等于低成本&lt;/strong>。一个供应商报价便宜10%，但交货期晚5天，次品率高3%，你后续的停机损失、返工成本、客户投诉，早就把那10%吞掉了。&lt;/p>
+&lt;p>&lt;strong>真正的流程优化，是砍掉“只看价格”的伪比价。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么优化？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第一招：建立“全生命周期成本”评估模型（TCO）。&lt;/strong>&lt;/p>
+&lt;p>在比价环节，不要只比“单价”。要加列：运费、税率、付款账期、保修年限、退换货成本。&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;ul>
+&lt;li>供应商A：单价100元，运费10元，账期30天，保修1年。&lt;/li>
+&lt;li>供应商B：单价105元，运费0元（包邮），账期60天，保修2年。&lt;/li>
+&lt;/ul>
+&lt;p>算一下：供应商B虽然单价贵5%，但如果你账期多30天（相当于免费占用资金），保修多1年（省了维修费），&lt;strong>实际总成本反而更低&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>第二招：考核供应商的“准时交货率”和“质量合格率”。&lt;/strong>&lt;/p>
+&lt;p>把这些KPI加入流程，变成一个“权重打分表”。比如：&lt;/p>
+&lt;ul>
+&lt;li>价格权重：40%&lt;/li>
+&lt;li>质量权重：30%&lt;/li>
+&lt;li>交付权重：20%&lt;/li>
+&lt;li>配合度权重：10%&lt;/li>
+&lt;/ul>
+&lt;p>以后比价，不再是“谁便宜谁上”，而是&lt;strong>谁综合分高谁上&lt;/strong>。这样，供应商知道你不只看钱，他才会认真履约。&lt;/p>
+&lt;p>&lt;strong>你省下的，不是账面上的钱，是实实在在的“管理成本”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说点扎心的">最后说点扎心的&lt;/h3>
+&lt;p>流程优化，不是让你去买个最贵的软件，也不是让你把所有流程都删了。&lt;/p>
+&lt;p>&lt;strong>核心就两件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>砍掉无效节点&lt;/strong>（别让老板签螺丝刀）&lt;/li>
+&lt;li>&lt;strong>用系统替代人工&lt;/strong>（别当人肉交换机）&lt;/li>
+&lt;/ol>
+&lt;p>做到了，你每天能多出2小时，去和供应商喝咖啡、聊趋势、谈战略合作。而不是坐在工位上，对着OA系统发呆。&lt;/p>
+&lt;p>&lt;strong>月薪5千的采购，在等流程；月薪5万的采购，在改流程。&lt;/strong>&lt;/p>
+&lt;p>别等了。从明天开始，把你手里那张最烂的采购单，拿出来优化一下。你会发现，&lt;strong>省下的钱，够给团队发年终奖了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item></channel></rss>

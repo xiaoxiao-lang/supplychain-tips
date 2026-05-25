@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>上了ERP系统，我差点把公司干黄了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>说出来你可能不信。&lt;/p>
+&lt;p>我哥们，开工厂的，去年上了套ERP，花了小100万。半年后，差点把公司干黄了。&lt;/p>
+&lt;p>不是系统不行，是&lt;strong>人差点疯了&lt;/strong>。&lt;/p>
+&lt;p>库存数据永远对不上，财务和库房天天吵架。销售说货有的是，生产说原材料早没了。老板拍桌子：你们系统不是通的吗？！底下人白眼：通是通，但没一个准的。&lt;/p>
+&lt;p>你是不是也这样？上系统前觉得是解药，上完发现是毒药。&lt;/p>
+&lt;p>别急，我干了10年供应链，见过太多公司死在这仨坑上。今天给你扒干净，看完能省几十万。&lt;/p>
+&lt;h3 id="第一个坑把erp当插件以为装上就能跑">第一个坑：把ERP当“插件”，以为装上就能跑&lt;/h3>
+&lt;p>很多老板的逻辑特别朴素：买个ERP，像装个App，点一下同步，所有数据就自动对齐了。&lt;/p>
+&lt;p>&lt;strong>扯淡。&lt;/strong>&lt;/p>
+&lt;p>ERP不是工具，是&lt;strong>手术&lt;/strong>。是把你公司从内到外，从组织架构到流程制度，全切一遍。&lt;/p>
+&lt;p>我见过一公司，明明是多品种小批量生产，非要套用标准ERP的“批量生产”模块。结果订单一来，系统根本跑不通，计划员天天手动改。改完又被系统自动覆盖，数据乱成一锅粥。&lt;/p>
+&lt;p>&lt;strong>真相是：ERP的底层逻辑，是“理想化的标准化”。&lt;/strong>&lt;/p>
+&lt;p>但你的公司，可能根本不是标准化的。你线下流程里那些“特殊情况”、“口头约定”、“人情世故”，系统一个都不认。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>上系统前，先做“流程体检”。把每一个环节写下来：采购怎么下订单？入库谁签收？退换货怎么走？然后问自己：&lt;strong>这流程，能写出规则吗？&lt;/strong> 写不出来，就别指望系统能跑通。&lt;/p>
+&lt;p>如果流程本身就是一坨屎，别指望ERP能把它变成巧克力。先&lt;strong>把屎铲干净&lt;/strong>，再上系统。&lt;/p>
+&lt;h3 id="第二个坑把上线当终点以为万事大吉">第二个坑：把“上线”当终点，以为万事大吉&lt;/h3>
+&lt;p>很多老板的认知：花几十万，请一帮顾问，搞三个月，上线那天庆祝一下，完事。&lt;/p>
+&lt;p>然后呢？然后就是灾难。&lt;/p>
+&lt;p>&lt;strong>上线那天，不是结束，是开始。&lt;/strong>&lt;/p>
+&lt;p>数据对不上？很正常。流程跑不通？必然的。员工操作错误？天天有。&lt;/p>
+&lt;p>但很多老板的心态是：钱花了，系统上了，就应该自动解决所有问题。一旦出问题，第一反应是：“这系统不行！”&lt;/p>
+&lt;p>我有客户，上线第一个月库存准确率掉到60%。老板急得跳脚，骂顾问是骗子。我让他冷静：&lt;strong>上线前是100%，因为旧系统只记录了静态数据。上线后，你要动态管理了，错误率当然高。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真相是：ERP的核心是“数据治理”，不是“工具安装”。&lt;/strong>&lt;/p>
+&lt;p>数据从线下搬到线上，不是复制粘贴，是&lt;strong>脱胎换骨&lt;/strong>。你过去手写单子，写错一个字没人发现；现在录入系统，错一个编码，后面所有环节全错。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>把上线后的前三个月，当成“新生儿护理期”。每天盯数据，每周复盘，每月优化。别指望“无人驾驶”，你得&lt;strong>手扶方向盘&lt;/strong>开半年。&lt;/p>
+&lt;p>而且，要舍得&lt;strong>投入人力&lt;/strong>。很多公司舍不得加人，让原来的人兼职管系统。结果呢？系统没管好，本职工作也砸了。&lt;strong>专门请一个懂业务、懂数据的“系统管家”&lt;/strong>，比请十个顾问值。&lt;/p>
+&lt;h3 id="第三个坑把人当机器用忘了人才是系统">第三个坑：把人当机器用，忘了“人”才是系统&lt;/h3>
+&lt;p>最扎心的来了。&lt;/p>
+&lt;p>很多老板觉得，上ERP就是&lt;strong>管人&lt;/strong>。让员工按系统流程走，不能有半点偏差。谁不听话就扣钱。&lt;/p>
+&lt;p>结果呢？员工阳奉阴违。系统上跑一套，线下偷偷跑另一套。数据全是假的，老板还蒙在鼓里。&lt;/p>
+&lt;p>我见过最绝的：库管员嫌扫码麻烦，把所有物料先堆在一起，下班前一次性扫码录入。结果呢？系统显示库存充足，实际货还在托盘上没上架。生产急用，找不到货，整个产线停摆。&lt;/p>
+&lt;p>&lt;strong>真相是：系统是死的，人是活的。你不尊重人的工作习惯，人就会“治好”系统。&lt;/strong>&lt;/p>
+&lt;p>ERP不是什么“管理神器”，它只是一个&lt;strong>放大镜&lt;/strong>。你公司管理好，它帮你放大优势；你公司管理烂，它帮你放大烂。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>第一，&lt;strong>别把系统当“监控”&lt;/strong>。员工不是你的敌人，他们是你的战友。上线前，跟他们聊清楚：这个系统能帮你减少多少手工统计？能让你少挨多少骂？让他们看到“好处”。&lt;/p>
+&lt;p>第二，&lt;strong>留一点“容错空间”&lt;/strong>。别一刀切。比如，允许库管员在紧急情况下“先出库后补单”，但要有严格的审批流程。&lt;strong>好的系统，是给流程安上“弹性”&lt;/strong>，不是装上“铁板”。&lt;/p>
+&lt;p>第三，&lt;strong>建立“反馈闭环”&lt;/strong>。每周开个30分钟的吐槽会，让员工说系统哪不好用。别急着否定，先听。很多优化方案，就藏在员工的骂声里。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>ERP不是万能药，更不是魔法棒。&lt;/p>
+&lt;p>它更像一辆&lt;strong>高性能跑车&lt;/strong>。你如果是个好司机，它能带你飞驰。你如果连方向盘都握不稳，它只会带你撞墙。&lt;/p>
+&lt;p>别再神话它了。也别再妖魔化它了。&lt;/p>
+&lt;p>&lt;strong>上系统前，先搞定你的流程。&lt;/strong>
+&lt;strong>上线后，把它当孩子养。&lt;/strong>
+&lt;strong>永远别忘记，解决系统问题的，永远是“人”，不是“系统”。&lt;/strong>&lt;/p>
+&lt;p>如果你正被ERP折磨，或者正准备跳这个坑，记住：&lt;strong>花几个月做流程梳理，花几个月做数据治理，花一年做人员培训。&lt;/strong> 这笔钱，比买系统贵，但比翻车便宜。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ERP上了6个月，老板问我钱去哪了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>上个月，一哥们儿找我喝酒，脸都是绿的。&lt;/p>
+&lt;p>他公司去年花了40万上ERP，请了号称“行业顶尖”的实施团队，搞了6个月。结果呢？&lt;/p>
+&lt;p>&lt;strong>库存对不上，订单乱飞，财务月底结账直接崩溃。&lt;/strong>&lt;/p>
+&lt;p>老板拍桌子问他：“钱呢？我的40万去哪了？”&lt;/p>
+&lt;p>他当场想辞职。&lt;/p>
+&lt;p>这不是段子。这是过去5年，我亲眼看到的第8个“ERP翻车现场”。&lt;/p>
+&lt;p>你以为上个系统就能起飞？醒醒，大多数人上ERP是&lt;strong>先交学费，再挨打&lt;/strong>。&lt;/p>
+&lt;p>今天我不跟你扯那些“数字化转型蓝图”、“业财一体化顶层设计”的鬼话。就聊点干的——&lt;strong>ERP实施这5个坑，踩一个，白干半年；踩三个，老板找你谈心。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1把erp当买软件忘了是买苦力">坑1：把ERP当“买软件”，忘了是“买苦力”&lt;/h3>
+&lt;p>很多老板的逻辑：花50万买套系统 = 买个自动赚钱的机器。&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>ERP本质上是个“扳手”——工具本身不值钱，&lt;strong>怎么用、谁来拧&lt;/strong>才值钱。&lt;/p>
+&lt;p>我见过最骚的操作：公司流程一塌糊涂，采购靠微信下单，仓管用Excel管库存，财务把发票塞鞋盒里。然后老板说：“上个ERP吧，上了就规范了。”&lt;/p>
+&lt;p>结果呢？系统上线第一天，数据导入就炸了——同一款螺丝，采购叫“M6不锈钢”，仓库叫“6号螺丝”，财务叫“物料A001”。&lt;/p>
+&lt;p>&lt;strong>系统不背锅，混乱的流程才是元凶。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>上ERP前，先捋清楚你的业务流、数据流、审批流。&lt;/li>
+&lt;li>别指望系统能“自动修正”你的烂摊子，它只会把烂摊子数字化，然后摊得更大。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="坑2选最贵的不如选最不要脸的">坑2：选“最贵的”不如选“最不要脸的”&lt;/h3>
+&lt;p>很多老板选ERP，只看品牌：SAP、Oracle、用友、金蝶…谁贵选谁，觉得“贵=好”。&lt;/p>
+&lt;p>但现实是：&lt;strong>行业头部系统是为世界500强设计的，你一个年营收几千万的公司，学人家搞“全球供应链协同”？你连仓库都只有3个人。&lt;/strong>&lt;/p>
+&lt;p>我有个客户，做食品贸易的，咬牙上了SAP。光实施费就200万，上了2年，连采购订单都跑不通。为什么？SAP的配置太灵活，他们根本没人会玩。&lt;/p>
+&lt;p>&lt;strong>正确操作：选“最不要脸”的系统——免费试用、上门演示、承诺“不上线不收费”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先让他们把你的真实业务跑一遍，看能不能扛住。&lt;/li>
+&lt;li>重点不是功能多花哨，而是&lt;strong>你的仓管阿姨能不能10分钟学会入库&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>ERP是给一线员工用的，不是给老板看PPT的。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3项目经理是吉祥物等着系统自己动">坑3：项目经理是“吉祥物”，等着系统自己动&lt;/h3>
+&lt;p>很多公司上ERP，项目经理是谁？&lt;strong>行政主管&lt;/strong>、&lt;strong>IT网管&lt;/strong>、甚至是老板的小舅子。&lt;/p>
+&lt;p>然后呢？开会时：嗯嗯好的没问题。遇到流程冲突：我问问老板。数据出问题：找实施方啊。&lt;/p>
+&lt;p>&lt;strong>这类项目经理，本质是“传声筒”，不是“操盘手”。&lt;/strong>&lt;/p>
+&lt;p>真正的项目经理得敢拍桌子。比如：&lt;/p>
+&lt;ul>
+&lt;li>采购部说“我们流程特殊，不能改”，直接怼：“改不了就切掉，别影响上线。”&lt;/li>
+&lt;li>仓库说“盘点太麻烦，以后再说”，直接怼：“今天不盘点，明天系统里全是死库存。”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>选项目经理三不要：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>不要兼职的（每天花2小时搞ERP=没搞）&lt;/li>
+&lt;li>不要不懂业务的（技术宅看不懂采购流程）&lt;/li>
+&lt;li>不要没权限的（连部门经理都不敢怼，别干）&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="坑4数据清洗洗个屁直接导">坑4：数据清洗？洗个屁，直接导！&lt;/h3>
+&lt;p>这是最隐蔽、最致命的坑。&lt;/p>
+&lt;p>很多公司ERP上线第一天，仓库盘点数据就错了。为什么？因为&lt;strong>老系统里的数据是“屎山”&lt;/strong>——库存编码重复、供应商名字拼错、物料分类混乱。&lt;/p>
+&lt;p>但你急着上线，心想：先导进去再说，以后慢慢清。&lt;/p>
+&lt;p>&lt;strong>结果呢？以后没有以后。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>系统里的错误数据会像病毒一样传染：采购下单时查库存，显示100，实际只有50；财务核算成本，系统算出来是负数。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？上线前必须搞一次“数据清洗手术”：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>所有物料编码统一，不能有空格、特殊符号。&lt;/li>
+&lt;li>所有供应商、客户信息去重，一个公司只能留一个ID。&lt;/li>
+&lt;li>盘点库存，实物和系统对不上的，&lt;strong>宁可不上线，也得先盘清&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>别怕耽误时间。你愿意花1个月清洗数据，还是花6个月擦屁股？&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5忽视培训以为员工会自学成才">坑5：忽视培训，以为员工会“自学成才”&lt;/h3>
+&lt;p>很多老板的逻辑：系统上线了，发个操作手册，大家自学吧。&lt;/p>
+&lt;p>结果呢？上线第一天：&lt;/p>
+&lt;ul>
+&lt;li>采购不会录订单，打电话骂实施顾问；&lt;/li>
+&lt;li>仓库不会扫码，拿纸笔继续记；&lt;/li>
+&lt;li>财务不会结账，说“这系统是垃圾”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相：员工不配合，不是他们笨，而是你根本没教。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>培训要分三波：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>高层培训&lt;/strong>（老板、总监）：讲清楚系统能带来什么价值，别只讲功能。&lt;/li>
+&lt;li>&lt;strong>核心用户培训&lt;/strong>（各部门骨干）：手把手教操作，&lt;strong>必须考核，考不过不许用系统&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>全员普训&lt;/strong>：搞个“ERP操作挑战赛”，谁学得快奖励奶茶，别搞成“开会受刑”。&lt;/li>
+&lt;/ol>
+&lt;p>记住：&lt;strong>培训不是讲PPT，是让他们在测试环境里真实操作，出错当场纠正。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说句扎心的">最后说句扎心的&lt;/h3>
+&lt;p>ERP实施从来不是技术问题，是&lt;strong>人性问题&lt;/strong>。&lt;/p>
+&lt;p>老板想省钱，员工想省事，实施方想赶紧结项。三方各怀鬼胎，系统能上线才怪。&lt;/p>
+&lt;p>&lt;strong>你唯一能做的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>上之前，把流程当敌人，先揍一顿；&lt;/li>
+&lt;li>上之中，把项目经理当将军，给足权限；&lt;/li>
+&lt;li>上之后，把培训当军训，不达标不许上岗。&lt;/li>
+&lt;/ul>
+&lt;p>别信什么“上了系统就能降本增效”的鬼话。&lt;strong>系统只是镜子，照出你公司的丑，但不会帮你整容。&lt;/strong>&lt;/p>
+&lt;p>如果你正准备上ERP，或者已经踩了坑，欢迎来骂我。咱们聊聊怎么把烂摊子收拾干净。&lt;/p></description></item><item><title>上ERP前没想通这3点，我亏了500万</title><link>https://supplychain-tips.pages.dev/posts/erp-3-pitfalls/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-3-pitfalls/</guid><description>&lt;p>兄弟，你跟我说要上ERP？&lt;/p>
+&lt;p>我懂你。老板开会一拍桌子：“数字化转型，必须上！” 然后你，一个月薪8千的供应链主管，瞬间成了项目负责人。PPT写了100页，供应商选了3家，预算报了200万。结果呢？&lt;/p>
+&lt;p>&lt;strong>上线第一天，仓库大妈罢工。&lt;/strong> 系统里找不到货，实物跟账对不上。采购部骂你傻X，销售部说你耽误出货。你夹在中间，像风箱里的老鼠，两头受气。&lt;/p>
+&lt;p>更狠的还在后面。数据一塌糊涂，流程跑不动，员工消极抵抗。最后，200万的系统，变成了一个昂贵的Excel表格。老板问你：“钱呢？效果呢？” 你只能憋出一句：“我再想想办法。”&lt;/p>
+&lt;p>别问我是怎么知道的。我上一家公司，就是因为上ERP，&lt;strong>库存压了500万，差点把现金流搞断。&lt;/strong>&lt;/p>
+&lt;p>今天，我不跟你讲那些“数字化转型蓝图”、“业财一体化”的鬼话。我就跟你说3个最实在的坑。你避开它，至少省下300万试错费。&lt;/p>
+&lt;h3 id="坑1把erp当万能药结果忘了大夫">坑1：把ERP当“万能药”，结果忘了“大夫”&lt;/h3>
+&lt;p>很多老板的逻辑是：我的仓库乱？上ERP！我的采购贵？上ERP！我的生产周期长？上ERP！&lt;/p>
+&lt;p>&lt;strong>大错特错。&lt;/strong>&lt;/p>
+&lt;p>ERP是什么？它是一个&lt;strong>工具&lt;/strong>，不是&lt;strong>大夫&lt;/strong>。你家仓库乱，是因为&lt;strong>库位没规划&lt;/strong>，&lt;strong>入库流程是坨屎&lt;/strong>。你指望上个系统，就能让仓库大妈自动学会5S管理？醒醒吧。&lt;/p>
+&lt;p>&lt;strong>真实案例：&lt;/strong>
+我朋友公司，上ERP前，光是物料编码就搞了3个月。因为以前是“见啥买啥”，没有统一编码。系统上线那天，采购员发现，同一个螺丝，在系统里叫“M8螺栓”，在仓库里叫“8厘螺丝”，在财务那边叫“紧固件-001”。&lt;strong>系统一脸懵逼，直接报错。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ERP解决的是“效率”问题，不是“管理”问题。&lt;/strong> 你的流程先得理顺，系统才能帮你跑得快。流程是乱的，系统只会让你乱得更快。&lt;/li>
+&lt;li>&lt;strong>先搞流程，再上系统。&lt;/strong> 花1个月把现有业务画成流程图，把痛点标出来。哪个环节效率低？哪个环节经常错？先人工优化一遍，再找系统固化。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>不要指望ERP能自动优化你的业务。它只能把你现有的操作，从“手写”变成“键盘敲”。&lt;/strong> 如果手写都是错的，键盘敲只会错得更离谱。&lt;/p>
+&lt;h3 id="坑2全员培训不是全员洗脑">坑2：全员培训？不，是“全员洗脑”&lt;/h3>
+&lt;p>“我们要做培训了。” 这句话一出来，我猜你心里一紧。&lt;/p>
+&lt;p>传统培训是什么样的？会议室里，顾问对着PPT念3天。底下的人，玩手机的玩手机，睡觉的睡觉。最后考试，全员通过。但一回到工位，阿姨问：“小张，这个单怎么录？” 小张说：“我忘了。”&lt;/p>
+&lt;p>&lt;strong>这根本不叫培训，这叫“走过场”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>你没意识到：上ERP，本质上是在跟人性作斗争。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购大爷习惯了电话下单，现在要他在系统里填10个字段，他觉得麻烦。&lt;/li>
+&lt;li>仓管阿姨习惯了凭记忆找货，现在要她用PDA扫码，她觉得不习惯。&lt;/li>
+&lt;li>销售小哥习惯了拍脑袋承诺交期，现在系统告诉他“库存不足”，他觉得被打脸。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么办？不是教他们“怎么用”，而是逼他们“不得不用”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>我的做法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>“断后路”式上线。&lt;/strong> 上线第一天，直接停掉旧系统（比如Excel、纸质单据）。所有人必须在新系统里操作。不会？来，我就在你旁边，手把手教。但想退回旧方法？门都没有。&lt;/li>
+&lt;li>&lt;strong>“钓鱼执法”式考核。&lt;/strong> 上线第一周，每天安排“检测员”。专门挑那种老油条，看他们有没有按规定操作。发现一次，扣绩效。发现两次，直接通报老板。&lt;strong>让老板在全员大会上说：“谁不配合，谁走人。”&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>“奖励”比“惩罚”有用。&lt;/strong> 给第一个熟练掌握系统的人发个红包，给第一个用系统查出问题的人发个荣誉。让员工觉得，&lt;strong>用系统能占便宜&lt;/strong>，而不是被束缚。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住：ERP实施，三分技术，七分管理。&lt;/strong> 你搞不定人，系统就是一堆废铁。&lt;/p>
+&lt;h3 id="坑3选最贵的不如选最不折腾的">坑3：选最贵的，不如选“最不折腾”的&lt;/h3>
+&lt;p>“我们要上SAP！” 很多老板觉得，SAP是金字招牌，用上它，公司就脱胎换骨了。&lt;/p>
+&lt;p>但真相是：&lt;strong>SAP是给大象用的，你一只蚂蚁，上去就被踩死。&lt;/strong>&lt;/p>
+&lt;p>SAP的实施成本，是系统费用的3-5倍。你花100万买SAP，至少要再花300-500万请顾问帮你配置。而且，SAP是强流程的，它要求你完全按照它的“最佳实践”来。你公司规模小，流程灵活，你非要削足适履，最后只能把自己搞残。&lt;/p>
+&lt;p>&lt;strong>我见过太多中小企业，上了SAP，结果：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>财务说：“这个逻辑不对，我们实际不是这么干的。”&lt;/li>
+&lt;li>生产说：“这个BOM（物料清单）结构太复杂，我们改不了。”&lt;/li>
+&lt;li>最后，公司不得不聘请一个“SAP二次开发团队”，天天改代码。改到最后，系统比原来还乱。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>那选什么？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看行业。&lt;/strong> 你是制造业？选鼎捷、用友。你是商贸流通？选金蝶、浪潮。你是电商？选聚水潭、旺店通。&lt;/li>
+&lt;li>&lt;strong>看规模。&lt;/strong> 几十个人的公司，用个钉钉、企微自带的进销存就够了。几百人的公司，上金蝶、用友的中端产品。上千人的公司，再考虑SAP、Oracle。&lt;/li>
+&lt;li>&lt;strong>最关键的：看服务商的“本地化能力”。&lt;/strong> 别光看产品牛不牛，要看顾问懂不懂你的行业。找一个在你这个行业里实施过3-5个项目的服务商，比什么都重要。&lt;strong>他踩过的坑，就是你的护城河。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：ERP不是奢侈品，是日用品。&lt;/strong> 贵的不一定好，合适的才是最好的。别为了面子，掏空了里子。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>最后说一句：&lt;/strong>&lt;/p>
+&lt;p>上ERP，就是一场“刮骨疗毒”。过程很痛苦，但熬过去，你的供应链效率至少提升30%。&lt;/p>
+&lt;p>但前提是，你别掉进上面这三个坑。流程没捋顺，别上；员工没洗脑，别上；选型不匹配，别上。&lt;/p>
+&lt;p>&lt;strong>如果非要说一个最核心的建议：&lt;/strong>
+&lt;strong>先找两个跟你业务规模差不多的同行，喝顿酒，问问他们上了什么系统，踩了什么坑。&lt;/strong> 这比你看100份产品手册都有用。&lt;/p>
+&lt;p>想了解更多供应链实战干货？别自己硬扛了，来群里唠。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>ERP上线那天，我差点被财务总监骂哭</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年某制造业老板，花了200万上ERP。上线第三天，财务总监冲进我办公室，脸黑得像锅底：“这系统导出来的成本数据，比实际高了20%，你让我怎么跟老板交代？”&lt;/p>
+&lt;p>我当时就愣住了。200万的系统，上线3天就崩了？后来一查，问题出在&lt;strong>物料编码规则&lt;/strong>——采购部用旧编码，仓库用新编码，财务用Excel自己编了一套。&lt;/p>
+&lt;p>三套编码，三个世界。系统不崩才怪。&lt;/p>
+&lt;p>这事在我朋友圈里不是个例。我见过太多公司，ERP上了等于没上，钱花了，人累了，数据更乱了。今天我就用&lt;strong>3个血泪教训&lt;/strong>，把这事掰开了说。不端着，就像你跟我蹲在厂区台阶上抽烟唠嗑。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别信开箱即用那都是忽悠你的">1. 别信“开箱即用”，那都是忽悠你的&lt;/h3>
+&lt;p>很多老板（包括我）一开始都天真：ERP嘛，软件装上去，输入数据，点个按钮，啥都能算出来。结果呢？&lt;strong>系统是死的，流程是活的。&lt;/strong>&lt;/p>
+&lt;p>最常见的坑：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>物料编码&lt;/strong>：没有统一标准，采购叫“螺丝M8”，仓库叫“8mm螺栓”，系统直接懵圈&lt;/li>
+&lt;li>&lt;strong>BOM清单&lt;/strong>：产品结构复杂，一个成品有上百个物料，录入时漏一个，成本全错&lt;/li>
+&lt;li>&lt;strong>权限设置&lt;/strong>：财务想看数据，但系统只给采购权限；采购能改单价，改完没人知道&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>我的建议&lt;/strong>：上线前，花2周做&lt;strong>数据清洗&lt;/strong>。把历史数据拉出来，逐条核对。别嫌麻烦，这一步省了，后面全是窟窿。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-培训别只走形式要逼着人用">2. 培训别只走形式，要“逼着”人用&lt;/h3>
+&lt;p>我见过最离谱的培训：IT部门花3天讲完所有模块，发个PPT，然后说“你们自己摸索吧”。结果呢？仓库大妈对着屏幕发呆，采购小哥嫌麻烦，继续用Excel做表。最后系统里只有一半数据，另一半还在微信群里传来传去。&lt;/p>
+&lt;p>&lt;strong>真相是&lt;/strong>：ERP不是技术问题，是&lt;strong>人的问题&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>老员工&lt;/strong>：用惯了Excel，觉得系统是“找麻烦”&lt;/li>
+&lt;li>&lt;strong>管理层&lt;/strong>：只想要报表，但不愿输入数据&lt;/li>
+&lt;li>&lt;strong>跨部门&lt;/strong>：财务怪采购乱填，采购怪系统不好用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 上线前，搞个&lt;strong>模拟月&lt;/strong>。用真实数据跑一遍流程，所有操作必须走系统，谁用Excel就扣绩效。别心软，这招虽然狠，但有效。我见过一家公司，老板亲自盯着，三天就把所有人的习惯改过来了。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别想着一步到位先跑通核心流程">3. 别想着一步到位，先跑通核心流程&lt;/h3>
+&lt;p>很多公司一上来就想把所有模块都装了：财务、采购、生产、销售、HR，一个不落。结果呢？&lt;strong>贪多嚼不烂&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>生产模块&lt;/strong>：排产逻辑复杂，系统算不出来，人工补单&lt;/li>
+&lt;li>&lt;strong>销售模块&lt;/strong>：客户数据混乱，系统里重复记录一堆&lt;/li>
+&lt;li>&lt;strong>HR模块&lt;/strong>：考勤和工资对不上，财务天天骂娘&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确姿势&lt;/strong>：&lt;strong>分阶段上线&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一阶段&lt;/strong>：只跑采购+库存+财务这三个核心模块。别碰生产和销售，等稳定了再说&lt;/li>
+&lt;li>&lt;strong>第二阶段&lt;/strong>：加入简单的BOM和成本核算&lt;/li>
+&lt;li>&lt;strong>第三阶段&lt;/strong>：再上排产和销售&lt;/li>
+&lt;/ul>
+&lt;p>这样做的&lt;strong>好处&lt;/strong>：出了问题，能快速定位。而且员工不会被一下子砸晕。我见过一家公司，第一阶段跑通了，第二阶段直接省了80%的培训时间。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说点实在的">最后说点实在的&lt;/h3>
+&lt;p>ERP实施，说白了就是&lt;strong>一场管理变革&lt;/strong>。系统只是工具，真正重要的是：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>数据规范&lt;/strong>：别指望系统帮你自动纠错，那是做梦&lt;/li>
+&lt;li>&lt;strong>流程优化&lt;/strong>：别把旧流程硬搬到系统里，那是换汤不换药&lt;/li>
+&lt;li>&lt;strong>人员心态&lt;/strong>：别以为买了软件就一劳永逸，前期投入的时间和精力，比软件费贵得多&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果你现在正打算上ERP&lt;/strong>，记住一句话：&lt;strong>花3个月准备，不如花1个月清数据；花1个月培训，不如花2周逼着用。&lt;/strong>&lt;/p>
+&lt;p>别像我当年那样，被财务总监指着鼻子骂。那种滋味，你不想尝。&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>ERP上线3个月，我劝你早点看清这5个坑</title><link>https://supplychain-tips.pages.dev/posts/erp-pitfalls-5-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-pitfalls-5-tips/</guid><description>&lt;p>你公司也上ERP了吧？
+或者，正被老板逼着上？&lt;/p>
+&lt;p>别急着点头。先听我说个真事。
+某制造业老板，去年砸了200万上ERP，半年后，系统里数据还是空的。仓库主管继续用Excel记出入库，财务拿着纸质单子加班对账。老板气得拍桌子：“这系统，就是一堆废铁！”&lt;/p>
+&lt;p>别笑。这故事你大概率听过，甚至正在经历。
+&lt;strong>ERP实施，不是买个软件那么简单。&lt;/strong> 它更像一场企业内部的“器官移植”——技术是小事，人和流程才是要命的。&lt;/p>
+&lt;p>今天我就扒一扒，ERP上线前后最常见的5个坑。
+踩过，你疼；避开，你赚。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1选型时看功能列表不看能不能用">坑1：选型时看“功能列表”，不看“能不能用”&lt;/h3>
+&lt;p>很多公司选ERP，流程特别魔幻：
+老板说“要功能全”，IT说“要技术新”，采购说“要便宜”。
+然后拉个表，把供应商的PPT功能项一列，谁得分高就选谁。&lt;/p>
+&lt;p>结果呢？
+系统里报表100张，车间工人一张用不上。
+功能堆成山，但连“批次管理”这种基础需求都搞不定。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>
+别光看“有什么”，要看“怎么用”。
+去供应商的客户现场，问问一线操作员：&lt;/p>
+&lt;ul>
+&lt;li>你每天打开系统，第一件事干什么？&lt;/li>
+&lt;li>输入数据要几步？&lt;/li>
+&lt;li>遇到报错，是自己能修还是得找客服？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：能解决80%日常问题的系统，就是好系统。&lt;/strong>
+别为了那20%的“高级功能”，买了一堆没人碰的“摆设”。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑2实施前想得美上线后一片乱">坑2：实施前“想得美”，上线后“一片乱”&lt;/h3>
+&lt;p>最经典的剧情是这样的：&lt;/p>
+&lt;ul>
+&lt;li>实施前：各部门开会说“没问题，流程我们都熟”&lt;/li>
+&lt;li>上线第一天：采购发现物料编码没统一，仓库发现库位编号是乱码，财务发现科目对不上&lt;/li>
+&lt;li>上线第一周：所有人开始骂系统，退回Excel&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>痛在哪？&lt;/strong>
+&lt;strong>业务流程没梳理清楚，上什么系统都是白搭。&lt;/strong>
+很多公司以为ERP是“万能胶”，能把乱七八糟的流程粘起来。
+但ERP更像“照妖镜”——你原来的混乱，只会被放大，不会自动消失。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>
+实施前，花2周做“流程体检”：&lt;/p>
+&lt;ol>
+&lt;li>把每个部门的关键流程画出来（采购、库存、生产、财务）&lt;/li>
+&lt;li>标出“现在哪里卡壳”（比如入库要等3天审批）&lt;/li>
+&lt;li>统一数据标准（物料编码、客户名称、供应商编号）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>没有干净的流程，就没有干净的ERP。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3老板当甩手掌柜it当背锅侠">坑3：老板当“甩手掌柜”，IT当“背锅侠”&lt;/h3>
+&lt;p>常见场景：
+老板：“我也不懂系统，你们IT部门牵头，搞完就行。”
+IT：“我连仓库怎么管都不懂，怎么设计流程？”
+最后IT被骂“技术不行”，业务部门被骂“不配合”，老板怪“供应商垃圾”。&lt;/p>
+&lt;p>&lt;strong>真相：&lt;/strong>
+&lt;strong>ERP实施是“一把手工程”，但一把手不是“看结果”，而是“管过程”。&lt;/strong>
+老板至少要干3件事：&lt;/p>
+&lt;ul>
+&lt;li>定目标：是降库存？提效率？还是打通数据？别什么都想要&lt;/li>
+&lt;li>定规矩：谁不配合、不录入数据，扣绩效&lt;/li>
+&lt;li>定期过：每周花1小时看项目进度，别等上线了才发现问题&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>IT别背锅。&lt;/strong> 你在前面冲锋，老板得在后面给你撑腰。
+没有老板的“强权”，ERP就是一场“温水煮青蛙”。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑4培训只教怎么点不教为什么">坑4：培训只教“怎么点”，不教“为什么”&lt;/h3>
+&lt;p>你肯定见过这种培训：
+供应商讲师对着PPT，讲“点这里，选那个，点保存”。
+员工听得昏昏欲睡，回去一操作，发现“我点错了怎么办？”“报错是什么鬼？”&lt;/p>
+&lt;p>&lt;strong>核心问题：&lt;/strong>
+&lt;strong>员工不是不想用，是怕用错、怕担责。&lt;/strong>
+如果只教操作步骤，不解释业务逻辑，员工只会形成“肌肉记忆”——
+一旦系统出现异常，他们立刻懵圈，然后退回老办法。&lt;/p>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>分角色培训：采购员、仓管员、财务员，各学各的&lt;/li>
+&lt;li>讲“为什么”：比如“为什么要录批次号？因为后面退货能追溯到源头”&lt;/li>
+&lt;li>模拟异常：故意制造一次“入库数量不对”，教他们怎么处理&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>培训的目标，不是让他们“记住步骤”，而是“不怕系统”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5上线后撒手不管数据越用越烂">坑5：上线后“撒手不管”，数据越用越烂&lt;/h3>
+&lt;p>很多公司以为上线那天是“终点”，其实是“起点”。
+上线3个月后，最容易出现：&lt;/p>
+&lt;ul>
+&lt;li>数据录入越来越随意，物料编码错了也懒得改&lt;/li>
+&lt;li>系统里库存数和实物对不上，没人查&lt;/li>
+&lt;li>报表没人看，因为“不准”“没用”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>为什么？&lt;/strong>
+&lt;strong>没有建立“数据治理”机制。&lt;/strong>
+ERP的核心是数据，数据不干净，系统就是“垃圾进，垃圾出”。&lt;/p></description></item><item><title>库存压了500万才懂：RFID就是降维打击</title><link>https://supplychain-tips.pages.dev/posts/rfid-inventory-blow/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-inventory-blow/</guid><description>&lt;p>兄弟，先别急着关页面。&lt;/p>
+&lt;p>我知道，你现在大概率正盯着仓库盘点表头皮发麻：上个月又盘亏了30万的货，老板拍桌子问你“库存去哪了”，你只能憋出一句“可能是系统误差”。&lt;/p>
+&lt;p>或者，你刚装完一套几百万的WMS系统，结果发现出库效率依然拉胯，扫码枪像老太太过马路，工人每天要走两万步，腿都跑细了。&lt;/p>
+&lt;p>库存压了500万、盘点通宵、货物丢失——这些痛，干过供应链的都懂。&lt;/p>
+&lt;p>但我要告诉你一个扎心的事实：&lt;strong>这些破事，90%都能用RFID技术解决。&lt;/strong> 不是画饼，不是PPT上的黑话，是真的能落地、能省钱、能让你在老板面前硬气一回的东西。&lt;/p>
+&lt;p>RFID，全称Radio Frequency Identification，中文叫射频识别。听着高大上？不，它就是个“智能贴纸”。跟超市防盗扣、公交卡差不多原理。&lt;/p>
+&lt;p>&lt;strong>核心就一句话：让每件货都能自己“说话”，不用人盯着。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-扫码枪那是上个世纪的玩法">1. 扫码枪？那是上个世纪的玩法&lt;/h3>
+&lt;p>你还在用PDA扫码枪？兄弟，那是“点对点”的祖宗级操作。每扫一个码，都得把枪怼到条码上，几毫米的距离，跟打靶似的。仓库里堆了3层高的货架，你让工人踩着梯子扫？效率能高才见鬼。&lt;/p>
+&lt;p>&lt;strong>RFID怎么干？简单粗暴。&lt;/strong>&lt;/p>
+&lt;p>想象一下，你给每个箱子贴上一张指甲盖大小的电子标签。然后，你拿着一个手持终端，或者直接装个固定式读卡器在仓库门口。&lt;strong>不需要“扫”，只需要“经过”或“靠近”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>一托盘货从门口推过去，3秒内，读卡器自动“喊”出：&lt;strong>“货物A 50件已入库，货物B 30件已出库，货物C 20件正在途中。”&lt;/strong>&lt;/li>
+&lt;li>盘点？不用翻箱倒柜。拿着读卡器在货架前走一圈，&lt;strong>几百件货的数据自动上传&lt;/strong>，误差率从5%下降到0.1%以内。&lt;/li>
+&lt;li>找货？输入SKU，读卡器直接告诉你“在3排2列5层”，误差不超过半米。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别跟我扯什么“条码更便宜”。&lt;/strong> 条码省下来的那点纸钱，够你赔几次盘亏的？一个RFID标签现在成本3毛钱左右，批量买更便宜。&lt;strong>你盘亏一次损失几千上万，够买几万个标签了。&lt;/strong>&lt;/p>
+&lt;h3 id="2-盘点通宵那是体力活不是技术活">2. 盘点“通宵”？那是体力活，不是技术活&lt;/h3>
+&lt;p>干过仓库的都懂，每月盘点就是大型“渡劫现场”。关仓库、拉闸、全员上阵，拿个纸笔或PDA，从晚上8点搞到凌晨3点，腿软眼花，最后数据还对不上。老板问：“还差5万块的货去哪了？”你只能沉默。&lt;/p>
+&lt;p>&lt;strong>RFID让你从“体力活”变成“喝咖啡”。&lt;/strong>&lt;/p>
+&lt;p>怎么干？你只需要推着一个类似行李箱的手持车，或者干脆装个固定式读卡器在仓库顶棚。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>固定式读卡器&lt;/strong>：24小时自动扫描，每10秒更新一次库存报告。你坐在办公室打开电脑，就能看见：“当前库存：3567件，与系统差异：0件。”&lt;/li>
+&lt;li>&lt;strong>手持式/手推车&lt;/strong>：以前盘点一整个仓库要5小时，现在&lt;strong>半小时搞定&lt;/strong>。推着车走一圈，所有数据自动录入，还能实时预警：“注意！A区少了一箱货，B区多了一箱。”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你问我为什么？&lt;/strong> 因为RFID能同时读取几百个标签，而且不怕遮挡。条码只能一对一，RFID可以&lt;strong>一对多&lt;/strong>。这就是降维打击。&lt;/p>
+&lt;p>&lt;strong>省下的时间，你干点啥不好？&lt;/strong> 研究研究采购策略，或者早点回家陪老婆孩子，不比在仓库闻灰尘强？&lt;/p>
+&lt;h3 id="3-货物消失别让员工背锅">3. 货物“消失”？别让员工背锅&lt;/h3>
+&lt;p>“货去哪了？是不是被偷了？”这种话，说出来得罪人，不说又憋屈。实际上，很多时候是流程漏洞：工人搬错库位、发货时漏拣、退货没及时入库。&lt;/p>
+&lt;p>&lt;strong>RFID能当你的“天眼”。&lt;/strong>&lt;/p>
+&lt;p>在每个关键节点装读卡器：&lt;strong>收货口、发货口、货架库位、电梯口、甚至叉车上&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>工人搬货时，如果没扫描库位标签，系统直接报警：&lt;strong>“警告！你正在将货物A放入B区，请放回正确位置。”&lt;/strong>&lt;/li>
+&lt;li>发货时，系统自动核对订单和托盘标签：&lt;strong>“订单5件，实际装了6件，请重新确认。”&lt;/strong>&lt;/li>
+&lt;li>退货时，商品被贴上RFID标签后，自动归入“退货待处理库”，不用人工登记。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据说话最硬气。&lt;/strong> 以前丢货、错货，查监控要两天。现在系统能精确到&lt;strong>哪个员工、几点几分、在哪个库位、操作了哪件货&lt;/strong>。谁敢甩锅？谁背锅？&lt;/p>
+&lt;h3 id="4-搞rfid是不是得花大价钱">4. 搞RFID，是不是得花大价钱？&lt;/h3>
+&lt;p>很多人一听“技术”就怕，觉得要上ERP、上MES、请咨询公司，没个百八十万下不来。&lt;/p>
+&lt;p>&lt;strong>错！那是五年前的老黄历了。&lt;/strong>&lt;/p>
+&lt;p>现在RFID方案已经非常成熟，&lt;strong>可以“小步快跑”&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>入门级&lt;/strong>：买10个手持读卡器（几百块一个）+ 几千个标签（3毛一个）。总共不到1万块，就能把一个关键库房先盘活。先跑通，再复制。&lt;/li>
+&lt;li>&lt;strong>进阶版&lt;/strong>：加装固定式读卡器（几千块一个）+ 安装一个轻量级中间件（几千块）。总投入&lt;strong>2-5万&lt;/strong>，就能实现出入库自动扫描、实时库存、异常预警。&lt;/li>
+&lt;li>&lt;strong>土豪版&lt;/strong>：全仓覆盖，无人值守，自动盘点，甚至跟AGV小车联动。投入&lt;strong>10-30万&lt;/strong>，但一年能省下的盘亏损失和人工成本，绝对不止这个数。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账：&lt;/strong>
+你仓库一个月盘亏3万，一年就是36万。加上盘点的人工成本（5个人，每人加班费200，每月一次，一年1.2万），还有错发退货的损失。&lt;strong>你花5万上RFID，一年就能回本，后面全是纯赚。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>别犹豫了。&lt;/strong> 这玩意儿不是科幻片，不是PPT，是实实在在能帮你从“苦逼采购/仓库主管”变成“公司降本增效功臣”的武器。&lt;/p>
+&lt;p>你还在等什么？等老板把你叫到办公室说“库存又亏损了，扣你绩效”吗？&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>供应链协同3大坑，我踩了5年才爬出来</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>你有没有想过，&lt;strong>为什么你的供应链天天炸锅，别人的却像开了挂？&lt;/strong>&lt;/p>
+&lt;p>上周一个采购兄弟找我喝酒，红着眼说：“我们公司上个月压了800万库存，老板让我写检讨。可明明是销售乱承诺、生产瞎排期、物流总掉链子，凭什么让我背锅？”&lt;/p>
+&lt;p>我听完，把干了10年的血泪经验拍在桌上：&lt;strong>供应链协同不是喊口号，是玩命躲坑。&lt;/strong> 今天不扯理论，就聊我踩了5年才爬出来的3个天坑。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑一信息孤岛你以为的协同其实是各玩各的">坑一：信息孤岛——你以为的协同，其实是各玩各的&lt;/h3>
+&lt;p>&lt;strong>最扎心的场景：&lt;/strong>
+销售拍胸脯跟客户说“7天交货”，转头甩一张Excel给采购。
+采购一看傻眼：核心物料要30天采购周期。
+生产部呢？按自己的节奏排产，发现缺料了才骂采购“为啥不早说”。
+物流最后出场，发现货没齐，车白等一天。&lt;/p>
+&lt;p>&lt;strong>我踩过的坑：&lt;/strong>
+2019年，我们公司做双11大促。销售部提前2个月给预测，说A产品要10万件。
+采购拼命囤货，结果销售中途改方案，主推B产品。
+最后A库存积压300万，B产品断货赔了违约金。
+复盘时才发现：&lt;strong>销售的计划藏在微信群里，采购的订单锁在ERP里，生产的排期写在白板上。&lt;/strong> 每个部门都觉得自己在“干活”，但合起来就是一场灾难。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>统一数据平台&lt;/strong>：别再用Excel传来传去。上系统，哪怕先用钉钉+简道云搭个轻量级协同表，让所有数据实时更新。&lt;/li>
+&lt;li>&lt;strong>强制共享&lt;/strong>：我定了个规矩——任何部门调整计划，必须在共享文档里标注“影响范围”。不填？下次会上一顿怼。&lt;/li>
+&lt;li>&lt;strong>设“信息官”&lt;/strong>：每周一次跨部门碰头会，只干一件事：把所有人的数据对一遍，找出冲突点。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 信息不透明，协同就是放屁。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑二库存黑洞越管越多越多越慌">坑二：库存黑洞——越管越多，越多越慌&lt;/h3>
+&lt;p>&lt;strong>灵魂拷问：&lt;/strong>
+你公司的库存，是不是像前男友的心——猜不透、理不清、还总爆雷？
+你以为囤货是防断料，结果成了套牢。你以为JIT（零库存）是潮流，结果一波动就断供。&lt;/p>
+&lt;p>&lt;strong>我的血泪史：&lt;/strong>
+2021年，我们引入“智能补货系统”，以为能躺平。结果系统疯狂建议囤货，因为算法只考虑了历史销量，没算到：&lt;strong>供应商突然涨价、港口罢工、客户临时砍单。&lt;/strong> 三个月后，仓库堆满了“系统觉得该囤”的货，销售却说“行情变了，这些卖不动了”。&lt;/p>
+&lt;p>&lt;strong>后来怎么治？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ABC分类法&lt;/strong>：别搞一刀切。A类（高价值/长周期）按订单备，B类（中等）设安全库存，C类（低价值/易得）随用随买。&lt;/li>
+&lt;li>&lt;strong>动态缓冲&lt;/strong>：安全库存不是定死的。比如你给某物料设了10天安全量，但发现供应商经常晚3天？直接调到15天。别信什么“理论公式”，&lt;strong>活数据比死模型管用&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>定期“清淤”&lt;/strong>：每月一次库存盘点，把呆滞品挑出来。能退的退，能折价卖的卖，哪怕报废也别占地方。&lt;strong>库存是负债，不是资产。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>扎心真相：&lt;/strong> 你囤的不是货，是焦虑。协同的第一步，是让库存会“呼吸”。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑三流程断裂以为在接力实际在甩锅">坑三：流程断裂——以为在接力，实际在甩锅&lt;/h3>
+&lt;p>&lt;strong>常见画面：&lt;/strong>
+采购说“我下单了，供应商没发货”——怪供应商。
+生产说“我排产了，物料没到”——怪采购。
+物流说“我派车了，货没齐”——怪生产。
+销售说“我签单了，客户投诉”——怪所有人。&lt;/p>
+&lt;p>&lt;strong>我遇到过最离谱的事：&lt;/strong>
+一个紧急订单，销售提前3天通知了。采购当天就下单，但&lt;strong>供应商的确认函发到了采购的私人邮箱&lt;/strong>，采购没看。
+生产按原计划排产，直到开工才发现缺料。
+追责时，采购说“我发了”，供应商说“我回了”，但就是没人核验。&lt;strong>流程没有闭环，等于没流程。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么闭环？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每个环节设“确认键”&lt;/strong>：下单后，必须确认供应商收到；收货后，必须确认质检通过。没确认？系统自动报警。&lt;/li>
+&lt;li>&lt;strong>跨部门“握手”规则&lt;/strong>：比如生产部要提前2天告诉采购“这个单要加急”，采购必须在4小时内回复“能不能搞定”。超时不回？默认可以，出问题算采购的。&lt;/li>
+&lt;li>&lt;strong>用工具锁死流程&lt;/strong>：别信“人盯人”。上系统，设置强制步骤——不填完上一个字段，下一个就打不开。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一句话：&lt;/strong> 没有闭环的协同，就是互相甩锅大赛。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说点真话">最后说点真话&lt;/h3>
+&lt;p>供应链协同，不是买套软件、开几次会就能搞定。&lt;strong>本质是砍掉部门墙，让数据流动起来，让责任分得清。&lt;/strong>&lt;/p>
+&lt;p>我见过最牛的公司，靠的是&lt;strong>三个字：认、干、扛&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>认&lt;/strong>：承认信息不透明，承认库存会压死人，承认流程有漏洞。&lt;/li>
+&lt;li>&lt;strong>干&lt;/strong>：用最笨的方法——每天对一遍数据，每周清一次库存，每月改一次流程。&lt;/li>
+&lt;li>&lt;strong>扛&lt;/strong>：出问题时，别先分锅，先解决问题。协同是“我们”，不是“你们”。&lt;/li>
+&lt;/ul>
+&lt;p>如果你现在还在一个人扛，或者刚入行被坑得怀疑人生，&lt;strong>别慌，这些都正常&lt;/strong>。我从月薪5000干到年薪50万，靠的就是把每个坑都踩实了，再爬出来。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」&lt;/strong>，后台回复“协同”，我把我用过的库存模板、流程检查清单发你。别再让你的供应链，成为背锅之旅。&lt;/p></description></item></channel></rss>

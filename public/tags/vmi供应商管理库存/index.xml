@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMI供应商管理库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/vmi%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/</link><description>Recent content in VMI供应商管理库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/vmi%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：VMI就是救命稻草</title><link>https://supplychain-tips.pages.dev/posts/vmi-rescue/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-rescue/</guid><description>&lt;p>&lt;strong>你猜，供应链人最崩溃的瞬间是什么？&lt;/strong>&lt;/p>
+&lt;p>不是供应商断货，不是老板催KPI，而是——
+&lt;strong>仓库里堆了500万的货，但产线就是停线了。&lt;/strong>&lt;/p>
+&lt;p>就离谱。
+明明库存报表上数字漂亮，但实际需要的物料永远缺。你说气不气人？&lt;/p>
+&lt;p>这事儿我干了8年，直到被逼到墙角，才搞明白一个道理：
+&lt;strong>别自己扛库存，让供应商来扛。&lt;/strong>&lt;/p>
+&lt;p>对，就是VMI（供应商管理库存）。
+别觉得这是大厂专属，中小厂玩好了，一样翻盘。&lt;/p>
+&lt;hr>
+&lt;h3 id="为什么你越管库存库存越崩">为什么你越管库存，库存越崩？&lt;/h3>
+&lt;p>先问个扎心的：
+&lt;strong>你公司里，谁在管库存？&lt;/strong>&lt;/p>
+&lt;p>大概率是采购。但采购的KPI是啥？
+“别断货！”
+于是呢？疯狂下订单，疯狂囤货。
+结果就是：&lt;/p>
+&lt;ul>
+&lt;li>库房里堆满“备胎”物料，但产线要的急货永远没有&lt;/li>
+&lt;li>资金全压在仓库里，现金流比你的发际线还危险&lt;/li>
+&lt;li>月底盘点，财务追着你问“这堆灰是啥时候买的？”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你越努力，库存越失控。&lt;/strong>
+因为你自己扛库存，就是在赌命——赌预测准、赌供应商靠谱、赌客户不变卦。
+现实是：&lt;strong>预测永远是错的。&lt;/strong>&lt;/p>
+&lt;p>那VMI怎么破局？
+简单说：&lt;strong>把库存的“锅”甩给供应商。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="vmi到底是个啥3句话讲透">VMI到底是个啥？3句话讲透&lt;/h3>
+&lt;p>别被高大上的名字唬住。VMI本质就3条：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>供应商看你的库存数据&lt;/strong>
+通过系统或共享表格，供应商实时知道你用了多少、还剩多少。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>供应商主动补货&lt;/strong>
+不用你催，他根据消耗速度，自己安排送货。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>你用了再付钱&lt;/strong>
+货入库，但所有权还是供应商的。你从仓库“拿走”用了，才算采购。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>听着很爽是吧？&lt;/strong>
+但别急，这玩意儿不是灵丹妙药。没搞对，比你自己管还惨。&lt;/p>
+&lt;hr>
+&lt;h3 id="3个坑踩一个就完蛋">3个坑，踩一个就完蛋&lt;/h3>
+&lt;h4 id="坑1数据不透明等于白搞">坑1：数据不透明，等于白搞&lt;/h4>
+&lt;p>VMI的核心是&lt;strong>信息共享&lt;/strong>。
+但很多公司搞VMI，还是老一套：&lt;/p>
+&lt;ul>
+&lt;li>给供应商一个Excel表，每月更新一次&lt;/li>
+&lt;li>或者系统数据延迟3天&lt;/li>
+&lt;/ul>
+&lt;p>这不叫VMI，叫&lt;strong>自欺欺人&lt;/strong>。
+供应商看到的是过期数据，补的货要么多了要么少了。
+结局：库存没降，断货更频繁。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>
+上系统。哪怕用个共享的在线表格，也得实时更新。
+别舍不得那点IT预算，断一次产线，损失够你买10年系统。&lt;/p>
+&lt;h4 id="坑2供应商不是傻子别想白嫖">坑2：供应商不是傻子，别想白嫖&lt;/h4>
+&lt;p>VMI的本质是&lt;strong>风险转移&lt;/strong>。
+你把库存风险甩给供应商，人家凭什么接？
+很多采购一上来就压价：“VMI了，你降价10%。”
+供应商扭头就走。&lt;/p>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>给供应商更长账期（比如60天）&lt;/li>
+&lt;li>或者承诺采购量保底&lt;/li>
+&lt;li>甚至分一点利润给他&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>VMI是双赢，不是单方面压榨。&lt;/strong>&lt;/p>
+&lt;h4 id="坑3别让vmi变成甩手掌柜">坑3：别让VMI变成“甩手掌柜”&lt;/h4>
+&lt;p>有些公司搞了VMI，采购就彻底躺平了。
+天天刷手机，等着供应商送货。
+结果呢？供应商自己也很忙，漏送了也没人盯。&lt;/p>
+&lt;p>&lt;strong>VMI只是工具，不是免死金牌。&lt;/strong>
+你依然得定期复盘：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率有没有提高？&lt;/li>
+&lt;li>缺货率有没有下降？&lt;/li>
+&lt;li>供应商是不是在偷懒？&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="实操版vmi落地指南照着抄">实操版VMI落地指南（照着抄）&lt;/h3>
+&lt;p>别整虚的，直接上干货。
+&lt;strong>4步走，1个月见效：&lt;/strong>&lt;/p>
+&lt;h4 id="第1步选对物料">第1步：选对物料&lt;/h4>
+&lt;p>不是所有物料都适合VMI。
+&lt;strong>优先选：&lt;/strong>&lt;/p></description></item></channel></rss>

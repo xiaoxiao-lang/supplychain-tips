@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>实战经验 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/categories/%E5%AE%9E%E6%88%98%E7%BB%8F%E9%AA%8C/</link><description>Recent content in 实战经验 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/categories/%E5%AE%9E%E6%88%98%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库管理的5个关键指标（KPI）</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/</guid><description>&lt;h1 id="仓库管理的5个关键指标kpi">仓库管理的5个关键指标（KPI）&lt;/h1>
+&lt;p>仓库是供应链的心脏。今天说说衡量仓库管理水平最重要的5个KPI。&lt;/p>
+&lt;h2 id="1-库存准确率">1. 库存准确率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：盘点准确数量 ÷ 账面数量 × 100%&lt;/p>
+&lt;ul>
+&lt;li>优秀：99.5%以上&lt;/li>
+&lt;li>良好：98%-99%&lt;/li>
+&lt;li>合格：95%-98%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>提升方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>推行条码管理&lt;/li>
+&lt;li>定期盘点（每日小盘、每周大盘）&lt;/li>
+&lt;li>责任到人&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-订单履约率">2. 订单履约率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：按时完成订单数 ÷ 总订单数 × 100%&lt;/p>
+&lt;p>这是客户最关心的指标。电商行业要求99%以上。&lt;/p>
+&lt;p>&lt;strong>提升方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>优化拣货路径&lt;/li>
+&lt;li>引入RF枪/PDA&lt;/li>
+&lt;li>错峰备货&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-库内周转率">3. 库内周转率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：出库金额 ÷ 平均库存金额&lt;/p>
+&lt;p>周转率越高，说明资金占用越少。&lt;/p>
+&lt;p>制造业通常要求8-12次/年。&lt;/p>
+&lt;h2 id="4-人均产值">4. 人均产值&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：月出库金额 ÷ 仓库总人数&lt;/p>
+&lt;p>反映仓库的人效水平。&lt;/p>
+&lt;h2 id="5-货损货差率">5. 货损货差率&lt;/h2>
+&lt;p>&lt;strong>计算公式&lt;/strong>：货损货差金额 ÷ 总出库金额 × 100%&lt;/p>
+&lt;p>零售行业要求0.1%以内。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>建议&lt;/strong>：不要同时抓所有指标，先从最影响业务的1-2个开始，达成后再加下一个。&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>关注公众号「供应链那些事」，一起交流仓库管理经验。&lt;/em>&lt;/p></description></item><item><title>供应链管理的核心：如何做好采购谈判</title><link>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/</guid><description>&lt;h1 id="供应链管理的核心如何做好采购谈判">供应链管理的核心：如何做好采购谈判&lt;/h1>
+&lt;p>大家好，我是老王，在物流行业摸爬滚打了12年。今天聊一个供应链人都关心的话题：&lt;strong>采购谈判&lt;/strong>。&lt;/p>
+&lt;p>很多人觉得谈判就是&amp;quot;砍价&amp;quot;，其实远远不是。谈判的本质是&lt;strong>价值交换&lt;/strong>，是一场让双方都觉得赢了的博弈。&lt;/p>
+&lt;h2 id="一谈判前必做的3件事">一、谈判前必做的3件事&lt;/h2>
+&lt;h3 id="1-摸清对方底牌">1. 摸清对方底牌&lt;/h3>
+&lt;ul>
+&lt;li>供应商的的成本结构&lt;/li>
+&lt;li>他们的竞争对手是谁&lt;/li>
+&lt;li>他们的库存情况&lt;/li>
+&lt;li>旺季还是淡季&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>记住：你了解得越多，谈判空间就越大。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="2-明确自己的底线">2. 明确自己的底线&lt;/h3>
+&lt;ul>
+&lt;li>目标价是多少？&lt;/li>
+&lt;li>哪些条件可以让步？&lt;/li>
+&lt;li>哪些条件绝对不能让步？&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-准备好替代方案">3. 准备好替代方案&lt;/h3>
+&lt;ul>
+&lt;li>备选供应商谈好了吗？&lt;/li>
+&lt;li>自产还是外购？&lt;/li>
+&lt;/ul>
+&lt;h2 id="二谈判中的5个技巧">二、谈判中的5个技巧&lt;/h2>
+&lt;h3 id="技巧一先听后说">技巧一：先听后说&lt;/h3>
+&lt;p>不要一上来就报价。先让对方说，听出他们的痛点和期望。&lt;/p>
+&lt;h3 id="技巧二不要接受第一个offer">技巧二：不要接受第一个offer&lt;/h3>
+&lt;p>通常对方第一次报价都有10-15%的水分。&lt;/p>
+&lt;h3 id="技巧三使用如果那么句式">技巧三：使用&amp;quot;如果&amp;hellip;那么&amp;hellip;&amp;ldquo;句式&lt;/h3>
+&lt;p>&amp;ldquo;如果订单量增加到2000件，那么价格能降多少？&amp;rdquo;&lt;/p>
+&lt;h3 id="技巧四谈总价不谈单价">技巧四：谈总价，不谈单价&lt;/h3>
+&lt;p>很多供应商单价便宜但附加费用高。&lt;/p>
+&lt;h3 id="技巧五争取非价格利益">技巧五：争取非价格利益&lt;/h3>
+&lt;p>账期、免费售后、优先发货&amp;hellip;&amp;hellip;这些都是可以谈的。&lt;/p>
+&lt;h2 id="三谈判后的跟进">三、谈判后的跟进&lt;/h2>
+&lt;p>合同签订不是终点，是合作的开始：&lt;/p>
+&lt;ol>
+&lt;li>及时付款维护信用&lt;/li>
+&lt;li>定期复盘供应商表现&lt;/li>
+&lt;li>保持沟通渠道畅通&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;strong>总结一下&lt;/strong>：好的采购谈判，不是把供应商榨干，而是建立长期稳定的合作关系。&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>关注公众号「供应链那些事」，获取更多实战经验。&lt;/em>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>融资陷阱 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%9E%8D%E8%B5%84%E9%99%B7%E9%98%B1/</link><description>Recent content in 融资陷阱 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%9E%8D%E8%B5%84%E9%99%B7%E9%98%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>干了5年供应链金融，我劝你别碰这3个坑</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</guid><description>&lt;p>先讲个真事儿。&lt;/p>
+&lt;p>去年，我一个做服装批发的哥们儿，接到个大单——给某连锁品牌供货。对方说，账期90天，但你可以拿我的订单去银行融资，利息低、放款快。&lt;/p>
+&lt;p>他没多想，签了。订单融了300万，赶紧买布、招工、加班加点干。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>货发了，钱没到。&lt;/strong>&lt;/p>
+&lt;p>品牌方说质检有问题，拒付。银行追着他还款，利息按天滚。他手里没钱，又借了高利贷补窟窿。&lt;/p>
+&lt;p>三个月后，公司破产了。&lt;/p>
+&lt;p>他坐在烧烤摊前，喝多了跟我说：“我他妈以为供应链金融是救命的，结果是捅刀的。”&lt;/p>
+&lt;p>这不是段子。这是每天发生在无数中小企业身上的真实悲剧。&lt;/p>
+&lt;p>供应链金融这个概念，这几年被吹上了天。银行、平台、SaaS服务商，都在喊“解决中小企业融资难”。但真相是——&lt;strong>很多玩法，本质上是把风险包装成福利，再卖给你。&lt;/strong>&lt;/p>
+&lt;p>今天，我就把这行的3个坑扒干净。你踩过哪一个，评论区告诉我。&lt;/p>
+&lt;h3 id="1-以为核心企业兜底其实是责任甩锅">1. 以为“核心企业兜底”，其实是“责任甩锅”&lt;/h3>
+&lt;p>很多人一听说“核心企业”背书，就觉得稳了。大公司嘛，不会赖账。&lt;/p>
+&lt;p>&lt;strong>天真。&lt;/strong>&lt;/p>
+&lt;p>现实是：核心企业只认自己的账，不认你的命。&lt;/p>
+&lt;p>你给某巨头供货，它给你开一张“应收账款转让确认函”，银行看了就放款。听起来完美吧？但关键点在于——&lt;strong>这笔账，核心企业只承诺“在你不出问题的情况下付款”，而不是“无条件兜底”。&lt;/strong>&lt;/p>
+&lt;p>什么意思？&lt;/p>
+&lt;p>一旦你的货有瑕疵、延迟、甚至包装不对，核心企业就能以“合同纠纷”为由，拒绝付款。银行可不管这些，直接找你追偿。&lt;/p>
+&lt;p>你以为是核心企业替你扛雷，实际上是你替核心企业扛雷。&lt;/p>
+&lt;p>&lt;strong>我见过最惨的案例：&lt;/strong> 一个做电子元件的老板，给某手机大厂供了半年货，应收账款融了2000万。结果大厂突然换供应商，老订单全成了“争议账款”。银行冻结他账户，他连员工工资都发不出。&lt;/p>
+&lt;p>所以，别信什么“核心企业信用”。&lt;strong>信用是别人的，命是你自己的。&lt;/strong>&lt;/p>
+&lt;h3 id="2-把救命钱当便宜钱结果利息比高利贷还狠">2. 把“救命钱”当“便宜钱”，结果利息比高利贷还狠&lt;/h3>
+&lt;p>供应链金融的广告，最爱打“利率低至X%”的幌子。看着比网贷便宜，对吧？&lt;/p>
+&lt;p>&lt;strong>但你算过实际成本吗？&lt;/strong>&lt;/p>
+&lt;p>举个例子：你手里有笔100万的应收账款，账期90天。银行说融资利率6%，你一听，一年才6万，不贵。&lt;/p>
+&lt;p>但你仔细看合同：&lt;/p>
+&lt;ul>
+&lt;li>手续费：1%（1万）&lt;/li>
+&lt;li>管理费：0.5%（5000）&lt;/li>
+&lt;li>保证金：10%（10万，冻结到还款日）&lt;/li>
+&lt;/ul>
+&lt;p>实际到手：100万 - 1万 - 5000 - 10万 = &lt;strong>88.5万&lt;/strong>&lt;/p>
+&lt;p>90天后，你还100万，利息+本金共101.5万。相当于你借88.5万，用了90天，还了101.5万。&lt;/p>
+&lt;p>&lt;strong>年化利率多少？&lt;/strong> 我帮你算：利息成本13万（1.5万费用+1万利息），除以88.5万本金，再除以90天乘以365天≈&lt;strong>59.7%&lt;/strong>&lt;/p>
+&lt;p>你没看错，&lt;strong>接近60%的年化利率。&lt;/strong>&lt;/p>
+&lt;p>这还叫“低息”？高利贷看了都沉默。&lt;/p>
+&lt;p>&lt;strong>所以，凡是不给你算实际年化利率的供应链金融产品，一律当骗子处理。&lt;/strong>&lt;/p>
+&lt;h3 id="3-以为数据透明能控风险结果被假数据坑到裤衩不剩">3. 以为“数据透明”能控风险，结果被“假数据”坑到裤衩不剩&lt;/h3>
+&lt;p>现在很多平台吹“数字供应链金融”，说用大数据、区块链、AI风控。听着高大上，但&lt;strong>数据是死的，人是活的。&lt;/strong>&lt;/p>
+&lt;p>最常见的手法：&lt;strong>伪造贸易背景。&lt;/strong>&lt;/p>
+&lt;p>供应商和核心企业串通，开假合同、假发票、假入库单。银行一看，订单真实、回款记录漂亮，立马放款。等钱到账，两边分赃，然后跑路。&lt;/p>
+&lt;p>你以为你是受害者？&lt;strong>不，你可能是帮凶。&lt;/strong>&lt;/p>
+&lt;p>有人会说：“我小企业，哪敢跟核心企业串通？”&lt;/p>
+&lt;p>那我问你：你有没有为了融资，&lt;strong>虚报过订单金额？&lt;/strong> 有没有&lt;strong>把一笔订单拆成多笔&lt;/strong>，去不同平台重复融资？&lt;/p>
+&lt;p>这些操作，在业内叫“萝卜章”或“刷单”。平台的数据模型根本识别不了，因为它们只认你上传的文件，不认你仓库里到底有没有货。&lt;/p>
+&lt;p>&lt;strong>结果就是：&lt;/strong> 你融了不该融的钱，一旦资金链断裂，第一个被起诉的就是你。&lt;/p>
+&lt;p>&lt;strong>真实案例：&lt;/strong> 2022年，某知名供应链金融平台爆雷，涉及80亿假订单。无数中小企业老板，因为参与了“刷单”，被列入失信名单，连高铁都坐不了。&lt;/p>
+&lt;p>数据能帮你省钱，也能帮你进监狱。&lt;strong>别把风控当儿戏，更别把法律当玩笑。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>说点真心话：&lt;/strong>&lt;/p>
+&lt;p>供应链金融不是不能碰，但你要记住三条底线：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>只看实际年化利率，不看宣传利率。&lt;/strong> 低于10%是馅饼，高于20%是陷阱。&lt;/li>
+&lt;li>&lt;strong>别信“核心企业兜底”，信“自己现金流”。&lt;/strong> 你的钱能扛多久？账期超过60天的订单，最好别碰融资。&lt;/li>
+&lt;li>&lt;strong>别为融资造假，一次造假，终身污点。&lt;/strong> 银行、平台的数据可能不透明，但征信系统很透明。&lt;/li>
+&lt;/ol>
+&lt;p>我知道，在这个行业里，中小企业主是弱势群体。你缺钱、缺资源、缺话语权，容易被忽悠。但&lt;strong>越难，越要冷静。&lt;/strong>&lt;/p></description></item></channel></rss>

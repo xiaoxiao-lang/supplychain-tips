@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物料需求计划 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/</link><description>Recent content in 物料需求计划 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白，MRP其实就这3步</title><link>https://supplychain-tips.pages.dev/posts/mrp-three-steps/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-three-steps/</guid><description>&lt;p>&lt;strong>别被ERP骗了，MRP不是个按钮&lt;/strong>&lt;/p>
+&lt;p>兄弟，咱们聊点实在的。&lt;/p>
+&lt;p>你是不是也这样？每个月月底，对着ERP系统里那一串物料编码，头大得像被门夹过。系统跑一次MRP，结果出来一堆建议采购单，你一看，好家伙，有些料要买5000个，有些料显示“负数”——系统让你补货，但仓库里堆着去年买的2000个还没拆封。&lt;/p>
+&lt;p>你问IT怎么回事，IT说“数据问题”。你问PMC，PMC说“计划没问题”。你问自己，这MRP到底是不是个玄学？&lt;/p>
+&lt;p>我告诉你，&lt;strong>MRP不是个按钮&lt;/strong>。别指望点一下鼠标，系统就能替你搞定一切。&lt;/p>
+&lt;p>干了10年供应链，库存压了500万，天天被老板盯着库存周转率，后来发现，其实MRP就那几步破事。今天给你拆开揉碎讲清楚。&lt;/p>
+&lt;p>&lt;strong>### 第一步：搞清楚你到底要卖什么——MPS是命根子&lt;/strong>&lt;/p>
+&lt;p>MRP的全称叫“物料需求计划”，但很多公司连“需求”都搞不清楚就开始跑计划。&lt;/p>
+&lt;p>真相是：&lt;strong>MPS（主生产计划）才是MRP的亲爹&lt;/strong>。&lt;/p>
+&lt;p>别笑，真事。我见过太多公司，销售拍脑袋说“这个月我们要卖1000台”，然后PMC直接拿这个数让MRP跑采购计划。结果月底销售只卖了300台，仓库堆了700台的料。&lt;/p>
+&lt;p>你问我怎么办？凉拌。&lt;/p>
+&lt;p>&lt;strong>MPS必须靠谱&lt;/strong>。怎么做？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别只看销售预测&lt;/strong>，要看历史数据+趋势+异常系数。比如去年双十一卖爆了，今年你敢不敢按去年的量备货？敢，就准备好库存压半年。&lt;/li>
+&lt;li>&lt;strong>给MPS加个“缓冲带”&lt;/strong>。比如你算出来需要1000个成品，MPS只做800个，留200个的弹性。这叫“安全库存”，但别像我当年一样，安全库存设了300%，最后仓库变成“库存博物馆”。&lt;/li>
+&lt;li>&lt;strong>MPS定下来就别天天改&lt;/strong>。今天加500，明天减300，MRP会疯，采购会疯，供应商会把你拉黑。&lt;/li>
+&lt;/ul>
+&lt;p>记住一句话：&lt;strong>MPS是爹，MRP是儿子。爹不靠谱，儿子一定乱跑。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 第二步：把BOM表当情书一样对待——数据洁癖是美德&lt;/strong>&lt;/p>
+&lt;p>BOM（物料清单）是MRP的骨架。但很多公司的BOM表，比前任的关系还乱。&lt;/p>
+&lt;p>举个例子：你的产品需要A、B、C三种物料。BOM表里写的是“A：1个，B：2个，C：3个”。但实际生产中，因为设计变更，A已经改成1.5个了。BOM表没更新。&lt;/p>
+&lt;p>MRP一跑，它以为A只要1个，结果你买了1000个，实际用掉1500个，缺料500个。生产线停了，你的电话被打爆。&lt;/p>
+&lt;p>&lt;strong>BOM表必须精确到小数点&lt;/strong>。怎么治？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周做一次BOM审计&lt;/strong>。别觉得麻烦，缺料一次损失的工时和加班费，够你买三个月的数据洁癖。&lt;/li>
+&lt;li>&lt;strong>设计变更必须走流程&lt;/strong>。别让工程师偷偷改图纸，然后微信通知你“老张，BOM我改了啊”。你问他改了啥，他发你一个表情包。这种同事，建议拉黑。&lt;/li>
+&lt;li>&lt;strong>ERP里的BOM版本要管好&lt;/strong>。旧版本别删，留着查账用。万一MRP跑错了，还能回头找原因。&lt;/li>
+&lt;/ul>
+&lt;p>说到底，&lt;strong>MRP就是个算数的机器&lt;/strong>。你给它的数据是屎，它算出来的计划就是屎。别怪系统，怪你自己。&lt;/p>
+&lt;p>&lt;strong>### 第三步：算清楚提前期——别被“7天交货”忽悠&lt;/strong>&lt;/p>
+&lt;p>MRP的核心逻辑很简单：&lt;strong>什么时间，需要什么料，需要多少&lt;/strong>。&lt;/p>
+&lt;p>但很多公司死就死在“提前期”上。&lt;/p>
+&lt;p>采购说“这个料供应商7天交货”，你信了，MRP里设了7天提前期。结果供应商第10天才到货，生产线等料，你被骂成狗。&lt;/p>
+&lt;p>&lt;strong>提前期不是供应商的承诺，是历史数据+风险系数&lt;/strong>。&lt;/p>
+&lt;p>怎么算？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>找过去3个月的实际到货天数&lt;/strong>。如果是7-12天波动，别设7天，设10天。多出的3天叫“安全提前期”。&lt;/li>
+&lt;li>&lt;strong>区分“长交期料”和“短交期料”&lt;/strong>。进口芯片、定制模具，这种料提前期可能30-60天，必须单独管理。别和普通电阻混在一起跑MRP，不然你会被“负数库存”逼疯。&lt;/li>
+&lt;li>&lt;strong>供应商的产能波动要考虑&lt;/strong>。比如春节前、双十一前，供应商自己也缺料，提前期翻倍是常态。这时候MRP要手动调整，别指望系统自动聪明。&lt;/li>
+&lt;/ul>
+&lt;p>还有一点：&lt;strong>别被“安全库存”骗了&lt;/strong>。很多公司设安全库存是为了掩盖MRP跑不准。结果安全库存越设越高，库存越压越多。最后老板问“库存为什么这么高”，你说“为了保证不缺料”。老板说“那为什么还缺料？”——你哑口无言。&lt;/p>
+&lt;p>&lt;strong>安全库存是止痛药，不是救命药。MRP算得准，才是根治。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 第四步：跑MRP不是一次性的活——动态调整才是王道&lt;/strong>&lt;/p>
+&lt;p>很多人以为，一个月跑一次MRP，生成采购单，然后就可以躺平了。&lt;/p>
+&lt;p>错。&lt;/p>
+&lt;p>&lt;strong>市场在变，订单在变，供应商也在变。MRP必须动态更新。&lt;/strong>&lt;/p>
+&lt;p>我见过最牛的公司，每天凌晨自动跑一次MRP，然后把异常的物料推送到采购手机上。采购早上起来看一眼，就知道今天该催哪个单。&lt;/p>
+&lt;p>&lt;strong>怎么做到动态调整？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>ERP里设置“计划冻结期”&lt;/strong>。比如未来7天的计划不能随便动，保证生产稳定。7天之后可以灵活调整。&lt;/li>
+&lt;li>&lt;strong>每周开一次“MRP复盘会”&lt;/strong>。别开会就是吵架，要带着数据来：哪些物料缺料了？为什么？BOM错了还是提前期错了？记录原因，下次改进。&lt;/li>
+&lt;li>&lt;strong>学会用“异常清单”&lt;/strong>。MRP跑完，别只看正常的需求，重点关注“负数库存”、“超量需求”、“未到货”这些异常项。这些才是真正会要你命的坑。&lt;/li>
+&lt;/ul>
+&lt;p>记住：&lt;strong>MRP不是算一次就完事，它是活的东西。你不管它，它迟早会捅你一刀。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>### 最后说点扎心的&lt;/strong>&lt;/p>
+&lt;p>月薪5千的采购，天天忙着催货、填单、被骂。月薪5万的采购，天天忙着分析数据、优化流程、跟老板汇报“库存周转率提升了20%”。&lt;/p>
+&lt;p>差距在哪？不是能力，是思维方式。&lt;/p>
+&lt;p>MRP这件事，说到底就是：&lt;strong>需求准、BOM准、提前期准、动态调整&lt;/strong>。4个准，你做到3个，公司就不会被库存压死；做到4个，你就是供应链大神。&lt;/p>
+&lt;p>别嫌我说话难听。库存压了500万才明白的事，今天免费告诉你了。&lt;/p>
+&lt;p>&lt;strong>最后一句：&lt;/strong>
+如果你觉得这篇有用，别自己藏着。转发给你的同事、同行，尤其是那个天天加班催料的倒霉蛋。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货
+——毕竟，供应链人的苦，只有我们自己懂。&lt;/p></description></item><item><title>库存压了800万才懂：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>&lt;strong>兄弟，你被MRP坑过吗？&lt;/strong>&lt;/p>
+&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年底，我一个做电子厂供应链的朋友，半夜给我打电话，声音都是抖的。&lt;/p>
+&lt;p>“完了，库存积压了800万，老板让我明天滚蛋。”&lt;/p>
+&lt;p>我问怎么回事。他说，MRP跑出来说未来三个月订单需求暴增，采购按系统建议狂下单，结果订单突然被砍了60%。仓库堆满了芯片，资金链差点断裂。&lt;/p>
+&lt;p>挂完电话我就在想——&lt;strong>这么多人的公司，月薪两三万的供应链总监，竟然被一个系统算得找不着北。&lt;/strong>&lt;/p>
+&lt;p>更扎心的是，很多人一边骂MRP垃圾，一边又离不开它。为什么？因为不用MRP，你连排产都做不了；用了MRP，它又像个任性的女朋友，随时给你挖坑。&lt;/p>
+&lt;p>今天不跟你扯教科书那一套。我直接说3个血泪教训，让你搞懂MRP到底该怎么用，&lt;strong>怎么让系统真正给你省钱，而不是让你背锅。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="1-mrp不是神它只是个算数工具">1. MRP不是神，它只是个算数工具&lt;/h3>
+&lt;p>&lt;strong>别把系统当决策者，它连初中生都不如。&lt;/strong>&lt;/p>
+&lt;p>很多人以为，MRP跑出来的数据就是圣旨。采购按它下单，计划按它排产，仓库按它备货。结果呢？一出事，全赖系统。&lt;/p>
+&lt;p>但你想过没有——MRP就是个加减乘除的机器，它根本不知道你的供应商靠不靠谱，客户会不会临时改单，产线良品率到底多少。&lt;/p>
+&lt;p>&lt;strong>它只做三件事：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>用BOM（物料清单）算出你需要多少料&lt;/li>
+&lt;li>用库存数据算出你现在还有多少&lt;/li>
+&lt;li>用订单数据算出你还要补多少&lt;/li>
+&lt;/ul>
+&lt;p>然后给你一个数字。&lt;/p>
+&lt;p>数字没错，但前提是&lt;strong>你给它喂的数据是屎&lt;/strong>，它拉出来的就是屎。&lt;/p>
+&lt;p>我见过太多公司，BOM表里物料编号都写错，库存数据三天没更新，客户订单还是上周的。然后一群人对着MRP的报表开会，讨论得热火朝天，最后发现——&lt;strong>方向全错了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>记住一句话：Garbage in，Garbage out。&lt;/strong>&lt;/p>
+&lt;p>你的数据不准，MRP就是个摆设。你的数据准了，它才是个好用的算盘。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-安全库存不是安全是毒药">2. 安全库存不是安全，是毒药&lt;/h3>
+&lt;p>&lt;strong>你设的安全库存，可能正在吃掉你的利润。&lt;/strong>&lt;/p>
+&lt;p>这是MRP最坑的地方。&lt;/p>
+&lt;p>很多人为了“万无一失”，给每个物料都设一个高高的安全库存。MRP跑出来一看，需求1000，库存800，安全库存300——好，补500。&lt;/p>
+&lt;p>结果呢？仓库里堆满了“以防万一”的料，资金全压在那里，周转率低得吓人。老板一看报表，问：“怎么库存又高了？”你说：“这是安全库存。”&lt;/p>
+&lt;p>&lt;strong>老板心里想的是：安全个屁，这分明是库存炸弹。&lt;/strong>&lt;/p>
+&lt;p>那怎么办？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分类设库存&lt;/strong>：ABC分析法听过没？A类贵价物料，安全库存设低点，甚至不设；C类便宜料，可以高一点。&lt;/li>
+&lt;li>&lt;strong>动态调整&lt;/strong>：安全库存不是定了就不能改。每个月根据实际出货、供应商交期、生产波动，手动调一调。&lt;/li>
+&lt;li>&lt;strong>别让MRP自动补&lt;/strong>：很多系统默认勾选“自动补安全库存”，你一不注意，它就帮你疯狂下单。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相是：安全库存是给管理失误买的保险。你管理越烂，保险越贵。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-计划赶不上变化那就让计划更短">3. 计划赶不上变化？那就让计划更短&lt;/h3>
+&lt;p>&lt;strong>为什么你的MRP永远不准？因为你计划周期太长了。&lt;/strong>&lt;/p>
+&lt;p>很多公司喜欢做季度计划、半年计划。MRP跑一次，然后三个月不动。&lt;/p>
+&lt;p>但现实是什么？客户今天下单，明天改单，后天取消。产线今天正常，明天故障，后天缺料。&lt;/p>
+&lt;p>&lt;strong>你拿着三个月前的计划，去应对今天的市场，不亏钱谁亏钱？&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的案例：一家做小家电的公司，MRP计划周期是60天。结果一个爆款上线后，需求突然暴增3倍。系统还在按旧计划下单，采购不知道，供应商没准备。等反应过来，货期已经晚了两个月，市场份额被对手抢走了。&lt;/p>
+&lt;p>&lt;strong>解决方案就一句话：缩短计划周期，加快迭代频率。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周跑一次MRP&lt;/strong>，别偷懒。系统不累，你累点没事。&lt;/li>
+&lt;li>&lt;strong>滚动计划&lt;/strong>：别做死板的月度计划，用滚动13周计划。每周更新一次，动态调整未来三个月的采购和生产。&lt;/li>
+&lt;li>&lt;strong>关键物料单独盯&lt;/strong>：对交期长、价值高的物料，要手动跟进，别全交给系统。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：MRP反应越快，你踩坑越少。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-别让mrp背锅先管好你的数据">4. 别让MRP背锅，先管好你的数据&lt;/h3>
+&lt;p>&lt;strong>数据不准，MRP就是废铁。&lt;/strong>&lt;/p>
+&lt;p>这句话我说第二遍了，但值得再强调一次。&lt;/p>
+&lt;p>我进过一家公司，库存差异率高达20%。什么意思？系统显示库存1000，实际只有800。MRP跑出来说不用补，结果产线第二天就缺料停工了。&lt;/p>
+&lt;p>&lt;strong>最恐怖的是，他们还在用这个数据做决策。&lt;/strong>&lt;/p>
+&lt;p>怎么解决？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>盘点频次提高&lt;/strong>：别等年底盘点。高价值物料每周盘一次，普通物料每月盘一次。&lt;/li>
+&lt;li>&lt;strong>系统录入要严格&lt;/strong>：入库、出库、退料，每一步都要有人签字确认。别让员工“先干活后补单”。&lt;/li>
+&lt;li>&lt;strong>BOM表要实时更新&lt;/strong>：物料变更、替代料、版本升级，必须第一时间更新系统。不然MRP算出来的都是错误。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据准了，MRP才有意义。不然你就是在拿错误的数据，做错误的决策，最后得出错误的结果。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-人机结合才是mrp的正确用法">5. 人机结合，才是MRP的正确用法&lt;/h3>
+&lt;p>&lt;strong>系统帮你算，人帮你决策。&lt;/strong>&lt;/p>
+&lt;p>这是最后一点，也是最核心的一点。&lt;/p>
+&lt;p>MRP能告诉你“缺什么”“缺多少”，但它不能告诉你“该不该买”。&lt;/p>
+&lt;p>比如，MRP算出你需要补1000个芯片。但你知道供应商下周要涨价，或者客户可能在改单，或者产线有批不良品要返工——这些信息，MRP不知道。&lt;/p>
+&lt;p>&lt;strong>所以，正确的流程是：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>MRP跑出数据&lt;/li>
+&lt;li>你结合市场、供应商、产线信息做判断&lt;/li>
+&lt;li>人工调整后，再给采购下指令&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别做MRP的奴隶，做它的主人。&lt;/strong>&lt;/p></description></item></channel></rss>

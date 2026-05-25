@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMI on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/vmi/</link><description>Recent content in VMI on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/vmi/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了800万，老板骂我傻X，直到用了这招</title><link>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</guid><description>&lt;p>&lt;strong>你猜，一个采购最怕什么？&lt;/strong>&lt;/p>
+&lt;p>不是供应商断货，不是价格涨到天上去——是&lt;strong>老板站在仓库门口，看着堆到天花板的货，转头问你：“这800万的库存，你打算怎么消化？”&lt;/strong>&lt;/p>
+&lt;p>而你，嘴张了三次，一个字都说不出来。&lt;/p>
+&lt;p>这场景，我经历过。三年前，我管一个年采购额2亿的盘子，库存周转率低到被CFO拉进小黑屋谈话。供应商天天催款，销售天天要货，仓库天天喊爆仓。我像个夹心饼干里的果酱，两边挤，哪边都粘。&lt;/p>
+&lt;p>直到我硬着头皮上了VMI（供应商管理库存）。&lt;/p>
+&lt;p>别急着划走，这不是那种“老师教你做人”的废话文。今天我就跟你唠唠，&lt;strong>VMI到底怎么从“理论上的神”变成“实操里的狗”&lt;/strong>，以及你该怎么让它真香。&lt;/p>
+&lt;h3 id="先别管vmi是啥看看你是不是也踩过这5个坑">先别管VMI是啥，看看你是不是也踩过这5个坑&lt;/h3>
+&lt;p>&lt;strong>1. 把VMI当甩锅神器，结果把自己甩进坑里&lt;/strong>&lt;/p>
+&lt;p>很多人一听“供应商管理库存”，第一反应：&lt;strong>太好了，库存不用我管了，全扔给供应商！&lt;/strong>&lt;/p>
+&lt;p>醒醒。VMI的核心不是“甩锅”，是“共担”。你把库存压力转嫁给供应商，人家也不是傻子。要么涨价，要么给你发快过期的货，要么找借口断供。最后你发现，库存是降了，但缺货率飙升，销售天天堵你门。&lt;/p>
+&lt;p>&lt;strong>踩坑真相：&lt;/strong> VMI是“库存前置+责任共担”，不是你当甩手掌柜。&lt;/p>
+&lt;p>&lt;strong>2. 只签协议，不建系统，数据全靠吼&lt;/strong>&lt;/p>
+&lt;p>“王总，我这周库存还够不？”
+“李姐，你那边预测能发我一份吗？”&lt;/p>
+&lt;p>这种对话，我称之为“供应链拜年”——全靠人情和运气。没有系统对接，VMI就是个空壳。供应商不知道你的实时消耗，你也不知道他的在途库存。信息一滞后，要么爆仓，要么断货。&lt;/p>
+&lt;p>&lt;strong>踩坑真相：&lt;/strong> VMI是数据驱动的，不是人情驱动的。没有EDI或者起码的API对接，别碰。&lt;/p>
+&lt;p>&lt;strong>3. 预测精度差到离谱，却怪VMI没用&lt;/strong>&lt;/p>
+&lt;p>“销售部拍了个数，说下月卖5000件。”
+你按这个数让供应商备货。结果下月实际卖了500件。
+供应商库存压了，下一轮直接拒绝合作。&lt;/p>
+&lt;p>&lt;strong>踩坑真相：&lt;/strong> VMI对预测精度要求高。你连自己的历史销售都扒不清，就别指望VMI能救你。它不是阿拉丁神灯，是照妖镜——照出你供应链的漏洞。&lt;/p>
+&lt;p>&lt;strong>4. 只盯库存金额，不看周转率&lt;/strong>&lt;/p>
+&lt;p>老板问：“VMI上线后，库存降了多少？”
+你说：“降了30%！”
+老板刚想夸你，结果发现周转率没变，甚至更慢了。因为供应商为了安全，把货堆在自家仓库里，你这边一缺货，他们才发货，补货周期长到离谱。&lt;/p>
+&lt;p>&lt;strong>踩坑真相：&lt;/strong> VMI的核心目标是&lt;strong>提高周转率&lt;/strong>，不是单纯降库存金额。库存降到0但断货，一样是死。&lt;/p>
+&lt;p>&lt;strong>5. 供应商选错，全盘皆输&lt;/strong>&lt;/p>
+&lt;p>选了个小供应商，资金链一紧张，直接断供。你这边生产线停了，老板骂你“赌徒”。
+选了个强势大供应商，人家不玩VMI，说“爱做不做”。&lt;/p>
+&lt;p>&lt;strong>踩坑真相：&lt;/strong> VMI适合长期合作、资金充足、信息化好的供应商。别为了“降库存”找个小作坊来赌命。&lt;/p>
+&lt;hr>
+&lt;h3 id="那vmi到底怎么玩3步实操简单粗暴">那VMI到底怎么玩？3步实操，简单粗暴&lt;/h3>
+&lt;p>别信那些复杂的流程图，我直接给你&lt;strong>可执行的路线图&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>第一步：先算一笔账，确定“谁适合玩”&lt;/strong>&lt;/p>
+&lt;p>不是所有物料都适合VMI。你得先筛：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高频消耗、需求稳定的物料&lt;/strong>（比如螺丝、包装盒、标准件）→ 适合&lt;/li>
+&lt;li>&lt;strong>长周期、定制化、需求波动大的物料&lt;/strong>（比如专用模具、进口芯片）→ 别碰，会死得很惨&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么筛？&lt;/strong> 拉出去年12个月的采购数据，按“采购金额×消耗频次”做ABC分类。A类稳定高频的，上VMI；C类低值低频的，继续安全库存保底。&lt;/p>
+&lt;p>&lt;strong>第二步：签一份“非对称”协议&lt;/strong>&lt;/p>
+&lt;p>别搞那种“双方公平”的废话协议。你要保证：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>库存上限：&lt;/strong> 供应商最多备你一个月的量，超了不付款&lt;/li>
+&lt;li>&lt;strong>补货触发点：&lt;/strong> 你消耗到80%时，自动触发补货（用系统，别用电话）&lt;/li>
+&lt;li>&lt;strong>惩罚条款：&lt;/strong> 如果供应商断供超过48小时，按缺货金额的2倍罚款&lt;/li>
+&lt;li>&lt;strong>数据透明：&lt;/strong> 供应商必须开放库存数据给你看，你也要开放销售预测给他&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> VMI不是兄弟情谊，是商业契约。越清晰，越少扯皮。&lt;/p>
+&lt;p>&lt;strong>第三步：搭一个“低成本系统”&lt;/strong>&lt;/p>
+&lt;p>别一上来就砸几十万上WMS（仓库管理系统）。&lt;strong>小步快跑&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>先用Excel共享表（比如腾讯文档），每天下班前更新库存数据&lt;/li>
+&lt;li>跑通3个月后，再考虑上轻量级SaaS工具（比如简道云、钉钉低代码）&lt;/li>
+&lt;li>最后再上系统对接（EDI或API）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键：&lt;/strong> 数据更新频率至少每天一次，否则等于没数据。&lt;/p>
+&lt;hr>
+&lt;h3 id="我踩坑800万后总结的3个血泪教训">我踩坑800万后总结的3个血泪教训&lt;/h3>
+&lt;p>&lt;strong>教训1：别把VMI当“一次性项目”&lt;/strong>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>总拥有成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC/</link><description>Recent content in 总拥有成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>算不清TCO，你一年白干300天</title><link>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</guid><description>&lt;p>你被“便宜货”坑过几次？&lt;/p>
+&lt;p>上个月，朋友公司采购部老王跟我吐槽：为了省50万，老板拍板买了台二手贴标机。结果呢？半年修了8次，每次停机两小时，产线停摆损失超过150万。老王被骂得狗血淋头，年终奖泡汤。&lt;/p>
+&lt;p>这不是段子。90%的人做采购决策时，只盯着“采购价”那个数字，像饿狼见了肉。但真正的成本藏在你看不见的地方——维修、能耗、培训、停机、售后……它们像水下的冰山，悄无声息地吞噬你的利润。&lt;/p>
+&lt;p>&lt;strong>这就是TCO（总拥有成本）&lt;/strong>。说白了，就是东西从买来到报废，你为它花的每一分钱。别扯虚的，今天咱们就用大白话，把这玩意儿讲透，让你看完就知道怎么避坑、怎么省钱。&lt;/p>
+&lt;h3 id="你花的钱其实是个隐形金字塔">你花的钱，其实是个“隐形金字塔”&lt;/h3>
+&lt;p>先上结论：采购价只是冰山一角。&lt;/p>
+&lt;p>举个栗子。你买了台打印机，标价2000块，觉得真便宜。但两年用下来：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>耗材&lt;/strong>：墨盒一个300，一年换4次，两年2400。&lt;/li>
+&lt;li>&lt;strong>维修&lt;/strong>：卡纸两次，上门服务费每次200，共400。&lt;/li>
+&lt;li>&lt;strong>电费&lt;/strong>：待机功耗高，一年多花100电费。&lt;/li>
+&lt;li>&lt;strong>时间成本&lt;/strong>：每次卡纸你手动处理，半小时没了，两年浪费你几十小时。&lt;/li>
+&lt;/ul>
+&lt;p>实际总成本：2000+2400+400+100+时间成本≈5000+。&lt;strong>你以为省了2000，其实多花了3000。&lt;/strong>&lt;/p>
+&lt;p>这就是TCO的核心逻辑：&lt;strong>买的时候省的钱，后面都会加倍还回去&lt;/strong>。反过来说，贵的东西可能更省钱——比如一台5000块的激光打印机，耗材便宜、几乎不坏，两年总成本反而更低。&lt;/p>
+&lt;p>所以，别再只看价格标签了。你要看的，是整个“花钱周期”。&lt;/p>
+&lt;h3 id="90的企业死在只看标价的坑里">90%的企业死在“只看标价”的坑里&lt;/h3>
+&lt;p>我见过太多企业，死于这种“省钱自杀”。&lt;/p>
+&lt;p>案例1：某物流公司采购轮胎。老板为了省200块/条，买了杂牌胎。结果呢？&lt;strong>磨损快、油耗高、爆胎风险大&lt;/strong>。半年下来，换胎频率是品牌胎的3倍，油耗增加15%，事故维修费多花了10万。一算总账，&lt;strong>省下的200块，换来了多花5万块&lt;/strong>。&lt;/p>
+&lt;p>案例2：一家工厂买空压机。为了“划算”，选了台便宜的活塞式。结果噪音大、能效低、故障率高。&lt;strong>电费一年比同行多花8万，维修团队常年待命&lt;/strong>。最后忍痛换成了螺杆式，虽然采购价贵一倍，但两年省下的电费+维修费，直接回本。&lt;/p>
+&lt;p>这些坑，本质上是&lt;strong>把“成本”误解为“价格”&lt;/strong>。价格是你付给供应商的，成本是你为这台设备付出的全部。供应商只管卖，不管你的后续损失。&lt;/p>
+&lt;p>&lt;strong>所以，采购的核心不是“压价”，而是“压TCO”&lt;/strong>。这才是真省钱。&lt;/p>
+&lt;h3 id="三步算清tco让老板跪着给你加薪">三步算清TCO，让老板跪着给你加薪&lt;/h3>
+&lt;p>别慌，算TCO没那么玄乎。就三步，照着做就行。&lt;/p>
+&lt;p>&lt;strong>第一步：拉清单，把“隐形钱”扒出来&lt;/strong>&lt;/p>
+&lt;p>买任何东西前，先列个“成本清单”。包括但不限于：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>采购价&lt;/strong>：明面上的钱&lt;/li>
+&lt;li>&lt;strong>运输安装费&lt;/strong>：运费、搬上楼、调试&lt;/li>
+&lt;li>&lt;strong>培训费&lt;/strong>：员工学操作的时间成本&lt;/li>
+&lt;li>&lt;strong>耗材费&lt;/strong>：墨盒、滤芯、刀片等&lt;/li>
+&lt;li>&lt;strong>电费/油费&lt;/strong>：能效差异&lt;/li>
+&lt;li>&lt;strong>维修费&lt;/strong>：保修期内/外的维修预算&lt;/li>
+&lt;li>&lt;strong>停机损失&lt;/strong>：出故障时产线停摆的损失&lt;/li>
+&lt;li>&lt;strong>处置费&lt;/strong>：报废时的回收或处理费用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：算总账，用“年化成本”说话&lt;/strong>&lt;/p>
+&lt;p>别只看第一年。把设备能用几年的总成本加起来，再除以使用年限，算出“年化成本”。比如：&lt;/p>
+&lt;ul>
+&lt;li>设备A：买价1万，用3年，每年耗材+维修2000，电费500。年化成本 = (10000 + 2000×3 + 500×3) ÷ 3 ≈ 5833元/年&lt;/li>
+&lt;li>设备B：买价1.5万，用5年，每年耗材+维修1000，电费300。年化成本 = (15000 + 1000×5 + 300×5) ÷ 5 = 4300元/年&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>选B。&lt;/strong> 虽然贵了5000，但每年省1500。&lt;/p>
+&lt;p>&lt;strong>第三步：把“停机”算成钱&lt;/strong>&lt;/p>
+&lt;p>这是最容易被忽略的。假设你工厂机器停机一小时，损失1万块。如果设备每年平均停5小时，那就是5万损失。买一台贵2万但更可靠的设备，一年就赚回3万。&lt;/p>
+&lt;p>&lt;strong>一句话：设备的价值，等于它帮你赚的钱，减去它让你花的钱。&lt;/strong>&lt;/p>
+&lt;h3 id="供应商口中的便宜都是套路">供应商口中的“便宜”，都是套路&lt;/h3>
+&lt;p>你以为供应商不知道TCO？他们比你精多了。&lt;/p>
+&lt;p>&lt;strong>套路1：低价引鱼，后续杀猪。&lt;/strong> 打印机行业经典玩法：机器便宜到白送，墨盒贵到离谱。你买机器省了500，一年墨盒多花3000。&lt;/p>
+&lt;p>&lt;strong>套路2：保修期短，维修暴利。&lt;/strong> 明明保修1年，但核心部件第13个月必坏。维修费够你买台新的。&lt;/p>
+&lt;p>&lt;strong>套路3：能耗虚标，偷你电费。&lt;/strong> 标称功率低，实际用电高，一年电费差出一台机器钱。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong> 别听他吹，要数据，要第三方报告，要行业案例。直接问：“这台设备三年总成本是多少？能耗、维修频率、平均寿命，给我写进合同里。”&lt;/p></description></item></channel></rss>

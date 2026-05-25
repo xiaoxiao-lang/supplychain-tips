@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存周转率 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC%E7%8E%87/</link><description>Recent content in 库存周转率 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC%E7%8E%87/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万，我才搞懂周转率</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/</guid><description>&lt;p>哥们，你有没有过这种经历——&lt;/p>
+&lt;p>仓库堆得像快递站，老板路过脸都绿了，问你：“库存周转率多少？”你心里一虚，嘴上报了个数，结果老板冷笑：“你报的这是库存周转率，还是你的人生周转率？”&lt;/p>
+&lt;p>别笑。这事我干过。&lt;/p>
+&lt;p>当年我刚干采购那会，库存压了500万，老板拍桌子骂我“库存会呼吸吗？怎么越压越多”。我才发现，库存周转率这玩意，不是算个数字交差，而是能救你命的。&lt;/p>
+&lt;p>今天不整虚的，直接聊3个我踩过的坑。看完你就知道，为什么别人库房转得跟陀螺一样，你的却像死水一潭。&lt;/p>
+&lt;h3 id="1-以为周转率越高越好错小心断货断到哭">1. 以为周转率越高越好？错！小心断货断到哭&lt;/h3>
+&lt;p>刚入行时，我跟着一篇文章学“周转率要高”。于是拼命压库存，什么快消品、热销品，只备一周的量。结果呢？供应商晚了两天发货，我的货架直接空了。老板当着客户的面骂我：“你搞的是库存，还是行为艺术？”&lt;/p>
+&lt;p>&lt;strong>真相是什么？&lt;/strong>&lt;/p>
+&lt;p>周转率不是孤独的游戏。它要跟&lt;strong>服务水平&lt;/strong>一起看。&lt;/p>
+&lt;ul>
+&lt;li>周转率太高 → 库存薄如纸 → 断货风险飙升&lt;/li>
+&lt;li>周转率太低 → 库存堆成山 → 资金压得喘不过气&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确的玩法：&lt;/strong>&lt;/p>
+&lt;p>算一个叫“安全库存”的东西。比如你某个SKU，平均日销100个，补货周期7天，那最低安全库存就是100 × 7 = 700个。你再根据自己的资金和风险承受能力，加20%-30%的缓冲。&lt;/p>
+&lt;p>别盲目追高周转，&lt;strong>先保证别断货&lt;/strong>。断货一次，损失的不止是销售额，还有客户信任。&lt;/p>
+&lt;h3 id="2-以为算个平均值就完事错要按abc分类干">2. 以为算个平均值就完事？错！要按ABC分类干&lt;/h3>
+&lt;p>有一阵，我特爱看报表里那个“整体周转率”。数字还挺好看，12次/年，感觉自己是供应链天才。结果一查明细，发现真相是：A类爆款周转20次，C类滞销品只有2次。平均值被A类拉高了，但C类货压了半年，成本早把利润吃光了。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>用&lt;strong>ABC分类法&lt;/strong>（也叫帕累托分析法）：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（高价值、高周转）&lt;/strong>：销售额占比高，品种少，管得最严。每周盘点，周转目标设在12-24次/年。&lt;/li>
+&lt;li>&lt;strong>B类（中等）&lt;/strong>：库存管理可以稍微松点，目标6-12次/年。&lt;/li>
+&lt;li>&lt;strong>C类（低价值、慢周转）&lt;/strong>：销售额低，但品种多。别费太多精力，目标2-4次/年。甚至可以接受“慢”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>实操动作：&lt;/strong>&lt;/p>
+&lt;p>每个月拉一张表，按销售额排序，把前20%的SKU标为A类，后50%的标为C类。然后：&lt;/p>
+&lt;ul>
+&lt;li>A类：专人盯，每天看库存水位&lt;/li>
+&lt;li>B类：每周看一次&lt;/li>
+&lt;li>C类：每月清一次，该打折打折，该报废报废&lt;/li>
+&lt;/ul>
+&lt;p>别让C类货拖累你的整体周转率。&lt;strong>把资源花在刀刃上&lt;/strong>。&lt;/p>
+&lt;h3 id="3-以为周转率是采购的事错它是全公司的锅">3. 以为周转率是采购的事？错！它是全公司的锅&lt;/h3>
+&lt;p>最扎心的坑是——我辛辛苦苦把周转率从5次拉到8次，结果销售团队搞了个大促，一次性进了300万的货，压了两个月没卖。老板又来骂我：“库存周转率怎么又掉下来了？”&lt;/p>
+&lt;p>我特么想骂人。&lt;/p>
+&lt;p>&lt;strong>真相：库存周转率是公司级的KPI，不是采购一个人的考核。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销售团队&lt;/strong>：为了冲业绩，疯狂囤货，不考虑库存周转&lt;/li>
+&lt;li>&lt;strong>生产团队&lt;/strong>：为了降低生产成本，一次生产一大批，库存直接爆仓&lt;/li>
+&lt;li>&lt;strong>财务团队&lt;/strong>：为了减少资金占用，拼命压采购账期，结果供应商不发货&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>拉所有人开“库存周转会”&lt;/strong>：每月一次，销售、采购、生产、财务必须到场。会上只聊一件事：未来30天的库存计划。&lt;/li>
+&lt;li>&lt;strong>用数据说话&lt;/strong>：做一个简单的仪表盘，显示每个SKU的周转率、库存天数、断货预警。谁搞事，数据直接砸脸上。&lt;/li>
+&lt;li>&lt;strong>把库存周转跟绩效挂钩&lt;/strong>：比如销售团队的奖金，跟“库存周转率”或“库存金额”挂钩。卖得多不一定好，卖得快才是王道。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住一个公式：&lt;/strong>
+库存周转率 = 销售成本 ÷ 平均库存&lt;/p>
+&lt;p>库存不是你的敌人，&lt;strong>但压死库存的锅，不能你一个人背&lt;/strong>。&lt;/p>
+&lt;h3 id="最后送一句扎心的话">最后，送一句扎心的话&lt;/h3>
+&lt;p>库存周转率，不是算出来的，是干出来的。&lt;/p>
+&lt;p>你盯着Excel算半天，不如去仓库走一趟，看看哪些货在吃灰，哪些货在生钱。&lt;strong>搞懂周转率，就是搞懂钱在怎么转&lt;/strong>。&lt;/p>
+&lt;p>别再让老板问你“周转率多少”时，你只能报个数字。下次，你可以告诉他：“这个月我们A类品周转了15次，C类品我们清掉了30%，整体周转率从6次提到了9次，现金流释放了200万。”&lt;/p>
+&lt;p>相信我，老板听完，眼神都不一样了。&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」，回复“周转率”，送你一套库存周转率自检表+ABC分类模板。&lt;/p></description></item></channel></rss>

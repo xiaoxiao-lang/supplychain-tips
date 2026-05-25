@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRP物料需求计划 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/</link><description>Recent content in MRP物料需求计划 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+&lt;p>我前同事老李，去年拍胸脯上了套新系统，号称“智能MRP，一键算清物料”。老板当场批了50万。&lt;/p>
+&lt;p>半年后，仓库爆仓，300万原材料烂在架子上。生产线上却因为缺一个螺丝，停了三天。&lt;/p>
+&lt;p>老板开会指着鼻子骂：“你不是说系统能算好？”&lt;/p>
+&lt;p>老李那表情，比吃苦瓜还难看。&lt;/p>
+&lt;p>这事不怪老李，也不怪MRP。&lt;/p>
+&lt;p>&lt;strong>怪就怪，太多人把MRP当神了。&lt;/strong>&lt;/p>
+&lt;p>上系统的时候，销售拍脑袋给个预测，工程闭着眼改BOM（物料清单），采购闷头下订单。MRP吭哧吭哧算完，给你一张“完美计划”——然后现实一巴掌扇过来：客户改需求了，供应商延期了，质检卡住了。&lt;/p>
+&lt;p>你盯着系统里那堆数字，心里一万匹草泥马：&lt;strong>这玩意儿到底是救我，还是坑我？&lt;/strong>&lt;/p>
+&lt;p>今天不扯虚的。我干了7年供应链，踩过坑、背过锅、压过500万的库存，才搞明白下面这5件事。&lt;/p>
+&lt;p>废话不说，直接上干货。&lt;/p>
+&lt;h3 id="1-别信mrp算出的安全库存那是骗自己的">1. 别信MRP算出的“安全库存”，那是骗自己的&lt;/h3>
+&lt;p>你肯定见过这种画面：领导一拍桌子，“安全库存给我设30天！” 销售跟着吼，“不，50天！” 你默默在系统里填了个45天。&lt;/p>
+&lt;p>&lt;strong>结果呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存周转率低到被老板骂&lt;/li>
+&lt;li>呆滞物料堆成山，处理时连运费都亏&lt;/li>
+&lt;li>遇上真缺货，发现安全库存全是“心理安慰剂”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>为什么？&lt;/strong> 因为安全库存不是算出来的，是&lt;strong>跑出来的&lt;/strong>。&lt;/p>
+&lt;p>真正的高手怎么干？&lt;/p>
+&lt;ul>
+&lt;li>拿过去3个月的出库数据，算出标准差&lt;/li>
+&lt;li>加上供应商的实际交货波动（别信合同上的天数）&lt;/li>
+&lt;li>再乘个1.5的“怂逼系数”（给自己留口气）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别用平均数，用中位数。&lt;/strong> 平均数是给鬼看的，中位数才是人吃的饭。&lt;/p>
+&lt;h3 id="2-主生产计划mps不准mrp就是算命的">2. 主生产计划（MPS）不准，MRP就是算命的&lt;/h3>
+&lt;p>这句话我恨不得刻在所有老板的脑门上。&lt;/p>
+&lt;p>MPS（主生产计划）是MRP的爹。爹都不靠谱，儿子再聪明也是瞎折腾。&lt;/p>
+&lt;p>我见过最离谱的：销售说“下个月要卖10万台”，生产排了10万台的料。结果实际只卖了3000台。理由是“客户临时砍单了”。临时？这借口能糊弄鬼呢？&lt;/p>
+&lt;p>&lt;strong>怎么防？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MPS必须分“锁定区”和“预测区”&lt;/strong>。锁定区（比如未来2周）不准改，改一次罚500块。预测区（2-4周）可以微调，但幅度不能超20%。&lt;/li>
+&lt;li>&lt;strong>每周开一次S&amp;amp;OP（销售与运营计划）会议&lt;/strong>。别搞成过家家，销售、生产、采购、财务坐一起，当面对质。谁的数据离谱，谁请喝下午茶。&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-bom物料清单不干净mrp就是垃圾进垃圾出">3. BOM（物料清单）不干净，MRP就是垃圾进垃圾出&lt;/h3>
+&lt;p>你以为BOM就是一张清单？太天真了。&lt;/p>
+&lt;p>我见过一家工厂，BOM里有一个螺丝，规格写的是“M6&lt;em>20不锈钢”。采购按这个买了5万颗。结果产线说装不上——因为图纸更新了，螺丝型号早改成“M6&lt;/em>25”了。&lt;/p>
+&lt;p>&lt;strong>5万颗螺丝，全废了。&lt;/strong>&lt;/p>
+&lt;p>BOM的坑，比马里亚纳海沟还深：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>版本混乱&lt;/strong>：工程改完没通知，BOM还是老版&lt;/li>
+&lt;li>&lt;strong>虚拟件横行&lt;/strong>：为了简单，把几个物料合成一个虚拟件，结果MRP算不出真实需求&lt;/li>
+&lt;li>&lt;strong>替代料没标&lt;/strong>：明明能用A料代替B料，系统不知道，一断货就抓瞎&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>每周审计一次BOM&lt;/strong>，找工程签字确认&lt;/li>
+&lt;li>&lt;strong>所有替代料必须在系统里标清楚&lt;/strong>，别靠人工记&lt;/li>
+&lt;li>&lt;strong>设一个“BOM变更冻结期”&lt;/strong>，比如生产前3天不能改&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-供应商数据比你的库存数据更重要">4. 供应商数据比你的库存数据更重要&lt;/h3>
+&lt;p>很多公司天天盯着库存，却对供应商的“家底”一无所知。&lt;/p>
+&lt;p>我给你讲个真事：我朋友公司MRP跑出来要买1000个电机，系统显示库存够，因为供应商说“随时能发货”。结果下单后，供应商说“原材料涨价了，要加30%”。朋友老板气得骂娘，但货已经断了，只能乖乖掏钱。&lt;/p>
+&lt;p>&lt;strong>供应商数据，才是MRP的命根子。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>交货准确率&lt;/strong>：别只看准时率，看实际天数波动。比如承诺7天，实际是5-15天，这种供应商得拉黑。&lt;/li>
+&lt;li>&lt;strong>产能瓶颈&lt;/strong>：别只知道他能做100个，要问他“如果突然加单50%，要多久？”&lt;/li>
+&lt;li>&lt;strong>付款周期&lt;/strong>：这直接影响你的现金流，别等到月底才发现钱不够付。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>建议：每个月更新一次供应商的“能力画像”，并同步到MRP里。&lt;/strong> 做不到？那就手动调参数，把交货期自动+30%。&lt;/p>
+&lt;h3 id="5-最后一条别把mrp当甩锅工具">5. 最后一条：别把MRP当甩锅工具&lt;/h3>
+&lt;p>这可能是最扎心的。&lt;/p>
+&lt;p>很多人上了MRP之后，就以为“系统会管一切”。订单缺了？怪系统没提醒。库存爆了？怪系统算错了。老板骂你？你两手一摊：“系统的问题。”&lt;/p>
+&lt;p>&lt;strong>醒醒吧。MRP是工具，不是大脑。&lt;/strong>&lt;/p>
+&lt;p>它只能告诉你“该买什么、买多少”。但&lt;strong>为什么买、什么时候买、要不要调整&lt;/strong>，得靠你。&lt;/p>
+&lt;ul>
+&lt;li>客户突然说要加单？你得手动调MPS&lt;/li>
+&lt;li>供应商说这批货延期？你得冲进系统改采购订单&lt;/li>
+&lt;li>仓库发现实物对不上？你得去翻账本，不是骂系统&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>月薪5千的采购，等着MRP给答案。月薪5万的采购，用MRP算完，再自己跑一遍逻辑。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>结语：&lt;/p></description></item></channel></rss>
