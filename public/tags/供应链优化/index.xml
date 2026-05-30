@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库乱成狗，这3招让效率翻倍</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-hacks/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-hacks/</guid><description>&lt;p>你是不是也这样：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>干了10年采购才敢说：80%的库存都是废的</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</guid><description>&lt;p>上周去一个朋友的仓库，差点没把我送走。&lt;/p>
+&lt;p>满屋子货，堆得脚都伸不进去。他愁眉苦脸地跟我说：“哥，我库存压了500万，但客户天天催的货，我一件都发不出来。”&lt;/p>
+&lt;p>我看了眼他的库存报表，乐了。&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高销量）只占了30%的库存，B类货勉强能卖，剩下的C类货——那些一年卖不了几件、占着仓位还压着钱的玩意儿，整整堆了50%的库存。&lt;/strong>&lt;/p>
+&lt;p>这不就是典型的“钱都变成了不值钱的货”吗？&lt;/p>
+&lt;p>你别说，这种坑，我干了10年采购，见过太多人往里跳了。今天咱们就聊聊那个能让仓库“起死回生”的&lt;strong>ABC分类法&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="别被二八定律骗了实战中你得看这三点">别被“二八定律”骗了，实战中你得看这三点&lt;/h3>
+&lt;p>很多文章一上来就甩定义：“ABC分类法是根据价值将库存分为三类……”&lt;/p>
+&lt;p>打住。咱不整虚的。&lt;/p>
+&lt;p>说白了，&lt;strong>ABC分类法就是帮你回答三个灵魂拷问&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>哪些货是靠它们赚钱的？—— &lt;strong>A类&lt;/strong>&lt;/li>
+&lt;li>哪些货是凑数的？—— &lt;strong>B类&lt;/strong>&lt;/li>
+&lt;li>哪些货是坑你的？—— &lt;strong>C类&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心指标就一个：年销售额占比。&lt;/strong>&lt;/p>
+&lt;p>别盯着利润，销售额（单价×销量）更能反映资金流转效率。你一个卖螺丝的，单价5毛，但一年卖1000万个，销售额500万，那它就是A类。你卖一个定制机床，单价100万，但三年卖一台，销售额才33万/年，那它就是C类。&lt;/p>
+&lt;p>&lt;strong>实战操作就三步：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>拉数据&lt;/strong>：过去12个月每个SKU的销量和单价，算出销售额。&lt;/li>
+&lt;li>&lt;strong>排顺序&lt;/strong>：按销售额从高到低排，算累计占比。&lt;/li>
+&lt;li>&lt;strong>画老虎&lt;/strong>：前10%-20%的SKU（累计占比70%-80%）→ A类；中间20%-30%的SKU（累计占比15%-20%）→ B类；剩下的50%-70%的SKU（累计占比5%-10%）→ C类。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别问为什么是20%、70%这些数字。&lt;/strong> 每个行业不一样。你是卖快消品的，可能A类只有5%的SKU就占了90%的销售额。你是做配件的，A类可能得占到30%的SKU。&lt;/p>
+&lt;p>&lt;strong>记住一句话：分类是手段，不是目的。&lt;/strong> 目的是让你知道精力该往哪砸。&lt;/p>
+&lt;hr>
+&lt;h3 id="血的教训a类货不是亲爹c类货也不是后妈">血的教训：A类货不是亲爹，C类货也不是后妈&lt;/h3>
+&lt;p>很多人一分类，就把A类货当亲爹供着——天天盯库存，月月盘库，生怕断货。把C类货直接扔冷宫——爱咋咋地，缺货就缺货。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的操作：一个做电子元件的老板，把一款单价0.5元的电阻（C类）备了3个月的量，占了一整排货架。结果那边一个单价500元的主控芯片（A类）断货了，产线停了三天，损失十几万。&lt;/p>
+&lt;p>&lt;strong>正确的玩法是这样的：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高频次）→ 当亲爹供着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>不设安全库存&lt;/strong>？做梦！必须天天盯，甚至小时级监控。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：按需采购，少批量多批次。比如每天补一次货，甚至用JIT（准时制）。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：每月至少一次，甚至每周一次。&lt;strong>少一颗螺丝，可能就得停一条线。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>供应商管理&lt;/strong>：签长期合同，锁定产能，甚至搞VMI（供应商管理库存）。&lt;strong>别等断货了才去跪求供应商。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>B类货（中不溜）→ 当普通朋友处着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：设半个月到1个月的量。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：定期补货，比如两周订一次，或者用再订货点法。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：季度盘一次就够了。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：保持2-3家备选，别在一棵树上吊死。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>C类货（低价值低频次）→ 当远房亲戚养着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：能少就少，甚至0库存（用代发货或者供应商直发）。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：&lt;strong>一次性多买点&lt;/strong>，比如半年订一次，利用订单量砍价。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：一年盘一次，或者直接放弃盘点（成本太高）。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：找那种品类全、送货快、能拆包的电商平台（比如1688或者京东企业购），别自己囤。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑就一句话：A类货追求“快”（高周转），C类货追求“省”（低管理成本）。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="90的人都会踩的3个坑我全踩过">90%的人都会踩的3个坑（我全踩过）&lt;/h3>
+&lt;p>&lt;strong>坑1：分类做了一次就再也不动&lt;/strong>&lt;/p>
+&lt;p>我见过最懒的采购，三年前分的类，现在还用。大哥，市场都变天了！你去年爆火的SKU，今年可能成了库存杀手。&lt;/p>
+&lt;p>&lt;strong>正确姿势：每季度重跑一次数据。&lt;/strong> 别忘了把季节性、促销活动、新品上市这些变量加进去。比如你卖羽绒服的，冬天的A类货到了夏天可能就是C类，别傻乎乎地继续囤。&lt;/p>
+&lt;p>&lt;strong>坑2：只看销售额，不看利润&lt;/strong>&lt;/p>
+&lt;p>有些货销售额高，但利润率低到可怜（比如大宗商品）。有些货销售额低，但利润率高得吓人（比如定制配件）。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong> 在销售额占比的基础上，加一个“利润率权重”。推荐用&lt;strong>加权评分法&lt;/strong>：销售额占比×50% + 利润占比×50% = 综合得分。这样才不会把“赔钱赚吆喝”的货当A类。&lt;/p>
+&lt;p>&lt;strong>坑3：把C类货直接砍光&lt;/strong>&lt;/p>
+&lt;p>有哥们一听C类货是坑，直接全部清仓。然后客户来找他要配件，全公司翻遍也找不到，客户骂娘，销售跳脚。&lt;/p>
+&lt;p>&lt;strong>记住：C类货的存在是为了满足“长尾需求”&lt;/strong>。你可以减少它的库存，但不能没有它。正确做法是：&lt;strong>把C类货的库存降到最低，或者让供应商帮你备现货，你出单就让他代发。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后送你一张偷懒清单">最后送你一张“偷懒”清单&lt;/h3>
+&lt;p>不想动脑子？直接照这个来：&lt;/p></description></item><item><title>仓库乱成狗，这3招让效率翻倍</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-hacks/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-hacks/</guid><description>&lt;p>你是不是也这样：&lt;/p>
 &lt;p>每天一进仓库，头就大。货堆得像俄罗斯方块，拣货员东奔西跑，一天下来微信步数两万五，结果发货还老是漏。&lt;/p>
 &lt;p>老板在群里吼：&lt;strong>“今天单量又爆了，效率呢？！”&lt;/strong>&lt;/p>
 &lt;p>你看着那堆找不到的SKU，心里只想说：&lt;strong>“我也很绝望啊。”&lt;/strong>&lt;/p>

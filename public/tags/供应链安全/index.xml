@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链安全 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/</link><description>Recent content in 供应链安全 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>危险品运输翻车3次，我才明白这5个坑</title><link>https://supplychain-tips.pages.dev/posts/dangerous-goods-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/dangerous-goods-tips/</guid><description>&lt;p>你见过危险品运输车在高速上烧起来的样子吗？&lt;/p>
+&lt;p>我见过。不是视频里，是真真切切站在路边，看着黑烟把半个天都染了。&lt;/p>
+&lt;p>那车拉的是一种常见的工业溶剂，不是什么核材料。但就那一把火，司机烧伤，道路封闭6小时，货主赔了300多万，保险公司还拒赔。为什么？因为&lt;strong>运输单据上写的品名和实际货物对不上&lt;/strong>——这就是作死。&lt;/p>
+&lt;p>干危险品运输这行，踩坑是常态，但有些坑，踩一次就能把你职业生涯直接送走。&lt;/p>
+&lt;p>今天我掏心窝子，聊聊这些年我亲眼见过、亲手填过的5个坑。&lt;/p>
+&lt;h3 id="1-资质造假以为有关系能顶事">1. 资质造假，以为“有关系”能顶事&lt;/h3>
+&lt;p>别笑，真有人这么干。&lt;/p>
+&lt;p>很多刚入行的老板，或者临时接单的物流公司，第一反应是：“哎呀，危险品运输资质太难办了，我找朋友的车挂个牌就行。”&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>查一次，罚5万起步。&lt;/strong> 出了事故，直接按“非法运输危险物质”追究刑事责任，坐牢那种。&lt;/p>
+&lt;p>我认识一个兄弟，帮人运几桶油漆稀释剂，觉得“就几桶，没事”。结果路上被交警拦下，发现车辆没有危险品运输标志，驾驶员没有从业资格证。最后定性：&lt;strong>涉嫌危险驾驶罪&lt;/strong>，拘留15天，公司被吊销营业执照。&lt;/p>
+&lt;p>所以，别跟资质玩游戏。正规的危险品运输企业，必须同时具备：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>道路运输经营许可证&lt;/strong>（经营范围包含危险品）&lt;/li>
+&lt;li>&lt;strong>车辆必须安装GPS、行车记录仪、紧急切断阀&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>驾驶员和押运员必须持证上岗&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>少一个，就是定时炸弹。&lt;/p>
+&lt;h3 id="2-包装差不多得了结果漏一地">2. 包装“差不多得了”，结果漏一地&lt;/h3>
+&lt;p>危险品包装，是很多人最容易忽视的环节。&lt;/p>
+&lt;p>我见过最离谱的：用普通塑料桶装强酸，结果桶被腐蚀穿，酸液在车厢里流了一地。司机打开车门，直接被酸雾呛进医院。&lt;/p>
+&lt;p>包装不是“能装就行”，是&lt;strong>能扛住运输中的所有折腾&lt;/strong>。&lt;/p>
+&lt;p>几个硬性要求，拿小本本记好：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>包装必须符合UN标准&lt;/strong>，有UN编号和包装等级（比如I类、II类、III类）&lt;/li>
+&lt;li>&lt;strong>外包装要有清晰的危险品标签&lt;/strong>（9类标志，别贴错）&lt;/li>
+&lt;li>&lt;strong>液体货物必须留出膨胀空间&lt;/strong>，不能装太满&lt;/li>
+&lt;li>&lt;strong>不同危险品不能混装&lt;/strong>，比如氧化剂和易燃物放一起，等于抱着炸弹睡觉&lt;/li>
+&lt;/ul>
+&lt;p>记住一句话：&lt;strong>包装省下的钱，早晚十倍赔出去。&lt;/strong>&lt;/p>
+&lt;h3 id="3-司机和押运员随便拉个人就上路">3. 司机和押运员，随便拉个人就上路&lt;/h3>
+&lt;p>危险品运输，司机不是普通司机。&lt;/p>
+&lt;p>普通货车司机，会开车就行。危险品司机，得会：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>识别危险品标志和MSDS（安全数据表）&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>知道泄漏了怎么处理&lt;/strong>（什么能用沙，什么不能用水）&lt;/li>
+&lt;li>&lt;strong>会操作紧急切断阀和灭火器&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>熟悉应急预案流程&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我见过一个押运员，车翻了只会打电话喊“老板救命”，问他灭火器在哪，他说“好像在车后面”。这种人，就是颗定时炸弹。&lt;/p>
+&lt;p>所以，招募或雇佣危险品司机时，必须：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>持有效的危险品运输从业资格证&lt;/strong>（不是普通货运证）&lt;/li>
+&lt;li>&lt;strong>每年至少一次安全培训&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>跟车押运员必须是双人配置&lt;/strong>（两人都持证）&lt;/li>
+&lt;li>&lt;strong>定期模拟应急演练&lt;/strong>（别等到真出事才学）&lt;/li>
+&lt;/ul>
+&lt;p>别省这点培训钱，人命比运费贵。&lt;/p>
+&lt;h3 id="4-路线规划随心所欲走到禁行区">4. 路线规划“随心所欲”，走到禁行区&lt;/h3>
+&lt;p>危险品运输不是你想走哪走哪。&lt;/p>
+&lt;p>很多城市核心区、隧道、桥梁、学校周边，都有&lt;strong>危险品禁行路段&lt;/strong>。如果你没提前查好路线，开进去就是扣分罚款，严重的直接扣车。&lt;/p>
+&lt;p>更可怕的是：你开到禁行区，万一出事故，连救援都进不来。&lt;/p>
+&lt;p>我有个朋友，运一批氧气瓶进城，导航没更新，直接开进了一个限高隧道。结果车顶刮到隧道顶部，氧气瓶掉下来炸了一个。那叫一个惨。&lt;/p>
+&lt;p>所以，危险品运输的路线规划，必须做到：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>提前查询沿途城市禁行规定&lt;/strong>（很多城市有专门的危险品运输管理平台）&lt;/li>
+&lt;li>&lt;strong>使用专用危险品导航APP&lt;/strong>（比如“危运导航”或“货安达”）&lt;/li>
+&lt;li>&lt;strong>避开人口密集区、水源地、隧道、桥梁&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>提前规划好中途休息点和应急停靠点&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>路线规划好了，命就保了一半。&lt;/p>
+&lt;h3 id="5-应急预案停留在纸上出事全抓瞎">5. 应急预案停留在纸上，出事全抓瞎&lt;/h3>
+&lt;p>我敢说，80%的危险品运输企业，应急预案就是一份打印出来的文件，贴在墙上落灰。&lt;/p>
+&lt;p>真出事了怎么办？&lt;/p>
+&lt;ul>
+&lt;li>泄漏了，是先报警还是先堵漏？&lt;/li>
+&lt;li>着火了，是用水还是用干粉？&lt;/li>
+&lt;li>人员受伤了，怎么撤离？往哪撤？&lt;/li>
+&lt;/ul>
+&lt;p>这些问题，99%的人答不上来。&lt;/p>
+&lt;p>我见过最离谱的一次：一辆运盐酸的车侧翻，司机和押运员吓得跑了，连警示牌都没放。后面一辆车没看到，直接撞上去，二次事故，死了人。&lt;/p>
+&lt;p>&lt;strong>应急预案不是应付检查的，是救命用的。&lt;/strong>&lt;/p>
+&lt;p>真正有效的应急准备，包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>车上必须配备应急包&lt;/strong>（防化手套、护目镜、中和剂、堵漏工具）&lt;/li>
+&lt;li>&lt;strong>司机和押运员必须熟练背诵“应急三步走”&lt;/strong>：停车-报警-隔离&lt;/li>
+&lt;li>&lt;strong>每季度至少一次实战演练&lt;/strong>（别光开会，要真动手）&lt;/li>
+&lt;li>&lt;strong>24小时应急电话，必须能打通&lt;/strong>（别让客户打来找不到人）&lt;/li>
+&lt;/ul>
+&lt;p>你准备得越充分，事故就越小。&lt;/p></description></item></channel></rss>

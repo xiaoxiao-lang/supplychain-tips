@@ -1,4 +1,701 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>**月薪3K的采购和月薪3W的采购，差在这4个供应商关系**</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-secrets/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-secrets/</guid><description>&lt;p>&lt;strong>你累死累活催货，凭什么别人躺着拿返点？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>**库存压了500万才明白的3个血泪教训**</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年有个做家居的兄弟找我喝酒，脸喝得通红，跟我说：“老张，我仓库里堆了500万货，全是去年双11备的。结果呢？款式过时了，卖不动了。现在供应商催货款，房东催租金，银行催利息，我老婆催我滚回去上班。”&lt;/p>
+&lt;p>他干了啥？&lt;/p>
+&lt;p>&lt;strong>旺季前猛备货，看哪个供应商顺眼就下大单，仓库堆得跟迷宫似的，出货全靠吼。&lt;/strong>&lt;/p>
+&lt;p>这画面是不是特眼熟？你身边肯定也有这样的“库存勇士”——订单没多少，仓库先爆了。老板一问，还振振有词：“我得保证不断货啊！”&lt;/p>
+&lt;p>断货是没断，现金流断了。&lt;/p>
+&lt;p>今天我不跟你扯什么“供应链管理五大原则”那种教科书屁话。&lt;strong>就聊3个我用500万真金白银换回来的库存管理技巧。&lt;/strong> 看完别光收藏，去试试，省下来的钱够你换台车。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别tm什么货都囤学学abc分类法给自己解毒">1. 别TM什么货都囤，学学“ABC分类法”给自己解毒&lt;/h3>
+&lt;p>很多人的库存噩梦，起于一句话：“这个好卖，多囤点！”&lt;/p>
+&lt;p>你一听，爽快，下单。结果呢？那款卖是卖了，可仓库里还压着100个SKU的“备胎”货，一个季度卖不出去一箱。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>给库存做减法，上ABC分类法。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（10%-20% SKU）：&lt;/strong> 销售额占70%-80%的爆款。&lt;strong>重点盯防，高频率补货，低库存持有。&lt;/strong> 别怕断货，断货了马上催单，别让它占你的钱。&lt;/li>
+&lt;li>&lt;strong>B类（20%-30% SKU）：&lt;/strong> 销售额占10%-20%的常态款。&lt;strong>适当备货，一个月盘点一次就够了。&lt;/strong> 别浪费精力天天盯着。&lt;/li>
+&lt;li>&lt;strong>C类（50%-70% SKU）：&lt;/strong> 销售额只占5%-10%的鸡肋款。&lt;strong>能少囤就少囤，最好零库存。&lt;/strong> 这种货就是仓库里的“吸血鬼”，吸你的租金、吸你的管理费。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住一个铁律：&lt;/strong> 80%的库存问题，都是那20%的A类货没管好。但80%的库存资金，却可能被那70%的C类货吃掉。&lt;/p>
+&lt;p>&lt;strong>简单粗暴的玩法：&lt;/strong> 打开你的ERP系统，按SKU销售额排序。前20%的，每天盯着；中间30%的，每周看看；后面50%的，&lt;strong>直接砍掉一半SKU&lt;/strong>，别犹豫。你会发现，仓库瞬间清爽了，现金流也活了。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-安全库存算不清来我教你个土办法">2. “安全库存”算不清？来，我教你个土办法&lt;/h3>
+&lt;p>很多人一听“安全库存”，就头大：“要算标准差、需求预测，我哪会那些？”&lt;/p>
+&lt;p>我告诉你，&lt;strong>算不明白就别硬算，用土办法。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>土办法叫：动态倍率法。&lt;/strong>&lt;/p>
+&lt;p>公式特简单：&lt;strong>安全库存 = 过去N天平均日销 × 补货周期天数 × 1.5（或2）&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>重点在“补货周期”和那个倍率。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>补货周期：&lt;/strong> 从你下单到货到仓库的天数。不是供应商说“3天”，是你实际测出来的“平均5天”。&lt;/li>
+&lt;li>&lt;strong>倍率：&lt;/strong> 波动越大、越重要的货，倍率越高。爆款、易断货的用2；稳定款、有替代品的用1.5。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>举个例子：&lt;/strong>
+你那个A类爆款，平均一天卖10件，供应商平均5天补到货。
+安全库存 = 10件/天 × 5天 × 2 = &lt;strong>100件&lt;/strong>。
+这意味着，你仓库里至少得囤100件。低于100件，就得赶紧下单。&lt;/p>
+&lt;p>&lt;strong>别整那些花里胡哨的Excel公式，就这玩意，够你用了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>但注意：&lt;/strong> 这个倍率不是死的。旺季、大促、或者听说原材料要涨价，倍率直接拉高到3甚至4。淡季？降到1.2，甚至0.8。&lt;strong>动态调整，别死脑筋。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-呆滞品处理比谈恋爱分手还考验人品">3. 呆滞品处理，比谈恋爱分手还考验人品&lt;/h3>
+&lt;p>库存里最要命的不是A类货，是&lt;strong>呆滞品&lt;/strong>——那些卖不动、退不回、用不上的“僵尸货”。&lt;/p>
+&lt;p>它们占着黄金货位，花着你的租金，还天天被盘点人员骂娘。&lt;/p>
+&lt;p>&lt;strong>我的血泪教训：&lt;/strong> 别等到发霉了再处理。&lt;strong>设立一个“死亡倒计时”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>超过60天没动销：&lt;/strong> 标记为“预警”。开始找原因：是价格高了？还是位置太深？马上搞促销、做捆绑。&lt;/li>
+&lt;li>&lt;strong>超过90天没动销：&lt;/strong> 直接拉“刑场”。&lt;strong>打折、买一送一、甚至当赠品送掉。&lt;/strong> 别心疼那点毛利，&lt;strong>现金比库存值钱多了！&lt;/strong> 哪怕亏本卖掉，你拿回来的钱去买A类爆款，赚回来的钱远比你捂在手里强。&lt;/li>
+&lt;li>&lt;strong>超过180天没动销：&lt;/strong> 别犹豫了。&lt;strong>内部消化、报废、或者问供应商能不能退。&lt;/strong> 继续留着，它就是仓库里的肿瘤。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实案例：&lt;/strong> 我那个兄弟，仓库里一堆过季的沙发套，卖了3个月没动静。我让他直接挂二手平台，5折甩卖。3天清光，回笼了30万现金。他用这钱去订了新爆款，一个季度赚回来80万。&lt;strong>这就是断舍离的力量。&lt;/strong>&lt;/p></description></item><item><title>ERP上线当天，我差点被老板开了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>先给你讲件真事。&lt;/p>
+&lt;p>去年，我接手一个ERP项目。
+老板拍桌子：三个月必须上线！
+我拍胸脯：没问题，稳稳的。
+结果呢？上线当天，仓库数据对不上，采购单出不来，财务直接炸了。
+老板当着全公司的面骂我：你TM是来搞垮公司的吧？&lt;/p>
+&lt;p>那一刻，我真想找条地缝钻进去。&lt;/p>
+&lt;p>&lt;strong>为什么ERP实施这么容易翻车？&lt;/strong>
+因为99%的人从一开始就错了。&lt;/p>
+&lt;p>今天咱不整那些高大上的理论，就聊聊我踩过的5个坑。
+你不信？看完你大概率会回来点赞。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1把erp当神仙以为装了就能躺赢">坑1：把ERP当“神仙”，以为装了就能躺赢&lt;/h3>
+&lt;p>很多人觉得，ERP是万能药。
+装上去，库存自动准，流程自动跑，老板自动爽。
+&lt;strong>醒醒！那是PPT里的大饼。&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的公司，买了套ERP，连基础数据都没整理就上线。
+结果是：库存盘点是负数，采购订单重复下，财务对账对到哭。
+最后老板怪系统烂，员工骂IT蠢。&lt;/p>
+&lt;p>&lt;strong>真相是啥？&lt;/strong>
+ERP就是个工具，好比给你一把倚天剑，但你连剑法都不会，砍人只能砍到自己。
+上线前，你得先把业务流程理清楚，把物料编码统一，把数据清洗干净。
+否则，ERP的“自动化”只会把你的混乱变成更快的混乱。&lt;/p>
+&lt;p>&lt;strong>记住这句话：ERP实施，三分技术，七分管理。系统只是壳，业务才是魂。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑2老板拍脑袋定工期员工用命填坑">坑2：老板拍脑袋定工期，员工用命填坑&lt;/h3>
+&lt;p>“三个月必须上线！”
+“半年搞不定就换人！”
+这话熟不熟？&lt;/p>
+&lt;p>老板的逻辑是：时间紧，大家才有紧迫感。
+但现实是：时间紧，大家只能糊弄。
+我见过一个项目，为了赶工期，连单元测试都没做完就匆匆上线。
+结果呢？核心模块崩溃，全公司停摆三天，损失比延期还大。&lt;/p>
+&lt;p>&lt;strong>你以为是执行力问题？其实是认知问题。&lt;/strong>
+ERP实施不是盖房子，而是种树。
+你得先选种、育苗、施肥、修剪，最后才能开花结果。
+&lt;strong>强行压缩工期，等于把树苗直接种到水泥地里——必死。&lt;/strong>&lt;/p>
+&lt;p>聪明人怎么干？
+分阶段上线：先跑通核心模块（财务、采购、库存），再慢慢扩展。
+别贪多，一口吃不成胖子，但一口能噎死你。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3全员培训不存在的都觉得自己是天才">坑3：全员培训？不存在的，都觉得自己是天才&lt;/h3>
+&lt;p>我当年最天真的想法就是：这系统这么简单，培训一下午就够了吧？
+结果上线第一天，仓库阿姨对着扫描枪问：这玩意儿怎么开机？
+采购小哥把订单填错字段，导致供应商发错货。
+财务大姐对着报表说：这数字和我手里的小本本不一样啊！&lt;/p>
+&lt;p>&lt;strong>培训不是走过场，是救命稻草。&lt;/strong>
+但大多数公司的培训是啥样？
+IT部门扔一本200页的操作手册：“自己看。”
+或者请个顾问讲半天，底下人刷手机。
+&lt;strong>这不叫培训，这叫自欺欺人。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确姿势是啥？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分角色培训&lt;/strong>：仓库、采购、财务、销售，各学各的，别混在一起。&lt;/li>
+&lt;li>&lt;strong>场景化演练&lt;/strong>：别讲理论，直接模拟真实场景。比如：来了一笔退货，系统里怎么操作？&lt;/li>
+&lt;li>&lt;strong>考试上岗&lt;/strong>：不过关的，别碰系统。宁愿慢三天，也别错一次。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="坑4数据不整理上线即崩溃">坑4：数据不整理，上线即崩溃&lt;/h3>
+&lt;p>这是最隐蔽的坑，也是最致命的。&lt;/p>
+&lt;p>我见过一家公司，上线前没清理数据。
+结果呢？
+一个物料有5个编码，价格还不一样。
+客户地址写了“东城区鼓楼大街”，另一个版本写“东城区鼓楼街道”。
+订单里数量单位是“箱”，库存单位是“个”。
+&lt;strong>你跟我说数据能准？准了才有鬼。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>数据是ERP的血液。血液不干净，全身都得坏死。&lt;/strong>
+怎么干？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>先盘点&lt;/strong>：把库存、客户、供应商、物料，全盘一遍。&lt;/li>
+&lt;li>&lt;strong>统一编码&lt;/strong>：每一个东西只能有一个名字，一个编码。&lt;/li>
+&lt;li>&lt;strong>清洗历史数据&lt;/strong>：混乱的、重复的、错误的，全删掉。
+别心疼，旧的不去新的不来。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：数据质量差，ERP就是垃圾进垃圾出。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5上线后就当甩手掌柜以为万事大吉">坑5：上线后就当甩手掌柜，以为万事大吉&lt;/h3>
+&lt;p>很多人以为，系统上线就是终点。
+&lt;strong>大错特错！上线只是起点。&lt;/strong>&lt;/p></description></item><item><title>仓库爆了，老板骂你？这3招救急</title><link>https://supplychain-tips.pages.dev/posts/warehouse-save-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-save-tips/</guid><description>&lt;p>兄弟，你是不是也这样？&lt;/p>
+&lt;p>每天一睁眼，微信全是“催货”的消息。仓库堆得跟迷宫似的，叉车司机骂骂咧咧，连下脚的地方都没有。老板还甩一句：“运费这么高，你搞什么？”&lt;/p>
+&lt;p>&lt;strong>你心里一万个草泥马飘过：&lt;/strong>
+“我TM也不想啊！货到了，车还在路上堵着！发货慢了，客户投诉；发快了，仓库爆仓。我到底怎么做，老板才满意？”&lt;/p>
+&lt;p>&lt;strong>得，别憋屈了。&lt;/strong>
+我干运输管理7年，踩过的坑比你走的路还多。今天不跟你扯理论，就跟你唠3个&lt;strong>救急又管用&lt;/strong>的招。说白了，就是&lt;strong>把“救火队长”变成“控盘高手”&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别再抢车了先抢数据">1. 别再“抢”车了，先“抢”数据&lt;/h3>
+&lt;p>你还在每天打电话找车？
+“王哥，明天有没有车？李姐，你那边还有空位吗？”&lt;/p>
+&lt;p>&lt;strong>醒醒，2024年了！&lt;/strong>
+这招早就过时了。你抢到的不是车，是&lt;strong>焦虑&lt;/strong>。车到了，货没准备好，车等着，你付滞纳金。货备好了，车没到，客户骂你。&lt;/p>
+&lt;p>&lt;strong>真正的狠人，怎么干？&lt;/strong>
+他们&lt;strong>不是“抢车”，是“抢数据”&lt;/strong>。&lt;/p>
+&lt;p>什么意思？
+&lt;strong>把运输管理和仓库管理打通，搞一个“数据看板”。&lt;/strong>
+比如，你提前24小时，系统自动告诉你：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>明天到货量：&lt;/strong> 3000箱，但出库只有1500箱，&lt;strong>肯定爆仓&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>发货波次：&lt;/strong> 下午3点前，必须把A客户的车装好。&lt;/li>
+&lt;li>&lt;strong>车辆匹配：&lt;/strong> 系统根据你的发货计划，自动推给你3个靠谱的司机，价格、路线、评分都列得清清楚楚。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>操作起来，就两步：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>花2天，把仓库的WMS和运输的TMS系统打通。别嫌麻烦，一劳永逸。&lt;/li>
+&lt;li>每天早上9点，开个5分钟的“数据碰头会”：今天到多少、发多少、车够不够。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住，&lt;/strong> 你有了数据，就不用手忙脚乱。你是在&lt;strong>用大脑指挥手脚&lt;/strong>，而不是用脚去追车。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-把散装的货变成预制菜">2. 把“散装”的货，变成“预制菜”&lt;/h3>
+&lt;p>你仓库里是不是这样？
+A客户的货堆在东边，B客户的货堆在西边，C客户的货还在卸车。发货时，叉车东奔西跑，跟打仗一样。&lt;/p>
+&lt;p>&lt;strong>这效率，老板不骂你骂谁？&lt;/strong>
+运输管理最烦的就是**“零散”**。一车货，装3个客户，装4个SKU，光找货就花半小时。&lt;/p>
+&lt;p>&lt;strong>高手怎么玩？&lt;/strong>
+&lt;strong>把“散装”的货，变成“预制菜”。&lt;/strong>
+什么意思？就是&lt;strong>提前做“波次拣货”和“集单发货”&lt;/strong>。&lt;/p>
+&lt;p>比如，你发现A省的货，每天下午4点集中走。那你就：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>设定发货“死线”：&lt;/strong> 每天下午2点前，所有A省的订单必须下架、打包、贴好标签。&lt;/li>
+&lt;li>&lt;strong>做“集货区”：&lt;/strong> 在仓库门口划个区域，专门放A省的车。叉车师傅不用东跑西跑，直接去“集货区”一叉子全装上。&lt;/li>
+&lt;li>&lt;strong>固定车次：&lt;/strong> 跟运输公司签个“定时达”协议。每天下午4点，车准时到，装完就走。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>效果是什么？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>装车时间从1小时，压缩到&lt;strong>15分钟&lt;/strong>。&lt;/li>
+&lt;li>仓库腾出30%的空间，不用堆那么多“待发货”的货。&lt;/li>
+&lt;li>运费降了，因为&lt;strong>车不用等&lt;/strong>，满载率还高。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你问客户急了怎么办？&lt;/strong>
+别慌，跟客户说：“亲，您下午2点前下单，我保证今天发。2点后的，明天优先发。” 客户反而觉得你&lt;strong>专业&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别只盯着满要盯着顺">3. 别只盯着“满”，要盯着“顺”&lt;/h3>
+&lt;p>很多运输管理，就喜欢看一个指标：&lt;strong>满载率&lt;/strong>。
+“这车必须装满，不然亏了！”&lt;/p>
+&lt;p>&lt;strong>错了！大错特错！&lt;/strong>
+你把车塞得跟罐头似的，结果呢？&lt;/p>
+&lt;ul>
+&lt;li>第一站卸货，等1小时。&lt;/li>
+&lt;li>第二站卸货，堵在路上。&lt;/li>
+&lt;li>第三站卸货，客户下班了，车要过夜。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你省了运费，赔了时效，最后老板骂你“不会算账”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真正的行家，看什么？&lt;/strong>
+&lt;strong>看“顺”&lt;/strong>。就是&lt;strong>运输链路顺不顺&lt;/strong>。&lt;/p>
+&lt;p>怎么搞？
+&lt;strong>做“路线规划”和“时间窗管理”&lt;/strong>。&lt;/p>
+&lt;p>举个栗子：
+你要发3个城市的货。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>傻X做法：&lt;/strong> 一车装，按距离远近卸。结果远的地方堵车，近的客户等到晚上。&lt;/li>
+&lt;li>&lt;strong>高手做法：&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>分车分线：&lt;/strong> 把顺路的客户放一车，比如A城和B城在高速同方向，放一起。&lt;/li>
+&lt;li>&lt;strong>设“时间窗”：&lt;/strong> 跟每个客户约好，卸货不超过30分钟。超时？加收“等待费”。&lt;/li>
+&lt;li>&lt;strong>用“甩挂”模式：&lt;/strong> 车到了仓库，直接把挂车甩下，换上新的挂车就走。司机不用等装卸工，效率翻倍。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果呢？&lt;/strong>&lt;/p></description></item><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
+&lt;p>他刚被老板骂了一顿，差点卷铺盖走人——新换的“优质供应商”货期拖了3个月，品质一塌糊涂，客户直接取消订单。&lt;/p>
+&lt;p>他委屈得要死：“我明明用了最严的评估表，价格低、交期快、资质齐全，怎么还能出这事？”&lt;/p>
+&lt;p>我叹了口气：“你踩的坑，我3年前也踩过，那次公司亏了300万。”&lt;/p>
+&lt;p>&lt;strong>今天，我把自己用真金白银换来的教训掰开揉碎了讲给你听。&lt;/strong> 没废话，全是干货。&lt;/p>
+&lt;h3 id="第一个坑只比价格不看成本">第一个坑：只比价格，不看“成本”&lt;/h3>
+&lt;p>大多数采购评估供应商，上来就问：“你家比别家便宜多少？”&lt;/p>
+&lt;p>&lt;strong>这是最蠢的操作，没有之一。&lt;/strong>&lt;/p>
+&lt;p>价格低 ≠ 成本低。你只看到明面上的报价，却忽略了背后一堆隐藏成本：&lt;/p>
+&lt;ul>
+&lt;li>交期延迟导致的停工损失&lt;/li>
+&lt;li>品质退货带来的返工费&lt;/li>
+&lt;li>售后不及时的沟通成本&lt;/li>
+&lt;li>小供应商倒闭后的换线风险&lt;/li>
+&lt;/ul>
+&lt;p>举个真实例子。我朋友的公司，为了省5%的采购成本，换了个小供应商。结果呢？交期延迟2周，生产线停摆，每天损失20万。最后算下来，省了5万，亏了200万。&lt;/p>
+&lt;p>&lt;strong>记住一句话：最便宜的供应商，往往是最贵的。&lt;/strong>&lt;/p>
+&lt;p>真正专业的采购，看的是&lt;strong>总拥有成本&lt;/strong>。具体怎么算？5个维度：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>价格&lt;/strong>：别只看单价，看条款（付款条件、账期）&lt;/li>
+&lt;li>&lt;strong>品质&lt;/strong>：退货率、不良率、客诉率&lt;/li>
+&lt;li>&lt;strong>交期&lt;/strong>：准时交付率、弹性能力&lt;/li>
+&lt;li>&lt;strong>服务&lt;/strong>：响应速度、配合度、解决问题能力&lt;/li>
+&lt;li>&lt;strong>风险&lt;/strong>：资金链、合规性、替代性&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别被低价冲昏头脑，多问一句：“这个价格背后，我到底要付出什么代价？”&lt;/strong>&lt;/p>
+&lt;h3 id="第二个坑忽视隐性风险只会看表面">第二个坑：忽视“隐性风险”，只会看表面&lt;/h3>
+&lt;p>很多采购评估供应商，流程是这样的：&lt;/p>
+&lt;ol>
+&lt;li>看营业执照（嗯，注册3年了）&lt;/li>
+&lt;li>查企业信用（没有黑名单）&lt;/li>
+&lt;li>现场参观（厂房挺干净）&lt;/li>
+&lt;li>签合同（完美）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>然后呢？然后就没有然后了。&lt;/strong>&lt;/p>
+&lt;p>你以为这样就能安全过关？太天真了。&lt;/p>
+&lt;p>我之前评估过一家供应商，表面风光：5000平米厂房、100多号工人、ISO认证都有。结果合作3个月，突然断货。一查才知道，老板赌博输了钱，资金链断裂，工人工资都发不出。&lt;/p>
+&lt;p>&lt;strong>表面过得去，不代表背后没问题。&lt;/strong>&lt;/p>
+&lt;p>怎么避免？给你3个“挖地三尺”的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>扒一扒老板背景&lt;/strong>：问问同行、查查征信、看看是否有官司。别光看公司，人更重要。&lt;/li>
+&lt;li>&lt;strong>实地突击检查&lt;/strong>：别提前通知，杀个回马枪。看看真实的生产状态、库存情况、工人情绪。&lt;/li>
+&lt;li>&lt;strong>查关联公司&lt;/strong>：很多供应商会用多个马甲。查查他背后有没有其他公司正在破产边缘。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：供货商评估不是一次性的，而是持续的。&lt;/strong> 今天没问题，不代表明天没问题。&lt;/p>
+&lt;h3 id="第三个坑评估完就扔一边不管了">第三个坑：评估完就扔一边，不管了&lt;/h3>
+&lt;p>这是最普遍的坑，也是最致命的。&lt;/p>
+&lt;p>很多采购做完评估，选完供应商，就以为大功告成。然后呢？&lt;strong>供应商“变了”&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>品质慢慢下降&lt;/li>
+&lt;li>交期越来越拖&lt;/li>
+&lt;li>服务越来越差&lt;/li>
+&lt;li>价格悄悄涨了&lt;/li>
+&lt;/ul>
+&lt;p>为什么？因为没有&lt;strong>持续监控&lt;/strong>。&lt;/p>
+&lt;p>供应商不是机器，不是选定了就一劳永逸。他们也会变：老板换人、资金紧张、设备老化、管理混乱……如果不盯，随时翻车。&lt;/p>
+&lt;p>&lt;strong>怎么做？给你一套“养鱼”的方法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度评分卡&lt;/strong>：每项指标打分，低于85分的直接亮红灯&lt;/li>
+&lt;li>&lt;strong>季度复盘会&lt;/strong>：和供应商坐在一起，聊问题、定改进方案&lt;/li>
+&lt;li>&lt;strong>年度淘汰制&lt;/strong>：连续3个月不合格的直接换人，别心软&lt;/li>
+&lt;li>&lt;strong>建立备选库&lt;/strong>：永远保持2-3家备选，别被卡脖子&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：供应商评估不是一次性考试，而是一场马拉松。&lt;/strong> 你不管他，他就管你。&lt;/p>
+&lt;h3 id="真正的供应商评估怎么做">真正的供应商评估，怎么做？&lt;/h3>
+&lt;p>别嫌烦，我给你一套&lt;strong>简单粗暴的流程&lt;/strong>，照着做，至少能避开80%的坑。&lt;/p>
+&lt;p>&lt;strong>第一步：制定标准，别拍脑袋&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>列出10个关键指标（价格、品质、交期、服务、风险……）&lt;/li>
+&lt;li>每个指标量化打分（比如交期延迟1天扣5分）&lt;/li>
+&lt;li>设定底线分数（低于60分直接pass）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：多维验证，别信一面之词&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>背景调查：工商信息、司法纠纷、行业口碑&lt;/li>
+&lt;li>现场审核：生产流程、设备状态、员工状态&lt;/li>
+&lt;li>样品测试：小批量试单，别一上来就大单&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三步：动态管理，别一劳永逸&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每月数据监控&lt;/li>
+&lt;li>每季度沟通复盘&lt;/li>
+&lt;li>每年重新评估&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别嫌麻烦。一次翻车，损失的可能不仅仅是一笔订单，而是你的职业前途。&lt;/strong>&lt;/p></description></item><item><title>供应链崩盘前，这3个坑我先帮你踩了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>先说个真事。&lt;/p>
+&lt;p>上个月，我一朋友，干了6年采购，突然被老板叫去骂了半小时。原因？供应商跑路了，产线停了两天，老板差点没把桌子掀了。&lt;/p>
+&lt;p>他委屈啊：那供应商合作3年了，之前一直好好的，谁能想到说黄就黄？&lt;/p>
+&lt;p>我问他：你最后一次去现场是啥时候？他愣了一下：去年…吧。&lt;/p>
+&lt;p>得，活该被骂。&lt;/p>
+&lt;p>干供应链这行，最怕的不是涨价，不是缺货，是&lt;strong>你以为稳了，其实早就崩了&lt;/strong>。&lt;/p>
+&lt;p>今天这篇，我把自己踩过的、身边人踩过的坑，全扒出来给你看。不整虚的，就3个点。记不住没关系，先收藏，回头遇事翻出来看。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险一供应商忽然断供其实信号早就给了">风险一：供应商“忽然”断供？其实信号早就给了&lt;/h3>
+&lt;p>你以为“忽然”是突然？天真。&lt;/p>
+&lt;p>供应商要黄，通常有3个前兆，你但凡盯住一个，都不至于这么被动：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>付款周期突然变短&lt;/strong>：以前能拖3个月，现在非要见票付款。这不是他变牛了，是他在自救。&lt;/li>
+&lt;li>&lt;strong>老板开始频繁换号、联系不上&lt;/strong>：以前秒回微信，突然变成“在开会”，接着是“信号不好”，最后是“您拨打的电话已关机”。&lt;/li>
+&lt;li>&lt;strong>关键岗位人员集体离职&lt;/strong>：财务、生产主管这种核心岗，走一个可能是个人原因，走一窝？那就是公司要凉。&lt;/li>
+&lt;/ul>
+&lt;p>我一个同行老李，去年就是这么救了自己一命。&lt;/p>
+&lt;p>他发现有家供应商，以前报价都挺稳，突然连报三次低价。老李觉得不对劲，一打听，对方资金链快断了，想靠低价抢单套现跑路。&lt;/p>
+&lt;p>老李二话没说，连夜启动备选方案。一个月后，那家供应商果然暴雷，他的产线没停，老板还给他加了奖金。&lt;/p>
+&lt;p>所以，别傻乎乎只盯着价格和交期。&lt;strong>供应商的“异常”，就是你的警报器&lt;/strong>。你不管，锅就是你的。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险二数据报表看着漂亮那是给你看的假象">风险二：数据报表看着漂亮？那是给你看的假象&lt;/h3>
+&lt;p>我见过太多采购，被“假数据”忽悠瘸了。&lt;/p>
+&lt;p>啥叫假数据？就是你天天盯着的：&lt;/p>
+&lt;ul>
+&lt;li>准时交付率 98% → 可能只统计了交了的订单，没交的直接踢出分母&lt;/li>
+&lt;li>合格率 99.5% → 只抽检了最好的一批，次品全藏仓库里&lt;/li>
+&lt;li>库存周转天数 30天 → 库龄200天的老物料，账面价值还在“存货”里挂着&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相往往藏在角落里&lt;/strong>。&lt;/p>
+&lt;p>比如，你每个月看供应商的“退货率”。如果某个月突然从2%降到0.5%，别高兴。先问问：是不是对方把退货单压着没报？是不是质检标准临时松了？&lt;/p>
+&lt;p>再比如，库存数据。我见过一家公司，账面库存价值800万，结果一盘点，有300万是三年以上的呆滞料。老板问：为啥不处理？采购说：账上还有呢，处理了我就亏了。&lt;/p>
+&lt;p>你品，你细品。&lt;/p>
+&lt;p>所以，别只看报表。&lt;strong>每周抽一天，去仓库走一圈&lt;/strong>，看看那些“账面库存”到底长啥样。去产线问问工人，最近哪家供应商的货“用起来费劲”。这些一手信息，比Excel里100个公式都管用。&lt;/p>
+&lt;p>&lt;strong>数据是工具，不是信仰。&lt;/strong> 你信了假的，老板就信了你的无能。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险三单一来源是你给自己挖的坟">风险三：单一来源，是你给自己挖的坟&lt;/h3>
+&lt;p>这句我要加粗说：&lt;strong>永远，永远，永远不要只依赖一家供应商。&lt;/strong>&lt;/p>
+&lt;p>哪怕他价格最低、交期最准、关系最铁。因为只要这一家出事，你就等于裸奔。&lt;/p>
+&lt;p>我见过最惨的案例。一家做电子元件的公司，核心芯片只从一家日本厂商采购。合作了8年，从来没出过问题。结果2022年，日本工厂因为地震停产两周，就两周，这家中国公司直接亏了2000万。&lt;/p>
+&lt;p>老板疯了一样问采购：你不是说没问题吗？&lt;/p>
+&lt;p>采购欲哭无泪：谁能想到地震啊？&lt;/p>
+&lt;p>可问题是，&lt;strong>“意外”从来不是意外&lt;/strong>，它是供应链的常态。贸易战、地缘冲突、极端天气、环保检查……随便来一个，你的“独家”就变成“独墓”。&lt;/p>
+&lt;p>怎么办？三步走：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>至少养3家供应商&lt;/strong>：主供占60%，次供30%，替补10%。别觉得麻烦，这叫“冗余安全”。关键时刻，10%那家能给你续命。&lt;/li>
+&lt;li>&lt;strong>定期测试替补的产能&lt;/strong>：别等到主供出事，才联系替补说“帮我赶一下”。人家排期早满了，你算老几？&lt;/li>
+&lt;li>&lt;strong>关键物料，自己备一点安全库存&lt;/strong>：别信“零库存”那套鬼话。那是大厂玩的游戏，你一中小体量，零库存等于零安全感。&lt;/li>
+&lt;/ol>
+&lt;p>记住，&lt;strong>供应链的本质不是省钱，是“不断线”&lt;/strong>。断一次，之前省的全还回去，还得倒贴。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说两句">最后说两句&lt;/h3>
+&lt;p>干了这么多年，我最大的感受就一句话：&lt;strong>供应链的风险，从来不是“不知道”，而是“知道了懒得管”&lt;/strong>。&lt;/p>
+&lt;p>你总觉得今天没事，明天没事，后天就出事了。而且出事的时候，永远是你最忙、最怕、最不能出岔子的时候。&lt;/p>
+&lt;p>所以，别指望别人替你扛。老板只看结果，客户只看交期。中间那些“风险防控”，就是你自己的事。&lt;/p>
+&lt;p>把今天这3个坑记住了，回去翻翻你的供应商名单、库存报表、数据报表。看看有没有“雷”。有的话，趁早排。&lt;/p>
+&lt;p>&lt;strong>别等崩了再后悔，那时候连哭都找不到地方。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>危险品运输翻车3次，我才明白这5个坑</title><link>https://supplychain-tips.pages.dev/posts/dangerous-goods-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/dangerous-goods-tips/</guid><description>&lt;p>你见过危险品运输车在高速上烧起来的样子吗？&lt;/p>
+&lt;p>我见过。不是视频里，是真真切切站在路边，看着黑烟把半个天都染了。&lt;/p>
+&lt;p>那车拉的是一种常见的工业溶剂，不是什么核材料。但就那一把火，司机烧伤，道路封闭6小时，货主赔了300多万，保险公司还拒赔。为什么？因为&lt;strong>运输单据上写的品名和实际货物对不上&lt;/strong>——这就是作死。&lt;/p>
+&lt;p>干危险品运输这行，踩坑是常态，但有些坑，踩一次就能把你职业生涯直接送走。&lt;/p>
+&lt;p>今天我掏心窝子，聊聊这些年我亲眼见过、亲手填过的5个坑。&lt;/p>
+&lt;h3 id="1-资质造假以为有关系能顶事">1. 资质造假，以为“有关系”能顶事&lt;/h3>
+&lt;p>别笑，真有人这么干。&lt;/p>
+&lt;p>很多刚入行的老板，或者临时接单的物流公司，第一反应是：“哎呀，危险品运输资质太难办了，我找朋友的车挂个牌就行。”&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>&lt;strong>查一次，罚5万起步。&lt;/strong> 出了事故，直接按“非法运输危险物质”追究刑事责任，坐牢那种。&lt;/p>
+&lt;p>我认识一个兄弟，帮人运几桶油漆稀释剂，觉得“就几桶，没事”。结果路上被交警拦下，发现车辆没有危险品运输标志，驾驶员没有从业资格证。最后定性：&lt;strong>涉嫌危险驾驶罪&lt;/strong>，拘留15天，公司被吊销营业执照。&lt;/p>
+&lt;p>所以，别跟资质玩游戏。正规的危险品运输企业，必须同时具备：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>道路运输经营许可证&lt;/strong>（经营范围包含危险品）&lt;/li>
+&lt;li>&lt;strong>车辆必须安装GPS、行车记录仪、紧急切断阀&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>驾驶员和押运员必须持证上岗&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>少一个，就是定时炸弹。&lt;/p>
+&lt;h3 id="2-包装差不多得了结果漏一地">2. 包装“差不多得了”，结果漏一地&lt;/h3>
+&lt;p>危险品包装，是很多人最容易忽视的环节。&lt;/p>
+&lt;p>我见过最离谱的：用普通塑料桶装强酸，结果桶被腐蚀穿，酸液在车厢里流了一地。司机打开车门，直接被酸雾呛进医院。&lt;/p>
+&lt;p>包装不是“能装就行”，是&lt;strong>能扛住运输中的所有折腾&lt;/strong>。&lt;/p>
+&lt;p>几个硬性要求，拿小本本记好：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>包装必须符合UN标准&lt;/strong>，有UN编号和包装等级（比如I类、II类、III类）&lt;/li>
+&lt;li>&lt;strong>外包装要有清晰的危险品标签&lt;/strong>（9类标志，别贴错）&lt;/li>
+&lt;li>&lt;strong>液体货物必须留出膨胀空间&lt;/strong>，不能装太满&lt;/li>
+&lt;li>&lt;strong>不同危险品不能混装&lt;/strong>，比如氧化剂和易燃物放一起，等于抱着炸弹睡觉&lt;/li>
+&lt;/ul>
+&lt;p>记住一句话：&lt;strong>包装省下的钱，早晚十倍赔出去。&lt;/strong>&lt;/p>
+&lt;h3 id="3-司机和押运员随便拉个人就上路">3. 司机和押运员，随便拉个人就上路&lt;/h3>
+&lt;p>危险品运输，司机不是普通司机。&lt;/p>
+&lt;p>普通货车司机，会开车就行。危险品司机，得会：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>识别危险品标志和MSDS（安全数据表）&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>知道泄漏了怎么处理&lt;/strong>（什么能用沙，什么不能用水）&lt;/li>
+&lt;li>&lt;strong>会操作紧急切断阀和灭火器&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>熟悉应急预案流程&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我见过一个押运员，车翻了只会打电话喊“老板救命”，问他灭火器在哪，他说“好像在车后面”。这种人，就是颗定时炸弹。&lt;/p>
+&lt;p>所以，招募或雇佣危险品司机时，必须：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>持有效的危险品运输从业资格证&lt;/strong>（不是普通货运证）&lt;/li>
+&lt;li>&lt;strong>每年至少一次安全培训&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>跟车押运员必须是双人配置&lt;/strong>（两人都持证）&lt;/li>
+&lt;li>&lt;strong>定期模拟应急演练&lt;/strong>（别等到真出事才学）&lt;/li>
+&lt;/ul>
+&lt;p>别省这点培训钱，人命比运费贵。&lt;/p>
+&lt;h3 id="4-路线规划随心所欲走到禁行区">4. 路线规划“随心所欲”，走到禁行区&lt;/h3>
+&lt;p>危险品运输不是你想走哪走哪。&lt;/p>
+&lt;p>很多城市核心区、隧道、桥梁、学校周边，都有&lt;strong>危险品禁行路段&lt;/strong>。如果你没提前查好路线，开进去就是扣分罚款，严重的直接扣车。&lt;/p>
+&lt;p>更可怕的是：你开到禁行区，万一出事故，连救援都进不来。&lt;/p>
+&lt;p>我有个朋友，运一批氧气瓶进城，导航没更新，直接开进了一个限高隧道。结果车顶刮到隧道顶部，氧气瓶掉下来炸了一个。那叫一个惨。&lt;/p>
+&lt;p>所以，危险品运输的路线规划，必须做到：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>提前查询沿途城市禁行规定&lt;/strong>（很多城市有专门的危险品运输管理平台）&lt;/li>
+&lt;li>&lt;strong>使用专用危险品导航APP&lt;/strong>（比如“危运导航”或“货安达”）&lt;/li>
+&lt;li>&lt;strong>避开人口密集区、水源地、隧道、桥梁&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>提前规划好中途休息点和应急停靠点&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>路线规划好了，命就保了一半。&lt;/p>
+&lt;h3 id="5-应急预案停留在纸上出事全抓瞎">5. 应急预案停留在纸上，出事全抓瞎&lt;/h3>
+&lt;p>我敢说，80%的危险品运输企业，应急预案就是一份打印出来的文件，贴在墙上落灰。&lt;/p>
+&lt;p>真出事了怎么办？&lt;/p>
+&lt;ul>
+&lt;li>泄漏了，是先报警还是先堵漏？&lt;/li>
+&lt;li>着火了，是用水还是用干粉？&lt;/li>
+&lt;li>人员受伤了，怎么撤离？往哪撤？&lt;/li>
+&lt;/ul>
+&lt;p>这些问题，99%的人答不上来。&lt;/p>
+&lt;p>我见过最离谱的一次：一辆运盐酸的车侧翻，司机和押运员吓得跑了，连警示牌都没放。后面一辆车没看到，直接撞上去，二次事故，死了人。&lt;/p>
+&lt;p>&lt;strong>应急预案不是应付检查的，是救命用的。&lt;/strong>&lt;/p>
+&lt;p>真正有效的应急准备，包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>车上必须配备应急包&lt;/strong>（防化手套、护目镜、中和剂、堵漏工具）&lt;/li>
+&lt;li>&lt;strong>司机和押运员必须熟练背诵“应急三步走”&lt;/strong>：停车-报警-隔离&lt;/li>
+&lt;li>&lt;strong>每季度至少一次实战演练&lt;/strong>（别光开会，要真动手）&lt;/li>
+&lt;li>&lt;strong>24小时应急电话，必须能打通&lt;/strong>（别让客户打来找不到人）&lt;/li>
+&lt;/ul>
+&lt;p>你准备得越充分，事故就越小。&lt;/p></description></item><item><title>干了10年采购才敢说：80%的库存都是废的</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</guid><description>&lt;p>上周去一个朋友的仓库，差点没把我送走。&lt;/p>
+&lt;p>满屋子货，堆得脚都伸不进去。他愁眉苦脸地跟我说：“哥，我库存压了500万，但客户天天催的货，我一件都发不出来。”&lt;/p>
+&lt;p>我看了眼他的库存报表，乐了。&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高销量）只占了30%的库存，B类货勉强能卖，剩下的C类货——那些一年卖不了几件、占着仓位还压着钱的玩意儿，整整堆了50%的库存。&lt;/strong>&lt;/p>
+&lt;p>这不就是典型的“钱都变成了不值钱的货”吗？&lt;/p>
+&lt;p>你别说，这种坑，我干了10年采购，见过太多人往里跳了。今天咱们就聊聊那个能让仓库“起死回生”的&lt;strong>ABC分类法&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="别被二八定律骗了实战中你得看这三点">别被“二八定律”骗了，实战中你得看这三点&lt;/h3>
+&lt;p>很多文章一上来就甩定义：“ABC分类法是根据价值将库存分为三类……”&lt;/p>
+&lt;p>打住。咱不整虚的。&lt;/p>
+&lt;p>说白了，&lt;strong>ABC分类法就是帮你回答三个灵魂拷问&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>哪些货是靠它们赚钱的？—— &lt;strong>A类&lt;/strong>&lt;/li>
+&lt;li>哪些货是凑数的？—— &lt;strong>B类&lt;/strong>&lt;/li>
+&lt;li>哪些货是坑你的？—— &lt;strong>C类&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心指标就一个：年销售额占比。&lt;/strong>&lt;/p>
+&lt;p>别盯着利润，销售额（单价×销量）更能反映资金流转效率。你一个卖螺丝的，单价5毛，但一年卖1000万个，销售额500万，那它就是A类。你卖一个定制机床，单价100万，但三年卖一台，销售额才33万/年，那它就是C类。&lt;/p>
+&lt;p>&lt;strong>实战操作就三步：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>拉数据&lt;/strong>：过去12个月每个SKU的销量和单价，算出销售额。&lt;/li>
+&lt;li>&lt;strong>排顺序&lt;/strong>：按销售额从高到低排，算累计占比。&lt;/li>
+&lt;li>&lt;strong>画老虎&lt;/strong>：前10%-20%的SKU（累计占比70%-80%）→ A类；中间20%-30%的SKU（累计占比15%-20%）→ B类；剩下的50%-70%的SKU（累计占比5%-10%）→ C类。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别问为什么是20%、70%这些数字。&lt;/strong> 每个行业不一样。你是卖快消品的，可能A类只有5%的SKU就占了90%的销售额。你是做配件的，A类可能得占到30%的SKU。&lt;/p>
+&lt;p>&lt;strong>记住一句话：分类是手段，不是目的。&lt;/strong> 目的是让你知道精力该往哪砸。&lt;/p>
+&lt;hr>
+&lt;h3 id="血的教训a类货不是亲爹c类货也不是后妈">血的教训：A类货不是亲爹，C类货也不是后妈&lt;/h3>
+&lt;p>很多人一分类，就把A类货当亲爹供着——天天盯库存，月月盘库，生怕断货。把C类货直接扔冷宫——爱咋咋地，缺货就缺货。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的操作：一个做电子元件的老板，把一款单价0.5元的电阻（C类）备了3个月的量，占了一整排货架。结果那边一个单价500元的主控芯片（A类）断货了，产线停了三天，损失十几万。&lt;/p>
+&lt;p>&lt;strong>正确的玩法是这样的：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高频次）→ 当亲爹供着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>不设安全库存&lt;/strong>？做梦！必须天天盯，甚至小时级监控。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：按需采购，少批量多批次。比如每天补一次货，甚至用JIT（准时制）。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：每月至少一次，甚至每周一次。&lt;strong>少一颗螺丝，可能就得停一条线。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>供应商管理&lt;/strong>：签长期合同，锁定产能，甚至搞VMI（供应商管理库存）。&lt;strong>别等断货了才去跪求供应商。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>B类货（中不溜）→ 当普通朋友处着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：设半个月到1个月的量。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：定期补货，比如两周订一次，或者用再订货点法。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：季度盘一次就够了。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：保持2-3家备选，别在一棵树上吊死。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>C类货（低价值低频次）→ 当远房亲戚养着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：能少就少，甚至0库存（用代发货或者供应商直发）。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：&lt;strong>一次性多买点&lt;/strong>，比如半年订一次，利用订单量砍价。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：一年盘一次，或者直接放弃盘点（成本太高）。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：找那种品类全、送货快、能拆包的电商平台（比如1688或者京东企业购），别自己囤。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑就一句话：A类货追求“快”（高周转），C类货追求“省”（低管理成本）。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="90的人都会踩的3个坑我全踩过">90%的人都会踩的3个坑（我全踩过）&lt;/h3>
+&lt;p>&lt;strong>坑1：分类做了一次就再也不动&lt;/strong>&lt;/p>
+&lt;p>我见过最懒的采购，三年前分的类，现在还用。大哥，市场都变天了！你去年爆火的SKU，今年可能成了库存杀手。&lt;/p>
+&lt;p>&lt;strong>正确姿势：每季度重跑一次数据。&lt;/strong> 别忘了把季节性、促销活动、新品上市这些变量加进去。比如你卖羽绒服的，冬天的A类货到了夏天可能就是C类，别傻乎乎地继续囤。&lt;/p>
+&lt;p>&lt;strong>坑2：只看销售额，不看利润&lt;/strong>&lt;/p>
+&lt;p>有些货销售额高，但利润率低到可怜（比如大宗商品）。有些货销售额低，但利润率高得吓人（比如定制配件）。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong> 在销售额占比的基础上，加一个“利润率权重”。推荐用&lt;strong>加权评分法&lt;/strong>：销售额占比×50% + 利润占比×50% = 综合得分。这样才不会把“赔钱赚吆喝”的货当A类。&lt;/p>
+&lt;p>&lt;strong>坑3：把C类货直接砍光&lt;/strong>&lt;/p>
+&lt;p>有哥们一听C类货是坑，直接全部清仓。然后客户来找他要配件，全公司翻遍也找不到，客户骂娘，销售跳脚。&lt;/p>
+&lt;p>&lt;strong>记住：C类货的存在是为了满足“长尾需求”&lt;/strong>。你可以减少它的库存，但不能没有它。正确做法是：&lt;strong>把C类货的库存降到最低，或者让供应商帮你备现货，你出单就让他代发。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后送你一张偷懒清单">最后送你一张“偷懒”清单&lt;/h3>
+&lt;p>不想动脑子？直接照这个来：&lt;/p></description></item><item><title>库存压了300万才懂，WMS真能救命</title><link>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</guid><description>&lt;p>&lt;strong>兄弟，你仓库里那堆货，是不是快把你压死了？&lt;/strong>&lt;/p>
+&lt;p>别跟我扯什么“库存周转率”、“SKU优化”，我就问你一句：&lt;/p>
+&lt;p>&lt;strong>你昨天盘点，又对不上数了吧？&lt;/strong>&lt;/p>
+&lt;p>别狡辩。干过仓储的都知道，那种“明明系统显示有，但货架上就是找不到”的绝望，比失恋还难受。更离谱的是，老板还天天在群里@你：“那个A类物料怎么又缺货了？不是刚进200箱吗？”&lt;/p>
+&lt;p>你心里一万匹草泥马跑过，但嘴上只能回：“我查查。”&lt;/p>
+&lt;p>查个屁。你翻烂了Excel表格和纸质单据，最后发现——&lt;strong>要么是入库时数错了，要么是发货时拿错了，要么是……货早就被老鼠啃了&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>这不是你的错。是你那套“人脑+Excel”的野路子仓储管理，已经彻底崩了。&lt;/strong>&lt;/p>
+&lt;p>今天我不跟你讲什么“数字化转型”的大词，也不甩一堆高大上的定义。我就用大白话告诉你：&lt;strong>WMS系统，到底怎么帮你从“天天救火”变成“躺着数钱”&lt;/strong>。&lt;/p>
+&lt;h3 id="1-别让仓库变成黑洞wms怎么把你从找货地狱里捞出来">1. 别让仓库变成“黑洞”——WMS怎么把你从“找货地狱”里捞出来&lt;/h3>
+&lt;p>先问个扎心的问题：&lt;strong>你的仓库利用率，超过50%了吗？&lt;/strong>&lt;/p>
+&lt;p>大部分中小企业的仓库，其实就是个“黑洞”。货到了，找个空位一塞，记个位置（或者根本记不住）。等要发货了，好家伙，满仓库翻个底朝天，&lt;strong>找货时间比干活时间还长&lt;/strong>。&lt;/p>
+&lt;p>我见过最离谱的一个厂，光找一箱螺丝就花了40分钟，最后还是用叉车把另一堆货挪开才找到——&lt;strong>那箱螺丝，被压在底下快半年了，都锈了。&lt;/strong>&lt;/p>
+&lt;p>WMS怎么治这个病？&lt;strong>上架推荐+库位管理&lt;/strong>。&lt;/p>
+&lt;p>它不让你瞎放。系统会告诉你：“这箱货，放到A-03-05号库位。” 你只要扫码确认，系统就记住了。下次要发货，系统直接说：“去A-03-05拿，扫码出库。”&lt;/p>
+&lt;p>&lt;strong>从“人找货”变成“货找人”&lt;/strong>。你不需要记任何东西，不需要靠经验。新人上岗当天就能干活，效率直接翻倍。&lt;/p>
+&lt;p>&lt;strong>别再让仓库变成你的“盲盒”了。打开WMS，每个货位都是透明的。&lt;/strong>&lt;/p>
+&lt;h3 id="2-盘点再也不用熬夜wms让你库存数据活起来">2. 盘点再也不用熬夜——WMS让你库存数据“活”起来&lt;/h3>
+&lt;p>聊到盘点，是不是血压就上来了？&lt;/p>
+&lt;p>每次盘点，全公司都得跟着熬大夜。点完了，数据对不上，又得从头再来一遍。最后老板问：“到底亏了多少？” 你只能报个大概数，心里虚得要命。&lt;/p>
+&lt;p>&lt;strong>更可怕的是，库存数据不准，直接导致采购出大事。&lt;/strong>&lt;/p>
+&lt;p>我有个做电商的朋友，系统显示库存还有200件，他放心大胆地又进了500件。结果货到了发现，仓库里其实只有50件——因为之前的退货没入库，被员工顺手丢在角落里了。&lt;strong>多出来的150件库存，全是真金白银砸进去的，卖不出去就是亏。&lt;/strong>&lt;/p>
+&lt;p>WMS的核心价值之一：&lt;strong>实时库存精准度&lt;/strong>。&lt;/p>
+&lt;p>它不是等你盘点完才给你数据。每一次入库、出库、调拨、退货，都要&lt;strong>扫码确认&lt;/strong>。系统里的数字，就是仓库里真实的数字。&lt;/p>
+&lt;p>而且，WMS的“循环盘点”功能，不用你停业。每天只盘一小部分区域，系统会自动告诉你哪些库位“有问题”，你去核实就行。&lt;strong>把盘点的压力，分散到每一天&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>数据准了，采购才敢拍板，财务才敢算账。老板看你的眼神，都是带光的。&lt;/strong>&lt;/p>
+&lt;h3 id="3-发货总出错那是你还在用人肉校对">3. 发货总出错？那是你还在用“人肉校对”&lt;/h3>
+&lt;p>发货出错，是压垮客户信任的最后一根稻草。&lt;/p>
+&lt;p>“我要的是红色M码，你给我发个蓝色L码？” “这个配件呢？少发了一个螺丝？”&lt;/p>
+&lt;p>一次错，客户骂你。两次错，客户退货。三次错，客户直接拉黑你。&lt;/p>
+&lt;p>&lt;strong>为什么老出错？&lt;/strong> 因为全靠人肉核对。员工看一张拣货单，在货架上一排排找，再人工核对品名、数量、批次。眼睛花了、累了，看漏一个字，就错了。&lt;/p>
+&lt;p>WMS怎么解决？&lt;strong>PDA（手持终端）+ 条码扫描&lt;/strong>。&lt;/p>
+&lt;p>你拿着PDA，系统告诉你去哪个库位，扫一下货架条码，确认位置正确。再扫一下商品条码，&lt;strong>系统自动匹配&lt;/strong>。如果拿错了，PDA直接“嘀嘀嘀”报警，你根本出不了库。&lt;/p>
+&lt;p>&lt;strong>这不是高科技，这是基本功。&lt;/strong> 用机器替代人脑的重复判断，把出错率降到接近于零。&lt;/p>
+&lt;p>&lt;strong>少发一次错，省下的是客户投诉、补发运费、甚至整单退款。这笔账，你算得过来。&lt;/strong>&lt;/p>
+&lt;h3 id="4-别信免费wms这三个坑踩一个就完蛋">4. 别信“免费WMS”——这三个坑，踩一个就完蛋&lt;/h3>
+&lt;p>说到这，肯定有人问：“那我去网上找个免费的WMS行不行？”&lt;/p>
+&lt;p>&lt;strong>兄弟，千万别。&lt;/strong> 免费的，往往是最贵的。我给你排三个雷：&lt;/p>
+&lt;p>&lt;strong>坑一：功能太死，根本不适合你的业务&lt;/strong>
+免费的通常是个通用版。你搞食品、搞汽配、搞服装，&lt;strong>生鲜要管效期，汽配要管批次，服装要管颜色尺码&lt;/strong>。它管不了。最后你还是得回到Excel里手动记。&lt;/p>
+&lt;p>&lt;strong>坑二：数据全在别人服务器上，随时可能被“封号”&lt;/strong>
+免费服务商随时可能倒闭，或者突然收费。你的库存数据、客户信息，全在人家手里。哪天登录不上去，你仓库直接瘫痪。&lt;strong>这相当于把命门交给别人。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>坑三：没有售后，出了问题只能靠自己&lt;/strong>
+遇到BUG了、不知道怎么操作了、系统卡死了……你找谁？免费产品没有客服，只有论坛。你发个帖子，三天后有人回你一句“重启试试”。&lt;/p>
+&lt;p>&lt;strong>选WMS，别贪便宜。&lt;/strong> 找个几千块一年的SaaS版，或者一次性买断的本地部署版，找有行业案例的、有售后支持的。这笔投资，比你自己多招两个仓管划算得多。&lt;/p>
+&lt;p>&lt;strong>最后说几句掏心窝子的话&lt;/strong>&lt;/p>
+&lt;p>我知道，让你老板掏钱买个系统，很难。他会问：“这能直接给我省多少钱？”&lt;/p>
+&lt;p>你可以这么算：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>少招1个人&lt;/strong>：一年省5-8万工资。&lt;/li>
+&lt;li>&lt;strong>库存周转率提升20%&lt;/strong>：同样的资金，能多卖20%的货。&lt;/li>
+&lt;li>&lt;strong>发货出错率降到0.1%以下&lt;/strong>：省下的赔偿和客户流失，没法算。&lt;/li>
+&lt;li>&lt;strong>盘点时间缩短80%&lt;/strong>：员工不用熬夜加班，效率还高。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>库存压了300万才明白，靠人管仓库，就是个无底洞。靠系统管仓库，才是真正的降本增效。&lt;/strong>&lt;/p>
+&lt;p>别等到仓库彻底失控、老板拍桌子骂娘、客户全跑光了，才想起要上系统。&lt;strong>现在，就是最好的时候。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>物流外包3年，我被坑了100万才懂这些</title><link>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/</guid><description>&lt;p>上个月，朋友老张的公司差点因为物流外包破产。&lt;/p>
+&lt;p>他去年把全国仓配业务打包给一家“4.9分好评”的物流商，结果——&lt;strong>旺季爆仓，货在仓库躺了5天&lt;/strong>；&lt;strong>系统对接失败，订单发错地址&lt;/strong>；&lt;strong>最后算账，隐形费用比报价高了40%&lt;/strong>。&lt;/p>
+&lt;p>老张咬着牙说：“早知道物流水这么深，我宁可自己养车队。”&lt;/p>
+&lt;p>别笑，你可能就是下一个老张。物流外包看似是“甩包袱”，但90%的中小企业踩过以下5个坑。今天不聊理论，只讲血泪教训。&lt;/p>
+&lt;h3 id="1-报价单里的文字游戏专坑不看细节的人">1. 报价单里的“文字游戏”，专坑不看细节的人&lt;/h3>
+&lt;p>很多物流商报价时，会给你一张“超低价”表格：仓储费1元/平米/天，配送费3元/单。你一看，比竞争对手便宜30%，马上签约。&lt;/p>
+&lt;p>&lt;strong>坑在哪儿？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>仓储费&lt;/strong>：只算平面面积，不算操作费（上架、拣货、包装另收）。&lt;/li>
+&lt;li>&lt;strong>配送费&lt;/strong>：只含首重，续重按“区域分级”加价（偏远地区翻倍）。&lt;/li>
+&lt;li>&lt;strong>隐形附加&lt;/strong>：节假日加班费、夜间作业费、退货处理费……签完合同才告诉你。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么办？&lt;/strong>
+要求对方把&lt;strong>所有可能收费项&lt;/strong>列成清单，并注明“总价包干”或“按实际发生”。&lt;strong>千万别信“行业惯例”&lt;/strong>，白纸黑字写进合同。&lt;/p>
+&lt;h3 id="2-系统对接99的失败案例都死在这">2. 系统对接：99%的失败案例都死在这&lt;/h3>
+&lt;p>“我们系统很牛，API一键打通！”——这句话，谁信谁傻。&lt;/p>
+&lt;p>很多物流商的系统是“贴牌”的，底层数据乱成一锅粥。对接后，你会遇到：&lt;/p>
+&lt;ul>
+&lt;li>订单状态不同步，客户疯狂投诉“货到哪了？”&lt;/li>
+&lt;li>库存数据对不上，仓库明明有货，系统显示无货。&lt;/li>
+&lt;li>物流轨迹延迟，你以为在派送，实际还在中转站。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实案例&lt;/strong>：某电商公司花3个月对接系统，结果上线第一天，&lt;strong>2000单发错地址&lt;/strong>，直接损失30万。&lt;/p>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：
+先问对方&lt;strong>系统开发团队规模&lt;/strong>，要求提供&lt;strong>真实客户对接案例&lt;/strong>。最好&lt;strong>派技术人员现场测试&lt;/strong>，模拟大促峰值流量。如果对方支支吾吾，赶紧跑。&lt;/p>
+&lt;h3 id="3-合同里的免责条款专坑老实人">3. 合同里的“免责条款”，专坑老实人&lt;/h3>
+&lt;p>物流合同动辄十几页，你大概率只会看价格和期限。但&lt;strong>真正决定你命运的，是那些小字&lt;/strong>。&lt;/p>
+&lt;p>常见“埋雷”条款：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“因不可抗力导致延迟，乙方不承担责任”&lt;/strong>：但“不可抗力”范围可以很广，比如“系统故障”“人员不足”。&lt;/li>
+&lt;li>&lt;strong>“货物丢失按运费的3倍赔偿”&lt;/strong>：如果你发的是1万元的手机，运费才20元，赔你60元。&lt;/li>
+&lt;li>&lt;strong>“月底结算，逾期按日收0.5%滞纳金”&lt;/strong>：相当于年化182.5%的高利贷。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>律师朋友告诉我&lt;/strong>：&lt;strong>所有限制自身责任的条款，都要拿红笔圈出来&lt;/strong>。要么删除，要么修改为“按货物实际价值赔偿”。别怕麻烦，这关乎你的命。&lt;/p>
+&lt;h3 id="4-服务承诺说得比唱得好听做起来直接摆烂">4. 服务承诺：说得比唱得好听，做起来直接摆烂&lt;/h3>
+&lt;p>“我们有24小时客服”“KPI考核：准时率99%”“破损包赔”——这些话，听听就好。&lt;/p>
+&lt;p>现实是：&lt;/p>
+&lt;ul>
+&lt;li>客服电话打不通，微信回复“明天处理”。&lt;/li>
+&lt;li>迟到率高达30%，但合同里没写罚款细则。&lt;/li>
+&lt;li>破损了，对方说“你没买保险，不赔”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>
+&lt;strong>把服务承诺变成可量化的KPI&lt;/strong>，写入合同附件。例如：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>准时率≥98%&lt;/strong>，每低1%扣当月服务费的5%。&lt;/li>
+&lt;li>&lt;strong>破损率≤0.5%&lt;/strong>，超出部分按货值双倍赔偿。&lt;/li>
+&lt;li>&lt;strong>客服响应时间&lt;/strong>：电话30秒内接听，微信15分钟回复。&lt;/li>
+&lt;/ul>
+&lt;p>别信“口头保证”，&lt;strong>罚款机制才是真爹&lt;/strong>。&lt;/p>
+&lt;h3 id="5-成本陷阱你以为省了钱其实亏了更多">5. 成本陷阱：你以为省了钱，其实亏了更多&lt;/h3>
+&lt;p>物流外包的初衷是“降本增效”，但很多人只看到显性成本（运费、仓储费），忽略了隐性成本。&lt;/p>
+&lt;p>&lt;strong>隐性成本清单&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>沟通成本&lt;/strong>：每天花2小时和物流商吵架，你的人工费不值钱？&lt;/li>
+&lt;li>&lt;strong>试错成本&lt;/strong>：换一家物流商，要重新对接系统、磨合流程，至少浪费2个月。&lt;/li>
+&lt;li>&lt;strong>客户流失&lt;/strong>：因物流体验差，客户不再回购，这是最大的隐形亏损。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账&lt;/strong>：
+假设你月订单5000单，每单利润20元。如果物流商导致10%的订单延迟或破损，你每月损失：5000×10%×20元=1万元。&lt;strong>一年就是12万&lt;/strong>。而这还只是直接损失。&lt;/p>
+&lt;p>&lt;strong>终极建议&lt;/strong>：
+选物流商，别只看价格。&lt;strong>用“总成本=显性成本+隐性成本”公式算清楚&lt;/strong>。如果对方报价低30%，但隐性成本高50%，你其实在亏钱。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>物流外包不是“甩手掌柜”，而是“技术活”。那些被坑100万的人，往往是因为&lt;strong>懒&lt;/strong>——懒得看合同、懒得测试系统、懒得监控KPI。&lt;/p>
+&lt;p>&lt;strong>3个保命技巧&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>小批试单&lt;/strong>：先给10单测试，看对方反应速度和准确性。&lt;/li>
+&lt;li>&lt;strong>定期审计&lt;/strong>：每月随机抽查10%订单，核对真实物流轨迹。&lt;/li>
+&lt;li>&lt;strong>备选方案&lt;/strong>：永远留一个备用物流商，别把鸡蛋放一个篮子。&lt;/li>
+&lt;/ol>
+&lt;p>记住，&lt;strong>最贵的物流，是让你倒闭的那个&lt;/strong>。如果你正在考虑外包，请把这篇拍在老板桌上。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，获取更多防坑指南和谈判模板。&lt;/p></description></item><item><title>跨境物流亏了30万，我才学会这5个野路子</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</guid><description>&lt;p>先说个扎心事儿。&lt;/p>
+&lt;p>我有个朋友，去年做亚马逊FBA，发了票货到美国，结果被海关扣了整整两个月。货到不了仓，链接断货，排名一夜掉到谷底。最后清关出来，仓储费比货值还高。&lt;/p>
+&lt;p>他算了一笔账：&lt;strong>这一票，直接亏了30万。&lt;/strong>&lt;/p>
+&lt;p>当时他找我喝酒，红着眼睛问：&lt;strong>“跨境物流是不是玄学？”&lt;/strong>&lt;/p>
+&lt;p>我说：&lt;strong>“玄个屁，是你没摸到门道。”&lt;/strong>&lt;/p>
+&lt;p>干了这行6年，我见过太多人死在物流上。有的被货代坑，有的被清关卡，有的被尾程吃利润。&lt;/p>
+&lt;p>今天不说废话，直接上5条血换来的经验。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别把鸡蛋放在一个篮子里但篮子也别太多">1. 别把鸡蛋放在一个篮子里——但篮子也别太多&lt;/h3>
+&lt;p>很多人一听“多渠道”，就疯狂铺货代。今天用A，明天换B，后天试试C。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>每个渠道都磨合不够，出问题互相甩锅&lt;/li>
+&lt;li>价格拿不到最低，因为量不集中&lt;/li>
+&lt;li>管理成本飙升，光对账就头大&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>2-3个主力渠道&lt;/strong>：一个海运大货，一个空运小包，一个备用（比如中欧班列或铁路）&lt;/li>
+&lt;li>&lt;strong>每个渠道必须跑满3个月&lt;/strong>：别因为一票延误就换，系统性问题才换&lt;/li>
+&lt;li>&lt;strong>跟渠道签对赌协议&lt;/strong>：比如延误赔多少，丢件赔多少，白纸黑字写清楚&lt;/li>
+&lt;/ul>
+&lt;p>我现在的配置：&lt;strong>海运走大庄&lt;/strong>，&lt;strong>空运走小庄&lt;/strong>，&lt;strong>铁路走中欧班列&lt;/strong>。三足鼎立，谁也不敢糊弄我。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-清关不是玄学是数学">2. 清关不是玄学，是数学&lt;/h3>
+&lt;p>很多人觉得清关靠关系、靠运气。其实&lt;strong>90%的卡关，都是资料没做对&lt;/strong>。&lt;/p>
+&lt;p>尤其是&lt;strong>目的国的HS编码&lt;/strong>，你在中国查的和在目的国查的，可能完全不一样。&lt;/p>
+&lt;p>举个真实例子：
+我一个朋友做智能锁，中国HS编码归类是“电子锁”，到了美国海关，人家归成“五金件+电子元件”。结果税率从5%飙到25%，还因为成分申报不符被扣。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>花2000块找个目的国本地报关行&lt;/strong>：提前把产品信息发过去，让他们给编码&lt;/li>
+&lt;li>&lt;strong>别信货代给的“通用编码”&lt;/strong>：很多货代为了省事，直接套用模板，出了事不负责&lt;/li>
+&lt;li>&lt;strong>多备一份“解释性文件”&lt;/strong>：比如产品功能说明、成分表、认证证书，万一被扣，直接上传&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：清关这事儿，省钱就是费钱。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-尾程配送别只盯着价格">3. 尾程配送，别只盯着价格&lt;/h3>
+&lt;p>很多卖家选尾程，只看运费。&lt;/p>
+&lt;p>“我这票小包，3公斤，哪家便宜？”&lt;/p>
+&lt;p>&lt;strong>你错了。&lt;/strong>&lt;/p>
+&lt;p>尾程的核心不是价格，是&lt;strong>时效稳定性和派送成功率&lt;/strong>。&lt;/p>
+&lt;p>我踩过一个大坑：选了某家便宜的USPS渠道，结果经常“未妥投”，买家直接开A-to-Z。退款+差评，比运费亏得多10倍。&lt;/p>
+&lt;p>&lt;strong>怎么选？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看妥投率&lt;/strong>：低于95%的别碰&lt;/li>
+&lt;li>&lt;strong>看丢件率&lt;/strong>：超过1%的别碰&lt;/li>
+&lt;li>&lt;strong>看申诉流程&lt;/strong>：有没有人工客服？出问题多久解决？&lt;/li>
+&lt;/ul>
+&lt;p>我现在用&lt;strong>FedEx本地版&lt;/strong>，贵一点，但稳。
+小件走&lt;strong>USPS Priority&lt;/strong>，性价比高。
+大件走&lt;strong>UPS Ground&lt;/strong>，追踪清晰。&lt;/p>
+&lt;p>&lt;strong>记住：稳定压倒一切。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-货代说的话最多信50">4. 货代说的话，最多信50%&lt;/h3>
+&lt;p>“我们空运3天到门。”
+“我们有特殊渠道，清关超快。”
+“价格全网最低，服务最好。”&lt;/p>
+&lt;p>&lt;strong>你信吗？&lt;/strong>&lt;/p>
+&lt;p>我信过一次，结果货在机场躺了5天。
+再问，对方说：“清关旺季，没办法。”&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别听承诺，看合同&lt;/strong>：延误赔偿比例、丢件赔偿上限，全写进合同&lt;/li>
+&lt;li>&lt;strong>要真实案例&lt;/strong>：让他发最近3个月的同路线发货记录截图&lt;/li>
+&lt;li>&lt;strong>别押全部身家&lt;/strong>：第一票发小货，测试时效和沟通效率&lt;/li>
+&lt;li>&lt;strong>加个“试运期”&lt;/strong>：比如前3个月，只给30%的量，跑顺了再加&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>货代是合作伙伴，不是祖宗。你付钱，你说了算。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-库存周转率才是物流的终极kpi">5. 库存周转率，才是物流的终极KPI&lt;/h3>
+&lt;p>很多人只看物流成本，忽略了&lt;strong>库存周转率&lt;/strong>。&lt;/p>
+&lt;p>你发一票货，成本1000块，挺好。
+但货在仓库里躺了3个月，仓储费100块。
+然后滞销，打折卖，又亏200块。&lt;/p>
+&lt;p>&lt;strong>物流成本其实只占20%，剩下的80%藏在库存里。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么算？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>库存周转天数 = 平均库存 / 日均销量&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>理想值：海运30天，空运15天，小包7天&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>超过这个数，就要考虑打折、下架、换渠道&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我现在每周看一次库存报表，超期库存直接标记，要么促销，要么销毁。&lt;strong>宁可亏运费，也不亏仓储费。&lt;/strong>&lt;/p></description></item><item><title>**月薪3K的采购和月薪3W的采购，差在这4个供应商关系**</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-secrets/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-secrets/</guid><description>&lt;p>&lt;strong>你累死累活催货，凭什么别人躺着拿返点？&lt;/strong>&lt;/p>
 &lt;p>上周一个采购朋友半夜给我发语音，声音都哑了：“又断料了，供应商说原材料涨了10个点，不发货。老板让我跪着去求，我特么真的是……想转行。”&lt;/p>
 &lt;p>我回了他一句：“你知道你隔壁工位那个月薪3W的采购总监，上个月刚让供应商主动降了5个点吗？”&lt;/p>
 &lt;p>他沉默了。&lt;/p>

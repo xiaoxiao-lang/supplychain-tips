@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</link><description>Recent content in 物流成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>最后一公里，正在吃掉你的利润</title><link>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</guid><description>&lt;p>兄弟，你算过没有？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</link><description>Recent content in 物流成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>跨境物流亏了30万，我才学会这5个野路子</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</guid><description>&lt;p>先说个扎心事儿。&lt;/p>
+&lt;p>我有个朋友，去年做亚马逊FBA，发了票货到美国，结果被海关扣了整整两个月。货到不了仓，链接断货，排名一夜掉到谷底。最后清关出来，仓储费比货值还高。&lt;/p>
+&lt;p>他算了一笔账：&lt;strong>这一票，直接亏了30万。&lt;/strong>&lt;/p>
+&lt;p>当时他找我喝酒，红着眼睛问：&lt;strong>“跨境物流是不是玄学？”&lt;/strong>&lt;/p>
+&lt;p>我说：&lt;strong>“玄个屁，是你没摸到门道。”&lt;/strong>&lt;/p>
+&lt;p>干了这行6年，我见过太多人死在物流上。有的被货代坑，有的被清关卡，有的被尾程吃利润。&lt;/p>
+&lt;p>今天不说废话，直接上5条血换来的经验。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别把鸡蛋放在一个篮子里但篮子也别太多">1. 别把鸡蛋放在一个篮子里——但篮子也别太多&lt;/h3>
+&lt;p>很多人一听“多渠道”，就疯狂铺货代。今天用A，明天换B，后天试试C。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>每个渠道都磨合不够，出问题互相甩锅&lt;/li>
+&lt;li>价格拿不到最低，因为量不集中&lt;/li>
+&lt;li>管理成本飙升，光对账就头大&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确姿势：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>2-3个主力渠道&lt;/strong>：一个海运大货，一个空运小包，一个备用（比如中欧班列或铁路）&lt;/li>
+&lt;li>&lt;strong>每个渠道必须跑满3个月&lt;/strong>：别因为一票延误就换，系统性问题才换&lt;/li>
+&lt;li>&lt;strong>跟渠道签对赌协议&lt;/strong>：比如延误赔多少，丢件赔多少，白纸黑字写清楚&lt;/li>
+&lt;/ul>
+&lt;p>我现在的配置：&lt;strong>海运走大庄&lt;/strong>，&lt;strong>空运走小庄&lt;/strong>，&lt;strong>铁路走中欧班列&lt;/strong>。三足鼎立，谁也不敢糊弄我。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-清关不是玄学是数学">2. 清关不是玄学，是数学&lt;/h3>
+&lt;p>很多人觉得清关靠关系、靠运气。其实&lt;strong>90%的卡关，都是资料没做对&lt;/strong>。&lt;/p>
+&lt;p>尤其是&lt;strong>目的国的HS编码&lt;/strong>，你在中国查的和在目的国查的，可能完全不一样。&lt;/p>
+&lt;p>举个真实例子：
+我一个朋友做智能锁，中国HS编码归类是“电子锁”，到了美国海关，人家归成“五金件+电子元件”。结果税率从5%飙到25%，还因为成分申报不符被扣。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>花2000块找个目的国本地报关行&lt;/strong>：提前把产品信息发过去，让他们给编码&lt;/li>
+&lt;li>&lt;strong>别信货代给的“通用编码”&lt;/strong>：很多货代为了省事，直接套用模板，出了事不负责&lt;/li>
+&lt;li>&lt;strong>多备一份“解释性文件”&lt;/strong>：比如产品功能说明、成分表、认证证书，万一被扣，直接上传&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：清关这事儿，省钱就是费钱。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-尾程配送别只盯着价格">3. 尾程配送，别只盯着价格&lt;/h3>
+&lt;p>很多卖家选尾程，只看运费。&lt;/p>
+&lt;p>“我这票小包，3公斤，哪家便宜？”&lt;/p>
+&lt;p>&lt;strong>你错了。&lt;/strong>&lt;/p>
+&lt;p>尾程的核心不是价格，是&lt;strong>时效稳定性和派送成功率&lt;/strong>。&lt;/p>
+&lt;p>我踩过一个大坑：选了某家便宜的USPS渠道，结果经常“未妥投”，买家直接开A-to-Z。退款+差评，比运费亏得多10倍。&lt;/p>
+&lt;p>&lt;strong>怎么选？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>看妥投率&lt;/strong>：低于95%的别碰&lt;/li>
+&lt;li>&lt;strong>看丢件率&lt;/strong>：超过1%的别碰&lt;/li>
+&lt;li>&lt;strong>看申诉流程&lt;/strong>：有没有人工客服？出问题多久解决？&lt;/li>
+&lt;/ul>
+&lt;p>我现在用&lt;strong>FedEx本地版&lt;/strong>，贵一点，但稳。
+小件走&lt;strong>USPS Priority&lt;/strong>，性价比高。
+大件走&lt;strong>UPS Ground&lt;/strong>，追踪清晰。&lt;/p>
+&lt;p>&lt;strong>记住：稳定压倒一切。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="4-货代说的话最多信50">4. 货代说的话，最多信50%&lt;/h3>
+&lt;p>“我们空运3天到门。”
+“我们有特殊渠道，清关超快。”
+“价格全网最低，服务最好。”&lt;/p>
+&lt;p>&lt;strong>你信吗？&lt;/strong>&lt;/p>
+&lt;p>我信过一次，结果货在机场躺了5天。
+再问，对方说：“清关旺季，没办法。”&lt;/p>
+&lt;p>&lt;strong>防坑指南：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别听承诺，看合同&lt;/strong>：延误赔偿比例、丢件赔偿上限，全写进合同&lt;/li>
+&lt;li>&lt;strong>要真实案例&lt;/strong>：让他发最近3个月的同路线发货记录截图&lt;/li>
+&lt;li>&lt;strong>别押全部身家&lt;/strong>：第一票发小货，测试时效和沟通效率&lt;/li>
+&lt;li>&lt;strong>加个“试运期”&lt;/strong>：比如前3个月，只给30%的量，跑顺了再加&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>货代是合作伙伴，不是祖宗。你付钱，你说了算。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="5-库存周转率才是物流的终极kpi">5. 库存周转率，才是物流的终极KPI&lt;/h3>
+&lt;p>很多人只看物流成本，忽略了&lt;strong>库存周转率&lt;/strong>。&lt;/p>
+&lt;p>你发一票货，成本1000块，挺好。
+但货在仓库里躺了3个月，仓储费100块。
+然后滞销，打折卖，又亏200块。&lt;/p>
+&lt;p>&lt;strong>物流成本其实只占20%，剩下的80%藏在库存里。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么算？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>库存周转天数 = 平均库存 / 日均销量&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>理想值：海运30天，空运15天，小包7天&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>超过这个数，就要考虑打折、下架、换渠道&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>我现在每周看一次库存报表，超期库存直接标记，要么促销，要么销毁。&lt;strong>宁可亏运费，也不亏仓储费。&lt;/strong>&lt;/p></description></item><item><title>最后一公里，正在吃掉你的利润</title><link>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/</guid><description>&lt;p>兄弟，你算过没有？&lt;/p>
 &lt;p>你公司每发一单货，光是&lt;strong>最后一公里&lt;/strong>，可能就吃掉你20%-50%的利润。&lt;/p>
 &lt;p>别不信。看看你屏幕右下角那个物流费用报表，再想想最近客服群里那些“怎么还没到”的咆哮。&lt;/p>
 &lt;p>&lt;strong>最后一公里&lt;/strong>，这个听起来像“就差最后一步”的东西，实际上是个&lt;strong>无底洞&lt;/strong>。它不生产利润，只负责吞噬。&lt;/p>

@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>避坑指南 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><description>Recent content in 避坑指南 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml"/><item><title>库存积压500万，才搞懂WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</guid><description>&lt;p>兄弟，你仓库是不是也这样？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>避坑指南 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><description>Recent content in 避坑指南 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链崩盘前，这3个坑我先帮你踩了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>先说个真事。&lt;/p>
+&lt;p>上个月，我一朋友，干了6年采购，突然被老板叫去骂了半小时。原因？供应商跑路了，产线停了两天，老板差点没把桌子掀了。&lt;/p>
+&lt;p>他委屈啊：那供应商合作3年了，之前一直好好的，谁能想到说黄就黄？&lt;/p>
+&lt;p>我问他：你最后一次去现场是啥时候？他愣了一下：去年…吧。&lt;/p>
+&lt;p>得，活该被骂。&lt;/p>
+&lt;p>干供应链这行，最怕的不是涨价，不是缺货，是&lt;strong>你以为稳了，其实早就崩了&lt;/strong>。&lt;/p>
+&lt;p>今天这篇，我把自己踩过的、身边人踩过的坑，全扒出来给你看。不整虚的，就3个点。记不住没关系，先收藏，回头遇事翻出来看。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险一供应商忽然断供其实信号早就给了">风险一：供应商“忽然”断供？其实信号早就给了&lt;/h3>
+&lt;p>你以为“忽然”是突然？天真。&lt;/p>
+&lt;p>供应商要黄，通常有3个前兆，你但凡盯住一个，都不至于这么被动：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>付款周期突然变短&lt;/strong>：以前能拖3个月，现在非要见票付款。这不是他变牛了，是他在自救。&lt;/li>
+&lt;li>&lt;strong>老板开始频繁换号、联系不上&lt;/strong>：以前秒回微信，突然变成“在开会”，接着是“信号不好”，最后是“您拨打的电话已关机”。&lt;/li>
+&lt;li>&lt;strong>关键岗位人员集体离职&lt;/strong>：财务、生产主管这种核心岗，走一个可能是个人原因，走一窝？那就是公司要凉。&lt;/li>
+&lt;/ul>
+&lt;p>我一个同行老李，去年就是这么救了自己一命。&lt;/p>
+&lt;p>他发现有家供应商，以前报价都挺稳，突然连报三次低价。老李觉得不对劲，一打听，对方资金链快断了，想靠低价抢单套现跑路。&lt;/p>
+&lt;p>老李二话没说，连夜启动备选方案。一个月后，那家供应商果然暴雷，他的产线没停，老板还给他加了奖金。&lt;/p>
+&lt;p>所以，别傻乎乎只盯着价格和交期。&lt;strong>供应商的“异常”，就是你的警报器&lt;/strong>。你不管，锅就是你的。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险二数据报表看着漂亮那是给你看的假象">风险二：数据报表看着漂亮？那是给你看的假象&lt;/h3>
+&lt;p>我见过太多采购，被“假数据”忽悠瘸了。&lt;/p>
+&lt;p>啥叫假数据？就是你天天盯着的：&lt;/p>
+&lt;ul>
+&lt;li>准时交付率 98% → 可能只统计了交了的订单，没交的直接踢出分母&lt;/li>
+&lt;li>合格率 99.5% → 只抽检了最好的一批，次品全藏仓库里&lt;/li>
+&lt;li>库存周转天数 30天 → 库龄200天的老物料，账面价值还在“存货”里挂着&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相往往藏在角落里&lt;/strong>。&lt;/p>
+&lt;p>比如，你每个月看供应商的“退货率”。如果某个月突然从2%降到0.5%，别高兴。先问问：是不是对方把退货单压着没报？是不是质检标准临时松了？&lt;/p>
+&lt;p>再比如，库存数据。我见过一家公司，账面库存价值800万，结果一盘点，有300万是三年以上的呆滞料。老板问：为啥不处理？采购说：账上还有呢，处理了我就亏了。&lt;/p>
+&lt;p>你品，你细品。&lt;/p>
+&lt;p>所以，别只看报表。&lt;strong>每周抽一天，去仓库走一圈&lt;/strong>，看看那些“账面库存”到底长啥样。去产线问问工人，最近哪家供应商的货“用起来费劲”。这些一手信息，比Excel里100个公式都管用。&lt;/p>
+&lt;p>&lt;strong>数据是工具，不是信仰。&lt;/strong> 你信了假的，老板就信了你的无能。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险三单一来源是你给自己挖的坟">风险三：单一来源，是你给自己挖的坟&lt;/h3>
+&lt;p>这句我要加粗说：&lt;strong>永远，永远，永远不要只依赖一家供应商。&lt;/strong>&lt;/p>
+&lt;p>哪怕他价格最低、交期最准、关系最铁。因为只要这一家出事，你就等于裸奔。&lt;/p>
+&lt;p>我见过最惨的案例。一家做电子元件的公司，核心芯片只从一家日本厂商采购。合作了8年，从来没出过问题。结果2022年，日本工厂因为地震停产两周，就两周，这家中国公司直接亏了2000万。&lt;/p>
+&lt;p>老板疯了一样问采购：你不是说没问题吗？&lt;/p>
+&lt;p>采购欲哭无泪：谁能想到地震啊？&lt;/p>
+&lt;p>可问题是，&lt;strong>“意外”从来不是意外&lt;/strong>，它是供应链的常态。贸易战、地缘冲突、极端天气、环保检查……随便来一个，你的“独家”就变成“独墓”。&lt;/p>
+&lt;p>怎么办？三步走：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>至少养3家供应商&lt;/strong>：主供占60%，次供30%，替补10%。别觉得麻烦，这叫“冗余安全”。关键时刻，10%那家能给你续命。&lt;/li>
+&lt;li>&lt;strong>定期测试替补的产能&lt;/strong>：别等到主供出事，才联系替补说“帮我赶一下”。人家排期早满了，你算老几？&lt;/li>
+&lt;li>&lt;strong>关键物料，自己备一点安全库存&lt;/strong>：别信“零库存”那套鬼话。那是大厂玩的游戏，你一中小体量，零库存等于零安全感。&lt;/li>
+&lt;/ol>
+&lt;p>记住，&lt;strong>供应链的本质不是省钱，是“不断线”&lt;/strong>。断一次，之前省的全还回去，还得倒贴。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说两句">最后说两句&lt;/h3>
+&lt;p>干了这么多年，我最大的感受就一句话：&lt;strong>供应链的风险，从来不是“不知道”，而是“知道了懒得管”&lt;/strong>。&lt;/p>
+&lt;p>你总觉得今天没事，明天没事，后天就出事了。而且出事的时候，永远是你最忙、最怕、最不能出岔子的时候。&lt;/p>
+&lt;p>所以，别指望别人替你扛。老板只看结果，客户只看交期。中间那些“风险防控”，就是你自己的事。&lt;/p>
+&lt;p>把今天这3个坑记住了，回去翻翻你的供应商名单、库存报表、数据报表。看看有没有“雷”。有的话，趁早排。&lt;/p>
+&lt;p>&lt;strong>别等崩了再后悔，那时候连哭都找不到地方。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>物流外包3年，我被坑了100万才懂这些</title><link>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/</guid><description>&lt;p>上个月，朋友老张的公司差点因为物流外包破产。&lt;/p>
+&lt;p>他去年把全国仓配业务打包给一家“4.9分好评”的物流商，结果——&lt;strong>旺季爆仓，货在仓库躺了5天&lt;/strong>；&lt;strong>系统对接失败，订单发错地址&lt;/strong>；&lt;strong>最后算账，隐形费用比报价高了40%&lt;/strong>。&lt;/p>
+&lt;p>老张咬着牙说：“早知道物流水这么深，我宁可自己养车队。”&lt;/p>
+&lt;p>别笑，你可能就是下一个老张。物流外包看似是“甩包袱”，但90%的中小企业踩过以下5个坑。今天不聊理论，只讲血泪教训。&lt;/p>
+&lt;h3 id="1-报价单里的文字游戏专坑不看细节的人">1. 报价单里的“文字游戏”，专坑不看细节的人&lt;/h3>
+&lt;p>很多物流商报价时，会给你一张“超低价”表格：仓储费1元/平米/天，配送费3元/单。你一看，比竞争对手便宜30%，马上签约。&lt;/p>
+&lt;p>&lt;strong>坑在哪儿？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>仓储费&lt;/strong>：只算平面面积，不算操作费（上架、拣货、包装另收）。&lt;/li>
+&lt;li>&lt;strong>配送费&lt;/strong>：只含首重，续重按“区域分级”加价（偏远地区翻倍）。&lt;/li>
+&lt;li>&lt;strong>隐形附加&lt;/strong>：节假日加班费、夜间作业费、退货处理费……签完合同才告诉你。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么办？&lt;/strong>
+要求对方把&lt;strong>所有可能收费项&lt;/strong>列成清单，并注明“总价包干”或“按实际发生”。&lt;strong>千万别信“行业惯例”&lt;/strong>，白纸黑字写进合同。&lt;/p>
+&lt;h3 id="2-系统对接99的失败案例都死在这">2. 系统对接：99%的失败案例都死在这&lt;/h3>
+&lt;p>“我们系统很牛，API一键打通！”——这句话，谁信谁傻。&lt;/p>
+&lt;p>很多物流商的系统是“贴牌”的，底层数据乱成一锅粥。对接后，你会遇到：&lt;/p>
+&lt;ul>
+&lt;li>订单状态不同步，客户疯狂投诉“货到哪了？”&lt;/li>
+&lt;li>库存数据对不上，仓库明明有货，系统显示无货。&lt;/li>
+&lt;li>物流轨迹延迟，你以为在派送，实际还在中转站。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实案例&lt;/strong>：某电商公司花3个月对接系统，结果上线第一天，&lt;strong>2000单发错地址&lt;/strong>，直接损失30万。&lt;/p>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：
+先问对方&lt;strong>系统开发团队规模&lt;/strong>，要求提供&lt;strong>真实客户对接案例&lt;/strong>。最好&lt;strong>派技术人员现场测试&lt;/strong>，模拟大促峰值流量。如果对方支支吾吾，赶紧跑。&lt;/p>
+&lt;h3 id="3-合同里的免责条款专坑老实人">3. 合同里的“免责条款”，专坑老实人&lt;/h3>
+&lt;p>物流合同动辄十几页，你大概率只会看价格和期限。但&lt;strong>真正决定你命运的，是那些小字&lt;/strong>。&lt;/p>
+&lt;p>常见“埋雷”条款：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“因不可抗力导致延迟，乙方不承担责任”&lt;/strong>：但“不可抗力”范围可以很广，比如“系统故障”“人员不足”。&lt;/li>
+&lt;li>&lt;strong>“货物丢失按运费的3倍赔偿”&lt;/strong>：如果你发的是1万元的手机，运费才20元，赔你60元。&lt;/li>
+&lt;li>&lt;strong>“月底结算，逾期按日收0.5%滞纳金”&lt;/strong>：相当于年化182.5%的高利贷。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>律师朋友告诉我&lt;/strong>：&lt;strong>所有限制自身责任的条款，都要拿红笔圈出来&lt;/strong>。要么删除，要么修改为“按货物实际价值赔偿”。别怕麻烦，这关乎你的命。&lt;/p>
+&lt;h3 id="4-服务承诺说得比唱得好听做起来直接摆烂">4. 服务承诺：说得比唱得好听，做起来直接摆烂&lt;/h3>
+&lt;p>“我们有24小时客服”“KPI考核：准时率99%”“破损包赔”——这些话，听听就好。&lt;/p>
+&lt;p>现实是：&lt;/p>
+&lt;ul>
+&lt;li>客服电话打不通，微信回复“明天处理”。&lt;/li>
+&lt;li>迟到率高达30%，但合同里没写罚款细则。&lt;/li>
+&lt;li>破损了，对方说“你没买保险，不赔”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>
+&lt;strong>把服务承诺变成可量化的KPI&lt;/strong>，写入合同附件。例如：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>准时率≥98%&lt;/strong>，每低1%扣当月服务费的5%。&lt;/li>
+&lt;li>&lt;strong>破损率≤0.5%&lt;/strong>，超出部分按货值双倍赔偿。&lt;/li>
+&lt;li>&lt;strong>客服响应时间&lt;/strong>：电话30秒内接听，微信15分钟回复。&lt;/li>
+&lt;/ul>
+&lt;p>别信“口头保证”，&lt;strong>罚款机制才是真爹&lt;/strong>。&lt;/p>
+&lt;h3 id="5-成本陷阱你以为省了钱其实亏了更多">5. 成本陷阱：你以为省了钱，其实亏了更多&lt;/h3>
+&lt;p>物流外包的初衷是“降本增效”，但很多人只看到显性成本（运费、仓储费），忽略了隐性成本。&lt;/p>
+&lt;p>&lt;strong>隐性成本清单&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>沟通成本&lt;/strong>：每天花2小时和物流商吵架，你的人工费不值钱？&lt;/li>
+&lt;li>&lt;strong>试错成本&lt;/strong>：换一家物流商，要重新对接系统、磨合流程，至少浪费2个月。&lt;/li>
+&lt;li>&lt;strong>客户流失&lt;/strong>：因物流体验差，客户不再回购，这是最大的隐形亏损。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算笔账&lt;/strong>：
+假设你月订单5000单，每单利润20元。如果物流商导致10%的订单延迟或破损，你每月损失：5000×10%×20元=1万元。&lt;strong>一年就是12万&lt;/strong>。而这还只是直接损失。&lt;/p>
+&lt;p>&lt;strong>终极建议&lt;/strong>：
+选物流商，别只看价格。&lt;strong>用“总成本=显性成本+隐性成本”公式算清楚&lt;/strong>。如果对方报价低30%，但隐性成本高50%，你其实在亏钱。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>物流外包不是“甩手掌柜”，而是“技术活”。那些被坑100万的人，往往是因为&lt;strong>懒&lt;/strong>——懒得看合同、懒得测试系统、懒得监控KPI。&lt;/p>
+&lt;p>&lt;strong>3个保命技巧&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>小批试单&lt;/strong>：先给10单测试，看对方反应速度和准确性。&lt;/li>
+&lt;li>&lt;strong>定期审计&lt;/strong>：每月随机抽查10%订单，核对真实物流轨迹。&lt;/li>
+&lt;li>&lt;strong>备选方案&lt;/strong>：永远留一个备用物流商，别把鸡蛋放一个篮子。&lt;/li>
+&lt;/ol>
+&lt;p>记住，&lt;strong>最贵的物流，是让你倒闭的那个&lt;/strong>。如果你正在考虑外包，请把这篇拍在老板桌上。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，获取更多防坑指南和谈判模板。&lt;/p></description></item><item><title>库存积压500万，才搞懂WMS这3个坑</title><link>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/</guid><description>&lt;p>兄弟，你仓库是不是也这样？&lt;/p>
 &lt;p>账上库存还有1000件，找货发现只有800件。客户催单，你翻遍货架，最后发现那200件压在角落里吃灰。盘点？呵，一盘点就发现差几十万，财务追着你问，你只能尴尬说“系统数据有延迟”。&lt;/p>
 &lt;p>我见过一个老板，干了5年电商，账面库存3000万，实际能卖的只有2500万。那500万去哪了？被过期、损坏、错放、丢失，硬生生“吃”掉了。他后来跟我说：“&lt;strong>早知道WMS这3个坑，我能省下500万&lt;/strong>。”&lt;/p>
 &lt;p>WMS（仓库管理系统）听起来高大上，但90%的企业用成了“摆设”。今天不扯概念，就聊聊我踩过的坑，和帮你省钱的3条铁律。&lt;/p>

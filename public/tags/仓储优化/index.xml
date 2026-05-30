@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E4%BC%98%E5%8C%96/</link><description>Recent content in 仓储优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>物流成本砍掉30%，我只做了这3步</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</guid><description>&lt;p>你有没有这种时候？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E4%BC%98%E5%8C%96/</link><description>Recent content in 仓储优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库爆了，老板骂你？这3招救急</title><link>https://supplychain-tips.pages.dev/posts/warehouse-save-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-save-tips/</guid><description>&lt;p>兄弟，你是不是也这样？&lt;/p>
+&lt;p>每天一睁眼，微信全是“催货”的消息。仓库堆得跟迷宫似的，叉车司机骂骂咧咧，连下脚的地方都没有。老板还甩一句：“运费这么高，你搞什么？”&lt;/p>
+&lt;p>&lt;strong>你心里一万个草泥马飘过：&lt;/strong>
+“我TM也不想啊！货到了，车还在路上堵着！发货慢了，客户投诉；发快了，仓库爆仓。我到底怎么做，老板才满意？”&lt;/p>
+&lt;p>&lt;strong>得，别憋屈了。&lt;/strong>
+我干运输管理7年，踩过的坑比你走的路还多。今天不跟你扯理论，就跟你唠3个&lt;strong>救急又管用&lt;/strong>的招。说白了，就是&lt;strong>把“救火队长”变成“控盘高手”&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别再抢车了先抢数据">1. 别再“抢”车了，先“抢”数据&lt;/h3>
+&lt;p>你还在每天打电话找车？
+“王哥，明天有没有车？李姐，你那边还有空位吗？”&lt;/p>
+&lt;p>&lt;strong>醒醒，2024年了！&lt;/strong>
+这招早就过时了。你抢到的不是车，是&lt;strong>焦虑&lt;/strong>。车到了，货没准备好，车等着，你付滞纳金。货备好了，车没到，客户骂你。&lt;/p>
+&lt;p>&lt;strong>真正的狠人，怎么干？&lt;/strong>
+他们&lt;strong>不是“抢车”，是“抢数据”&lt;/strong>。&lt;/p>
+&lt;p>什么意思？
+&lt;strong>把运输管理和仓库管理打通，搞一个“数据看板”。&lt;/strong>
+比如，你提前24小时，系统自动告诉你：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>明天到货量：&lt;/strong> 3000箱，但出库只有1500箱，&lt;strong>肯定爆仓&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>发货波次：&lt;/strong> 下午3点前，必须把A客户的车装好。&lt;/li>
+&lt;li>&lt;strong>车辆匹配：&lt;/strong> 系统根据你的发货计划，自动推给你3个靠谱的司机，价格、路线、评分都列得清清楚楚。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>操作起来，就两步：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>花2天，把仓库的WMS和运输的TMS系统打通。别嫌麻烦，一劳永逸。&lt;/li>
+&lt;li>每天早上9点，开个5分钟的“数据碰头会”：今天到多少、发多少、车够不够。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住，&lt;/strong> 你有了数据，就不用手忙脚乱。你是在&lt;strong>用大脑指挥手脚&lt;/strong>，而不是用脚去追车。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-把散装的货变成预制菜">2. 把“散装”的货，变成“预制菜”&lt;/h3>
+&lt;p>你仓库里是不是这样？
+A客户的货堆在东边，B客户的货堆在西边，C客户的货还在卸车。发货时，叉车东奔西跑，跟打仗一样。&lt;/p>
+&lt;p>&lt;strong>这效率，老板不骂你骂谁？&lt;/strong>
+运输管理最烦的就是**“零散”**。一车货，装3个客户，装4个SKU，光找货就花半小时。&lt;/p>
+&lt;p>&lt;strong>高手怎么玩？&lt;/strong>
+&lt;strong>把“散装”的货，变成“预制菜”。&lt;/strong>
+什么意思？就是&lt;strong>提前做“波次拣货”和“集单发货”&lt;/strong>。&lt;/p>
+&lt;p>比如，你发现A省的货，每天下午4点集中走。那你就：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>设定发货“死线”：&lt;/strong> 每天下午2点前，所有A省的订单必须下架、打包、贴好标签。&lt;/li>
+&lt;li>&lt;strong>做“集货区”：&lt;/strong> 在仓库门口划个区域，专门放A省的车。叉车师傅不用东跑西跑，直接去“集货区”一叉子全装上。&lt;/li>
+&lt;li>&lt;strong>固定车次：&lt;/strong> 跟运输公司签个“定时达”协议。每天下午4点，车准时到，装完就走。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>效果是什么？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>装车时间从1小时，压缩到&lt;strong>15分钟&lt;/strong>。&lt;/li>
+&lt;li>仓库腾出30%的空间，不用堆那么多“待发货”的货。&lt;/li>
+&lt;li>运费降了，因为&lt;strong>车不用等&lt;/strong>，满载率还高。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你问客户急了怎么办？&lt;/strong>
+别慌，跟客户说：“亲，您下午2点前下单，我保证今天发。2点后的，明天优先发。” 客户反而觉得你&lt;strong>专业&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-别只盯着满要盯着顺">3. 别只盯着“满”，要盯着“顺”&lt;/h3>
+&lt;p>很多运输管理，就喜欢看一个指标：&lt;strong>满载率&lt;/strong>。
+“这车必须装满，不然亏了！”&lt;/p>
+&lt;p>&lt;strong>错了！大错特错！&lt;/strong>
+你把车塞得跟罐头似的，结果呢？&lt;/p>
+&lt;ul>
+&lt;li>第一站卸货，等1小时。&lt;/li>
+&lt;li>第二站卸货，堵在路上。&lt;/li>
+&lt;li>第三站卸货，客户下班了，车要过夜。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你省了运费，赔了时效，最后老板骂你“不会算账”。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>真正的行家，看什么？&lt;/strong>
+&lt;strong>看“顺”&lt;/strong>。就是&lt;strong>运输链路顺不顺&lt;/strong>。&lt;/p>
+&lt;p>怎么搞？
+&lt;strong>做“路线规划”和“时间窗管理”&lt;/strong>。&lt;/p>
+&lt;p>举个栗子：
+你要发3个城市的货。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>傻X做法：&lt;/strong> 一车装，按距离远近卸。结果远的地方堵车，近的客户等到晚上。&lt;/li>
+&lt;li>&lt;strong>高手做法：&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>分车分线：&lt;/strong> 把顺路的客户放一车，比如A城和B城在高速同方向，放一起。&lt;/li>
+&lt;li>&lt;strong>设“时间窗”：&lt;/strong> 跟每个客户约好，卸货不超过30分钟。超时？加收“等待费”。&lt;/li>
+&lt;li>&lt;strong>用“甩挂”模式：&lt;/strong> 车到了仓库，直接把挂车甩下，换上新的挂车就走。司机不用等装卸工，效率翻倍。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果呢？&lt;/strong>&lt;/p></description></item><item><title>物流成本砍掉30%，我只做了这3步</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</guid><description>&lt;p>你有没有这种时候？&lt;/p>
 &lt;p>&lt;strong>老板拍桌子：“物流成本再降10%，不然年终奖别想了！”&lt;/strong>&lt;/p>
 &lt;p>你看着手里的报表——运费涨了、仓储费堆成山、司机还嚷嚷着要加钱。你心里一万个草泥马：&lt;strong>这玩意儿怎么降？总不能让我去开车吧？&lt;/strong>&lt;/p>
 &lt;p>别急。&lt;/p>

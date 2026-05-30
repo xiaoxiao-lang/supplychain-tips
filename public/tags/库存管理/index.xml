@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万，我才学会算安全库存</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</guid><description>&lt;p>先讲个真事，别笑。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>**库存压了500万才明白的3个血泪教训**</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年有个做家居的兄弟找我喝酒，脸喝得通红，跟我说：“老张，我仓库里堆了500万货，全是去年双11备的。结果呢？款式过时了，卖不动了。现在供应商催货款，房东催租金，银行催利息，我老婆催我滚回去上班。”&lt;/p>
+&lt;p>他干了啥？&lt;/p>
+&lt;p>&lt;strong>旺季前猛备货，看哪个供应商顺眼就下大单，仓库堆得跟迷宫似的，出货全靠吼。&lt;/strong>&lt;/p>
+&lt;p>这画面是不是特眼熟？你身边肯定也有这样的“库存勇士”——订单没多少，仓库先爆了。老板一问，还振振有词：“我得保证不断货啊！”&lt;/p>
+&lt;p>断货是没断，现金流断了。&lt;/p>
+&lt;p>今天我不跟你扯什么“供应链管理五大原则”那种教科书屁话。&lt;strong>就聊3个我用500万真金白银换回来的库存管理技巧。&lt;/strong> 看完别光收藏，去试试，省下来的钱够你换台车。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-别tm什么货都囤学学abc分类法给自己解毒">1. 别TM什么货都囤，学学“ABC分类法”给自己解毒&lt;/h3>
+&lt;p>很多人的库存噩梦，起于一句话：“这个好卖，多囤点！”&lt;/p>
+&lt;p>你一听，爽快，下单。结果呢？那款卖是卖了，可仓库里还压着100个SKU的“备胎”货，一个季度卖不出去一箱。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>给库存做减法，上ABC分类法。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类（10%-20% SKU）：&lt;/strong> 销售额占70%-80%的爆款。&lt;strong>重点盯防，高频率补货，低库存持有。&lt;/strong> 别怕断货，断货了马上催单，别让它占你的钱。&lt;/li>
+&lt;li>&lt;strong>B类（20%-30% SKU）：&lt;/strong> 销售额占10%-20%的常态款。&lt;strong>适当备货，一个月盘点一次就够了。&lt;/strong> 别浪费精力天天盯着。&lt;/li>
+&lt;li>&lt;strong>C类（50%-70% SKU）：&lt;/strong> 销售额只占5%-10%的鸡肋款。&lt;strong>能少囤就少囤，最好零库存。&lt;/strong> 这种货就是仓库里的“吸血鬼”，吸你的租金、吸你的管理费。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住一个铁律：&lt;/strong> 80%的库存问题，都是那20%的A类货没管好。但80%的库存资金，却可能被那70%的C类货吃掉。&lt;/p>
+&lt;p>&lt;strong>简单粗暴的玩法：&lt;/strong> 打开你的ERP系统，按SKU销售额排序。前20%的，每天盯着；中间30%的，每周看看；后面50%的，&lt;strong>直接砍掉一半SKU&lt;/strong>，别犹豫。你会发现，仓库瞬间清爽了，现金流也活了。&lt;/p>
+&lt;hr>
+&lt;h3 id="2-安全库存算不清来我教你个土办法">2. “安全库存”算不清？来，我教你个土办法&lt;/h3>
+&lt;p>很多人一听“安全库存”，就头大：“要算标准差、需求预测，我哪会那些？”&lt;/p>
+&lt;p>我告诉你，&lt;strong>算不明白就别硬算，用土办法。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>土办法叫：动态倍率法。&lt;/strong>&lt;/p>
+&lt;p>公式特简单：&lt;strong>安全库存 = 过去N天平均日销 × 补货周期天数 × 1.5（或2）&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>重点在“补货周期”和那个倍率。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>补货周期：&lt;/strong> 从你下单到货到仓库的天数。不是供应商说“3天”，是你实际测出来的“平均5天”。&lt;/li>
+&lt;li>&lt;strong>倍率：&lt;/strong> 波动越大、越重要的货，倍率越高。爆款、易断货的用2；稳定款、有替代品的用1.5。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>举个例子：&lt;/strong>
+你那个A类爆款，平均一天卖10件，供应商平均5天补到货。
+安全库存 = 10件/天 × 5天 × 2 = &lt;strong>100件&lt;/strong>。
+这意味着，你仓库里至少得囤100件。低于100件，就得赶紧下单。&lt;/p>
+&lt;p>&lt;strong>别整那些花里胡哨的Excel公式，就这玩意，够你用了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>但注意：&lt;/strong> 这个倍率不是死的。旺季、大促、或者听说原材料要涨价，倍率直接拉高到3甚至4。淡季？降到1.2，甚至0.8。&lt;strong>动态调整，别死脑筋。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="3-呆滞品处理比谈恋爱分手还考验人品">3. 呆滞品处理，比谈恋爱分手还考验人品&lt;/h3>
+&lt;p>库存里最要命的不是A类货，是&lt;strong>呆滞品&lt;/strong>——那些卖不动、退不回、用不上的“僵尸货”。&lt;/p>
+&lt;p>它们占着黄金货位，花着你的租金，还天天被盘点人员骂娘。&lt;/p>
+&lt;p>&lt;strong>我的血泪教训：&lt;/strong> 别等到发霉了再处理。&lt;strong>设立一个“死亡倒计时”。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>超过60天没动销：&lt;/strong> 标记为“预警”。开始找原因：是价格高了？还是位置太深？马上搞促销、做捆绑。&lt;/li>
+&lt;li>&lt;strong>超过90天没动销：&lt;/strong> 直接拉“刑场”。&lt;strong>打折、买一送一、甚至当赠品送掉。&lt;/strong> 别心疼那点毛利，&lt;strong>现金比库存值钱多了！&lt;/strong> 哪怕亏本卖掉，你拿回来的钱去买A类爆款，赚回来的钱远比你捂在手里强。&lt;/li>
+&lt;li>&lt;strong>超过180天没动销：&lt;/strong> 别犹豫了。&lt;strong>内部消化、报废、或者问供应商能不能退。&lt;/strong> 继续留着，它就是仓库里的肿瘤。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实案例：&lt;/strong> 我那个兄弟，仓库里一堆过季的沙发套，卖了3个月没动静。我让他直接挂二手平台，5折甩卖。3天清光，回笼了30万现金。他用这钱去订了新爆款，一个季度赚回来80万。&lt;strong>这就是断舍离的力量。&lt;/strong>&lt;/p></description></item><item><title>供应链崩盘前，这3个坑我先帮你踩了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>先说个真事。&lt;/p>
+&lt;p>上个月，我一朋友，干了6年采购，突然被老板叫去骂了半小时。原因？供应商跑路了，产线停了两天，老板差点没把桌子掀了。&lt;/p>
+&lt;p>他委屈啊：那供应商合作3年了，之前一直好好的，谁能想到说黄就黄？&lt;/p>
+&lt;p>我问他：你最后一次去现场是啥时候？他愣了一下：去年…吧。&lt;/p>
+&lt;p>得，活该被骂。&lt;/p>
+&lt;p>干供应链这行，最怕的不是涨价，不是缺货，是&lt;strong>你以为稳了，其实早就崩了&lt;/strong>。&lt;/p>
+&lt;p>今天这篇，我把自己踩过的、身边人踩过的坑，全扒出来给你看。不整虚的，就3个点。记不住没关系，先收藏，回头遇事翻出来看。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险一供应商忽然断供其实信号早就给了">风险一：供应商“忽然”断供？其实信号早就给了&lt;/h3>
+&lt;p>你以为“忽然”是突然？天真。&lt;/p>
+&lt;p>供应商要黄，通常有3个前兆，你但凡盯住一个，都不至于这么被动：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>付款周期突然变短&lt;/strong>：以前能拖3个月，现在非要见票付款。这不是他变牛了，是他在自救。&lt;/li>
+&lt;li>&lt;strong>老板开始频繁换号、联系不上&lt;/strong>：以前秒回微信，突然变成“在开会”，接着是“信号不好”，最后是“您拨打的电话已关机”。&lt;/li>
+&lt;li>&lt;strong>关键岗位人员集体离职&lt;/strong>：财务、生产主管这种核心岗，走一个可能是个人原因，走一窝？那就是公司要凉。&lt;/li>
+&lt;/ul>
+&lt;p>我一个同行老李，去年就是这么救了自己一命。&lt;/p>
+&lt;p>他发现有家供应商，以前报价都挺稳，突然连报三次低价。老李觉得不对劲，一打听，对方资金链快断了，想靠低价抢单套现跑路。&lt;/p>
+&lt;p>老李二话没说，连夜启动备选方案。一个月后，那家供应商果然暴雷，他的产线没停，老板还给他加了奖金。&lt;/p>
+&lt;p>所以，别傻乎乎只盯着价格和交期。&lt;strong>供应商的“异常”，就是你的警报器&lt;/strong>。你不管，锅就是你的。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险二数据报表看着漂亮那是给你看的假象">风险二：数据报表看着漂亮？那是给你看的假象&lt;/h3>
+&lt;p>我见过太多采购，被“假数据”忽悠瘸了。&lt;/p>
+&lt;p>啥叫假数据？就是你天天盯着的：&lt;/p>
+&lt;ul>
+&lt;li>准时交付率 98% → 可能只统计了交了的订单，没交的直接踢出分母&lt;/li>
+&lt;li>合格率 99.5% → 只抽检了最好的一批，次品全藏仓库里&lt;/li>
+&lt;li>库存周转天数 30天 → 库龄200天的老物料，账面价值还在“存货”里挂着&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相往往藏在角落里&lt;/strong>。&lt;/p>
+&lt;p>比如，你每个月看供应商的“退货率”。如果某个月突然从2%降到0.5%，别高兴。先问问：是不是对方把退货单压着没报？是不是质检标准临时松了？&lt;/p>
+&lt;p>再比如，库存数据。我见过一家公司，账面库存价值800万，结果一盘点，有300万是三年以上的呆滞料。老板问：为啥不处理？采购说：账上还有呢，处理了我就亏了。&lt;/p>
+&lt;p>你品，你细品。&lt;/p>
+&lt;p>所以，别只看报表。&lt;strong>每周抽一天，去仓库走一圈&lt;/strong>，看看那些“账面库存”到底长啥样。去产线问问工人，最近哪家供应商的货“用起来费劲”。这些一手信息，比Excel里100个公式都管用。&lt;/p>
+&lt;p>&lt;strong>数据是工具，不是信仰。&lt;/strong> 你信了假的，老板就信了你的无能。&lt;/p>
+&lt;hr>
+&lt;h3 id="风险三单一来源是你给自己挖的坟">风险三：单一来源，是你给自己挖的坟&lt;/h3>
+&lt;p>这句我要加粗说：&lt;strong>永远，永远，永远不要只依赖一家供应商。&lt;/strong>&lt;/p>
+&lt;p>哪怕他价格最低、交期最准、关系最铁。因为只要这一家出事，你就等于裸奔。&lt;/p>
+&lt;p>我见过最惨的案例。一家做电子元件的公司，核心芯片只从一家日本厂商采购。合作了8年，从来没出过问题。结果2022年，日本工厂因为地震停产两周，就两周，这家中国公司直接亏了2000万。&lt;/p>
+&lt;p>老板疯了一样问采购：你不是说没问题吗？&lt;/p>
+&lt;p>采购欲哭无泪：谁能想到地震啊？&lt;/p>
+&lt;p>可问题是，&lt;strong>“意外”从来不是意外&lt;/strong>，它是供应链的常态。贸易战、地缘冲突、极端天气、环保检查……随便来一个，你的“独家”就变成“独墓”。&lt;/p>
+&lt;p>怎么办？三步走：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>至少养3家供应商&lt;/strong>：主供占60%，次供30%，替补10%。别觉得麻烦，这叫“冗余安全”。关键时刻，10%那家能给你续命。&lt;/li>
+&lt;li>&lt;strong>定期测试替补的产能&lt;/strong>：别等到主供出事，才联系替补说“帮我赶一下”。人家排期早满了，你算老几？&lt;/li>
+&lt;li>&lt;strong>关键物料，自己备一点安全库存&lt;/strong>：别信“零库存”那套鬼话。那是大厂玩的游戏，你一中小体量，零库存等于零安全感。&lt;/li>
+&lt;/ol>
+&lt;p>记住，&lt;strong>供应链的本质不是省钱，是“不断线”&lt;/strong>。断一次，之前省的全还回去，还得倒贴。&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说两句">最后说两句&lt;/h3>
+&lt;p>干了这么多年，我最大的感受就一句话：&lt;strong>供应链的风险，从来不是“不知道”，而是“知道了懒得管”&lt;/strong>。&lt;/p>
+&lt;p>你总觉得今天没事，明天没事，后天就出事了。而且出事的时候，永远是你最忙、最怕、最不能出岔子的时候。&lt;/p>
+&lt;p>所以，别指望别人替你扛。老板只看结果，客户只看交期。中间那些“风险防控”，就是你自己的事。&lt;/p>
+&lt;p>把今天这3个坑记住了，回去翻翻你的供应商名单、库存报表、数据报表。看看有没有“雷”。有的话，趁早排。&lt;/p>
+&lt;p>&lt;strong>别等崩了再后悔，那时候连哭都找不到地方。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>干了10年采购才敢说：80%的库存都是废的</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</guid><description>&lt;p>上周去一个朋友的仓库，差点没把我送走。&lt;/p>
+&lt;p>满屋子货，堆得脚都伸不进去。他愁眉苦脸地跟我说：“哥，我库存压了500万，但客户天天催的货，我一件都发不出来。”&lt;/p>
+&lt;p>我看了眼他的库存报表，乐了。&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高销量）只占了30%的库存，B类货勉强能卖，剩下的C类货——那些一年卖不了几件、占着仓位还压着钱的玩意儿，整整堆了50%的库存。&lt;/strong>&lt;/p>
+&lt;p>这不就是典型的“钱都变成了不值钱的货”吗？&lt;/p>
+&lt;p>你别说，这种坑，我干了10年采购，见过太多人往里跳了。今天咱们就聊聊那个能让仓库“起死回生”的&lt;strong>ABC分类法&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="别被二八定律骗了实战中你得看这三点">别被“二八定律”骗了，实战中你得看这三点&lt;/h3>
+&lt;p>很多文章一上来就甩定义：“ABC分类法是根据价值将库存分为三类……”&lt;/p>
+&lt;p>打住。咱不整虚的。&lt;/p>
+&lt;p>说白了，&lt;strong>ABC分类法就是帮你回答三个灵魂拷问&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>哪些货是靠它们赚钱的？—— &lt;strong>A类&lt;/strong>&lt;/li>
+&lt;li>哪些货是凑数的？—— &lt;strong>B类&lt;/strong>&lt;/li>
+&lt;li>哪些货是坑你的？—— &lt;strong>C类&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心指标就一个：年销售额占比。&lt;/strong>&lt;/p>
+&lt;p>别盯着利润，销售额（单价×销量）更能反映资金流转效率。你一个卖螺丝的，单价5毛，但一年卖1000万个，销售额500万，那它就是A类。你卖一个定制机床，单价100万，但三年卖一台，销售额才33万/年，那它就是C类。&lt;/p>
+&lt;p>&lt;strong>实战操作就三步：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>拉数据&lt;/strong>：过去12个月每个SKU的销量和单价，算出销售额。&lt;/li>
+&lt;li>&lt;strong>排顺序&lt;/strong>：按销售额从高到低排，算累计占比。&lt;/li>
+&lt;li>&lt;strong>画老虎&lt;/strong>：前10%-20%的SKU（累计占比70%-80%）→ A类；中间20%-30%的SKU（累计占比15%-20%）→ B类；剩下的50%-70%的SKU（累计占比5%-10%）→ C类。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别问为什么是20%、70%这些数字。&lt;/strong> 每个行业不一样。你是卖快消品的，可能A类只有5%的SKU就占了90%的销售额。你是做配件的，A类可能得占到30%的SKU。&lt;/p>
+&lt;p>&lt;strong>记住一句话：分类是手段，不是目的。&lt;/strong> 目的是让你知道精力该往哪砸。&lt;/p>
+&lt;hr>
+&lt;h3 id="血的教训a类货不是亲爹c类货也不是后妈">血的教训：A类货不是亲爹，C类货也不是后妈&lt;/h3>
+&lt;p>很多人一分类，就把A类货当亲爹供着——天天盯库存，月月盘库，生怕断货。把C类货直接扔冷宫——爱咋咋地，缺货就缺货。&lt;/p>
+&lt;p>&lt;strong>错！大错特错！&lt;/strong>&lt;/p>
+&lt;p>我见过最离谱的操作：一个做电子元件的老板，把一款单价0.5元的电阻（C类）备了3个月的量，占了一整排货架。结果那边一个单价500元的主控芯片（A类）断货了，产线停了三天，损失十几万。&lt;/p>
+&lt;p>&lt;strong>正确的玩法是这样的：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>A类货（高价值高频次）→ 当亲爹供着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>不设安全库存&lt;/strong>？做梦！必须天天盯，甚至小时级监控。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：按需采购，少批量多批次。比如每天补一次货，甚至用JIT（准时制）。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：每月至少一次，甚至每周一次。&lt;strong>少一颗螺丝，可能就得停一条线。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>供应商管理&lt;/strong>：签长期合同，锁定产能，甚至搞VMI（供应商管理库存）。&lt;strong>别等断货了才去跪求供应商。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>B类货（中不溜）→ 当普通朋友处着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：设半个月到1个月的量。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：定期补货，比如两周订一次，或者用再订货点法。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：季度盘一次就够了。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：保持2-3家备选，别在一棵树上吊死。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>C类货（低价值低频次）→ 当远房亲戚养着&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存&lt;/strong>：能少就少，甚至0库存（用代发货或者供应商直发）。&lt;/li>
+&lt;li>&lt;strong>订货策略&lt;/strong>：&lt;strong>一次性多买点&lt;/strong>，比如半年订一次，利用订单量砍价。&lt;/li>
+&lt;li>&lt;strong>盘点频率&lt;/strong>：一年盘一次，或者直接放弃盘点（成本太高）。&lt;/li>
+&lt;li>&lt;strong>供应商&lt;/strong>：找那种品类全、送货快、能拆包的电商平台（比如1688或者京东企业购），别自己囤。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心逻辑就一句话：A类货追求“快”（高周转），C类货追求“省”（低管理成本）。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="90的人都会踩的3个坑我全踩过">90%的人都会踩的3个坑（我全踩过）&lt;/h3>
+&lt;p>&lt;strong>坑1：分类做了一次就再也不动&lt;/strong>&lt;/p>
+&lt;p>我见过最懒的采购，三年前分的类，现在还用。大哥，市场都变天了！你去年爆火的SKU，今年可能成了库存杀手。&lt;/p>
+&lt;p>&lt;strong>正确姿势：每季度重跑一次数据。&lt;/strong> 别忘了把季节性、促销活动、新品上市这些变量加进去。比如你卖羽绒服的，冬天的A类货到了夏天可能就是C类，别傻乎乎地继续囤。&lt;/p>
+&lt;p>&lt;strong>坑2：只看销售额，不看利润&lt;/strong>&lt;/p>
+&lt;p>有些货销售额高，但利润率低到可怜（比如大宗商品）。有些货销售额低，但利润率高得吓人（比如定制配件）。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong> 在销售额占比的基础上，加一个“利润率权重”。推荐用&lt;strong>加权评分法&lt;/strong>：销售额占比×50% + 利润占比×50% = 综合得分。这样才不会把“赔钱赚吆喝”的货当A类。&lt;/p>
+&lt;p>&lt;strong>坑3：把C类货直接砍光&lt;/strong>&lt;/p>
+&lt;p>有哥们一听C类货是坑，直接全部清仓。然后客户来找他要配件，全公司翻遍也找不到，客户骂娘，销售跳脚。&lt;/p>
+&lt;p>&lt;strong>记住：C类货的存在是为了满足“长尾需求”&lt;/strong>。你可以减少它的库存，但不能没有它。正确做法是：&lt;strong>把C类货的库存降到最低，或者让供应商帮你备现货，你出单就让他代发。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后送你一张偷懒清单">最后送你一张“偷懒”清单&lt;/h3>
+&lt;p>不想动脑子？直接照这个来：&lt;/p></description></item><item><title>库存压了300万，我才学会算安全库存</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</guid><description>&lt;p>先讲个真事，别笑。&lt;/p>
 &lt;p>我第一年干采购的时候，被老板骂得狗血淋头，原因很简单——&lt;strong>断货了&lt;/strong>。客户订单飞进来，仓库却没货。销售在群里@我，老板在办公室拍桌子，那一刻我觉得自己离被开就差一张离职单。&lt;/p>
 &lt;p>怎么办？我当时的解决方案很“聪明”：&lt;strong>多备点&lt;/strong>。原来备两周的量，直接拉到四周。不够？再翻一倍。&lt;/p>
 &lt;p>结果呢？&lt;/p>

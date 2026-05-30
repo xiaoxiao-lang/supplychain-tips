@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/</link><description>Recent content in 采购避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：供应链别瞎卷</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</guid><description>&lt;p>&lt;strong>兄弟，你是不是也被“供应链”这三个字给忽悠瘸了？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/</link><description>Recent content in 采购避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
+&lt;p>他刚被老板骂了一顿，差点卷铺盖走人——新换的“优质供应商”货期拖了3个月，品质一塌糊涂，客户直接取消订单。&lt;/p>
+&lt;p>他委屈得要死：“我明明用了最严的评估表，价格低、交期快、资质齐全，怎么还能出这事？”&lt;/p>
+&lt;p>我叹了口气：“你踩的坑，我3年前也踩过，那次公司亏了300万。”&lt;/p>
+&lt;p>&lt;strong>今天，我把自己用真金白银换来的教训掰开揉碎了讲给你听。&lt;/strong> 没废话，全是干货。&lt;/p>
+&lt;h3 id="第一个坑只比价格不看成本">第一个坑：只比价格，不看“成本”&lt;/h3>
+&lt;p>大多数采购评估供应商，上来就问：“你家比别家便宜多少？”&lt;/p>
+&lt;p>&lt;strong>这是最蠢的操作，没有之一。&lt;/strong>&lt;/p>
+&lt;p>价格低 ≠ 成本低。你只看到明面上的报价，却忽略了背后一堆隐藏成本：&lt;/p>
+&lt;ul>
+&lt;li>交期延迟导致的停工损失&lt;/li>
+&lt;li>品质退货带来的返工费&lt;/li>
+&lt;li>售后不及时的沟通成本&lt;/li>
+&lt;li>小供应商倒闭后的换线风险&lt;/li>
+&lt;/ul>
+&lt;p>举个真实例子。我朋友的公司，为了省5%的采购成本，换了个小供应商。结果呢？交期延迟2周，生产线停摆，每天损失20万。最后算下来，省了5万，亏了200万。&lt;/p>
+&lt;p>&lt;strong>记住一句话：最便宜的供应商，往往是最贵的。&lt;/strong>&lt;/p>
+&lt;p>真正专业的采购，看的是&lt;strong>总拥有成本&lt;/strong>。具体怎么算？5个维度：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>价格&lt;/strong>：别只看单价，看条款（付款条件、账期）&lt;/li>
+&lt;li>&lt;strong>品质&lt;/strong>：退货率、不良率、客诉率&lt;/li>
+&lt;li>&lt;strong>交期&lt;/strong>：准时交付率、弹性能力&lt;/li>
+&lt;li>&lt;strong>服务&lt;/strong>：响应速度、配合度、解决问题能力&lt;/li>
+&lt;li>&lt;strong>风险&lt;/strong>：资金链、合规性、替代性&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>别被低价冲昏头脑，多问一句：“这个价格背后，我到底要付出什么代价？”&lt;/strong>&lt;/p>
+&lt;h3 id="第二个坑忽视隐性风险只会看表面">第二个坑：忽视“隐性风险”，只会看表面&lt;/h3>
+&lt;p>很多采购评估供应商，流程是这样的：&lt;/p>
+&lt;ol>
+&lt;li>看营业执照（嗯，注册3年了）&lt;/li>
+&lt;li>查企业信用（没有黑名单）&lt;/li>
+&lt;li>现场参观（厂房挺干净）&lt;/li>
+&lt;li>签合同（完美）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>然后呢？然后就没有然后了。&lt;/strong>&lt;/p>
+&lt;p>你以为这样就能安全过关？太天真了。&lt;/p>
+&lt;p>我之前评估过一家供应商，表面风光：5000平米厂房、100多号工人、ISO认证都有。结果合作3个月，突然断货。一查才知道，老板赌博输了钱，资金链断裂，工人工资都发不出。&lt;/p>
+&lt;p>&lt;strong>表面过得去，不代表背后没问题。&lt;/strong>&lt;/p>
+&lt;p>怎么避免？给你3个“挖地三尺”的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>扒一扒老板背景&lt;/strong>：问问同行、查查征信、看看是否有官司。别光看公司，人更重要。&lt;/li>
+&lt;li>&lt;strong>实地突击检查&lt;/strong>：别提前通知，杀个回马枪。看看真实的生产状态、库存情况、工人情绪。&lt;/li>
+&lt;li>&lt;strong>查关联公司&lt;/strong>：很多供应商会用多个马甲。查查他背后有没有其他公司正在破产边缘。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：供货商评估不是一次性的，而是持续的。&lt;/strong> 今天没问题，不代表明天没问题。&lt;/p>
+&lt;h3 id="第三个坑评估完就扔一边不管了">第三个坑：评估完就扔一边，不管了&lt;/h3>
+&lt;p>这是最普遍的坑，也是最致命的。&lt;/p>
+&lt;p>很多采购做完评估，选完供应商，就以为大功告成。然后呢？&lt;strong>供应商“变了”&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>品质慢慢下降&lt;/li>
+&lt;li>交期越来越拖&lt;/li>
+&lt;li>服务越来越差&lt;/li>
+&lt;li>价格悄悄涨了&lt;/li>
+&lt;/ul>
+&lt;p>为什么？因为没有&lt;strong>持续监控&lt;/strong>。&lt;/p>
+&lt;p>供应商不是机器，不是选定了就一劳永逸。他们也会变：老板换人、资金紧张、设备老化、管理混乱……如果不盯，随时翻车。&lt;/p>
+&lt;p>&lt;strong>怎么做？给你一套“养鱼”的方法：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度评分卡&lt;/strong>：每项指标打分，低于85分的直接亮红灯&lt;/li>
+&lt;li>&lt;strong>季度复盘会&lt;/strong>：和供应商坐在一起，聊问题、定改进方案&lt;/li>
+&lt;li>&lt;strong>年度淘汰制&lt;/strong>：连续3个月不合格的直接换人，别心软&lt;/li>
+&lt;li>&lt;strong>建立备选库&lt;/strong>：永远保持2-3家备选，别被卡脖子&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：供应商评估不是一次性考试，而是一场马拉松。&lt;/strong> 你不管他，他就管你。&lt;/p>
+&lt;h3 id="真正的供应商评估怎么做">真正的供应商评估，怎么做？&lt;/h3>
+&lt;p>别嫌烦，我给你一套&lt;strong>简单粗暴的流程&lt;/strong>，照着做，至少能避开80%的坑。&lt;/p>
+&lt;p>&lt;strong>第一步：制定标准，别拍脑袋&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>列出10个关键指标（价格、品质、交期、服务、风险……）&lt;/li>
+&lt;li>每个指标量化打分（比如交期延迟1天扣5分）&lt;/li>
+&lt;li>设定底线分数（低于60分直接pass）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：多维验证，别信一面之词&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>背景调查：工商信息、司法纠纷、行业口碑&lt;/li>
+&lt;li>现场审核：生产流程、设备状态、员工状态&lt;/li>
+&lt;li>样品测试：小批量试单，别一上来就大单&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三步：动态管理，别一劳永逸&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每月数据监控&lt;/li>
+&lt;li>每季度沟通复盘&lt;/li>
+&lt;li>每年重新评估&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别嫌麻烦。一次翻车，损失的可能不仅仅是一笔订单，而是你的职业前途。&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才明白：供应链别瞎卷</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pain/</guid><description>&lt;p>&lt;strong>兄弟，你是不是也被“供应链”这三个字给忽悠瘸了？&lt;/strong>&lt;/p>
 &lt;p>去年年底，我盯着仓库里堆成山的货，手机里是财务催款的微信，面前是老板拍桌子的怒吼：“500万的库存！你他妈是开超市还是做供应链？”&lt;/p>
 &lt;p>那一刻我差点以为我要去送外卖了。&lt;/p>
 &lt;p>别笑。你如果干过供应链，一定懂这种&lt;strong>想死的心&lt;/strong>。&lt;/p>
