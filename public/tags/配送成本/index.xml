@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>配送成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%85%8D%E9%80%81%E6%88%90%E6%9C%AC/</link><description>Recent content in 配送成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%85%8D%E9%80%81%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>最后一公里烧钱烧到心慌？这3招救了我的配送成本</title><link>https://supplychain-tips.pages.dev/posts/last-mile-629/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-629/</guid><description>&lt;p>做了三年最后一公里配送，看着每单配送成本从8块涨到15块，老板问我：为什么量越大越亏？&lt;/p>
+&lt;p>真正干过末端的都懂，这个痛。不是你不努力，是末端配送的结构性问题摆在那里：客单分散、高峰集中、退货率高、客户不在家——随便哪一条都是烧油的漏斗。&lt;/p>
+&lt;p>我花了大半年把配送成本压了30%，没有用什么高科技，就是三个笨办法。&lt;/p>
+&lt;h3 id="1-别死磕上门驿站和自提是降本神器">1. 别死磕上门，驿站和自提是降本神器&lt;/h3>
+&lt;p>很多人觉得&amp;quot;送货上门才是服务好&amp;quot;，但我给你算笔账：一单上门的综合成本（油费+人工+耗时+空跑）大概是驿站的3倍。&lt;/p>
+&lt;p>我负责的片区，之前全是上门件。后来把小区分成两类：有电梯的新小区继续上门，没电梯的老小区、爬楼梯的单子推驿站。&lt;/p>
+&lt;p>一开始客户也有怨言，但说实话，年轻人白天都不在家，上门反而没人收货，快递员跑三趟才送达——客户体验也好不到哪去。驿站模式反而是共赢：客户随时取、快递员不空跑。&lt;/p>
+&lt;p>驿站不是降服务，是换一种更适合的履约方式。&lt;/p>
+&lt;h3 id="2-前置仓才是末端的地基">2. 前置仓才是末端的地基&lt;/h3>
+&lt;p>&amp;ldquo;最后一公里&amp;quot;跑不动，问题往往不在最后一公里，在倒数第二公里没做好。&lt;/p>
+&lt;p>你把城市仓设在郊区，每天从郊区往市区发10趟车。高峰期堵在环线上，到小区的时效全黄了。然后你增加车辆、增加人力——成本又飙了。&lt;/p>
+&lt;p>前置仓的逻辑很简单：把高频SKU放在离客户最近的站点。我在市区租了3个社区微仓，面积不大，就30-50平，租金一个才两千多。但配送半径从之前的15公里缩到了3公里，一台电动车一天能多送15单。&lt;/p>
+&lt;p>月租多花六七千，省下来的却是几万块的运输成本和工时。&lt;/p>
+&lt;h3 id="3-路径优化不是电脑的事是人数据">3. 路径优化不是电脑的事，是人+数据&lt;/h3>
+&lt;p>见过太多配送站经理靠&amp;quot;感觉&amp;quot;排线：A小区快递多先送，B小区量大放后面，C是一条线路顺便跑。&lt;/p>
+&lt;p>感觉派最大的问题是：你可能一天多跑了20公里冤枉路，还不知道。&lt;/p>
+&lt;p>我做的改进很简单：每周复盘一次GPS轨迹数据，看哪些路线在绕、哪些时段在堵、哪些片区合并配送更高效。不需要多高级的系统，用手机地图的轨迹回放加一个Excel就干了。&lt;/p>
+&lt;p>第一个月就发现了问题：城南那条线每天下午三点路过学校路段，堵车耽误半小时——改到两点半经过，畅通无阻。&lt;/p>
+&lt;p>配送不是蛮干，是对数据保持敏感。&lt;/p>
+&lt;hr>
+&lt;p>最后一公里的竞争其实不是市场份额的竞争，是成本效率的竞争。谁把配送成本压到最低还能保持体验，谁就能活下来。&lt;/p>
+&lt;p>目前这三招先给你救急。如果还想继续深挖，我建议你再看一遍自己的配送数据——不一定马上做决策，但心里要有那张成本地图，知道哪里是出血点。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

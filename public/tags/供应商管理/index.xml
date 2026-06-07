@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><description>Recent content in 供应商管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链崩盘前，这3个坑我先帮你踩了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>先说个真事。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><description>Recent content in 供应商管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
+&lt;p>3天停产 + 2天物流 + 产线调整 = 停线5天。直接损失300万，订单延期赔了80万。&lt;/p>
+&lt;p>老板问我：不是有供应商评估吗？我说：评了，优秀。老板又问：那为什么只有一家？我沉默了。&lt;/p>
+&lt;h3 id="供应链最大的风险你以为没事">供应链最大的风险：你以为没事&lt;/h3>
+&lt;p>99%的供应链中断，不是因为天灾，是因为&lt;strong>你认为不会出事&lt;/strong>。&lt;/p>
+&lt;p>你觉得最大的供应商够大够稳，不会倒。结果它资金链断了。&lt;/p>
+&lt;p>你觉得那个小供应商可有可无，没想到它才是你核心物料唯一的来源。&lt;/p>
+&lt;p>你觉得物流有备用方案，真出事了才发现所谓的&amp;quot;备用&amp;quot;只存在PPT里。&lt;/p>
+&lt;h3 id="3个最容易被忽视的致命风险">3个最容易被忽视的致命风险&lt;/h3>
+&lt;p>&lt;strong>第一：二级供应商的黑洞&lt;/strong>&lt;/p>
+&lt;p>你管好了一级供应商，但你的供应商的供应商是谁，你知道吗？&lt;/p>
+&lt;p>一个真实的案例：某汽车厂的一级供应商管理得非常好，但一级供应商的关键原料来自日本一家化工厂。那家化工厂爆炸了，整条链全断。&lt;/p>
+&lt;p>二级供应商的风险，比一级供应商更难防，但杀伤力一样大。&lt;/p>
+&lt;p>&lt;strong>第二：单一节点的脆弱性&lt;/strong>&lt;/p>
+&lt;p>一个仓库覆盖全华东、一家物流公司承运所有线路、一个IT系统跑全部业务。这些&amp;quot;集约化&amp;quot;在成本上是对的，在风险上是错的。&lt;/p>
+&lt;p>&lt;strong>第三：人的风险&lt;/strong>&lt;/p>
+&lt;p>核心采购员离职，供应商联系方式都没留下来。计划员请病假，MRP参数没人会调。这不是段子，是每天都在发生的事。&lt;/p>
+&lt;h3 id="建韧性的3条铁律">建韧性的3条铁律&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>关键物料必须有备选&lt;/strong>。至少一家B供，哪怕份额只有20%，但必须有。试过、验过、能切。&lt;/li>
+&lt;li>&lt;strong>用钱换时间&lt;/strong>。安全库存不是成本，是保险。在关键物料上多备2-3周的库存，花30万库存成本，可能省300万的停线损失。&lt;/li>
+&lt;li>&lt;strong>演练，不只做预案&lt;/strong>。你的应急预案上次演练是什么时候？有几个人知道出了事第一步该干什么？&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>供应链风险管理的本质，是用可控的成本去对冲不可控的损失。你今天为冗余花的每一分钱，都是在为明天的&amp;quot;万一&amp;quot;买保险。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商评估表填了三年，全是废纸</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</guid><description>&lt;p>我问你一个问题：你们公司最近一次供应商评估，结果是什么？&lt;/p>
+&lt;p>大概率是全合格。最多有一两家走个过场被&amp;quot;降级&amp;quot;，过两个月又调回来了。&lt;/p>
+&lt;p>这不是评估，这是演戏。演给审计看的，演给管理层看的，连供应商都知道你们在演戏。&lt;/p>
+&lt;h3 id="为什么你的供应商评估是废纸">为什么你的供应商评估是废纸&lt;/h3>
+&lt;p>因为你的评估维度错了。&lt;/p>
+&lt;p>大部分公司的供应商评估是：质量 + 交期 + 价格 + 服务，各给个权重，然后打分。分高的优秀，分低的整改。&lt;/p>
+&lt;p>问题在哪？&lt;strong>你把所有供应商用同一把尺子量。&lt;/strong>&lt;/p>
+&lt;p>A类核心供应商（占了60%采购额的那几个）和C类非关键供应商（一年就买几万块的标准件），能用同一个评估体系吗？&lt;/p>
+&lt;p>C类供应商交期再烂，影响你产线吗？不影响。A类供应商质量波动1%，你整条线可能就废了。&lt;/p>
+&lt;h3 id="供应商分类比打分重要100倍">供应商分类，比打分重要100倍&lt;/h3>
+&lt;p>供应商管理的第一步是分类，不是评估。我的分类方法是：&lt;/p>
+&lt;p>&lt;strong>战略供应商&lt;/strong>：占你采购额大、替代成本高、对核心业务有直接影响。这种供方不是管，是&amp;quot;养&amp;quot;。你要派人驻厂、要做联合改善、要共享需求预测。&lt;/p>
+&lt;p>&lt;strong>杠杆供应商&lt;/strong>：采购额大但市场上替代多。这种就是充分竞争，谁的性价比高用谁。一视同仁地压价，不用心疼。&lt;/p>
+&lt;p>&lt;strong>瓶颈供应商&lt;/strong>：采购额不大但独家供应。这种是最大的风险。你的核心任务不是管理它，是找替代。哪怕暂时替代不了，也要时刻保持&amp;quot;随时能切&amp;quot;的技术储备。&lt;/p>
+&lt;p>&lt;strong>一般供应商&lt;/strong>：小额标准件、市场供应充足。这种不用花太多精力，走个电子竞价就完事了。&lt;/p>
+&lt;h3 id="评估要跟业务动作挂钩">评估要跟业务动作挂钩&lt;/h3>
+&lt;p>评估结果出来，不能只是&amp;quot;及格/不及格&amp;quot;。&lt;/p>
+&lt;p>战略供应商得分偏低 → 派驻厂工程师、开QBR（季度商务评审会）、定改善计划。
+杠杆供应商连续下降 → 直接降份额、引入竞争者。
+瓶颈供应商不配合 → 加速替代开发、暂时维持关系但要亮底牌。&lt;/p>
+&lt;p>每一个评估结果，都要对应一个具体的动作。没有动作的评估，就是一张废纸。&lt;/p>
+&lt;hr>
+&lt;p>供应商评估不是绩效考核，是供应商关系管理。你把它当考核做，供应商就把它当考试过。你把它当关系管理做，供应商才会认真对待。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>300份合同才悟出来：这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</guid><description>&lt;p>上周翻旧合同的时候，我发现2019年签的一份设备采购合同，交货条款写的是&amp;quot;货到验收后付款&amp;quot;。&lt;/p>
+&lt;p>然后我查了一下，那批货从深圳到青岛，&lt;strong>走了23天&lt;/strong>。&lt;/p>
+&lt;p>供应商说海运排期滞后，合同里没写交货时限，我们一点办法没有。产线停了两周，损失远超那批设备的价值。&lt;/p>
+&lt;p>就这6个字——&amp;ldquo;货到验收后付款&amp;rdquo;——让我明明白白懂了：&lt;strong>采购合同不是模板填填就能签的&lt;/strong>。&lt;/p>
+&lt;h3 id="第一条付款条件写得像许愿">第一条：付款条件写得像许愿&lt;/h3>
+&lt;p>最常见的坑：「验收合格后付款」「安装调试后付款」「正常运行后付款」。&lt;/p>
+&lt;p>这些词在法律上全是模糊地带。&lt;/p>
+&lt;p>什么叫&amp;quot;合格&amp;quot;？谁说了算？按什么标准？多久算&amp;quot;正常运行&amp;quot;？出小问题算不算？供应商完全可以拖到你崩溃。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：付款节点必须跟&lt;strong>可验证的事件&lt;/strong>绑定。&lt;/p>
+&lt;ul>
+&lt;li>❌ &amp;ldquo;验收合格后付90%&amp;rdquo;&lt;/li>
+&lt;li>✅ &amp;ldquo;乙方提供出厂检测报告 + 我方签字确认到货验收单后3个工作日内，支付90%&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>每个付款条件后面，跟一个具体的交付物和明确的时间窗口。&lt;/p>
+&lt;h3 id="第二条违约金的数字是摆设">第二条：违约金的数字是摆设&lt;/h3>
+&lt;p>合同里写&amp;quot;逾期交货每天罚款千分之一&amp;quot;，看着挺吓人的吧？&lt;/p>
+&lt;p>我告诉你，实际执行的时候，供应商会跟你说：&amp;ldquo;这个违约金我们不能接受，这次就算了，下次给你优惠。&amp;rdquo;&lt;/p>
+&lt;p>如果你签了合同就算了，那这个条款等于没写。&lt;/p>
+&lt;p>&lt;strong>三个关键点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>违约金必须有&lt;strong>上限写死&lt;/strong>（比如合同总价的10%-30%），但也要有&lt;strong>下限约束&lt;/strong>（比如超过15天必须无条件退货）&lt;/li>
+&lt;li>违约金不能靠协商，要从&lt;strong>应付账款里直接扣&lt;/strong>&lt;/li>
+&lt;li>重大违约（超过30天不交货）直接触发&lt;strong>单方解约权&lt;/strong>，别给供应商翻盘机会&lt;/li>
+&lt;/ul>
+&lt;h3 id="第三条知识产权是谁的别等出事了才问">第三条：知识产权是谁的，别等出事了才问&lt;/h3>
+&lt;p>我们公司曾经找一家软件公司定制了一套WMS系统。上线半年后供应商倒闭了，源代码拿不到，系统没人维护。&lt;/p>
+&lt;p>然后我们才发现，合同里&lt;strong>根本没写知识产权的归属&lt;/strong>。源代码到底是谁的？我们自己能不能找别人改？悬在半空中。&lt;/p>
+&lt;p>定制品开发合同，必须明确三件事：&lt;/p>
+&lt;ul>
+&lt;li>开发成果的知识产权归甲方&lt;/li>
+&lt;li>源代码交付是验收条件之一&lt;/li>
+&lt;li>供应商倒闭或被收购，甲方有权继续使用并由第三方维护&lt;/li>
+&lt;/ul>
+&lt;p>别觉得&amp;quot;不会这么巧&amp;quot;。供应链从业8年，我见过的倒闭供应商比活着的还多。&lt;/p>
+&lt;h3 id="第四条不可抗力不是供应商的万能挡箭牌">第四条：不可抗力不是供应商的万能挡箭牌&lt;/h3>
+&lt;p>疫情那三年，&amp;ldquo;不可抗力&amp;quot;成了供应商最爱的词。&lt;/p>
+&lt;p>原材料涨价？不可抗力。物流延迟？不可抗力。工人离职招不到人？也说是不可抗力。&lt;/p>
+&lt;p>法院判决里，不可抗力的门槛非常高——必须是&lt;strong>不能预见、不能避免、不能克服&lt;/strong>的客观情况。&lt;/p>
+&lt;p>原材料涨价？对不起，这是商业风险，不是不可抗力。&lt;/p>
+&lt;p>&lt;strong>合同里必须写清楚&lt;/strong>：市场价格波动、劳动力短缺、产能不足——这些不属于不可抗力。别让供应商钻空子。&lt;/p>
+&lt;h3 id="第五条管辖法院写错了维权成本翻10倍">第五条：管辖法院写错了，维权成本翻10倍&lt;/h3>
+&lt;p>合同最后那段&amp;quot;争议解决方式&amp;rdquo;，90%的人直接跳过。&lt;/p>
+&lt;p>但你知道如果写了&amp;quot;供应商所在地法院管辖&amp;quot;，你异地打一个30万的欠款官司，光是差旅费、律师费就要花多少钱吗？&lt;/p>
+&lt;p>一个朋友公司就因为这条，从上海跑到新疆打了大半年官司，诉讼费加上差旅花了十几万，追回来28万。净赚？不存在的。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：「本合同争议由甲方所在地有管辖权的人民法院管辖」。&lt;/p>
+&lt;p>就这一句话，省下的是真金白银。&lt;/p>
+&lt;hr>
+&lt;p>采购合同这件事，签之前觉得每一条都是在跟供应商较劲。签完了才发现，每一条都是在给自己买保险。&lt;/p>
+&lt;p>花半天认真看一遍合同，能省下半年的麻烦。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>月薪3K和30K的采购，差在处理供应商关系的这3招</title><link>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</guid><description>&lt;p>采购这行有个奇怪的现象：干了三年的和干了十年的人，做的事情差不多——询价、比价、下单、催货。&lt;/p>
+&lt;p>但他们的待遇差了一个零。&lt;/p>
+&lt;p>区别在哪？在于前者把供应商当工具，后者把供应商当资源。工具用完就扔，资源越养越值钱。&lt;/p>
+&lt;h3 id="供应商不是用来压的是用来养的">供应商不是用来压的，是用来养的&lt;/h3>
+&lt;p>供应商被压得太惨，会怎么报复你？不是直接说不做，而是——交期悄悄延迟两天，质量&amp;quot;刚好在合格线&amp;quot;，遇到急单优先排别人，你家永远排最后。&lt;/p>
+&lt;p>你说他没违约。但他的&amp;quot;刚好及格&amp;quot;让你的产线紧张得不行。&lt;/p>
+&lt;p>反过来，你是怎么对供应商的？砍价软件一键三连：比价、压价、找替代。你的人均采购额确实降了，但隐性成本却在狂涨：交期不靠谱导致的紧急采购价、质量不稳造成的返工、不配合带来的项目延期。&lt;/p>
+&lt;p>真正的高手不是在砍供应商，是在和供应商一起琢磨怎么把综合成本降下来。&lt;/p>
+&lt;h3 id="四类供应商四种打法">四类供应商，四种打法&lt;/h3>
+&lt;p>把你的供应商分成四类，画一个2×2矩阵：&lt;/p>
+&lt;p>&lt;strong>战略型：量大、关键、不可替代。&lt;/strong> 这是你的命脉。待遇应当是长期框架协议、信息共享、定期高层互访。别在这些供应商身上省芝麻，丢了西瓜。&lt;/p>
+&lt;p>&lt;strong>杠杆型：量大、标准品、多货源。&lt;/strong> 这类供应商你可以充分竞争，定期比价，保持2-3家同时供货。但别把人逼到绝路——留合理的利润，人家才愿意在你旺季加班。&lt;/p>
+&lt;p>&lt;strong>瓶颈型：量小、难采购但必须用。&lt;/strong> 供应商一只手捏着你的产量。对待他们要保证长期合作承诺、准时付款、经常沟通。他们的优先级就是你的安全感。&lt;/p>
+&lt;p>&lt;strong>一般型：量小、替代品多。&lt;/strong> 这类可以走流程化管理，定期比价，谁便宜就谁做。但这种也可以是一个人才池——哪天你缺供应商，可能就要从这里捞人。&lt;/p>
+&lt;p>你的时间应该优先花在战略型和瓶颈型上面，而不是每天盯着一般型的报价差。&lt;/p>
+&lt;h3 id="三个月一次供应商复盘">三个月一次供应商复盘&lt;/h3>
+&lt;p>大部分采购的供应商管理是这样：年初签合同，然后一整年不管，直到出问题了临时开会骂人。&lt;/p>
+&lt;p>我建议你每个季度拉一次供应商复盘会，就问你三个问题：&lt;/p>
+&lt;p>&lt;strong>1. 准交率变了吗？&lt;/strong> 如果从98%掉到91%，不管价格多便宜，回去找原因。趋势比绝对值重要。&lt;/p>
+&lt;p>&lt;strong>2. 质量批退率稳定吗？&lt;/strong> 稳定在万分之几是正常的，连续三个月上涨就是警报。&lt;/p>
+&lt;p>&lt;strong>3. 有没有新发生的&amp;quot;卡脖子&amp;quot;现象？&lt;/strong> 你只有一个货源，他涨价你只能接受。增加备份货源要提前布局，别等断供才开始找。&lt;/p>
+&lt;p>把这三个数据做成供应商档案，存档。半年后你会发现——对哪些供应商该信任、哪些该留后手，心里门清。&lt;/p>
+&lt;hr>
+&lt;p>月薪3K和30K的采购，差的不是报价技巧，是在供应商关系上有没有走心。走心的意思是：你拿出做朋友的心态，但始终保持职业的判断力。该严厉时严厉，该给人留空间时留空间。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链崩盘前，这3个坑我先帮你踩了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/</guid><description>&lt;p>先说个真事。&lt;/p>
 &lt;p>上个月，我一朋友，干了6年采购，突然被老板叫去骂了半小时。原因？供应商跑路了，产线停了两天，老板差点没把桌子掀了。&lt;/p>
 &lt;p>他委屈啊：那供应商合作3年了，之前一直好好的，谁能想到说黄就黄？&lt;/p>
 &lt;p>我问他：你最后一次去现场是啥时候？他愣了一下：去年…吧。&lt;/p>

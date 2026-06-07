@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链合规 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%90%88%E8%A7%84/</link><description>Recent content in 供应链合规 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%90%88%E8%A7%84/index.xml" rel="self" type="application/rss+xml"/><item><title>被环保罚了50万才知道，绿色供应链不是做公益是保命</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-625/</guid><description>&lt;p>去年年底，我们一家上游供应商因为危废处理不达标被环保局罚了50万，同时被勒令停产整改两个月。&lt;/p>
+&lt;p>你以为这事跟我们没关系？直接断供，生产线停了三天，客户的订单交期全部违约，光违约金就赔了120万。&lt;/p>
+&lt;p>从那以后我才真正明白一件事：绿色供应链不是什么社会责任报告上的漂亮话，是你供应链能不能活下去的生死线。&lt;/p>
+&lt;h3 id="双碳政策越来越狠谁也别想逃">双碳政策越来越狠，谁也别想逃&lt;/h3>
+&lt;p>2026年碳达峰前的窗口期越来越短，各地方的环保执法频率和力度都在升级。你看看最近半年：&lt;/p>
+&lt;ul>
+&lt;li>重点排污企业在线监测全覆盖，数据直连环保部门&lt;/li>
+&lt;li>危废转移电子联单全面实施，偷排漏排一查一个准&lt;/li>
+&lt;li>新能源车路权收紧，不达标车辆限行区域扩大&lt;/li>
+&lt;li>大客户ESG审核开始纳入供应商准入条件&lt;/li>
+&lt;/ul>
+&lt;p>以前你觉得环保是锦上添花，现在是硬性约束。你不达标，客户不给你单子，银行不给贷款，政府随时给你关门。&lt;/p>
+&lt;h3 id="碳足迹从概念到必须算的账">碳足迹：从概念到必须算的账&lt;/h3>
+&lt;p>供应链的碳排放分三个Scope：&lt;/p>
+&lt;p>&lt;strong>Scope 1&lt;/strong>：你直接燃烧产生的排放，比如自有车辆柴油、锅炉烧煤。这部分好理解，也好控制。&lt;/p>
+&lt;p>&lt;strong>Scope 2&lt;/strong>：你用电用热间接产生的排放。你用的电是煤电还是绿电，排放差3-4倍。这部分切换供应商就能降。&lt;/p>
+&lt;p>&lt;strong>Scope 3&lt;/strong>：供应商的生产排放、物流运输排放、产品使用和报废的排放。这部分最大，也最难管，通常占总排放的70%以上。&lt;/p>
+&lt;p>对大多数制造业来说，Scope 3是减排的重点。但问题来了：你连供应商的排放数据都拿不到，怎么减？&lt;/p>
+&lt;p>实操建议：从头部供应商开始，要求他们提供年度碳排放数据，纳入供应商评估体系。你不要求，他们永远不会主动去做。&lt;/p>
+&lt;h3 id="绿色物流别等罚款了才想起来">绿色物流：别等罚款了才想起来&lt;/h3>
+&lt;p>绿色物流不是喊口号，是实实在在的成本和合规。&lt;/p>
+&lt;p>&lt;strong>包装减量化&lt;/strong>：我们统计过，包装物料占物流成本的12-15%。把木箱改成可循环塑料箱，一次性投入大但回收3-4次就回本。客户那边的包装废弃物处理成本也大幅下降，满意度反而提升了。&lt;/p>
+&lt;p>&lt;strong>新能源车辆替代&lt;/strong>：如果你有自有车队，算一笔账：新能源车购置补贴+路权优势+油电差价，全生命周期成本比柴油车低20-30%。但前提是充电设施跟得上。&lt;/p>
+&lt;p>&lt;strong>路线优化降碳&lt;/strong>：这个最简单，也最容易忽视。用系统做路线规划，减少空驶和绕路，平均降碳10-15%，同时降燃油成本。很多企业连最基本的路线规划都没做，每天司机凭经验跑，绕路30%都不知道。&lt;/p>
+&lt;h3 id="供应商esg评估怎么做">供应商ESG评估怎么做&lt;/h3>
+&lt;p>大企业已经在做了，中小企业也不能再拖了。&lt;/p>
+&lt;p>第一步：制定你的ESG评估标准。不需要搞那么复杂，核心3个维度：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>E（环境）&lt;/strong>：是否有环保资质、危废处理是否合规、碳排放是否有数据&lt;/li>
+&lt;li>&lt;strong>S（社会）&lt;/strong>：用工是否规范、是否有社保、是否存在严重劳资纠纷&lt;/li>
+&lt;li>&lt;strong>G（治理）&lt;/strong>：财务是否健康、是否有诚信记录、管理层是否稳定&lt;/li>
+&lt;/ul>
+&lt;p>第二步：把ESG评估嵌入供应商准入流程。新供应商必须过ESG关，老供应商做年度复审。&lt;/p>
+&lt;p>第三步：对高风险供应商做现场审核。尤其是化工、电镀、印染这些高污染行业的供应商。&lt;/p>
+&lt;p>我们去年就是因为没有做第三步，供应商危废处理违规我们完全不知道，直到被环保局通知才后知后觉。&lt;/p>
+&lt;h3 id="中小企业的绿色转型三步走">中小企业的绿色转型三步走&lt;/h3>
+&lt;p>别被&amp;quot;绿色供应链&amp;quot;四个字吓到，中小企业可以分三步走：&lt;/p>
+&lt;p>&lt;strong>第一步（0-3个月）&lt;/strong>：摸底。搞清楚自己供应链的碳排放基线数据，列出高风险供应商清单。这一步成本几乎为零，就是花时间。&lt;/p>
+&lt;p>&lt;strong>第二步（3-6个月）&lt;/strong>：整改。优先解决合规问题：危废处理、排污许可、安全库存等。这些不是选择题，是必答题。同时开始要求核心供应商提供碳排放数据。&lt;/p>
+&lt;p>&lt;strong>第三步（6-12个月）&lt;/strong>：优化。启动包装循环利用、路线优化、新能源替换等降本减碳项目。这些项目基本都能在1-2年内收回投资。&lt;/p>
+&lt;p>绿色供应链这件事，早做是布局，晚做是救火。等到罚款来了、客户断供了、银行抽贷了，再想补就来不及了。&lt;/p>
+&lt;p>别拿&amp;quot;成本高&amp;quot;当借口。我们那次50万罚款+120万违约金，够做多少绿色改进项目？&lt;/p></description></item></channel></rss>

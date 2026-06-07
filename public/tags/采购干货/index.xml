@@ -1,4 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购干货 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 采购干货 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购干货 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 采购干货 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>300份合同才悟出来的坑：采购合同这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</guid><description>&lt;p>入行第一年，采购合同对我来说就是一张纸。老板让签就签，供应商发来就回传，注意力全在单价和交期两个数上。至于后面密密麻麻的那些条款——没看过，也看不懂。&lt;/p>
+&lt;p>直到有一次，供应商把一批货的规格和合同少了两个参数，导致整批物料不能用。我去找人家索赔，人家把合同翻到第17页，指着免责条款说&amp;quot;这条写了，参数差异以我方出厂标准为准&amp;quot;。&lt;/p>
+&lt;p>我当时脑子就炸了。签了300份合同才明白：合同的关键不在签的时候多快，而在出问题的时候能不能保你的命。&lt;/p>
+&lt;h3 id="第一条验收标准模糊就是给对方送钱">第一条：验收标准——模糊就是给对方送钱&lt;/h3>
+&lt;p>看过多少份合同里的验收条款写&amp;quot;按国家标准执行&amp;quot;？国家标准有一大堆，具体哪一条？检验方法是什么？抽样比例是多少？谁请第三方机构？&lt;/p>
+&lt;p>真正能用的验收条款至少包括：&lt;/p>
+&lt;ul>
+&lt;li>引用文件：GB/T XXXX 哪个编号哪个版本&lt;/li>
+&lt;li>关键指标：尺寸、材质、性能参数的具体公差范围&lt;/li>
+&lt;li>抽样方案：来料抽检还是全检，AQL值是多少&lt;/li>
+&lt;li>检测费用：初次检测谁掏钱，复检谁出&lt;/li>
+&lt;/ul>
+&lt;p>写不清楚，就是给供应商留了&amp;quot;合理偏差&amp;quot;的解释空间。别懒这几行字，出了问题赔几十万。&lt;/p>
+&lt;h3 id="第二条违约金协商解决等于没有">第二条：违约金——&amp;ldquo;协商解决&amp;quot;等于没有&lt;/h3>
+&lt;p>&amp;ldquo;如有违约，双方协商解决。&amp;ldquo;这句你签过多少次？真出了事，对方说&amp;quot;协商就是不接受你的索赔要求&amp;rdquo;，你一点脾气没有。&lt;/p>
+&lt;p>违约金条款要写到三个关键点上：&lt;/p>
+&lt;ul>
+&lt;li>延期交货：每延迟一天按合同总额的X%赔偿，上限Y%&lt;/li>
+&lt;li>质量不合格：退换货期限、返修费用归属、连带损失赔偿&lt;/li>
+&lt;li>单方终止：对方违约给你造成的采购差价、紧急调货成本归谁&lt;/li>
+&lt;/ul>
+&lt;p>要写得具体。合同法保护具体约定的条款，不保护模糊的&amp;quot;协商解决&amp;rdquo;。&lt;/p>
+&lt;h3 id="第三条知识产权你以为你买了其实你没买">第三条：知识产权——你以为你买了，其实你没买&lt;/h3>
+&lt;p>找供应商定制开发一套夹具，付了几十万。年底想换供应商，原供应商说：图纸和方案是我们的知识产权，你不能给下家。&lt;/p>
+&lt;p>你突然发现，你买的是实物，不是技术。所有的定制方案、工艺参数、图纸版权，合同里没有权利归属条款的话，默认归承制方。&lt;/p>
+&lt;p>如果你是来图加工，定制品的技术权一定要写清楚：&amp;ldquo;本项目产生的所有技术成果与知识产权归买方所有&amp;rdquo;。&lt;/p>
+&lt;h3 id="第四条保密条款你报价单满天飞">第四条：保密条款——你报价单满天飞&lt;/h3>
+&lt;p>供应商拿着你的BOM清单和用量数据到处找竞品报价，反过来跟你抬价。你气不气？&lt;/p>
+&lt;p>保密条款不只保护你公司的商业机密，也保护你的采购策略。&lt;/p>
+&lt;p>把物料清单、预估用量、价格体系都列进保密范围。违约直接按合同金额的X%赔，不是闹着玩的。&lt;/p>
+&lt;h3 id="第五条不可抗力对方甩锅的第一选择">第五条：不可抗力——对方甩锅的第一选择&lt;/h3>
+&lt;p>口罩期间这句话被用泛滥了。&amp;ldquo;受疫情影响不能交货&amp;rdquo;——但到底什么算不可抗力？台风封路算不算？供应商自己的供应商交不了货算不算？工人辞职了算不算？&lt;/p>
+&lt;p>你得把不可抗力的范围写死：自然灾害、政府行为可以算。但供应商的员工流失、内部管理问题、上游厂商违约——这些不是你的不可抗力，是他们的经营风险。&lt;/p>
+&lt;hr>
+&lt;p>这些坑我一个一个踩过来的，疼够了才记住。你做采购，每天面对的是博弈场，合同是你手里唯一的盾。别被法务说一句&amp;quot;这是标准模板&amp;quot;就放了。模板是别人的，风险是你的。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>库存压了500万才明白：VMI是个坑还是救星？</title><link>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</guid><description>&lt;p>兄弟，你是不是也干过这种蠢事？&lt;/p>
+&lt;p>仓库堆满了货，财务天天催你清库存，老板拍桌子问你“为什么现金流又断了”。你盯着ERP系统里那一串串红色预警，恨不得把货全烧了换现金。&lt;/p>
+&lt;p>我知道，你不是不努力。你比谁都勤快，天天催供应商发货，月底对着报表发愁。&lt;/p>
+&lt;p>可问题是——&lt;strong>你管得太多了。&lt;/strong>&lt;/p>
+&lt;p>库存压了500万才明白：供应商管理库存（VMI），不是让你把锅甩给供应商，而是让你学会“让专业的人干专业的事”。&lt;/p>
+&lt;p>今天这篇，我就用踩坑换来的血泪经验，给你掰扯清楚：VMI到底怎么玩，才能不翻车？&lt;/p>
+&lt;h3 id="1-vmi不是甩锅神器是信息共享的试金石">1. VMI不是甩锅神器，是“信息共享”的试金石&lt;/h3>
+&lt;p>很多人一听VMI，第一反应是：“太好了，把库存全扔给供应商，我躺着等收货就行！”&lt;/p>
+&lt;p>醒醒。这不是甩锅，这是&lt;strong>信息绑架&lt;/strong>。&lt;/p>
+&lt;p>VMI的核心，不是你让供应商多备货，而是你把自己的需求数据、销售预测、生产计划，&lt;strong>赤裸裸地扔给供应商&lt;/strong>。&lt;/p>
+&lt;p>举个例子：你是个做小家电的采购，月销5000台破壁机。传统玩法是：你下订单，供应商按单生产，你自己扛库存。VMI的玩法是：你把过去6个月的历史销量、未来3个月的促销计划、甚至竞品的动销数据，全给供应商看。然后说：“兄弟，你看这数据，自己决定备多少货吧。”&lt;/p>
+&lt;p>结果呢？供应商比你更懂市场。他一看数据，发现你3月要推新款，旧款库存肯定滞销，直接建议你减单50%。&lt;/p>
+&lt;p>你看，&lt;strong>信息透明了，库存才能降下来&lt;/strong>。&lt;/p>
+&lt;p>踩坑提醒：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别怕数据泄露。&lt;/strong> 签好保密协议，核心数据加密。&lt;/li>
+&lt;li>&lt;strong>别玩虚的。&lt;/strong> 你给虚假预测，供应商就敢给你乱备货。&lt;/li>
+&lt;li>&lt;strong>别做甩手掌柜。&lt;/strong> VMI不是不管理，是换了一种管法——管数据、管流程、管绩效。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-为什么你的vmi项目总是死在信任上">2. 为什么你的VMI项目，总是死在“信任”上？&lt;/h3>
+&lt;p>我见过太多公司，VMI搞了半年就崩盘。&lt;/p>
+&lt;p>原因很简单：&lt;strong>信任破产了。&lt;/strong>&lt;/p>
+&lt;p>采购方觉得“供应商肯定多报了库存”，供应商觉得“你肯定压了我的价格”。双方像防贼一样防着对方，最后数据不共享，系统不打通，项目黄了。&lt;/p>
+&lt;p>VMI是一个&lt;strong>共生系统&lt;/strong>，不是零和博弈。&lt;/p>
+&lt;p>怎么破局？
+&lt;strong>先做小范围试点，用结果换信任。&lt;/strong>&lt;/p>
+&lt;p>别一上来就上全品类。选一个SKU（库存单位）、一家供应商、一个仓库，签3个月协议，约定好：&lt;/p>
+&lt;ul>
+&lt;li>库存水位：安全库存+缓冲库存，谁超了谁买单。&lt;/li>
+&lt;li>补货频率：每天/每周/每旬，数据自动同步。&lt;/li>
+&lt;li>绩效指标：库存周转率、缺货率、库存持有成本。&lt;/li>
+&lt;/ul>
+&lt;p>我亲眼见过一家汽配厂，试点期间库存周转率从4次/年干到了12次/年，缺货率从15%降到2%。供应商那边呢？因为需求稳定，他的生产线利用率提升了20%，成本反而降了。&lt;/p>
+&lt;p>&lt;strong>双赢，才是VMI能走下去的命门。&lt;/strong>&lt;/p>
+&lt;h3 id="3-落地vmi的三字经算通罚">3. 落地VMI的“三字经”：算、通、罚&lt;/h3>
+&lt;p>别信那些高大上的PPT，VMI落地就靠这三个字。&lt;/p>
+&lt;p>&lt;strong>算：&lt;/strong>
+先算清楚你的库存成本。不只是货值，还包括仓储租金、人工、损耗、资金占用。算完你会发现，&lt;strong>库存不是资产，是负债&lt;/strong>。有了这个数字，你才知道VMI到底省了多少钱。&lt;/p>
+&lt;p>&lt;strong>通：&lt;/strong>
+系统打通。别搞“供应商登录你的ERP看数据”这种蠢事，直接API（应用程序接口）对接。实时数据同步，自动触发补货。如果供应商没有系统，那就用Excel模板+邮件，但必须标准化。记住：&lt;strong>手动操作越多，VMI死得越快。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>罚：&lt;/strong>
+制定明确的惩罚机制。比如：供应商补货不及时导致缺货，他赔；你数据不准确导致多备货，你赔。别讲人情，&lt;strong>VMI不是请客吃饭，是商业契约&lt;/strong>。&lt;/p>
+&lt;h3 id="4-那些年我踩过的vmi大坑附避坑指南">4. 那些年我踩过的VMI大坑（附避坑指南）&lt;/h3>
+&lt;p>坑1：库存所有权没厘清
+VMI模式下，库存到底算谁的？有些协议写着“货到VMI仓库，所有权转移”，结果货卖不出去，供应商不认账，你只能自己兜底。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 明确库存所有权转移节点。一般建议：货物从VMI仓库发货到你生产线时，所有权才转移。之前都是供应商的，他得负责。&lt;/p>
+&lt;p>坑2：退货机制不明确
+滞销品怎么办？有些供应商说“你退回来”，但运费谁出？时间窗口多久？没写清楚，最后扯皮。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 提前约定滞销品退货规则：比如超过3个月未动销，供应商必须原价收回；或者按比例折价处理。&lt;/p>
+&lt;p>坑3：数据共享变“毒药”
+你给了供应商数据，他转身卖给竞品怎么办？&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 签数据保密协议，明确违约责任。关键数据脱敏处理，比如只给品类维度，不给具体客户信息。&lt;/p>
+&lt;h3 id="5-vmi的未来从库存管理到协同共赢">5. VMI的未来：从“库存管理”到“协同共赢”&lt;/h3>
+&lt;p>别把VMI当成一个工具，它是一套&lt;strong>生态系统&lt;/strong>。&lt;/p>
+&lt;p>真正的VMI高手，玩的不是“压货”，而是“&lt;strong>预测+协同&lt;/strong>”。&lt;/p>
+&lt;ul>
+&lt;li>你和供应商共享销售预测，他提前备料，你降低缺货风险。&lt;/li>
+&lt;li>你和供应商共建安全库存模型，动态调整，不再拍脑袋。&lt;/li>
+&lt;li>你和供应商一起优化物流，比如用Milk Run（循环取货）降低运输成本。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最牛的公司，VMI做到极致：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率从6次/年飙升到24次/年&lt;/li>
+&lt;li>缺货率从12%降到0.5%&lt;/li>
+&lt;li>供应商的订单波动率下降了40%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这才是供应链的终极形态：不是零和博弈，而是共生共荣。&lt;/strong>&lt;/p></description></item><item><title>被环保局罚款50万，我才看懂绿色供应链</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain/</guid><description>&lt;p>上周一，我正蹲在仓库里盘库存，手机响了。&lt;/p>
+&lt;p>对方自报家门——“环保局”。&lt;/p>
+&lt;p>我以为是骚扰电话，直接挂了。5分钟后，老板电话进来，劈头盖脸一句：“你特么干了什么好事？环保局要来罚我们50万！”&lt;/p>
+&lt;p>我脑子嗡了。&lt;/p>
+&lt;p>原因？合作了三年的包装供应商，偷偷用了不合规的再生塑料，含重金属超标。客户那边刚做完绿色审计，顺藤摸瓜查到了我们。&lt;/p>
+&lt;p>&lt;strong>罚款50万，加上客户索赔和订单流失，直接亏损超过200万。&lt;/strong>&lt;/p>
+&lt;p>而那个供应商，早跑路了。&lt;/p>
+&lt;p>你说冤不冤？我一个干采购的，还得管环保？可现实就是——你不主动管，罚款会逼你管。&lt;/p>
+&lt;p>今天我就把踩坑踩出来的血泪经验摊开说。绿色供应链这玩意儿，没你想的那么虚，也没你想的那么贵。搞懂了，反而能省钱。&lt;/p>
+&lt;h3 id="绿色供应链不是贴绿标是挖地雷">绿色供应链不是“贴绿标”，是“挖地雷”&lt;/h3>
+&lt;p>很多同行觉得：绿色供应链 = 买个认证、贴个标签、显得公司有社会责任感。&lt;/p>
+&lt;p>&lt;strong>大错特错。&lt;/strong>&lt;/p>
+&lt;p>说白了，它就是个&lt;strong>风险控制+成本优化&lt;/strong>的工具。&lt;/p>
+&lt;p>你想想，你买来的原材料，如果上游生产是高污染、高能耗，哪天政策一收紧，直接停产。你的产线怎么办？货期怎么保？&lt;/p>
+&lt;p>还有客户的ESG（环境、社会和治理）审查。现在大厂招标，门槛第一项就是“供应商需通过绿色评估”。你没这个证，连入场券都拿不到。&lt;/p>
+&lt;p>我身边有个兄弟，去年为了拿一个新能源大客户的订单，被要求提供全链条碳足迹数据。他愣是带着团队查了两个月，发现光运输环节就超标30%。后来换了区域仓，运费降了，碳排放也达标了。&lt;/p>
+&lt;p>&lt;strong>所以，绿色供应链的本质，是给你的供应链做一次“全身CT”。&lt;/strong> 把那些隐藏的雷——不稳定的原材料、高能耗的工艺、高风险的运输——一个个挖出来。&lt;/p>
+&lt;p>挖出来，才能排雷。&lt;/p>
+&lt;h3 id="别一上来就搞碳中和先做这3件事">别一上来就搞“碳中和”，先做这3件事&lt;/h3>
+&lt;p>很多人一听“绿色”，脑袋里就飘过光伏板、碳交易、碳中和，觉得那是大公司烧钱的项目。&lt;/p>
+&lt;p>&lt;strong>别被唬住了。&lt;/strong> 我跟你讲，落地很简单，就三步。&lt;/p>
+&lt;p>&lt;strong>第一，给你的供应商“排排队”。&lt;/strong>&lt;/p>
+&lt;p>别只看价格。把供应商按“环保风险”分成三类：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>红牌：&lt;/strong> 没有环评、被通报过、用违禁原料的。&lt;strong>直接砍掉&lt;/strong>，别犹豫。留着就是定时炸弹。&lt;/li>
+&lt;li>&lt;strong>黄牌：&lt;/strong> 有基础资质但数据不透明的。&lt;strong>要求补资料&lt;/strong>，比如废水处理报告、能耗数据。三个月内不给，降级处理。&lt;/li>
+&lt;li>&lt;strong>绿牌：&lt;/strong> 已经通过ISO14001环境管理体系认证或类似标准的。&lt;strong>重点培养&lt;/strong>，给长单、给好账期。&lt;/li>
+&lt;/ul>
+&lt;p>我团队现在每个月做一次“供应商健康度评分”，环保项占30%。半年下来，红牌供应商从12家砍到0，客诉率反而降了15%。&lt;/p>
+&lt;p>&lt;strong>第二，优化你的“包装账”。&lt;/strong>&lt;/p>
+&lt;p>别小看包装。很多公司的包装成本占采购总额5%-8%，而且大部分是一次性、不可降解的。&lt;/p>
+&lt;p>换成可循环的？算一笔账：&lt;/p>
+&lt;p>以前买纸箱，一个2块，用一次就扔。一年用100万个，就是200万。&lt;/p>
+&lt;p>现在换成可折叠围板箱，一个150块，能用50次以上。单次成本3块，还省了处理垃圾的人工和费用。&lt;/p>
+&lt;p>&lt;strong>一年省下30万，顺便给客户发个“绿色包装改善报告”，客户满意度直接拉满。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第三，盯紧你的“运输里程”。&lt;/strong>&lt;/p>
+&lt;p>运输是排碳大户，也是省钱大户。多绕100公里，油费多花，碳排放也多。&lt;/p>
+&lt;p>怎么优化？&lt;strong>合并订单、减少零担、就近调仓。&lt;/strong>&lt;/p>
+&lt;p>我接手过一个项目，华东区的货非要全国仓发一次，然后转一圈。后来改成“区域就近发货”，直接把运输里程砍掉40%，运费降了20%，时效还快了半天。&lt;/p>
+&lt;p>你看，这些事跟“高大上”的碳中和有关系吗？有，但本质上，就是&lt;strong>算账&lt;/strong>。&lt;/p>
+&lt;h3 id="别怕绿色溢价那是你的护城河">别怕“绿色溢价”，那是你的护城河&lt;/h3>
+&lt;p>总有人说：“绿色供应商价格贵，我选便宜的不行吗？”&lt;/p>
+&lt;p>行。但你得想清楚，便宜背后是什么。&lt;/p>
+&lt;p>是&lt;strong>隐性成本&lt;/strong>。&lt;/p>
+&lt;p>我前面那个案例，便宜供应商跑路了，罚了50万，客户丢了200万。你算算，哪个更贵？&lt;/p>
+&lt;p>而且，绿色供应链做得好，本身就是&lt;strong>溢价能力&lt;/strong>。&lt;/p>
+&lt;p>我一个做服装的朋友，去年开始用有机棉和再生纤维，成本高了10%。但客户愿意多付15%的溢价，因为品牌需要讲“可持续故事”。今年还成了某国际大牌的指定供应商。&lt;/p>
+&lt;p>&lt;strong>说白了，当市场都在卷价格的时候，谁手里攥着“绿色认证”，谁就有定价权。&lt;/strong>&lt;/p>
+&lt;p>未来的竞争，不是比谁价格低，而是比谁&lt;strong>更合规、更靠谱&lt;/strong>。绿色供应链，就是你最硬的底牌。&lt;/p>
+&lt;h3 id="最后一句大实话">最后一句大实话&lt;/h3>
+&lt;p>别把绿色供应链当成“政治任务”或者“面子工程”。它就是一场&lt;strong>精明的风险对冲&lt;/strong>。&lt;/p>
+&lt;p>你每减少一次超标排放，就少一次被罚款的风险。
+你每选择一家合规供应商，就多一张客户的信任票。
+你每优化一个运输环节，就多一笔到手的利润。&lt;/p>
+&lt;p>&lt;strong>这年头，活下来不是本事，活得稳才是。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」，回复“绿色”领取《供应商环保风险评估清单》模板，我用血泪换来的，免费送你。&lt;/p></description></item><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
 &lt;p>他刚被老板骂了一顿，差点卷铺盖走人——新换的“优质供应商”货期拖了3个月，品质一塌糊涂，客户直接取消订单。&lt;/p>
 &lt;p>他委屈得要死：“我明明用了最严的评估表，价格低、交期快、资质齐全，怎么还能出这事？”&lt;/p>
 &lt;p>我叹了口气：“你踩的坑，我3年前也踩过，那次公司亏了300万。”&lt;/p>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>丰田模式 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%B8%B0%E7%94%B0%E6%A8%A1%E5%BC%8F/</link><description>Recent content in 丰田模式 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%B8%B0%E7%94%B0%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT搞了半年差点把产线饿死，我劝你别盲目学丰田</title><link>https://supplychain-tips.pages.dev/posts/jit-lessons-518/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-lessons-518/</guid><description>&lt;p>老板年初开了个会，PPT上放了张丰田工厂的照片，说&amp;quot;咱们也要做JIT，零库存，现金流好&amp;quot;。&lt;/p>
+&lt;p>三个月后产线因为缺料停了三次，销售被客户骂得不敢接电话，老板拍桌子问我&amp;quot;JIT怎么搞成这个鬼样子&amp;quot;。&lt;/p>
+&lt;p>兄弟，JIT这套东西，全球学丰田的没几个学明白的。不是你不努力，是你学的姿势没对。&lt;/p>
+&lt;h3 id="jit的底层逻辑不是压库存是压问题">JIT的底层逻辑不是压库存，是压问题&lt;/h3>
+&lt;p>很多人以为JIT = 库存为零。错。JIT是让你把水抽干，看河底的石头——每一颗石头就是一个问题，暴露它，解决它。&lt;/p>
+&lt;p>但我们的实际情况是：水一抽干，石头一大片。供应商交期不稳、质量忽高忽低、设备故障频发、工人换班交接乱……所有问题同时浮出水面，然后就——崩溃。&lt;/p>
+&lt;p>丰田能搞JIT，是因为人家的供应商半径基本在50公里内，交期稳定到小时级别，品质更是做到PPM级别。人家的&amp;quot;零库存&amp;quot;背后是几十年磨合出的生态。&lt;/p>
+&lt;p>你呢？供应商在隔壁省，走高速都要6个小时。你让人家日配？运费比货还贵。你让供应商备VMI库存？人家量小，根本不跟你玩。&lt;/p>
+&lt;h3 id="jit的第一道坎你的供应商配吗">JIT的第一道坎：你的供应商配吗？&lt;/h3>
+&lt;p>JIT对供应商的要求有四个：准时、保质、小批量、高频率。缺一个都不行。&lt;/p>
+&lt;p>如果你主力供应商的准交率连95%都不到，你做JIT就是在玩命。一次缺料停线，损失可能就是几十万的产值。&lt;/p>
+&lt;p>真正能做JIT的企业，供应商管理是这样的：提前半年选定战略供应商，每周开例会，共享生产排程数据，给供应商足够的备货准备时间。你给的不止是订单，是信息透明和长期承诺。&lt;/p>
+&lt;p>如果你现在连供应商的交期统计表都没有，别说JIT，先把基础数据拉起来再说。&lt;/p>
+&lt;h3 id="jit的第二道坎需求波动打脸">JIT的第二道坎：需求波动打脸&lt;/h3>
+&lt;p>丰田的四大生产车型每年的波动率非常低，排产计划基本是「拉式生产」，需求拉动产出。&lt;/p>
+&lt;p>但你做代工、做OEM、做电商——客户今天说加单明天说减单，你敢做零库存？&lt;/p>
+&lt;p>真实场景：客户说下个月要冲一波，你把料备好了，人招好了。临到月底客户一个电话说先缓一缓。你的库存和产能全砸手里了。&lt;/p>
+&lt;p>需求稳定的行业可以做「精益JIT」，需求波动大的行业更适合「有限库存 + 安全水位」的混合模式。不要被&amp;quot;零库存&amp;quot;三个字洗脑了。&lt;/p>
+&lt;h3 id="jit的第三道坎企业文化跟不上">JIT的第三道坎：企业文化跟不上&lt;/h3>
+&lt;p>丰田的JIT不只是生产模式，是一套完整的改善文化——全员参与、现场主义、持续优化。&lt;/p>
+&lt;p>你让仓库地板上画条线、岗位说明书上写&amp;quot;零库存目标&amp;quot;，以为就是JIT了。但车间操作工看到缺料了会不会主动拉安灯？仓库管理员发现库存差异了会不会主动上报？会不会有人说一句&amp;quot;不关我事&amp;quot;就继续干活？&lt;/p>
+&lt;p>JIT是一个系统工程，需要从上到下的承诺和执行。如果只有你一个人在推，老板只是开个会喊口号，最后变成你的年度OKR——那JIT就是你的一个PIP通知。&lt;/p>
+&lt;hr>
+&lt;p>JIT没有错，错的是照搬。如果你想做JIT，我给你三个建议：&lt;/p>
+&lt;ol>
+&lt;li>先别盯着零库存，把供应商准交率拉到98%以上再说&lt;/li>
+&lt;li>先别砍安全库存，把需求预测的准确率做到80%以上&lt;/li>
+&lt;li>先别让产线零库存，从单个品类开始试点&lt;/li>
+&lt;/ol>
+&lt;p>学丰田的精髓，不是学丰田的形式。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

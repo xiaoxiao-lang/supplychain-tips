@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</link><description>Recent content in 物流成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>跨境物流亏了30万，我才学会这5个野路子</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</guid><description>&lt;p>先说个扎心事儿。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</link><description>Recent content in 物流成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>运费涨了30%，真正该砍的不是运价</title><link>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</guid><description>&lt;p>做物流的人经常被老板灵魂拷问：为什么运费又涨了？&lt;/p>
+&lt;p>你解释油价涨了、司机工资涨了、过路费涨了——老板回你一句：那是你的事，我要的是成本降下来。&lt;/p>
+&lt;p>然后你就去跟车队砍价，砍到车队老板说再低就不跑了。运费确实降了5%，但服务质量也降了，迟到、破损、司机不配合——你相当于用自己的KPI换了一个烂服务。&lt;/p>
+&lt;h3 id="运费高八成是虚的">运费高，八成是&amp;quot;虚&amp;quot;的&lt;/h3>
+&lt;p>你知道一辆9米6货车，平均有效装载率是多少吗？&lt;/p>
+&lt;p>全国平均水平不到70%。换句话说，你每发10趟车，有3趟是在&amp;quot;运空气&amp;quot;。这30%的浪费不是运价的问题，是你调度和配载的问题。&lt;/p>
+&lt;p>还有空驶率：车送完货回来是空的，这趟返程油费、过路费、司机工资全白给了。全国干线运输的平均空驶率在35%左右。&lt;/p>
+&lt;p>&lt;strong>算笔账&lt;/strong>：一个月运费100万，装载率提10%、空驶率降10%，两个改善加起来就是大概15-18万的节省。这比你跟车队磨嘴皮子砍价砍出来的多得多。&lt;/p>
+&lt;h3 id="先砍这3个地方比砍运费管用">先砍这3个地方，比砍运费管用&lt;/h3>
+&lt;p>&lt;strong>1. 提高配载率&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>小订单拼车：别什么单都单独发一车，量不够就拼。&lt;/li>
+&lt;li>线路合并：同一个方向的多个小单，合并成一趟整车。&lt;/li>
+&lt;li>轻重搭配：重货和泡货混装，最大化利用车厢体积。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 优化线路，减少回头空车&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>干线做往返闭环：A到B有货，B到A也找货。哪怕返程价格低点，总比空车跑强。&lt;/li>
+&lt;li>用调车平台找回头车：满帮、货拉拉企业版，返程空车运费能有30%-50%的折扣。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 把运费结构拆开看&lt;/strong>&lt;/p>
+&lt;p>运费不只是每公里多少钱。还有装卸费、等候费、超时费、保险费——这些附加费往往占了总运费的15%-25%。&lt;/p>
+&lt;p>你盯着运价砍，供应商转头就在附加费上加回来。真正的做法是把运费结构拆开，每一项单独谈、单独考核。&lt;/p>
+&lt;hr>
+&lt;p>运输降本，核心不是&amp;quot;别人收我多少钱&amp;quot;，而是&amp;quot;我自己的运输效率有多高&amp;quot;。效率不提升，砍价只是朝三暮四的把戏。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运输成本砍掉25%，我只优化了这3个地方</title><link>https://supplychain-tips.pages.dev/posts/transport-cost-471/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-cost-471/</guid><description>&lt;p>运输费每个月单子堆成山，老板一翻报表：上个月又超了30%。你解释&amp;quot;油价涨了、司机少了、路堵了&amp;quot;，老板表情像吃了苍蝇——他觉得你在找借口，你觉得他不懂物流。&lt;/p>
+&lt;p>其实你们都对。运输成本就是涨了，但如果你还在用五年前的方法跑运输，那你确实也在烧冤枉钱。&lt;/p>
+&lt;p>我帮三家公司的运输部门做过优化，最猛的一家直接砍了25%的运费。没有裁员，没有换系统，就改了三个地方。&lt;/p>
+&lt;h3 id="1-路线不是画出来的是算出来的">1. 路线不是画出来的，是算出来的&lt;/h3>
+&lt;p>大多数调度员的排线逻辑：今天要送哪几个点，大概看一下地图，凭经验拉一条线。送到一半发现绕了远路，也只能硬着头皮跑完。&lt;/p>
+&lt;p>我给你一个真实数据：同样20个卸货点，经验派排的线路总长380公里，用路径优化软件跑一遍只要290公里。差出来的90公里是什么？是油费、工时、车辆折旧。&lt;/p>
+&lt;p>更关键的不是总里程，是&lt;strong>时效的确定性&lt;/strong>。经验派司机早上8点出发，下午4点到最后一站，客户已经下班了，于是多跑一趟。科学路线是8:00出发，14:30全送完，客户还能跟你多聊两句、顺带加个小单。&lt;/p>
+&lt;p>你不缺路线，你缺的是把路线当资源来管理的心态。&lt;/p>
+&lt;h3 id="2-装不满的车全是行驶的亏损">2. 装不满的车，全是行驶的亏损&lt;/h3>
+&lt;p>发一辆9米6的车，拉了半车的货——多出来的空间和吨位就是白烧的钱。&lt;/p>
+&lt;p>很多物流人说&amp;quot;客户就那么多货，我不可能每趟都装满&amp;quot;。对，但你可以并单。A客户下午两点要到，B客户下午三点要到，排在一起就是一趟车。&lt;/p>
+&lt;p>还可以做返程配载。空车回程是运输里最纯的亏损。建立返程货源池，哪怕接回程单便宜点，也比空车烧油强。&lt;/p>
+&lt;p>我曾帮一个做建材的朋友做配载优化：他把市区的5个建材城订单合并成3条固定班车线，每天早晚各发一趟。从之前随机拼单改到固定班线，车辆利用率从61%提到了89%。运费一个月省了12万。&lt;/p>
+&lt;h3 id="3-承运商不是越多越好是好用的就那么几家">3. 承运商不是越多越好，是好用的就那么几家&lt;/h3>
+&lt;p>手里养着十几家承运商，每次报价挑最便宜的。便宜的有便宜的后果：迟到、破损、态度差、临时涨价的全都碰过。&lt;/p>
+&lt;p>承运商管理有三个坑：&lt;/p>
+&lt;p>&lt;strong>一坑：只看单价不看履约。&lt;/strong> 便宜10%，但准点率只有70%。延误导致的客户投诉和二次配送成本，把你省的全吃了还不够。&lt;/p>
+&lt;p>&lt;strong>二坑：关系太松散。&lt;/strong> 今天用这家、明天换那家，承运商对你没有长期预期——他凭什么给你稳定服务？&lt;/p>
+&lt;p>&lt;strong>三坑：没有退出机制。&lt;/strong> 合作的线路半年没优化过，不知道哪家超时率高，哪家破损离谱。把数据拉出来，用准点率、破损率、投诉率三项硬指标排名，末位淘汰，干净利落。&lt;/p>
+&lt;p>我建议你只保留3-5家核心承运商，给稳定量、签长期框架，让他们把你当大客户来服务。剩下的做补充池，急单和增量才用。&lt;/p>
+&lt;hr>
+&lt;p>运输降本从来不是一锤子买卖。路线优化、配载提效、承运商结构优化——这三个事都是持续的细活。但你只要开始做，第一个月就见效。&lt;/p>
+&lt;p>别等老板拍桌子了才开始看运费报表。今晚把最近三个月的运输单子拉出来，对着上面三点一个一个过。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>物流费烧了200万，老板才懂这3招</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-control-tips/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-control-tips/</guid><description>&lt;p>&lt;strong>你是不是也觉得，物流成本就是一笔糊涂账？&lt;/strong>&lt;/p>
+&lt;p>每个月光看运费单就头大，一车货从A到B，报价从800到1500都有，到底哪个是实价？仓库里堆着货，租金一天比一天高，老板催你降本，你只能硬着头皮跟物流商砍价，砍下来几百块，回头货损、时效、服务全崩了。&lt;/p>
+&lt;p>算了，别装了。&lt;/p>
+&lt;p>我刚干物流那会儿，也这德行。运费单看都不看就签字，仓库租金涨了就涨了，反正不是我的钱。直到有一天，老板把我叫进办公室，拍着桌子说：“上个月物流费烧了200万，你告诉我钱去哪了？”&lt;/p>
+&lt;p>我哑口无言。&lt;/p>
+&lt;p>后来我花了3个月，把物流成本拆了个底朝天，才发现&lt;strong>月薪5千的专员和月薪5万的总监，差距就在这3招&lt;/strong>。今天就掏心窝子跟你聊聊，全是真金白银的教训。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-运费不是砍出来的是算出来的">1. 运费不是“砍”出来的，是“算”出来的&lt;/h3>
+&lt;p>我以前最傻的操作，就是跟物流商说：“你再便宜点，不然我换人了。”对方翻个白眼，给个“底价”，我还觉得自己牛逼。&lt;/p>
+&lt;p>&lt;strong>真相是：运费里80%的成本是死的，20%才是谈判空间。&lt;/strong>&lt;/p>
+&lt;p>死的部分是什么？油费、过路费、司机工资、车辆折旧。这些不是物流商想降就能降的。你非要砍，他只能在服务上偷工减料——车慢点、货损多点、甩货甩几次，最后亏的还不是你？&lt;/p>
+&lt;p>聪明的做法是：&lt;strong>把运费拆成“固定+浮动”结构。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>固定部分：&lt;/strong> 按公里数和车型算基本运费，这部分公开透明。&lt;/li>
+&lt;li>&lt;strong>浮动部分：&lt;/strong> 按时效、货值、安全率、签收率给绩效奖励。&lt;/li>
+&lt;/ul>
+&lt;p>比如，你发一车货，基本价1000。但如果物流商能做到2天到货、0货损、签收率100%，你就多给200奖金。这200块，换来的是稳定和安心，比你天天催单、处理客诉强多了。&lt;/p>
+&lt;p>&lt;strong>核心逻辑：把物流商从“卖运力”变成“卖服务”。&lt;/strong> 你省的不是运费，是管理成本。&lt;/p>
+&lt;p>&lt;strong>实操清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每月拉一次“运费明细表”，按线路、车型、重量、时效拆开。&lt;/li>
+&lt;li>对每条线路做“底价测算”，算出油费+过路费+工资的硬成本。&lt;/li>
+&lt;li>谈判时，只谈浮动部分，固定部分按市场价走。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-仓库租金贵那是你不会塞">2. 仓库租金贵？那是你“不会塞”&lt;/h3>
+&lt;p>仓库成本第二大坑，就是&lt;strong>租金按面积算，但你的货根本塞不满&lt;/strong>。&lt;/p>
+&lt;p>我见过太多公司，租了5000平的仓库，实际利用率不到60%。剩下的空间，要么堆着过期物料，要么空着当走廊。老板还觉得“万一旺季要用呢”。&lt;/p>
+&lt;p>&lt;strong>你醒醒，旺季才几天？淡季那几个月，你是在给房东打工。&lt;/strong>&lt;/p>
+&lt;p>真正的高手，&lt;strong>把仓库当“蜂窝”来塞&lt;/strong>。&lt;/p>
+&lt;p>怎么做？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>货架别买标准的，买定制的。&lt;/strong> 根据你的货品尺寸，把货架层高、深度调成“刚好塞下”。多一层，就能多放30%的货。&lt;/li>
+&lt;li>&lt;strong>动线别浪费。&lt;/strong> 很多仓库的通道宽得能开卡车，但你又不是在办车展。通道宽度降到2.5米，叉车能过就行，省出来的面积全用来放货。&lt;/li>
+&lt;li>&lt;strong>引入“共享仓”。&lt;/strong> 跟隔壁公司拼租一个仓库，共用装卸平台、办公区。租金对半砍，空间利用率翻倍。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个案例：&lt;/strong> 我有个做电商的朋友，原来租了3000平仓库，月租金12万。用了这3招后，直接缩到1800平，月租降到7万，货还比以前放得多。&lt;/p>
+&lt;p>&lt;strong>别把仓库当“资产”，它就是“成本”。&lt;/strong> 压得越低越好。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-包装成本是你最容易忽略的隐形黑洞">3. 包装成本，是你最容易忽略的“隐形黑洞”&lt;/h3>
+&lt;p>你以为包装就是纸箱加胶带？&lt;/p>
+&lt;p>错了。&lt;/p>
+&lt;p>我见过一家做小家电的公司，一个产品包装成本8块5，里面塞了3层泡沫、2层气泡膜、1个内衬。我问老板：“这玩意儿是寄到战场的吗？”老板说：“怕摔坏，赔不起。”&lt;/p>
+&lt;p>&lt;strong>但你知道吗？包装每增加1块钱，一年发10万单，就是10万块的纯利润没了。&lt;/strong>&lt;/p>
+&lt;p>更离谱的是，&lt;strong>很多包装是“过保护”&lt;/strong>——明明产品抗摔，你非加一堆缓冲材料。客户收到后，拆半天，体验还差。&lt;/p>
+&lt;p>&lt;strong>降包装成本的3个狠招：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>测试“最小安全包装”。&lt;/strong> 拿样品做跌落测试，从1米、1.5米、2米各摔几次，看哪个高度会坏。能扛2米的，就别用3米的保护。&lt;/li>
+&lt;li>&lt;strong>统一包装规格。&lt;/strong> 别每个产品都定制纸箱。用标准箱+填充物，一个箱子能装3种产品。采购量上去，单价直接砍半。&lt;/li>
+&lt;li>&lt;strong>用“空气柱”代替泡沫。&lt;/strong> 空气柱成本低、体积小、还环保。客户撕开就扔，不用拆半天。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>数据说话：&lt;/strong> 优化后，我那个朋友包装成本从8块5降到了3块2。一年10万单，省了53万。&lt;/p>
+&lt;p>记住：&lt;strong>包装的唯一作用是“让货安全到客户手里”，不是“让客户觉得你有钱”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说句大实话">最后说句大实话&lt;/h3>
+&lt;p>物流成本控制，从来不是“省钱”那么简单。&lt;/p>
+&lt;p>它是&lt;strong>把每一分钱都花在刀刃上&lt;/strong>——运费花在服务上，仓库花在利用率上，包装花在安全上。月薪5千的专员，只会跟物流商砍价；月薪5万的总监，会算整个链条的账。&lt;/p>
+&lt;p>别再让老板拍桌子了，从今天开始，把这3招用上。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>，我还会定期分享物流成本拆解模板、谈判话术、仓库布局图。想降本？别光靠嘴，靠方法。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>写在后面：&lt;/strong>
+如果你现在正被物流成本压得喘不过气，别慌。评论区留下你的行业和痛点，我挑几个典型问题，下篇文章专门解答。&lt;/p></description></item><item><title>跨境物流亏了30万，我才学会这5个野路子</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/</guid><description>&lt;p>先说个扎心事儿。&lt;/p>
 &lt;p>我有个朋友，去年做亚马逊FBA，发了票货到美国，结果被海关扣了整整两个月。货到不了仓，链接断货，排名一夜掉到谷底。最后清关出来，仓储费比货值还高。&lt;/p>
 &lt;p>他算了一笔账：&lt;strong>这一票，直接亏了30万。&lt;/strong>&lt;/p>
 &lt;p>当时他找我喝酒，红着眼睛问：&lt;strong>“跨境物流是不是玄学？”&lt;/strong>&lt;/p>

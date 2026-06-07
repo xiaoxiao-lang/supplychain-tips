@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万，我才学会算这笔账</title><link>https://supplychain-tips.pages.dev/posts/eoq-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-tips/</guid><description>&lt;p>哥们，先问你个扎心的问题：&lt;strong>你仓库里有多少货，是压了超过3个月还没动过的？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
+&lt;p>D是年需求，S是单次订货成本，H是单位持有成本。三个变量套进去，啪，最优订货量就出来了。&lt;/p>
+&lt;p>拿着算出来的数字跟领导汇报，领导听完说了句：&amp;ldquo;你算的这个数，供应商起订量都不够。&amp;rdquo;&lt;/p>
+&lt;p>我当时就懵了。&lt;/p>
+&lt;p>&lt;strong>教科书里的EOQ假设：你可以订任何数量。现实里的供应商：500件起订，少了不卖。&lt;/strong>&lt;/p>
+&lt;p>做了三年我才明白，EOQ最大的价值不是&amp;quot;算出那个完美的数字&amp;quot;，而是让你理解成本和批量之间的关系。至于具体订多少，那是另一回事。&lt;/p>
+&lt;h3 id="eoq假设了3个不存在的前提">EOQ假设了3个不存在的前提&lt;/h3>
+&lt;p>&lt;strong>假设一：需求是均匀的&lt;/strong>&lt;/p>
+&lt;p>EOQ假设每天的消耗量完全一致。但现实呢？月初订单量暴涨，月底清淡如水。促销季翻三倍，淡季打五折。&lt;/p>
+&lt;p>一个全年均匀消耗20000件的产品，EOQ告诉你每次订2000件。但你的实际需求可能是：1月5000件，2月500件，3月3000件。&lt;/p>
+&lt;p>你敢按EOQ来吗？&lt;/p>
+&lt;p>&lt;strong>假设二：订货成本是固定的&lt;/strong>&lt;/p>
+&lt;p>EOQ里S是常数。但现实中的订货成本包括：审批流程的人力、跟供应商沟通的电话费邮件费、入仓的质检费、系统录入的时间成本。&lt;/p>
+&lt;p>这些成本跟订购数量关系不大，跟&lt;strong>采购频次&lt;/strong>正相关。&lt;/p>
+&lt;p>而且在ERP环境下，下单的边际成本趋近于零。你是在系统里点一下，不是发电报。&lt;/p>
+&lt;p>&lt;strong>假设三：补货是瞬时的&lt;/strong>&lt;/p>
+&lt;p>EOQ假设下单后立刻到货。但你的供应商在深圳，你仓库在青岛。路上要走三天。&lt;/p>
+&lt;p>这三天里的消耗，EOQ完全没考虑。&lt;/p>
+&lt;h3 id="eoq真正有用的是它背后的权衡思维">EOQ真正有用的，是它背后的&amp;quot;权衡思维&amp;quot;&lt;/h3>
+&lt;p>虽然EOQ公式用不上，但它教给你的思维方式是无价的。&lt;/p>
+&lt;p>订货量太大 → 库存持有成本高，仓库爆满，资金压在货上。
+订货量太小 → 订货次数多，人力消耗大，每一次都有断货风险。&lt;/p>
+&lt;p>&lt;strong>总成本 = 订货成本 + 持有成本。最优订货量就是两条成本曲线的交点。&lt;/strong>&lt;/p>
+&lt;p>这套&amp;quot;权衡&amp;quot;的逻辑，用在供应链管理的任何地方都对：&lt;/p>
+&lt;ul>
+&lt;li>集中采购 vs 分散采购，权衡的是价格优势和响应速度&lt;/li>
+&lt;li>自建仓库 vs 外包3PL，权衡的是控制力和灵活性&lt;/li>
+&lt;li>空运 vs 海运，权衡的是时效和运费&lt;/li>
+&lt;/ul>
+&lt;p>你不需要算出精确的EOQ数字。你只需要搞清楚：&lt;strong>每增加一个单位，多花的钱和多省的钱，哪个大？&lt;/strong>&lt;/p>
+&lt;p>这个思维，比任何公式都值钱。&lt;/p>
+&lt;h3 id="现实中替代eoq的4个实用方法">现实中替代EOQ的4个实用方法&lt;/h3>
+&lt;p>既然EOQ大部分时候用不了，那现实中怎么办？&lt;/p>
+&lt;p>&lt;strong>方法一：直接跟供应商要经济批量&lt;/strong>&lt;/p>
+&lt;p>供应商对自己的生产成本最清楚。他们的&amp;quot;经济批量&amp;quot;往往就是换产成本最低的那个批量。&lt;/p>
+&lt;p>你问：&amp;ldquo;你们的起订量是多少？满一车是多少？满一条产线最低跑多少？&amp;rdquo;&lt;/p>
+&lt;p>这些数字比EOQ实用得多。&lt;/p>
+&lt;p>&lt;strong>方法二：用ROP（再订货点）替代&lt;/strong>&lt;/p>
+&lt;p>别纠结每次订多少了。先搞清楚什么时候该下单。&lt;/p>
+&lt;p>ROP = 日均消耗 × 补货提前期 + 安全库存。&lt;/p>
+&lt;p>到了这个线就下单。至于订多少——订到你下一次下单前不会断货就行。&lt;/p>
+&lt;p>&lt;strong>方法三：动态批量法&lt;/strong>&lt;/p>
+&lt;p>Silver-Meal、Least Unit Cost、Part-Period Balancing——这些算法考虑的是&amp;quot;未来几期的需求叠加起来，一次性订多少最划算&amp;quot;。&lt;/p>
+&lt;p>比EOQ灵活，比手工算靠谱。Excel一个公式就能搞定。&lt;/p>
+&lt;p>&lt;strong>方法四：如果你SKU上千，别算了&lt;/strong>&lt;/p>
+&lt;p>SKU超过500的，批量优化不如&lt;strong>品类管理&lt;/strong>有效。&lt;/p>
+&lt;p>把SKU按价值-波动性做四象限分类，高价值高波动的重点管，低价值低波动的设个自动补货规则就行了。&lt;/p>
+&lt;p>90%的精力花在10%的SKU上，这才是聪明人的做法。&lt;/p>
+&lt;hr>
+&lt;p>EOQ公式就像驾照科目一——考试要考，但上路之后没人照着开。&lt;/p></description></item><item><title>算了一晚上EOQ公式，老板说'你在自嗨'</title><link>https://supplychain-tips.pages.dev/posts/eoq-myths-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-myths-625/</guid><description>&lt;p>你大学学供应链的第一课，大概率就是EOQ（经济订货量）。那套公式背得滚瓜烂熟：√(2DS/H)，需求D、订货成本S、持有成本H，开根号，得出一个&amp;quot;最优订货量&amp;quot;。&lt;/p>
+&lt;p>看起来很美，对吧？&lt;/p>
+&lt;p>然后你进了职场，兴冲冲地拿这个公式去算你们公司的订货策略，算了一晚上，Excel表格做得漂漂亮亮，第二天兴冲冲地拿给老板看。&lt;/p>
+&lt;p>老板只说了一句话：&amp;ldquo;你在自嗨。&amp;rdquo;&lt;/p>
+&lt;p>别不服气。我今天就是把这句话拆开来讲——&lt;strong>EOQ公式本身没错，错的是你拿它当真理用&lt;/strong>。&lt;/p>
+&lt;h2 id="eoq的3个致命假设现实中全崩了">EOQ的3个致命假设，现实中全崩了&lt;/h2>
+&lt;p>EOQ公式成立的前提，有三条：&lt;/p>
+&lt;p>&lt;strong>假设一：需求稳定且已知。&lt;/strong>&lt;/p>
+&lt;p>教科书上说&amp;quot;年需求量D已知且恒定&amp;quot;。你信吗？我干了十几年供应链，没见过哪家公司的需求是&amp;quot;恒定&amp;quot;的。旺季能翻三倍，淡季能归零，促销活动一来，需求直接炸锅。你说D是多少？取过去12个月平均值？那你知道下个月会不会突然爆单？&lt;/p>
+&lt;p>&lt;strong>假设二：提前期固定不变。&lt;/strong>&lt;/p>
+&lt;p>公式是假设供应商交货时间是确定的。现实呢？说好15天交，结果供应商产线出问题，拖到30天；或者说好30天，结果供应商正好有现货，5天就到了。提前期是个分布，不是个数字。你用固定值算EOQ，本身就是错的。&lt;/p>
+&lt;p>&lt;strong>假设三：单价不变，没有批量折扣。&lt;/strong>&lt;/p>
+&lt;p>EOQ假设unit cost是常量。但现实是——你订100个和订1000个，供应商给的单价能差20%。这时候你还死磕EOQ算出来的&amp;quot;最优量&amp;quot;，供应商笑都不笑你。&lt;/p>
+&lt;p>这三条假设，在现实供应链里&lt;strong>一条都不成立&lt;/strong>。你拿一个建立在虚假前提上的公式去指导实际运营，不翻车才怪。&lt;/p>
+&lt;h2 id="翻车案例某工厂用eoq优化后反而缺料停线">翻车案例：某工厂用EOQ优化后反而缺料停线&lt;/h2>
+&lt;p>讲个真事。&lt;/p>
+&lt;p>2023年，我接触一家做汽车零部件的工厂，生产计划员小陈（化名）是供应链专业毕业的，对EOQ情有独钟。他花了一周时间，把公司200多个SKU全部用EOQ公式算了一遍，得出结论：平均订货量可以从目前的月订改为季订，这样订货成本分摊下来更优。&lt;/p>
+&lt;p>他写了一份20页的PPT，向厂长汇报，说这样一年能省37万的订货成本和库存持有成本。&lt;/p>
+&lt;p>厂长拍板：干！&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>实施第一个月，一切正常。第二个月，某核心原材料供应商因为环保检查停产了三周，提前期从15天变成不确定。按EOQ算出来的季订量，安全库存根本扛不住这个波动。&lt;/p>
+&lt;p>第三个月，两条产线因为缺料停了4天。停线损失一天18万，4天就是72万。&lt;/p>
+&lt;p>&lt;strong>省下来的37万还没捂热，赔出去72万。&lt;/strong>&lt;/p>
+&lt;p>小陈后来跟我说：&amp;ldquo;我以为EOQ算出来就是对的，没考虑到供应商会掉链子。&amp;rdquo;&lt;/p>
+&lt;p>这就是典型的&amp;quot;公式自嗨&amp;quot;——&lt;strong>把模型当真理，把假设当现实&lt;/strong>。&lt;/p>
+&lt;h2 id="静态eoq是垃圾动态eoq才是正道">静态EOQ是垃圾，动态EOQ才是正道&lt;/h2>
+&lt;p>那EOQ是不是完全没用？也不是。&lt;/p>
+&lt;p>&lt;strong>EOQ的价值不在于那个数字，而在于它提醒你&amp;quot;订货频率和订货量之间有权衡关系&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>但要用好它，必须把静态EOQ升级为动态EOQ。怎么做？&lt;/p>
+&lt;h3 id="第一步把需求从常数变成分布">第一步：把需求从&amp;quot;常数&amp;quot;变成&amp;quot;分布&amp;quot;&lt;/h3>
+&lt;p>不要用一个固定值D，而是用&lt;strong>需求分布&lt;/strong>来算。取过去12个月（或24个月）的需求数据，算出平均值μ和标准差σ。然后用&lt;strong>服务水平目标&lt;/strong>（比如95%不缺货）来反推需要多少安全库存。&lt;/p>
+&lt;p>动态EOQ的公式变成：&lt;/p>
+&lt;blockquote>
+&lt;p>订货量 = √(2DS/H) × 需求波动修正系数&lt;/p>
+&lt;/blockquote>
+&lt;p>这个&amp;quot;修正系数&amp;quot;根据你们行业的需求波动特性来定。快消品可能1.2-1.5，工业品可能2-3。&lt;/p>
+&lt;h3 id="第二步把提前期从固定值变成带标准差的变量">第二步：把提前期从&amp;quot;固定值&amp;quot;变成&amp;quot;带标准差的变量&amp;quot;&lt;/h3>
+&lt;p>提前期L不要用一个数字，而是记录过去12个月每次实际交货的提前期，算出平均值和标准差。&lt;/p>
+&lt;p>如果供应商平均提前期20天，标准差8天，那你做库存计划的时候，必须按&lt;strong>20 + Z×8&lt;/strong>来算（Z是服务水平对应的安全系数）。&lt;/p>
+&lt;h3 id="第三步把单价折扣曲线加进来">第三步：把单价折扣曲线加进来&lt;/h3>
+&lt;p>供应商通常会有阶梯定价：&lt;/p>
+&lt;ul>
+&lt;li>订100个以下：单价10元&lt;/li>
+&lt;li>订100-500个：单价9.5元&lt;/li>
+&lt;li>订500个以上：单价8.8元&lt;/li>
+&lt;/ul>
+&lt;p>这时候要算的不是简单的EOQ，而是&lt;strong>EPQ（Economic Production Quantity）或者考虑批量折扣的总成本最小化模型&lt;/strong>。&lt;/p>
+&lt;p>用Excel的&amp;quot;规划求解&amp;quot;或者Python写个简单脚本，把订货成本、持有成本、采购成本三者加起来，找总成本最低的点。&lt;/p>
+&lt;h2 id="真正的库存决策数据经验供应商协同">真正的库存决策：数据+经验+供应商协同&lt;/h2>
+&lt;p>说到底，&lt;strong>库存决策不是算出来的，是平衡出来的&lt;/strong>。&lt;/p>
+&lt;p>我见过最厉害的库存计划员，Excel里从来不套EOQ公式，但他管的那几百个SKU，库存周转率常年比行业平均高30%，缺货率还更低。&lt;/p>
+&lt;p>他的方法是什么？&lt;/p>
+&lt;p>&lt;strong>第一，看数据，但不迷信数据。&lt;/strong> 他知道哪些SKU需求稳、哪些波动大；哪些供应商靠谱、哪些经常掉链子。这些数据他会量化，但不会机械地套公式。&lt;/p>
+&lt;p>&lt;strong>第二，跟销售聊，跟供应商聊。&lt;/strong> 销售那边有没有大促？供应商那边最近产线稳不稳定？这些信息比任何公式都管用。&lt;/p>
+&lt;p>&lt;strong>第三，分级管理。&lt;/strong> A类物料（贡献80%金额的20%SKU）用动态模型精细算；C类物料直接用简单规则（比如固定周期订货），没必要浪费时间在低价值物料上精雕细琢。&lt;/p>
+&lt;h2 id="eoq什么时候能用">EOQ什么时候能用？&lt;/h2>
+&lt;p>也不是完全否定EOQ。以下场景，EOQ公式还是有参考价值的：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>需求相对稳定的MRO物料&lt;/strong>（螺丝、标准件、办公用品），用EOQ算个基准量，然后再人为调整。&lt;/li>
+&lt;li>&lt;strong>做&amp;quot;大致估算&amp;quot;的时候&lt;/strong>，EOQ给你一个数量级的概念，帮你判断&amp;quot;一次订一个月还是三个月&amp;quot;。&lt;/li>
+&lt;li>&lt;strong>跟老板汇报的时候&lt;/strong>，用EOQ作为&amp;quot;理论支撑&amp;quot;，但决策必须基于实际情况调整——&lt;strong>公式只是起点，不是终点&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>供应链没有银弹。EOQ、安全库存公式、再订货点模型——这些都是工具，不是答案。&lt;/p></description></item><item><title>库存压了300万，我才学会算这笔账</title><link>https://supplychain-tips.pages.dev/posts/eoq-tips/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-tips/</guid><description>&lt;p>哥们，先问你个扎心的问题：&lt;strong>你仓库里有多少货，是压了超过3个月还没动过的？&lt;/strong>&lt;/p>
 &lt;p>我猜，你肯定脑瓜子嗡嗡的。上个月我被老板骂得狗血淋头，原因很简单：&lt;strong>库存压了300万现金，周转慢得像头老牛。&lt;/strong> 老板拍着桌子吼：“你他妈是搞采购还是搞收藏？”&lt;/p>
 &lt;p>我当时那个憋屈啊。我心想，我每次都尽量&lt;strong>批量买&lt;/strong>，图的就是单价便宜、运费省，咋还成了罪人？&lt;/p>
 &lt;p>后来，一个搞了15年供应链的老炮儿点醒了我。他叼着烟，慢悠悠地说：“你他妈这是‘贪小便宜吃大亏’的典型。&lt;strong>买得多不等于赚得多，你得算那个‘经济订货量’&lt;/strong>。”&lt;/p>

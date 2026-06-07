@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链数字化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96/</link><description>Recent content in 供应链数字化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>花50万上AGV，仓库效率反降了30%：自动化不是买设备</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</guid><description>&lt;p>去年有个朋友，老板批了50万预算上AGV，他兴奋得不行，选了市面上最火的一款，恨不能第二天就上线。&lt;/p>
+&lt;p>结果三个月后，仓库效率降了30%，拣货员天天骂，说机器占地方、跑得慢、动不动卡死。老板脸都黑了。&lt;/p>
+&lt;p>这不是AGV的问题，是你把自动化当成了买家电。&lt;/p>
+&lt;h3 id="先算账别先看设备">先算账，别先看设备&lt;/h3>
+&lt;p>大部分人上自动化的第一反应是&amp;quot;市面上有什么&amp;quot;。这是最大的坑。&lt;/p>
+&lt;p>你应该先问：我的仓库瓶颈在哪？是拣货慢？是搬运耗人？还是上架效率低？&lt;/p>
+&lt;p>一个做快消的朋友，仓库3000平，老板想上自动分拣。我去看了以后说：你先把货位重新规划一遍，把高周转SKU放前区，至少能提20%效率。&lt;/p>
+&lt;p>结果他花5000块重排货架，拣货效率提了35%。50万的自动分拣机，暂时不用买了。&lt;/p>
+&lt;h3 id="流程不乱别动设备">流程不乱，别动设备&lt;/h3>
+&lt;p>见过太多人：仓库流程一塌糊涂，盘点都对不上，就想着买套WMS加搬运机器人一步到位。&lt;/p>
+&lt;p>这叫用机器掩盖管理问题，最后机器背锅。&lt;/p>
+&lt;p>自动化前必须先做三件事：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>把流程跑顺&lt;/strong>。拣货路径、上架逻辑、补货规则，这些靠人就能优化的事，别等机器来。&lt;/li>
+&lt;li>&lt;strong>把数据搞准&lt;/strong>。库存准确率不到98%，上什么自动化都是白搭。机器不会猜，你给它错数据，它给你错结果。&lt;/li>
+&lt;li>&lt;strong>把人培训好&lt;/strong>。一线员工不会用、不想用，再好的设备也是废铁。&lt;/li>
+&lt;/ol>
+&lt;h3 id="选设备要看roi不是看ppt">选设备要看ROI，不是看PPT&lt;/h3>
+&lt;p>供应商给你看的多漂亮都没用，你要会算账：&lt;/p>
+&lt;p>&lt;strong>单件处理成本&lt;/strong> = (设备折旧 + 运维 + 能耗) / 日均处理量&lt;/p>
+&lt;p>如果自动化后的单件处理成本比人工还高，那就别上。自动化是为了降本，不是为了装逼。&lt;/p>
+&lt;p>有个做电商仓储的哥们，算完账发现，半自动传送带+人工打包，综合成本比全自动打包机还低15%。果断选了前者。&lt;/p>
+&lt;h3 id="渐进式别一步到位">渐进式，别一步到位&lt;/h3>
+&lt;p>我从无数案例里学到一个铁律：&lt;strong>自动化要从&amp;quot;点&amp;quot;到&amp;quot;线&amp;quot;再到&amp;quot;面&amp;quot;&lt;/strong>。&lt;/p>
+&lt;p>先挑一个环节试点，比如包装环节上个半自动化，跑两个月看效果。效果好再扩展到拣货，拣货好了再连到搬运。&lt;/p>
+&lt;p>一步到位上全自动的结果，十有八九是花了大价钱，买了一堆互相打架的设备。&lt;/p>
+&lt;hr>
+&lt;p>仓储自动化的本质是&amp;quot;用技术放大管理&amp;quot;，不是&amp;quot;用技术替代管理&amp;quot;。你的管理水平到哪里，自动化能帮你的上限就在哪里。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

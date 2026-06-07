@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>签了300份合同才懂：这4个坑专坑采购人</title><link>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</guid><description>&lt;p>先讲个事儿。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>300份合同才悟出来的坑：采购合同这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</guid><description>&lt;p>入行第一年，采购合同对我来说就是一张纸。老板让签就签，供应商发来就回传，注意力全在单价和交期两个数上。至于后面密密麻麻的那些条款——没看过，也看不懂。&lt;/p>
+&lt;p>直到有一次，供应商把一批货的规格和合同少了两个参数，导致整批物料不能用。我去找人家索赔，人家把合同翻到第17页，指着免责条款说&amp;quot;这条写了，参数差异以我方出厂标准为准&amp;quot;。&lt;/p>
+&lt;p>我当时脑子就炸了。签了300份合同才明白：合同的关键不在签的时候多快，而在出问题的时候能不能保你的命。&lt;/p>
+&lt;h3 id="第一条验收标准模糊就是给对方送钱">第一条：验收标准——模糊就是给对方送钱&lt;/h3>
+&lt;p>看过多少份合同里的验收条款写&amp;quot;按国家标准执行&amp;quot;？国家标准有一大堆，具体哪一条？检验方法是什么？抽样比例是多少？谁请第三方机构？&lt;/p>
+&lt;p>真正能用的验收条款至少包括：&lt;/p>
+&lt;ul>
+&lt;li>引用文件：GB/T XXXX 哪个编号哪个版本&lt;/li>
+&lt;li>关键指标：尺寸、材质、性能参数的具体公差范围&lt;/li>
+&lt;li>抽样方案：来料抽检还是全检，AQL值是多少&lt;/li>
+&lt;li>检测费用：初次检测谁掏钱，复检谁出&lt;/li>
+&lt;/ul>
+&lt;p>写不清楚，就是给供应商留了&amp;quot;合理偏差&amp;quot;的解释空间。别懒这几行字，出了问题赔几十万。&lt;/p>
+&lt;h3 id="第二条违约金协商解决等于没有">第二条：违约金——&amp;ldquo;协商解决&amp;quot;等于没有&lt;/h3>
+&lt;p>&amp;ldquo;如有违约，双方协商解决。&amp;ldquo;这句你签过多少次？真出了事，对方说&amp;quot;协商就是不接受你的索赔要求&amp;rdquo;，你一点脾气没有。&lt;/p>
+&lt;p>违约金条款要写到三个关键点上：&lt;/p>
+&lt;ul>
+&lt;li>延期交货：每延迟一天按合同总额的X%赔偿，上限Y%&lt;/li>
+&lt;li>质量不合格：退换货期限、返修费用归属、连带损失赔偿&lt;/li>
+&lt;li>单方终止：对方违约给你造成的采购差价、紧急调货成本归谁&lt;/li>
+&lt;/ul>
+&lt;p>要写得具体。合同法保护具体约定的条款，不保护模糊的&amp;quot;协商解决&amp;rdquo;。&lt;/p>
+&lt;h3 id="第三条知识产权你以为你买了其实你没买">第三条：知识产权——你以为你买了，其实你没买&lt;/h3>
+&lt;p>找供应商定制开发一套夹具，付了几十万。年底想换供应商，原供应商说：图纸和方案是我们的知识产权，你不能给下家。&lt;/p>
+&lt;p>你突然发现，你买的是实物，不是技术。所有的定制方案、工艺参数、图纸版权，合同里没有权利归属条款的话，默认归承制方。&lt;/p>
+&lt;p>如果你是来图加工，定制品的技术权一定要写清楚：&amp;ldquo;本项目产生的所有技术成果与知识产权归买方所有&amp;rdquo;。&lt;/p>
+&lt;h3 id="第四条保密条款你报价单满天飞">第四条：保密条款——你报价单满天飞&lt;/h3>
+&lt;p>供应商拿着你的BOM清单和用量数据到处找竞品报价，反过来跟你抬价。你气不气？&lt;/p>
+&lt;p>保密条款不只保护你公司的商业机密，也保护你的采购策略。&lt;/p>
+&lt;p>把物料清单、预估用量、价格体系都列进保密范围。违约直接按合同金额的X%赔，不是闹着玩的。&lt;/p>
+&lt;h3 id="第五条不可抗力对方甩锅的第一选择">第五条：不可抗力——对方甩锅的第一选择&lt;/h3>
+&lt;p>口罩期间这句话被用泛滥了。&amp;ldquo;受疫情影响不能交货&amp;rdquo;——但到底什么算不可抗力？台风封路算不算？供应商自己的供应商交不了货算不算？工人辞职了算不算？&lt;/p>
+&lt;p>你得把不可抗力的范围写死：自然灾害、政府行为可以算。但供应商的员工流失、内部管理问题、上游厂商违约——这些不是你的不可抗力，是他们的经营风险。&lt;/p>
+&lt;hr>
+&lt;p>这些坑我一个一个踩过来的，疼够了才记住。你做采购，每天面对的是博弈场，合同是你手里唯一的盾。别被法务说一句&amp;quot;这是标准模板&amp;quot;就放了。模板是别人的，风险是你的。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>签了300份合同才懂：这4个坑专坑采购人</title><link>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/</guid><description>&lt;p>先讲个事儿。&lt;/p>
 &lt;p>上周，我一个做采购的朋友小张，差点被一份合同整到离职。&lt;/p>
 &lt;p>事情是这样的：他跟供应商签了个年度框架协议，价格谈得特漂亮，比市场价低了15%。老板还表扬了他一顿，说他“会来事”。&lt;/p>
 &lt;p>结果呢？&lt;/p>

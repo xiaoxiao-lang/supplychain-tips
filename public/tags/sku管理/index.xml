@@ -1,4 +1,251 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/</link><description>Recent content in SKU管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才懂：SKU管理就4个字</title><link>https://supplychain-tips.pages.dev/posts/sku-management-tips/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-tips/</guid><description>&lt;p>兄弟们，聊个扎心话题。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/</link><description>Recent content in SKU管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</guid><description>&lt;p>去年我们公司做了一次SKU清理。&lt;/p>
+&lt;p>仓库主管把报表打出来给我看：2000多个SKU，其中&lt;strong>64%的产品在过去一年只卖了不到20件&lt;/strong>。&lt;/p>
+&lt;p>而这些SKU占了仓库面积的40%，占用了上百万的库存资金，每年产生十几万的仓储费用。&lt;/p>
+&lt;p>问题是：老板舍不得砍。他的逻辑是——&amp;ldquo;这个客户偶尔会要，那个产品虽然卖得少但利润高&amp;rdquo;。&lt;/p>
+&lt;p>我花了两个月时间说服他。砍完之后，库存周转率翻了一倍，仓库面积空出来三分之一直接退租了。&lt;/p>
+&lt;p>&lt;strong>这就是SKU管理的真相：80%的麻烦来自你舍不得删的那20%产品。&lt;/strong>&lt;/p>
+&lt;h3 id="为什么你的sku会疯涨">为什么你的SKU会疯涨？&lt;/h3>
+&lt;p>SKU增长就像一个温水煮青蛙的过程，没人察觉，但一直在恶化。&lt;/p>
+&lt;p>&lt;strong>源头一：销售为了拿单，什么都敢承诺&lt;/strong>&lt;/p>
+&lt;p>销售跟客户说：&amp;ldquo;没问题，我们可以定制。&amp;ldquo;然后一个新的SKU就诞生了。&lt;/p>
+&lt;p>一年下来，销售拿了20个定制单，你的SKU就多了20个。每个销量都不大，但每个都得备货。&lt;/p>
+&lt;p>&lt;strong>源头二：研发迭代不留后路&lt;/strong>&lt;/p>
+&lt;p>新产品上线，老产品不下线。三年下来，你同时在卖三代产品，每代又有三四个规格。&lt;/p>
+&lt;p>客户问&amp;quot;老款还有吗&amp;rdquo;，你说&amp;quot;有&amp;rdquo;，于是那个该退市的产品继续占着库位。&lt;/p>
+&lt;p>&lt;strong>源头三：周期性产品的长尾效应&lt;/strong>&lt;/p>
+&lt;p>节日限定款、季节性产品、活动赠品——卖完那一波之后，剩下的库存就成了永久居民。&lt;/p>
+&lt;p>不做一次性清仓，它们就会在你的报表上躺好几年。&lt;/p>
+&lt;h3 id="砍sku的4步法别用感觉要用数据">砍SKU的4步法，别用感觉要用数据&lt;/h3>
+&lt;p>&lt;strong>第一步：拉一张SKU健康度报表&lt;/strong>&lt;/p>
+&lt;p>每个SKU算三个指标：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销量贡献率&lt;/strong> = 该SKU销量 / 总销量&lt;/li>
+&lt;li>&lt;strong>利润贡献率&lt;/strong> = 该SKU毛利 / 总毛利&lt;/li>
+&lt;li>&lt;strong>库存占用率&lt;/strong> = 该SKU库存金额 / 总库存&lt;/li>
+&lt;/ul>
+&lt;p>把三个数排出来，你会发现一个残酷的事实：排名后50%的SKU，加起来贡献的利润不到总利润的5%。&lt;/p>
+&lt;p>&lt;strong>第二步：做四象限分类&lt;/strong>&lt;/p>
+&lt;p>按&amp;quot;销量贡献 vs 利润贡献&amp;quot;画一个矩阵：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>高利润&lt;/th>
+ &lt;th>低利润&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>高销量&lt;/strong>&lt;/td>
+ &lt;td>⭐ 核心款：重点养&lt;/td>
+ &lt;td>⚡ 引流款：保留但控库存&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>低销量&lt;/strong>&lt;/td>
+ &lt;td>💰 利润款：精选保留&lt;/td>
+ &lt;td>🗑️ 僵尸款：直接砍&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>大部分SKU会落在右下角——低销量低利润。这些就是你要砍的对象。&lt;/p>
+&lt;p>&lt;strong>第三步：逐个检查&amp;quot;能不能用别的替代&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每个待砍的SKU，问三个问题：&lt;/p>
+&lt;ul>
+&lt;li>有没有同品类的高销量SKU可以替代？&lt;/li>
+&lt;li>客户能不能接受替代品？&lt;/li>
+&lt;li>砍掉后，对核心客户的订单影响有多大？&lt;/li>
+&lt;/ul>
+&lt;p>如果三个问题答案都是&amp;quot;可以&amp;quot;，直接动手。&lt;/p>
+&lt;p>&lt;strong>第四步：给一个过渡期，但定死截止日期&lt;/strong>&lt;/p>
+&lt;p>别一次性全砍，给销售和客户一个缓冲。比如：三个月后停产，期间只清库存不补货。&lt;/p>
+&lt;p>但截止日期一定要定死，不能一拖再拖。否则三个月后又回到原点。&lt;/p>
+&lt;h3 id="砍sku的三个别">砍SKU的三个&amp;quot;别&amp;quot;&lt;/h3>
+&lt;p>&lt;strong>别用&amp;quot;这个客户很重要&amp;quot;当理由&lt;/strong>&lt;/p>
+&lt;p>每个SKU都绑着一个&amp;quot;重要客户&amp;quot;。但你把所有&amp;quot;重要客户&amp;quot;的SKU加在一起，会发现覆盖了80%的SKU。&lt;/p>
+&lt;p>真正重要的客户，往往买的是你的核心款，不是那些定制款。&lt;/p>
+&lt;p>&lt;strong>别用&amp;quot;万一以后要用&amp;quot;当理由&lt;/strong>&lt;/p>
+&lt;p>库存管理中最贵的四个字就是&amp;quot;以防万一&amp;quot;。为了这个&amp;quot;万一&amp;quot;，你付出了确定的仓储成本、资金占用、过期损耗。&lt;/p>
+&lt;p>&lt;strong>别只用销量，还得看利润&lt;/strong>&lt;/p></description></item><item><title>仓库SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-management-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-625/</guid><description>&lt;p>你走进仓库，看到货架上密密麻麻的SKU，有没有一种莫名的安全感？&lt;/p>
+&lt;p>&amp;ldquo;我们的产品种类多，客户选择多，这是竞争力。&amp;quot;——销售是这么跟你说的。&lt;/p>
+&lt;p>但财务拿成本数据给你看的时候，你就不这么想了。&lt;/p>
+&lt;p>&lt;strong>每一个SKU，都是压在供应链身上的三座大山：库存成本、仓储成本、管理成本。&lt;/strong>&lt;/p>
+&lt;p>SKU不是越多越好。SKU膨胀，是仓库的慢性毒药。&lt;/p>
+&lt;h2 id="sku膨胀的根源没人敢砍">SKU膨胀的根源：没人敢砍&lt;/h2>
+&lt;p>SKU为什么越涨越多？根本原因是&lt;strong>没有人真正对SKU的生命周期负责&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>销售端&lt;/strong>：&amp;ldquo;多一个SKU就多一份生意机会。&amp;ldquo;他们只管上新，不管清退。每个新品上市，销售都能给出&amp;quot;这个有潜力&amp;quot;的理由。&lt;/p>
+&lt;p>&lt;strong>采购端&lt;/strong>：&amp;ldquo;多备几个规格，以防万一。&amp;ldquo;采购图省事，一次多订几个SKU，反正不用自己掏钱压库存。&lt;/p>
+&lt;p>&lt;strong>管理层&lt;/strong>：&amp;ldquo;先留着吧，万一以后有用呢？&amp;ldquo;没有人愿意做&amp;quot;砍SKU&amp;quot;这个坏人，因为砍掉容易，万一哪天真有订单呢？&lt;/p>
+&lt;p>结果就是：&lt;strong>SKU只增不减，仓库越来越像博物馆。&lt;/strong>&lt;/p>
+&lt;p>我见过最夸张的一家公司，仓库里有&lt;strong>37%的SKU连续90天零销量&lt;/strong>，但这些SKU占用了&lt;strong>28%的仓储面积和18%的库存资金&lt;/strong>。&lt;/p>
+&lt;p>这不是仓库，这是坟墓。&lt;/p>
+&lt;h2 id="abc-xyz分类双维交叉才是真分类">ABC-XYZ分类：双维交叉才是真分类&lt;/h2>
+&lt;p>砍SKU不能拍脑袋。你需要一套科学的分类方法。&lt;/p>
+&lt;p>市面上讲ABC分类的文章很多，但&lt;strong>只用ABC是不够的&lt;/strong>。ABC告诉你&amp;quot;谁贡献了大部分销售额&amp;rdquo;，但没告诉你&amp;quot;谁的需求是稳定的&amp;rdquo;。&lt;/p>
+&lt;p>所以要用&lt;strong>ABC-XYZ双维分类法&lt;/strong>。&lt;/p>
+&lt;h3 id="abc分类看贡献度">ABC分类：看贡献度&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>：贡献80%销售额的20%SKU（核心品）&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>：贡献15%销售额的30%SKU（中间品）&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>：贡献5%销售额的50%SKU（长尾品）&lt;/li>
+&lt;/ul>
+&lt;h3 id="xyz分类看需求波动">XYZ分类：看需求波动&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>X类&lt;/strong>：需求稳定，变异系数（标准差/均值）&amp;lt; 0.5&lt;/li>
+&lt;li>&lt;strong>Y类&lt;/strong>：需求有波动，变异系数0.5-1.0&lt;/li>
+&lt;li>&lt;strong>Z类&lt;/strong>：需求极不稳定，变异系数&amp;gt;1.0（甚至为零，偶尔爆单）&lt;/li>
+&lt;/ul>
+&lt;h3 id="双维交叉9宫格战略矩阵">双维交叉：9宫格战略矩阵&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>X（稳定）&lt;/th>
+ &lt;th>Y（波动）&lt;/th>
+ &lt;th>Z（极不稳定）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>A（高贡献）&lt;/strong>&lt;/td>
+ &lt;td>核心稳定品，重点保障库存&lt;/td>
+ &lt;td>核心波动品，需动态安全库存&lt;/td>
+ &lt;td>核心爆品，按需生产/快反补货&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>B（中贡献）&lt;/strong>&lt;/td>
+ &lt;td>稳定长尾，可适当降库存&lt;/td>
+ &lt;td>波动长尾，谨慎备货&lt;/td>
+ &lt;td>问题长尾，考虑清退&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>C（低贡献）&lt;/strong>&lt;/td>
+ &lt;td>低贡献稳定品，评估存在必要性&lt;/td>
+ &lt;td>低贡献波动品，优先清退&lt;/td>
+ &lt;td>&lt;strong>死SKU，立即清退&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>CX、CY、CZ三个格子里的SKU，是优先清理对象。&lt;/strong>&lt;/p>
+&lt;h2 id="死sku的定义和清理标准">死SKU的定义和清理标准&lt;/h2>
+&lt;p>什么叫&amp;quot;死SKU&amp;rdquo;？不同行业标准不一样，但有个通用框架：&lt;/p>
+&lt;h3 id="定量标准满足任意一条即可判定为死sku">定量标准（满足任意一条即可判定为&amp;quot;死SKU&amp;rdquo;）&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>连续90天零销量&lt;/strong>（快消品）/ 连续180天零销量（工业品）&lt;/li>
+&lt;li>&lt;strong>过去12个月贡献率&amp;lt;1%&lt;/strong>（即该SKU的销售额占总销售额不到1%）&lt;/li>
+&lt;li>&lt;strong>库存周转率&amp;lt;1&lt;/strong>（一年卖不出一拨）&lt;/li>
+&lt;li>&lt;strong>毛利率为负&lt;/strong>（卖一单亏一单）&lt;/li>
+&lt;/ol>
+&lt;h3 id="定性标准需要人工判断">定性标准（需要人工判断）&lt;/h3>
+&lt;ol>
+&lt;li>产品已停产，只有零星维修需求&lt;/li>
+&lt;li>客户定制化产品，客户已流失&lt;/li>
+&lt;li>尝鲜型SKU，上市6个月销量未达预期&lt;/li>
+&lt;/ol>
+&lt;h3 id="清理流程">清理流程&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>预警&lt;/strong>：系统自动标记符合&amp;quot;死SKU&amp;quot;标准的品，生成清退清单&lt;/li>
+&lt;li>&lt;strong>会审&lt;/strong>：销售、产品、供应链三方会审，确认是否可以清退（防止误杀）&lt;/li>
+&lt;li>&lt;strong>处理&lt;/strong>：清退决策确定后，30天内完成库存清理（促销、转售、报废）&lt;/li>
+&lt;li>&lt;strong>归档&lt;/strong>：SKU状态改为&amp;quot;停用&amp;rdquo;，系统保留历史数据但不参与补货计划&lt;/li>
+&lt;/ol>
+&lt;h2 id="真实案例从2000砍到600库存周转率翻倍">真实案例：从2000砍到600，库存周转率翻倍&lt;/h2>
+&lt;p>2024年初，我帮一家做家居用品的电商公司做供应链诊断。&lt;/p>
+&lt;p>&lt;strong>诊断结果让人震惊：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>活跃SKU：&lt;strong>2037个&lt;/strong>&lt;/li>
+&lt;li>其中连续90天零销量的：&lt;strong>768个（37.7%）&lt;/strong>&lt;/li>
+&lt;li>库存总金额：&lt;strong>4200万&lt;/strong>&lt;/li>
+&lt;li>库存周转率：&lt;strong>2.1次/年&lt;/strong>（行业平均4次）&lt;/li>
+&lt;/ul>
+&lt;p>我给他们做了一套SKU精简方案：&lt;/p>
+&lt;h3 id="第一步abc-xyz分类">第一步：ABC-XYZ分类&lt;/h3>
+&lt;p>用过去12个月销售数据，把所有SKU打上ABC-XYZ标签。&lt;/p></description></item><item><title>ABC分类法用错了三年，我才发现白干了</title><link>https://supplychain-tips.pages.dev/posts/abc-class-927/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-class-927/</guid><description>&lt;p>干了三年库存管理，每月惯例：拉SKU列表，按销售额从高到低排，前20%叫A，中间30%叫B，后面50%叫C。然后洋洋洒洒写报告：A类重点管理，C类放松管理。&lt;/p>
+&lt;p>老板过了新鲜劲就不看了——因为他发现不管你怎么分类，库存该压还是压，缺货该缺还是缺。&lt;/p>
+&lt;p>后来我才明白：只按金额做ABC，是你库存永远理不顺的根源。&lt;/p>
+&lt;h3 id="你以为a类最重要但它刚好不缺货">你以为A类最重要，但它刚好不缺货&lt;/h3>
+&lt;p>典型的误区：年销售额最高的SKU划A类，给它最严格的库存管理。&lt;/p>
+&lt;p>但真实情况是什么？A类SKU是爆款，供应商把它当重点客户，交期从来不会超过3天。你盯着它管得死死的，纯属浪费精力。&lt;/p>
+&lt;p>反而是一个C类SKU——一年只卖几千块钱——却是产线装配必须用的螺丝。缺了它就全线停。但你按ABC把它划在&amp;quot;不用多操心&amp;quot;的C类区域。&lt;/p>
+&lt;p>所以正确的做法是：&lt;strong>至少引入第二个维度——关键性&lt;/strong>。不是看它贡献了多少销售额，是看它缺货的代价有多大。&lt;/p>
+&lt;h3 id="二维abc才是库存管理的正解">二维ABC才是库存管理的正解&lt;/h3>
+&lt;p>第一步：纵轴是金额贡献（ABC），横轴是关键性/缺货风险（1/2/3级）。&lt;/p>
+&lt;p>A类+关键3级：核心中的核心，必须严控，安全库存不能省。
+C类+关键3级：金额不起眼，但断不起货——这类货往往被忽略，是定时炸弹。
+A类+关键1级：金额大但通用性强，缺了随时能补的，可以适当放松管理。&lt;/p>
+&lt;p>这样一画，你的管理资源分配就清晰了：宝押在A3和C3上，而不是一刀切对销售额最大的。&lt;/p>
+&lt;h3 id="补上第三维交期的波动性">补上第三维：交期的波动性&lt;/h3>
+&lt;p>还有一个很多人忽视的维度：&lt;strong>供应商交期的稳定性&lt;/strong>。&lt;/p>
+&lt;p>交期越不稳定，安全库存就要越高。哪怕你是B类、C类货，如果供应商上次交期拖了25天，你必须多备。&lt;/p>
+&lt;p>把交期波动和ABC叠加，得出一个「补货策略矩阵」：&lt;/p>
+&lt;ul>
+&lt;li>短交期+稳定 → 可以JIT模式，低库存&lt;/li>
+&lt;li>短交期+不稳定 → 少量安全库存兜底&lt;/li>
+&lt;li>长交期+稳定 → 按节奏批量采购，提前计划&lt;/li>
+&lt;li>长交期+不稳定 → 必须保安全库存，定期复盘供应商&lt;/li>
+&lt;/ul>
+&lt;p>这样你的每个SKU都有一套专属的库存策略，而不是简单的&amp;quot;A类盯得紧一点，C类少看一眼&amp;quot;。&lt;/p>
+&lt;h3 id="落实到人的三个动作">落实到人的三个动作&lt;/h3>
+&lt;p>第一步：把你现有的ABC表重做一遍，加上关键性评分（1-3分）。让生产和技术部门的人帮你判断&amp;quot;缺这个货会停线吗&amp;quot;。&lt;/p>
+&lt;p>第二步：把ABC矩阵贴在采购和仓库都看得见的地方。所有人对同一批SKU的重要性达成共识。&lt;/p>
+&lt;p>第三步：每季度复盘一次。新品变成爆款、旧品淘汰、供应商换人——ABC矩阵是活的，不是挂墙的。&lt;/p>
+&lt;hr>
+&lt;p>ABC分类本身没错，错的是只会单维度。库存管理的核心永远不是分类，是分类之后怎么对症下药。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>库存压了500万才懂的SKU管理</title><link>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</guid><description>&lt;p>&lt;strong>你有没有这种经历？&lt;/strong>&lt;/p>
+&lt;p>凌晨两点，你盯着ERP后台，库存数从三位数跳到四位数，像扎心瀑布。&lt;/p>
+&lt;ul>
+&lt;li>爆款卖断了货，补货要等15天&lt;/li>
+&lt;li>滞销款堆满仓库，每天交仓储费&lt;/li>
+&lt;li>采购和销售互相甩锅：“是你SKU太乱！”&lt;/li>
+&lt;/ul>
+&lt;p>我问你一个问题：&lt;strong>你管SKU，还是SKU管你？&lt;/strong>&lt;/p>
+&lt;p>90%的公司死在SKU泛滥上。&lt;/p>
+&lt;p>我踩过这个坑。库存压了500万，才明白——管理SKU不是搞分类，是&lt;strong>砍自己手&lt;/strong>。&lt;/p>
+&lt;h3 id="1-sku越多--赚钱越多">1. SKU越多 ≠ 赚钱越多&lt;/h3>
+&lt;p>大多数人的直觉：“SKU多，客户选择多，单子多。”&lt;/p>
+&lt;p>屁。&lt;/p>
+&lt;p>&lt;strong>SKU多 = 库存成本高 + 生产切换慢 + 决策瘫痪。&lt;/strong>&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;p>你卖手机壳。为了满足“全场景”，你搞了50个款式，每个款式10个颜色，每个颜色5个尺寸。&lt;/p>
+&lt;p>你算算：&lt;/p>
+&lt;p>50 × 10 × 5 = &lt;strong>2500个SKU&lt;/strong>&lt;/p>
+&lt;p>找工厂下单：起订量500/款。工厂排期45天。&lt;/p>
+&lt;p>货到仓库：爆款全断货，冷门款堆成山。&lt;/p>
+&lt;p>月底一看：销售额100万，净利润-10万。因为仓储费、过期损耗、资金占用，全吃掉了利润。&lt;/p>
+&lt;p>真实数据：&lt;/p>
+&lt;ul>
+&lt;li>某电商公司，SKU从2000个砍到300个，净利润翻3倍&lt;/li>
+&lt;li>某服装品牌，SKU减少40%，退货率从30%降到12%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心法则：20%的SKU贡献80%的利润。剩下的，都是你的吸血鬼。&lt;/strong>&lt;/p>
+&lt;h3 id="2-管sku先学会砍">2. 管SKU，先学会“砍”&lt;/h3>
+&lt;p>你舍不得砍？因为你怕错过任何一个订单。&lt;/p>
+&lt;p>来，我给你3个砍SKU的狠招：&lt;/p>
+&lt;p>&lt;strong>第一招：算“单SKU利润贡献”&lt;/strong>&lt;/p>
+&lt;p>别只看销售额，看利润。&lt;/p>
+&lt;p>一个SKU，月销100单，每单利润10元，总利润1000元。
+另一个SKU，月销5单，每单利润200元，总利润1000元。&lt;/p>
+&lt;p>第一个占用库存100件，第二个占用5件。&lt;/p>
+&lt;p>&lt;strong>你会选哪个？&lt;/strong>&lt;/p>
+&lt;p>选第二个。因为资金周转更快，仓储成本更低。&lt;/p>
+&lt;p>&lt;strong>第二招：按“动销率”清场&lt;/strong>&lt;/p>
+&lt;p>动销率 = 有销售的SKU / 总SKU&lt;/p>
+&lt;p>低于30%？你完了。意味着70%的SKU是摆设。&lt;/p>
+&lt;p>立刻做：&lt;/p>
+&lt;ul>
+&lt;li>90天内销量=0的SKU：直接清仓或下架&lt;/li>
+&lt;li>180天内销量&amp;lt;10单的SKU：降价处理，止损&lt;/li>
+&lt;li>季度销量后20%的SKU：给3个月观察期，不行就砍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三招：用“ABC-XYZ”矩阵&lt;/strong>&lt;/p>
+&lt;p>把SKU分成9个格子：&lt;/p>
+&lt;ul>
+&lt;li>A类（高利润）+ X类（高需求）：疯狂备货&lt;/li>
+&lt;li>C类（低利润）+ Z类（低需求）：直接砍掉&lt;/li>
+&lt;li>其他格子：按策略调整&lt;/li>
+&lt;/ul>
+&lt;p>别心软。砍掉一个SKU，省下的钱够招一个运营。&lt;/p>
+&lt;h3 id="3-新sku上架前先问这5个问题">3. 新SKU上架前，先问这5个问题&lt;/h3>
+&lt;p>大部分公司上SKU，靠拍脑袋。&lt;/p></description></item><item><title>库存压了500万才懂：SKU管理就4个字</title><link>https://supplychain-tips.pages.dev/posts/sku-management-tips/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-tips/</guid><description>&lt;p>兄弟们，聊个扎心话题。&lt;/p>
 &lt;p>你有没有过这种经历？打开后台，SKU列表拉不到底，几百上千个品，看着密密麻麻，心里还挺踏实——产品多，机会多嘛。&lt;/p>
 &lt;p>但一到月底算账，傻眼了。&lt;/p>
 &lt;p>库存积压了500万，现金流比纸还薄，库房里一堆货，卖得动的没几个，卖不动的堆到落灰。老板问你：这些破烂什么时候清掉？你只能苦笑：打折都没人要。&lt;/p>

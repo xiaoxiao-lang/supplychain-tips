@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本分析 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/</link><description>Recent content in 采购成本分析 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>月薪3千采购和月薪3万采购，差在这1个动作</title><link>https://supplychain-tips.pages.dev/posts/cost-analysis-tips/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cost-analysis-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本分析 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/</link><description>Recent content in 采购成本分析 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商报价砍一半还有利润，你信不信？</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>我认识一个采购老哥，干了8年，降本考核年年第一。&lt;/p>
+&lt;p>他的秘诀不是会砍价。他跟我说了一句话：&lt;strong>你见过哪个供应商会报成本价？&lt;/strong>&lt;/p>
+&lt;p>真正的高手，不是谈判桌上有多狠，是进谈判室之前，已经知道对方成本大概是多少了。&lt;/p>
+&lt;h3 id="第一招拆bom从材料端反推">第一招：拆BOM，从材料端反推&lt;/h3>
+&lt;p>供应商报价100块，你怎么知道贵不贵？&lt;/p>
+&lt;p>打开BOM表，查原材料行情。铁多少钱一吨、铜多少钱一公斤、塑料粒子什么价，这些都是公开信息。把材料成本算出来，再加上合理的加工费、管理费用，供应商的底线你就摸到了。&lt;/p>
+&lt;p>我见过最夸张的案例，一个机加工件，供应商报价380，我朋友拆完BOM算出来材料加加工费不超过120。最后谈到155，对方还有得赚。&lt;/p>
+&lt;p>不是供应商黑，是你懒得算。&lt;/p>
+&lt;h3 id="第二招算tco别只看单价">第二招：算TCO，别只看单价&lt;/h3>
+&lt;p>采购成本不是发票上的那个数字。&lt;/p>
+&lt;p>一台设备报价便宜5万，但耗电量比竞品高了40%，三年电费多出8万。你买的时候觉得自己捡了便宜，用起来才知道被坑了。&lt;/p>
+&lt;p>&lt;strong>TCO（总拥有成本）= 采购价 + 运输 + 安装 + 培训 + 运维 + 能耗 + 配件 + 报废处理&lt;/strong>&lt;/p>
+&lt;p>只有算过TCO，你才知道哪家是真的便宜。&lt;/p>
+&lt;h3 id="第三招建成本模型不只比一家">第三招：建成本模型，不只比一家&lt;/h3>
+&lt;p>别拿着三家报价就比价。要建自己行业的成本数据库。&lt;/p>
+&lt;p>同一个品类，你跟3家供方打过交道，就能摸出一个大概的成本区间。跟5家打过，就能建出一个粗略的成本模型。跟10家打过，供应商的报价在你面前基本就是透明的。&lt;/p>
+&lt;p>有个做电子的采购经理，花了半年把PCB、连接器、线束、包材四大类成本模型建起来以后，供应商报价第一次就被他看穿了水分，降本率从5%直接跳到了18%。&lt;/p>
+&lt;h3 id="最狠的一招共享降本">最狠的一招：共享降本&lt;/h3>
+&lt;p>别一味压价。你压太狠，供应商要么偷工减料，要么找机会涨价找补回来。&lt;/p>
+&lt;p>聪明人会跟供应商说：我们一起把这个成本降下来，省下来的钱五五分。&lt;/p>
+&lt;p>你帮供应商优化工艺、改进包装、合并物流，降下来的成本实实在在。比你拍桌子砍价效果好一百倍，而且供应商还感激你。&lt;/p>
+&lt;hr>
+&lt;p>采购成本分析，本质上是用数据替代感觉。你的成本模型越精确，你在谈判桌上的底气就越足。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购成本只看单价？难怪你年年降本年年亏</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</guid><description>&lt;p>你有没有遇到过这种情况：&lt;/p>
+&lt;p>年底了，老板拍桌子：&amp;ldquo;今年采购降本5%，怎么还没完成？！&amp;rdquo;&lt;/p>
+&lt;p>你委屈啊——单价已经砍到供应商吐血了，再砍就要断供了。但账面上的&amp;quot;采购成本&amp;quot;确实没降多少。&lt;/p>
+&lt;p>问题出在哪？&lt;/p>
+&lt;p>&lt;strong>出在你只盯着采购单价，而真正的成本藏在别处。&lt;/strong>&lt;/p>
+&lt;h2 id="单价的冰山模型水下的90才要命">单价的冰山模型：水下的90%才要命&lt;/h2>
+&lt;p>采购单价是什么？是冰山露出水面的那一角。你以为看到了全部，其实水下的部分才是真正吃利润的地方。&lt;/p>
+&lt;p>我给你算一笔账。&lt;/p>
+&lt;p>假设你们公司每年采购某种原材料1000万元（按单价计算）。你辛辛苦苦跟供应商磨了三个月，把单价压下来5%，省了50万。老板夸你厉害。&lt;/p>
+&lt;p>但是——&lt;/p>
+&lt;ul>
+&lt;li>因为换了低价供应商，来料不良率从0.5%升到3%。1000万的货，多出来的2.5%不良，就是25万的返工/报废成本。&lt;/li>
+&lt;li>新供应商交期不稳定，为了不停线，你不得不把安全库存从7天提到15天。多压的8天库存，资金占用成本按8%年化，就是&lt;strong>17.8万&lt;/strong>。&lt;/li>
+&lt;li>交期波动导致你不得不每周期盯进度，采购员每个月多花20小时跟进催货，一年就是240小时，按采购员时薪100元算，又是&lt;strong>2.4万&lt;/strong>的管理成本。&lt;/li>
+&lt;li>因为交期不准，你错过了两个大客户的紧急订单，销售额损失估算&lt;strong>100万&lt;/strong>，利润影响约&lt;strong>15万&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>加起来是多少？&lt;/p>
+&lt;blockquote>
+&lt;p>省下来的50万 - （25 + 17.8 + 2.4 + 15）= &lt;strong>亏了10.2万&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>你以为你在降本，其实你在&lt;strong>烧钱&lt;/strong>。&lt;/p>
+&lt;h2 id="tco总拥有成本采购的必修课">TCO：总拥有成本，采购的必修课&lt;/h2>
+&lt;p>TCO（Total Cost of Ownership，总拥有成本）不是什么高深理论，就是一句话：&lt;/p>
+&lt;p>&lt;strong>买东西花的钱 ≠ 这东西真正花你多少钱。&lt;/strong>&lt;/p>
+&lt;p>TCO至少包含以下成本项：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;th>典型占比&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>合同上的价格&lt;/td>
+ &lt;td>60-80%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本&lt;/td>
+ &lt;td>不良品导致的返工、报废、索赔&lt;/td>
+ &lt;td>3-15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期成本&lt;/td>
+ &lt;td>延迟导致的停线损失、 rush运费&lt;/td>
+ &lt;td>2-10%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存成本&lt;/td>
+ &lt;td>安全库存增加导致的资金占用&lt;/td>
+ &lt;td>5-12%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>物流成本&lt;/td>
+ &lt;td>运输、关税、仓储&lt;/td>
+ &lt;td>3-8%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理成本&lt;/td>
+ &lt;td>跟进、沟通、处理异常的人力&lt;/td>
+ &lt;td>1-5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>切换成本&lt;/td>
+ &lt;td>换供应商的验证、试产、学习曲线&lt;/td>
+ &lt;td>一次性，但可能很高&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>加起来，TCO比采购单价高20-40%是常态。&lt;/strong>&lt;/p>
+&lt;h2 id="真实案例a供应商vs-b供应商">真实案例：A供应商vs B供应商&lt;/h2>
+&lt;p>讲个我亲身经历的例子。&lt;/p>
+&lt;p>2022年，我在一家电子制造企业做供应链顾问。他们有一款PCB板，有两个供应商可选：&lt;/p>
+&lt;p>&lt;strong>A供应商&lt;/strong>：单价&lt;strong>18.5元/片&lt;/strong>，行业口碑好，交期稳定（承诺7天，实际平均6.5天），不良率0.2%。&lt;/p>
+&lt;p>&lt;strong>B供应商&lt;/strong>：单价&lt;strong>17.2元/片&lt;/strong>（便宜7%），新进入的供应商，承诺交期7天（实际平均9天，波动大），不良率1.8%。&lt;/p>
+&lt;p>采购经理当时倾向于选B，因为&amp;quot;单价低7%，一年采购200万片，能省&lt;strong>260万&lt;/strong>&amp;quot;。&lt;/p>
+&lt;p>我让他算了一下TCO：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>A供应商&lt;/th>
+ &lt;th>B供应商&lt;/th>
+ &lt;th>差异&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>3700万&lt;/td>
+ &lt;td>3440万&lt;/td>
+ &lt;td>-260万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本（返工+报废）&lt;/td>
+ &lt;td>7.4万&lt;/td>
+ &lt;td>62万&lt;/td>
+ &lt;td>+54.6万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>停线风险成本&lt;/td>
+ &lt;td>几乎为0&lt;/td>
+ &lt;td>约80万/年&lt;/td>
+ &lt;td>+80万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>额外安全库存资金成本&lt;/td>
+ &lt;td>约30万&lt;/td>
+ &lt;td>约65万&lt;/td>
+ &lt;td>+35万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理跟进成本&lt;/td>
+ &lt;td>约10万&lt;/td>
+ &lt;td>约35万&lt;/td>
+ &lt;td>+25万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>TCO合计&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3747万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3682万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>-65万&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>结论：&lt;strong>B供应商的TCO反而比A高65万/年&lt;/strong>，相当于单价的优势被完全吃掉还倒贴。&lt;/p></description></item><item><title>月薪3千采购和月薪3万采购，差在这1个动作</title><link>https://supplychain-tips.pages.dev/posts/cost-analysis-tips/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cost-analysis-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
 &lt;p>上个月，我朋友老张被老板叫到办公室，劈头盖脸一顿骂：&lt;strong>“你TM买的这批螺丝，比去年贵了8%，你是去进货还是去扶贫？”&lt;/strong>&lt;/p>
 &lt;p>老张委屈啊，他跑断了腿，磨破了嘴，从3块2砍到3块，觉得自己是个英雄。结果老板反手甩给他一张同行报价单——2块7。&lt;/p>
 &lt;p>&lt;strong>那一刻，老张才明白：你以为的“最低价”，在别人眼里就是“收割价”。&lt;/strong>&lt;/p>

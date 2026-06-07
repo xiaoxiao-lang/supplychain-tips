@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRP物料需求计划 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/</link><description>Recent content in MRP物料需求计划 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRP物料需求计划 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/</link><description>Recent content in MRP物料需求计划 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/mrp%E7%89%A9%E6%96%99%E9%9C%80%E6%B1%82%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml"/><item><title>MRP跑了3年还是一团糟，问题出在你身上</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls-625/</guid><description>&lt;p>我们公司MRP系统上了三年，计划员每天还是在Excel里手工排计划。&lt;/p>
+&lt;p>我问计划部主管：&amp;ldquo;MRP跑出来的计划你们为什么不用？&amp;rdquo;&lt;/p>
+&lt;p>他苦笑：&amp;ldquo;跑出来的东西没法看啊。要么建议采购量小得离谱，要么建议的生产日期在节假日，要么算出来的物料A有需求但B没有。跟实际差太远，还不如我自己排。&amp;rdquo;&lt;/p>
+&lt;p>这就是很多企业的现状：&lt;strong>花了几百万上了ERP和MRP模块，结果还是回到Excel手工操作。&lt;/strong>&lt;/p>
+&lt;p>不是MRP系统有问题，是你喂给它的数据有问题。Garbage in, garbage out（垃圾进，垃圾出）。&lt;/p>
+&lt;h3 id="根因一bom数据是万恶之源">根因一：BOM数据是万恶之源&lt;/h3>
+&lt;p>MRP计算的基础是BOM（物料清单）。一个产品需要哪些物料、各需要多少、层级关系是什么——全靠BOM。&lt;/p>
+&lt;p>但现实中，BOM的准确率在很多企业不到70%。&lt;/p>
+&lt;p>常见问题：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>研发改了设计没更新BOM&lt;/strong>：产品V2.0的物料已经变了，BOM还是V1.0的。MRP按旧BOM算，该买的没买，不该买的买了一堆&lt;/li>
+&lt;li>&lt;strong>替代料关系没有维护&lt;/strong>：A物料缺货时可以用B物料替代，但MRP不知道这个关系，建议你紧急采购A而不是直接用B&lt;/li>
+&lt;li>&lt;strong>虚拟件和实际件混用&lt;/strong>：生产过程中实际使用的物料和BOM上写的不一致&lt;/li>
+&lt;li>&lt;strong>损耗率数据不准&lt;/strong>：BOM上写损耗率3%，实际是8%，MRP按3%算出来的需求量根本不够&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>修复方案&lt;/strong>：每季度做一次BOM审计，对比BOM和实际生产用料数据。建立BOM变更流程，研发任何设计变更必须同步更新BOM。这事儿不难，难的是有没有人盯着执行。&lt;/p>
+&lt;h3 id="根因二提前期数据是拍脑袋的">根因二：提前期数据是拍脑袋的&lt;/h3>
+&lt;p>MRP里有个关键参数：采购提前期（Lead Time）。系统需要知道&amp;quot;从下单到收货需要多少天&amp;quot;，才能算出什么时候该下单。&lt;/p>
+&lt;p>但你去问很多企业：&amp;ldquo;你主力物料的采购提前期是多少？&amp;rdquo;&lt;/p>
+&lt;p>答：&amp;ldquo;大概7-10天吧。&amp;rdquo;&lt;/p>
+&lt;p>大概？7天和10天差了3天，如果每天需求量是100个，3天就是300个的库存偏差。这个偏差要么变成多余库存占资金，要么变成缺料停线。&lt;/p>
+&lt;p>更离谱的是，很多企业一个供应商的几十种物料全部填一样的提前期，比如统一填15天。实际上不同物料的提前期可能从3天到30天不等。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：从采购订单数据中提取真实的下单日期和收货日期，计算每个物料、每个供应商的实际平均提前期和波动范围。至少每半年更新一次。这个数据不需要100%精确，但比拍脑袋强100倍。&lt;/p>
+&lt;h3 id="根因三安全库存设置不合理">根因三：安全库存设置不合理&lt;/h3>
+&lt;p>MRP系统里安全库存（Safety Stock）的设置直接影响采购建议的量。&lt;/p>
+&lt;p>安全库存设高了，MRP会建议你多采购，库存积压，资金占用。
+安全库存设低了，MRP建议的量不够，一旦需求波动就缺料。&lt;/p>
+&lt;p>问题是，很多企业的安全库存是这样定的：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;按1周用量设吧&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;差不多500个就行&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;去年设的，今年还没改过&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>没有基于实际需求波动、提前期波动、服务水平目标来计算。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：用公式算。安全库存 = Z值（服务水平系数）× 需求标准差 × √提前期。服务水平99%对应Z=2.33，95%对应Z=1.65。&lt;/p>
+&lt;p>举个简单例子：某物料日需求均值100个、标准差20个，提前期7天，要求99%服务水平。&lt;/p>
+&lt;p>安全库存 = 2.33 × 20 × √7 = 2.33 × 20 × 2.65 = 123个&lt;/p>
+&lt;p>这比你拍脑袋设的&amp;quot;500个&amp;quot;精确得多。同时也没那么复杂，Excel就能算。&lt;/p>
+&lt;h3 id="根因四计划员频繁手动覆盖">根因四：计划员频繁手动覆盖&lt;/h3>
+&lt;p>MRP跑出建议计划后，计划员觉得&amp;quot;不对&amp;quot;，就手动改。改多了，就变成手动排计划为主、MRP为辅。&lt;/p>
+&lt;p>为什么会频繁改？因为MRP的计划确实有问题——但问题根源在前三个根因（BOM不准、提前期不准、安全库存不准），不在MRP算法本身。&lt;/p>
+&lt;p>计划员手动覆盖只是治标，MRP数据不准才是本。你手动改一次，数据源没有更新，下次MRP跑出来还是错的，你又得改。循环往复，MRP彻底废了。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：先修复前三个根因，让MRP输出质量达到可接受水平（85%以上可用率）。然后建立规则：MRP建议偏差在20%以内的直接执行，偏差超过20%的才允许手动调整并记录原因。每月分析调整原因，反向优化数据。&lt;/p>
+&lt;h3 id="根因五不考虑产能约束">根因五：不考虑产能约束&lt;/h3>
+&lt;p>标准MRP的逻辑是&amp;quot;需求→物料需求→采购/生产建议&amp;quot;，但它默认产能无限。&lt;/p>
+&lt;p>现实当然不是。你的产线就那么多，供应商的产能也有限。MRP可能建议你在同一天生产10个产品，但你的产能只能做5个。&lt;/p>
+&lt;p>这就是MRP和APS（Advanced Planning and Scheduling，高级计划排程）的区别。MRP管&amp;quot;需要什么&amp;quot;，APS管&amp;quot;能不能做&amp;quot;。&lt;/p></description></item><item><title>库存压了500万才明白：MRP不是万能药</title><link>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
 &lt;p>我前同事老李，去年拍胸脯上了套新系统，号称“智能MRP，一键算清物料”。老板当场批了50万。&lt;/p>
 &lt;p>半年后，仓库爆仓，300万原材料烂在架子上。生产线上却因为缺一个螺丝，停了三天。&lt;/p>
 &lt;p>老板开会指着鼻子骂：“你不是说系统能算好？”&lt;/p>

@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCO on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/tco/</link><description>Recent content in TCO on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/tco/index.xml" rel="self" type="application/rss+xml"/><item><title>算不清TCO，你一年白干300天</title><link>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</guid><description>&lt;p>你被“便宜货”坑过几次？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCO on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/tco/</link><description>Recent content in TCO on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/tco/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本只看单价？难怪你年年降本年年亏</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</guid><description>&lt;p>你有没有遇到过这种情况：&lt;/p>
+&lt;p>年底了，老板拍桌子：&amp;ldquo;今年采购降本5%，怎么还没完成？！&amp;rdquo;&lt;/p>
+&lt;p>你委屈啊——单价已经砍到供应商吐血了，再砍就要断供了。但账面上的&amp;quot;采购成本&amp;quot;确实没降多少。&lt;/p>
+&lt;p>问题出在哪？&lt;/p>
+&lt;p>&lt;strong>出在你只盯着采购单价，而真正的成本藏在别处。&lt;/strong>&lt;/p>
+&lt;h2 id="单价的冰山模型水下的90才要命">单价的冰山模型：水下的90%才要命&lt;/h2>
+&lt;p>采购单价是什么？是冰山露出水面的那一角。你以为看到了全部，其实水下的部分才是真正吃利润的地方。&lt;/p>
+&lt;p>我给你算一笔账。&lt;/p>
+&lt;p>假设你们公司每年采购某种原材料1000万元（按单价计算）。你辛辛苦苦跟供应商磨了三个月，把单价压下来5%，省了50万。老板夸你厉害。&lt;/p>
+&lt;p>但是——&lt;/p>
+&lt;ul>
+&lt;li>因为换了低价供应商，来料不良率从0.5%升到3%。1000万的货，多出来的2.5%不良，就是25万的返工/报废成本。&lt;/li>
+&lt;li>新供应商交期不稳定，为了不停线，你不得不把安全库存从7天提到15天。多压的8天库存，资金占用成本按8%年化，就是&lt;strong>17.8万&lt;/strong>。&lt;/li>
+&lt;li>交期波动导致你不得不每周期盯进度，采购员每个月多花20小时跟进催货，一年就是240小时，按采购员时薪100元算，又是&lt;strong>2.4万&lt;/strong>的管理成本。&lt;/li>
+&lt;li>因为交期不准，你错过了两个大客户的紧急订单，销售额损失估算&lt;strong>100万&lt;/strong>，利润影响约&lt;strong>15万&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>加起来是多少？&lt;/p>
+&lt;blockquote>
+&lt;p>省下来的50万 - （25 + 17.8 + 2.4 + 15）= &lt;strong>亏了10.2万&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>你以为你在降本，其实你在&lt;strong>烧钱&lt;/strong>。&lt;/p>
+&lt;h2 id="tco总拥有成本采购的必修课">TCO：总拥有成本，采购的必修课&lt;/h2>
+&lt;p>TCO（Total Cost of Ownership，总拥有成本）不是什么高深理论，就是一句话：&lt;/p>
+&lt;p>&lt;strong>买东西花的钱 ≠ 这东西真正花你多少钱。&lt;/strong>&lt;/p>
+&lt;p>TCO至少包含以下成本项：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;th>典型占比&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>合同上的价格&lt;/td>
+ &lt;td>60-80%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本&lt;/td>
+ &lt;td>不良品导致的返工、报废、索赔&lt;/td>
+ &lt;td>3-15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期成本&lt;/td>
+ &lt;td>延迟导致的停线损失、 rush运费&lt;/td>
+ &lt;td>2-10%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存成本&lt;/td>
+ &lt;td>安全库存增加导致的资金占用&lt;/td>
+ &lt;td>5-12%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>物流成本&lt;/td>
+ &lt;td>运输、关税、仓储&lt;/td>
+ &lt;td>3-8%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理成本&lt;/td>
+ &lt;td>跟进、沟通、处理异常的人力&lt;/td>
+ &lt;td>1-5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>切换成本&lt;/td>
+ &lt;td>换供应商的验证、试产、学习曲线&lt;/td>
+ &lt;td>一次性，但可能很高&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>加起来，TCO比采购单价高20-40%是常态。&lt;/strong>&lt;/p>
+&lt;h2 id="真实案例a供应商vs-b供应商">真实案例：A供应商vs B供应商&lt;/h2>
+&lt;p>讲个我亲身经历的例子。&lt;/p>
+&lt;p>2022年，我在一家电子制造企业做供应链顾问。他们有一款PCB板，有两个供应商可选：&lt;/p>
+&lt;p>&lt;strong>A供应商&lt;/strong>：单价&lt;strong>18.5元/片&lt;/strong>，行业口碑好，交期稳定（承诺7天，实际平均6.5天），不良率0.2%。&lt;/p>
+&lt;p>&lt;strong>B供应商&lt;/strong>：单价&lt;strong>17.2元/片&lt;/strong>（便宜7%），新进入的供应商，承诺交期7天（实际平均9天，波动大），不良率1.8%。&lt;/p>
+&lt;p>采购经理当时倾向于选B，因为&amp;quot;单价低7%，一年采购200万片，能省&lt;strong>260万&lt;/strong>&amp;quot;。&lt;/p>
+&lt;p>我让他算了一下TCO：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>A供应商&lt;/th>
+ &lt;th>B供应商&lt;/th>
+ &lt;th>差异&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>3700万&lt;/td>
+ &lt;td>3440万&lt;/td>
+ &lt;td>-260万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本（返工+报废）&lt;/td>
+ &lt;td>7.4万&lt;/td>
+ &lt;td>62万&lt;/td>
+ &lt;td>+54.6万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>停线风险成本&lt;/td>
+ &lt;td>几乎为0&lt;/td>
+ &lt;td>约80万/年&lt;/td>
+ &lt;td>+80万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>额外安全库存资金成本&lt;/td>
+ &lt;td>约30万&lt;/td>
+ &lt;td>约65万&lt;/td>
+ &lt;td>+35万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理跟进成本&lt;/td>
+ &lt;td>约10万&lt;/td>
+ &lt;td>约35万&lt;/td>
+ &lt;td>+25万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>TCO合计&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3747万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3682万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>-65万&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>结论：&lt;strong>B供应商的TCO反而比A高65万/年&lt;/strong>，相当于单价的优势被完全吃掉还倒贴。&lt;/p></description></item><item><title>算不清TCO，你一年白干300天</title><link>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/</guid><description>&lt;p>你被“便宜货”坑过几次？&lt;/p>
 &lt;p>上个月，朋友公司采购部老王跟我吐槽：为了省50万，老板拍板买了台二手贴标机。结果呢？半年修了8次，每次停机两小时，产线停摆损失超过150万。老王被骂得狗血淋头，年终奖泡汤。&lt;/p>
 &lt;p>这不是段子。90%的人做采购决策时，只盯着“采购价”那个数字，像饿狼见了肉。但真正的成本藏在你看不见的地方——维修、能耗、培训、停机、售后……它们像水下的冰山，悄无声息地吞噬你的利润。&lt;/p>
 &lt;p>&lt;strong>这就是TCO（总拥有成本）&lt;/strong>。说白了，就是东西从买来到报废，你为它花的每一分钱。别扯虚的，今天咱们就用大白话，把这玩意儿讲透，让你看完就知道怎么避坑、怎么省钱。&lt;/p>

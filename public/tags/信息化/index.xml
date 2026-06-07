@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>信息化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BF%A1%E6%81%AF%E5%8C%96/</link><description>Recent content in 信息化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BF%A1%E6%81%AF%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>数字化转型花了80万打水漂，我劝你先做这3件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-346/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-346/</guid><description>&lt;p>老板去年参加了行业峰会，回来踌躇满志：我们要数字化。然后80万砸下去，上了一套号称「端到端供应链管理平台」。&lt;/p>
+&lt;p>一年后，仓库还在用Excel录数据，采购还在微信群里催货，销售还在小本本上记客户需求。80万的系统成了摆设，只有IT部门在维护服务器。&lt;/p>
+&lt;p>数字化转型砸了，问题从来不在技术上。&lt;/p>
+&lt;h3 id="第一件事先理流程再上系统">第一件事：先理流程，再上系统&lt;/h3>
+&lt;p>大多数企业上系统，是这样的节奏：选型→签合同→实施顾问进驻→系统上线→培训→没人用→回退到Excel。&lt;/p>
+&lt;p>根本原因是什么？你把一团乱麻的流程塞进了一个漂亮的系统里，系统只是让混乱变得更难看而已。&lt;/p>
+&lt;p>数字化之前先做流程梳理。三件事：&lt;/p>
+&lt;ol>
+&lt;li>画出端到端的流程图——不是PPT上画个方框图，是真的一条线从接单到交付走一遍。&lt;/li>
+&lt;li>标出断点、重复点、扯皮点。哪个环节靠微信消息传递的？哪里存在Excel+手动合并的？&lt;/li>
+&lt;li>优化流程再固化进系统。顺序不能反——不能把烂流程自动化了就指望变好，自动化烂流程只会让烂得更快。&lt;/li>
+&lt;/ol>
+&lt;p>一个朋友公司花两个月做了这件事，发现采购审批流程有7个节点，实际有效审批只有2个。砍掉5个之后再上系统，审批时效从3天缩到4小时。&lt;/p>
+&lt;h3 id="第二件事先搞定人再搞定系统">第二件事：先搞定人，再搞定系统&lt;/h3>
+&lt;p>系统上线那天，仓库老王说&amp;quot;我用手机录也行啊&amp;quot;，采购李姐说&amp;quot;原来Excel多方便，你们这个太复杂&amp;quot;。&lt;/p>
+&lt;p>你花钱上了系统，但没人用。&lt;/p>
+&lt;p>数字化转型最难的部分，不是代码，是人心。每个岗位都有自己的舒适区——Excel是他们的舒适区，微信是他们的舒适区，你用系统去取代这些，他们第一反应一定是抵触。&lt;/p>
+&lt;p>怎么破？三个字：&lt;strong>让他们赢。&lt;/strong>&lt;/p>
+&lt;p>不要一上来就给仓库管理员培训「全局可视化」。先告诉他：以后入库不用手写单子了，枪一扫就进去了。下班前报表自动生成，不用你抄半个小时数据了。&lt;/p>
+&lt;p>让每个人觉得自己更方便了，而不是只方便了老板。先让一线员工尝到甜头，再推管理层需要的看板功能。顺序对了，阻力就小了。&lt;/p>
+&lt;h3 id="第三件事先跑通一个场景再全面铺开">第三件事：先跑通一个场景，再全面铺开&lt;/h3>
+&lt;p>很多人一上系统就想一步到位：采购、入库、库内、出库、财务结算全线上。结果是全面铺开、全面崩盘。&lt;/p>
+&lt;p>正确的节奏是&lt;strong>选一个痛点最痛、收益最明显的场景先跑&lt;/strong>。&lt;/p>
+&lt;p>比如你仓库的拣货准确率低、退货多，就先只上WMS的拣货模块。做三个月，把准确率从92%提到99%，一线人员都觉得好用，再往上加库存管理、波次管理。&lt;/p>
+&lt;p>三个月后你跟老板汇报：拣货错发率下降了70%，客户退货少了60%。有了这个成绩，再申请推第二阶段，老板批预算比之前利索十倍。&lt;/p>
+&lt;hr>
+&lt;p>数字化转型不是买一套软件就完了。流程、人、节奏——这三件事做对了，系统是锦上添花；做错了，系统就是一堆废铁。&lt;/p>
+&lt;p>你如果正准备上系统，把上面三件事排个优先级。别急着签合同，先把流程图画了，把人聊了，把试点场景定了。花一周做这些准备工作，比后面花一年擦屁股划算得多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链计划 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E8%AE%A1%E5%88%92/</link><description>Recent content in 供应链计划 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml"/><item><title>需求预测准不准，决定你是吃肉还是喝风</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</guid><description>&lt;p>需求预测，供应链圈子里最玄学的一个词。&lt;/p>
+&lt;p>你对老板说&amp;quot;下个月预测出货2000件&amp;quot;，老板把预算全按这个数排了。结果月底只出了900件——库存堆满，老板说&amp;quot;你怎么预测的&amp;quot;。下个月你说&amp;quot;保守点，1000件&amp;quot;，结果来了个大单——缺货，销售堵你门口。&lt;/p>
+&lt;p>预测真这么难吗？难。但很多人的预测不准，不是因为缺乏预测能力，是因为用错了方法。&lt;/p>
+&lt;h3 id="第一条腿历史不是用来抄的是用来找规律的">第一条腿：历史不是用来抄的，是用来找规律的&lt;/h3>
+&lt;p>把去年同期的数据拉出来跑个平均，再加个增长率就报给老板——这叫算命，不叫预测。&lt;/p>
+&lt;p>真正有用的历史分析，是拆成三个维度看：&lt;/p>
+&lt;p>&lt;strong>趋势&lt;/strong>：这两年销量在往上走还是往下滑？这个品类的生命周期到了哪个阶段？&lt;/p>
+&lt;p>&lt;strong>周期&lt;/strong>：哪几个月是波峰，哪几个月是谷底？和促销、假期、气候有没有对应关系？&lt;/p>
+&lt;p>&lt;strong>异常&lt;/strong>：去年3月那波暴涨是因为疫情囤货还是竞品断供？这个因素下个月还会再来吗？&lt;/p>
+&lt;p>把这三个维度拆开，你才知道去年的数字里哪些是规律、哪些是噪音。&lt;/p>
+&lt;p>实操上最简单的方法：拿Excel拉一条近24个月的趋势线，标出每月销量和环比变化。凡是环比跳变超过30%的月度数据，旁边标注原因。半年后再看——你对自己品类的波动规律会清晰很多。&lt;/p>
+&lt;h3 id="第二条腿别只看自己的数据市场和竞品才是风向标">第二条腿：别只看自己的数据，市场和竞品才是风向标&lt;/h3>
+&lt;p>一个销售经理跟我说过一句扎心的话：&amp;ldquo;我不是预测不准，是我们的客户自己也搞不清楚下个月要多少。&amp;rdquo;&lt;/p>
+&lt;p>但你有没有想过——虽然单个客户的需求波动大，但一群客户聚合起来就相对稳定了？你的预测单位不应该是&amp;quot;老板的直觉&amp;quot;，而是把数据拆到品类、拆到渠道、拆到区域。&lt;/p>
+&lt;p>更关键的是看外部信号：&lt;/p>
+&lt;ul>
+&lt;li>竞品上个月有没有上新品？他们的促销力度有没有加大？&lt;/li>
+&lt;li>上下游的排产数据有没有变化？&lt;/li>
+&lt;li>终端零售的动销率有在掉吗？&lt;/li>
+&lt;/ul>
+&lt;p>这些信号都比你的内部数据更早反映需求的转折。你不需要做独立的市场研究，保持和销售部、市场部每周15分钟的碰头就够了。&lt;/p>
+&lt;h3 id="第三条腿永远留个安全垫但不是越厚越好">第三条腿：永远留个安全垫，但不是越厚越好&lt;/h3>
+&lt;p>有人一说预测加安全库存就直接加60%，结果库存成本比物资本身都贵。有人胆子大，不加安全库存——一次断货就赔掉半年利润。&lt;/p>
+&lt;p>安全库存不是一个固定比例，是动态计算的：&lt;/p>
+&lt;p>安全库存 = 日均销量 × 补货周期 × 波动系数&lt;/p>
+&lt;p>关键是波动系数。拿近6个月的实际销量算标准差，波动大的品类系数调高，稳定品类系数压低。不是一刀切。&lt;/p>
+&lt;p>我知道你们公司可能没这么多数据，那先做一个最简版：把品类分成ABC三类。A类畅销品波动系数1.5，B类常规品1.2，C类低频品看情况，低于安全水位不补。&lt;/p>
+&lt;p>有人说&amp;quot;这不精确&amp;quot;——但先做到这一步，已经比凭感觉拍数靠谱十倍。&lt;/p>
+&lt;hr>
+&lt;p>预测永远不可能100%准确，但把准确率从50%提到80%，就是真金白银的库存释放和缺货避免。&lt;/p>
+&lt;p>别等到又压了500万货或者又断货被投诉再想起预测。就从今天起，把上面三条腿跑起来。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

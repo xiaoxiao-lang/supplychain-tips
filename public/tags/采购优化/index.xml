@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E4%BC%98%E5%8C%96/</link><description>Recent content in 采购优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用错了三年，我才发现白干了</title><link>https://supplychain-tips.pages.dev/posts/abc-class-927/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-class-927/</guid><description>&lt;p>干了三年库存管理，每月惯例：拉SKU列表，按销售额从高到低排，前20%叫A，中间30%叫B，后面50%叫C。然后洋洋洒洒写报告：A类重点管理，C类放松管理。&lt;/p>
+&lt;p>老板过了新鲜劲就不看了——因为他发现不管你怎么分类，库存该压还是压，缺货该缺还是缺。&lt;/p>
+&lt;p>后来我才明白：只按金额做ABC，是你库存永远理不顺的根源。&lt;/p>
+&lt;h3 id="你以为a类最重要但它刚好不缺货">你以为A类最重要，但它刚好不缺货&lt;/h3>
+&lt;p>典型的误区：年销售额最高的SKU划A类，给它最严格的库存管理。&lt;/p>
+&lt;p>但真实情况是什么？A类SKU是爆款，供应商把它当重点客户，交期从来不会超过3天。你盯着它管得死死的，纯属浪费精力。&lt;/p>
+&lt;p>反而是一个C类SKU——一年只卖几千块钱——却是产线装配必须用的螺丝。缺了它就全线停。但你按ABC把它划在&amp;quot;不用多操心&amp;quot;的C类区域。&lt;/p>
+&lt;p>所以正确的做法是：&lt;strong>至少引入第二个维度——关键性&lt;/strong>。不是看它贡献了多少销售额，是看它缺货的代价有多大。&lt;/p>
+&lt;h3 id="二维abc才是库存管理的正解">二维ABC才是库存管理的正解&lt;/h3>
+&lt;p>第一步：纵轴是金额贡献（ABC），横轴是关键性/缺货风险（1/2/3级）。&lt;/p>
+&lt;p>A类+关键3级：核心中的核心，必须严控，安全库存不能省。
+C类+关键3级：金额不起眼，但断不起货——这类货往往被忽略，是定时炸弹。
+A类+关键1级：金额大但通用性强，缺了随时能补的，可以适当放松管理。&lt;/p>
+&lt;p>这样一画，你的管理资源分配就清晰了：宝押在A3和C3上，而不是一刀切对销售额最大的。&lt;/p>
+&lt;h3 id="补上第三维交期的波动性">补上第三维：交期的波动性&lt;/h3>
+&lt;p>还有一个很多人忽视的维度：&lt;strong>供应商交期的稳定性&lt;/strong>。&lt;/p>
+&lt;p>交期越不稳定，安全库存就要越高。哪怕你是B类、C类货，如果供应商上次交期拖了25天，你必须多备。&lt;/p>
+&lt;p>把交期波动和ABC叠加，得出一个「补货策略矩阵」：&lt;/p>
+&lt;ul>
+&lt;li>短交期+稳定 → 可以JIT模式，低库存&lt;/li>
+&lt;li>短交期+不稳定 → 少量安全库存兜底&lt;/li>
+&lt;li>长交期+稳定 → 按节奏批量采购，提前计划&lt;/li>
+&lt;li>长交期+不稳定 → 必须保安全库存，定期复盘供应商&lt;/li>
+&lt;/ul>
+&lt;p>这样你的每个SKU都有一套专属的库存策略，而不是简单的&amp;quot;A类盯得紧一点，C类少看一眼&amp;quot;。&lt;/p>
+&lt;h3 id="落实到人的三个动作">落实到人的三个动作&lt;/h3>
+&lt;p>第一步：把你现有的ABC表重做一遍，加上关键性评分（1-3分）。让生产和技术部门的人帮你判断&amp;quot;缺这个货会停线吗&amp;quot;。&lt;/p>
+&lt;p>第二步：把ABC矩阵贴在采购和仓库都看得见的地方。所有人对同一批SKU的重要性达成共识。&lt;/p>
+&lt;p>第三步：每季度复盘一次。新品变成爆款、旧品淘汰、供应商换人——ABC矩阵是活的，不是挂墙的。&lt;/p>
+&lt;hr>
+&lt;p>ABC分类本身没错，错的是只会单维度。库存管理的核心永远不是分类，是分类之后怎么对症下药。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

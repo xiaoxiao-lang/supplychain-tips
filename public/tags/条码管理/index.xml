@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>条码管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%9D%A1%E7%A0%81%E7%AE%A1%E7%90%86/</link><description>Recent content in 条码管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%9D%A1%E7%A0%81%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库乱成狗，我换了套条码系统就治好了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management/</guid><description>&lt;p>我刚接手那个仓库的时候，盘点准确率82%。&lt;/p>
+&lt;p>什么概念？就是说系统里10个货，实际只有8个在那。剩下两个要么不知道在哪，要么不知道什么变成了什么。&lt;/p>
+&lt;p>我花了三个月把准确率干到了99.6%，老板以为我上了什么高科技。其实就做了一件事：把条码搞对。&lt;/p>
+&lt;h3 id="一个条码打错的代价">一个条码打错的代价&lt;/h3>
+&lt;p>咱们算笔实在账：&lt;/p>
+&lt;ul>
+&lt;li>拣货员拿了错的货，跑到打包区才发现不对，来回一趟：15分钟&lt;/li>
+&lt;li>一天发生5次，就是75分钟&lt;/li>
+&lt;li>一个人工时算30块，一年光这一个错误就是2万7&lt;/li>
+&lt;li>更狠的是发错货的后果：客户退货 + 运费 + 重发 + 差评，一单至少200&lt;/li>
+&lt;/ul>
+&lt;p>一个条码打错，一年可能吃掉你10万利润。&lt;/p>
+&lt;h3 id="条码管理的3个死亡陷阱">条码管理的3个死亡陷阱&lt;/h3>
+&lt;p>&lt;strong>坑1：编码规则不统一&lt;/strong>&lt;/p>
+&lt;p>供应商来料条码是一种格式，入库后你贴的是另一种，出库的时候又是第三种。三个系统、三套编码，神仙也对不上。&lt;/p>
+&lt;p>&lt;strong>坑2：打印质量拉胯&lt;/strong>&lt;/p>
+&lt;p>热敏纸在高温仓库里放两个月，字全花了。碳带打印不清晰，扫码枪死活扫不到。省纸省碳带的钱，远不够赔拣货错误的钱。&lt;/p>
+&lt;p>&lt;strong>坑3：操作流程靠自觉&lt;/strong>&lt;/p>
+&lt;p>没有扫码校验、没有防错机制，全靠员工&amp;quot;自觉&amp;quot;。员工一忙一累，扫码变手输，手输就容易错。流程不强制，就等于没有流程。&lt;/p>
+&lt;h3 id="3步把条码做对">3步把条码做对&lt;/h3>
+&lt;p>&lt;strong>第一步：统一编码&lt;/strong>&lt;/p>
+&lt;p>一个SKU，在所有环节用同一个码。原料入库、半成品流转、成品出库，一条码走到底。别搞什么&amp;quot;内部编码&amp;quot;和&amp;quot;外部编码&amp;quot;，那是给自己挖坑。&lt;/p>
+&lt;p>&lt;strong>第二步：上扫码校验&lt;/strong>&lt;/p>
+&lt;p>拣货扫码 → 系统自动判断是否拣对 → 错了当场报警。这一步成本极低，一个扫码枪几百块，但防错的收益是十万级。&lt;/p>
+&lt;p>&lt;strong>第三步：定期巡检&lt;/strong>&lt;/p>
+&lt;p>每周抽检条码可读率。别等盘点了才发现一堆扫不出来的码。提前发现、提前换。&lt;/p>
+&lt;hr>
+&lt;p>条码管理是最基础的仓库数字化。它不酷、不贵、不性感，但做好了，库存准确率蹭蹭涨。做不好，花再多钱上WMS也是空中楼阁。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

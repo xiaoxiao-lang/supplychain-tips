@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本控制 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC%E6%8E%A7%E5%88%B6/</link><description>Recent content in 物流成本控制 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>物流成本砍掉30%，我只做了这3步</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</guid><description>&lt;p>你有没有这种时候？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流成本控制 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC%E6%8E%A7%E5%88%B6/</link><description>Recent content in 物流成本控制 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>物流成本降了30%后，老板问我为什么之前不干</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-30percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-30percent/</guid><description>&lt;p>上个月做季度复盘，我把物流费用报表投在屏幕上。&lt;/p>
+&lt;p>老板看完愣了十秒：&amp;ldquo;上季度物流费比去年同期降了30%，发货量还涨了12%。你怎么不早干？&amp;rdquo;&lt;/p>
+&lt;p>我苦笑了一下——不是不想早干，是之前所有人都觉得&amp;quot;物流费嘛，市场价格就这样，没什么好砍的&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>这就是物流成本最大的幻觉：你以为透明的东西，其实到处是黑洞。&lt;/strong>&lt;/p>
+&lt;h3 id="你们公司的物流成本大概率报少了">你们公司的物流成本，大概率报少了&lt;/h3>
+&lt;p>很多公司算物流成本，只看一张票——运费。&lt;/p>
+&lt;p>但真正的物流成本至少有五个层次：&lt;/p>
+&lt;p>&lt;strong>第一层：显性运费&lt;/strong>（你报给财务的那个数）&lt;/p>
+&lt;p>&lt;strong>第二层：隐性运费&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>装卸费、保险费、保价费、燃油附加费、偏远地区附加费&lt;/li>
+&lt;li>这些杂费叠加起来，往往占到运费的15-20%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三层：逆向物流&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>退货产生的运费、验货费、重新入库的搬运费&lt;/li>
+&lt;li>很多电商公司的退货物流成本，占到总物流费的25%以上&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第四层：库存持有成本&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>货在路上也是库存。运输时间越长，在途库存成本越高&lt;/li>
+&lt;li>如果你用海运代替空运省了运费，但多出来的在途时间对应的资金成本，你算进去了吗？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第五层：缺货损失&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>物流延迟导致的客户流失、罚款、紧急补货的溢价&lt;/li>
+&lt;li>这个最难算，但往往是最大的隐藏成本&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>把这五层加在一起，你的&amp;quot;物流成本&amp;quot;可能比你以为的高50%以上。&lt;/strong>&lt;/p>
+&lt;h3 id="砍成本的正确逻辑不是砍单价是砍浪费">砍成本的正确逻辑：不是砍单价，是砍&amp;quot;浪费&amp;quot;&lt;/h3>
+&lt;p>大多数公司降物流成本的思路是：找更便宜的承运商、压价、比价。&lt;/p>
+&lt;p>这套路的极限空间一般只有5-10%。压到最后，服务质量也压没了。&lt;/p>
+&lt;p>真正的空间在哪？在&lt;strong>浪费&lt;/strong>上。&lt;/p>
+&lt;p>&lt;strong>浪费一：紧急发货&lt;/strong>&lt;/p>
+&lt;p>你的紧急订单占比是多少？如果超过20%，问题不是物流贵，是你的计划有问题。&lt;/p>
+&lt;p>每次紧急发货，成本通常是正常发货的2-3倍。与其花钱买速度，不如把计划提前一天。&lt;/p>
+&lt;p>算一笔账：把紧急发货占比从25%降到10%，一年能省多少钱？我们公司算出来是&lt;strong>47万&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>浪费二：多次配送&lt;/strong>&lt;/p>
+&lt;p>同一客户一周发三趟，为什么不合并成一趟？&lt;/p>
+&lt;p>配送密度不够，不是因为客户分散，是因为你的调度没做路径优化。TMS系统一跑，能合并的订单比你想的多得多。&lt;/p>
+&lt;p>&lt;strong>浪费三：过度包装&lt;/strong>&lt;/p>
+&lt;p>泡沫填满了箱子，但运费是按体积算的。包装每增加1cm高度，整车装载率就下降一点。&lt;/p>
+&lt;p>换个紧凑的包装方案，运费能降5-10%，破损率还不变。&lt;/p>
+&lt;h3 id="不用投系统3个零成本动作就能降">不用投系统，3个零成本动作就能降&lt;/h3>
+&lt;p>&lt;strong>动作一：做一张&amp;quot;运费异常监控表&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每周拉出所有运费单，标红两类：&lt;/p>
+&lt;ul>
+&lt;li>单票运费超过平均3倍的&lt;/li>
+&lt;li>同一线路同一重量但运费差异超过30%的&lt;/li>
+&lt;/ul>
+&lt;p>这些&amp;quot;异常单&amp;quot;往往藏着大量浪费：错误计价、不合理路线、被坑的附加费。&lt;/p>
+&lt;p>我们公司第一个月按这个表追回了&lt;strong>3.2万&lt;/strong>多收的运费。&lt;/p>
+&lt;p>&lt;strong>动作二：按月跟承运商对账，一笔一笔对&lt;/strong>&lt;/p>
+&lt;p>别月底拿个总数就付了。每笔运费都对：重量对不对？计费方式对不对？附加费合不合理？&lt;/p>
+&lt;p>很多承运商赌的就是你不对账。&lt;/p>
+&lt;p>&lt;strong>动作三：让销售也承担物流成本&lt;/strong>&lt;/p>
+&lt;p>大多数公司销售不关心物流成本——他们只关心&amp;quot;货能不能快点到&amp;quot;。&lt;/p>
+&lt;p>但如果物流费从销售的部门预算里出呢？他们会自动问客户&amp;quot;急不急，不急走普快&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>把成本透明化，是降成本最快的方式。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>物流成本这件事，压价是最笨的办法。真正的降本，是把看不见的成本变得看得见。&lt;/p>
+&lt;p>算全了五层成本，堵上三个浪费口，你也会像我家老板一样问自己：为什么之前不干？&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运输成本砍掉25%，我只动了这3个地方</title><link>https://supplychain-tips.pages.dev/posts/transport-cost-killer/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-cost-killer/</guid><description>&lt;p>2024年初，我接了一个新任务：一个季度内把运输成本降15%。&lt;/p>
+&lt;p>第一反应是——找物流公司压价。&lt;/p>
+&lt;p>结果一轮比价下来，三家承运商报价最低的比现有合同便宜了不到3%。距离15%差得远。&lt;/p>
+&lt;p>我憋了一个礼拜，把过去两年的所有运费单拉出来，一条一条看。&lt;/p>
+&lt;p>然后我发现了一个惊人的事实：&lt;strong>运费高的原因不在单价，在结构&lt;/strong>。&lt;/p>
+&lt;p>真正吃掉你运输成本的，是这三个隐形杀手。&lt;/p>
+&lt;h3 id="第一个杀手你的装载率其实只有65">第一个杀手：你的装载率其实只有65%&lt;/h3>
+&lt;p>搞运输的人都知道一个词叫&amp;quot;满载率&amp;quot;。但你真算过自己的满载率吗？&lt;/p>
+&lt;p>我们公司之前一直觉得自己装得挺满的。直到我把每趟发货的实际重量和车辆核定载重拉出来算了算——平均装载率只有&lt;strong>65%&lt;/strong>。&lt;/p>
+&lt;p>一车能装10吨，你只装了6.5吨就发出去了。剩下3.5吨的运力直接浪费在路上。&lt;/p>
+&lt;p>怎么解决的？三招：&lt;/p>
+&lt;p>&lt;strong>第一招：合并发货日&lt;/strong>。原来每天发一趟，改成隔天发，每趟多装一倍。客户急单走快递，不占用整车运力。&lt;/p>
+&lt;p>&lt;strong>第二招：拼货&lt;/strong>。同方向、同目的地的订单，哪怕差个半天，等一等一起走。物流时效往往卡在目的地配送而不是在途时间，差半天根本不影响。&lt;/p>
+&lt;p>&lt;strong>第三招：换个思路看满载&lt;/strong>。满载不是体积满了，是&lt;strong>成本分摊最优&lt;/strong>。有时候一车装到80%就够了，剩下20%的空间不值得再等半天。&lt;/p>
+&lt;h3 id="第二个杀手空驶里程比你想象的多">第二个杀手：空驶里程比你想象的多&lt;/h3>
+&lt;p>你有没有统计过返程空驶率？&lt;/p>
+&lt;p>我们公司做了才发现，某些线路的回程空驶率高达&lt;strong>40%&lt;/strong>。车开过去了，空着回来。这40%的运费等于白烧了。&lt;/p>
+&lt;p>破局的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>线路配对&lt;/strong>：A→B有货，那就找B→A也有的货。上下游客户如果能在同一条线路上匹配起来，成本直接减半&lt;/li>
+&lt;li>&lt;strong>跟同行拼返程&lt;/strong>：同一条线路上的同行，你帮他运回程货，他帮你运回程货。别觉得丢人，省出来的钱是真金白银&lt;/li>
+&lt;li>&lt;strong>考虑甩挂运输&lt;/strong>：头挂分离，头不等人，到站即甩。车辆利用率能提升30%以上。但这个需要基础设施配合，适合固定线路&lt;/li>
+&lt;/ul>
+&lt;h3 id="第三个杀手你的运输模式本身就错了">第三个杀手：你的运输模式本身就错了&lt;/h3>
+&lt;p>最贵的运输不是运费高的运输，是&lt;strong>用错了模式的运输&lt;/strong>。&lt;/p>
+&lt;p>我见过一个案例：一家电子元器件公司，每次发货5-10公斤，价值几万块，全年都在走顺丰空运。一年运费300多万。&lt;/p>
+&lt;p>后来我们算了笔账：这批货不是急单，客户要3天到就行。改成陆运+保险，时效差半天，价格降到原来的40%。&lt;/p>
+&lt;p>&lt;strong>一个简单的决策矩阵&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>急件&lt;/th>
+ &lt;th>常规件&lt;/th>
+ &lt;th>大票货&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>时效要求&lt;/td>
+ &lt;td>&amp;lt;24h&lt;/td>
+ &lt;td>2-3天&lt;/td>
+ &lt;td>3-7天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>推荐模式&lt;/td>
+ &lt;td>航空快递&lt;/td>
+ &lt;td>公路零担&lt;/td>
+ &lt;td>整车/铁路&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>成本比&lt;/td>
+ &lt;td>100%&lt;/td>
+ &lt;td>30-50%&lt;/td>
+ &lt;td>15-25%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>把每个订单扔进这个矩阵，你会发现自己多花了不少冤枉钱。&lt;/p>
+&lt;p>&lt;strong>另外两个常被忽略的成本杀手&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>隐性装卸费&lt;/strong>：一票货多次倒手，每次装卸都有成本。减少中转次数，成本立竿见影&lt;/li>
+&lt;li>&lt;strong>罚款黑洞&lt;/strong>：超时罚款、破损赔偿、单据差错罚款。很多公司的物流罚款费用比利润还高。把罚款条款搞清楚，该扣的扣，不该扣的据理力争&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>运输成本这件事，别总想着压单价。那个空间太小了。&lt;/p>
+&lt;p>真正的成本藏在结构里：装载率、空驶率、模式匹配。这三个地方动一动，25%真的有戏。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>物流成本砍掉30%，我只做了这3步</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-cut/</guid><description>&lt;p>你有没有这种时候？&lt;/p>
 &lt;p>&lt;strong>老板拍桌子：“物流成本再降10%，不然年终奖别想了！”&lt;/strong>&lt;/p>
 &lt;p>你看着手里的报表——运费涨了、仓储费堆成山、司机还嚷嚷着要加钱。你心里一万个草泥马：&lt;strong>这玩意儿怎么降？总不能让我去开车吧？&lt;/strong>&lt;/p>
 &lt;p>别急。&lt;/p>

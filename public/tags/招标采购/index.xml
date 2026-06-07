@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>招标采购 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/</link><description>Recent content in 招标采购 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/index.xml" rel="self" type="application/rss+xml"/><item><title>招标采购水多深？我踩了5个坑才懂</title><link>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</guid><description>&lt;p>你经历过那种绝望吗？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>招标采购 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/</link><description>Recent content in 招标采购 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%8B%9B%E6%A0%87%E9%87%87%E8%B4%AD/index.xml" rel="self" type="application/rss+xml"/><item><title>招标采购水到底有多深？3个环节最容易翻车</title><link>https://supplychain-tips.pages.dev/posts/bidding-procurement-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-procurement-625/</guid><description>&lt;p>招标采购，表面上看是最公平的采购方式：公开发布、公开评标、谁分高谁中标，流程清清楚楚。&lt;/p>
+&lt;p>但干过采购的人都知道，招标的水，深到你想象不到。&lt;/p>
+&lt;p>围标、串标、陪标、低价抢标高价索赔……这些操作在招标圈里不是秘密，是潜规则。今天把这3个最容易翻车的环节拆开说，你能堵住一个是一个。&lt;/p>
+&lt;h2 id="高危环节一技术参数设置定向锁标的重灾区">高危环节一：技术参数设置——定向锁标的重灾区&lt;/h2>
+&lt;p>技术参数怎么设，决定了谁能来投标、谁来不了。&lt;/p>
+&lt;p>这个环节出问题，通常有两种操作：&lt;/p>
+&lt;p>&lt;strong>操作A：参数定向倾斜&lt;/strong>&lt;/p>
+&lt;p>采购方（或者跟采购方有利益关系的人）在设置技术参数时，把某个供应商的独有参数写进去，其他供应商根本满足不了，只能出局。&lt;/p>
+&lt;p>比如买一台设备，技术参数里写&amp;quot;电机功率必须≥15.7kW&amp;quot;——看着很具体，实际上15.7kW是某品牌独有规格，其他品牌都是15kW或18kW，直接被刷掉。&lt;/p>
+&lt;p>&lt;strong>操作B：参数门槛设太高或太低&lt;/strong>&lt;/p>
+&lt;p>门槛太高，只有一两家能投标，竞争不充分，价格压不下来；门槛太低，来了一堆没有实际能力的供应商，评标工作量巨大，还容易混进皮包公司。&lt;/p>
+&lt;p>&lt;strong>防火墙机制：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>技术参数设置必须经过&amp;quot;三人以上审核&amp;quot;，审核记录留痕存档&lt;/li>
+&lt;li>参数设置完成后，先发&amp;quot;技术交流公告&amp;quot;，让潜在供应商来提问，发现有明显排他性的参数，主动调整&lt;/li>
+&lt;li>引入&amp;quot;参数合规性检查&amp;quot;：对照行业标准，参数不能超出必要的范围，不能指定品牌或型号（可以说&amp;quot;相当于XX品牌性能&amp;quot;，不能直接写品牌名）&lt;/li>
+&lt;/ul>
+&lt;h2 id="高危环节二评标标准设计主观分是操作空间最大的地方">高危环节二：评标标准设计——主观分是操作空间最大的地方&lt;/h2>
+&lt;p>评标标准一般分为两类：客观分（价格、资质、业绩，有就是有，没有就是没有）和主观分（技术方案、售后服务、综合实力，评委打分）。&lt;/p>
+&lt;p>出问题最多的，就是主观分。&lt;/p>
+&lt;p>&lt;strong>典型操作：把主观分权重设得很高（超过40%），然后评委都是&amp;quot;自己人&amp;quot;，想让谁高分谁高分。&lt;/strong>&lt;/p>
+&lt;p>我见过一个案例：某制造企业招标采购仓储管理系统，评标标准里&amp;quot;技术方案&amp;quot;占35%,&amp;ldquo;项目实施能力&amp;quot;占25%，价格只占20%。结果中标的那家，报价比第二名高了40%，技术方案写得花里胡哨，实际实施的时候Bug一堆，半年都没上线。&lt;/p>
+&lt;p>后来内部人透出来：评委都是IT部门的人，他们跟中标供应商之前就有合作，参数和评分标准都是照着人家写的。&lt;/p>
+&lt;p>&lt;strong>科学的评标权重怎么设？&lt;/strong>&lt;/p>
+&lt;p>一个相对合理的参考框架：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>评分维度&lt;/th>
+ &lt;th>建议权重&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>价格&lt;/td>
+ &lt;td>30-40%&lt;/td>
+ &lt;td>太低容易导致高价中标，太高容易引发恶性低价竞争&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>技术&lt;/td>
+ &lt;td>30-35%&lt;/td>
+ &lt;td>客观技术指标占比要高，主观技术方案占比要低&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>商务（资质、业绩、财务状况）&lt;/td>
+ &lt;td>20-25%&lt;/td>
+ &lt;td>证明供应商有履约能力&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>服务（售后、培训、响应速度）&lt;/td>
+ &lt;td>10-15%&lt;/td>
+ &lt;td>不宜过高，避免主观分操纵&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>关键原则：主观分（需要评委自由裁量的部分）总权重不要超过30%。&lt;/strong> 剩下的70%以上，应该是客观分——有就是有，没有就是没有，评委没操作空间。&lt;/p>
+&lt;h2 id="高危环节三合同条款谈判中标后翻脸不认人">高危环节三：合同条款谈判——中标后翻脸不认人&lt;/h2>
+&lt;p>中标公告一发布，很多人觉得采购结束了。其实真正的坑，才刚开始。&lt;/p>
+&lt;p>&lt;strong>常见操作：低价中标，中标后各种理由要求加价。&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;原材料涨价了&amp;rdquo; &amp;ldquo;这个不在报价范围内&amp;rdquo; &amp;ldquo;实施方案需要调整，要增加费用&amp;rdquo;……&lt;/p>
+&lt;p>如果他中标的价格明显低于市场价，那基本可以确定：他就是要先中标，再从合同谈判环节找补回来。&lt;/p>
+&lt;p>&lt;strong>防火墙机制：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>中标价格明显偏低的，要求提供成本构成说明&lt;/strong>。说不清楚的，可以认定为恶意低价竞标，废标。&lt;/li>
+&lt;li>&lt;strong>合同模板在招标前就定好&lt;/strong>，作为招标文件的一部分发出去。中标后只谈细节，不谈框架。谁要求改框架，直接终止签约，启动备选供应商流程。&lt;/li>
+&lt;li>&lt;strong>设履约保证金&lt;/strong>。一般是合同金额的5-10%，履约完成后退还。如果中标后各种理由要求加价，履约保证金就是不退款的筹码。&lt;/li>
+&lt;/ol>
+&lt;h2 id="围标串标的识别信号">围标串标的识别信号&lt;/h2>
+&lt;p>说几个实用的识别信号，碰到这些，要高度警惕：&lt;/p>
+&lt;p>&lt;strong>信号1：几家投标人的报价只差几百块&lt;/strong>&lt;/p>
+&lt;p>正常竞争情况下，不同供应商的报价应该有可见差异。如果3家报价分别是98.5万、98.7万、99万，精确度到了千位都相同——这不是竞争，这是商量好的。&lt;/p>
+&lt;p>&lt;strong>信号2：技术方案雷同&lt;/strong>&lt;/p>
+&lt;p>不同的公司，技术方案写得像双胞胎一样，连错别字都一样——直接废标，全部拉入黑名单。&lt;/p>
+&lt;p>&lt;strong>信号3：投标文件格式高度一致&lt;/strong>&lt;/p>
+&lt;p>字体、排版、甚至标点符号的使用习惯都一样，说明是同一家做的标书，只是换了封面。&lt;/p>
+&lt;p>&lt;strong>信号4：不同投标人的保证金从同一个账户转出&lt;/strong>&lt;/p>
+&lt;p>这是硬证据，一旦发现，直接举报，不仅本次招标作废，还要追究法律责任。&lt;/p>
+&lt;h2 id="招标全流程的10个风险控制点">招标全流程的10个风险控制点&lt;/h2>
+&lt;p>最后，给一个实操清单，照着做，能堵住90%的漏洞：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>招标准备阶段&lt;/strong>：技术参数三人审核、评分标准提前公示征求意见&lt;/li>
+&lt;li>&lt;strong>招标公告发布&lt;/strong>：至少在2个以上公开平台发布，给足够多的供应商参与机会&lt;/li>
+&lt;li>&lt;strong>投标人资格审查&lt;/strong>：资质、业绩、财务状况，查原件，不要只看复印件&lt;/li>
+&lt;li>&lt;strong>标前答疑&lt;/strong>：所有投标人的提问和答复，统一公开发布，不能私下发&lt;/li>
+&lt;li>&lt;strong>开标阶段&lt;/strong>：开标必须有监督人在场，全程录音录像&lt;/li>
+&lt;li>&lt;strong>评标阶段&lt;/strong>：评委从专家库随机抽取，不能指定；评标过程手机上交，不能与外界联系&lt;/li>
+&lt;li>&lt;strong>中标候选人公示&lt;/strong>：至少公示3天，接受异议&lt;/li>
+&lt;li>&lt;strong>合同谈判阶段&lt;/strong>：合同框架不能变，只能谈执行细节&lt;/li>
+&lt;li>&lt;strong>履约阶段&lt;/strong>：分阶段验收，分阶段付款，避免一次性付完钱人跑了&lt;/li>
+&lt;li>&lt;strong>招标档案归档&lt;/strong>：所有文件保存至少15年，以备审计&lt;/li>
+&lt;/ol>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>招标采购不是&amp;quot;一发公告就完事&amp;quot;的标准动作，是一场利益的博弈。&lt;/p></description></item><item><title>招标采购第1年掉过的坑，我替你数了5个</title><link>https://supplychain-tips.pages.dev/posts/bidding-mistakes-5/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-mistakes-5/</guid><description>&lt;p>我第一年做招标采购，差点把公司搞崩。&lt;/p>
+&lt;p>不是夸张。那是一个500万的设备采购，我搞了个公开招标，结果来的全是“陪跑”的。中标的那家，报价比市场价高了30%，我愣是没看出来。&lt;/p>
+&lt;p>后来被领导叫去喝茶，他说：你这不是招标，是送钱。&lt;/p>
+&lt;p>从那以后，我才开始真正搞懂——招标采购这活儿，表面看是走流程，实际上是玩心眼子。&lt;/p>
+&lt;p>今天跟你聊聊，我刚入行时踩过的5个坑。每一个，都让我心疼到睡不着觉。&lt;/p>
+&lt;h3 id="1-别信标书里的最低价中标那是钓鱼">1. 别信标书里的“最低价中标”，那是钓鱼&lt;/h3>
+&lt;p>我踩的第一个坑，就是“最低价中标”。&lt;/p>
+&lt;p>当时有个项目，标书写得明明白白：综合评分法，价格占30%。但实际一看，最后中标的那个，价格压得最低，技术方案烂得一批。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>因为&lt;strong>很多招标，名义上是综合评分，实际上是“最低价中标”的变种&lt;/strong>。价格分权重高到离谱，技术分形同虚设。&lt;/p>
+&lt;p>你以为你在选最好的供应商，实际上你在找最便宜的“冤种”。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标书里，价格分权重别超过30%&lt;/li>
+&lt;li>技术分要量化，别搞“优、良、中、差”这种虚的&lt;/li>
+&lt;li>评标专家里，放两个懂技术的，别全是采购部自己人&lt;/li>
+&lt;/ul>
+&lt;p>记住了：&lt;strong>低价中标，大概率是低价入坑&lt;/strong>。&lt;/p>
+&lt;h3 id="2-供应商的样品跟量产货根本不是一回事">2. 供应商的“样品”，跟量产货根本不是一回事&lt;/h3>
+&lt;p>第二个坑，是“样品陷阱”。&lt;/p>
+&lt;p>当时我搞了一个包装材料的招标。供应商A寄来的样品，做工精细，质感一流。我们全部门都满意。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>量产到货后，打开箱子一看——材质薄了20%，印刷模糊，边角还有毛刺。&lt;/p>
+&lt;p>打电话过去，供应商说：哦，样品是手打的，量产是机器做的，有点误差很正常。&lt;/p>
+&lt;p>我：？？？&lt;/p>
+&lt;p>&lt;strong>这是典型的“样品欺诈”&lt;/strong>。很多供应商为了中标，样品做得比量产好两个档次。等你签了合同，他再偷偷降级。&lt;/p>
+&lt;p>&lt;strong>怎么防？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>样品和量产必须同批次、同工艺&lt;/li>
+&lt;li>合同里写死：量产货必须达到样品标准的90%，否则直接拒收&lt;/li>
+&lt;li>随机抽检，别只看“送检”的那一批&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别让样品变成“演员”&lt;/strong>。&lt;/p>
+&lt;h3 id="3-你以为是公开招标其实是定向内定">3. 你以为是公开招标，其实是“定向内定”&lt;/h3>
+&lt;p>这个坑，我见过太多人摔了。&lt;/p>
+&lt;p>有个同行跟我吐槽：他负责一个500万的项目，公开招标，来了8家供应商。结果中标的那个，报价不是最低，技术不是最好，但就是中了。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>因为&lt;strong>那家供应商的老板，跟评标委员会里某个评委是亲戚&lt;/strong>。&lt;/p>
+&lt;p>你以为是公平竞争，实际上是“关系户”的游戏。&lt;/p>
+&lt;p>&lt;strong>怎么识别？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>看供应商的“历史中标记录”——如果某家公司频繁中标，且评分都很高，大概率有问题&lt;/li>
+&lt;li>看评标过程的“异常分”——如果某个评委给某家公司打了远超其他人的高分，你要警觉&lt;/li>
+&lt;li>看中标后的“变更”——如果中标后频繁修改合同条款，说明之前就有“约定”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别以为你是在“选”供应商，你只是在“走流程”&lt;/strong>。&lt;/p>
+&lt;h3 id="4-价格谈判时别被零头骗了">4. 价格谈判时，别被“零头”骗了&lt;/h3>
+&lt;p>这个坑，是我自己“作”出来的。&lt;/p>
+&lt;p>有一次谈一个设备采购，供应商报价108万。我砍到100万，觉得自己很牛逼。&lt;/p>
+&lt;p>后来跟同行聊天，他说：你信不信，那家供应商的底价是85万？&lt;/p>
+&lt;p>我：？？？&lt;/p>
+&lt;p>&lt;strong>很多采购在谈判时，容易被“整数”和“零头”迷惑&lt;/strong>。&lt;/p>
+&lt;p>供应商报108万，你砍到100万，你以为你赚了8万。但实际上，他的成本可能只有80万。&lt;/p>
+&lt;p>你砍掉的，只是他的“心理价位”，而不是他的“真实底价”。&lt;/p>
+&lt;p>&lt;strong>怎么砍？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先做市场调研，了解同类产品的平均价格&lt;/li>
+&lt;li>不要只盯着“总价”，要拆解到“单价”和“成本项”&lt;/li>
+&lt;li>用“阶梯报价”逼他：你说“如果你能到95万，我直接签合同，不拖”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：谈判不是砍价，是拆解&lt;/strong>。&lt;/p>
+&lt;h3 id="5-合同签了不等于结束履约才是开始">5. 合同签了不等于结束，履约才是开始&lt;/h3>
+&lt;p>最后一个坑，也是最容易忽略的——&lt;strong>履约管理&lt;/strong>。&lt;/p>
+&lt;p>我有个朋友，签了一个200万的IT服务合同。签完合同后，他以为万事大吉，结果供应商拖了3个月才交付，中间各种扯皮。&lt;/p>
+&lt;p>最后项目烂尾，他背了锅。&lt;/p>
+&lt;p>&lt;strong>招标采购的核心，从来不是“拿到合同”，而是“拿到成果”&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>怎么管履约？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>合同里写清楚“交付节点”和“验收标准”&lt;/li>
+&lt;li>每两周开一次进度会，别等到最后才发现问题&lt;/li>
+&lt;li>留10%-20%的尾款，作为“履约保证金”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别让“签完合同”成为你工作的终点&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;p>说了这么多，其实就想告诉你一件事：&lt;/p>
+&lt;p>&lt;strong>招标采购，不是“走流程”，而是“控风险”&lt;/strong>。&lt;/p></description></item><item><title>招标采购水多深？我踩了5个坑才懂</title><link>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tender-pitfalls/</guid><description>&lt;p>你经历过那种绝望吗？&lt;/p>
 &lt;p>凌晨两点，你盯着电脑上密密麻麻的标书，眼睛快瞎了。报价、资质、技术方案……每一个字都认识，连起来就是天书。&lt;/p>
 &lt;p>第二天开标，领导坐你旁边，眼神像刀子。你手心冒汗，心里只有一个念头：千万别出幺蛾子。&lt;/p>
 &lt;p>结果呢？&lt;/p>

@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商管理库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/</link><description>Recent content in 供应商管理库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了800万，老板骂我傻X，直到用了这招</title><link>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</guid><description>&lt;p>&lt;strong>你猜，一个采购最怕什么？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商管理库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/</link><description>Recent content in 供应商管理库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才明白：VMI是个坑还是救星？</title><link>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</guid><description>&lt;p>兄弟，你是不是也干过这种蠢事？&lt;/p>
+&lt;p>仓库堆满了货，财务天天催你清库存，老板拍桌子问你“为什么现金流又断了”。你盯着ERP系统里那一串串红色预警，恨不得把货全烧了换现金。&lt;/p>
+&lt;p>我知道，你不是不努力。你比谁都勤快，天天催供应商发货，月底对着报表发愁。&lt;/p>
+&lt;p>可问题是——&lt;strong>你管得太多了。&lt;/strong>&lt;/p>
+&lt;p>库存压了500万才明白：供应商管理库存（VMI），不是让你把锅甩给供应商，而是让你学会“让专业的人干专业的事”。&lt;/p>
+&lt;p>今天这篇，我就用踩坑换来的血泪经验，给你掰扯清楚：VMI到底怎么玩，才能不翻车？&lt;/p>
+&lt;h3 id="1-vmi不是甩锅神器是信息共享的试金石">1. VMI不是甩锅神器，是“信息共享”的试金石&lt;/h3>
+&lt;p>很多人一听VMI，第一反应是：“太好了，把库存全扔给供应商，我躺着等收货就行！”&lt;/p>
+&lt;p>醒醒。这不是甩锅，这是&lt;strong>信息绑架&lt;/strong>。&lt;/p>
+&lt;p>VMI的核心，不是你让供应商多备货，而是你把自己的需求数据、销售预测、生产计划，&lt;strong>赤裸裸地扔给供应商&lt;/strong>。&lt;/p>
+&lt;p>举个例子：你是个做小家电的采购，月销5000台破壁机。传统玩法是：你下订单，供应商按单生产，你自己扛库存。VMI的玩法是：你把过去6个月的历史销量、未来3个月的促销计划、甚至竞品的动销数据，全给供应商看。然后说：“兄弟，你看这数据，自己决定备多少货吧。”&lt;/p>
+&lt;p>结果呢？供应商比你更懂市场。他一看数据，发现你3月要推新款，旧款库存肯定滞销，直接建议你减单50%。&lt;/p>
+&lt;p>你看，&lt;strong>信息透明了，库存才能降下来&lt;/strong>。&lt;/p>
+&lt;p>踩坑提醒：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别怕数据泄露。&lt;/strong> 签好保密协议，核心数据加密。&lt;/li>
+&lt;li>&lt;strong>别玩虚的。&lt;/strong> 你给虚假预测，供应商就敢给你乱备货。&lt;/li>
+&lt;li>&lt;strong>别做甩手掌柜。&lt;/strong> VMI不是不管理，是换了一种管法——管数据、管流程、管绩效。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-为什么你的vmi项目总是死在信任上">2. 为什么你的VMI项目，总是死在“信任”上？&lt;/h3>
+&lt;p>我见过太多公司，VMI搞了半年就崩盘。&lt;/p>
+&lt;p>原因很简单：&lt;strong>信任破产了。&lt;/strong>&lt;/p>
+&lt;p>采购方觉得“供应商肯定多报了库存”，供应商觉得“你肯定压了我的价格”。双方像防贼一样防着对方，最后数据不共享，系统不打通，项目黄了。&lt;/p>
+&lt;p>VMI是一个&lt;strong>共生系统&lt;/strong>，不是零和博弈。&lt;/p>
+&lt;p>怎么破局？
+&lt;strong>先做小范围试点，用结果换信任。&lt;/strong>&lt;/p>
+&lt;p>别一上来就上全品类。选一个SKU（库存单位）、一家供应商、一个仓库，签3个月协议，约定好：&lt;/p>
+&lt;ul>
+&lt;li>库存水位：安全库存+缓冲库存，谁超了谁买单。&lt;/li>
+&lt;li>补货频率：每天/每周/每旬，数据自动同步。&lt;/li>
+&lt;li>绩效指标：库存周转率、缺货率、库存持有成本。&lt;/li>
+&lt;/ul>
+&lt;p>我亲眼见过一家汽配厂，试点期间库存周转率从4次/年干到了12次/年，缺货率从15%降到2%。供应商那边呢？因为需求稳定，他的生产线利用率提升了20%，成本反而降了。&lt;/p>
+&lt;p>&lt;strong>双赢，才是VMI能走下去的命门。&lt;/strong>&lt;/p>
+&lt;h3 id="3-落地vmi的三字经算通罚">3. 落地VMI的“三字经”：算、通、罚&lt;/h3>
+&lt;p>别信那些高大上的PPT，VMI落地就靠这三个字。&lt;/p>
+&lt;p>&lt;strong>算：&lt;/strong>
+先算清楚你的库存成本。不只是货值，还包括仓储租金、人工、损耗、资金占用。算完你会发现，&lt;strong>库存不是资产，是负债&lt;/strong>。有了这个数字，你才知道VMI到底省了多少钱。&lt;/p>
+&lt;p>&lt;strong>通：&lt;/strong>
+系统打通。别搞“供应商登录你的ERP看数据”这种蠢事，直接API（应用程序接口）对接。实时数据同步，自动触发补货。如果供应商没有系统，那就用Excel模板+邮件，但必须标准化。记住：&lt;strong>手动操作越多，VMI死得越快。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>罚：&lt;/strong>
+制定明确的惩罚机制。比如：供应商补货不及时导致缺货，他赔；你数据不准确导致多备货，你赔。别讲人情，&lt;strong>VMI不是请客吃饭，是商业契约&lt;/strong>。&lt;/p>
+&lt;h3 id="4-那些年我踩过的vmi大坑附避坑指南">4. 那些年我踩过的VMI大坑（附避坑指南）&lt;/h3>
+&lt;p>坑1：库存所有权没厘清
+VMI模式下，库存到底算谁的？有些协议写着“货到VMI仓库，所有权转移”，结果货卖不出去，供应商不认账，你只能自己兜底。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 明确库存所有权转移节点。一般建议：货物从VMI仓库发货到你生产线时，所有权才转移。之前都是供应商的，他得负责。&lt;/p>
+&lt;p>坑2：退货机制不明确
+滞销品怎么办？有些供应商说“你退回来”，但运费谁出？时间窗口多久？没写清楚，最后扯皮。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 提前约定滞销品退货规则：比如超过3个月未动销，供应商必须原价收回；或者按比例折价处理。&lt;/p>
+&lt;p>坑3：数据共享变“毒药”
+你给了供应商数据，他转身卖给竞品怎么办？&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 签数据保密协议，明确违约责任。关键数据脱敏处理，比如只给品类维度，不给具体客户信息。&lt;/p>
+&lt;h3 id="5-vmi的未来从库存管理到协同共赢">5. VMI的未来：从“库存管理”到“协同共赢”&lt;/h3>
+&lt;p>别把VMI当成一个工具，它是一套&lt;strong>生态系统&lt;/strong>。&lt;/p>
+&lt;p>真正的VMI高手，玩的不是“压货”，而是“&lt;strong>预测+协同&lt;/strong>”。&lt;/p>
+&lt;ul>
+&lt;li>你和供应商共享销售预测，他提前备料，你降低缺货风险。&lt;/li>
+&lt;li>你和供应商共建安全库存模型，动态调整，不再拍脑袋。&lt;/li>
+&lt;li>你和供应商一起优化物流，比如用Milk Run（循环取货）降低运输成本。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最牛的公司，VMI做到极致：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率从6次/年飙升到24次/年&lt;/li>
+&lt;li>缺货率从12%降到0.5%&lt;/li>
+&lt;li>供应商的订单波动率下降了40%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这才是供应链的终极形态：不是零和博弈，而是共生共荣。&lt;/strong>&lt;/p></description></item><item><title>库存压了800万，老板骂我傻X，直到用了这招</title><link>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supplier-management/</guid><description>&lt;p>&lt;strong>你猜，一个采购最怕什么？&lt;/strong>&lt;/p>
 &lt;p>不是供应商断货，不是价格涨到天上去——是&lt;strong>老板站在仓库门口，看着堆到天花板的货，转头问你：“这800万的库存，你打算怎么消化？”&lt;/strong>&lt;/p>
 &lt;p>而你，嘴张了三次，一个字都说不出来。&lt;/p>
 &lt;p>这场景，我经历过。三年前，我管一个年采购额2亿的盘子，库存周转率低到被CFO拉进小黑屋谈话。供应商天天催款，销售天天要货，仓库天天喊爆仓。我像个夹心饼干里的果酱，两边挤，哪边都粘。&lt;/p>

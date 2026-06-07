@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>职场干货 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%81%8C%E5%9C%BA%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 职场干货 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%81%8C%E5%9C%BA%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>采购谈判3个致命错误，改一条多省20万</title><link>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips-386/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips-386/</guid><description>&lt;p>上周跟一个做采购的朋友喝酒，他拍着桌子骂：&lt;strong>“MD，供应商那边明明还有15%的降价空间，我愣是没拿下来！”&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>职场干货 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%81%8C%E5%9C%BA%E5%B9%B2%E8%B4%A7/</link><description>Recent content in 职场干货 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%81%8C%E5%9C%BA%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>采购流程优化3步，省下50万冤枉钱</title><link>https://supplychain-tips.pages.dev/posts/procurement-optimization-tips/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-optimization-tips/</guid><description>&lt;hr>
+&lt;h3 id="正文">正文&lt;/h3>
+&lt;p>“哥，采购流程优化这个月第8次被老板催了，我快疯了。”
+上周一个做采购的哥们儿半夜发微信，配了张库存报表截图——&lt;strong>堆了8个月的零件，够用到2028年&lt;/strong>。&lt;/p>
+&lt;p>我问他：“你每个月花多少时间找供应商比价？”
+“至少5天，有时候单子急，赶鸭子上架。”
+“流程呢？”
+“一堆Excel表格，签字流程比双11发货还慢。”&lt;/p>
+&lt;p>这兄弟踩的坑，&lt;strong>90%的采购都在踩&lt;/strong>。
+今天不跟你扯理论，就讲3个真实案例，把流程优化掰开揉碎。&lt;/p>
+&lt;hr>
+&lt;h3 id="痛点扎心你的采购流程到底多坑">痛点扎心：你的采购流程到底多坑？&lt;/h3>
+&lt;p>先做个自测：&lt;/p>
+&lt;ul>
+&lt;li>下单到到货，平均要几天？&lt;/li>
+&lt;li>供应商报价，你手动比价还是靠Excel函数？&lt;/li>
+&lt;li>库存数据，每次月底盘点才准？&lt;/li>
+&lt;/ul>
+&lt;p>如果答案全是前者，恭喜，你公司至少&lt;strong>每年白扔50万&lt;/strong>。&lt;/p>
+&lt;p>我见过最离谱的案例：
+某电子厂采购部，&lt;strong>7个人每天花3小时填单子&lt;/strong>，结果订单漏发率18%。
+老板问为啥不优化？部门经理说“这是传统”。
+传统？传统是让你亏钱的理由吗？&lt;/p>
+&lt;hr>
+&lt;h3 id="-第1步砍掉僵尸流程用数据说话">### 第1步：砍掉“僵尸流程”，用数据说话&lt;/h3>
+&lt;p>&lt;strong>别把流程当祖宗供着。&lt;/strong>&lt;/p>
+&lt;p>很多采购流程是10年前设计的，那时候没有OA系统，没有即时通讯。
+现在呢？&lt;strong>审批还要打印纸质单子？&lt;/strong> 醒醒吧。&lt;/p>
+&lt;p>&lt;strong>怎么砍？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>用自动化工具&lt;/strong>：比如钉钉、飞书的审批流，5分钟搞定以前2天的流程。&lt;/li>
+&lt;li>&lt;strong>删减冗余节点&lt;/strong>：采购申请、比价、审批、入库、付款——&lt;strong>真正卡脖子的就2-3个环节&lt;/strong>，其他都是“面子工程”。&lt;/li>
+&lt;li>&lt;strong>数据化决策&lt;/strong>：别再靠经验拍脑袋。用ERP或SaaS工具，把历史采购数据拉出来，&lt;strong>哪个供应商准时率低于80%？哪个品类价格波动超过15%？&lt;/strong> 直接砍掉。&lt;/li>
+&lt;/ol>
+&lt;p>真实案例：
+某汽配公司，之前采购周期平均22天。优化后只保留“需求确认-比价-审批”3个节点，&lt;strong>周期缩到7天&lt;/strong>，库存周转率提升40%。
+老板看完数据，当场给采购团队发了奖金。&lt;/p>
+&lt;hr>
+&lt;h3 id="-第2步把供应商当队友别当备胎">### 第2步：把供应商当“队友”，别当“备胎”&lt;/h3>
+&lt;p>很多采购把供应商当韭菜，&lt;strong>比价往死里压，付款拖到天荒地老&lt;/strong>。
+结果呢？供应商要么偷工减料，要么直接拉黑你。&lt;/p>
+&lt;p>&lt;strong>流程优化核心：建立信任，但留底线。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么做？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>分级管理&lt;/strong>：按准时率、质量、价格把供应商分成A/B/C级。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>A级：长期合作，&lt;strong>直接谈季度价，免比价&lt;/strong>。&lt;/li>
+&lt;li>B级：每季度比价一次，重点监控。&lt;/li>
+&lt;li>C级：淘汰。&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>&lt;strong>共享数据&lt;/strong>：把你的库存预测发给供应商，&lt;strong>让他们提前备货&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>别怕泄密——你没那么重要，但供应商会因此把你当VIP。&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>&lt;strong>付款流程透明化&lt;/strong>：约定“30天付款”，就绝不拖到第31天。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>信誉值钱，比压价省的钱多得多。&lt;/li>
+&lt;/ul>
+&lt;p>真实案例：
+某服装品牌，之前换供应商频率高，质量不稳定。
+优化后，把前5名供应商拉进微信群，&lt;strong>每周同步销售预测&lt;/strong>。
+结果：缺货率从15%降到2%，供应商还主动降价5%。
+采购经理说：“原来信任比压价好使。”&lt;/p>
+&lt;hr>
+&lt;h3 id="-第3步用即时库存代替月末盘点">### 第3步：用“即时库存”代替“月末盘点”&lt;/h3>
+&lt;p>库存是采购流程的“黑洞”。
+&lt;strong>压了500万库存，才知道自己有多蠢。&lt;/strong>&lt;/p>
+&lt;p>传统做法：月底盘点，然后发现一堆废料。
+优化方案：&lt;strong>实时监控+动态调整&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>具体操作：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>上系统&lt;/strong>：别再用Excel了。用简道云、用友、SAP（小公司用免费版也行），&lt;strong>每天自动更新库存数据&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>设置预警线&lt;/strong>：低于安全库存自动补货，高于预警线自动停单。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>比如：某零件安全库存是1000件，低于1000系统直接弹窗提醒采购。&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>&lt;strong>分类管理&lt;/strong>：&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>高周转品&lt;/strong>（月消耗＞10%）：每周补货。&lt;/li>
+&lt;li>&lt;strong>低周转品&lt;/strong>（月消耗＜2%）：季度补货，甚至“零库存”，用的时候临时采购。&lt;/li>
+&lt;/ul>
+&lt;p>真实案例：
+某医疗器械公司，之前库存周转天数90天。
+优化后，用系统监控+安全库存预警，&lt;strong>周转天数降到28天&lt;/strong>，释放了300万现金流。
+老板说：“这比银行贷款还管用。”&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说两句">最后说两句&lt;/h3>
+&lt;p>流程优化不是改个表格、加个审批节点就完事。
+&lt;strong>它是一场对“懒政”和“惯性”的战争。&lt;/strong>&lt;/p></description></item><item><title>采购谈判3个致命错误，改一条多省20万</title><link>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips-386/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips-386/</guid><description>&lt;p>上周跟一个做采购的朋友喝酒，他拍着桌子骂：&lt;strong>“MD，供应商那边明明还有15%的降价空间，我愣是没拿下来！”&lt;/strong>&lt;/p>
 &lt;p>原因很扎心——他先是甩出一句“你们价格太高了”，然后全程盯着对方的眼睛，试图用气场压人。结果对方直接掏出一张成本表，把人工、材料、物流掰开揉碎，最后补一句：“王总，我们真不赚钱了。”&lt;/p>
 &lt;p>他当场噎住。&lt;strong>明明是卖方市场，硬是被玩成了买方弱势。&lt;/strong>&lt;/p>
 &lt;p>这不是个例。我干了8年采购，见过太多人栽在同一个坑里——&lt;strong>把谈判当吵架，把压价当目的&lt;/strong>。今天不说虚的，直接聊3个让你多花20万的致命错误。改了，下季度KPI直接起飞。&lt;/p>

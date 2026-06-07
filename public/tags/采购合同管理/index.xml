@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>合同签不对，采购干到废</title><link>https://supplychain-tips.pages.dev/posts/contract-management-tips/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-tips/</guid><description>&lt;p>你有没有过这种“签完合同想抽自己”的时刻？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>300份合同才悟出来：这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</guid><description>&lt;p>上周翻旧合同的时候，我发现2019年签的一份设备采购合同，交货条款写的是&amp;quot;货到验收后付款&amp;quot;。&lt;/p>
+&lt;p>然后我查了一下，那批货从深圳到青岛，&lt;strong>走了23天&lt;/strong>。&lt;/p>
+&lt;p>供应商说海运排期滞后，合同里没写交货时限，我们一点办法没有。产线停了两周，损失远超那批设备的价值。&lt;/p>
+&lt;p>就这6个字——&amp;ldquo;货到验收后付款&amp;rdquo;——让我明明白白懂了：&lt;strong>采购合同不是模板填填就能签的&lt;/strong>。&lt;/p>
+&lt;h3 id="第一条付款条件写得像许愿">第一条：付款条件写得像许愿&lt;/h3>
+&lt;p>最常见的坑：「验收合格后付款」「安装调试后付款」「正常运行后付款」。&lt;/p>
+&lt;p>这些词在法律上全是模糊地带。&lt;/p>
+&lt;p>什么叫&amp;quot;合格&amp;quot;？谁说了算？按什么标准？多久算&amp;quot;正常运行&amp;quot;？出小问题算不算？供应商完全可以拖到你崩溃。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：付款节点必须跟&lt;strong>可验证的事件&lt;/strong>绑定。&lt;/p>
+&lt;ul>
+&lt;li>❌ &amp;ldquo;验收合格后付90%&amp;rdquo;&lt;/li>
+&lt;li>✅ &amp;ldquo;乙方提供出厂检测报告 + 我方签字确认到货验收单后3个工作日内，支付90%&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>每个付款条件后面，跟一个具体的交付物和明确的时间窗口。&lt;/p>
+&lt;h3 id="第二条违约金的数字是摆设">第二条：违约金的数字是摆设&lt;/h3>
+&lt;p>合同里写&amp;quot;逾期交货每天罚款千分之一&amp;quot;，看着挺吓人的吧？&lt;/p>
+&lt;p>我告诉你，实际执行的时候，供应商会跟你说：&amp;ldquo;这个违约金我们不能接受，这次就算了，下次给你优惠。&amp;rdquo;&lt;/p>
+&lt;p>如果你签了合同就算了，那这个条款等于没写。&lt;/p>
+&lt;p>&lt;strong>三个关键点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>违约金必须有&lt;strong>上限写死&lt;/strong>（比如合同总价的10%-30%），但也要有&lt;strong>下限约束&lt;/strong>（比如超过15天必须无条件退货）&lt;/li>
+&lt;li>违约金不能靠协商，要从&lt;strong>应付账款里直接扣&lt;/strong>&lt;/li>
+&lt;li>重大违约（超过30天不交货）直接触发&lt;strong>单方解约权&lt;/strong>，别给供应商翻盘机会&lt;/li>
+&lt;/ul>
+&lt;h3 id="第三条知识产权是谁的别等出事了才问">第三条：知识产权是谁的，别等出事了才问&lt;/h3>
+&lt;p>我们公司曾经找一家软件公司定制了一套WMS系统。上线半年后供应商倒闭了，源代码拿不到，系统没人维护。&lt;/p>
+&lt;p>然后我们才发现，合同里&lt;strong>根本没写知识产权的归属&lt;/strong>。源代码到底是谁的？我们自己能不能找别人改？悬在半空中。&lt;/p>
+&lt;p>定制品开发合同，必须明确三件事：&lt;/p>
+&lt;ul>
+&lt;li>开发成果的知识产权归甲方&lt;/li>
+&lt;li>源代码交付是验收条件之一&lt;/li>
+&lt;li>供应商倒闭或被收购，甲方有权继续使用并由第三方维护&lt;/li>
+&lt;/ul>
+&lt;p>别觉得&amp;quot;不会这么巧&amp;quot;。供应链从业8年，我见过的倒闭供应商比活着的还多。&lt;/p>
+&lt;h3 id="第四条不可抗力不是供应商的万能挡箭牌">第四条：不可抗力不是供应商的万能挡箭牌&lt;/h3>
+&lt;p>疫情那三年，&amp;ldquo;不可抗力&amp;quot;成了供应商最爱的词。&lt;/p>
+&lt;p>原材料涨价？不可抗力。物流延迟？不可抗力。工人离职招不到人？也说是不可抗力。&lt;/p>
+&lt;p>法院判决里，不可抗力的门槛非常高——必须是&lt;strong>不能预见、不能避免、不能克服&lt;/strong>的客观情况。&lt;/p>
+&lt;p>原材料涨价？对不起，这是商业风险，不是不可抗力。&lt;/p>
+&lt;p>&lt;strong>合同里必须写清楚&lt;/strong>：市场价格波动、劳动力短缺、产能不足——这些不属于不可抗力。别让供应商钻空子。&lt;/p>
+&lt;h3 id="第五条管辖法院写错了维权成本翻10倍">第五条：管辖法院写错了，维权成本翻10倍&lt;/h3>
+&lt;p>合同最后那段&amp;quot;争议解决方式&amp;rdquo;，90%的人直接跳过。&lt;/p>
+&lt;p>但你知道如果写了&amp;quot;供应商所在地法院管辖&amp;quot;，你异地打一个30万的欠款官司，光是差旅费、律师费就要花多少钱吗？&lt;/p>
+&lt;p>一个朋友公司就因为这条，从上海跑到新疆打了大半年官司，诉讼费加上差旅花了十几万，追回来28万。净赚？不存在的。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：「本合同争议由甲方所在地有管辖权的人民法院管辖」。&lt;/p>
+&lt;p>就这一句话，省下的是真金白银。&lt;/p>
+&lt;hr>
+&lt;p>采购合同这件事，签之前觉得每一条都是在跟供应商较劲。签完了才发现，每一条都是在给自己买保险。&lt;/p>
+&lt;p>花半天认真看一遍合同，能省下半年的麻烦。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>合同签不对，采购干到废</title><link>https://supplychain-tips.pages.dev/posts/contract-management-tips/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-management-tips/</guid><description>&lt;p>你有没有过这种“签完合同想抽自己”的时刻？&lt;/p>
 &lt;p>供应商交货晚了3天，你急得跳脚，结果翻出合同一看——&lt;strong>根本没写违约金条款&lt;/strong>。对方摊手：“按合同办事，我没违规啊。”&lt;/p>
 &lt;p>你气得想骂街，但只能憋回去。老板问起来，你只能弱弱说一句：“合同……不是我拟的。”&lt;/p>
 &lt;p>别笑。干采购的，谁没为合同吃过亏？&lt;/p>

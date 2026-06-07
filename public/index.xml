@@ -1,4 +1,2494 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>**库存压了500万才明白的3个血泪教训**</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
+&lt;p>3天停产 + 2天物流 + 产线调整 = 停线5天。直接损失300万，订单延期赔了80万。&lt;/p>
+&lt;p>老板问我：不是有供应商评估吗？我说：评了，优秀。老板又问：那为什么只有一家？我沉默了。&lt;/p>
+&lt;h3 id="供应链最大的风险你以为没事">供应链最大的风险：你以为没事&lt;/h3>
+&lt;p>99%的供应链中断，不是因为天灾，是因为&lt;strong>你认为不会出事&lt;/strong>。&lt;/p>
+&lt;p>你觉得最大的供应商够大够稳，不会倒。结果它资金链断了。&lt;/p>
+&lt;p>你觉得那个小供应商可有可无，没想到它才是你核心物料唯一的来源。&lt;/p>
+&lt;p>你觉得物流有备用方案，真出事了才发现所谓的&amp;quot;备用&amp;quot;只存在PPT里。&lt;/p>
+&lt;h3 id="3个最容易被忽视的致命风险">3个最容易被忽视的致命风险&lt;/h3>
+&lt;p>&lt;strong>第一：二级供应商的黑洞&lt;/strong>&lt;/p>
+&lt;p>你管好了一级供应商，但你的供应商的供应商是谁，你知道吗？&lt;/p>
+&lt;p>一个真实的案例：某汽车厂的一级供应商管理得非常好，但一级供应商的关键原料来自日本一家化工厂。那家化工厂爆炸了，整条链全断。&lt;/p>
+&lt;p>二级供应商的风险，比一级供应商更难防，但杀伤力一样大。&lt;/p>
+&lt;p>&lt;strong>第二：单一节点的脆弱性&lt;/strong>&lt;/p>
+&lt;p>一个仓库覆盖全华东、一家物流公司承运所有线路、一个IT系统跑全部业务。这些&amp;quot;集约化&amp;quot;在成本上是对的，在风险上是错的。&lt;/p>
+&lt;p>&lt;strong>第三：人的风险&lt;/strong>&lt;/p>
+&lt;p>核心采购员离职，供应商联系方式都没留下来。计划员请病假，MRP参数没人会调。这不是段子，是每天都在发生的事。&lt;/p>
+&lt;h3 id="建韧性的3条铁律">建韧性的3条铁律&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>关键物料必须有备选&lt;/strong>。至少一家B供，哪怕份额只有20%，但必须有。试过、验过、能切。&lt;/li>
+&lt;li>&lt;strong>用钱换时间&lt;/strong>。安全库存不是成本，是保险。在关键物料上多备2-3周的库存，花30万库存成本，可能省300万的停线损失。&lt;/li>
+&lt;li>&lt;strong>演练，不只做预案&lt;/strong>。你的应急预案上次演练是什么时候？有几个人知道出了事第一步该干什么？&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>供应链风险管理的本质，是用可控的成本去对冲不可控的损失。你今天为冗余花的每一分钱，都是在为明天的&amp;quot;万一&amp;quot;买保险。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>一票货被海关卡了40天，我学会的3个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-customs/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-customs/</guid><description>&lt;p>去年有一票货，从深圳到洛杉矶。产品不敏感、单证齐全、HS编码也报了。&lt;/p>
+&lt;p>结果到港后被海关抽检，一查HS编码归类有争议，直接扣了40天。&lt;/p>
+&lt;p>40天什么概念？滞港费一天200美金，40天8000美金。仓储费另算。客户天天催，最后还赔了延迟交付违约金。&lt;/p>
+&lt;p>&lt;strong>整票货的利润，全被滞港费和罚款吃光了。&lt;/strong> 还不算丢了客户的隐性成本。&lt;/p>
+&lt;h3 id="跨境物流成本大头不是运费是关务">跨境物流成本大头：不是运费，是关务&lt;/h3>
+&lt;p>很多人做跨境，心思全花在比运费上。广州到洛杉矶，找A货代一公斤18块，找B货代16块，省了两块钱觉得赚了。&lt;/p>
+&lt;p>但你的HS编码报对了吗？产地证做对了吗？关税税率用的是哪个？&lt;/p>
+&lt;p>运费上省了2000块，关务上亏了20000块。这种事情每天都在发生。&lt;/p>
+&lt;h3 id="3个关务避坑法则">3个关务避坑法则&lt;/h3>
+&lt;p>&lt;strong>法则1：HS编码别偷懒&lt;/strong>&lt;/p>
+&lt;p>大部分小外贸公司报HS编码，是找货代随便报的。货代也不是专家，他们怎么方便怎么报。&lt;/p>
+&lt;p>HS编码决定了你的关税税率。报错编码，轻则补税罚款，重则被认定&amp;quot;申报不实&amp;quot;进黑名单，以后票票被查。&lt;/p>
+&lt;p>花2000块请个专业报关行，比你自己瞎报强一万倍。&lt;/p>
+&lt;p>&lt;strong>法则2：原产地证是省钱神器&lt;/strong>&lt;/p>
+&lt;p>很多国家之间有自贸协定，有关税优惠。中国-东盟自贸区、RCEP、中澳FTA，税率能差好几十个百分点。&lt;/p>
+&lt;p>但前提是你得有原产地证。一份原产地证几百块，省下来的关税可能是几万块。这个ROI你自己算。&lt;/p>
+&lt;p>&lt;strong>法则3：目的国政策提前查&lt;/strong>&lt;/p>
+&lt;p>你今天要发的货，目的国海关最近在查什么？什么品类是重点抽检对象？&lt;/p>
+&lt;p>美国查知识产权、欧盟查CE认证和REACH、东南亚查低报货值。对应的坑提前知道，单证提前准备好，被卡的几率至少降低一半。&lt;/p>
+&lt;hr>
+&lt;p>跨境物流，七分在关务，三分在运输。把报关清关做专业了，运费贵一点反而总成本更低。这个账，做过的人都知道。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库乱成狗，我换了套条码系统就治好了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management/</guid><description>&lt;p>我刚接手那个仓库的时候，盘点准确率82%。&lt;/p>
+&lt;p>什么概念？就是说系统里10个货，实际只有8个在那。剩下两个要么不知道在哪，要么不知道什么变成了什么。&lt;/p>
+&lt;p>我花了三个月把准确率干到了99.6%，老板以为我上了什么高科技。其实就做了一件事：把条码搞对。&lt;/p>
+&lt;h3 id="一个条码打错的代价">一个条码打错的代价&lt;/h3>
+&lt;p>咱们算笔实在账：&lt;/p>
+&lt;ul>
+&lt;li>拣货员拿了错的货，跑到打包区才发现不对，来回一趟：15分钟&lt;/li>
+&lt;li>一天发生5次，就是75分钟&lt;/li>
+&lt;li>一个人工时算30块，一年光这一个错误就是2万7&lt;/li>
+&lt;li>更狠的是发错货的后果：客户退货 + 运费 + 重发 + 差评，一单至少200&lt;/li>
+&lt;/ul>
+&lt;p>一个条码打错，一年可能吃掉你10万利润。&lt;/p>
+&lt;h3 id="条码管理的3个死亡陷阱">条码管理的3个死亡陷阱&lt;/h3>
+&lt;p>&lt;strong>坑1：编码规则不统一&lt;/strong>&lt;/p>
+&lt;p>供应商来料条码是一种格式，入库后你贴的是另一种，出库的时候又是第三种。三个系统、三套编码，神仙也对不上。&lt;/p>
+&lt;p>&lt;strong>坑2：打印质量拉胯&lt;/strong>&lt;/p>
+&lt;p>热敏纸在高温仓库里放两个月，字全花了。碳带打印不清晰，扫码枪死活扫不到。省纸省碳带的钱，远不够赔拣货错误的钱。&lt;/p>
+&lt;p>&lt;strong>坑3：操作流程靠自觉&lt;/strong>&lt;/p>
+&lt;p>没有扫码校验、没有防错机制，全靠员工&amp;quot;自觉&amp;quot;。员工一忙一累，扫码变手输，手输就容易错。流程不强制，就等于没有流程。&lt;/p>
+&lt;h3 id="3步把条码做对">3步把条码做对&lt;/h3>
+&lt;p>&lt;strong>第一步：统一编码&lt;/strong>&lt;/p>
+&lt;p>一个SKU，在所有环节用同一个码。原料入库、半成品流转、成品出库，一条码走到底。别搞什么&amp;quot;内部编码&amp;quot;和&amp;quot;外部编码&amp;quot;，那是给自己挖坑。&lt;/p>
+&lt;p>&lt;strong>第二步：上扫码校验&lt;/strong>&lt;/p>
+&lt;p>拣货扫码 → 系统自动判断是否拣对 → 错了当场报警。这一步成本极低，一个扫码枪几百块，但防错的收益是十万级。&lt;/p>
+&lt;p>&lt;strong>第三步：定期巡检&lt;/strong>&lt;/p>
+&lt;p>每周抽检条码可读率。别等盘点了才发现一堆扫不出来的码。提前发现、提前换。&lt;/p>
+&lt;hr>
+&lt;p>条码管理是最基础的仓库数字化。它不酷、不贵、不性感，但做好了，库存准确率蹭蹭涨。做不好，花再多钱上WMS也是空中楼阁。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商报价砍一半还有利润，你信不信？</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>我认识一个采购老哥，干了8年，降本考核年年第一。&lt;/p>
+&lt;p>他的秘诀不是会砍价。他跟我说了一句话：&lt;strong>你见过哪个供应商会报成本价？&lt;/strong>&lt;/p>
+&lt;p>真正的高手，不是谈判桌上有多狠，是进谈判室之前，已经知道对方成本大概是多少了。&lt;/p>
+&lt;h3 id="第一招拆bom从材料端反推">第一招：拆BOM，从材料端反推&lt;/h3>
+&lt;p>供应商报价100块，你怎么知道贵不贵？&lt;/p>
+&lt;p>打开BOM表，查原材料行情。铁多少钱一吨、铜多少钱一公斤、塑料粒子什么价，这些都是公开信息。把材料成本算出来，再加上合理的加工费、管理费用，供应商的底线你就摸到了。&lt;/p>
+&lt;p>我见过最夸张的案例，一个机加工件，供应商报价380，我朋友拆完BOM算出来材料加加工费不超过120。最后谈到155，对方还有得赚。&lt;/p>
+&lt;p>不是供应商黑，是你懒得算。&lt;/p>
+&lt;h3 id="第二招算tco别只看单价">第二招：算TCO，别只看单价&lt;/h3>
+&lt;p>采购成本不是发票上的那个数字。&lt;/p>
+&lt;p>一台设备报价便宜5万，但耗电量比竞品高了40%，三年电费多出8万。你买的时候觉得自己捡了便宜，用起来才知道被坑了。&lt;/p>
+&lt;p>&lt;strong>TCO（总拥有成本）= 采购价 + 运输 + 安装 + 培训 + 运维 + 能耗 + 配件 + 报废处理&lt;/strong>&lt;/p>
+&lt;p>只有算过TCO，你才知道哪家是真的便宜。&lt;/p>
+&lt;h3 id="第三招建成本模型不只比一家">第三招：建成本模型，不只比一家&lt;/h3>
+&lt;p>别拿着三家报价就比价。要建自己行业的成本数据库。&lt;/p>
+&lt;p>同一个品类，你跟3家供方打过交道，就能摸出一个大概的成本区间。跟5家打过，就能建出一个粗略的成本模型。跟10家打过，供应商的报价在你面前基本就是透明的。&lt;/p>
+&lt;p>有个做电子的采购经理，花了半年把PCB、连接器、线束、包材四大类成本模型建起来以后，供应商报价第一次就被他看穿了水分，降本率从5%直接跳到了18%。&lt;/p>
+&lt;h3 id="最狠的一招共享降本">最狠的一招：共享降本&lt;/h3>
+&lt;p>别一味压价。你压太狠，供应商要么偷工减料，要么找机会涨价找补回来。&lt;/p>
+&lt;p>聪明人会跟供应商说：我们一起把这个成本降下来，省下来的钱五五分。&lt;/p>
+&lt;p>你帮供应商优化工艺、改进包装、合并物流，降下来的成本实实在在。比你拍桌子砍价效果好一百倍，而且供应商还感激你。&lt;/p>
+&lt;hr>
+&lt;p>采购成本分析，本质上是用数据替代感觉。你的成本模型越精确，你在谈判桌上的底气就越足。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商评估表填了三年，全是废纸</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</guid><description>&lt;p>我问你一个问题：你们公司最近一次供应商评估，结果是什么？&lt;/p>
+&lt;p>大概率是全合格。最多有一两家走个过场被&amp;quot;降级&amp;quot;，过两个月又调回来了。&lt;/p>
+&lt;p>这不是评估，这是演戏。演给审计看的，演给管理层看的，连供应商都知道你们在演戏。&lt;/p>
+&lt;h3 id="为什么你的供应商评估是废纸">为什么你的供应商评估是废纸&lt;/h3>
+&lt;p>因为你的评估维度错了。&lt;/p>
+&lt;p>大部分公司的供应商评估是：质量 + 交期 + 价格 + 服务，各给个权重，然后打分。分高的优秀，分低的整改。&lt;/p>
+&lt;p>问题在哪？&lt;strong>你把所有供应商用同一把尺子量。&lt;/strong>&lt;/p>
+&lt;p>A类核心供应商（占了60%采购额的那几个）和C类非关键供应商（一年就买几万块的标准件），能用同一个评估体系吗？&lt;/p>
+&lt;p>C类供应商交期再烂，影响你产线吗？不影响。A类供应商质量波动1%，你整条线可能就废了。&lt;/p>
+&lt;h3 id="供应商分类比打分重要100倍">供应商分类，比打分重要100倍&lt;/h3>
+&lt;p>供应商管理的第一步是分类，不是评估。我的分类方法是：&lt;/p>
+&lt;p>&lt;strong>战略供应商&lt;/strong>：占你采购额大、替代成本高、对核心业务有直接影响。这种供方不是管，是&amp;quot;养&amp;quot;。你要派人驻厂、要做联合改善、要共享需求预测。&lt;/p>
+&lt;p>&lt;strong>杠杆供应商&lt;/strong>：采购额大但市场上替代多。这种就是充分竞争，谁的性价比高用谁。一视同仁地压价，不用心疼。&lt;/p>
+&lt;p>&lt;strong>瓶颈供应商&lt;/strong>：采购额不大但独家供应。这种是最大的风险。你的核心任务不是管理它，是找替代。哪怕暂时替代不了，也要时刻保持&amp;quot;随时能切&amp;quot;的技术储备。&lt;/p>
+&lt;p>&lt;strong>一般供应商&lt;/strong>：小额标准件、市场供应充足。这种不用花太多精力，走个电子竞价就完事了。&lt;/p>
+&lt;h3 id="评估要跟业务动作挂钩">评估要跟业务动作挂钩&lt;/h3>
+&lt;p>评估结果出来，不能只是&amp;quot;及格/不及格&amp;quot;。&lt;/p>
+&lt;p>战略供应商得分偏低 → 派驻厂工程师、开QBR（季度商务评审会）、定改善计划。
+杠杆供应商连续下降 → 直接降份额、引入竞争者。
+瓶颈供应商不配合 → 加速替代开发、暂时维持关系但要亮底牌。&lt;/p>
+&lt;p>每一个评估结果，都要对应一个具体的动作。没有动作的评估，就是一张废纸。&lt;/p>
+&lt;hr>
+&lt;p>供应商评估不是绩效考核，是供应商关系管理。你把它当考核做，供应商就把它当考试过。你把它当关系管理做，供应商才会认真对待。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链黑箱让你每年亏掉15%利润，你敢信？</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>说个扎心的事：90%的中型制造企业，老板不知道自己的货在哪、什么时候到、为什么晚了。&lt;/p>
+&lt;p>问采购，采购说供应商没发货。问物流，物流说路上堵。问仓库，仓库说系统没更新。&lt;/p>
+&lt;p>你仔细想想，每个环节都在说谎，但你不是柯南，你查不过来。&lt;/p>
+&lt;p>这就是供应链黑箱——每一个你看不见的环节，都在偷偷吃掉你的利润。&lt;/p>
+&lt;h3 id="供应链黑箱的3个成本漏洞">供应链黑箱的3个成本漏洞&lt;/h3>
+&lt;p>&lt;strong>第一个：信息延迟&lt;/strong>&lt;/p>
+&lt;p>订单下了三天，采购才手动录入ERP。供应商发货了，物流没更新。到货了，仓库忙了两天才入系统。&lt;/p>
+&lt;p>这个延迟，至少让安全库存多备了20%。你多压的那20%库存，就是你为自己&amp;quot;看不见&amp;quot;付的税。&lt;/p>
+&lt;p>&lt;strong>第二个：异常不可见&lt;/strong>&lt;/p>
+&lt;p>供应商换人了、工厂停电了、路上堵车了——这些事每时每刻都在发生，但你是最后一个知道的。&lt;/p>
+&lt;p>等到客户催货你才知道晚了，这时候只能用加急/空运/赔钱来解决。一票加急的成本，够上一套可视化系统了。&lt;/p>
+&lt;p>&lt;strong>第三个：决策靠拍脑袋&lt;/strong>&lt;/p>
+&lt;p>没有实时数据，你做的每一个决策——备多少货、选哪家物流、定什么交期——靠的都是经验加运气。&lt;/p>
+&lt;p>经验会过时，运气会用完。&lt;/p>
+&lt;h3 id="3步把黑箱变白箱">3步把黑箱变白箱&lt;/h3>
+&lt;p>别一上来就想搞几百万的数字孪生。供应链可视化不是买大屏，是建数据链路。&lt;/p>
+&lt;p>&lt;strong>第1步：打通系统间的数据&lt;/strong>&lt;/p>
+&lt;p>你的ERP、WMS、TMS、SRM，装了一大堆系统，但互相不说话。第一步，选一个最痛的环节，把两个系统的数据连起来。&lt;/p>
+&lt;p>比如先打通采购和库存：采购订单下了，库存自动预占。这一步做好了，至少省掉3个人天/周的对账工作。&lt;/p>
+&lt;p>&lt;strong>第2步：建关键节点监控&lt;/strong>&lt;/p>
+&lt;p>别什么都监控，盯住这3个点就够了：&lt;/p>
+&lt;ul>
+&lt;li>订单到发货的时间差（供应商效率）&lt;/li>
+&lt;li>在途节点的异常触发（晚于ETA 2小时的主动预警）&lt;/li>
+&lt;li>到货到上架的间隔（仓库吞吐瓶颈）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第3步：可视化呈现，不是做报表&lt;/strong>&lt;/p>
+&lt;p>把数据变成一眼能看懂的图，而不是发给老板的Excel。核心是异常高亮，正常的数据没必要盯着看。&lt;/p>
+&lt;hr>
+&lt;p>供应链可视化不是为了好看，是为了让你比别人快一步发现问题。在供应链这个行当里，快一步，就是钱。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>干了8年供应链，我浓缩出3条能救命的原则</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-lessons/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-lessons/</guid><description>&lt;p>回头看这8年，从排产计划做到供应链总监，最大的感触是：供应链这行，聪明人太多，明白人太少。&lt;/p>
+&lt;p>太多人去追新概念、考各种证、学各种方法论，但真正让一条供应链活着、跑稳的东西，就那么几条朴素到土的原则。&lt;/p>
+&lt;h3 id="原则一永远给上游留余量">原则一：永远给上游留余量&lt;/h3>
+&lt;p>我刚入行的时候，喜欢把供应商的交期压到极限。我觉得供应商说10天，肯定能压到7天。供应商答应了，我觉得自己特牛。&lt;/p>
+&lt;p>直到有一天，供应商晚了3天，整条产线停等。老板问我怎么回事，我说供应商的问题。老板说了一句我记了8年的话：&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;你把人家逼到墙角，人家拿什么给你扛风险？&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>从那以后我学乖了。关键物料的采购周期，永远留15%-20%的buffer。供应商感受到的不是压力是信任，反而交得更准。&lt;/p>
+&lt;p>供应链不是压榨游戏，是共生关系。你把上游压死了，下一个死的就是你。&lt;/p>
+&lt;h3 id="原则二能看见的问题都不是大问题">原则二：能看见的问题都不是大问题&lt;/h3>
+&lt;p>新手最怕出事，一出问题就慌。老手最怕的恰恰相反：&lt;strong>看不出问题&lt;/strong>。&lt;/p>
+&lt;p>有异常不可怕，有异常你能处理。可怕的是库存刚刚好、交期刚刚好、成本刚刚好——一切&amp;quot;刚刚好&amp;quot;意味着链条极具脆弱，一个环节稍微出点偏差，全线崩溃。&lt;/p>
+&lt;p>真正的供应链健康不是&amp;quot;没有问题&amp;quot;，而是&amp;quot;有问题能第一时间知道&amp;quot;。所以你的流程里一定要留&amp;quot;噪音&amp;quot;——日报、异常报警、周例会上的吐槽——这些噪音才是你的预警系统。&lt;/p>
+&lt;h3 id="原则三成本是设计出来的不是砍出来的">原则三：成本是设计出来的，不是砍出来的&lt;/h3>
+&lt;p>很多人以为降本就是跟供应商砍价、减库存、裁人。&lt;/p>
+&lt;p>但一个产品的供应链成本，80%在设计阶段就被锁死了。用什么料、选什么工艺、怎么包装、从哪发货——这些定了，可降的空间就不大了。&lt;/p>
+&lt;p>真正高水平的降本，是把供应链人拉到产品设计阶段就参与决策。换一种料能不能找到更稳定的供应？优化一个结构能不能省掉一道工序？&lt;/p>
+&lt;p>这些才是大钱。比你在采购环节抠那3%强一百倍。&lt;/p>
+&lt;hr>
+&lt;p>这三条原则，说穿了就三个词：留余量、听噪音、向前管。简单到你觉得不值一提，但能做到的人，真的不多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>花50万上AGV，仓库效率反降了30%：自动化不是买设备</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</guid><description>&lt;p>去年有个朋友，老板批了50万预算上AGV，他兴奋得不行，选了市面上最火的一款，恨不能第二天就上线。&lt;/p>
+&lt;p>结果三个月后，仓库效率降了30%，拣货员天天骂，说机器占地方、跑得慢、动不动卡死。老板脸都黑了。&lt;/p>
+&lt;p>这不是AGV的问题，是你把自动化当成了买家电。&lt;/p>
+&lt;h3 id="先算账别先看设备">先算账，别先看设备&lt;/h3>
+&lt;p>大部分人上自动化的第一反应是&amp;quot;市面上有什么&amp;quot;。这是最大的坑。&lt;/p>
+&lt;p>你应该先问：我的仓库瓶颈在哪？是拣货慢？是搬运耗人？还是上架效率低？&lt;/p>
+&lt;p>一个做快消的朋友，仓库3000平，老板想上自动分拣。我去看了以后说：你先把货位重新规划一遍，把高周转SKU放前区，至少能提20%效率。&lt;/p>
+&lt;p>结果他花5000块重排货架，拣货效率提了35%。50万的自动分拣机，暂时不用买了。&lt;/p>
+&lt;h3 id="流程不乱别动设备">流程不乱，别动设备&lt;/h3>
+&lt;p>见过太多人：仓库流程一塌糊涂，盘点都对不上，就想着买套WMS加搬运机器人一步到位。&lt;/p>
+&lt;p>这叫用机器掩盖管理问题，最后机器背锅。&lt;/p>
+&lt;p>自动化前必须先做三件事：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>把流程跑顺&lt;/strong>。拣货路径、上架逻辑、补货规则，这些靠人就能优化的事，别等机器来。&lt;/li>
+&lt;li>&lt;strong>把数据搞准&lt;/strong>。库存准确率不到98%，上什么自动化都是白搭。机器不会猜，你给它错数据，它给你错结果。&lt;/li>
+&lt;li>&lt;strong>把人培训好&lt;/strong>。一线员工不会用、不想用，再好的设备也是废铁。&lt;/li>
+&lt;/ol>
+&lt;h3 id="选设备要看roi不是看ppt">选设备要看ROI，不是看PPT&lt;/h3>
+&lt;p>供应商给你看的多漂亮都没用，你要会算账：&lt;/p>
+&lt;p>&lt;strong>单件处理成本&lt;/strong> = (设备折旧 + 运维 + 能耗) / 日均处理量&lt;/p>
+&lt;p>如果自动化后的单件处理成本比人工还高，那就别上。自动化是为了降本，不是为了装逼。&lt;/p>
+&lt;p>有个做电商仓储的哥们，算完账发现，半自动传送带+人工打包，综合成本比全自动打包机还低15%。果断选了前者。&lt;/p>
+&lt;h3 id="渐进式别一步到位">渐进式，别一步到位&lt;/h3>
+&lt;p>我从无数案例里学到一个铁律：&lt;strong>自动化要从&amp;quot;点&amp;quot;到&amp;quot;线&amp;quot;再到&amp;quot;面&amp;quot;&lt;/strong>。&lt;/p>
+&lt;p>先挑一个环节试点，比如包装环节上个半自动化，跑两个月看效果。效果好再扩展到拣货，拣货好了再连到搬运。&lt;/p>
+&lt;p>一步到位上全自动的结果，十有八九是花了大价钱，买了一堆互相打架的设备。&lt;/p>
+&lt;hr>
+&lt;p>仓储自动化的本质是&amp;quot;用技术放大管理&amp;quot;，不是&amp;quot;用技术替代管理&amp;quot;。你的管理水平到哪里，自动化能帮你的上限就在哪里。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运费涨了30%，真正该砍的不是运价</title><link>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</guid><description>&lt;p>做物流的人经常被老板灵魂拷问：为什么运费又涨了？&lt;/p>
+&lt;p>你解释油价涨了、司机工资涨了、过路费涨了——老板回你一句：那是你的事，我要的是成本降下来。&lt;/p>
+&lt;p>然后你就去跟车队砍价，砍到车队老板说再低就不跑了。运费确实降了5%，但服务质量也降了，迟到、破损、司机不配合——你相当于用自己的KPI换了一个烂服务。&lt;/p>
+&lt;h3 id="运费高八成是虚的">运费高，八成是&amp;quot;虚&amp;quot;的&lt;/h3>
+&lt;p>你知道一辆9米6货车，平均有效装载率是多少吗？&lt;/p>
+&lt;p>全国平均水平不到70%。换句话说，你每发10趟车，有3趟是在&amp;quot;运空气&amp;quot;。这30%的浪费不是运价的问题，是你调度和配载的问题。&lt;/p>
+&lt;p>还有空驶率：车送完货回来是空的，这趟返程油费、过路费、司机工资全白给了。全国干线运输的平均空驶率在35%左右。&lt;/p>
+&lt;p>&lt;strong>算笔账&lt;/strong>：一个月运费100万，装载率提10%、空驶率降10%，两个改善加起来就是大概15-18万的节省。这比你跟车队磨嘴皮子砍价砍出来的多得多。&lt;/p>
+&lt;h3 id="先砍这3个地方比砍运费管用">先砍这3个地方，比砍运费管用&lt;/h3>
+&lt;p>&lt;strong>1. 提高配载率&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>小订单拼车：别什么单都单独发一车，量不够就拼。&lt;/li>
+&lt;li>线路合并：同一个方向的多个小单，合并成一趟整车。&lt;/li>
+&lt;li>轻重搭配：重货和泡货混装，最大化利用车厢体积。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 优化线路，减少回头空车&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>干线做往返闭环：A到B有货，B到A也找货。哪怕返程价格低点，总比空车跑强。&lt;/li>
+&lt;li>用调车平台找回头车：满帮、货拉拉企业版，返程空车运费能有30%-50%的折扣。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 把运费结构拆开看&lt;/strong>&lt;/p>
+&lt;p>运费不只是每公里多少钱。还有装卸费、等候费、超时费、保险费——这些附加费往往占了总运费的15%-25%。&lt;/p>
+&lt;p>你盯着运价砍，供应商转头就在附加费上加回来。真正的做法是把运费结构拆开，每一项单独谈、单独考核。&lt;/p>
+&lt;hr>
+&lt;p>运输降本，核心不是&amp;quot;别人收我多少钱&amp;quot;，而是&amp;quot;我自己的运输效率有多高&amp;quot;。效率不提升，砍价只是朝三暮四的把戏。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>退货率18%的公司，不搞逆向物流等于白干</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics/</guid><description>&lt;p>先问你一个数据：你们公司退货率多少？&lt;/p>
+&lt;p>做电商的，女装退货率30%-40%是常态，3C数码15%-20%，美妆10%-15%。就算是工业品，也有2%-5%的退货。&lt;/p>
+&lt;p>&lt;strong>退货率15%，意味着你每卖100万的货，就有15万要回来。&lt;/strong>&lt;/p>
+&lt;p>但这15万的货回来以后呢？在仓库里堆着、等质检、等上架、等报废处理。每多放一天，货值就打一次折。放够30天，基本就只剩残值了。&lt;/p>
+&lt;h3 id="退货处理的3个吞金黑洞">退货处理的3个吞金黑洞&lt;/h3>
+&lt;p>&lt;strong>黑洞1：时效拖死人&lt;/strong>&lt;/p>
+&lt;p>退回来的货，3天内质检翻新完，还能当新品卖。拖到30天，服装过季了、3C出新款了、包装破损了，基本就只能打折清仓。&lt;/p>
+&lt;p>你算一下：一件退货商品，3天返仓处理卖原价，30天处理打3折。这中间的价差，就是你为&amp;quot;慢&amp;quot;付的钱。&lt;/p>
+&lt;p>&lt;strong>黑洞2：质检标准模糊&lt;/strong>&lt;/p>
+&lt;p>退货质检有没有分级标准？A级（无瑕疵，可当新品）、B级（轻微瑕疵，可打折卖）、C级（严重问题，返厂或报废）。&lt;/p>
+&lt;p>没有分级，要么全报废（浪费），要么全当新品发（被客户投诉翻了）。两个极端都是在亏钱。&lt;/p>
+&lt;p>&lt;strong>黑洞3：流程没有闭环&lt;/strong>&lt;/p>
+&lt;p>退货回来了，问题反馈给前端了吗？是产品质量问题、物流破损、还是客户买错了？&lt;/p>
+&lt;p>如果退货数据只停留在仓库，没有闭环到采购、品控、产品设计，你明年还会继续退同样的货。&lt;/p>
+&lt;h3 id="逆向物流省钱的3个关键">逆向物流省钱的3个关键&lt;/h3>
+&lt;p>&lt;strong>1. 建立快速通道&lt;/strong>&lt;/p>
+&lt;p>退货到仓 → 当天质检 → 48小时内返架。服装电子产品，速度就是钱。学Zara和优衣库的逆向处理时效，快一天就是多赚一天正价。&lt;/p>
+&lt;p>&lt;strong>2. 分级处理消灭浪费&lt;/strong>&lt;/p>
+&lt;p>A级：直接返新品库存。
+B级：走员工内购、Outlet渠道、二手平台。
+C级：返厂维修或拆解回收。&lt;/p>
+&lt;p>每一级都有对应的变现通道，不要让任何一件退货&amp;quot;烂&amp;quot;在仓库里。&lt;/p>
+&lt;p>&lt;strong>3. 数据闭环驱动改善&lt;/strong>&lt;/p>
+&lt;p>退货原因按比例分析：质量瑕疵 → 推给供应商改善；物流破损 → 换包装或换物流商；描述不符 → 改商品详情页。&lt;/p>
+&lt;p>逆向物流的数据，是正向供应链最好的优化依据。&lt;/p>
+&lt;hr>
+&lt;p>退货不是麻烦，是你的供应链反向体检报告。看懂它、用好它，退货率降1个点，利润可能涨3个点。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>300份合同才悟出来：这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</guid><description>&lt;p>上周翻旧合同的时候，我发现2019年签的一份设备采购合同，交货条款写的是&amp;quot;货到验收后付款&amp;quot;。&lt;/p>
+&lt;p>然后我查了一下，那批货从深圳到青岛，&lt;strong>走了23天&lt;/strong>。&lt;/p>
+&lt;p>供应商说海运排期滞后，合同里没写交货时限，我们一点办法没有。产线停了两周，损失远超那批设备的价值。&lt;/p>
+&lt;p>就这6个字——&amp;ldquo;货到验收后付款&amp;rdquo;——让我明明白白懂了：&lt;strong>采购合同不是模板填填就能签的&lt;/strong>。&lt;/p>
+&lt;h3 id="第一条付款条件写得像许愿">第一条：付款条件写得像许愿&lt;/h3>
+&lt;p>最常见的坑：「验收合格后付款」「安装调试后付款」「正常运行后付款」。&lt;/p>
+&lt;p>这些词在法律上全是模糊地带。&lt;/p>
+&lt;p>什么叫&amp;quot;合格&amp;quot;？谁说了算？按什么标准？多久算&amp;quot;正常运行&amp;quot;？出小问题算不算？供应商完全可以拖到你崩溃。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：付款节点必须跟&lt;strong>可验证的事件&lt;/strong>绑定。&lt;/p>
+&lt;ul>
+&lt;li>❌ &amp;ldquo;验收合格后付90%&amp;rdquo;&lt;/li>
+&lt;li>✅ &amp;ldquo;乙方提供出厂检测报告 + 我方签字确认到货验收单后3个工作日内，支付90%&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>每个付款条件后面，跟一个具体的交付物和明确的时间窗口。&lt;/p>
+&lt;h3 id="第二条违约金的数字是摆设">第二条：违约金的数字是摆设&lt;/h3>
+&lt;p>合同里写&amp;quot;逾期交货每天罚款千分之一&amp;quot;，看着挺吓人的吧？&lt;/p>
+&lt;p>我告诉你，实际执行的时候，供应商会跟你说：&amp;ldquo;这个违约金我们不能接受，这次就算了，下次给你优惠。&amp;rdquo;&lt;/p>
+&lt;p>如果你签了合同就算了，那这个条款等于没写。&lt;/p>
+&lt;p>&lt;strong>三个关键点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>违约金必须有&lt;strong>上限写死&lt;/strong>（比如合同总价的10%-30%），但也要有&lt;strong>下限约束&lt;/strong>（比如超过15天必须无条件退货）&lt;/li>
+&lt;li>违约金不能靠协商，要从&lt;strong>应付账款里直接扣&lt;/strong>&lt;/li>
+&lt;li>重大违约（超过30天不交货）直接触发&lt;strong>单方解约权&lt;/strong>，别给供应商翻盘机会&lt;/li>
+&lt;/ul>
+&lt;h3 id="第三条知识产权是谁的别等出事了才问">第三条：知识产权是谁的，别等出事了才问&lt;/h3>
+&lt;p>我们公司曾经找一家软件公司定制了一套WMS系统。上线半年后供应商倒闭了，源代码拿不到，系统没人维护。&lt;/p>
+&lt;p>然后我们才发现，合同里&lt;strong>根本没写知识产权的归属&lt;/strong>。源代码到底是谁的？我们自己能不能找别人改？悬在半空中。&lt;/p>
+&lt;p>定制品开发合同，必须明确三件事：&lt;/p>
+&lt;ul>
+&lt;li>开发成果的知识产权归甲方&lt;/li>
+&lt;li>源代码交付是验收条件之一&lt;/li>
+&lt;li>供应商倒闭或被收购，甲方有权继续使用并由第三方维护&lt;/li>
+&lt;/ul>
+&lt;p>别觉得&amp;quot;不会这么巧&amp;quot;。供应链从业8年，我见过的倒闭供应商比活着的还多。&lt;/p>
+&lt;h3 id="第四条不可抗力不是供应商的万能挡箭牌">第四条：不可抗力不是供应商的万能挡箭牌&lt;/h3>
+&lt;p>疫情那三年，&amp;ldquo;不可抗力&amp;quot;成了供应商最爱的词。&lt;/p>
+&lt;p>原材料涨价？不可抗力。物流延迟？不可抗力。工人离职招不到人？也说是不可抗力。&lt;/p>
+&lt;p>法院判决里，不可抗力的门槛非常高——必须是&lt;strong>不能预见、不能避免、不能克服&lt;/strong>的客观情况。&lt;/p>
+&lt;p>原材料涨价？对不起，这是商业风险，不是不可抗力。&lt;/p>
+&lt;p>&lt;strong>合同里必须写清楚&lt;/strong>：市场价格波动、劳动力短缺、产能不足——这些不属于不可抗力。别让供应商钻空子。&lt;/p>
+&lt;h3 id="第五条管辖法院写错了维权成本翻10倍">第五条：管辖法院写错了，维权成本翻10倍&lt;/h3>
+&lt;p>合同最后那段&amp;quot;争议解决方式&amp;rdquo;，90%的人直接跳过。&lt;/p>
+&lt;p>但你知道如果写了&amp;quot;供应商所在地法院管辖&amp;quot;，你异地打一个30万的欠款官司，光是差旅费、律师费就要花多少钱吗？&lt;/p>
+&lt;p>一个朋友公司就因为这条，从上海跑到新疆打了大半年官司，诉讼费加上差旅花了十几万，追回来28万。净赚？不存在的。&lt;/p>
+&lt;p>&lt;strong>正确写法&lt;/strong>：「本合同争议由甲方所在地有管辖权的人民法院管辖」。&lt;/p>
+&lt;p>就这一句话，省下的是真金白银。&lt;/p>
+&lt;hr>
+&lt;p>采购合同这件事，签之前觉得每一条都是在跟供应商较劲。签完了才发现，每一条都是在给自己买保险。&lt;/p>
+&lt;p>花半天认真看一遍合同，能省下半年的麻烦。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</guid><description>&lt;p>去年我们公司做了一次SKU清理。&lt;/p>
+&lt;p>仓库主管把报表打出来给我看：2000多个SKU，其中&lt;strong>64%的产品在过去一年只卖了不到20件&lt;/strong>。&lt;/p>
+&lt;p>而这些SKU占了仓库面积的40%，占用了上百万的库存资金，每年产生十几万的仓储费用。&lt;/p>
+&lt;p>问题是：老板舍不得砍。他的逻辑是——&amp;ldquo;这个客户偶尔会要，那个产品虽然卖得少但利润高&amp;rdquo;。&lt;/p>
+&lt;p>我花了两个月时间说服他。砍完之后，库存周转率翻了一倍，仓库面积空出来三分之一直接退租了。&lt;/p>
+&lt;p>&lt;strong>这就是SKU管理的真相：80%的麻烦来自你舍不得删的那20%产品。&lt;/strong>&lt;/p>
+&lt;h3 id="为什么你的sku会疯涨">为什么你的SKU会疯涨？&lt;/h3>
+&lt;p>SKU增长就像一个温水煮青蛙的过程，没人察觉，但一直在恶化。&lt;/p>
+&lt;p>&lt;strong>源头一：销售为了拿单，什么都敢承诺&lt;/strong>&lt;/p>
+&lt;p>销售跟客户说：&amp;ldquo;没问题，我们可以定制。&amp;ldquo;然后一个新的SKU就诞生了。&lt;/p>
+&lt;p>一年下来，销售拿了20个定制单，你的SKU就多了20个。每个销量都不大，但每个都得备货。&lt;/p>
+&lt;p>&lt;strong>源头二：研发迭代不留后路&lt;/strong>&lt;/p>
+&lt;p>新产品上线，老产品不下线。三年下来，你同时在卖三代产品，每代又有三四个规格。&lt;/p>
+&lt;p>客户问&amp;quot;老款还有吗&amp;rdquo;，你说&amp;quot;有&amp;rdquo;，于是那个该退市的产品继续占着库位。&lt;/p>
+&lt;p>&lt;strong>源头三：周期性产品的长尾效应&lt;/strong>&lt;/p>
+&lt;p>节日限定款、季节性产品、活动赠品——卖完那一波之后，剩下的库存就成了永久居民。&lt;/p>
+&lt;p>不做一次性清仓，它们就会在你的报表上躺好几年。&lt;/p>
+&lt;h3 id="砍sku的4步法别用感觉要用数据">砍SKU的4步法，别用感觉要用数据&lt;/h3>
+&lt;p>&lt;strong>第一步：拉一张SKU健康度报表&lt;/strong>&lt;/p>
+&lt;p>每个SKU算三个指标：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销量贡献率&lt;/strong> = 该SKU销量 / 总销量&lt;/li>
+&lt;li>&lt;strong>利润贡献率&lt;/strong> = 该SKU毛利 / 总毛利&lt;/li>
+&lt;li>&lt;strong>库存占用率&lt;/strong> = 该SKU库存金额 / 总库存&lt;/li>
+&lt;/ul>
+&lt;p>把三个数排出来，你会发现一个残酷的事实：排名后50%的SKU，加起来贡献的利润不到总利润的5%。&lt;/p>
+&lt;p>&lt;strong>第二步：做四象限分类&lt;/strong>&lt;/p>
+&lt;p>按&amp;quot;销量贡献 vs 利润贡献&amp;quot;画一个矩阵：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>高利润&lt;/th>
+ &lt;th>低利润&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>高销量&lt;/strong>&lt;/td>
+ &lt;td>⭐ 核心款：重点养&lt;/td>
+ &lt;td>⚡ 引流款：保留但控库存&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>低销量&lt;/strong>&lt;/td>
+ &lt;td>💰 利润款：精选保留&lt;/td>
+ &lt;td>🗑️ 僵尸款：直接砍&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>大部分SKU会落在右下角——低销量低利润。这些就是你要砍的对象。&lt;/p>
+&lt;p>&lt;strong>第三步：逐个检查&amp;quot;能不能用别的替代&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每个待砍的SKU，问三个问题：&lt;/p>
+&lt;ul>
+&lt;li>有没有同品类的高销量SKU可以替代？&lt;/li>
+&lt;li>客户能不能接受替代品？&lt;/li>
+&lt;li>砍掉后，对核心客户的订单影响有多大？&lt;/li>
+&lt;/ul>
+&lt;p>如果三个问题答案都是&amp;quot;可以&amp;quot;，直接动手。&lt;/p>
+&lt;p>&lt;strong>第四步：给一个过渡期，但定死截止日期&lt;/strong>&lt;/p>
+&lt;p>别一次性全砍，给销售和客户一个缓冲。比如：三个月后停产，期间只清库存不补货。&lt;/p>
+&lt;p>但截止日期一定要定死，不能一拖再拖。否则三个月后又回到原点。&lt;/p>
+&lt;h3 id="砍sku的三个别">砍SKU的三个&amp;quot;别&amp;quot;&lt;/h3>
+&lt;p>&lt;strong>别用&amp;quot;这个客户很重要&amp;quot;当理由&lt;/strong>&lt;/p>
+&lt;p>每个SKU都绑着一个&amp;quot;重要客户&amp;quot;。但你把所有&amp;quot;重要客户&amp;quot;的SKU加在一起，会发现覆盖了80%的SKU。&lt;/p>
+&lt;p>真正重要的客户，往往买的是你的核心款，不是那些定制款。&lt;/p>
+&lt;p>&lt;strong>别用&amp;quot;万一以后要用&amp;quot;当理由&lt;/strong>&lt;/p>
+&lt;p>库存管理中最贵的四个字就是&amp;quot;以防万一&amp;quot;。为了这个&amp;quot;万一&amp;quot;，你付出了确定的仓储成本、资金占用、过期损耗。&lt;/p>
+&lt;p>&lt;strong>别只用销量，还得看利润&lt;/strong>&lt;/p></description></item><item><title>物流成本降了30%后，老板问我为什么之前不干</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-30percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-30percent/</guid><description>&lt;p>上个月做季度复盘，我把物流费用报表投在屏幕上。&lt;/p>
+&lt;p>老板看完愣了十秒：&amp;ldquo;上季度物流费比去年同期降了30%，发货量还涨了12%。你怎么不早干？&amp;rdquo;&lt;/p>
+&lt;p>我苦笑了一下——不是不想早干，是之前所有人都觉得&amp;quot;物流费嘛，市场价格就这样，没什么好砍的&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>这就是物流成本最大的幻觉：你以为透明的东西，其实到处是黑洞。&lt;/strong>&lt;/p>
+&lt;h3 id="你们公司的物流成本大概率报少了">你们公司的物流成本，大概率报少了&lt;/h3>
+&lt;p>很多公司算物流成本，只看一张票——运费。&lt;/p>
+&lt;p>但真正的物流成本至少有五个层次：&lt;/p>
+&lt;p>&lt;strong>第一层：显性运费&lt;/strong>（你报给财务的那个数）&lt;/p>
+&lt;p>&lt;strong>第二层：隐性运费&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>装卸费、保险费、保价费、燃油附加费、偏远地区附加费&lt;/li>
+&lt;li>这些杂费叠加起来，往往占到运费的15-20%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三层：逆向物流&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>退货产生的运费、验货费、重新入库的搬运费&lt;/li>
+&lt;li>很多电商公司的退货物流成本，占到总物流费的25%以上&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第四层：库存持有成本&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>货在路上也是库存。运输时间越长，在途库存成本越高&lt;/li>
+&lt;li>如果你用海运代替空运省了运费，但多出来的在途时间对应的资金成本，你算进去了吗？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第五层：缺货损失&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>物流延迟导致的客户流失、罚款、紧急补货的溢价&lt;/li>
+&lt;li>这个最难算，但往往是最大的隐藏成本&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>把这五层加在一起，你的&amp;quot;物流成本&amp;quot;可能比你以为的高50%以上。&lt;/strong>&lt;/p>
+&lt;h3 id="砍成本的正确逻辑不是砍单价是砍浪费">砍成本的正确逻辑：不是砍单价，是砍&amp;quot;浪费&amp;quot;&lt;/h3>
+&lt;p>大多数公司降物流成本的思路是：找更便宜的承运商、压价、比价。&lt;/p>
+&lt;p>这套路的极限空间一般只有5-10%。压到最后，服务质量也压没了。&lt;/p>
+&lt;p>真正的空间在哪？在&lt;strong>浪费&lt;/strong>上。&lt;/p>
+&lt;p>&lt;strong>浪费一：紧急发货&lt;/strong>&lt;/p>
+&lt;p>你的紧急订单占比是多少？如果超过20%，问题不是物流贵，是你的计划有问题。&lt;/p>
+&lt;p>每次紧急发货，成本通常是正常发货的2-3倍。与其花钱买速度，不如把计划提前一天。&lt;/p>
+&lt;p>算一笔账：把紧急发货占比从25%降到10%，一年能省多少钱？我们公司算出来是&lt;strong>47万&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>浪费二：多次配送&lt;/strong>&lt;/p>
+&lt;p>同一客户一周发三趟，为什么不合并成一趟？&lt;/p>
+&lt;p>配送密度不够，不是因为客户分散，是因为你的调度没做路径优化。TMS系统一跑，能合并的订单比你想的多得多。&lt;/p>
+&lt;p>&lt;strong>浪费三：过度包装&lt;/strong>&lt;/p>
+&lt;p>泡沫填满了箱子，但运费是按体积算的。包装每增加1cm高度，整车装载率就下降一点。&lt;/p>
+&lt;p>换个紧凑的包装方案，运费能降5-10%，破损率还不变。&lt;/p>
+&lt;h3 id="不用投系统3个零成本动作就能降">不用投系统，3个零成本动作就能降&lt;/h3>
+&lt;p>&lt;strong>动作一：做一张&amp;quot;运费异常监控表&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每周拉出所有运费单，标红两类：&lt;/p>
+&lt;ul>
+&lt;li>单票运费超过平均3倍的&lt;/li>
+&lt;li>同一线路同一重量但运费差异超过30%的&lt;/li>
+&lt;/ul>
+&lt;p>这些&amp;quot;异常单&amp;quot;往往藏着大量浪费：错误计价、不合理路线、被坑的附加费。&lt;/p>
+&lt;p>我们公司第一个月按这个表追回了&lt;strong>3.2万&lt;/strong>多收的运费。&lt;/p>
+&lt;p>&lt;strong>动作二：按月跟承运商对账，一笔一笔对&lt;/strong>&lt;/p>
+&lt;p>别月底拿个总数就付了。每笔运费都对：重量对不对？计费方式对不对？附加费合不合理？&lt;/p>
+&lt;p>很多承运商赌的就是你不对账。&lt;/p>
+&lt;p>&lt;strong>动作三：让销售也承担物流成本&lt;/strong>&lt;/p>
+&lt;p>大多数公司销售不关心物流成本——他们只关心&amp;quot;货能不能快点到&amp;quot;。&lt;/p>
+&lt;p>但如果物流费从销售的部门预算里出呢？他们会自动问客户&amp;quot;急不急，不急走普快&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>把成本透明化，是降成本最快的方式。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>物流成本这件事，压价是最笨的办法。真正的降本，是把看不见的成本变得看得见。&lt;/p>
+&lt;p>算全了五层成本，堵上三个浪费口，你也会像我家老板一样问自己：为什么之前不干？&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
+&lt;p>D是年需求，S是单次订货成本，H是单位持有成本。三个变量套进去，啪，最优订货量就出来了。&lt;/p>
+&lt;p>拿着算出来的数字跟领导汇报，领导听完说了句：&amp;ldquo;你算的这个数，供应商起订量都不够。&amp;rdquo;&lt;/p>
+&lt;p>我当时就懵了。&lt;/p>
+&lt;p>&lt;strong>教科书里的EOQ假设：你可以订任何数量。现实里的供应商：500件起订，少了不卖。&lt;/strong>&lt;/p>
+&lt;p>做了三年我才明白，EOQ最大的价值不是&amp;quot;算出那个完美的数字&amp;quot;，而是让你理解成本和批量之间的关系。至于具体订多少，那是另一回事。&lt;/p>
+&lt;h3 id="eoq假设了3个不存在的前提">EOQ假设了3个不存在的前提&lt;/h3>
+&lt;p>&lt;strong>假设一：需求是均匀的&lt;/strong>&lt;/p>
+&lt;p>EOQ假设每天的消耗量完全一致。但现实呢？月初订单量暴涨，月底清淡如水。促销季翻三倍，淡季打五折。&lt;/p>
+&lt;p>一个全年均匀消耗20000件的产品，EOQ告诉你每次订2000件。但你的实际需求可能是：1月5000件，2月500件，3月3000件。&lt;/p>
+&lt;p>你敢按EOQ来吗？&lt;/p>
+&lt;p>&lt;strong>假设二：订货成本是固定的&lt;/strong>&lt;/p>
+&lt;p>EOQ里S是常数。但现实中的订货成本包括：审批流程的人力、跟供应商沟通的电话费邮件费、入仓的质检费、系统录入的时间成本。&lt;/p>
+&lt;p>这些成本跟订购数量关系不大，跟&lt;strong>采购频次&lt;/strong>正相关。&lt;/p>
+&lt;p>而且在ERP环境下，下单的边际成本趋近于零。你是在系统里点一下，不是发电报。&lt;/p>
+&lt;p>&lt;strong>假设三：补货是瞬时的&lt;/strong>&lt;/p>
+&lt;p>EOQ假设下单后立刻到货。但你的供应商在深圳，你仓库在青岛。路上要走三天。&lt;/p>
+&lt;p>这三天里的消耗，EOQ完全没考虑。&lt;/p>
+&lt;h3 id="eoq真正有用的是它背后的权衡思维">EOQ真正有用的，是它背后的&amp;quot;权衡思维&amp;quot;&lt;/h3>
+&lt;p>虽然EOQ公式用不上，但它教给你的思维方式是无价的。&lt;/p>
+&lt;p>订货量太大 → 库存持有成本高，仓库爆满，资金压在货上。
+订货量太小 → 订货次数多，人力消耗大，每一次都有断货风险。&lt;/p>
+&lt;p>&lt;strong>总成本 = 订货成本 + 持有成本。最优订货量就是两条成本曲线的交点。&lt;/strong>&lt;/p>
+&lt;p>这套&amp;quot;权衡&amp;quot;的逻辑，用在供应链管理的任何地方都对：&lt;/p>
+&lt;ul>
+&lt;li>集中采购 vs 分散采购，权衡的是价格优势和响应速度&lt;/li>
+&lt;li>自建仓库 vs 外包3PL，权衡的是控制力和灵活性&lt;/li>
+&lt;li>空运 vs 海运，权衡的是时效和运费&lt;/li>
+&lt;/ul>
+&lt;p>你不需要算出精确的EOQ数字。你只需要搞清楚：&lt;strong>每增加一个单位，多花的钱和多省的钱，哪个大？&lt;/strong>&lt;/p>
+&lt;p>这个思维，比任何公式都值钱。&lt;/p>
+&lt;h3 id="现实中替代eoq的4个实用方法">现实中替代EOQ的4个实用方法&lt;/h3>
+&lt;p>既然EOQ大部分时候用不了，那现实中怎么办？&lt;/p>
+&lt;p>&lt;strong>方法一：直接跟供应商要经济批量&lt;/strong>&lt;/p>
+&lt;p>供应商对自己的生产成本最清楚。他们的&amp;quot;经济批量&amp;quot;往往就是换产成本最低的那个批量。&lt;/p>
+&lt;p>你问：&amp;ldquo;你们的起订量是多少？满一车是多少？满一条产线最低跑多少？&amp;rdquo;&lt;/p>
+&lt;p>这些数字比EOQ实用得多。&lt;/p>
+&lt;p>&lt;strong>方法二：用ROP（再订货点）替代&lt;/strong>&lt;/p>
+&lt;p>别纠结每次订多少了。先搞清楚什么时候该下单。&lt;/p>
+&lt;p>ROP = 日均消耗 × 补货提前期 + 安全库存。&lt;/p>
+&lt;p>到了这个线就下单。至于订多少——订到你下一次下单前不会断货就行。&lt;/p>
+&lt;p>&lt;strong>方法三：动态批量法&lt;/strong>&lt;/p>
+&lt;p>Silver-Meal、Least Unit Cost、Part-Period Balancing——这些算法考虑的是&amp;quot;未来几期的需求叠加起来，一次性订多少最划算&amp;quot;。&lt;/p>
+&lt;p>比EOQ灵活，比手工算靠谱。Excel一个公式就能搞定。&lt;/p>
+&lt;p>&lt;strong>方法四：如果你SKU上千，别算了&lt;/strong>&lt;/p>
+&lt;p>SKU超过500的，批量优化不如&lt;strong>品类管理&lt;/strong>有效。&lt;/p>
+&lt;p>把SKU按价值-波动性做四象限分类，高价值高波动的重点管，低价值低波动的设个自动补货规则就行了。&lt;/p>
+&lt;p>90%的精力花在10%的SKU上，这才是聪明人的做法。&lt;/p>
+&lt;hr>
+&lt;p>EOQ公式就像驾照科目一——考试要考，但上路之后没人照着开。&lt;/p></description></item><item><title>绿色供应链不是做公益，是救你自己</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-survival/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-survival/</guid><description>&lt;p>去年底，我们公司一个欧洲大客户发来一份文件。&lt;/p>
+&lt;p>标题是《供应商ESG合规要求》。里面列出了47项指标：碳排放数据、冲突矿产声明、包装可回收率、员工权益保障……&lt;/p>
+&lt;p>最后一句话是：&lt;strong>2026年底不达标，直接终止合作。&lt;/strong>&lt;/p>
+&lt;p>这份订单占我们海外营收的35%。当时所有人都慌了。&lt;/p>
+&lt;p>以前总觉得&amp;quot;绿色供应链&amp;quot;是跨国公司的道德表演。轮到自己头上的时候才发现——&lt;strong>这不是做不做的问题，是做慢了就没订单的问题。&lt;/strong>&lt;/p>
+&lt;h3 id="碳关税已经杀到家门口了">碳关税已经杀到家门口了&lt;/h3>
+&lt;p>2023年10月，欧盟碳边境调节机制（CBAM）正式进入过渡期。2026年起全面征收碳关税。&lt;/p>
+&lt;p>简单说：你出口到欧盟的产品，欧盟会根据你生产过程中的碳排放量，向你征收一笔&amp;quot;碳税&amp;quot;。&lt;/p>
+&lt;p>目前覆盖：钢铁、铝、水泥、化肥、电力、氢——这些都是供应链里的基础材料。&lt;/p>
+&lt;p>后续大概率扩展到更多品类。&lt;/p>
+&lt;p>&lt;strong>这意味着什么？&lt;/strong>&lt;/p>
+&lt;p>如果你的供应商是高碳排放的（比如用煤电的钢铁厂），你采购的原材料本身就带着碳成本。这个成本会一层层传导到你的产品上。&lt;/p>
+&lt;p>不管理供应链的碳排放，你的产品在欧洲会越来越贵、越来越没有竞争力。&lt;/p>
+&lt;h3 id="大部分公司搞错的第一件事以为自己的排放很少">大部分公司搞错的第一件事：以为自己的排放很少&lt;/h3>
+&lt;p>&amp;ldquo;我们是做电子组装的，又不是钢铁厂，哪来的碳排放？&amp;rdquo;&lt;/p>
+&lt;p>这是最常见也最要命的误解。&lt;/p>
+&lt;p>碳排放分三个范围：&lt;/p>
+&lt;p>&lt;strong>Scope 1（直接排放）&lt;/strong>：你自家锅炉烧的天然气、公司车队的油耗。这个确实不大。&lt;/p>
+&lt;p>&lt;strong>Scope 2（间接排放）&lt;/strong>：你用的电。如果你的工厂在电网碳排放高的省份，你的Scope 2可能远比你想的大。&lt;/p>
+&lt;p>&lt;strong>Scope 3（供应链排放）&lt;/strong>：你的供应商产生的碳排放。&lt;strong>这个才是大头&lt;/strong>，通常占一家制造企业碳足迹的80-90%。&lt;/p>
+&lt;p>所以你不是没有碳排放——你的碳排放转移到上游去了。而欧盟的CBAM盯的正是这个。&lt;/p>
+&lt;h3 id="搞清楚你的碳足迹没你想的那么贵">搞清楚你的碳足迹，没你想的那么贵&lt;/h3>
+&lt;p>很多中小企业觉得&amp;quot;碳核算&amp;quot;是大公司才玩得起的东西。动辄几十万请咨询公司。&lt;/p>
+&lt;p>其实没那么夸张。现在有不少免费或低成本的工具：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>GHG Protocol&lt;/strong>：国际通用的核算标准，官网有免费指南和Excel模板&lt;/li>
+&lt;li>&lt;strong>碳阻迹、碳衡等国产平台&lt;/strong>：专门面向中小企业，几千块就能做一个基础的碳盘查&lt;/li>
+&lt;li>&lt;strong>地方政府的绿色制造补贴&lt;/strong>：很多省市对碳核算和节能改造有补贴，可能覆盖大部分成本&lt;/li>
+&lt;/ul>
+&lt;p>关键是&lt;strong>先做起来&lt;/strong>，哪怕算得不完美。你的欧洲客户要的不是完美的数据，是你&amp;quot;在算&amp;quot;的态度。&lt;/p>
+&lt;h3 id="绿色供应链的5个现实切入点">绿色供应链的5个现实切入点&lt;/h3>
+&lt;p>&lt;strong>不一定非要搞光伏电站和碳捕捉。中小企业从这几件事开始：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>一、把物流从空运改成海运/铁路&lt;/strong>&lt;/p>
+&lt;p>运输环节的碳排放，空运是海运的&lt;strong>50倍&lt;/strong>。不是急单的情况下，海运+优化计划带来的碳减排，效果最立竿见影。&lt;/p>
+&lt;p>&lt;strong>二、跟供应商要&amp;quot;低碳版&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>同样的原材料，用电弧炉生产的钢材比用高炉生产的碳排放低60%。问你的供应商：有没有低碳选项？哪怕单价高一点，算上碳关税之后可能反而更便宜。&lt;/p>
+&lt;p>&lt;strong>三、包装减量化&lt;/strong>&lt;/p>
+&lt;p>去掉多余的包装层、换可回收材料、减少包装体积。这些动作不仅减碳，还减运费（体积小了）。&lt;/p>
+&lt;p>一个客户把包装体积缩了15%，一年省下运费60多万，顺带完成了客户的减塑KPI。&lt;/p>
+&lt;p>&lt;strong>四、选低碳物流承运商&lt;/strong>&lt;/p>
+&lt;p>现在顺丰、京东物流都提供碳排放数据。以后欧洲客户会要求你提供物流环节的碳足迹。选有数据的承运商，省得以后补。&lt;/p>
+&lt;p>&lt;strong>五、把你的绿电买起来&lt;/strong>&lt;/p>
+&lt;p>如果你的工厂在电力碳排放高的地区，可以买绿电证书（I-REC或国内绿证）。成本不高，但能让你的Scope 2数据立刻好看起来。客户审核的时候，这张证书就是王道。&lt;/p>
+&lt;hr>
+&lt;p>绿色供应链的本质，不是让你拯救地球——是让你&lt;strong>不被市场淘汰&lt;/strong>。&lt;/p>
+&lt;p>当年ISO 9000刚出来的时候，很多人觉得是花架子。后来呢？没有质量管理体系认证，你连投标资格都没有。&lt;/p>
+&lt;p>碳也是一样的逻辑。早一步上车，多一个生存空间。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运了一车危险品，差点把公司干没了</title><link>https://supplychain-tips.pages.dev/posts/dangerous-goods-lessons/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/dangerous-goods-lessons/</guid><description>&lt;p>2022年，有个同行公司出了件事。&lt;/p>
+&lt;p>他们发了一批锂电池，按普通货物申报，走了航空件。结果在机场安检被查到，罚款&lt;strong>47万&lt;/strong>，法人代表被约谈，三个月内所有出口渠道被暂停。&lt;/p>
+&lt;p>那批货值不到20万。罚款是货值的两倍多。&lt;/p>
+&lt;p>老板后来跟我说：&amp;ldquo;我从来不知道电池算危险品。供应商说这是普通货，我就信了。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>危险品运输最可怕的，不是管得严，是你根本不知道自己在运危险品。&lt;/strong>&lt;/p>
+&lt;h3 id="第一个致命问题你根本不知道什么是危险品">第一个致命问题：你根本不知道什么是危险品&lt;/h3>
+&lt;p>很多人以为危险品就是炸药、剧毒化学品、放射性物质。跟自己没关系。&lt;/p>
+&lt;p>但实际上，&lt;strong>日常供应链中到处是危险品&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>锂电池（包括充电宝、电动工具电池、内置锂电池的设备）&lt;/li>
+&lt;li>香水、指甲油、酒精洗手液（易燃液体）&lt;/li>
+&lt;li>制冷剂、气雾罐（压缩气体）&lt;/li>
+&lt;li>磁铁（航空运输有磁场干扰限制）&lt;/li>
+&lt;li>干冰（制冷剂，属于危险品）&lt;/li>
+&lt;li>某些食品添加剂、农药、涂料&lt;/li>
+&lt;/ul>
+&lt;p>我见过一家化妆品公司，每年出口几百万的香水，从来不知道香水算危险品。直到有一次被海关扣了货。&lt;/p>
+&lt;p>&lt;strong>判断标准很简单&lt;/strong>：去查《危险货物品名表》（GB 12268）或联合国UN编号。不确定的，找第三方检测机构出一个&lt;strong>货物运输条件鉴定书&lt;/strong>。&lt;/p>
+&lt;p>这个鉴定书两三千块钱，比起违规罚款，那就是道保险。&lt;/p>
+&lt;h3 id="第二个坑包装认证不是贴个标签那么简单">第二个坑：包装认证不是贴个标签那么简单&lt;/h3>
+&lt;p>普通货物的包装你爱怎么包怎么包。危险品不行。&lt;/p>
+&lt;p>危险品包装需要&lt;strong>UN认证&lt;/strong>——包装上印有UN标志和代码的那种。用普通纸箱发危险品，查到就是违规。&lt;/p>
+&lt;p>而且不同危险品等级，对包装的要求完全不同：&lt;/p>
+&lt;ul>
+&lt;li>一级易燃液体：必须用UN认证铁桶或专用塑料桶&lt;/li>
+&lt;li>锂电池：必须通过UN38.3测试，使用短路防护包装&lt;/li>
+&lt;li>腐蚀品：包装必须抗腐蚀，且有防漏措施&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别自己瞎包&lt;/strong>。找有资质的危险品包装供应商，让他们出包装合格证明。&lt;/p>
+&lt;h3 id="第三个坑申报文件少一个字都能卡死你">第三个坑：申报文件少一个字都能卡死你&lt;/h3>
+&lt;p>危险品运输的文件要求比普通货物严格得多。缺一张纸，货就出不去。&lt;/p>
+&lt;p>基础文件清单：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MSDS（化学品安全技术说明书）&lt;/strong>：16项内容，缺一不可，且必须是中文版&lt;/li>
+&lt;li>&lt;strong>危险品运输条件鉴定书&lt;/strong>：第三方机构出具，有效期通常一年&lt;/li>
+&lt;li>&lt;strong>危险品申报单&lt;/strong>：向承运人申报，内容必须跟MSDS一致&lt;/li>
+&lt;li>&lt;strong>包装证明&lt;/strong>：证明包装符合UN标准&lt;/li>
+&lt;/ul>
+&lt;p>最容易出错的地方：&lt;/p>
+&lt;ul>
+&lt;li>MSDS的UN编号跟实际货物不一致&lt;/li>
+&lt;li>鉴定书过期了还在用&lt;/li>
+&lt;li>申报单填的件数跟实际不一致&lt;/li>
+&lt;li>中文MSDS是机器翻译的，专业术语翻错了&lt;/li>
+&lt;/ul>
+&lt;p>海关和安检不跟你讲情理。信息不符=违规=扣货+罚款。&lt;/p>
+&lt;h3 id="第四个坑不同运输方式的规则完全不一样">第四个坑：不同运输方式的规则完全不一样&lt;/h3>
+&lt;p>你以为拿到一个&amp;quot;危险品可以做&amp;quot;的结论，就什么都能走了？&lt;/p>
+&lt;p>海运、空运、陆运，对危险品的限制各不相同：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>空运最严&lt;/strong>：很多在海运中可接受的危险品，空运是完全禁止的。尤其是锂电池，空运有严格的电量限制&lt;/li>
+&lt;li>&lt;strong>海运相对宽松&lt;/strong>：大部分危险品可以通过集装箱海运，但对拼箱有限制——某些危险品不能跟食品同箱&lt;/li>
+&lt;li>&lt;strong>陆运看各省规定&lt;/strong>：危险品公路运输需要专门的车辆和资质。跨省运输，有些省份对危化品车辆有夜间限行&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>必须逐个确认运输方式的可行性，别用一个结论套所有场景。&lt;/strong>&lt;/p>
+&lt;h3 id="第五个坑出了事故你的保险一分都不赔">第五个坑：出了事故，你的保险一分都不赔&lt;/h3>
+&lt;p>普通货物险不覆盖危险品。如果你的货物按普通货投保，出事了保险公司直接拒赔。&lt;/p>
+&lt;p>危险品运输必须买&lt;strong>专门的危险品运输险&lt;/strong>，保费通常是普通货运险的2-5倍。&lt;/p>
+&lt;p>但千万不要省这笔钱。一次泄漏事故的处理费用可能是运费的50倍。&lt;/p>
+&lt;p>另外，确认你的承运商有危险品运输资质。如果用无资质的车辆运危险品，出了事你的责任比承运商还大。&lt;/p>
+&lt;hr>
+&lt;p>危险品运输是供应链里不能有&amp;quot;差不多&amp;quot;的环节。&lt;/p>
+&lt;p>花两千块做个鉴定、多花五百块买UN认证包装、多填几张申报单——这些不是成本，是最便宜的保险。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运输成本砍掉25%，我只动了这3个地方</title><link>https://supplychain-tips.pages.dev/posts/transport-cost-killer/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-cost-killer/</guid><description>&lt;p>2024年初，我接了一个新任务：一个季度内把运输成本降15%。&lt;/p>
+&lt;p>第一反应是——找物流公司压价。&lt;/p>
+&lt;p>结果一轮比价下来，三家承运商报价最低的比现有合同便宜了不到3%。距离15%差得远。&lt;/p>
+&lt;p>我憋了一个礼拜，把过去两年的所有运费单拉出来，一条一条看。&lt;/p>
+&lt;p>然后我发现了一个惊人的事实：&lt;strong>运费高的原因不在单价，在结构&lt;/strong>。&lt;/p>
+&lt;p>真正吃掉你运输成本的，是这三个隐形杀手。&lt;/p>
+&lt;h3 id="第一个杀手你的装载率其实只有65">第一个杀手：你的装载率其实只有65%&lt;/h3>
+&lt;p>搞运输的人都知道一个词叫&amp;quot;满载率&amp;quot;。但你真算过自己的满载率吗？&lt;/p>
+&lt;p>我们公司之前一直觉得自己装得挺满的。直到我把每趟发货的实际重量和车辆核定载重拉出来算了算——平均装载率只有&lt;strong>65%&lt;/strong>。&lt;/p>
+&lt;p>一车能装10吨，你只装了6.5吨就发出去了。剩下3.5吨的运力直接浪费在路上。&lt;/p>
+&lt;p>怎么解决的？三招：&lt;/p>
+&lt;p>&lt;strong>第一招：合并发货日&lt;/strong>。原来每天发一趟，改成隔天发，每趟多装一倍。客户急单走快递，不占用整车运力。&lt;/p>
+&lt;p>&lt;strong>第二招：拼货&lt;/strong>。同方向、同目的地的订单，哪怕差个半天，等一等一起走。物流时效往往卡在目的地配送而不是在途时间，差半天根本不影响。&lt;/p>
+&lt;p>&lt;strong>第三招：换个思路看满载&lt;/strong>。满载不是体积满了，是&lt;strong>成本分摊最优&lt;/strong>。有时候一车装到80%就够了，剩下20%的空间不值得再等半天。&lt;/p>
+&lt;h3 id="第二个杀手空驶里程比你想象的多">第二个杀手：空驶里程比你想象的多&lt;/h3>
+&lt;p>你有没有统计过返程空驶率？&lt;/p>
+&lt;p>我们公司做了才发现，某些线路的回程空驶率高达&lt;strong>40%&lt;/strong>。车开过去了，空着回来。这40%的运费等于白烧了。&lt;/p>
+&lt;p>破局的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>线路配对&lt;/strong>：A→B有货，那就找B→A也有的货。上下游客户如果能在同一条线路上匹配起来，成本直接减半&lt;/li>
+&lt;li>&lt;strong>跟同行拼返程&lt;/strong>：同一条线路上的同行，你帮他运回程货，他帮你运回程货。别觉得丢人，省出来的钱是真金白银&lt;/li>
+&lt;li>&lt;strong>考虑甩挂运输&lt;/strong>：头挂分离，头不等人，到站即甩。车辆利用率能提升30%以上。但这个需要基础设施配合，适合固定线路&lt;/li>
+&lt;/ul>
+&lt;h3 id="第三个杀手你的运输模式本身就错了">第三个杀手：你的运输模式本身就错了&lt;/h3>
+&lt;p>最贵的运输不是运费高的运输，是&lt;strong>用错了模式的运输&lt;/strong>。&lt;/p>
+&lt;p>我见过一个案例：一家电子元器件公司，每次发货5-10公斤，价值几万块，全年都在走顺丰空运。一年运费300多万。&lt;/p>
+&lt;p>后来我们算了笔账：这批货不是急单，客户要3天到就行。改成陆运+保险，时效差半天，价格降到原来的40%。&lt;/p>
+&lt;p>&lt;strong>一个简单的决策矩阵&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>急件&lt;/th>
+ &lt;th>常规件&lt;/th>
+ &lt;th>大票货&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>时效要求&lt;/td>
+ &lt;td>&amp;lt;24h&lt;/td>
+ &lt;td>2-3天&lt;/td>
+ &lt;td>3-7天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>推荐模式&lt;/td>
+ &lt;td>航空快递&lt;/td>
+ &lt;td>公路零担&lt;/td>
+ &lt;td>整车/铁路&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>成本比&lt;/td>
+ &lt;td>100%&lt;/td>
+ &lt;td>30-50%&lt;/td>
+ &lt;td>15-25%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>把每个订单扔进这个矩阵，你会发现自己多花了不少冤枉钱。&lt;/p>
+&lt;p>&lt;strong>另外两个常被忽略的成本杀手&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>隐性装卸费&lt;/strong>：一票货多次倒手，每次装卸都有成本。减少中转次数，成本立竿见影&lt;/li>
+&lt;li>&lt;strong>罚款黑洞&lt;/strong>：超时罚款、破损赔偿、单据差错罚款。很多公司的物流罚款费用比利润还高。把罚款条款搞清楚，该扣的扣，不该扣的据理力争&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>运输成本这件事，别总想着压单价。那个空间太小了。&lt;/p>
+&lt;p>真正的成本藏在结构里：装载率、空驶率、模式匹配。这三个地方动一动，25%真的有戏。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购流程改了3步，审核时间从5天缩到1小时</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization/</guid><description>&lt;p>2023年我刚接手采购部的时候，最让我崩溃的不是供应商，是内部流程。&lt;/p>
+&lt;p>一张普通的采购申请单，要从申请人→部门经理→采购经理→财务→分管副总→总经理，签到第6个人才能真正下单。&lt;/p>
+&lt;p>平均审批周期：&lt;strong>5个工作日&lt;/strong>。&lt;/p>
+&lt;p>有一次产线等一个急用配件，申请单在副总桌上压了两天。产线停了一天半，损失比这个配件贵100倍。&lt;/p>
+&lt;p>我当时就一个想法：&lt;strong>这个流程不改，多少钱都不够烧。&lt;/strong>&lt;/p>
+&lt;h3 id="你们公司的采购流程大概率在犯这三个错">你们公司的采购流程，大概率在犯这三个错&lt;/h3>
+&lt;p>&lt;strong>第一个错：所有采购走同一套流程&lt;/strong>&lt;/p>
+&lt;p>一支签字笔跟一条产线设备，金额差了几万倍，风险完全不是一个量级。但流程呢？从申请到审批，步数一模一样。&lt;/p>
+&lt;p>结果就是：小额采购被流程拖死，大额采购被快速通道绕过去。&lt;/p>
+&lt;p>&lt;strong>第二个错：审批人太多，但没人真正负责&lt;/strong>&lt;/p>
+&lt;p>6个人签字，你觉得谁对这批货负责？答案是——没人负责。&lt;/p>
+&lt;p>每个人都在看上个环节签了没，每个人都觉得&amp;quot;有问题前面的人会卡&amp;quot;。集体负责等于没人负责。&lt;/p>
+&lt;p>&lt;strong>第三个错：纸质单据满天飞，信息全靠猜&lt;/strong>&lt;/p>
+&lt;p>很多公司采购申请还在用纸质单据或邮件流转。信息不准、版本混乱、同一个审批人忘了自己批了什么。&lt;/p>
+&lt;p>我接手的时候，查不到过去半年任何一张采购单的完整审批轨迹。&lt;/p>
+&lt;h3 id="三步把流程从5天砍到1小时">三步把流程从5天砍到1小时&lt;/h3>
+&lt;p>&lt;strong>第一步：分级审批，不同金额走不同通道&lt;/strong>&lt;/p>
+&lt;p>我画了三道线：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>采购金额&lt;/th>
+ &lt;th>审批层级&lt;/th>
+ &lt;th>时效要求&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&amp;lt; 5000元&lt;/td>
+ &lt;td>部门经理直批&lt;/td>
+ &lt;td>即时&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5000-5万&lt;/td>
+ &lt;td>部门经理 + 采购经理&lt;/td>
+ &lt;td>4小时内&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5万-20万&lt;/td>
+ &lt;td>加财务会签&lt;/td>
+ &lt;td>1个工作日&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&amp;gt; 20万&lt;/td>
+ &lt;td>加分管副总&lt;/td>
+ &lt;td>2个工作日&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>关键设计：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>小额走&amp;quot;事后抽查&amp;quot;模式&lt;/strong>：5000以下不前置审批，每月随机抽10%审计。效率大幅提升，风险可控&lt;/li>
+&lt;li>&lt;strong>紧急采购开绿色通道&lt;/strong>：事后48小时内补手续，但需要有明确的&amp;quot;紧急&amp;quot;定义（比如&amp;quot;产线停机&amp;quot;才算，不能什么都说紧急）&lt;/li>
+&lt;/ul>
+&lt;p>效果：90%的采购单（5000元以下）审批时效从5天变成&lt;strong>即时&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>第二步：把&amp;quot;签字&amp;quot;改成&amp;quot;会签&amp;quot;，并行流转&lt;/strong>&lt;/p>
+&lt;p>原来的流程是串行的：A批完→B批完→C批完。一个人出差，整个链就卡住。&lt;/p>
+&lt;p>改成并行会签：发起后同时推给所有审批人，任一人驳回则退回，全部通过则生效。&lt;/p>
+&lt;p>工具的投入成本几乎为零——企业微信/钉钉自带的审批流就能实现。&lt;/p>
+&lt;p>审批时间从&amp;quot;5天&amp;quot;变成&amp;quot;谁最慢，就是多久&amp;quot;。最慢的那个人，在一群人的注视下，一般不超过4小时。&lt;/p>
+&lt;p>&lt;strong>第三步：数据上线，把&amp;quot;黑箱&amp;quot;变成&amp;quot;透明&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>不用买昂贵的SRM系统。Excel+企业微信就能先跑起来：&lt;/p>
+&lt;ul>
+&lt;li>一张采购台账表：记录每笔采购的申请人、金额、供应商、审批节点耗时&lt;/li>
+&lt;li>每周拉一张&amp;quot;审批卡点排行榜&amp;quot;：哪个环节最慢，谁在拖&lt;/li>
+&lt;li>月度分析报告：同样品类为什么两家供应商价格差30%？&lt;/li>
+&lt;/ul>
+&lt;p>第一次把数据摆在老板面前的时候，老板自己就开始问问题了：&amp;ldquo;为什么A部门的审批总是最慢的？&amp;ldquo;&amp;ldquo;为什么同样规格的配件上个月和下个月价格差了40%？&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>透明本身就是最大的管理力量。&lt;/strong>&lt;/p>
+&lt;h3 id="流程改了回扣漏洞也堵上了">流程改了，回扣漏洞也堵上了&lt;/h3>
+&lt;p>流程优化后，我发现了一个意外的收获。&lt;/p>
+&lt;p>之前，某些采购员有&amp;quot;指定供应商&amp;quot;的自由裁量权。&amp;ldquo;这个只有XX公司能做&amp;rdquo;——这句话你永远无法证伪。&lt;/p>
+&lt;p>现在呢？&lt;strong>比价数据全在台账上&lt;/strong>。同样的品类，别人买80块，你买120块——不需要查回扣，数据自己就会说话。&lt;/p>
+&lt;p>比价不是勾心斗角，是&lt;strong>让数据替你监管&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;p>采购流程这件事，花几十万买系统之前，先把审批逻辑理顺。&lt;/p>
+&lt;p>分级审批、并行流转、数据透明——这三步不需要任何预算，但效果比SRM系统还直接。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购谈判被供应商拿捏？这3招让他主动降价</title><link>https://supplychain-tips.pages.dev/posts/negotiation-mind-game/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/negotiation-mind-game/</guid><description>&lt;p>刚做采购那年，我跟一家包装材料供应商谈判。&lt;/p>
+&lt;p>我准备了8页PPT，列了市场比价数据，算了我方采购体量，做了成本拆解分析。&lt;/p>
+&lt;p>对方听完，笑了笑说：&amp;ldquo;你说的都对。但我们就是这个价，你爱要不要。&amp;rdquo;&lt;/p>
+&lt;p>我当时差点拍了桌子。&lt;/p>
+&lt;p>后来一个做了15年采购的前辈跟我说了一句话，我记到现在：&lt;strong>真正的谈判，发生在你张嘴之前。&lt;/strong>&lt;/p>
+&lt;p>什么意思？谈判桌上是表演，谈判桌下是布局。&lt;/p>
+&lt;h3 id="第一招别谈价格谈供应商的成本">第一招：别谈价格，谈供应商的成本&lt;/h3>
+&lt;p>你跟供应商说&amp;quot;你太贵了&amp;quot;，对方只会说&amp;quot;我们质量好&amp;quot;。&lt;/p>
+&lt;p>但如果你能说&amp;quot;你的原材料成本比去年涨了8%，但你的报价涨了22%，多出来的14%是哪来的？&amp;quot;——这个对话就不一样了。&lt;/p>
+&lt;p>&lt;strong>供应商最怕的不是你压价，是你比他自己还清楚他的成本&lt;/strong>。&lt;/p>
+&lt;p>怎么做？拆三张表：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>原材料成本&lt;/strong>：大宗商品价格都是公开的，查一下就知道了。钢材、塑胶粒、纸浆，全部可追踪&lt;/li>
+&lt;li>&lt;strong>人工成本&lt;/strong>：看对方所在的地区和行业，平均工资水平一查就有&lt;/li>
+&lt;li>&lt;strong>毛利空间&lt;/strong>：问3家同行，交叉验证。毛利高出行业均值的部分，就是你谈判的空间&lt;/li>
+&lt;/ul>
+&lt;p>你不需要拆得100%准确。你只需要让对方知道&amp;quot;你不是什么都不懂&amp;quot;，他的报价自然会收敛。&lt;/p>
+&lt;h3 id="第二招永远准备一个plan-b而且要让他知道">第二招：永远准备一个Plan B，而且要让他知道&lt;/h3>
+&lt;p>心理学上有个效应叫&lt;strong>稀缺性偏差&lt;/strong>——你觉得一样东西重要，是因为你觉得它不可替代。&lt;/p>
+&lt;p>供应商敢硬气，本质上是觉得&amp;quot;你离不开我&amp;quot;。&lt;/p>
+&lt;p>所以你必须在每一次谈判前，准备至少一个真实的替代方案。&lt;/p>
+&lt;p>不一定是换供应商。替代方案可以是：&lt;/p>
+&lt;ul>
+&lt;li>换规格（用另一个型号替代，功能差不多但选择面更广）&lt;/li>
+&lt;li>换来源（进口改国产，一线改二线品牌）&lt;/li>
+&lt;li>换策略（买改成租，定制改成通用，整机改成分散采购）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键是：你的Plan B必须是真实的，且供应商必须知道你有&lt;/strong>。&lt;/p>
+&lt;p>不用说出来，一个细节就够了。比如在谈判中不经意提到&amp;quot;对了，XX公司的报价我还在看&amp;quot;——这句话比一千句&amp;quot;你太贵了&amp;quot;都有用。&lt;/p>
+&lt;h3 id="第三招第一次报价就锚定你的目标价">第三招：第一次报价就锚定你的目标价&lt;/h3>
+&lt;p>谈判学里有个经典概念叫&amp;quot;锚定效应&amp;quot;：第一个提出数字的人，会左右整场谈判的价格区间。&lt;/p>
+&lt;p>&lt;strong>但大多数人害怕先报价&lt;/strong>，怕报高了吃亏，报低了暴露底线。&lt;/p>
+&lt;p>我的经验是：&lt;strong>先报价，而且往低了报&lt;/strong>。比你心理预期再低15-20%。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;ul>
+&lt;li>你先报价，整场谈判都会围绕你的数字转。供应商的还价会被你锚住&lt;/li>
+&lt;li>你报低了，给后面的让步留足空间。报得太实在，你连让一步的余地都没有&lt;/li>
+&lt;li>对方的第一反应一定是拒绝。没关系，你的目的不是让他接受，是&lt;strong>让他开始围绕你的数字思考&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>举个例子：你的心理价位是100块。第一次报75。供应商说不可能。第二轮你退到85。供应商觉得你已经让了10块，心理上更容易接受。最后大概率成交在85-95之间。&lt;/p>
+&lt;p>如果你一开始就报100，后面就只能往上涨。&lt;/p>
+&lt;h3 id="谈判中最蠢的3句话">谈判中最蠢的3句话&lt;/h3>
+&lt;p>&lt;strong>&amp;ldquo;能不能便宜点？&amp;rdquo;&lt;/strong>
+——这不叫谈判，这叫乞讨。供应商心里想的是&amp;quot;又来一个只会砍价的&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;别的家比你便宜&amp;rdquo;&lt;/strong>
+——供应商会立刻反问&amp;quot;那你怎么不找他？&amp;ldquo;如果你接不住，直接暴露你没有更好的替代方案。&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;长期合作给个面子&amp;rdquo;&lt;/strong>
+——商业社会里，&amp;ldquo;面子&amp;quot;是最不值钱的东西。你要谈的是具体利益：量大、回款快、帮忙推新市场，这些才是有价值的筹码。&lt;/p>
+&lt;h3 id="谈判不是赢是让双方都觉得占了便宜">谈判不是赢，是让双方都觉得占了便宜&lt;/h3>
+&lt;p>真正好的谈判，谈完之后供应商会觉得&amp;quot;虽然单价降了，但量大了、回款快了、多了个战略客户，值了&amp;rdquo;。&lt;/p>
+&lt;p>这就是&lt;strong>创造增量价值&lt;/strong>，而不是单纯切蛋糕。&lt;/p>
+&lt;p>比如你每年采购100万，想要单价降10%。如果只是硬砍，供应商一年少赚10万，关系大概率会变差。&lt;/p>
+&lt;p>但如果你说&amp;quot;单价降8%，我把明年的框架量翻到200万&amp;rdquo;，供应商会觉得——虽然利润率降了，但总利润涨了。&lt;/p>
+&lt;p>这才是双赢。&lt;/p>
+&lt;hr>
+&lt;p>采购谈判这件事，说到底就一句话：&lt;strong>谁信息多，谁姿态低；谁有备选，谁说了算。&lt;/strong>&lt;/p>
+&lt;p>别在会上跟人硬刚，会前把功课做足。让供应商觉得你是&amp;quot;懂行的人&amp;quot;，比你会砍价重要一万倍。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>需求预测做了3年，1次都没准过</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</guid><description>&lt;p>去年双十一前夕，我拿着模型跑出来的需求预测去开会。&lt;/p>
+&lt;p>销售总监看了一眼，直接把报告扔回桌上：&amp;ldquo;你这个数，跟我们实际订单差了一倍。&amp;rdquo;&lt;/p>
+&lt;p>我当时脸都绿了。&lt;/p>
+&lt;p>会后问了才知道，他们跟一个大客户签了框架协议，量早就定了，只是还没录入系统。&lt;/p>
+&lt;p>&lt;strong>而我呢？抱着历史数据跑回归，完全不知道这事儿。&lt;/strong>&lt;/p>
+&lt;p>那一刻我突然明白了：需求预测，跟算法没关系。你缺的不是模型，是把公司内部的信息墙给砸了。&lt;/p>
+&lt;h3 id="你的预测不准根本不是算法的问题">你的预测不准，根本不是算法的问题&lt;/h3>
+&lt;p>很多做供应链的同学有个错觉：只要模型够好，预测就准。&lt;/p>
+&lt;p>于是疯狂调参数、换算法、上机器学习。移动平均试完换指数平滑，ARIMA不行换Prophet。&lt;/p>
+&lt;p>忙活了半年，误差率还是30%以上。&lt;/p>
+&lt;p>为什么？因为&lt;strong>需求预测的本质不是数学题，是沟通题&lt;/strong>。&lt;/p>
+&lt;p>法国一家食品企业做过实验：把销售团队的定性判断跟统计模型结合后，预测误差从38%降到了14%。降了一半还多。&lt;/p>
+&lt;p>他们怎么做到的？每周花15分钟，让销售把&amp;quot;模型不知道的事情&amp;quot;补充进来：大客户的招投标进展、竞品的价格战、渠道压货计划。&lt;/p>
+&lt;p>这些东西，历史数据里根本没有。&lt;/p>
+&lt;p>所以真正准的预测 = 算法打底 + 一线信息纠偏。别闷着头调模型了，先去找销售喝杯茶。&lt;/p>
+&lt;h3 id="3个信号告诉你你的预测体系已经废了">3个信号告诉你，你的预测体系已经废了&lt;/h3>
+&lt;p>做了这么多年，我发现需求预测废掉之前，会有三个明显的信号：&lt;/p>
+&lt;p>&lt;strong>信号一：你预测你的，销售卖销售的&lt;/strong>&lt;/p>
+&lt;p>如果每次开会，销售都对你的预测结果毫无反应——不反驳，不补充，不关心——那你这个预测基本就是个废纸。&lt;/p>
+&lt;p>好的预测体系，销售会主动来跟你说&amp;quot;这个数不对，我们最近有个大单&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>信号二：安全库存是你的遮羞布&lt;/strong>&lt;/p>
+&lt;p>如果你的库存策略本质上就是&amp;quot;多备点货兜底&amp;quot;，说明你从来没信过自己的预测。&lt;/p>
+&lt;p>真正准的预测，安全库存是少量补丁，不是主力。&lt;/p>
+&lt;p>&lt;strong>信号三：你不敢回头看准确率&lt;/strong>&lt;/p>
+&lt;p>如果你从来不敢把上个月的预测数跟实际发货数拉出来对比，说明你自己知道不准。&lt;/p>
+&lt;p>不敢面对误差的人，永远做不好预测。&lt;/p>
+&lt;h3 id="预测不准的三个源头90的人只盯着第一个">预测不准的三个源头，90%的人只盯着第一个&lt;/h3>
+&lt;p>&lt;strong>源头一：历史数据本身就有问题&lt;/strong>&lt;/p>
+&lt;p>你以为销量数据就是真实需求？别天真了。&lt;/p>
+&lt;p>库存不足断货的那几周，你的&amp;quot;销量&amp;quot;是0，但真实需求可能是1000。这叫&lt;strong>截断效应&lt;/strong>。&lt;/p>
+&lt;p>促销期间的暴涨，不是趋势，是扰动。你不清洗就直接扔进模型，预测能准才有鬼。&lt;/p>
+&lt;p>&lt;strong>源头二：信息孤岛让你瞎了&lt;/strong>&lt;/p>
+&lt;p>销售知道大客户在谈续约，市场知道下个月要搞大促，产品知道老款要停产换新款。&lt;/p>
+&lt;p>这些信息散落在不同部门，就是不进你的预测模型。你能准吗？&lt;/p>
+&lt;p>&lt;strong>源头三：你的预测时间颗粒度错了&lt;/strong>&lt;/p>
+&lt;p>你按月份做预测，但客户的采购节奏是两周。你按SKU做预测，但渠道订货是按品类。&lt;/p>
+&lt;p>颗粒度不匹配，再准也是假的。&lt;/p>
+&lt;h3 id="从瞎猜到准到肉疼我只改了3件事">从&amp;quot;瞎猜&amp;quot;到&amp;quot;准到肉疼&amp;quot;，我只改了3件事&lt;/h3>
+&lt;p>&lt;strong>第一件：建一个&amp;quot;15分钟周会&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每周找销售、市场、产品各抽一个人，花15分钟，就问三个问题：&lt;/p>
+&lt;ul>
+&lt;li>这周有没有模型不知道的大事？&lt;/li>
+&lt;li>下两周有什么变化？&lt;/li>
+&lt;li>上月预测哪错了，为什么？&lt;/li>
+&lt;/ul>
+&lt;p>不写PPT，不汇报，纯聊。半年后你会发现，预测误差能砍掉一半。&lt;/p>
+&lt;p>&lt;strong>第二件：把预测从&amp;quot;一个数&amp;quot;改成&amp;quot;三个数&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>别再死磕&amp;quot;一个准确数字&amp;quot;了。改成给三个数：乐观、基准、悲观。&lt;/p>
+&lt;p>老板要拍板备货的时候，三个数比一个数管用一万倍。他会根据公司现金流状况自己选版本。&lt;/p>
+&lt;p>你对整个链条的贡献，不是&amp;quot;斩钉截铁的一个数&amp;quot;，而是&lt;strong>画清楚不确定性地图&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>第三件：每个月拉一张&amp;quot;打脸清单&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>把上月预测和实际发货对比，落差超过20%的SKU标红。然后追着问：差在哪？数据问题还是信息问题？&lt;/p>
+&lt;p>前三个月会很疼，因为你会发现自己预测得跟扔骰子差不多。但坚持半年，你会变成公司最懂业务的那个人。&lt;/p>
+&lt;p>因为你在做的不是预测，是在拼一张公司业务的&lt;strong>完整信息图&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;p>需求预测这件事，准不准从来不是技术问题。谁掌握的信息多，谁的预测就准。别天天调模型了，先出门找人聊天吧。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>2026年做供应链，不会数据分析只能等死</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</guid><description>&lt;p>2026年了，还在用Excel做需求预测、靠拍脑袋定安全库存的供应链人，说实话，风险已经大到睡不着觉了。&lt;/p>
+&lt;p>不是危言耸听。我最近跟几个同行聊，发现一个很残酷的事实：&lt;strong>会用数据分析的供应链人，薪资已经比只会Excel的高了40-60%，而且差距还在拉大。&lt;/strong>&lt;/p>
+&lt;p>这不是工具之争，这是生存能力之争。&lt;/p>
+&lt;h2 id="现状70的企业还在用excel跑供应链">现状：70%的企业还在用Excel跑供应链&lt;/h2>
+&lt;p>德勤2025年供应链数字化报告显示：全球制造业中，70%的企业需求预测仍然主要依赖Excel+人工经验，只有18%的企业实现了系统化的数据驱动预测。&lt;/p>
+&lt;p>这个数字在中国市场更不好看。我接触过的国内中小制造企业，90%以上的库存计划、采购计划，本质上是一个老采购员对着Excel表&amp;quot;凭感觉&amp;quot;填数字。&lt;/p>
+&lt;p>&lt;strong>问题在哪？&lt;/strong>&lt;/p>
+&lt;p>Excel不是不能用，问题是人的大脑处理不了多维度的变量。需求受什么影响？历史销量、季节性、促销活动、竞争对手动作、原材料价格波动、节假日效应、甚至天气——这些变量叠加在一起，人脑凭经验最多能捕捉3-4个，剩下的要么忽略，要么低估。&lt;/p>
+&lt;p>结果就是：预测准确率常年徘徊在50-60%，库存周转率比行业平均水平低30%，缺货和积压同时存在。&lt;/p>
+&lt;h2 id="5个必须数据化的环节">5个必须数据化的环节&lt;/h2>
+&lt;p>供应链里哪些环节最需要数据化？按优先级排，这5个是底线：&lt;/p>
+&lt;p>&lt;strong>1. 需求预测&lt;/strong>&lt;/p>
+&lt;p>这是数据化的起点。一个合格的数据化需求预测模型，至少要把这些变量拉进来：&lt;/p>
+&lt;ul>
+&lt;li>历史销量数据（至少24个月）&lt;/li>
+&lt;li>季节性因子（春节、双11、618等）&lt;/li>
+&lt;li>促销因子（有促销和无促销的转化率差异）&lt;/li>
+&lt;li>外部变量（宏观经济指标、行业指数、天气、竞争对手价格）&lt;/li>
+&lt;/ul>
+&lt;p>模型不用多么高深，多元线性回归+时间序列（ARIMA或指数平滑）就能解决80%的问题。关键是：&lt;strong>要有，不能没有。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2. 库存水位监控&lt;/strong>&lt;/p>
+&lt;p>实时库存数据，按SKU维度监控：当前库存、在途库存、安全库存、日均销量、预计可销天数。&lt;/p>
+&lt;p>数据化的意义不是让你看报表，而是让系统自动报警：哪些SKU预计7天内断货，哪些SKU库存超过90天，自动推送到你的微信或钉钉。&lt;/p>
+&lt;p>&lt;strong>3. 供应商评分&lt;/strong>&lt;/p>
+&lt;p>很多企业的供应商评分是&amp;quot;感觉还行&amp;quot;或&amp;quot;最近有点问题&amp;quot;——这等于没评分。&lt;/p>
+&lt;p>数据化的供应商评分至少包含：交货准时率、质量合格率、响应速度、价格竞争力、配合度（变更响应时间）。每个月自动算分，连续3个月低于及格线的，系统自动触发预警，进入供应商改进流程或被替换清单。&lt;/p>
+&lt;p>&lt;strong>4. 物流时效分析&lt;/strong>&lt;/p>
+&lt;p>从发货到签收，每个节点的时效数据：仓库出库时长、干线运输时长、分拨中心停留时长、末端配送时长。&lt;/p>
+&lt;p>这些数据能帮你找到物流链路的瓶颈。比如你发现80%的延误发生在分拨中心停留环节，那问题不在配送，而在分拨中心的操作效率——找对问题，才能解决问题。&lt;/p>
+&lt;p>&lt;strong>5. 成本结构拆解&lt;/strong>&lt;/p>
+&lt;p>很多人做供应链成本管理，只知道&amp;quot;这个月运费比去年高了&amp;quot;。高了为什么？哪个线路涨了？哪家物流商涨了？是因为单量下降导致单位成本上升，还是油价上涨传导过来的？&lt;/p>
+&lt;p>数据化的成本管理，要能拆解到：按线路、按物流商、按时间段、按货物类型的成本对比。找出成本异常，才有降本的抓手。&lt;/p>
+&lt;h2 id="数据驱动的需求预测怎么做">数据驱动的需求预测，怎么做？&lt;/h2>
+&lt;p>说一个我们自己在用的简单框架，不需要多么复杂的算法，关键是把逻辑理顺：&lt;/p>
+&lt;p>&lt;strong>第一步：拉历史数据&lt;/strong>&lt;/p>
+&lt;p>至少24个月的每日/每周销量数据，按SKU维度导出。没有系统记录的，翻Excel、翻ERP、翻仓库出库记录，想办法凑够数据。&lt;/p>
+&lt;p>&lt;strong>第二步：算季节因子&lt;/strong>&lt;/p>
+&lt;p>把每个月的销量除以年均月销量，得到季节指数。比如1月销量是年均的0.8，说明1月是淡季；11月是1.3，说明11月是旺季。&lt;/p>
+&lt;p>&lt;strong>第三步：加促销因子&lt;/strong>&lt;/p>
+&lt;p>把历史促销活动的销量拉动效果量化。比如&amp;quot;满减10%&amp;ldquo;平均拉动销量增长25%，&amp;ldquo;买一送一&amp;quot;平均拉动增长60%。下次做预测的时候，把计划中的促销活动对应的拉动系数乘进去。&lt;/p>
+&lt;p>&lt;strong>第四步：引入外部变量&lt;/strong>&lt;/p>
+&lt;p>这一步是进阶动作。如果有能力，把宏观经济数据（PMI、行业指数）、天气数据、甚至竞争对手价格数据拉进来，做多元回归，看哪些变量对你的销量有显著影响，把它们纳入预测模型。&lt;/p>
+&lt;p>&lt;strong>第五步：算安全库存&lt;/strong>&lt;/p>
+&lt;p>数据化之后，安全库存不再是拍脑袋的数字，而是可以算出来的：&lt;/p>
+&lt;blockquote>
+&lt;p>安全库存 = Z × σ × √L&lt;/p>
+&lt;/blockquote>
+&lt;p>其中：&lt;/p>
+&lt;ul>
+&lt;li>Z = 服务水平对应的Z值（95%服务水平对应Z=1.65，99%对应Z=2.33）&lt;/li>
+&lt;li>σ = 需求标准差（用历史销量算）&lt;/li>
+&lt;li>L = 采购提前期（天数）&lt;/li>
+&lt;/ul>
+&lt;p>这个公式的意义是：&lt;strong>你的安全库存不再是一个&amp;quot;经验值&amp;rdquo;，而是跟你的服务水平目标、需求波动、提前期直接挂钩的科学值。&lt;/strong>&lt;/p>
+&lt;h2 id="工具链从excel到ai">工具链：从Excel到AI&lt;/h2>
+&lt;p>不同规模的企业，数据化的起步路径不一样：&lt;/p>
+&lt;p>&lt;strong>小微企业（年营收&amp;lt;5000万）&lt;/strong>：别想着上SAP、上Oracle。先用好Excel的数据透视表+Power BI免费版，把数据可视化做起来。每月花半天时间更新数据，比完全没有数据化强10倍。&lt;/p>
+&lt;p>&lt;strong>中型企业（年营收5000万-10亿）&lt;/strong>：上BI工具（Power BI、Tableau、帆软都行），把ERP/仓库系统的数据接进来，做自动化的报表和预警。这个阶段的核心是：&lt;strong>让数据自己说话，不要等人去翻。&lt;/strong>&lt;/p></description></item><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</guid><description>&lt;p>上个月一个做电子制造的同行跟我说，他们老板学了两天丰田生产方式，回来就下令&amp;quot;库存砍到零，全面推行JIT&amp;quot;。&lt;/p>
+&lt;p>结果？第一个月缺料停线5次，客户投诉8起，生产部门差点集体辞职。&lt;/p>
+&lt;p>我问他：&amp;ldquo;你们做JIT之前，供应商交期合格率多少？质量合格率多少？设备OEE多少？&amp;rdquo;&lt;/p>
+&lt;p>他答不上来。&lt;/p>
+&lt;p>这就对了。&lt;strong>90%做JIT失败的企业，不是JIT有问题，是他们把顺序搞反了。&lt;/strong>&lt;/p>
+&lt;h3 id="jit到底是什么先搞清定义">JIT到底是什么？先搞清定义&lt;/h3>
+&lt;p>JIT（Just In Time）准时制生产的英文原意是&amp;quot;在需要的时候，按需要的量，提供需要的物料&amp;quot;。&lt;/p>
+&lt;p>注意，说的是&amp;quot;需要的量&amp;quot;，不是&amp;quot;零&amp;quot;。&lt;/p>
+&lt;p>丰田的JIT体系里，从来就没有&amp;quot;零库存&amp;quot;这个词。大野耐一的原话是：&amp;ldquo;库存是万恶之源&amp;rdquo;，目的是&lt;strong>通过降低库存来暴露问题&lt;/strong>，而不是消灭库存本身。&lt;/p>
+&lt;p>JIT的本质是一个&lt;strong>问题暴露和持续改善的系统&lt;/strong>。你把库存降下来，隐藏在库存背后的问题就会浮出水面：交期不稳、质量波动、设备故障、工艺缺陷……暴露出来，然后一个一个解决。解决了，再降一点库存，再暴露新的问题，再解决。&lt;/p>
+&lt;p>这是一个渐进循环的过程，不是一步到位的休克疗法。&lt;/p>
+&lt;h3 id="做jit之前先问自己三个问题">做JIT之前，先问自己三个问题&lt;/h3>
+&lt;p>&lt;strong>问题一：你的供应商能支撑JIT吗？&lt;/strong>&lt;/p>
+&lt;p>JIT对供应商的要求很高：交期准（偏差不超过±1天）、质量稳（PPM级别）、响应快（能配合小批量多频次送货）、距离近（最好2小时车程内）。&lt;/p>
+&lt;p>现实情况是，大多数企业的供应商交期合格率不到90%，质量合格率在95%左右徘徊，距离还远在几百公里外。这种条件下强行做JIT，就是给自己挖坑。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：先花3-6个月提升供应商能力。选定2-3家核心供应商做试点，共享生产计划数据，建立联合库存机制，把交期合格率提升到95%以上，再谈JIT。&lt;/p>
+&lt;p>&lt;strong>问题二：你的质量体系撑得住吗？&lt;/strong>&lt;/p>
+&lt;p>库存低意味着没有缓冲。来料一个批次有问题，可能直接导致产线停摆。&lt;/p>
+&lt;p>JIT的前提是来料免检或快速抽检合格率达到99%以上。如果你的来料合格率还只有95%，那每20个批次就有一个要出问题。没有库存缓冲的情况下，停线概率超过5%——这个频率任何工厂都受不了。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：先把来料质量控制做到位。和供应商建立联合质量改善机制，从来料检验前移到供应商出货检验。&lt;/p>
+&lt;p>&lt;strong>问题三：你的设备和管理系统跟得上吗？&lt;/strong>&lt;/p>
+&lt;p>JIT需要频繁切换产线（小批量生产）、快速换模（SMED）、看板拉动系统、安灯报警系统……这些基础能力缺一个都不行。&lt;/p>
+&lt;p>如果你的设备换一次模要4个小时，你怎么做小批量？如果你没有看板系统，你怎么拉动物料？&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：先做设备改造和换模优化，把换模时间从4小时压缩到30分钟以内。部署基础的信息化系统（MES/WMS），让物料流动可见可控。&lt;/p>
+&lt;h3 id="看板系统jit的大脑">看板系统：JIT的大脑&lt;/h3>
+&lt;p>很多人以为看板就是贴几张卡片，其实看板是JIT的核心执行机制。&lt;/p>
+&lt;p>看板系统的工作原理：&lt;/p>
+&lt;ol>
+&lt;li>后工序需要物料时，向前工序发出看板（生产指令或取货指令）&lt;/li>
+&lt;li>前工序只按看板上的数量生产，不多不少&lt;/li>
+&lt;li>看板数量限制了在制品（WIP）的上限&lt;/li>
+&lt;/ol>
+&lt;p>这就是&amp;quot;拉动式生产&amp;quot;——需求驱动生产，而不是生产推动需求。&lt;/p>
+&lt;p>但看板系统要跑起来，需要满足几个条件：&lt;/p>
+&lt;ul>
+&lt;li>生产节拍相对稳定（不能今天产100明天产1000）&lt;/li>
+&lt;li>工序间的物流距离短（不然搬运时间太长）&lt;/li>
+&lt;li>看板规则严格执行（不能随便违反）&lt;/li>
+&lt;/ul>
+&lt;h3 id="安全库存和jit不矛盾">安全库存和JIT不矛盾&lt;/h3>
+&lt;p>很多人以为做JIT就不能有安全库存，这也是误区。&lt;/p>
+&lt;p>正确的理解是：**JIT降低的是常规库存，不是安全库存。**安全库存是用来应对不确定性的，只要不确定性存在，安全库存就必须存在。&lt;/p>
+&lt;p>区别在于：&lt;/p>
+&lt;ul>
+&lt;li>不做JIT的企业：安全库存+冗余库存，总库存量很大&lt;/li>
+&lt;li>做JIT的企业：精准计算的安全库存，总库存量可控&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>安全库存的计算公式&lt;/strong>：SS = Z × σ_d × √LT&lt;/p>
+&lt;p>其中Z是服务水平系数（99%服务水平对应Z=2.33），σ_d是需求标准差，LT是提前期（天）。&lt;/p>
+&lt;p>关键不在于有没有安全库存，而在于你的安全库存是不是基于真实数据算出来的，还是拍脑袋定的。&lt;/p>
+&lt;h3 id="jit的正确打开方式">JIT的正确打开方式&lt;/h3>
+&lt;p>总结一下，JIT落地的正确顺序：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先练内功&lt;/strong>（3-6个月）：提升供应商交期和质量、优化设备换模时间、建立基本的信息化系统&lt;/li>
+&lt;li>&lt;strong>小范围试点&lt;/strong>（3-6个月）：选1-2条产品线、2-3家核心供应商做JIT试点，用看板系统拉动&lt;/li>
+&lt;li>&lt;strong>暴露问题&lt;/strong>（持续）：降低试点范围的库存，暴露出问题&lt;/li>
+&lt;li>&lt;strong>解决问题&lt;/strong>（持续）：逐个解决暴露出来的问题，能力提升后再降库存&lt;/li>
+&lt;li>&lt;strong>逐步推广&lt;/strong>：试点成功后，逐步扩展到更多产品线和供应商&lt;/li>
+&lt;/ol>
+&lt;p>记住一句话：**JIT是结果，不是起因。**当你把供应商管好了、质量做稳了、设备搞顺了，库存自然就降下来了。不是你强行把库存压到零，一切就会自动变好。&lt;/p>
+&lt;p>先走路，再跑步。别一上来就冲刺，那样只会摔跤。&lt;/p></description></item><item><title>MRP跑了3年还是一团糟，问题出在你身上</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls-625/</guid><description>&lt;p>我们公司MRP系统上了三年，计划员每天还是在Excel里手工排计划。&lt;/p>
+&lt;p>我问计划部主管：&amp;ldquo;MRP跑出来的计划你们为什么不用？&amp;rdquo;&lt;/p>
+&lt;p>他苦笑：&amp;ldquo;跑出来的东西没法看啊。要么建议采购量小得离谱，要么建议的生产日期在节假日，要么算出来的物料A有需求但B没有。跟实际差太远，还不如我自己排。&amp;rdquo;&lt;/p>
+&lt;p>这就是很多企业的现状：&lt;strong>花了几百万上了ERP和MRP模块，结果还是回到Excel手工操作。&lt;/strong>&lt;/p>
+&lt;p>不是MRP系统有问题，是你喂给它的数据有问题。Garbage in, garbage out（垃圾进，垃圾出）。&lt;/p>
+&lt;h3 id="根因一bom数据是万恶之源">根因一：BOM数据是万恶之源&lt;/h3>
+&lt;p>MRP计算的基础是BOM（物料清单）。一个产品需要哪些物料、各需要多少、层级关系是什么——全靠BOM。&lt;/p>
+&lt;p>但现实中，BOM的准确率在很多企业不到70%。&lt;/p>
+&lt;p>常见问题：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>研发改了设计没更新BOM&lt;/strong>：产品V2.0的物料已经变了，BOM还是V1.0的。MRP按旧BOM算，该买的没买，不该买的买了一堆&lt;/li>
+&lt;li>&lt;strong>替代料关系没有维护&lt;/strong>：A物料缺货时可以用B物料替代，但MRP不知道这个关系，建议你紧急采购A而不是直接用B&lt;/li>
+&lt;li>&lt;strong>虚拟件和实际件混用&lt;/strong>：生产过程中实际使用的物料和BOM上写的不一致&lt;/li>
+&lt;li>&lt;strong>损耗率数据不准&lt;/strong>：BOM上写损耗率3%，实际是8%，MRP按3%算出来的需求量根本不够&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>修复方案&lt;/strong>：每季度做一次BOM审计，对比BOM和实际生产用料数据。建立BOM变更流程，研发任何设计变更必须同步更新BOM。这事儿不难，难的是有没有人盯着执行。&lt;/p>
+&lt;h3 id="根因二提前期数据是拍脑袋的">根因二：提前期数据是拍脑袋的&lt;/h3>
+&lt;p>MRP里有个关键参数：采购提前期（Lead Time）。系统需要知道&amp;quot;从下单到收货需要多少天&amp;quot;，才能算出什么时候该下单。&lt;/p>
+&lt;p>但你去问很多企业：&amp;ldquo;你主力物料的采购提前期是多少？&amp;rdquo;&lt;/p>
+&lt;p>答：&amp;ldquo;大概7-10天吧。&amp;rdquo;&lt;/p>
+&lt;p>大概？7天和10天差了3天，如果每天需求量是100个，3天就是300个的库存偏差。这个偏差要么变成多余库存占资金，要么变成缺料停线。&lt;/p>
+&lt;p>更离谱的是，很多企业一个供应商的几十种物料全部填一样的提前期，比如统一填15天。实际上不同物料的提前期可能从3天到30天不等。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：从采购订单数据中提取真实的下单日期和收货日期，计算每个物料、每个供应商的实际平均提前期和波动范围。至少每半年更新一次。这个数据不需要100%精确，但比拍脑袋强100倍。&lt;/p>
+&lt;h3 id="根因三安全库存设置不合理">根因三：安全库存设置不合理&lt;/h3>
+&lt;p>MRP系统里安全库存（Safety Stock）的设置直接影响采购建议的量。&lt;/p>
+&lt;p>安全库存设高了，MRP会建议你多采购，库存积压，资金占用。
+安全库存设低了，MRP建议的量不够，一旦需求波动就缺料。&lt;/p>
+&lt;p>问题是，很多企业的安全库存是这样定的：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;按1周用量设吧&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;差不多500个就行&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;去年设的，今年还没改过&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>没有基于实际需求波动、提前期波动、服务水平目标来计算。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：用公式算。安全库存 = Z值（服务水平系数）× 需求标准差 × √提前期。服务水平99%对应Z=2.33，95%对应Z=1.65。&lt;/p>
+&lt;p>举个简单例子：某物料日需求均值100个、标准差20个，提前期7天，要求99%服务水平。&lt;/p>
+&lt;p>安全库存 = 2.33 × 20 × √7 = 2.33 × 20 × 2.65 = 123个&lt;/p>
+&lt;p>这比你拍脑袋设的&amp;quot;500个&amp;quot;精确得多。同时也没那么复杂，Excel就能算。&lt;/p>
+&lt;h3 id="根因四计划员频繁手动覆盖">根因四：计划员频繁手动覆盖&lt;/h3>
+&lt;p>MRP跑出建议计划后，计划员觉得&amp;quot;不对&amp;quot;，就手动改。改多了，就变成手动排计划为主、MRP为辅。&lt;/p>
+&lt;p>为什么会频繁改？因为MRP的计划确实有问题——但问题根源在前三个根因（BOM不准、提前期不准、安全库存不准），不在MRP算法本身。&lt;/p>
+&lt;p>计划员手动覆盖只是治标，MRP数据不准才是本。你手动改一次，数据源没有更新，下次MRP跑出来还是错的，你又得改。循环往复，MRP彻底废了。&lt;/p>
+&lt;p>&lt;strong>修复方案&lt;/strong>：先修复前三个根因，让MRP输出质量达到可接受水平（85%以上可用率）。然后建立规则：MRP建议偏差在20%以内的直接执行，偏差超过20%的才允许手动调整并记录原因。每月分析调整原因，反向优化数据。&lt;/p>
+&lt;h3 id="根因五不考虑产能约束">根因五：不考虑产能约束&lt;/h3>
+&lt;p>标准MRP的逻辑是&amp;quot;需求→物料需求→采购/生产建议&amp;quot;，但它默认产能无限。&lt;/p>
+&lt;p>现实当然不是。你的产线就那么多，供应商的产能也有限。MRP可能建议你在同一天生产10个产品，但你的产能只能做5个。&lt;/p>
+&lt;p>这就是MRP和APS（Advanced Planning and Scheduling，高级计划排程）的区别。MRP管&amp;quot;需要什么&amp;quot;，APS管&amp;quot;能不能做&amp;quot;。&lt;/p></description></item><item><title>仓库SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-management-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-625/</guid><description>&lt;p>你走进仓库，看到货架上密密麻麻的SKU，有没有一种莫名的安全感？&lt;/p>
+&lt;p>&amp;ldquo;我们的产品种类多，客户选择多，这是竞争力。&amp;quot;——销售是这么跟你说的。&lt;/p>
+&lt;p>但财务拿成本数据给你看的时候，你就不这么想了。&lt;/p>
+&lt;p>&lt;strong>每一个SKU，都是压在供应链身上的三座大山：库存成本、仓储成本、管理成本。&lt;/strong>&lt;/p>
+&lt;p>SKU不是越多越好。SKU膨胀，是仓库的慢性毒药。&lt;/p>
+&lt;h2 id="sku膨胀的根源没人敢砍">SKU膨胀的根源：没人敢砍&lt;/h2>
+&lt;p>SKU为什么越涨越多？根本原因是&lt;strong>没有人真正对SKU的生命周期负责&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>销售端&lt;/strong>：&amp;ldquo;多一个SKU就多一份生意机会。&amp;ldquo;他们只管上新，不管清退。每个新品上市，销售都能给出&amp;quot;这个有潜力&amp;quot;的理由。&lt;/p>
+&lt;p>&lt;strong>采购端&lt;/strong>：&amp;ldquo;多备几个规格，以防万一。&amp;ldquo;采购图省事，一次多订几个SKU，反正不用自己掏钱压库存。&lt;/p>
+&lt;p>&lt;strong>管理层&lt;/strong>：&amp;ldquo;先留着吧，万一以后有用呢？&amp;ldquo;没有人愿意做&amp;quot;砍SKU&amp;quot;这个坏人，因为砍掉容易，万一哪天真有订单呢？&lt;/p>
+&lt;p>结果就是：&lt;strong>SKU只增不减，仓库越来越像博物馆。&lt;/strong>&lt;/p>
+&lt;p>我见过最夸张的一家公司，仓库里有&lt;strong>37%的SKU连续90天零销量&lt;/strong>，但这些SKU占用了&lt;strong>28%的仓储面积和18%的库存资金&lt;/strong>。&lt;/p>
+&lt;p>这不是仓库，这是坟墓。&lt;/p>
+&lt;h2 id="abc-xyz分类双维交叉才是真分类">ABC-XYZ分类：双维交叉才是真分类&lt;/h2>
+&lt;p>砍SKU不能拍脑袋。你需要一套科学的分类方法。&lt;/p>
+&lt;p>市面上讲ABC分类的文章很多，但&lt;strong>只用ABC是不够的&lt;/strong>。ABC告诉你&amp;quot;谁贡献了大部分销售额&amp;rdquo;，但没告诉你&amp;quot;谁的需求是稳定的&amp;rdquo;。&lt;/p>
+&lt;p>所以要用&lt;strong>ABC-XYZ双维分类法&lt;/strong>。&lt;/p>
+&lt;h3 id="abc分类看贡献度">ABC分类：看贡献度&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>：贡献80%销售额的20%SKU（核心品）&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>：贡献15%销售额的30%SKU（中间品）&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>：贡献5%销售额的50%SKU（长尾品）&lt;/li>
+&lt;/ul>
+&lt;h3 id="xyz分类看需求波动">XYZ分类：看需求波动&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>X类&lt;/strong>：需求稳定，变异系数（标准差/均值）&amp;lt; 0.5&lt;/li>
+&lt;li>&lt;strong>Y类&lt;/strong>：需求有波动，变异系数0.5-1.0&lt;/li>
+&lt;li>&lt;strong>Z类&lt;/strong>：需求极不稳定，变异系数&amp;gt;1.0（甚至为零，偶尔爆单）&lt;/li>
+&lt;/ul>
+&lt;h3 id="双维交叉9宫格战略矩阵">双维交叉：9宫格战略矩阵&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>X（稳定）&lt;/th>
+ &lt;th>Y（波动）&lt;/th>
+ &lt;th>Z（极不稳定）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>A（高贡献）&lt;/strong>&lt;/td>
+ &lt;td>核心稳定品，重点保障库存&lt;/td>
+ &lt;td>核心波动品，需动态安全库存&lt;/td>
+ &lt;td>核心爆品，按需生产/快反补货&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>B（中贡献）&lt;/strong>&lt;/td>
+ &lt;td>稳定长尾，可适当降库存&lt;/td>
+ &lt;td>波动长尾，谨慎备货&lt;/td>
+ &lt;td>问题长尾，考虑清退&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>C（低贡献）&lt;/strong>&lt;/td>
+ &lt;td>低贡献稳定品，评估存在必要性&lt;/td>
+ &lt;td>低贡献波动品，优先清退&lt;/td>
+ &lt;td>&lt;strong>死SKU，立即清退&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>CX、CY、CZ三个格子里的SKU，是优先清理对象。&lt;/strong>&lt;/p>
+&lt;h2 id="死sku的定义和清理标准">死SKU的定义和清理标准&lt;/h2>
+&lt;p>什么叫&amp;quot;死SKU&amp;rdquo;？不同行业标准不一样，但有个通用框架：&lt;/p>
+&lt;h3 id="定量标准满足任意一条即可判定为死sku">定量标准（满足任意一条即可判定为&amp;quot;死SKU&amp;rdquo;）&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>连续90天零销量&lt;/strong>（快消品）/ 连续180天零销量（工业品）&lt;/li>
+&lt;li>&lt;strong>过去12个月贡献率&amp;lt;1%&lt;/strong>（即该SKU的销售额占总销售额不到1%）&lt;/li>
+&lt;li>&lt;strong>库存周转率&amp;lt;1&lt;/strong>（一年卖不出一拨）&lt;/li>
+&lt;li>&lt;strong>毛利率为负&lt;/strong>（卖一单亏一单）&lt;/li>
+&lt;/ol>
+&lt;h3 id="定性标准需要人工判断">定性标准（需要人工判断）&lt;/h3>
+&lt;ol>
+&lt;li>产品已停产，只有零星维修需求&lt;/li>
+&lt;li>客户定制化产品，客户已流失&lt;/li>
+&lt;li>尝鲜型SKU，上市6个月销量未达预期&lt;/li>
+&lt;/ol>
+&lt;h3 id="清理流程">清理流程&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>预警&lt;/strong>：系统自动标记符合&amp;quot;死SKU&amp;quot;标准的品，生成清退清单&lt;/li>
+&lt;li>&lt;strong>会审&lt;/strong>：销售、产品、供应链三方会审，确认是否可以清退（防止误杀）&lt;/li>
+&lt;li>&lt;strong>处理&lt;/strong>：清退决策确定后，30天内完成库存清理（促销、转售、报废）&lt;/li>
+&lt;li>&lt;strong>归档&lt;/strong>：SKU状态改为&amp;quot;停用&amp;rdquo;，系统保留历史数据但不参与补货计划&lt;/li>
+&lt;/ol>
+&lt;h2 id="真实案例从2000砍到600库存周转率翻倍">真实案例：从2000砍到600，库存周转率翻倍&lt;/h2>
+&lt;p>2024年初，我帮一家做家居用品的电商公司做供应链诊断。&lt;/p>
+&lt;p>&lt;strong>诊断结果让人震惊：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>活跃SKU：&lt;strong>2037个&lt;/strong>&lt;/li>
+&lt;li>其中连续90天零销量的：&lt;strong>768个（37.7%）&lt;/strong>&lt;/li>
+&lt;li>库存总金额：&lt;strong>4200万&lt;/strong>&lt;/li>
+&lt;li>库存周转率：&lt;strong>2.1次/年&lt;/strong>（行业平均4次）&lt;/li>
+&lt;/ul>
+&lt;p>我给他们做了一套SKU精简方案：&lt;/p>
+&lt;h3 id="第一步abc-xyz分类">第一步：ABC-XYZ分类&lt;/h3>
+&lt;p>用过去12个月销售数据，把所有SKU打上ABC-XYZ标签。&lt;/p></description></item><item><title>招标采购水到底有多深？3个环节最容易翻车</title><link>https://supplychain-tips.pages.dev/posts/bidding-procurement-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-procurement-625/</guid><description>&lt;p>招标采购，表面上看是最公平的采购方式：公开发布、公开评标、谁分高谁中标，流程清清楚楚。&lt;/p>
+&lt;p>但干过采购的人都知道，招标的水，深到你想象不到。&lt;/p>
+&lt;p>围标、串标、陪标、低价抢标高价索赔……这些操作在招标圈里不是秘密，是潜规则。今天把这3个最容易翻车的环节拆开说，你能堵住一个是一个。&lt;/p>
+&lt;h2 id="高危环节一技术参数设置定向锁标的重灾区">高危环节一：技术参数设置——定向锁标的重灾区&lt;/h2>
+&lt;p>技术参数怎么设，决定了谁能来投标、谁来不了。&lt;/p>
+&lt;p>这个环节出问题，通常有两种操作：&lt;/p>
+&lt;p>&lt;strong>操作A：参数定向倾斜&lt;/strong>&lt;/p>
+&lt;p>采购方（或者跟采购方有利益关系的人）在设置技术参数时，把某个供应商的独有参数写进去，其他供应商根本满足不了，只能出局。&lt;/p>
+&lt;p>比如买一台设备，技术参数里写&amp;quot;电机功率必须≥15.7kW&amp;quot;——看着很具体，实际上15.7kW是某品牌独有规格，其他品牌都是15kW或18kW，直接被刷掉。&lt;/p>
+&lt;p>&lt;strong>操作B：参数门槛设太高或太低&lt;/strong>&lt;/p>
+&lt;p>门槛太高，只有一两家能投标，竞争不充分，价格压不下来；门槛太低，来了一堆没有实际能力的供应商，评标工作量巨大，还容易混进皮包公司。&lt;/p>
+&lt;p>&lt;strong>防火墙机制：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>技术参数设置必须经过&amp;quot;三人以上审核&amp;quot;，审核记录留痕存档&lt;/li>
+&lt;li>参数设置完成后，先发&amp;quot;技术交流公告&amp;quot;，让潜在供应商来提问，发现有明显排他性的参数，主动调整&lt;/li>
+&lt;li>引入&amp;quot;参数合规性检查&amp;quot;：对照行业标准，参数不能超出必要的范围，不能指定品牌或型号（可以说&amp;quot;相当于XX品牌性能&amp;quot;，不能直接写品牌名）&lt;/li>
+&lt;/ul>
+&lt;h2 id="高危环节二评标标准设计主观分是操作空间最大的地方">高危环节二：评标标准设计——主观分是操作空间最大的地方&lt;/h2>
+&lt;p>评标标准一般分为两类：客观分（价格、资质、业绩，有就是有，没有就是没有）和主观分（技术方案、售后服务、综合实力，评委打分）。&lt;/p>
+&lt;p>出问题最多的，就是主观分。&lt;/p>
+&lt;p>&lt;strong>典型操作：把主观分权重设得很高（超过40%），然后评委都是&amp;quot;自己人&amp;quot;，想让谁高分谁高分。&lt;/strong>&lt;/p>
+&lt;p>我见过一个案例：某制造企业招标采购仓储管理系统，评标标准里&amp;quot;技术方案&amp;quot;占35%,&amp;ldquo;项目实施能力&amp;quot;占25%，价格只占20%。结果中标的那家，报价比第二名高了40%，技术方案写得花里胡哨，实际实施的时候Bug一堆，半年都没上线。&lt;/p>
+&lt;p>后来内部人透出来：评委都是IT部门的人，他们跟中标供应商之前就有合作，参数和评分标准都是照着人家写的。&lt;/p>
+&lt;p>&lt;strong>科学的评标权重怎么设？&lt;/strong>&lt;/p>
+&lt;p>一个相对合理的参考框架：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>评分维度&lt;/th>
+ &lt;th>建议权重&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>价格&lt;/td>
+ &lt;td>30-40%&lt;/td>
+ &lt;td>太低容易导致高价中标，太高容易引发恶性低价竞争&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>技术&lt;/td>
+ &lt;td>30-35%&lt;/td>
+ &lt;td>客观技术指标占比要高，主观技术方案占比要低&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>商务（资质、业绩、财务状况）&lt;/td>
+ &lt;td>20-25%&lt;/td>
+ &lt;td>证明供应商有履约能力&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>服务（售后、培训、响应速度）&lt;/td>
+ &lt;td>10-15%&lt;/td>
+ &lt;td>不宜过高，避免主观分操纵&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>关键原则：主观分（需要评委自由裁量的部分）总权重不要超过30%。&lt;/strong> 剩下的70%以上，应该是客观分——有就是有，没有就是没有，评委没操作空间。&lt;/p>
+&lt;h2 id="高危环节三合同条款谈判中标后翻脸不认人">高危环节三：合同条款谈判——中标后翻脸不认人&lt;/h2>
+&lt;p>中标公告一发布，很多人觉得采购结束了。其实真正的坑，才刚开始。&lt;/p>
+&lt;p>&lt;strong>常见操作：低价中标，中标后各种理由要求加价。&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;原材料涨价了&amp;rdquo; &amp;ldquo;这个不在报价范围内&amp;rdquo; &amp;ldquo;实施方案需要调整，要增加费用&amp;rdquo;……&lt;/p>
+&lt;p>如果他中标的价格明显低于市场价，那基本可以确定：他就是要先中标，再从合同谈判环节找补回来。&lt;/p>
+&lt;p>&lt;strong>防火墙机制：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>中标价格明显偏低的，要求提供成本构成说明&lt;/strong>。说不清楚的，可以认定为恶意低价竞标，废标。&lt;/li>
+&lt;li>&lt;strong>合同模板在招标前就定好&lt;/strong>，作为招标文件的一部分发出去。中标后只谈细节，不谈框架。谁要求改框架，直接终止签约，启动备选供应商流程。&lt;/li>
+&lt;li>&lt;strong>设履约保证金&lt;/strong>。一般是合同金额的5-10%，履约完成后退还。如果中标后各种理由要求加价，履约保证金就是不退款的筹码。&lt;/li>
+&lt;/ol>
+&lt;h2 id="围标串标的识别信号">围标串标的识别信号&lt;/h2>
+&lt;p>说几个实用的识别信号，碰到这些，要高度警惕：&lt;/p>
+&lt;p>&lt;strong>信号1：几家投标人的报价只差几百块&lt;/strong>&lt;/p>
+&lt;p>正常竞争情况下，不同供应商的报价应该有可见差异。如果3家报价分别是98.5万、98.7万、99万，精确度到了千位都相同——这不是竞争，这是商量好的。&lt;/p>
+&lt;p>&lt;strong>信号2：技术方案雷同&lt;/strong>&lt;/p>
+&lt;p>不同的公司，技术方案写得像双胞胎一样，连错别字都一样——直接废标，全部拉入黑名单。&lt;/p>
+&lt;p>&lt;strong>信号3：投标文件格式高度一致&lt;/strong>&lt;/p>
+&lt;p>字体、排版、甚至标点符号的使用习惯都一样，说明是同一家做的标书，只是换了封面。&lt;/p>
+&lt;p>&lt;strong>信号4：不同投标人的保证金从同一个账户转出&lt;/strong>&lt;/p>
+&lt;p>这是硬证据，一旦发现，直接举报，不仅本次招标作废，还要追究法律责任。&lt;/p>
+&lt;h2 id="招标全流程的10个风险控制点">招标全流程的10个风险控制点&lt;/h2>
+&lt;p>最后，给一个实操清单，照着做，能堵住90%的漏洞：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>招标准备阶段&lt;/strong>：技术参数三人审核、评分标准提前公示征求意见&lt;/li>
+&lt;li>&lt;strong>招标公告发布&lt;/strong>：至少在2个以上公开平台发布，给足够多的供应商参与机会&lt;/li>
+&lt;li>&lt;strong>投标人资格审查&lt;/strong>：资质、业绩、财务状况，查原件，不要只看复印件&lt;/li>
+&lt;li>&lt;strong>标前答疑&lt;/strong>：所有投标人的提问和答复，统一公开发布，不能私下发&lt;/li>
+&lt;li>&lt;strong>开标阶段&lt;/strong>：开标必须有监督人在场，全程录音录像&lt;/li>
+&lt;li>&lt;strong>评标阶段&lt;/strong>：评委从专家库随机抽取，不能指定；评标过程手机上交，不能与外界联系&lt;/li>
+&lt;li>&lt;strong>中标候选人公示&lt;/strong>：至少公示3天，接受异议&lt;/li>
+&lt;li>&lt;strong>合同谈判阶段&lt;/strong>：合同框架不能变，只能谈执行细节&lt;/li>
+&lt;li>&lt;strong>履约阶段&lt;/strong>：分阶段验收，分阶段付款，避免一次性付完钱人跑了&lt;/li>
+&lt;li>&lt;strong>招标档案归档&lt;/strong>：所有文件保存至少15年，以备审计&lt;/li>
+&lt;/ol>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>招标采购不是&amp;quot;一发公告就完事&amp;quot;的标准动作，是一场利益的博弈。&lt;/p></description></item><item><title>最后一公里占了物流成本50%，怎么砍？</title><link>https://supplychain-tips.pages.dev/posts/last-mile-delivery-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-delivery-625/</guid><description>&lt;p>我之前在一家电商公司管物流，CFO每次看财报都要问我一个问题：&amp;ldquo;最后一公里为什么这么贵？&amp;rdquo;&lt;/p>
+&lt;p>我当时给的数据是：干线运输+仓储成本占总物流成本的45%，最后一公里配送占55%。但最后一公里只承担了总运输距离的不到5%。&lt;/p>
+&lt;p>也就是说，&lt;strong>5%的距离吃掉了55%的成本。&lt;/strong>&lt;/p>
+&lt;p>这个比例在很多做城配和末端配送的企业里不算夸张。最后一公里就是这么贵，贵到让物流人头疼。&lt;/p>
+&lt;h3 id="为什么最后一公里这么贵">为什么最后一公里这么贵？&lt;/h3>
+&lt;p>三个核心原因：&lt;/p>
+&lt;p>&lt;strong>低密度&lt;/strong>：干线运输一车能装30吨跑500公里，摊到每公斤成本很低。但最后一公里，一辆面包车装200公斤跑20个网点，每个网点只卸10公斤，摊到每公斤的成本自然高。&lt;/p>
+&lt;p>&lt;strong>高频次&lt;/strong>：客户要的是今天下单明天到。这意味着你不能等装满车再发，每天都要跑。哪怕一车只装了30%的装载率也得走。&lt;/p>
+&lt;p>&lt;strong>碎片化+个性化&lt;/strong>：有的客户要放前台、有的要送上楼、有的要约时间、有的不在家要改日。每个订单的交付复杂度不同，你的司机的交付时间完全不可控。&lt;/p>
+&lt;p>说白了，干线运输是标准化的（大批量、固定路线），最后一公里是非标的（小批量、随机地址、个性化需求）。&lt;strong>非标就是成本。&lt;/strong>&lt;/p>
+&lt;h3 id="路线优化最容易被忽视的降本手段">路线优化：最容易被忽视的降本手段&lt;/h3>
+&lt;p>我见过很多城配企业，几十个司机每天凭经验跑路线。听起来没什么问题，但如果你仔细看数据：&lt;/p>
+&lt;ul>
+&lt;li>同一条路线上，有的司机顺路经过网点不送，绕一圈再回来&lt;/li>
+&lt;li>有的司机先跑远的再跑近的，里程多出20%&lt;/li>
+&lt;li>有的区域早上单量少、下午单量多，但固定排线导致早上空跑&lt;/li>
+&lt;/ul>
+&lt;p>这些问题用路线优化系统就能解决。原理不复杂：&lt;/p>
+&lt;p>&lt;strong>TSP（旅行商问题）&lt;/strong>：给定一组配送点和配送中心，找一条最短路线经过所有点。几十个网点用算法算出来的路线，比人工排的一般能省15-25%的里程。&lt;/p>
+&lt;p>&lt;strong>动态排线&lt;/strong>：不是每天固定路线，而是根据当天的订单分布实时生成最优路线。早上生鲜单多就先跑生鲜线，下午电商单多就切电商线。装载率能从50%提升到75%以上。&lt;/p>
+&lt;p>实际效果：我们上了一套动态排线系统后，单车日均配送量从45单提升到62单，里程降低18%，直接节省成本约22%。&lt;/p>
+&lt;p>投多少？SaaS版的路线优化系统，几十辆车规模的一般每个月几千块到一万块，一年也就几万到十几万。但节省下来的油费+人工成本，通常半年到一年回本。&lt;/p>
+&lt;h3 id="智能快递柜驿站降本提效的利器">智能快递柜/驿站：降本提效的利器&lt;/h3>
+&lt;p>上门配送的成本在哪里？主要是司机的等待时间和二次配送。&lt;/p>
+&lt;p>数据说话：一次上门成功率的行业平均水平大约是65-70%。也就是说，30-35%的订单需要二次配送。一次配送成本8-12元，二次配送又要8-12元。一个12元的订单，配送成本就吃了20-24元，直接亏损。&lt;/p>
+&lt;p>解决方案之一是智能快递柜和驿站模式。&lt;/p>
+&lt;p>&lt;strong>快递柜模式&lt;/strong>：客户自提，司机一次投柜完成，无需等待和二次配送。单次投递成本从12元降到4-6元。&lt;/p>
+&lt;p>&lt;strong>驿站模式&lt;/strong>：集中代收，一个驿站覆盖周围3-5个小区。司机一次性卸货到驿站，效率更高。&lt;/p>
+&lt;p>但快递柜和驿站不是万能的：&lt;/p>
+&lt;ul>
+&lt;li>大件商品（家具、家电）没法放快递柜&lt;/li>
+&lt;li>生鲜冷链需要冷链柜，成本更高&lt;/li>
+&lt;li>部分客户不接受自提模式&lt;/li>
+&lt;/ul>
+&lt;p>最佳策略是&lt;strong>混合模式&lt;/strong>：标品小件走快递柜/驿站，大件和时效敏感商品走专人配送。这样平均单件配送成本能控制在5-8元。&lt;/p>
+&lt;h3 id="众包配送灵活但不稳定">众包配送：灵活但不稳定&lt;/h3>
+&lt;p>众包配送的模式是利用社会闲置运力（外卖骑手、兼职司机）做末端配送。&lt;/p>
+&lt;p>优势：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>弹性运力&lt;/strong>：订单高峰期快速扩容，低谷期不需要养固定人力&lt;/li>
+&lt;li>&lt;strong>成本低&lt;/strong>：按单计费，不需要社保、车辆、管理等固定成本&lt;/li>
+&lt;li>&lt;strong>覆盖广&lt;/strong>：骑手遍布城市各个角落，特别适合密集城区&lt;/li>
+&lt;/ul>
+&lt;p>劣势：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>服务质量不稳定&lt;/strong>：接单率、准时率、态度参差不齐&lt;/li>
+&lt;li>&lt;strong>管控难度大&lt;/strong>：骑手不是你的员工，约束手段有限&lt;/li>
+&lt;li>&lt;strong>高峰期抢不到人&lt;/strong>：外卖高峰期（午11-13点、晚17-19点）骑手不够用&lt;/li>
+&lt;/ul>
+&lt;p>实操建议：众包适合作为补充运力，不要完全替代自有团队。标准件、非时效敏感的配送可以走众包；VIP客户、高价值商品、时效要求高的还是用自己的团队。&lt;/p>
+&lt;h3 id="中小企业能做什么">中小企业能做什么？&lt;/h3>
+&lt;p>不是每个企业都有预算上智能系统和快递柜网络。但有几件事是低成本就能做的：&lt;/p>
+&lt;p>&lt;strong>集中配送时段&lt;/strong>：不要客户什么时间下单都承诺当天送达。设定截单时间，比如下午2点前下单的今天送，之后的明天送。这样可以把订单集中到1-2个班次配送，装载率和效率都更高。&lt;/p>
+&lt;p>&lt;strong>优化客户预约机制&lt;/strong>：引导客户预约配送时间窗口（如上午/下午），而不是随叫随到。这样司机可以按时间窗口规划路线，减少空跑和等待。&lt;/p>
+&lt;p>&lt;strong>自提点布局&lt;/strong>：不需要建快递柜，可以和便利店、物业合作设自提点。给客户一些激励（如自提减免2元运费），分流30%以上的上门需求。&lt;/p>
+&lt;p>&lt;strong>数据驱动优化&lt;/strong>：至少每月分析一次配送数据：每个区域的单量分布、一次成功率、平均配送时长、每单成本。找到成本最高的区域和环节，针对性优化。&lt;/p>
+&lt;p>最后一公里是物流成本的大头，也是优化空间最大的地方。不需要一步到位上高科技，先从数据分析和基础管理做起，就能看到效果。&lt;/p>
+&lt;p>省下来的每一块钱，都是利润。&lt;/p></description></item><item><title>物流外包3年亏了200万，这3个坑我替你踩了</title><link>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-625/</guid><description>&lt;p>物流外包这事，很多人一开始想得特别美：把物流甩出去，自己专心做业务，每月付一笔服务费，剩下的全是第三方物流（3PL）的事。&lt;/p>
+&lt;p>现实呢？我见过太多企业，外包前算的是省钱账，外包后算的是止损账。&lt;/p>
+&lt;p>我自己踩过坑。3年外包，账面亏损200万，还不算那些因为配送延误被客户投诉、流失的订单。今天把这3个坑摊开说，你能避一个是一个。&lt;/p>
+&lt;h2 id="坑一选供应商只看报价死了都不知道怎么死的">坑一：选供应商只看报价，死了都不知道怎么死的&lt;/h2>
+&lt;p>选3PL的时候，90%的采购只看一件事：报价单上的数字。&lt;/p>
+&lt;p>谁便宜用谁，这是外包第一大死法。&lt;/p>
+&lt;p>报价低有两种可能：一种是人家效率高、规模大，真有成本优势；另一种是人家的报价里藏了刀——前期低价切入，合同签了再慢慢割你韭菜。&lt;/p>
+&lt;p>&lt;strong>怎么分辨？三个动作：&lt;/strong>&lt;/p>
+&lt;p>第一，看同类案例。不是看他PPT上写了什么客户，而是问他：能不能让我跟你们现有的客户聊一聊？敢不敢让我去现场看一眼？不敢的，直接pass。&lt;/p>
+&lt;p>第二，实地考察。去他的仓库转一圈，不用懂太多，就看两个东西：现场乱不乱，员工状态松不松弛。现场乱的，管理一定有问题；员工松松垮垮的，执行力一定不行。这两个问题叠加，你的货进去就是被祸害的开始。&lt;/p>
+&lt;p>第三，试单。别一上来就签全年合同。先丢一小部分货给他跑一个月，全程跟一遍，看看他承诺的时效、破损率、响应速度，到底能不能兑现。&lt;/p>
+&lt;p>我当年就是省了这一步，选了个报价比市场低15%的物流商，结果第一个月破损率就到了3%（行业平均水平是0.5%以下），赔给客户的钱远远超过了省下的运费。&lt;/p>
+&lt;h2 id="坑二合同写得像散文出了事只能自认倒霉">坑二：合同写得像散文，出了事只能自认倒霉&lt;/h2>
+&lt;p>很多企业和3PL签合同，直接用人家提供的模板。你以为那是标准合同，其实那是人家律师帮你量身定做的&amp;quot;免责声明&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>合同里这5个条款，必须写死，不写就是给自己挖坑：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>1. SLA时效承诺，精确到百分比&lt;/strong>&lt;/p>
+&lt;p>别说&amp;quot;力争24小时送达&amp;quot;这种废话。&amp;ldquo;力争&amp;quot;等于没承诺。要写：城市内24小时送达率不低于95%，跨省48小时送达率不低于90%。每低1个百分点，扣当月服务费的X%。数字摆在明面上，才有约束力。&lt;/p>
+&lt;p>&lt;strong>2. 破损赔偿，别搞&amp;quot;协商处理&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>合同里写&amp;quot;破损双方协商处理&amp;quot;的，全是在埋雷。一定要写清楚：破损按货物实际价值全额赔偿，7个工作日内到账。没有&amp;quot;协商&amp;quot;两个字，就是照价赔偿。&lt;/p>
+&lt;p>&lt;strong>3. 价格调整机制，锁死调整空间和频率&lt;/strong>&lt;/p>
+&lt;p>3PL最喜欢干的事：合同签一年，跑了半年跟你说成本上涨，要涨价。你不涨？服务质量立刻下降。合同里必须写：合同期内价格锁定，任何理由不得涨价。如果非要保留调价机制，也要写清楚：涨幅不超过X%，且需提前90天书面通知，你有终止合同的权利。&lt;/p>
+&lt;p>&lt;strong>4. 退出条款，这是你的保命符&lt;/strong>&lt;/p>
+&lt;p>这是最容易被忽略、出了事最要命的条款。必须写清楚：合同终止后，对方必须在X天内完成全部货物交接，交接完成前不得收取任何费用。更重要的是：如果对方在服务期间出现重大失误（定义要写清楚），你有权无条件终止合同，且对方需支付违约金。&lt;/p>
+&lt;p>我见过一家企业，合同没写退出版本，想换供应商的时候，原物流商直接说&amp;quot;可以走，但这批货我们得押一个月，等费用结清再放&amp;quot;。结果押的那批货里有一批生鲜，全坏了。&lt;/p>
+&lt;p>&lt;strong>5. 数据安全，别让物流商变现你的客户信息&lt;/strong>&lt;/p>
+&lt;p>你的客户地址、电话、购买频次，对物流商来说是一笔资产。合同里必须写：物流商不得留存、使用、向第三方提供你的客户数据，违约重罚。&lt;/p>
+&lt;h2 id="坑三kpi设计垃圾考核流于形式">坑三：KPI设计垃圾，考核流于形式&lt;/h2>
+&lt;p>很多企业和3PL的KPI长这样：月度送达率、投诉次数。&lt;/p>
+&lt;p>两个指标，管不住3PL。&lt;/p>
+&lt;p>&lt;strong>送达率是最容易被操纵的指标。&lt;/strong> 物流商可以把难送的订单拖到次月再送，本月送达率就漂亮了。你看到的数据是95%，实际上客户体验是一坨屎。&lt;/p>
+&lt;p>&lt;strong>正确的KPI设计，至少要有4个维度：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>时效达标率&lt;/strong>：按承诺时效送达的订单占比，分城市、分区域分别考核&lt;/li>
+&lt;li>&lt;strong>破损率&lt;/strong>：万分之X，超标要有惩罚机制&lt;/li>
+&lt;li>&lt;strong>投诉率&lt;/strong>：有效投诉（扣除恶意投诉）占订单总数的比例&lt;/li>
+&lt;li>&lt;strong>成本偏差&lt;/strong>：实际发生费用与预算的偏差幅度&lt;/li>
+&lt;/ul>
+&lt;p>然后给这4个指标分配权重，算出综合得分，跟月度服务费挂钩。得分低于80分，扣款；连续3个月低于80分，有权终止合同。&lt;/p>
+&lt;p>KPI不是写在合同里好看的，是要真金白银跟钱挂钩的。不跟钱挂钩的KPI，等于没有KPI。&lt;/p>
+&lt;h2 id="外包的三个阶段每个阶段都有坑">外包的三个阶段，每个阶段都有坑&lt;/h2>
+&lt;p>&lt;strong>选择期（第1-2个月）&lt;/strong>：这时候你还在对比各家报价，最容易犯的错误就是唯价格论。上面说过了，不再重复。&lt;/p>
+&lt;p>&lt;strong>磨合期（第3-5个月）&lt;/strong>：这是最危险的阶段。系统对接、流程磨合、人员配合，全是问题。很多外包死在这个阶段——因为问题多，你开始怀疑外包决策是否正确。我的建议是：磨合期前3个月，你必须派一个人驻场，全程跟进，把问题一个一个摁死。别指望3PL主动帮你优化，人家优先级排在你前面的大客户多的是。&lt;/p>
+&lt;p>&lt;strong>稳定期（第6个月以后）&lt;/strong>：以为可以当甩手掌柜了？错了。稳定期的问题是&amp;quot;温水煮青蛙&amp;quot;——服务质量慢慢下降，你习惯了，等发现的时候已经晚了。每个季度做一次服务质量审计，每个季度跟3PL开一次复盘会，别断。&lt;/p>
+&lt;h2 id="自建-vs-外包怎么决策">自建 vs 外包，怎么决策？&lt;/h2>
+&lt;p>最后给一个简单粗暴的决策树：&lt;/p>
+&lt;ul>
+&lt;li>你的日均订单量有没有超过1000单？没有 → 别自建，外包&lt;/li>
+&lt;li>你的毛利能不能支撑自建物流的成本？不能 → 外包&lt;/li>
+&lt;li>你的业务是不是高度季节性，波峰波谷差距超过5倍？是 → 外包（自建会被波谷时段的固定成本拖死）&lt;/li>
+&lt;li>你的核心竞争优势是不是&amp;quot;配送体验&amp;quot;？（比如生鲜、奢侈品）→ 考虑自建核心城市，外围外包&lt;/li>
+&lt;/ul>
+&lt;p>没有标准答案，只有适合不适合。&lt;/p>
+&lt;p>物流外包不是甩手掌柜，是换个地方操心。操心操对了，外包是真能帮你省钱、提效；操心操错了，就是我这样——3年亏200万，换来一肚子教训。&lt;/p>
+&lt;p>希望你看完这篇文章，不用再交这个学费。&lt;/p></description></item><item><title>算了一晚上EOQ公式，老板说'你在自嗨'</title><link>https://supplychain-tips.pages.dev/posts/eoq-myths-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-myths-625/</guid><description>&lt;p>你大学学供应链的第一课，大概率就是EOQ（经济订货量）。那套公式背得滚瓜烂熟：√(2DS/H)，需求D、订货成本S、持有成本H，开根号，得出一个&amp;quot;最优订货量&amp;quot;。&lt;/p>
+&lt;p>看起来很美，对吧？&lt;/p>
+&lt;p>然后你进了职场，兴冲冲地拿这个公式去算你们公司的订货策略，算了一晚上，Excel表格做得漂漂亮亮，第二天兴冲冲地拿给老板看。&lt;/p>
+&lt;p>老板只说了一句话：&amp;ldquo;你在自嗨。&amp;rdquo;&lt;/p>
+&lt;p>别不服气。我今天就是把这句话拆开来讲——&lt;strong>EOQ公式本身没错，错的是你拿它当真理用&lt;/strong>。&lt;/p>
+&lt;h2 id="eoq的3个致命假设现实中全崩了">EOQ的3个致命假设，现实中全崩了&lt;/h2>
+&lt;p>EOQ公式成立的前提，有三条：&lt;/p>
+&lt;p>&lt;strong>假设一：需求稳定且已知。&lt;/strong>&lt;/p>
+&lt;p>教科书上说&amp;quot;年需求量D已知且恒定&amp;quot;。你信吗？我干了十几年供应链，没见过哪家公司的需求是&amp;quot;恒定&amp;quot;的。旺季能翻三倍，淡季能归零，促销活动一来，需求直接炸锅。你说D是多少？取过去12个月平均值？那你知道下个月会不会突然爆单？&lt;/p>
+&lt;p>&lt;strong>假设二：提前期固定不变。&lt;/strong>&lt;/p>
+&lt;p>公式是假设供应商交货时间是确定的。现实呢？说好15天交，结果供应商产线出问题，拖到30天；或者说好30天，结果供应商正好有现货，5天就到了。提前期是个分布，不是个数字。你用固定值算EOQ，本身就是错的。&lt;/p>
+&lt;p>&lt;strong>假设三：单价不变，没有批量折扣。&lt;/strong>&lt;/p>
+&lt;p>EOQ假设unit cost是常量。但现实是——你订100个和订1000个，供应商给的单价能差20%。这时候你还死磕EOQ算出来的&amp;quot;最优量&amp;quot;，供应商笑都不笑你。&lt;/p>
+&lt;p>这三条假设，在现实供应链里&lt;strong>一条都不成立&lt;/strong>。你拿一个建立在虚假前提上的公式去指导实际运营，不翻车才怪。&lt;/p>
+&lt;h2 id="翻车案例某工厂用eoq优化后反而缺料停线">翻车案例：某工厂用EOQ优化后反而缺料停线&lt;/h2>
+&lt;p>讲个真事。&lt;/p>
+&lt;p>2023年，我接触一家做汽车零部件的工厂，生产计划员小陈（化名）是供应链专业毕业的，对EOQ情有独钟。他花了一周时间，把公司200多个SKU全部用EOQ公式算了一遍，得出结论：平均订货量可以从目前的月订改为季订，这样订货成本分摊下来更优。&lt;/p>
+&lt;p>他写了一份20页的PPT，向厂长汇报，说这样一年能省37万的订货成本和库存持有成本。&lt;/p>
+&lt;p>厂长拍板：干！&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>实施第一个月，一切正常。第二个月，某核心原材料供应商因为环保检查停产了三周，提前期从15天变成不确定。按EOQ算出来的季订量，安全库存根本扛不住这个波动。&lt;/p>
+&lt;p>第三个月，两条产线因为缺料停了4天。停线损失一天18万，4天就是72万。&lt;/p>
+&lt;p>&lt;strong>省下来的37万还没捂热，赔出去72万。&lt;/strong>&lt;/p>
+&lt;p>小陈后来跟我说：&amp;ldquo;我以为EOQ算出来就是对的，没考虑到供应商会掉链子。&amp;rdquo;&lt;/p>
+&lt;p>这就是典型的&amp;quot;公式自嗨&amp;quot;——&lt;strong>把模型当真理，把假设当现实&lt;/strong>。&lt;/p>
+&lt;h2 id="静态eoq是垃圾动态eoq才是正道">静态EOQ是垃圾，动态EOQ才是正道&lt;/h2>
+&lt;p>那EOQ是不是完全没用？也不是。&lt;/p>
+&lt;p>&lt;strong>EOQ的价值不在于那个数字，而在于它提醒你&amp;quot;订货频率和订货量之间有权衡关系&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>但要用好它，必须把静态EOQ升级为动态EOQ。怎么做？&lt;/p>
+&lt;h3 id="第一步把需求从常数变成分布">第一步：把需求从&amp;quot;常数&amp;quot;变成&amp;quot;分布&amp;quot;&lt;/h3>
+&lt;p>不要用一个固定值D，而是用&lt;strong>需求分布&lt;/strong>来算。取过去12个月（或24个月）的需求数据，算出平均值μ和标准差σ。然后用&lt;strong>服务水平目标&lt;/strong>（比如95%不缺货）来反推需要多少安全库存。&lt;/p>
+&lt;p>动态EOQ的公式变成：&lt;/p>
+&lt;blockquote>
+&lt;p>订货量 = √(2DS/H) × 需求波动修正系数&lt;/p>
+&lt;/blockquote>
+&lt;p>这个&amp;quot;修正系数&amp;quot;根据你们行业的需求波动特性来定。快消品可能1.2-1.5，工业品可能2-3。&lt;/p>
+&lt;h3 id="第二步把提前期从固定值变成带标准差的变量">第二步：把提前期从&amp;quot;固定值&amp;quot;变成&amp;quot;带标准差的变量&amp;quot;&lt;/h3>
+&lt;p>提前期L不要用一个数字，而是记录过去12个月每次实际交货的提前期，算出平均值和标准差。&lt;/p>
+&lt;p>如果供应商平均提前期20天，标准差8天，那你做库存计划的时候，必须按&lt;strong>20 + Z×8&lt;/strong>来算（Z是服务水平对应的安全系数）。&lt;/p>
+&lt;h3 id="第三步把单价折扣曲线加进来">第三步：把单价折扣曲线加进来&lt;/h3>
+&lt;p>供应商通常会有阶梯定价：&lt;/p>
+&lt;ul>
+&lt;li>订100个以下：单价10元&lt;/li>
+&lt;li>订100-500个：单价9.5元&lt;/li>
+&lt;li>订500个以上：单价8.8元&lt;/li>
+&lt;/ul>
+&lt;p>这时候要算的不是简单的EOQ，而是&lt;strong>EPQ（Economic Production Quantity）或者考虑批量折扣的总成本最小化模型&lt;/strong>。&lt;/p>
+&lt;p>用Excel的&amp;quot;规划求解&amp;quot;或者Python写个简单脚本，把订货成本、持有成本、采购成本三者加起来，找总成本最低的点。&lt;/p>
+&lt;h2 id="真正的库存决策数据经验供应商协同">真正的库存决策：数据+经验+供应商协同&lt;/h2>
+&lt;p>说到底，&lt;strong>库存决策不是算出来的，是平衡出来的&lt;/strong>。&lt;/p>
+&lt;p>我见过最厉害的库存计划员，Excel里从来不套EOQ公式，但他管的那几百个SKU，库存周转率常年比行业平均高30%，缺货率还更低。&lt;/p>
+&lt;p>他的方法是什么？&lt;/p>
+&lt;p>&lt;strong>第一，看数据，但不迷信数据。&lt;/strong> 他知道哪些SKU需求稳、哪些波动大；哪些供应商靠谱、哪些经常掉链子。这些数据他会量化，但不会机械地套公式。&lt;/p>
+&lt;p>&lt;strong>第二，跟销售聊，跟供应商聊。&lt;/strong> 销售那边有没有大促？供应商那边最近产线稳不稳定？这些信息比任何公式都管用。&lt;/p>
+&lt;p>&lt;strong>第三，分级管理。&lt;/strong> A类物料（贡献80%金额的20%SKU）用动态模型精细算；C类物料直接用简单规则（比如固定周期订货），没必要浪费时间在低价值物料上精雕细琢。&lt;/p>
+&lt;h2 id="eoq什么时候能用">EOQ什么时候能用？&lt;/h2>
+&lt;p>也不是完全否定EOQ。以下场景，EOQ公式还是有参考价值的：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>需求相对稳定的MRO物料&lt;/strong>（螺丝、标准件、办公用品），用EOQ算个基准量，然后再人为调整。&lt;/li>
+&lt;li>&lt;strong>做&amp;quot;大致估算&amp;quot;的时候&lt;/strong>，EOQ给你一个数量级的概念，帮你判断&amp;quot;一次订一个月还是三个月&amp;quot;。&lt;/li>
+&lt;li>&lt;strong>跟老板汇报的时候&lt;/strong>，用EOQ作为&amp;quot;理论支撑&amp;quot;，但决策必须基于实际情况调整——&lt;strong>公式只是起点，不是终点&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>供应链没有银弹。EOQ、安全库存公式、再订货点模型——这些都是工具，不是答案。&lt;/p></description></item><item><title>被环保罚了50万才知道，绿色供应链不是做公益是保命</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-625/</guid><description>&lt;p>去年年底，我们一家上游供应商因为危废处理不达标被环保局罚了50万，同时被勒令停产整改两个月。&lt;/p>
+&lt;p>你以为这事跟我们没关系？直接断供，生产线停了三天，客户的订单交期全部违约，光违约金就赔了120万。&lt;/p>
+&lt;p>从那以后我才真正明白一件事：绿色供应链不是什么社会责任报告上的漂亮话，是你供应链能不能活下去的生死线。&lt;/p>
+&lt;h3 id="双碳政策越来越狠谁也别想逃">双碳政策越来越狠，谁也别想逃&lt;/h3>
+&lt;p>2026年碳达峰前的窗口期越来越短，各地方的环保执法频率和力度都在升级。你看看最近半年：&lt;/p>
+&lt;ul>
+&lt;li>重点排污企业在线监测全覆盖，数据直连环保部门&lt;/li>
+&lt;li>危废转移电子联单全面实施，偷排漏排一查一个准&lt;/li>
+&lt;li>新能源车路权收紧，不达标车辆限行区域扩大&lt;/li>
+&lt;li>大客户ESG审核开始纳入供应商准入条件&lt;/li>
+&lt;/ul>
+&lt;p>以前你觉得环保是锦上添花，现在是硬性约束。你不达标，客户不给你单子，银行不给贷款，政府随时给你关门。&lt;/p>
+&lt;h3 id="碳足迹从概念到必须算的账">碳足迹：从概念到必须算的账&lt;/h3>
+&lt;p>供应链的碳排放分三个Scope：&lt;/p>
+&lt;p>&lt;strong>Scope 1&lt;/strong>：你直接燃烧产生的排放，比如自有车辆柴油、锅炉烧煤。这部分好理解，也好控制。&lt;/p>
+&lt;p>&lt;strong>Scope 2&lt;/strong>：你用电用热间接产生的排放。你用的电是煤电还是绿电，排放差3-4倍。这部分切换供应商就能降。&lt;/p>
+&lt;p>&lt;strong>Scope 3&lt;/strong>：供应商的生产排放、物流运输排放、产品使用和报废的排放。这部分最大，也最难管，通常占总排放的70%以上。&lt;/p>
+&lt;p>对大多数制造业来说，Scope 3是减排的重点。但问题来了：你连供应商的排放数据都拿不到，怎么减？&lt;/p>
+&lt;p>实操建议：从头部供应商开始，要求他们提供年度碳排放数据，纳入供应商评估体系。你不要求，他们永远不会主动去做。&lt;/p>
+&lt;h3 id="绿色物流别等罚款了才想起来">绿色物流：别等罚款了才想起来&lt;/h3>
+&lt;p>绿色物流不是喊口号，是实实在在的成本和合规。&lt;/p>
+&lt;p>&lt;strong>包装减量化&lt;/strong>：我们统计过，包装物料占物流成本的12-15%。把木箱改成可循环塑料箱，一次性投入大但回收3-4次就回本。客户那边的包装废弃物处理成本也大幅下降，满意度反而提升了。&lt;/p>
+&lt;p>&lt;strong>新能源车辆替代&lt;/strong>：如果你有自有车队，算一笔账：新能源车购置补贴+路权优势+油电差价，全生命周期成本比柴油车低20-30%。但前提是充电设施跟得上。&lt;/p>
+&lt;p>&lt;strong>路线优化降碳&lt;/strong>：这个最简单，也最容易忽视。用系统做路线规划，减少空驶和绕路，平均降碳10-15%，同时降燃油成本。很多企业连最基本的路线规划都没做，每天司机凭经验跑，绕路30%都不知道。&lt;/p>
+&lt;h3 id="供应商esg评估怎么做">供应商ESG评估怎么做&lt;/h3>
+&lt;p>大企业已经在做了，中小企业也不能再拖了。&lt;/p>
+&lt;p>第一步：制定你的ESG评估标准。不需要搞那么复杂，核心3个维度：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>E（环境）&lt;/strong>：是否有环保资质、危废处理是否合规、碳排放是否有数据&lt;/li>
+&lt;li>&lt;strong>S（社会）&lt;/strong>：用工是否规范、是否有社保、是否存在严重劳资纠纷&lt;/li>
+&lt;li>&lt;strong>G（治理）&lt;/strong>：财务是否健康、是否有诚信记录、管理层是否稳定&lt;/li>
+&lt;/ul>
+&lt;p>第二步：把ESG评估嵌入供应商准入流程。新供应商必须过ESG关，老供应商做年度复审。&lt;/p>
+&lt;p>第三步：对高风险供应商做现场审核。尤其是化工、电镀、印染这些高污染行业的供应商。&lt;/p>
+&lt;p>我们去年就是因为没有做第三步，供应商危废处理违规我们完全不知道，直到被环保局通知才后知后觉。&lt;/p>
+&lt;h3 id="中小企业的绿色转型三步走">中小企业的绿色转型三步走&lt;/h3>
+&lt;p>别被&amp;quot;绿色供应链&amp;quot;四个字吓到，中小企业可以分三步走：&lt;/p>
+&lt;p>&lt;strong>第一步（0-3个月）&lt;/strong>：摸底。搞清楚自己供应链的碳排放基线数据，列出高风险供应商清单。这一步成本几乎为零，就是花时间。&lt;/p>
+&lt;p>&lt;strong>第二步（3-6个月）&lt;/strong>：整改。优先解决合规问题：危废处理、排污许可、安全库存等。这些不是选择题，是必答题。同时开始要求核心供应商提供碳排放数据。&lt;/p>
+&lt;p>&lt;strong>第三步（6-12个月）&lt;/strong>：优化。启动包装循环利用、路线优化、新能源替换等降本减碳项目。这些项目基本都能在1-2年内收回投资。&lt;/p>
+&lt;p>绿色供应链这件事，早做是布局，晚做是救火。等到罚款来了、客户断供了、银行抽贷了，再想补就来不及了。&lt;/p>
+&lt;p>别拿&amp;quot;成本高&amp;quot;当借口。我们那次50万罚款+120万违约金，够做多少绿色改进项目？&lt;/p></description></item><item><title>采购成本只看单价？难怪你年年降本年年亏</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-625/</guid><description>&lt;p>你有没有遇到过这种情况：&lt;/p>
+&lt;p>年底了，老板拍桌子：&amp;ldquo;今年采购降本5%，怎么还没完成？！&amp;rdquo;&lt;/p>
+&lt;p>你委屈啊——单价已经砍到供应商吐血了，再砍就要断供了。但账面上的&amp;quot;采购成本&amp;quot;确实没降多少。&lt;/p>
+&lt;p>问题出在哪？&lt;/p>
+&lt;p>&lt;strong>出在你只盯着采购单价，而真正的成本藏在别处。&lt;/strong>&lt;/p>
+&lt;h2 id="单价的冰山模型水下的90才要命">单价的冰山模型：水下的90%才要命&lt;/h2>
+&lt;p>采购单价是什么？是冰山露出水面的那一角。你以为看到了全部，其实水下的部分才是真正吃利润的地方。&lt;/p>
+&lt;p>我给你算一笔账。&lt;/p>
+&lt;p>假设你们公司每年采购某种原材料1000万元（按单价计算）。你辛辛苦苦跟供应商磨了三个月，把单价压下来5%，省了50万。老板夸你厉害。&lt;/p>
+&lt;p>但是——&lt;/p>
+&lt;ul>
+&lt;li>因为换了低价供应商，来料不良率从0.5%升到3%。1000万的货，多出来的2.5%不良，就是25万的返工/报废成本。&lt;/li>
+&lt;li>新供应商交期不稳定，为了不停线，你不得不把安全库存从7天提到15天。多压的8天库存，资金占用成本按8%年化，就是&lt;strong>17.8万&lt;/strong>。&lt;/li>
+&lt;li>交期波动导致你不得不每周期盯进度，采购员每个月多花20小时跟进催货，一年就是240小时，按采购员时薪100元算，又是&lt;strong>2.4万&lt;/strong>的管理成本。&lt;/li>
+&lt;li>因为交期不准，你错过了两个大客户的紧急订单，销售额损失估算&lt;strong>100万&lt;/strong>，利润影响约&lt;strong>15万&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>加起来是多少？&lt;/p>
+&lt;blockquote>
+&lt;p>省下来的50万 - （25 + 17.8 + 2.4 + 15）= &lt;strong>亏了10.2万&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>你以为你在降本，其实你在&lt;strong>烧钱&lt;/strong>。&lt;/p>
+&lt;h2 id="tco总拥有成本采购的必修课">TCO：总拥有成本，采购的必修课&lt;/h2>
+&lt;p>TCO（Total Cost of Ownership，总拥有成本）不是什么高深理论，就是一句话：&lt;/p>
+&lt;p>&lt;strong>买东西花的钱 ≠ 这东西真正花你多少钱。&lt;/strong>&lt;/p>
+&lt;p>TCO至少包含以下成本项：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;th>典型占比&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>合同上的价格&lt;/td>
+ &lt;td>60-80%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本&lt;/td>
+ &lt;td>不良品导致的返工、报废、索赔&lt;/td>
+ &lt;td>3-15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期成本&lt;/td>
+ &lt;td>延迟导致的停线损失、 rush运费&lt;/td>
+ &lt;td>2-10%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存成本&lt;/td>
+ &lt;td>安全库存增加导致的资金占用&lt;/td>
+ &lt;td>5-12%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>物流成本&lt;/td>
+ &lt;td>运输、关税、仓储&lt;/td>
+ &lt;td>3-8%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理成本&lt;/td>
+ &lt;td>跟进、沟通、处理异常的人力&lt;/td>
+ &lt;td>1-5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>切换成本&lt;/td>
+ &lt;td>换供应商的验证、试产、学习曲线&lt;/td>
+ &lt;td>一次性，但可能很高&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>加起来，TCO比采购单价高20-40%是常态。&lt;/strong>&lt;/p>
+&lt;h2 id="真实案例a供应商vs-b供应商">真实案例：A供应商vs B供应商&lt;/h2>
+&lt;p>讲个我亲身经历的例子。&lt;/p>
+&lt;p>2022年，我在一家电子制造企业做供应链顾问。他们有一款PCB板，有两个供应商可选：&lt;/p>
+&lt;p>&lt;strong>A供应商&lt;/strong>：单价&lt;strong>18.5元/片&lt;/strong>，行业口碑好，交期稳定（承诺7天，实际平均6.5天），不良率0.2%。&lt;/p>
+&lt;p>&lt;strong>B供应商&lt;/strong>：单价&lt;strong>17.2元/片&lt;/strong>（便宜7%），新进入的供应商，承诺交期7天（实际平均9天，波动大），不良率1.8%。&lt;/p>
+&lt;p>采购经理当时倾向于选B，因为&amp;quot;单价低7%，一年采购200万片，能省&lt;strong>260万&lt;/strong>&amp;quot;。&lt;/p>
+&lt;p>我让他算了一下TCO：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>A供应商&lt;/th>
+ &lt;th>B供应商&lt;/th>
+ &lt;th>差异&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购单价&lt;/td>
+ &lt;td>3700万&lt;/td>
+ &lt;td>3440万&lt;/td>
+ &lt;td>-260万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本（返工+报废）&lt;/td>
+ &lt;td>7.4万&lt;/td>
+ &lt;td>62万&lt;/td>
+ &lt;td>+54.6万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>停线风险成本&lt;/td>
+ &lt;td>几乎为0&lt;/td>
+ &lt;td>约80万/年&lt;/td>
+ &lt;td>+80万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>额外安全库存资金成本&lt;/td>
+ &lt;td>约30万&lt;/td>
+ &lt;td>约65万&lt;/td>
+ &lt;td>+35万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>管理跟进成本&lt;/td>
+ &lt;td>约10万&lt;/td>
+ &lt;td>约35万&lt;/td>
+ &lt;td>+25万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>TCO合计&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3747万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>3682万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>-65万&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>结论：&lt;strong>B供应商的TCO反而比A高65万/年&lt;/strong>，相当于单价的优势被完全吃掉还倒贴。&lt;/p></description></item><item><title>300份合同才悟出来的坑：采购合同这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/</guid><description>&lt;p>入行第一年，采购合同对我来说就是一张纸。老板让签就签，供应商发来就回传，注意力全在单价和交期两个数上。至于后面密密麻麻的那些条款——没看过，也看不懂。&lt;/p>
+&lt;p>直到有一次，供应商把一批货的规格和合同少了两个参数，导致整批物料不能用。我去找人家索赔，人家把合同翻到第17页，指着免责条款说&amp;quot;这条写了，参数差异以我方出厂标准为准&amp;quot;。&lt;/p>
+&lt;p>我当时脑子就炸了。签了300份合同才明白：合同的关键不在签的时候多快，而在出问题的时候能不能保你的命。&lt;/p>
+&lt;h3 id="第一条验收标准模糊就是给对方送钱">第一条：验收标准——模糊就是给对方送钱&lt;/h3>
+&lt;p>看过多少份合同里的验收条款写&amp;quot;按国家标准执行&amp;quot;？国家标准有一大堆，具体哪一条？检验方法是什么？抽样比例是多少？谁请第三方机构？&lt;/p>
+&lt;p>真正能用的验收条款至少包括：&lt;/p>
+&lt;ul>
+&lt;li>引用文件：GB/T XXXX 哪个编号哪个版本&lt;/li>
+&lt;li>关键指标：尺寸、材质、性能参数的具体公差范围&lt;/li>
+&lt;li>抽样方案：来料抽检还是全检，AQL值是多少&lt;/li>
+&lt;li>检测费用：初次检测谁掏钱，复检谁出&lt;/li>
+&lt;/ul>
+&lt;p>写不清楚，就是给供应商留了&amp;quot;合理偏差&amp;quot;的解释空间。别懒这几行字，出了问题赔几十万。&lt;/p>
+&lt;h3 id="第二条违约金协商解决等于没有">第二条：违约金——&amp;ldquo;协商解决&amp;quot;等于没有&lt;/h3>
+&lt;p>&amp;ldquo;如有违约，双方协商解决。&amp;ldquo;这句你签过多少次？真出了事，对方说&amp;quot;协商就是不接受你的索赔要求&amp;rdquo;，你一点脾气没有。&lt;/p>
+&lt;p>违约金条款要写到三个关键点上：&lt;/p>
+&lt;ul>
+&lt;li>延期交货：每延迟一天按合同总额的X%赔偿，上限Y%&lt;/li>
+&lt;li>质量不合格：退换货期限、返修费用归属、连带损失赔偿&lt;/li>
+&lt;li>单方终止：对方违约给你造成的采购差价、紧急调货成本归谁&lt;/li>
+&lt;/ul>
+&lt;p>要写得具体。合同法保护具体约定的条款，不保护模糊的&amp;quot;协商解决&amp;rdquo;。&lt;/p>
+&lt;h3 id="第三条知识产权你以为你买了其实你没买">第三条：知识产权——你以为你买了，其实你没买&lt;/h3>
+&lt;p>找供应商定制开发一套夹具，付了几十万。年底想换供应商，原供应商说：图纸和方案是我们的知识产权，你不能给下家。&lt;/p>
+&lt;p>你突然发现，你买的是实物，不是技术。所有的定制方案、工艺参数、图纸版权，合同里没有权利归属条款的话，默认归承制方。&lt;/p>
+&lt;p>如果你是来图加工，定制品的技术权一定要写清楚：&amp;ldquo;本项目产生的所有技术成果与知识产权归买方所有&amp;rdquo;。&lt;/p>
+&lt;h3 id="第四条保密条款你报价单满天飞">第四条：保密条款——你报价单满天飞&lt;/h3>
+&lt;p>供应商拿着你的BOM清单和用量数据到处找竞品报价，反过来跟你抬价。你气不气？&lt;/p>
+&lt;p>保密条款不只保护你公司的商业机密，也保护你的采购策略。&lt;/p>
+&lt;p>把物料清单、预估用量、价格体系都列进保密范围。违约直接按合同金额的X%赔，不是闹着玩的。&lt;/p>
+&lt;h3 id="第五条不可抗力对方甩锅的第一选择">第五条：不可抗力——对方甩锅的第一选择&lt;/h3>
+&lt;p>口罩期间这句话被用泛滥了。&amp;ldquo;受疫情影响不能交货&amp;rdquo;——但到底什么算不可抗力？台风封路算不算？供应商自己的供应商交不了货算不算？工人辞职了算不算？&lt;/p>
+&lt;p>你得把不可抗力的范围写死：自然灾害、政府行为可以算。但供应商的员工流失、内部管理问题、上游厂商违约——这些不是你的不可抗力，是他们的经营风险。&lt;/p>
+&lt;hr>
+&lt;p>这些坑我一个一个踩过来的，疼够了才记住。你做采购，每天面对的是博弈场，合同是你手里唯一的盾。别被法务说一句&amp;quot;这是标准模板&amp;quot;就放了。模板是别人的，风险是你的。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ABC分类法用错了三年，我才发现白干了</title><link>https://supplychain-tips.pages.dev/posts/abc-class-927/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-class-927/</guid><description>&lt;p>干了三年库存管理，每月惯例：拉SKU列表，按销售额从高到低排，前20%叫A，中间30%叫B，后面50%叫C。然后洋洋洒洒写报告：A类重点管理，C类放松管理。&lt;/p>
+&lt;p>老板过了新鲜劲就不看了——因为他发现不管你怎么分类，库存该压还是压，缺货该缺还是缺。&lt;/p>
+&lt;p>后来我才明白：只按金额做ABC，是你库存永远理不顺的根源。&lt;/p>
+&lt;h3 id="你以为a类最重要但它刚好不缺货">你以为A类最重要，但它刚好不缺货&lt;/h3>
+&lt;p>典型的误区：年销售额最高的SKU划A类，给它最严格的库存管理。&lt;/p>
+&lt;p>但真实情况是什么？A类SKU是爆款，供应商把它当重点客户，交期从来不会超过3天。你盯着它管得死死的，纯属浪费精力。&lt;/p>
+&lt;p>反而是一个C类SKU——一年只卖几千块钱——却是产线装配必须用的螺丝。缺了它就全线停。但你按ABC把它划在&amp;quot;不用多操心&amp;quot;的C类区域。&lt;/p>
+&lt;p>所以正确的做法是：&lt;strong>至少引入第二个维度——关键性&lt;/strong>。不是看它贡献了多少销售额，是看它缺货的代价有多大。&lt;/p>
+&lt;h3 id="二维abc才是库存管理的正解">二维ABC才是库存管理的正解&lt;/h3>
+&lt;p>第一步：纵轴是金额贡献（ABC），横轴是关键性/缺货风险（1/2/3级）。&lt;/p>
+&lt;p>A类+关键3级：核心中的核心，必须严控，安全库存不能省。
+C类+关键3级：金额不起眼，但断不起货——这类货往往被忽略，是定时炸弹。
+A类+关键1级：金额大但通用性强，缺了随时能补的，可以适当放松管理。&lt;/p>
+&lt;p>这样一画，你的管理资源分配就清晰了：宝押在A3和C3上，而不是一刀切对销售额最大的。&lt;/p>
+&lt;h3 id="补上第三维交期的波动性">补上第三维：交期的波动性&lt;/h3>
+&lt;p>还有一个很多人忽视的维度：&lt;strong>供应商交期的稳定性&lt;/strong>。&lt;/p>
+&lt;p>交期越不稳定，安全库存就要越高。哪怕你是B类、C类货，如果供应商上次交期拖了25天，你必须多备。&lt;/p>
+&lt;p>把交期波动和ABC叠加，得出一个「补货策略矩阵」：&lt;/p>
+&lt;ul>
+&lt;li>短交期+稳定 → 可以JIT模式，低库存&lt;/li>
+&lt;li>短交期+不稳定 → 少量安全库存兜底&lt;/li>
+&lt;li>长交期+稳定 → 按节奏批量采购，提前计划&lt;/li>
+&lt;li>长交期+不稳定 → 必须保安全库存，定期复盘供应商&lt;/li>
+&lt;/ul>
+&lt;p>这样你的每个SKU都有一套专属的库存策略，而不是简单的&amp;quot;A类盯得紧一点，C类少看一眼&amp;quot;。&lt;/p>
+&lt;h3 id="落实到人的三个动作">落实到人的三个动作&lt;/h3>
+&lt;p>第一步：把你现有的ABC表重做一遍，加上关键性评分（1-3分）。让生产和技术部门的人帮你判断&amp;quot;缺这个货会停线吗&amp;quot;。&lt;/p>
+&lt;p>第二步：把ABC矩阵贴在采购和仓库都看得见的地方。所有人对同一批SKU的重要性达成共识。&lt;/p>
+&lt;p>第三步：每季度复盘一次。新品变成爆款、旧品淘汰、供应商换人——ABC矩阵是活的，不是挂墙的。&lt;/p>
+&lt;hr>
+&lt;p>ABC分类本身没错，错的是只会单维度。库存管理的核心永远不是分类，是分类之后怎么对症下药。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>JIT搞了半年差点把产线饿死，我劝你别盲目学丰田</title><link>https://supplychain-tips.pages.dev/posts/jit-lessons-518/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-lessons-518/</guid><description>&lt;p>老板年初开了个会，PPT上放了张丰田工厂的照片，说&amp;quot;咱们也要做JIT，零库存，现金流好&amp;quot;。&lt;/p>
+&lt;p>三个月后产线因为缺料停了三次，销售被客户骂得不敢接电话，老板拍桌子问我&amp;quot;JIT怎么搞成这个鬼样子&amp;quot;。&lt;/p>
+&lt;p>兄弟，JIT这套东西，全球学丰田的没几个学明白的。不是你不努力，是你学的姿势没对。&lt;/p>
+&lt;h3 id="jit的底层逻辑不是压库存是压问题">JIT的底层逻辑不是压库存，是压问题&lt;/h3>
+&lt;p>很多人以为JIT = 库存为零。错。JIT是让你把水抽干，看河底的石头——每一颗石头就是一个问题，暴露它，解决它。&lt;/p>
+&lt;p>但我们的实际情况是：水一抽干，石头一大片。供应商交期不稳、质量忽高忽低、设备故障频发、工人换班交接乱……所有问题同时浮出水面，然后就——崩溃。&lt;/p>
+&lt;p>丰田能搞JIT，是因为人家的供应商半径基本在50公里内，交期稳定到小时级别，品质更是做到PPM级别。人家的&amp;quot;零库存&amp;quot;背后是几十年磨合出的生态。&lt;/p>
+&lt;p>你呢？供应商在隔壁省，走高速都要6个小时。你让人家日配？运费比货还贵。你让供应商备VMI库存？人家量小，根本不跟你玩。&lt;/p>
+&lt;h3 id="jit的第一道坎你的供应商配吗">JIT的第一道坎：你的供应商配吗？&lt;/h3>
+&lt;p>JIT对供应商的要求有四个：准时、保质、小批量、高频率。缺一个都不行。&lt;/p>
+&lt;p>如果你主力供应商的准交率连95%都不到，你做JIT就是在玩命。一次缺料停线，损失可能就是几十万的产值。&lt;/p>
+&lt;p>真正能做JIT的企业，供应商管理是这样的：提前半年选定战略供应商，每周开例会，共享生产排程数据，给供应商足够的备货准备时间。你给的不止是订单，是信息透明和长期承诺。&lt;/p>
+&lt;p>如果你现在连供应商的交期统计表都没有，别说JIT，先把基础数据拉起来再说。&lt;/p>
+&lt;h3 id="jit的第二道坎需求波动打脸">JIT的第二道坎：需求波动打脸&lt;/h3>
+&lt;p>丰田的四大生产车型每年的波动率非常低，排产计划基本是「拉式生产」，需求拉动产出。&lt;/p>
+&lt;p>但你做代工、做OEM、做电商——客户今天说加单明天说减单，你敢做零库存？&lt;/p>
+&lt;p>真实场景：客户说下个月要冲一波，你把料备好了，人招好了。临到月底客户一个电话说先缓一缓。你的库存和产能全砸手里了。&lt;/p>
+&lt;p>需求稳定的行业可以做「精益JIT」，需求波动大的行业更适合「有限库存 + 安全水位」的混合模式。不要被&amp;quot;零库存&amp;quot;三个字洗脑了。&lt;/p>
+&lt;h3 id="jit的第三道坎企业文化跟不上">JIT的第三道坎：企业文化跟不上&lt;/h3>
+&lt;p>丰田的JIT不只是生产模式，是一套完整的改善文化——全员参与、现场主义、持续优化。&lt;/p>
+&lt;p>你让仓库地板上画条线、岗位说明书上写&amp;quot;零库存目标&amp;quot;，以为就是JIT了。但车间操作工看到缺料了会不会主动拉安灯？仓库管理员发现库存差异了会不会主动上报？会不会有人说一句&amp;quot;不关我事&amp;quot;就继续干活？&lt;/p>
+&lt;p>JIT是一个系统工程，需要从上到下的承诺和执行。如果只有你一个人在推，老板只是开个会喊口号，最后变成你的年度OKR——那JIT就是你的一个PIP通知。&lt;/p>
+&lt;hr>
+&lt;p>JIT没有错，错的是照搬。如果你想做JIT，我给你三个建议：&lt;/p>
+&lt;ol>
+&lt;li>先别盯着零库存，把供应商准交率拉到98%以上再说&lt;/li>
+&lt;li>先别砍安全库存，把需求预测的准确率做到80%以上&lt;/li>
+&lt;li>先别让产线零库存，从单个品类开始试点&lt;/li>
+&lt;/ol>
+&lt;p>学丰田的精髓，不是学丰田的形式。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库KPI看这5个就够了，剩下的全是在自嗨</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</guid><description>&lt;p>仓库里挂了一墙KPI看板，每天产出率、准确率、周转率报得飞起，老板看了还是皱眉——你报的这些花架子，到底哪个能帮我省成本？&lt;/p>
+&lt;p>干仓储第6年我悟了：KPI不是越多越好，是越精准越值钱。20个指标盯着看，不如盯死5个能直接关联成本和质量的数据。&lt;/p>
+&lt;p>今天这篇，就给你掰扯清楚：仓库KPI里哪些是真功夫，哪些是花拳绣腿。&lt;/p>
+&lt;h3 id="1-订单准确率这是底线不是加分项">1. 订单准确率——这是底线，不是加分项&lt;/h3>
+&lt;p>发错货一次，客户跑一打。&lt;/p>
+&lt;p>我见过最惨的同行，商城大促当天错发300单，售后电话被打爆，退货率直接飙到40%。老板问他：你不是说KPI全绿吗？他支支吾吾说不出话来。&lt;/p>
+&lt;p>问题在哪？他把月均准确率99%挂在嘴边，却不知道那1%差错集中爆在高峰期。&lt;/p>
+&lt;p>真正有用的做法：&lt;strong>把准确率拆成日维度、班次维度看&lt;/strong>。白班99.5%，夜班97%——一查，夜班人手少、灯光暗、拣货系统没优化。对准这个缝打，一个季度把夜班拉到99%，全年客户投诉少了70%。&lt;/p>
+&lt;p>订单准确率不是挂墙上的数字，是每个包裹交到客户手里时的那份信任。&lt;/p>
+&lt;h3 id="2-周转天数现金流的生死线">2. 周转天数——现金流的生死线&lt;/h3>
+&lt;p>库存压着500万，周转天数120天，你算算这500万一年才转几圈？&lt;/p>
+&lt;p>经销商那边催回款，供应商那边要结账，你夹在中间。财务看出库单，看出的是钱。你看库存报表，觉得货还在就行。这个认知差，就是很多仓储人被打脸的地方。&lt;/p>
+&lt;p>真正能打的周转天数，不是平均算的。是按SKU拆、按库龄拆的。你把库龄超90天的货标红，把周转低于同行水平的品类拎出来，一个品类一个品类过——哪里积压砍哪里，哪里断货补哪里。&lt;/p>
+&lt;p>别怕老板问周转天数，怕的是你报个模糊的平均数，背后藏着一批快过期的死货。&lt;/p>
+&lt;h3 id="3-坪效仓库不是越大越好">3. 坪效——仓库不是越大越好&lt;/h3>
+&lt;p>老板花了大几十万租仓，每平米都在烧钱。你告诉他&amp;quot;仓库够用&amp;quot;，他却觉得仓储成本占营收比越来越高。&lt;/p>
+&lt;p>坪效不是仓库面积的数字游戏，是&lt;strong>每一平方米生了多少钱的货&lt;/strong>。&lt;/p>
+&lt;p>算一笔帐：同样1000平仓库，A仓月发2万单，B仓月发8000单。B仓管理员说&amp;quot;我们货品规格不一样&amp;quot;——对，但你立体货架上了吗？通道宽度优化了吗？爆款前置了吗？&lt;/p>
+&lt;p>坪效提上去，不是让你把货堆得人转身都难，而是让每平米产生更多有效产出。货架往高了搭，动线往短了画，畅销品往门口放。这些事不调研不下决心，等到老板找上门算坪效，你就被动了。&lt;/p>
+&lt;h3 id="4-人均效率别拿人多找安全感">4. 人均效率——别拿人多找安全感&lt;/h3>
+&lt;p>仓库一到旺季就猛招临时工，人满为患，拣货通道挤得跟赶集一样。你问管理员为什么不多上系统？他说&amp;quot;系统贵，人便宜&amp;quot;。&lt;/p>
+&lt;p>真的是人便宜吗？&lt;/p>
+&lt;p>一个人月薪6000，一年72000。10个人72万。一套好用的WMS+手持终端，一次性投入十几万，后面每年维护费几万。三年下来，哪个省钱？&lt;/p>
+&lt;p>人均效率不是让你裁人，是让你看清：同样500单的量，别家用3个人做完，你家用了6个。多出来的3个人不是干活，是在无效的走动、查找、核对里消耗生命值。&lt;/p>
+&lt;h3 id="5-破损率细节里的魔鬼">5. 破损率——细节里的魔鬼&lt;/h3>
+&lt;p>破损率看着不起眼，千分之几。但千分之五乘以10万单，就是500单。每单赔50块，2万5没了。&lt;/p>
+&lt;p>更可怕的是隐性成本：客户收到碎货不吭声，直接拉黑你。你损失的是一单的赔偿 + 一个客户 + TA可能跟朋友吐槽带来的口碑伤害。&lt;/p>
+&lt;p>破损率要盯的不是月平均，是&lt;strong>单品维度&lt;/strong>。玻璃、陶瓷、电子件单独设警戒线。包装方案该改就改，气泡柱不够就加，别为了省2块包装费，最后赔200块的货+丢一个客户。&lt;/p>
+&lt;hr>
+&lt;p>盯这5个指标，比你挂20个KPI有用一万倍。仓库管理的真相是：少即是多。砍掉自嗨的数字，盯死决定生死的红线。剩下的，交给执行。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链协同不是开会，是把信息墙砸了</title><link>https://supplychain-tips.pages.dev/posts/supply-collab-173/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-collab-173/</guid><description>&lt;p>你有没有过这种经历：销售部报了个月底的出货预测，采购按这个备了料，生产排了班。临到出货前5天销售说&amp;quot;客户那边有变动，先停一停&amp;quot;。&lt;/p>
+&lt;p>然后库存又堆上了，产线又停了。你去找销售理论，销售说&amp;quot;市场那帮人改的需求，关我什么事&amp;quot;。你去找市场，市场说&amp;quot;客户说了算，我能咋办&amp;quot;。&lt;/p>
+&lt;p>这种协同，协同了个寂寞。&lt;/p>
+&lt;h3 id="第一堵墙信息墙每个人手里都攥着自己的那张小表">第一堵墙：信息墙——每个人手里都攥着自己的那张小表&lt;/h3>
+&lt;p>销售的CRM系统、采购的SRM系统、仓库的WMS系统、生产的MES系统——四个系统四个数据库，导出一看，对不上。&lt;/p>
+&lt;p>销售看的是&amp;quot;客户要多少&amp;quot;，采购看的是&amp;quot;我下了多少单&amp;quot;，仓库看的是&amp;quot;我手里有多少货&amp;quot;，生产看的是&amp;quot;我能造多少&amp;quot;。没有人看完整条线。&lt;/p>
+&lt;p>供应链协同的第一步是&lt;strong>统一数据口径&lt;/strong>，不是让所有部门用同一个系统，而是把关键数据拉平。核心就三个数：预测需求、当前库存、在途订单。这三个数字挂在同一个看板上，每天刷新，所有人都能看到同一条线。&lt;/p>
+&lt;p>别小看这件事，光是&amp;quot;大家都看到同一组数据&amp;quot;就能干掉80%的扯皮。&lt;/p>
+&lt;h3 id="第二堵墙利益墙kpi打架你在协同别人在拆台">第二堵墙：利益墙——KPI打架，你在协同别人在拆台&lt;/h3>
+&lt;p>采购的KPI是降成本，你让他多备安全库存，他看了下自己的成本指标——关我什么事？&lt;/p>
+&lt;p>生产的KPI是设备利用率，你把排产节奏放慢配合需求预测，他看了下自己的产能利用率——不行，我得满负荷。&lt;/p>
+&lt;p>销售的KPI是回款，你让他配合清库存，他看了下自己的奖金——我先把新单签了再说。&lt;/p>
+&lt;p>这堵墙最难拆。你搞供应链协同，本质上是在搞跨部门利益的重新分配。&lt;/p>
+&lt;p>怎么破？&lt;strong>把协同结果和每个人的考核挂钩&lt;/strong>。库存周转率不只挂给仓库，也挂给采购。订单准时交付率不只挂给生产，也挂给销售。跨部门联合KPI，每个人都对端到端的结果负责。&lt;/p>
+&lt;h3 id="第三堵墙信任墙你当供应商是工具人凭什么让人敞开数据">第三堵墙：信任墙——你当供应商是工具人，凭什么让人敞开数据&lt;/h3>
+&lt;p>很多人说要做供应链协同，第一反应是&amp;quot;让供应商把库存数据共享给我&amp;quot;。但你问过供应商为什么要信你吗？&lt;/p>
+&lt;p>你拖欠货款80天了，每次打电话都敷衍&amp;quot;财务在走流程&amp;quot;。你让人家敞开数据给你看，人家凭什么？&lt;/p>
+&lt;p>真正的供应链协同是双向的。你给供应商稳定量+准时付款，供应商给你数据透明+优先排产。你帮供应商优化生产节奏，供应商给你更短的交期。&lt;/p>
+&lt;p>信任不是开会开出来的，是一单一单的交易里攒出来的。&lt;/p>
+&lt;hr>
+&lt;p>供应链协同的本质不是流程，是人。墙不在系统里，在人心里。&lt;/p>
+&lt;p>今天你能做的事：拉上销售、采购、仓库三个部门的人坐一桌，不是开会，是一起看同一份数据。然后问自己：我们都看到了什么？为什么每个人说的不一样？&lt;/p>
+&lt;p>把这件事解决了，你的供应链协同就迈出了最真实的第一步。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>库存周转率翻倍，我只做了一件事</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</guid><description>&lt;p>库存压了300万那年，财务天天找我喝茶。老板也开始频繁调库存报表，我知道他想要的不是数据，是一个解释：为什么钱全压在货上了？&lt;/p>
+&lt;p>我查了一遍又一遍：入库及时，出库准点，盘点差异不大。那问题到底在哪？直到一个晚上复盘，我发现所有SKU里，有30%的货过去三个月根本没动过，有15%的货是去年备的，供应商还按老节奏继续送。&lt;/p>
+&lt;p>周转率差，根本不是你仓库管得不好，是源头没卡住。&lt;/p>
+&lt;h3 id="你盯着出库却忘了入库也是钱">你盯着出库，却忘了入库也是钱&lt;/h3>
+&lt;p>大多数人看周转率只看仓库端：发得快不快、拣得准不准。但周转率的分子是出库量，分母是平均库存。&lt;/p>
+&lt;p>平均库存谁在推高？是采购端。批量折扣一来，一口气进半年的量；供应商拍胸脯说&amp;quot;先备着，用不完退&amp;quot;，结果三个月后人家反悔。你的仓库就这样被塞成了堆栈。&lt;/p>
+&lt;p>我做了一件事：&lt;strong>把采购订单和库存周转率挂钩。&lt;/strong>&lt;/p>
+&lt;p>简单说：周转天数超过60天的货，采购端自动锁死，不得补货。想补？写专项申请，说清楚理由和消化计划。&lt;/p>
+&lt;p>刚开始采购部炸了锅，说耽误生产备货。结果两个月后，平均库存下降了24%，仓库利用率高了，连带仓租都谈下来5个点。&lt;/p>
+&lt;h3 id="周转不是平均分是找出血栓">周转不是平均分，是找出血栓&lt;/h3>
+&lt;p>你把一年销售额除以平均库存，得一个漂亮的年度周转率挂墙上——骗谁呢？&lt;/p>
+&lt;p>真正管用的做法是按SKU拆。&lt;/p>
+&lt;p>拆开了吓死人：畅销品周转只有15天，呆滞品却有210天。你拿两个一平均，全国排名看着还行。但呆滞品在烧你的仓租、你的现金流、你的管理精力。&lt;/p>
+&lt;p>拿ABC分类法对着库存跑一遍：C类货，周转超90天的，直接标红。能退的退，能折价出的折价出，能报废的走报废流程。果断清，别心软。&lt;/p>
+&lt;h3 id="预测不是算命但没预测就是等死">预测不是算命，但没预测就是等死&lt;/h3>
+&lt;p>补货靠感觉——某个品类上月卖得好，这个月就猛补。结果旺季过了，货还堆着。你们公司发生过几次？&lt;/p>
+&lt;p>需求的波动不是随机漫步，是你没去挖数据。去年同期的销量、竞品的上架节奏、季节性的规律——这些数据你的ERP系统里全有，只是没人用。&lt;/p>
+&lt;p>拉一张表，按品类、按月份跑近两年的出货趋势。你会发现：某些品类每年5月必涨，某些在11月之后直接腰斩。补货节奏如果不跟着这张表走，就是在拿现金流赌博。&lt;/p>
+&lt;h3 id="别拿供应商当挡箭牌">别拿供应商当挡箭牌&lt;/h3>
+&lt;p>还有一种情况：供应商每次来都说&amp;quot;这批货我给你优惠价，你多备点&amp;quot;，你一算单价便宜了挺多，大手一挥进了三个月的量。结果两个月后，同样的货市场价跌了15%，你多进的那批反而亏了。&lt;/p>
+&lt;p>这不是供应商坑你，是你没在库存持有成本里算违约金、资金占用费和价格波动风险。&lt;/p>
+&lt;p>周转率的对手不是别人，是你自己的惯性思维。下次供应商给你优惠价，先算一笔完整的账：这批货你存60天，利息成本多少？仓租加多少？如果价格下行，风险多大？&lt;/p>
+&lt;hr>
+&lt;p>把库存周转率翻倍，我做的就一件事：把采购锁上。你可能会说这不现实——但现实是，继续让采购端无约束地补货，你的周转率永远好看不了。&lt;/p>
+&lt;p>拉着财务、拉着采购、拉着老板一起坐下来。把周转天数、呆滞库存金额、仓租成本这三张表拍桌子上。他们会懂的，因为钱不是你和仓库的事，是所有人的事。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>数字化转型花了80万打水漂，我劝你先做这3件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-346/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-346/</guid><description>&lt;p>老板去年参加了行业峰会，回来踌躇满志：我们要数字化。然后80万砸下去，上了一套号称「端到端供应链管理平台」。&lt;/p>
+&lt;p>一年后，仓库还在用Excel录数据，采购还在微信群里催货，销售还在小本本上记客户需求。80万的系统成了摆设，只有IT部门在维护服务器。&lt;/p>
+&lt;p>数字化转型砸了，问题从来不在技术上。&lt;/p>
+&lt;h3 id="第一件事先理流程再上系统">第一件事：先理流程，再上系统&lt;/h3>
+&lt;p>大多数企业上系统，是这样的节奏：选型→签合同→实施顾问进驻→系统上线→培训→没人用→回退到Excel。&lt;/p>
+&lt;p>根本原因是什么？你把一团乱麻的流程塞进了一个漂亮的系统里，系统只是让混乱变得更难看而已。&lt;/p>
+&lt;p>数字化之前先做流程梳理。三件事：&lt;/p>
+&lt;ol>
+&lt;li>画出端到端的流程图——不是PPT上画个方框图，是真的一条线从接单到交付走一遍。&lt;/li>
+&lt;li>标出断点、重复点、扯皮点。哪个环节靠微信消息传递的？哪里存在Excel+手动合并的？&lt;/li>
+&lt;li>优化流程再固化进系统。顺序不能反——不能把烂流程自动化了就指望变好，自动化烂流程只会让烂得更快。&lt;/li>
+&lt;/ol>
+&lt;p>一个朋友公司花两个月做了这件事，发现采购审批流程有7个节点，实际有效审批只有2个。砍掉5个之后再上系统，审批时效从3天缩到4小时。&lt;/p>
+&lt;h3 id="第二件事先搞定人再搞定系统">第二件事：先搞定人，再搞定系统&lt;/h3>
+&lt;p>系统上线那天，仓库老王说&amp;quot;我用手机录也行啊&amp;quot;，采购李姐说&amp;quot;原来Excel多方便，你们这个太复杂&amp;quot;。&lt;/p>
+&lt;p>你花钱上了系统，但没人用。&lt;/p>
+&lt;p>数字化转型最难的部分，不是代码，是人心。每个岗位都有自己的舒适区——Excel是他们的舒适区，微信是他们的舒适区，你用系统去取代这些，他们第一反应一定是抵触。&lt;/p>
+&lt;p>怎么破？三个字：&lt;strong>让他们赢。&lt;/strong>&lt;/p>
+&lt;p>不要一上来就给仓库管理员培训「全局可视化」。先告诉他：以后入库不用手写单子了，枪一扫就进去了。下班前报表自动生成，不用你抄半个小时数据了。&lt;/p>
+&lt;p>让每个人觉得自己更方便了，而不是只方便了老板。先让一线员工尝到甜头，再推管理层需要的看板功能。顺序对了，阻力就小了。&lt;/p>
+&lt;h3 id="第三件事先跑通一个场景再全面铺开">第三件事：先跑通一个场景，再全面铺开&lt;/h3>
+&lt;p>很多人一上系统就想一步到位：采购、入库、库内、出库、财务结算全线上。结果是全面铺开、全面崩盘。&lt;/p>
+&lt;p>正确的节奏是&lt;strong>选一个痛点最痛、收益最明显的场景先跑&lt;/strong>。&lt;/p>
+&lt;p>比如你仓库的拣货准确率低、退货多，就先只上WMS的拣货模块。做三个月，把准确率从92%提到99%，一线人员都觉得好用，再往上加库存管理、波次管理。&lt;/p>
+&lt;p>三个月后你跟老板汇报：拣货错发率下降了70%，客户退货少了60%。有了这个成绩，再申请推第二阶段，老板批预算比之前利索十倍。&lt;/p>
+&lt;hr>
+&lt;p>数字化转型不是买一套软件就完了。流程、人、节奏——这三件事做对了，系统是锦上添花；做错了，系统就是一堆废铁。&lt;/p>
+&lt;p>你如果正准备上系统，把上面三件事排个优先级。别急着签合同，先把流程图画了，把人聊了，把试点场景定了。花一周做这些准备工作，比后面花一年擦屁股划算得多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>最后一公里烧钱烧到心慌？这3招救了我的配送成本</title><link>https://supplychain-tips.pages.dev/posts/last-mile-629/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-629/</guid><description>&lt;p>做了三年最后一公里配送，看着每单配送成本从8块涨到15块，老板问我：为什么量越大越亏？&lt;/p>
+&lt;p>真正干过末端的都懂，这个痛。不是你不努力，是末端配送的结构性问题摆在那里：客单分散、高峰集中、退货率高、客户不在家——随便哪一条都是烧油的漏斗。&lt;/p>
+&lt;p>我花了大半年把配送成本压了30%，没有用什么高科技，就是三个笨办法。&lt;/p>
+&lt;h3 id="1-别死磕上门驿站和自提是降本神器">1. 别死磕上门，驿站和自提是降本神器&lt;/h3>
+&lt;p>很多人觉得&amp;quot;送货上门才是服务好&amp;quot;，但我给你算笔账：一单上门的综合成本（油费+人工+耗时+空跑）大概是驿站的3倍。&lt;/p>
+&lt;p>我负责的片区，之前全是上门件。后来把小区分成两类：有电梯的新小区继续上门，没电梯的老小区、爬楼梯的单子推驿站。&lt;/p>
+&lt;p>一开始客户也有怨言，但说实话，年轻人白天都不在家，上门反而没人收货，快递员跑三趟才送达——客户体验也好不到哪去。驿站模式反而是共赢：客户随时取、快递员不空跑。&lt;/p>
+&lt;p>驿站不是降服务，是换一种更适合的履约方式。&lt;/p>
+&lt;h3 id="2-前置仓才是末端的地基">2. 前置仓才是末端的地基&lt;/h3>
+&lt;p>&amp;ldquo;最后一公里&amp;quot;跑不动，问题往往不在最后一公里，在倒数第二公里没做好。&lt;/p>
+&lt;p>你把城市仓设在郊区，每天从郊区往市区发10趟车。高峰期堵在环线上，到小区的时效全黄了。然后你增加车辆、增加人力——成本又飙了。&lt;/p>
+&lt;p>前置仓的逻辑很简单：把高频SKU放在离客户最近的站点。我在市区租了3个社区微仓，面积不大，就30-50平，租金一个才两千多。但配送半径从之前的15公里缩到了3公里，一台电动车一天能多送15单。&lt;/p>
+&lt;p>月租多花六七千，省下来的却是几万块的运输成本和工时。&lt;/p>
+&lt;h3 id="3-路径优化不是电脑的事是人数据">3. 路径优化不是电脑的事，是人+数据&lt;/h3>
+&lt;p>见过太多配送站经理靠&amp;quot;感觉&amp;quot;排线：A小区快递多先送，B小区量大放后面，C是一条线路顺便跑。&lt;/p>
+&lt;p>感觉派最大的问题是：你可能一天多跑了20公里冤枉路，还不知道。&lt;/p>
+&lt;p>我做的改进很简单：每周复盘一次GPS轨迹数据，看哪些路线在绕、哪些时段在堵、哪些片区合并配送更高效。不需要多高级的系统，用手机地图的轨迹回放加一个Excel就干了。&lt;/p>
+&lt;p>第一个月就发现了问题：城南那条线每天下午三点路过学校路段，堵车耽误半小时——改到两点半经过，畅通无阻。&lt;/p>
+&lt;p>配送不是蛮干，是对数据保持敏感。&lt;/p>
+&lt;hr>
+&lt;p>最后一公里的竞争其实不是市场份额的竞争，是成本效率的竞争。谁把配送成本压到最低还能保持体验，谁就能活下来。&lt;/p>
+&lt;p>目前这三招先给你救急。如果还想继续深挖，我建议你再看一遍自己的配送数据——不一定马上做决策，但心里要有那张成本地图，知道哪里是出血点。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>月薪3K和30K的采购，差在处理供应商关系的这3招</title><link>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</guid><description>&lt;p>采购这行有个奇怪的现象：干了三年的和干了十年的人，做的事情差不多——询价、比价、下单、催货。&lt;/p>
+&lt;p>但他们的待遇差了一个零。&lt;/p>
+&lt;p>区别在哪？在于前者把供应商当工具，后者把供应商当资源。工具用完就扔，资源越养越值钱。&lt;/p>
+&lt;h3 id="供应商不是用来压的是用来养的">供应商不是用来压的，是用来养的&lt;/h3>
+&lt;p>供应商被压得太惨，会怎么报复你？不是直接说不做，而是——交期悄悄延迟两天，质量&amp;quot;刚好在合格线&amp;quot;，遇到急单优先排别人，你家永远排最后。&lt;/p>
+&lt;p>你说他没违约。但他的&amp;quot;刚好及格&amp;quot;让你的产线紧张得不行。&lt;/p>
+&lt;p>反过来，你是怎么对供应商的？砍价软件一键三连：比价、压价、找替代。你的人均采购额确实降了，但隐性成本却在狂涨：交期不靠谱导致的紧急采购价、质量不稳造成的返工、不配合带来的项目延期。&lt;/p>
+&lt;p>真正的高手不是在砍供应商，是在和供应商一起琢磨怎么把综合成本降下来。&lt;/p>
+&lt;h3 id="四类供应商四种打法">四类供应商，四种打法&lt;/h3>
+&lt;p>把你的供应商分成四类，画一个2×2矩阵：&lt;/p>
+&lt;p>&lt;strong>战略型：量大、关键、不可替代。&lt;/strong> 这是你的命脉。待遇应当是长期框架协议、信息共享、定期高层互访。别在这些供应商身上省芝麻，丢了西瓜。&lt;/p>
+&lt;p>&lt;strong>杠杆型：量大、标准品、多货源。&lt;/strong> 这类供应商你可以充分竞争，定期比价，保持2-3家同时供货。但别把人逼到绝路——留合理的利润，人家才愿意在你旺季加班。&lt;/p>
+&lt;p>&lt;strong>瓶颈型：量小、难采购但必须用。&lt;/strong> 供应商一只手捏着你的产量。对待他们要保证长期合作承诺、准时付款、经常沟通。他们的优先级就是你的安全感。&lt;/p>
+&lt;p>&lt;strong>一般型：量小、替代品多。&lt;/strong> 这类可以走流程化管理，定期比价，谁便宜就谁做。但这种也可以是一个人才池——哪天你缺供应商，可能就要从这里捞人。&lt;/p>
+&lt;p>你的时间应该优先花在战略型和瓶颈型上面，而不是每天盯着一般型的报价差。&lt;/p>
+&lt;h3 id="三个月一次供应商复盘">三个月一次供应商复盘&lt;/h3>
+&lt;p>大部分采购的供应商管理是这样：年初签合同，然后一整年不管，直到出问题了临时开会骂人。&lt;/p>
+&lt;p>我建议你每个季度拉一次供应商复盘会，就问你三个问题：&lt;/p>
+&lt;p>&lt;strong>1. 准交率变了吗？&lt;/strong> 如果从98%掉到91%，不管价格多便宜，回去找原因。趋势比绝对值重要。&lt;/p>
+&lt;p>&lt;strong>2. 质量批退率稳定吗？&lt;/strong> 稳定在万分之几是正常的，连续三个月上涨就是警报。&lt;/p>
+&lt;p>&lt;strong>3. 有没有新发生的&amp;quot;卡脖子&amp;quot;现象？&lt;/strong> 你只有一个货源，他涨价你只能接受。增加备份货源要提前布局，别等断供才开始找。&lt;/p>
+&lt;p>把这三个数据做成供应商档案，存档。半年后你会发现——对哪些供应商该信任、哪些该留后手，心里门清。&lt;/p>
+&lt;hr>
+&lt;p>月薪3K和30K的采购，差的不是报价技巧，是在供应商关系上有没有走心。走心的意思是：你拿出做朋友的心态，但始终保持职业的判断力。该严厉时严厉，该给人留空间时留空间。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运输成本砍掉25%，我只优化了这3个地方</title><link>https://supplychain-tips.pages.dev/posts/transport-cost-471/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-cost-471/</guid><description>&lt;p>运输费每个月单子堆成山，老板一翻报表：上个月又超了30%。你解释&amp;quot;油价涨了、司机少了、路堵了&amp;quot;，老板表情像吃了苍蝇——他觉得你在找借口，你觉得他不懂物流。&lt;/p>
+&lt;p>其实你们都对。运输成本就是涨了，但如果你还在用五年前的方法跑运输，那你确实也在烧冤枉钱。&lt;/p>
+&lt;p>我帮三家公司的运输部门做过优化，最猛的一家直接砍了25%的运费。没有裁员，没有换系统，就改了三个地方。&lt;/p>
+&lt;h3 id="1-路线不是画出来的是算出来的">1. 路线不是画出来的，是算出来的&lt;/h3>
+&lt;p>大多数调度员的排线逻辑：今天要送哪几个点，大概看一下地图，凭经验拉一条线。送到一半发现绕了远路，也只能硬着头皮跑完。&lt;/p>
+&lt;p>我给你一个真实数据：同样20个卸货点，经验派排的线路总长380公里，用路径优化软件跑一遍只要290公里。差出来的90公里是什么？是油费、工时、车辆折旧。&lt;/p>
+&lt;p>更关键的不是总里程，是&lt;strong>时效的确定性&lt;/strong>。经验派司机早上8点出发，下午4点到最后一站，客户已经下班了，于是多跑一趟。科学路线是8:00出发，14:30全送完，客户还能跟你多聊两句、顺带加个小单。&lt;/p>
+&lt;p>你不缺路线，你缺的是把路线当资源来管理的心态。&lt;/p>
+&lt;h3 id="2-装不满的车全是行驶的亏损">2. 装不满的车，全是行驶的亏损&lt;/h3>
+&lt;p>发一辆9米6的车，拉了半车的货——多出来的空间和吨位就是白烧的钱。&lt;/p>
+&lt;p>很多物流人说&amp;quot;客户就那么多货，我不可能每趟都装满&amp;quot;。对，但你可以并单。A客户下午两点要到，B客户下午三点要到，排在一起就是一趟车。&lt;/p>
+&lt;p>还可以做返程配载。空车回程是运输里最纯的亏损。建立返程货源池，哪怕接回程单便宜点，也比空车烧油强。&lt;/p>
+&lt;p>我曾帮一个做建材的朋友做配载优化：他把市区的5个建材城订单合并成3条固定班车线，每天早晚各发一趟。从之前随机拼单改到固定班线，车辆利用率从61%提到了89%。运费一个月省了12万。&lt;/p>
+&lt;h3 id="3-承运商不是越多越好是好用的就那么几家">3. 承运商不是越多越好，是好用的就那么几家&lt;/h3>
+&lt;p>手里养着十几家承运商，每次报价挑最便宜的。便宜的有便宜的后果：迟到、破损、态度差、临时涨价的全都碰过。&lt;/p>
+&lt;p>承运商管理有三个坑：&lt;/p>
+&lt;p>&lt;strong>一坑：只看单价不看履约。&lt;/strong> 便宜10%，但准点率只有70%。延误导致的客户投诉和二次配送成本，把你省的全吃了还不够。&lt;/p>
+&lt;p>&lt;strong>二坑：关系太松散。&lt;/strong> 今天用这家、明天换那家，承运商对你没有长期预期——他凭什么给你稳定服务？&lt;/p>
+&lt;p>&lt;strong>三坑：没有退出机制。&lt;/strong> 合作的线路半年没优化过，不知道哪家超时率高，哪家破损离谱。把数据拉出来，用准点率、破损率、投诉率三项硬指标排名，末位淘汰，干净利落。&lt;/p>
+&lt;p>我建议你只保留3-5家核心承运商，给稳定量、签长期框架，让他们把你当大客户来服务。剩下的做补充池，急单和增量才用。&lt;/p>
+&lt;hr>
+&lt;p>运输降本从来不是一锤子买卖。路线优化、配载提效、承运商结构优化——这三个事都是持续的细活。但你只要开始做，第一个月就见效。&lt;/p>
+&lt;p>别等老板拍桌子了才开始看运费报表。今晚把最近三个月的运输单子拉出来，对着上面三点一个一个过。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>需求预测准不准，决定你是吃肉还是喝风</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</guid><description>&lt;p>需求预测，供应链圈子里最玄学的一个词。&lt;/p>
+&lt;p>你对老板说&amp;quot;下个月预测出货2000件&amp;quot;，老板把预算全按这个数排了。结果月底只出了900件——库存堆满，老板说&amp;quot;你怎么预测的&amp;quot;。下个月你说&amp;quot;保守点，1000件&amp;quot;，结果来了个大单——缺货，销售堵你门口。&lt;/p>
+&lt;p>预测真这么难吗？难。但很多人的预测不准，不是因为缺乏预测能力，是因为用错了方法。&lt;/p>
+&lt;h3 id="第一条腿历史不是用来抄的是用来找规律的">第一条腿：历史不是用来抄的，是用来找规律的&lt;/h3>
+&lt;p>把去年同期的数据拉出来跑个平均，再加个增长率就报给老板——这叫算命，不叫预测。&lt;/p>
+&lt;p>真正有用的历史分析，是拆成三个维度看：&lt;/p>
+&lt;p>&lt;strong>趋势&lt;/strong>：这两年销量在往上走还是往下滑？这个品类的生命周期到了哪个阶段？&lt;/p>
+&lt;p>&lt;strong>周期&lt;/strong>：哪几个月是波峰，哪几个月是谷底？和促销、假期、气候有没有对应关系？&lt;/p>
+&lt;p>&lt;strong>异常&lt;/strong>：去年3月那波暴涨是因为疫情囤货还是竞品断供？这个因素下个月还会再来吗？&lt;/p>
+&lt;p>把这三个维度拆开，你才知道去年的数字里哪些是规律、哪些是噪音。&lt;/p>
+&lt;p>实操上最简单的方法：拿Excel拉一条近24个月的趋势线，标出每月销量和环比变化。凡是环比跳变超过30%的月度数据，旁边标注原因。半年后再看——你对自己品类的波动规律会清晰很多。&lt;/p>
+&lt;h3 id="第二条腿别只看自己的数据市场和竞品才是风向标">第二条腿：别只看自己的数据，市场和竞品才是风向标&lt;/h3>
+&lt;p>一个销售经理跟我说过一句扎心的话：&amp;ldquo;我不是预测不准，是我们的客户自己也搞不清楚下个月要多少。&amp;rdquo;&lt;/p>
+&lt;p>但你有没有想过——虽然单个客户的需求波动大，但一群客户聚合起来就相对稳定了？你的预测单位不应该是&amp;quot;老板的直觉&amp;quot;，而是把数据拆到品类、拆到渠道、拆到区域。&lt;/p>
+&lt;p>更关键的是看外部信号：&lt;/p>
+&lt;ul>
+&lt;li>竞品上个月有没有上新品？他们的促销力度有没有加大？&lt;/li>
+&lt;li>上下游的排产数据有没有变化？&lt;/li>
+&lt;li>终端零售的动销率有在掉吗？&lt;/li>
+&lt;/ul>
+&lt;p>这些信号都比你的内部数据更早反映需求的转折。你不需要做独立的市场研究，保持和销售部、市场部每周15分钟的碰头就够了。&lt;/p>
+&lt;h3 id="第三条腿永远留个安全垫但不是越厚越好">第三条腿：永远留个安全垫，但不是越厚越好&lt;/h3>
+&lt;p>有人一说预测加安全库存就直接加60%，结果库存成本比物资本身都贵。有人胆子大，不加安全库存——一次断货就赔掉半年利润。&lt;/p>
+&lt;p>安全库存不是一个固定比例，是动态计算的：&lt;/p>
+&lt;p>安全库存 = 日均销量 × 补货周期 × 波动系数&lt;/p>
+&lt;p>关键是波动系数。拿近6个月的实际销量算标准差，波动大的品类系数调高，稳定品类系数压低。不是一刀切。&lt;/p>
+&lt;p>我知道你们公司可能没这么多数据，那先做一个最简版：把品类分成ABC三类。A类畅销品波动系数1.5，B类常规品1.2，C类低频品看情况，低于安全水位不补。&lt;/p>
+&lt;p>有人说&amp;quot;这不精确&amp;quot;——但先做到这一步，已经比凭感觉拍数靠谱十倍。&lt;/p>
+&lt;hr>
+&lt;p>预测永远不可能100%准确，但把准确率从50%提到80%，就是真金白银的库存释放和缺货避免。&lt;/p>
+&lt;p>别等到又压了500万货或者又断货被投诉再想起预测。就从今天起，把上面三条腿跑起来。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ERP上线当天，老板差点把我开了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pitfalls/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年夏天，某制造企业ERP上线。老板花了几百万，请了顶级咨询团队，折腾了大半年。上线那天，全员加班，财务妹子对着屏幕哭，仓库大叔把键盘摔了。&lt;/p>
+&lt;p>系统卡死3次，物料编码乱成一锅粥，采购单凭空消失。老板的脸从期待变成铁青，最后指着我鼻子吼：“这就是你吹的‘降本增效’？”&lt;/p>
+&lt;p>我差点当场被开了。&lt;/p>
+&lt;p>后来复盘才发现，这场灾难的种子，早在需求调研阶段就埋下了。&lt;strong>ERP实施从来不是技术问题，而是人性问题。&lt;/strong>&lt;/p>
+&lt;p>今天不整虚的，直接上硬核干货。带你拆解ERP实施最要命的5个坑，每一个都是我用头发换来的。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1选型像相亲光看脸不看心">坑1：选型像相亲，光看脸不看心&lt;/h3>
+&lt;p>最怕遇到什么老板？就是那种“听说SAP很牛，上！”或者“隔壁老王用了XXX，我们也搞一套”。&lt;/p>
+&lt;p>&lt;strong>ERP选型不是买衣服，是换器官。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别迷信大品牌&lt;/strong>：SAP、Oracle是好，但你一个小几十人的工厂，用得着吗？实施成本比一年利润还高，这不是给自己找罪受？&lt;/li>
+&lt;li>&lt;strong>别只看演示&lt;/strong>：供应商PPT做得天花乱坠，你看着爽。一上线，你才发现，人家演示的是“理想国”，你面对的是“侏罗纪”。&lt;/li>
+&lt;li>&lt;strong>记住一条铁律&lt;/strong>：&lt;strong>适合你的业务阶段和行业特性，才是最好的。&lt;/strong> 做贸易的选带进销存的就行，搞制造的必须看MES（生产执行系统）对接能力。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>
+拉个清单，把自家最痛的3个业务场景写下来。比如“多工厂调拨”、“委外加工”、“批次追溯”。让供应商现场演示，&lt;strong>用你的真实数据，跑你的真实流程&lt;/strong>。能过的，再谈下一步。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑2老板拍脑袋员工拍大腿">坑2：老板拍脑袋，员工拍大腿&lt;/h3>
+&lt;p>这是最最最要命的坑，没有之一。&lt;/p>
+&lt;p>很多老板以为ERP是万能药，“上了系统，一切自动，我就能当甩手掌柜了”。现实呢？&lt;strong>系统是工具，不是神仙。&lt;/strong> 它只能放大你现有的管理能力，不能凭空创造。&lt;/p>
+&lt;p>&lt;strong>老板常说的3句“鬼话”：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>“你们不懂，我有经验，按我说的来。”（结果流程走不通，全员骂街）&lt;/li>
+&lt;li>“先上线，细节后面再补。”（数据一塌糊涂，补到天荒地老）&lt;/li>
+&lt;li>“搞个系统很简单，一个月搞定。”（结果半年后还在填坑）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>更扎心的是，员工的反抗。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>仓库阿姨&lt;/strong>：以前手写单子，现在要扫码？太麻烦，不干！&lt;/li>
+&lt;li>&lt;strong>老销售&lt;/strong>：系统太死板，客户临时改个价，流程要走三天？那我自己记小本本。&lt;/li>
+&lt;li>&lt;strong>财务大姐&lt;/strong>：这系统算的库存跟我账上不一样，肯定是系统错了。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>
+老板必须第一个当“系统代言人”。开个誓师大会，&lt;strong>明确告诉所有人：这不是选择题，是必答题。&lt;/strong> 同时，建立激励机制。谁用得好，奖励；谁抵触，谈话。别指望靠自觉，&lt;strong>人性经不起考验，但经得起激励。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3数据搬家把垃圾当宝贝">坑3：数据搬家，把垃圾当宝贝&lt;/h3>
+&lt;p>这是上线前夜的修罗场。&lt;/p>
+&lt;p>你要把旧系统或Excel里的几十万条数据，一条条核对、清洗、导入新系统。这工作，枯燥、繁琐、容易出错，而且&lt;strong>没人愿意干&lt;/strong>。&lt;/p>
+&lt;p>结果呢？很多公司图省事，直接“Ctrl C + Ctrl V”。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>物料编码&lt;/strong>：同一个零件，叫“螺丝M8”和“不锈钢螺丝8mm”，系统以为是两个东西。采购直接买重。&lt;/li>
+&lt;li>&lt;strong>BOM（物料清单）表&lt;/strong>：明明是10个零件，表格里只写了8个。生产到一半，缺料，停线。&lt;/li>
+&lt;li>&lt;strong>客户/供应商&lt;/strong>：名称不统一，地址乱写，电话号码少一位。系统一跑，对账对得你怀疑人生。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>血的教训：&lt;/strong>
+&lt;strong>数据清洗是最重要、最不能省的一步。&lt;/strong> 专门成立数据组，用2-3周时间，逐条核对。&lt;strong>宁缺毋滥，错一条数据，可能让整个系统瘫痪。&lt;/strong> 实在忙不过来，花点钱请专业的数据清洗团队，比你请人填坑便宜得多。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑4培训靠传帮带师傅也一头雾水">坑4：培训靠“传帮带”，师傅也一头雾水&lt;/h3>
+&lt;p>常见的画面是：顾问讲完课，发一本厚得像砖头的操作手册，然后就没影了。&lt;/p>
+&lt;p>大家只能靠“老带新”。但那个“老”师傅，自己也是刚摸到门，半懂不懂。结果就是，&lt;strong>一个错误被复制十遍，最后所有人都觉得自己没错，是系统有毛病。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>高手的培训是这样的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分角色、分场景&lt;/strong>：别让采购去听仓库的课。只讲你最需要的，比如“如何创建采购订单”、“如何做收货”。&lt;/li>
+&lt;li>&lt;strong>用真业务练手&lt;/strong>：别在测试环境里瞎点。拿一笔真实的采购单，让学员在沙盘环境里从头到尾跑一遍。出错？正好，现场解决。&lt;/li>
+&lt;li>&lt;strong>建立“救火队”&lt;/strong>：上线头两周，安排顾问和内部骨干守在关键岗位旁，&lt;strong>手把手带，有问题1分钟响应。&lt;/strong> 过了这关，大家才真正学会走路。&lt;/li>
+&lt;/ul>
+&lt;p>记住，&lt;strong>培训不是走过场，是帮员工建立“肌肉记忆”&lt;/strong>。别省那点顾问驻场费。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5以为上线是终点结果是起点">坑5：以为上线是终点，结果是起点&lt;/h3>
+&lt;p>这是我见过最多的悲剧。&lt;/p>
+&lt;p>系统上线，大家松一口气，觉得“项目成功了”。然后？&lt;strong>没人管了。&lt;/strong> 系统越跑越慢，数据越来越乱，新业务需求没人响应。&lt;/p>
+&lt;p>半年后，大家又悄悄回到了Excel的世界。花了几百万，买了个“高级摆设”。&lt;/p>
+&lt;p>&lt;strong>真相是：上线只是开始。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>成立持续优化小组&lt;/strong>：IT和业务各出1-2人，专门负责日常运维、处理异常、收集需求。&lt;/li>
+&lt;li>&lt;strong>定期复盘&lt;/strong>：每月开一次会，看看系统里哪些流程“跑偏了”，哪些数据“长毛了”。&lt;strong>别等问题变大，才去救火。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>拥抱变化&lt;/strong>：业务在变，系统就得跟着变。别死守着一套流程不动，灵活调整才是王道。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最后送你一句话：ERP是一把刀，能切菜也能砍人。关键看用刀的人。&lt;/strong>&lt;/p>
+&lt;p>如果你正被ERP搞得焦头烂额，或者准备上马但心里没底，别慌。我整理了[《ERP系统实施避坑指南》]，里面有详细的操作清单和复盘模板。评论区留言“求指南”，我私发你。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item><item><title>库存压了500万才懂，MRP是个坑？</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+&lt;p>我有个朋友，去年公司上线了一套牛逼哄哄的ERP，MRP模块吹得天花乱坠，老板说：“上了这玩意儿，库存周转率翻倍！”结果呢？半年后，仓库堆了500万的呆滞料，采购天天被催单，生产线上断料比KPI还准时。他找我喝酒，红着眼说：“这MRP是不是个坑？”&lt;/p>
+&lt;p>我笑了，不是MRP坑，是你不会用。&lt;/p>
+&lt;p>今天不扯定义，不念教科书。咱们用群聊的风格，聊5个MRP翻车现场。你中招几个？&lt;/p>
+&lt;h3 id="1-数据不准mrp就是个瞎子">1. 数据不准，MRP就是个瞎子&lt;/h3>
+&lt;p>MRP的底层逻辑是什么？&lt;strong>数据驱动&lt;/strong>。但你的数据干净吗？&lt;/p>
+&lt;p>产品BOM（物料清单）是不是三天两头改？采购提前期是不是凭感觉填？库存数据是不是靠月底盘点才准？如果你的回答是“嗯…”，那MRP算出来的计划，就是“垃圾进，垃圾出”。&lt;/p>
+&lt;p>真实案例：某电子厂，BOM里一个电阻的损耗率设成5%，实际产线损耗20%。MRP按5%算，采购只买了95%的量，结果月月断料。产线骂采购，采购骂MRP，MRP骂谁？骂你。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>BOM必须准&lt;/strong>：技术部改BOM，必须走流程，别让工艺员随便改。&lt;/li>
+&lt;li>&lt;strong>参数定期校准&lt;/strong>：提前期、安全库存、损耗率，每月复盘一次，别设了就忘。&lt;/li>
+&lt;li>&lt;strong>库存实时更新&lt;/strong>：别等月底盘点，用PDA扫码出入库，当天数据当天清。&lt;/li>
+&lt;/ul>
+&lt;p>记住：MRP的智商，取决于你喂的数据质量。喂屎，它算出来的就是屎。&lt;/p>
+&lt;h3 id="2-安全库存设成玄学爆仓只是时间问题">2. 安全库存设成玄学，爆仓只是时间问题&lt;/h3>
+&lt;p>很多老板喜欢说：“安全库存？多备点儿，别断料！”结果呢？仓库堆成山，资金全压死。&lt;/p>
+&lt;p>安全库存不是拍脑袋的。它是个数学题：&lt;strong>需求波动×服务水平系数×提前期波动&lt;/strong>。但现实是，99%的人不会算，直接拍一个“30天的量”。&lt;/p>
+&lt;p>更骚的操作是，销售一报个“大单”，老板就喊：“赶紧多备100万！”然后这单黄了，库存变呆滞。你问我怎么知道的？我仓库里现在还有那批货。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>动态安全库存&lt;/strong>：用历史数据算，别拍脑袋。简单公式：安全库存=Z（服务水平对应的系数）×σ（需求标准差）×√L（提前期）&lt;/li>
+&lt;li>&lt;strong>ABC分类管理&lt;/strong>：A类物料（高价值、高频率）精算；C类物料（低价值、低频率）多备点没问题。&lt;/li>
+&lt;li>&lt;strong>别听老板瞎指挥&lt;/strong>：老板说“多备”时，拿数据怼他：“老板，多备100万，资金成本每月1.5%，相当于利润缩水1.5万，你确定？”&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-没有约束的mrp等于没有计划">3. 没有约束的MRP，等于没有计划&lt;/h3>
+&lt;p>MRP算出来一堆采购建议，你全信了？那你离死不远。&lt;/p>
+&lt;p>MRP假设什么？&lt;strong>无限产能&lt;/strong>。它不管你的供应商能不能按时交货，不管产线有没有排期，不管仓库有没有地方放。它只告诉你：需要买XX个。&lt;/p>
+&lt;p>然后你按这个下单，结果呢？供应商说“交不了，排期满了”；仓库说“没地方放，堆过道上了”；财务说“没钱付，下周再说”。&lt;/p>
+&lt;p>&lt;strong>正确操作：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MRP输出要过“约束”筛子&lt;/strong>：供应商产能、仓库库容、资金预算，通通算进去。&lt;/li>
+&lt;li>&lt;strong>做“有限能力计划”&lt;/strong>：别只依赖MRP，加个APS（高级排程系统）或手动调整。&lt;/li>
+&lt;li>&lt;strong>和供应商拉通&lt;/strong>：提前给他们看你的MRP预测，别临时下单。好的供应商会帮你备货，但前提是你别当“渣男”——今天下单，明天改单。&lt;/li>
+&lt;/ul>
+&lt;p>记住：MRP是工具，不是大脑。你的大脑才是用来做决策的。&lt;/p>
+&lt;h3 id="4-忽略长尾物料活该被拖死">4. 忽略“长尾物料”，活该被拖死&lt;/h3>
+&lt;p>大厂物料管理得好，但“长尾物料”才是隐形杀手。什么叫长尾物料？就是那些一年用不到几次、但每次都要用的备件、辅料、包装物。&lt;/p>
+&lt;p>MRP一般只跑主物料，长尾物料全靠人工拍脑袋。结果呢？要么没备，急用时花高价买；要么备了三年，最后当废铁卖。&lt;/p>
+&lt;p>&lt;strong>案例&lt;/strong>：某自动化公司，一台设备上有个特殊螺丝，一年只用50颗。采购嫌麻烦，一次性买了1000颗。结果第二年设备改款，螺丝型号换了，剩下950颗报废。每颗成本8毛，但占用了仓储、管理、资金，总成本远不止800块。&lt;/p>
+&lt;p>&lt;strong>怎么搞？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>长尾物料单独管理&lt;/strong>：别用MRP跑，用“看板”或“两箱法”。用完再买，别囤。&lt;/li>
+&lt;li>&lt;strong>和供应商签“代管协议”&lt;/strong>：让他们帮你备货，你用多少付多少。但前提是，你得够大，人家才愿意。&lt;/li>
+&lt;li>&lt;strong>定期清理&lt;/strong>：每季度跑一次“呆滞物料清单”，该报废就报废，别舍不得。库存占用资金，比直接扔钱还亏。&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-人不行系统再好也白搭">5. 人不行，系统再好也白搭&lt;/h3>
+&lt;p>最后，也是最扎心的：&lt;strong>你团队里的人，懂MRP吗？&lt;/strong>&lt;/p>
+&lt;p>很多公司上MRP，就是IT部门买了个软件，然后丢给采购和计划员：“你们用吧。”结果呢？计划员只会点“运行MRP”，看不懂报表；采购只看“采购建议”，不管交期和价格；仓库只管入库出库，不反馈数据。&lt;/p>
+&lt;p>系统是死的，人是活的。系统能帮你算，但算出来的东西，需要人判断、调整、反馈。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>培训别省&lt;/strong>：让计划员懂MRP逻辑，别只会点鼠标。让他们知道：为什么安全库存要设这个数？为什么提前期变了？&lt;/li>
+&lt;li>&lt;strong>建立“计划-采购-仓库”铁三角&lt;/strong>：每周开15分钟碰头会，对数据、对问题、对计划。&lt;/li>
+&lt;li>&lt;strong>考核别只看KPI&lt;/strong>：别只盯着“库存周转率”，也要看“缺料次数”、“呆滞占比”。数据会撒谎，但人的反馈不会。&lt;/li>
+&lt;/ul>
+&lt;p>说到底，MRP就是个放大器。你管理差，它放大你的乱；你管理好，它放大你的效率。&lt;/p>
+&lt;hr>
+&lt;p>最后，留个作业：打开你的MRP系统，看看这5个坑你踩了多少。如果超过3个，别慌，调整还来得及。&lt;/p>
+&lt;p>&lt;strong>库存压了500万才懂的事，不想让你再踩一次。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，回复“MRP”领取《物料管理避坑指南》PDF，你懂的。&lt;/p></description></item><item><title>库存压了500万才懂的SKU管理</title><link>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</guid><description>&lt;p>&lt;strong>你有没有这种经历？&lt;/strong>&lt;/p>
+&lt;p>凌晨两点，你盯着ERP后台，库存数从三位数跳到四位数，像扎心瀑布。&lt;/p>
+&lt;ul>
+&lt;li>爆款卖断了货，补货要等15天&lt;/li>
+&lt;li>滞销款堆满仓库，每天交仓储费&lt;/li>
+&lt;li>采购和销售互相甩锅：“是你SKU太乱！”&lt;/li>
+&lt;/ul>
+&lt;p>我问你一个问题：&lt;strong>你管SKU，还是SKU管你？&lt;/strong>&lt;/p>
+&lt;p>90%的公司死在SKU泛滥上。&lt;/p>
+&lt;p>我踩过这个坑。库存压了500万，才明白——管理SKU不是搞分类，是&lt;strong>砍自己手&lt;/strong>。&lt;/p>
+&lt;h3 id="1-sku越多--赚钱越多">1. SKU越多 ≠ 赚钱越多&lt;/h3>
+&lt;p>大多数人的直觉：“SKU多，客户选择多，单子多。”&lt;/p>
+&lt;p>屁。&lt;/p>
+&lt;p>&lt;strong>SKU多 = 库存成本高 + 生产切换慢 + 决策瘫痪。&lt;/strong>&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;p>你卖手机壳。为了满足“全场景”，你搞了50个款式，每个款式10个颜色，每个颜色5个尺寸。&lt;/p>
+&lt;p>你算算：&lt;/p>
+&lt;p>50 × 10 × 5 = &lt;strong>2500个SKU&lt;/strong>&lt;/p>
+&lt;p>找工厂下单：起订量500/款。工厂排期45天。&lt;/p>
+&lt;p>货到仓库：爆款全断货，冷门款堆成山。&lt;/p>
+&lt;p>月底一看：销售额100万，净利润-10万。因为仓储费、过期损耗、资金占用，全吃掉了利润。&lt;/p>
+&lt;p>真实数据：&lt;/p>
+&lt;ul>
+&lt;li>某电商公司，SKU从2000个砍到300个，净利润翻3倍&lt;/li>
+&lt;li>某服装品牌，SKU减少40%，退货率从30%降到12%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心法则：20%的SKU贡献80%的利润。剩下的，都是你的吸血鬼。&lt;/strong>&lt;/p>
+&lt;h3 id="2-管sku先学会砍">2. 管SKU，先学会“砍”&lt;/h3>
+&lt;p>你舍不得砍？因为你怕错过任何一个订单。&lt;/p>
+&lt;p>来，我给你3个砍SKU的狠招：&lt;/p>
+&lt;p>&lt;strong>第一招：算“单SKU利润贡献”&lt;/strong>&lt;/p>
+&lt;p>别只看销售额，看利润。&lt;/p>
+&lt;p>一个SKU，月销100单，每单利润10元，总利润1000元。
+另一个SKU，月销5单，每单利润200元，总利润1000元。&lt;/p>
+&lt;p>第一个占用库存100件，第二个占用5件。&lt;/p>
+&lt;p>&lt;strong>你会选哪个？&lt;/strong>&lt;/p>
+&lt;p>选第二个。因为资金周转更快，仓储成本更低。&lt;/p>
+&lt;p>&lt;strong>第二招：按“动销率”清场&lt;/strong>&lt;/p>
+&lt;p>动销率 = 有销售的SKU / 总SKU&lt;/p>
+&lt;p>低于30%？你完了。意味着70%的SKU是摆设。&lt;/p>
+&lt;p>立刻做：&lt;/p>
+&lt;ul>
+&lt;li>90天内销量=0的SKU：直接清仓或下架&lt;/li>
+&lt;li>180天内销量&amp;lt;10单的SKU：降价处理，止损&lt;/li>
+&lt;li>季度销量后20%的SKU：给3个月观察期，不行就砍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三招：用“ABC-XYZ”矩阵&lt;/strong>&lt;/p>
+&lt;p>把SKU分成9个格子：&lt;/p>
+&lt;ul>
+&lt;li>A类（高利润）+ X类（高需求）：疯狂备货&lt;/li>
+&lt;li>C类（低利润）+ Z类（低需求）：直接砍掉&lt;/li>
+&lt;li>其他格子：按策略调整&lt;/li>
+&lt;/ul>
+&lt;p>别心软。砍掉一个SKU，省下的钱够招一个运营。&lt;/p>
+&lt;h3 id="3-新sku上架前先问这5个问题">3. 新SKU上架前，先问这5个问题&lt;/h3>
+&lt;p>大部分公司上SKU，靠拍脑袋。&lt;/p></description></item><item><title>库存压了500万才明白：VMI是个坑还是救星？</title><link>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</guid><description>&lt;p>兄弟，你是不是也干过这种蠢事？&lt;/p>
+&lt;p>仓库堆满了货，财务天天催你清库存，老板拍桌子问你“为什么现金流又断了”。你盯着ERP系统里那一串串红色预警，恨不得把货全烧了换现金。&lt;/p>
+&lt;p>我知道，你不是不努力。你比谁都勤快，天天催供应商发货，月底对着报表发愁。&lt;/p>
+&lt;p>可问题是——&lt;strong>你管得太多了。&lt;/strong>&lt;/p>
+&lt;p>库存压了500万才明白：供应商管理库存（VMI），不是让你把锅甩给供应商，而是让你学会“让专业的人干专业的事”。&lt;/p>
+&lt;p>今天这篇，我就用踩坑换来的血泪经验，给你掰扯清楚：VMI到底怎么玩，才能不翻车？&lt;/p>
+&lt;h3 id="1-vmi不是甩锅神器是信息共享的试金石">1. VMI不是甩锅神器，是“信息共享”的试金石&lt;/h3>
+&lt;p>很多人一听VMI，第一反应是：“太好了，把库存全扔给供应商，我躺着等收货就行！”&lt;/p>
+&lt;p>醒醒。这不是甩锅，这是&lt;strong>信息绑架&lt;/strong>。&lt;/p>
+&lt;p>VMI的核心，不是你让供应商多备货，而是你把自己的需求数据、销售预测、生产计划，&lt;strong>赤裸裸地扔给供应商&lt;/strong>。&lt;/p>
+&lt;p>举个例子：你是个做小家电的采购，月销5000台破壁机。传统玩法是：你下订单，供应商按单生产，你自己扛库存。VMI的玩法是：你把过去6个月的历史销量、未来3个月的促销计划、甚至竞品的动销数据，全给供应商看。然后说：“兄弟，你看这数据，自己决定备多少货吧。”&lt;/p>
+&lt;p>结果呢？供应商比你更懂市场。他一看数据，发现你3月要推新款，旧款库存肯定滞销，直接建议你减单50%。&lt;/p>
+&lt;p>你看，&lt;strong>信息透明了，库存才能降下来&lt;/strong>。&lt;/p>
+&lt;p>踩坑提醒：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别怕数据泄露。&lt;/strong> 签好保密协议，核心数据加密。&lt;/li>
+&lt;li>&lt;strong>别玩虚的。&lt;/strong> 你给虚假预测，供应商就敢给你乱备货。&lt;/li>
+&lt;li>&lt;strong>别做甩手掌柜。&lt;/strong> VMI不是不管理，是换了一种管法——管数据、管流程、管绩效。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-为什么你的vmi项目总是死在信任上">2. 为什么你的VMI项目，总是死在“信任”上？&lt;/h3>
+&lt;p>我见过太多公司，VMI搞了半年就崩盘。&lt;/p>
+&lt;p>原因很简单：&lt;strong>信任破产了。&lt;/strong>&lt;/p>
+&lt;p>采购方觉得“供应商肯定多报了库存”，供应商觉得“你肯定压了我的价格”。双方像防贼一样防着对方，最后数据不共享，系统不打通，项目黄了。&lt;/p>
+&lt;p>VMI是一个&lt;strong>共生系统&lt;/strong>，不是零和博弈。&lt;/p>
+&lt;p>怎么破局？
+&lt;strong>先做小范围试点，用结果换信任。&lt;/strong>&lt;/p>
+&lt;p>别一上来就上全品类。选一个SKU（库存单位）、一家供应商、一个仓库，签3个月协议，约定好：&lt;/p>
+&lt;ul>
+&lt;li>库存水位：安全库存+缓冲库存，谁超了谁买单。&lt;/li>
+&lt;li>补货频率：每天/每周/每旬，数据自动同步。&lt;/li>
+&lt;li>绩效指标：库存周转率、缺货率、库存持有成本。&lt;/li>
+&lt;/ul>
+&lt;p>我亲眼见过一家汽配厂，试点期间库存周转率从4次/年干到了12次/年，缺货率从15%降到2%。供应商那边呢？因为需求稳定，他的生产线利用率提升了20%，成本反而降了。&lt;/p>
+&lt;p>&lt;strong>双赢，才是VMI能走下去的命门。&lt;/strong>&lt;/p>
+&lt;h3 id="3-落地vmi的三字经算通罚">3. 落地VMI的“三字经”：算、通、罚&lt;/h3>
+&lt;p>别信那些高大上的PPT，VMI落地就靠这三个字。&lt;/p>
+&lt;p>&lt;strong>算：&lt;/strong>
+先算清楚你的库存成本。不只是货值，还包括仓储租金、人工、损耗、资金占用。算完你会发现，&lt;strong>库存不是资产，是负债&lt;/strong>。有了这个数字，你才知道VMI到底省了多少钱。&lt;/p>
+&lt;p>&lt;strong>通：&lt;/strong>
+系统打通。别搞“供应商登录你的ERP看数据”这种蠢事，直接API（应用程序接口）对接。实时数据同步，自动触发补货。如果供应商没有系统，那就用Excel模板+邮件，但必须标准化。记住：&lt;strong>手动操作越多，VMI死得越快。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>罚：&lt;/strong>
+制定明确的惩罚机制。比如：供应商补货不及时导致缺货，他赔；你数据不准确导致多备货，你赔。别讲人情，&lt;strong>VMI不是请客吃饭，是商业契约&lt;/strong>。&lt;/p>
+&lt;h3 id="4-那些年我踩过的vmi大坑附避坑指南">4. 那些年我踩过的VMI大坑（附避坑指南）&lt;/h3>
+&lt;p>坑1：库存所有权没厘清
+VMI模式下，库存到底算谁的？有些协议写着“货到VMI仓库，所有权转移”，结果货卖不出去，供应商不认账，你只能自己兜底。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 明确库存所有权转移节点。一般建议：货物从VMI仓库发货到你生产线时，所有权才转移。之前都是供应商的，他得负责。&lt;/p>
+&lt;p>坑2：退货机制不明确
+滞销品怎么办？有些供应商说“你退回来”，但运费谁出？时间窗口多久？没写清楚，最后扯皮。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 提前约定滞销品退货规则：比如超过3个月未动销，供应商必须原价收回；或者按比例折价处理。&lt;/p>
+&lt;p>坑3：数据共享变“毒药”
+你给了供应商数据，他转身卖给竞品怎么办？&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 签数据保密协议，明确违约责任。关键数据脱敏处理，比如只给品类维度，不给具体客户信息。&lt;/p>
+&lt;h3 id="5-vmi的未来从库存管理到协同共赢">5. VMI的未来：从“库存管理”到“协同共赢”&lt;/h3>
+&lt;p>别把VMI当成一个工具，它是一套&lt;strong>生态系统&lt;/strong>。&lt;/p>
+&lt;p>真正的VMI高手，玩的不是“压货”，而是“&lt;strong>预测+协同&lt;/strong>”。&lt;/p>
+&lt;ul>
+&lt;li>你和供应商共享销售预测，他提前备料，你降低缺货风险。&lt;/li>
+&lt;li>你和供应商共建安全库存模型，动态调整，不再拍脑袋。&lt;/li>
+&lt;li>你和供应商一起优化物流，比如用Milk Run（循环取货）降低运输成本。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最牛的公司，VMI做到极致：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率从6次/年飙升到24次/年&lt;/li>
+&lt;li>缺货率从12%降到0.5%&lt;/li>
+&lt;li>供应商的订单波动率下降了40%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这才是供应链的终极形态：不是零和博弈，而是共生共荣。&lt;/strong>&lt;/p></description></item><item><title>招标采购第1年掉过的坑，我替你数了5个</title><link>https://supplychain-tips.pages.dev/posts/bidding-mistakes-5/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-mistakes-5/</guid><description>&lt;p>我第一年做招标采购，差点把公司搞崩。&lt;/p>
+&lt;p>不是夸张。那是一个500万的设备采购，我搞了个公开招标，结果来的全是“陪跑”的。中标的那家，报价比市场价高了30%，我愣是没看出来。&lt;/p>
+&lt;p>后来被领导叫去喝茶，他说：你这不是招标，是送钱。&lt;/p>
+&lt;p>从那以后，我才开始真正搞懂——招标采购这活儿，表面看是走流程，实际上是玩心眼子。&lt;/p>
+&lt;p>今天跟你聊聊，我刚入行时踩过的5个坑。每一个，都让我心疼到睡不着觉。&lt;/p>
+&lt;h3 id="1-别信标书里的最低价中标那是钓鱼">1. 别信标书里的“最低价中标”，那是钓鱼&lt;/h3>
+&lt;p>我踩的第一个坑，就是“最低价中标”。&lt;/p>
+&lt;p>当时有个项目，标书写得明明白白：综合评分法，价格占30%。但实际一看，最后中标的那个，价格压得最低，技术方案烂得一批。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>因为&lt;strong>很多招标，名义上是综合评分，实际上是“最低价中标”的变种&lt;/strong>。价格分权重高到离谱，技术分形同虚设。&lt;/p>
+&lt;p>你以为你在选最好的供应商，实际上你在找最便宜的“冤种”。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标书里，价格分权重别超过30%&lt;/li>
+&lt;li>技术分要量化，别搞“优、良、中、差”这种虚的&lt;/li>
+&lt;li>评标专家里，放两个懂技术的，别全是采购部自己人&lt;/li>
+&lt;/ul>
+&lt;p>记住了：&lt;strong>低价中标，大概率是低价入坑&lt;/strong>。&lt;/p>
+&lt;h3 id="2-供应商的样品跟量产货根本不是一回事">2. 供应商的“样品”，跟量产货根本不是一回事&lt;/h3>
+&lt;p>第二个坑，是“样品陷阱”。&lt;/p>
+&lt;p>当时我搞了一个包装材料的招标。供应商A寄来的样品，做工精细，质感一流。我们全部门都满意。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>量产到货后，打开箱子一看——材质薄了20%，印刷模糊，边角还有毛刺。&lt;/p>
+&lt;p>打电话过去，供应商说：哦，样品是手打的，量产是机器做的，有点误差很正常。&lt;/p>
+&lt;p>我：？？？&lt;/p>
+&lt;p>&lt;strong>这是典型的“样品欺诈”&lt;/strong>。很多供应商为了中标，样品做得比量产好两个档次。等你签了合同，他再偷偷降级。&lt;/p>
+&lt;p>&lt;strong>怎么防？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>样品和量产必须同批次、同工艺&lt;/li>
+&lt;li>合同里写死：量产货必须达到样品标准的90%，否则直接拒收&lt;/li>
+&lt;li>随机抽检，别只看“送检”的那一批&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别让样品变成“演员”&lt;/strong>。&lt;/p>
+&lt;h3 id="3-你以为是公开招标其实是定向内定">3. 你以为是公开招标，其实是“定向内定”&lt;/h3>
+&lt;p>这个坑，我见过太多人摔了。&lt;/p>
+&lt;p>有个同行跟我吐槽：他负责一个500万的项目，公开招标，来了8家供应商。结果中标的那个，报价不是最低，技术不是最好，但就是中了。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>因为&lt;strong>那家供应商的老板，跟评标委员会里某个评委是亲戚&lt;/strong>。&lt;/p>
+&lt;p>你以为是公平竞争，实际上是“关系户”的游戏。&lt;/p>
+&lt;p>&lt;strong>怎么识别？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>看供应商的“历史中标记录”——如果某家公司频繁中标，且评分都很高，大概率有问题&lt;/li>
+&lt;li>看评标过程的“异常分”——如果某个评委给某家公司打了远超其他人的高分，你要警觉&lt;/li>
+&lt;li>看中标后的“变更”——如果中标后频繁修改合同条款，说明之前就有“约定”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别以为你是在“选”供应商，你只是在“走流程”&lt;/strong>。&lt;/p>
+&lt;h3 id="4-价格谈判时别被零头骗了">4. 价格谈判时，别被“零头”骗了&lt;/h3>
+&lt;p>这个坑，是我自己“作”出来的。&lt;/p>
+&lt;p>有一次谈一个设备采购，供应商报价108万。我砍到100万，觉得自己很牛逼。&lt;/p>
+&lt;p>后来跟同行聊天，他说：你信不信，那家供应商的底价是85万？&lt;/p>
+&lt;p>我：？？？&lt;/p>
+&lt;p>&lt;strong>很多采购在谈判时，容易被“整数”和“零头”迷惑&lt;/strong>。&lt;/p>
+&lt;p>供应商报108万，你砍到100万，你以为你赚了8万。但实际上，他的成本可能只有80万。&lt;/p>
+&lt;p>你砍掉的，只是他的“心理价位”，而不是他的“真实底价”。&lt;/p>
+&lt;p>&lt;strong>怎么砍？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>先做市场调研，了解同类产品的平均价格&lt;/li>
+&lt;li>不要只盯着“总价”，要拆解到“单价”和“成本项”&lt;/li>
+&lt;li>用“阶梯报价”逼他：你说“如果你能到95万，我直接签合同，不拖”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：谈判不是砍价，是拆解&lt;/strong>。&lt;/p>
+&lt;h3 id="5-合同签了不等于结束履约才是开始">5. 合同签了不等于结束，履约才是开始&lt;/h3>
+&lt;p>最后一个坑，也是最容易忽略的——&lt;strong>履约管理&lt;/strong>。&lt;/p>
+&lt;p>我有个朋友，签了一个200万的IT服务合同。签完合同后，他以为万事大吉，结果供应商拖了3个月才交付，中间各种扯皮。&lt;/p>
+&lt;p>最后项目烂尾，他背了锅。&lt;/p>
+&lt;p>&lt;strong>招标采购的核心，从来不是“拿到合同”，而是“拿到成果”&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>怎么管履约？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>合同里写清楚“交付节点”和“验收标准”&lt;/li>
+&lt;li>每两周开一次进度会，别等到最后才发现问题&lt;/li>
+&lt;li>留10%-20%的尾款，作为“履约保证金”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别让“签完合同”成为你工作的终点&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;p>说了这么多，其实就想告诉你一件事：&lt;/p>
+&lt;p>&lt;strong>招标采购，不是“走流程”，而是“控风险”&lt;/strong>。&lt;/p></description></item><item><title>物流费烧了200万，老板才懂这3招</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-control-tips/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-control-tips/</guid><description>&lt;p>&lt;strong>你是不是也觉得，物流成本就是一笔糊涂账？&lt;/strong>&lt;/p>
+&lt;p>每个月光看运费单就头大，一车货从A到B，报价从800到1500都有，到底哪个是实价？仓库里堆着货，租金一天比一天高，老板催你降本，你只能硬着头皮跟物流商砍价，砍下来几百块，回头货损、时效、服务全崩了。&lt;/p>
+&lt;p>算了，别装了。&lt;/p>
+&lt;p>我刚干物流那会儿，也这德行。运费单看都不看就签字，仓库租金涨了就涨了，反正不是我的钱。直到有一天，老板把我叫进办公室，拍着桌子说：“上个月物流费烧了200万，你告诉我钱去哪了？”&lt;/p>
+&lt;p>我哑口无言。&lt;/p>
+&lt;p>后来我花了3个月，把物流成本拆了个底朝天，才发现&lt;strong>月薪5千的专员和月薪5万的总监，差距就在这3招&lt;/strong>。今天就掏心窝子跟你聊聊，全是真金白银的教训。&lt;/p>
+&lt;hr>
+&lt;h3 id="1-运费不是砍出来的是算出来的">1. 运费不是“砍”出来的，是“算”出来的&lt;/h3>
+&lt;p>我以前最傻的操作，就是跟物流商说：“你再便宜点，不然我换人了。”对方翻个白眼，给个“底价”，我还觉得自己牛逼。&lt;/p>
+&lt;p>&lt;strong>真相是：运费里80%的成本是死的，20%才是谈判空间。&lt;/strong>&lt;/p>
+&lt;p>死的部分是什么？油费、过路费、司机工资、车辆折旧。这些不是物流商想降就能降的。你非要砍，他只能在服务上偷工减料——车慢点、货损多点、甩货甩几次，最后亏的还不是你？&lt;/p>
+&lt;p>聪明的做法是：&lt;strong>把运费拆成“固定+浮动”结构。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>固定部分：&lt;/strong> 按公里数和车型算基本运费，这部分公开透明。&lt;/li>
+&lt;li>&lt;strong>浮动部分：&lt;/strong> 按时效、货值、安全率、签收率给绩效奖励。&lt;/li>
+&lt;/ul>
+&lt;p>比如，你发一车货，基本价1000。但如果物流商能做到2天到货、0货损、签收率100%，你就多给200奖金。这200块，换来的是稳定和安心，比你天天催单、处理客诉强多了。&lt;/p>
+&lt;p>&lt;strong>核心逻辑：把物流商从“卖运力”变成“卖服务”。&lt;/strong> 你省的不是运费，是管理成本。&lt;/p>
+&lt;p>&lt;strong>实操清单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每月拉一次“运费明细表”，按线路、车型、重量、时效拆开。&lt;/li>
+&lt;li>对每条线路做“底价测算”，算出油费+过路费+工资的硬成本。&lt;/li>
+&lt;li>谈判时，只谈浮动部分，固定部分按市场价走。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-仓库租金贵那是你不会塞">2. 仓库租金贵？那是你“不会塞”&lt;/h3>
+&lt;p>仓库成本第二大坑，就是&lt;strong>租金按面积算，但你的货根本塞不满&lt;/strong>。&lt;/p>
+&lt;p>我见过太多公司，租了5000平的仓库，实际利用率不到60%。剩下的空间，要么堆着过期物料，要么空着当走廊。老板还觉得“万一旺季要用呢”。&lt;/p>
+&lt;p>&lt;strong>你醒醒，旺季才几天？淡季那几个月，你是在给房东打工。&lt;/strong>&lt;/p>
+&lt;p>真正的高手，&lt;strong>把仓库当“蜂窝”来塞&lt;/strong>。&lt;/p>
+&lt;p>怎么做？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>货架别买标准的，买定制的。&lt;/strong> 根据你的货品尺寸，把货架层高、深度调成“刚好塞下”。多一层，就能多放30%的货。&lt;/li>
+&lt;li>&lt;strong>动线别浪费。&lt;/strong> 很多仓库的通道宽得能开卡车，但你又不是在办车展。通道宽度降到2.5米，叉车能过就行，省出来的面积全用来放货。&lt;/li>
+&lt;li>&lt;strong>引入“共享仓”。&lt;/strong> 跟隔壁公司拼租一个仓库，共用装卸平台、办公区。租金对半砍，空间利用率翻倍。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个案例：&lt;/strong> 我有个做电商的朋友，原来租了3000平仓库，月租金12万。用了这3招后，直接缩到1800平，月租降到7万，货还比以前放得多。&lt;/p>
+&lt;p>&lt;strong>别把仓库当“资产”，它就是“成本”。&lt;/strong> 压得越低越好。&lt;/p>
+&lt;hr>
+&lt;h3 id="3-包装成本是你最容易忽略的隐形黑洞">3. 包装成本，是你最容易忽略的“隐形黑洞”&lt;/h3>
+&lt;p>你以为包装就是纸箱加胶带？&lt;/p>
+&lt;p>错了。&lt;/p>
+&lt;p>我见过一家做小家电的公司，一个产品包装成本8块5，里面塞了3层泡沫、2层气泡膜、1个内衬。我问老板：“这玩意儿是寄到战场的吗？”老板说：“怕摔坏，赔不起。”&lt;/p>
+&lt;p>&lt;strong>但你知道吗？包装每增加1块钱，一年发10万单，就是10万块的纯利润没了。&lt;/strong>&lt;/p>
+&lt;p>更离谱的是，&lt;strong>很多包装是“过保护”&lt;/strong>——明明产品抗摔，你非加一堆缓冲材料。客户收到后，拆半天，体验还差。&lt;/p>
+&lt;p>&lt;strong>降包装成本的3个狠招：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>测试“最小安全包装”。&lt;/strong> 拿样品做跌落测试，从1米、1.5米、2米各摔几次，看哪个高度会坏。能扛2米的，就别用3米的保护。&lt;/li>
+&lt;li>&lt;strong>统一包装规格。&lt;/strong> 别每个产品都定制纸箱。用标准箱+填充物，一个箱子能装3种产品。采购量上去，单价直接砍半。&lt;/li>
+&lt;li>&lt;strong>用“空气柱”代替泡沫。&lt;/strong> 空气柱成本低、体积小、还环保。客户撕开就扔，不用拆半天。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>数据说话：&lt;/strong> 优化后，我那个朋友包装成本从8块5降到了3块2。一年10万单，省了53万。&lt;/p>
+&lt;p>记住：&lt;strong>包装的唯一作用是“让货安全到客户手里”，不是“让客户觉得你有钱”。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说句大实话">最后说句大实话&lt;/h3>
+&lt;p>物流成本控制，从来不是“省钱”那么简单。&lt;/p>
+&lt;p>它是&lt;strong>把每一分钱都花在刀刃上&lt;/strong>——运费花在服务上，仓库花在利用率上，包装花在安全上。月薪5千的专员，只会跟物流商砍价；月薪5万的总监，会算整个链条的账。&lt;/p>
+&lt;p>别再让老板拍桌子了，从今天开始，把这3招用上。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>，我还会定期分享物流成本拆解模板、谈判话术、仓库布局图。想降本？别光靠嘴，靠方法。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>写在后面：&lt;/strong>
+如果你现在正被物流成本压得喘不过气，别慌。评论区留下你的行业和痛点，我挑几个典型问题，下篇文章专门解答。&lt;/p></description></item><item><title>老板甩锅我的第3年，物流外包让我翻盘了</title><link>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-tips/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-tips/</guid><description>&lt;p>&lt;strong>“为什么物流又爆仓了？你这个供应链是吃干饭的吗？”&lt;/strong>&lt;/p>
+&lt;p>老板的怒吼，从办公室传遍整个楼层。我，一个干了3年的供应链专员，手里攥着快递单，心里一万匹草泥马奔腾而过——&lt;strong>快递费比货还贵，退货率比销量还高&lt;/strong>，这锅我背了整整3年。&lt;/p>
+&lt;p>直到上个月，我干了件“狠事”：&lt;strong>把物流外包了&lt;/strong>。结果呢？老板从“你被开除了”变成“涨薪20%，年终奖翻倍”。今天我就跟你唠唠，物流外包这盘棋，到底怎么下才能赢。&lt;/p>
+&lt;hr>
+&lt;h3 id="物流外包不是甩锅是降维打击">物流外包，不是甩锅，是“降维打击”&lt;/h3>
+&lt;p>先别急着骂“外包就是找罪受”。我承认，市面上90%的物流外包公司是坑货——&lt;strong>丢件、慢如龟、客户差评&lt;/strong>。但问题是，&lt;strong>你选对了“队友”吗？&lt;/strong>&lt;/p>
+&lt;p>我踩过的坑，说出来都是血泪史：&lt;/p>
+&lt;ul>
+&lt;li>自建物流团队：&lt;strong>招人难、管人累、成本炸&lt;/strong>。一个司机月薪8千，加上油费、保险、折旧，一年能吃掉你十几万。&lt;/li>
+&lt;li>乱找外包公司：&lt;strong>价格低到离谱，服务烂到发指&lt;/strong>。比如某家报价比市场低30%，结果发货全用“顺丰陆运”，客户投诉“我买的是次日达，怎么变3天？”&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>关键点：物流外包不是“甩锅”，是“借力”。&lt;/strong> 你把非核心的脏活累活丢出去，让专业的人干专业的事。就像你不可能自己造车跑运输，对吧？&lt;/p>
+&lt;p>&lt;strong>真相是：&lt;/strong> 好的外包公司，能帮你把物流成本砍掉20%，效率提升50%。但前提是——你得会挑。&lt;/p>
+&lt;hr>
+&lt;h3 id="避坑指南1别被价格战忽悠看这3个硬指标">避坑指南1：别被“价格战”忽悠，看这3个硬指标&lt;/h3>
+&lt;p>你肯定见过这种广告：“全网最低价，一单只要3块5！” 然后你兴冲冲签了合同，结果发货后客户发来截图：“物流信息3天没更新，客服永远打不通。”&lt;/p>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong> 记住这3个硬指标，比看价格靠谱100倍：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>时效承诺：&lt;/strong> 问清楚“同城多久？跨省多久？” 最好写在合同里，超时赔钱。比如“同城24小时达，超时每单赔10块”。&lt;/li>
+&lt;li>&lt;strong>破损率：&lt;/strong> 要求对方提供“近3个月破损率数据”。低于1%才算及格，高于3%直接Pass。&lt;/li>
+&lt;li>&lt;strong>售后服务：&lt;/strong> 问“如果丢件，多久赔？怎么赔？” 靠谱的公司会说“24小时内启动理赔，按货值100%赔付”。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>我的血泪教训：&lt;/strong> 之前贪便宜选了家报价低的，结果双11爆仓，客户投诉电话打爆。后来换了一家贵15%但口碑好的，&lt;strong>客户差评率从8%降到1.5%&lt;/strong>。&lt;/p>
+&lt;hr>
+&lt;h3 id="避坑指南2合同里埋好这3颗雷别等炸了才哭">避坑指南2：合同里埋好这3颗“雷”，别等炸了才哭&lt;/h3>
+&lt;p>很多外包合同，就是“坑你没商量”。比如这条：“因不可抗力导致延误，本公司免责。” 翻译成人话：&lt;strong>下雨、堵车、系统崩溃，全是我们说了算。&lt;/strong>&lt;/p>
+&lt;p>你必须加进去的3个“反杀条款”：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“不可抗力”要定义清晰：&lt;/strong> 比如“只有政府禁令、自然灾害才算，暴雪、系统故障不算”。&lt;/li>
+&lt;li>&lt;strong>“赔付上限”不能太低：&lt;/strong> 有些合同写“最多赔运费3倍”，你货值1万，运费才30，赔你90块？&lt;strong>要写“按货值100%赔付”&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>“退出机制”要灵活：&lt;/strong> 比如“提前15天通知可解约，无需违约金”。别被对方“合作满一年”的条款套牢。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>记住：&lt;/strong> 合同不是废纸，是你最后的底牌。不签防坑条款，你就是在裸奔。&lt;/p>
+&lt;hr>
+&lt;h3 id="避坑指南3别当甩手掌柜用这3招盯死外包">避坑指南3：别当甩手掌柜，用这3招“盯死”外包&lt;/h3>
+&lt;p>你以为外包了就能躺着数钱？&lt;strong>想得美！&lt;/strong> 外包公司本质是“搬砖”，你才是“大脑”。你不盯着，他们就会“偷懒”。&lt;/p>
+&lt;p>具体怎么盯？&lt;strong>3个动作，每天花10分钟：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>早报看数据：&lt;/strong> 让外包公司每天早上发“昨日发货量、签收率、异常单”。1小时内的数据，别信“系统延迟”。&lt;/li>
+&lt;li>&lt;strong>周报抓异常：&lt;/strong> 比如某区域“签收率连续3天低于90%”，直接电话质问“怎么回事？”，别等周报。&lt;/li>
+&lt;li>&lt;strong>月报复盘：&lt;/strong> 看“成本占比、时效达成率、客户满意度”。如果成本超预算10%，立刻约谈。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>我的亲身经历：&lt;/strong> 有次我发现某区域“签收率突然降到85%”，一查是外包公司把货堆在“无人驿站”，客户拿不到。我直接要求“换快递员”，3天后签收率回到95%。&lt;/p>
+&lt;hr>
+&lt;h3 id="避坑指南4用小步快跑试错别all-in">避坑指南4：用“小步快跑”试错，别All in&lt;/h3>
+&lt;p>别一上来就签“年度大单”。&lt;strong>先试水，再放量。&lt;/strong>&lt;/p>
+&lt;p>我当时的操作：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第1步：&lt;/strong> 挑3家外包公司，各试1个月，发100单/家。&lt;/li>
+&lt;li>&lt;strong>第2步：&lt;/strong> 对比“时效、破损、客服响应”。选最优的，签3个月短期合同。&lt;/li>
+&lt;li>&lt;strong>第3步：&lt;/strong> 如果满意，续约6个月，但要求“成本降5%”。不满意，换下一家。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>为什么？&lt;/strong> 因为你不知道哪家是“真香”还是“真坑”。&lt;strong>小成本试错，比一把输光强100倍。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说点扎心的">最后，说点扎心的&lt;/h3>
+&lt;p>物流外包这件事，本质是**“用别人的资源，给自己省钱省心”**。但前提是——&lt;strong>你懂行、会挑、能盯&lt;/strong>。&lt;/p>
+&lt;p>如果你现在还被物流虐得死去活来，别硬扛。&lt;strong>外包不是认输，是升级&lt;/strong>。就像老板跟你说“降本增效”，你得真干出成绩来。&lt;/p>
+&lt;p>&lt;strong>最后一句：&lt;/strong> 别让物流成为你业务的“阿喀琉斯之踵”。搞定外包，你就赢了80%的同行。&lt;/p>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>，比如《供应链人的10个避坑清单》《物流外包谈判话术模板》。下期聊“库存压了500万才明白的事”，不见不散。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>PS：&lt;/strong> 评论区欢迎吐槽你的物流血泪史，点赞最高的送一次“物流外包避坑咨询”。（别问，问就是真的。）&lt;/p></description></item><item><title>被供应链金融坑了300万，我顿悟了3条铁律</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</guid><description>&lt;p>老板，你是不是也有这种时候？&lt;/p>
+&lt;p>看着账上躺着几百万应收账款，急得嘴角起泡，想融点钱发工资、备货、撑过旺季。结果银行和保理公司甩你一句：“你们流水不够”“担保物不足”。&lt;/p>
+&lt;p>你咬牙去搞什么“数字资产质押”“区块链仓单”，钱没到账，先交了一堆手续费。最后被平台通知：“系统风控升级，暂时无法放款。”&lt;/p>
+&lt;p>&lt;strong>这哪是融资啊，这是给你上刑。&lt;/strong>&lt;/p>
+&lt;p>我干了8年供应链金融，身边朋友被坑了300万，才摸透这行的潜规则。今天不说漂亮话，只讲3条铁律，能帮你避开95%的坑。&lt;/p>
+&lt;h3 id="铁律一别信无抵押那是给你下套">铁律一：别信“无抵押”，那是给你下套&lt;/h3>
+&lt;p>“我们不看抵押，只看信用流水！”&lt;/p>
+&lt;p>听起来多美好。可你想想，银行和保理公司是慈善机构吗？&lt;/p>
+&lt;p>所谓“无抵押”，本质是把风险转移给上游供应商或下游客户。比如：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>“应收账款保理”&lt;/strong>：你拿发票去质押，对方说没问题。但审核时，要求你&lt;strong>额外签署“回购协议”&lt;/strong>。一旦客户赖账或拖款，钱得你掏出来填坑。&lt;/li>
+&lt;li>&lt;strong>“信用贷”&lt;/strong>：看似不用抵押，但利率高到离谱。年化15%起步，外加各种服务费、管理费、逾期罚息。你借100万，到手可能只有85万。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真相是：真正的“无抵押”只给头部大厂。中小企业？想多了。&lt;/strong>&lt;/p>
+&lt;p>我的建议是：&lt;strong>把“抵押”变成“规则”。&lt;/strong>&lt;/p>
+&lt;p>比如，你提前和核心客户谈好：“我可以按应收账款打折给你，但你必须配合我走保理流程，并且承诺60天内付款。” 把客户拉进来背书，银行才认。&lt;/p>
+&lt;p>别自己硬扛。&lt;strong>供应链金融的底层逻辑是“链”，不是“单打独斗”。&lt;/strong>&lt;/p>
+&lt;h3 id="铁律二现金流比利润重要100倍别被账期绑架">铁律二：现金流比利润重要100倍，别被“账期”绑架&lt;/h3>
+&lt;p>很多老板算账时只算：这笔生意能赚20%的毛利。&lt;/p>
+&lt;p>但你没算另一笔账：客户账期90天，你拿货付款是30天。中间60天的资金缺口，你必须用融资来填。融资成本如果是月息1%，60天就是2%。再加上各种隐性成本，&lt;strong>利润可能只剩5%&lt;/strong>。&lt;/p>
+&lt;p>更可怕的是，一旦客户拖款或违约，你不仅赚不到钱，还得倒贴。&lt;/p>
+&lt;p>&lt;strong>我见过最惨的案例：&lt;/strong> 某工厂接了个大单，签了180天账期。老板算着利润有200万，开心得请全厂吃饭。结果客户公司资金链断裂，180天后只付了30%的款。工厂老板为了发货，借了高利贷，最后厂房被拍卖。&lt;/p>
+&lt;p>&lt;strong>所以，我劝你：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>账期超过60天的订单，直接砍价10%现金结算。&lt;/strong> 别怕丢单，丢一个烂单，你还能活。接一个烂单，你可能死。&lt;/li>
+&lt;li>&lt;strong>用“库存融资”代替“应收账款融资”。&lt;/strong> 库存是你的实物资产，银行更认。你可以把成品或半成品抵押给物流公司或仓储平台，换成现金。虽然利率高点，但&lt;strong>控制权在你手里&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>永远留一笔“救命现金”。&lt;/strong> 每月利润里，至少提5%放进一个不动账户。这钱只用两次：一次是给员工发工资，一次是给供应商付货款。其他情况，打死不动。&lt;/li>
+&lt;/ul>
+&lt;h3 id="铁律三别信数据决定一切那是割韭菜的新镰刀">铁律三：别信“数据决定一切”，那是割韭菜的新镰刀&lt;/h3>
+&lt;p>“我们用AI算法评估信用，你的交易数据就是最好的资产！”&lt;/p>
+&lt;p>这话听着高级，但你仔细想想：&lt;strong>数据是谁的？算法是谁的？&lt;/strong>&lt;/p>
+&lt;p>大多数所谓“数字供应链金融平台”，本质上就是&lt;strong>数据贩子&lt;/strong>。他们让你上传所有交易记录、发票、合同、物流信息。然后说：“你的信用分800分，可以给你100万额度。”&lt;/p>
+&lt;p>等你真去提款时，系统提示：“因近期行业波动，您的风控评级下调，当前可用额度0元。”&lt;/p>
+&lt;p>&lt;strong>你辛辛苦苦喂了半年数据，最后被算法当韭菜割了。&lt;/strong>&lt;/p>
+&lt;p>更坑的是，这些平台还会把你的数据卖给第三方，或者用你的数据训练模型，然后去服务你的竞争对手。&lt;/p>
+&lt;p>&lt;strong>我的建议很简单：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>数据可以给，但只给“必要维度”。&lt;/strong> 比如只需要你的开票记录和回款流水，不需要你提供上下游客户名单。&lt;/li>
+&lt;li>&lt;strong>签协议时，加一条“数据删除权”。&lt;/strong> 如果合作终止，平台必须在7天内删除你的所有数据。否则，你可以起诉。&lt;/li>
+&lt;li>&lt;strong>如果平台要求“必须接入他们的ERP系统”，直接拒绝。&lt;/strong> 这是想把你变成数据奴隶。&lt;/li>
+&lt;/ul>
+&lt;h3 id="结尾别让金融吃掉你的生意">结尾：别让金融吃掉你的生意&lt;/h3>
+&lt;p>供应链金融本来是个好东西，它能让钱在链条里流动起来，帮企业活下去。&lt;/p>
+&lt;p>但现实是，&lt;strong>太多人盯着你的本金、你的数据、你的焦虑&lt;/strong>。&lt;/p>
+&lt;p>记住这三条铁律：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别信无抵押，那是套你的杠杆。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>别算利润，先算现金流。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>别当数据奴隶，守住你的核心资产。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>当你开始用金融工具时，别想着“怎么多借钱”，而是想：“这笔钱能让我更安全，还是更危险？”&lt;/p>
+&lt;p>&lt;strong>生意是长跑，不是百米冲刺。金融是拐杖，不是金主。&lt;/strong>&lt;/p>
+&lt;p>如果你身边有做供应链的朋友，把这篇文章甩给他。救一个是一个。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，回复“融资”，送你一份《中小企业融资避坑清单》。&lt;/p></description></item><item><title>被环保局罚款50万，我才看懂绿色供应链</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain/</guid><description>&lt;p>上周一，我正蹲在仓库里盘库存，手机响了。&lt;/p>
+&lt;p>对方自报家门——“环保局”。&lt;/p>
+&lt;p>我以为是骚扰电话，直接挂了。5分钟后，老板电话进来，劈头盖脸一句：“你特么干了什么好事？环保局要来罚我们50万！”&lt;/p>
+&lt;p>我脑子嗡了。&lt;/p>
+&lt;p>原因？合作了三年的包装供应商，偷偷用了不合规的再生塑料，含重金属超标。客户那边刚做完绿色审计，顺藤摸瓜查到了我们。&lt;/p>
+&lt;p>&lt;strong>罚款50万，加上客户索赔和订单流失，直接亏损超过200万。&lt;/strong>&lt;/p>
+&lt;p>而那个供应商，早跑路了。&lt;/p>
+&lt;p>你说冤不冤？我一个干采购的，还得管环保？可现实就是——你不主动管，罚款会逼你管。&lt;/p>
+&lt;p>今天我就把踩坑踩出来的血泪经验摊开说。绿色供应链这玩意儿，没你想的那么虚，也没你想的那么贵。搞懂了，反而能省钱。&lt;/p>
+&lt;h3 id="绿色供应链不是贴绿标是挖地雷">绿色供应链不是“贴绿标”，是“挖地雷”&lt;/h3>
+&lt;p>很多同行觉得：绿色供应链 = 买个认证、贴个标签、显得公司有社会责任感。&lt;/p>
+&lt;p>&lt;strong>大错特错。&lt;/strong>&lt;/p>
+&lt;p>说白了，它就是个&lt;strong>风险控制+成本优化&lt;/strong>的工具。&lt;/p>
+&lt;p>你想想，你买来的原材料，如果上游生产是高污染、高能耗，哪天政策一收紧，直接停产。你的产线怎么办？货期怎么保？&lt;/p>
+&lt;p>还有客户的ESG（环境、社会和治理）审查。现在大厂招标，门槛第一项就是“供应商需通过绿色评估”。你没这个证，连入场券都拿不到。&lt;/p>
+&lt;p>我身边有个兄弟，去年为了拿一个新能源大客户的订单，被要求提供全链条碳足迹数据。他愣是带着团队查了两个月，发现光运输环节就超标30%。后来换了区域仓，运费降了，碳排放也达标了。&lt;/p>
+&lt;p>&lt;strong>所以，绿色供应链的本质，是给你的供应链做一次“全身CT”。&lt;/strong> 把那些隐藏的雷——不稳定的原材料、高能耗的工艺、高风险的运输——一个个挖出来。&lt;/p>
+&lt;p>挖出来，才能排雷。&lt;/p>
+&lt;h3 id="别一上来就搞碳中和先做这3件事">别一上来就搞“碳中和”，先做这3件事&lt;/h3>
+&lt;p>很多人一听“绿色”，脑袋里就飘过光伏板、碳交易、碳中和，觉得那是大公司烧钱的项目。&lt;/p>
+&lt;p>&lt;strong>别被唬住了。&lt;/strong> 我跟你讲，落地很简单，就三步。&lt;/p>
+&lt;p>&lt;strong>第一，给你的供应商“排排队”。&lt;/strong>&lt;/p>
+&lt;p>别只看价格。把供应商按“环保风险”分成三类：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>红牌：&lt;/strong> 没有环评、被通报过、用违禁原料的。&lt;strong>直接砍掉&lt;/strong>，别犹豫。留着就是定时炸弹。&lt;/li>
+&lt;li>&lt;strong>黄牌：&lt;/strong> 有基础资质但数据不透明的。&lt;strong>要求补资料&lt;/strong>，比如废水处理报告、能耗数据。三个月内不给，降级处理。&lt;/li>
+&lt;li>&lt;strong>绿牌：&lt;/strong> 已经通过ISO14001环境管理体系认证或类似标准的。&lt;strong>重点培养&lt;/strong>，给长单、给好账期。&lt;/li>
+&lt;/ul>
+&lt;p>我团队现在每个月做一次“供应商健康度评分”，环保项占30%。半年下来，红牌供应商从12家砍到0，客诉率反而降了15%。&lt;/p>
+&lt;p>&lt;strong>第二，优化你的“包装账”。&lt;/strong>&lt;/p>
+&lt;p>别小看包装。很多公司的包装成本占采购总额5%-8%，而且大部分是一次性、不可降解的。&lt;/p>
+&lt;p>换成可循环的？算一笔账：&lt;/p>
+&lt;p>以前买纸箱，一个2块，用一次就扔。一年用100万个，就是200万。&lt;/p>
+&lt;p>现在换成可折叠围板箱，一个150块，能用50次以上。单次成本3块，还省了处理垃圾的人工和费用。&lt;/p>
+&lt;p>&lt;strong>一年省下30万，顺便给客户发个“绿色包装改善报告”，客户满意度直接拉满。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>第三，盯紧你的“运输里程”。&lt;/strong>&lt;/p>
+&lt;p>运输是排碳大户，也是省钱大户。多绕100公里，油费多花，碳排放也多。&lt;/p>
+&lt;p>怎么优化？&lt;strong>合并订单、减少零担、就近调仓。&lt;/strong>&lt;/p>
+&lt;p>我接手过一个项目，华东区的货非要全国仓发一次，然后转一圈。后来改成“区域就近发货”，直接把运输里程砍掉40%，运费降了20%，时效还快了半天。&lt;/p>
+&lt;p>你看，这些事跟“高大上”的碳中和有关系吗？有，但本质上，就是&lt;strong>算账&lt;/strong>。&lt;/p>
+&lt;h3 id="别怕绿色溢价那是你的护城河">别怕“绿色溢价”，那是你的护城河&lt;/h3>
+&lt;p>总有人说：“绿色供应商价格贵，我选便宜的不行吗？”&lt;/p>
+&lt;p>行。但你得想清楚，便宜背后是什么。&lt;/p>
+&lt;p>是&lt;strong>隐性成本&lt;/strong>。&lt;/p>
+&lt;p>我前面那个案例，便宜供应商跑路了，罚了50万，客户丢了200万。你算算，哪个更贵？&lt;/p>
+&lt;p>而且，绿色供应链做得好，本身就是&lt;strong>溢价能力&lt;/strong>。&lt;/p>
+&lt;p>我一个做服装的朋友，去年开始用有机棉和再生纤维，成本高了10%。但客户愿意多付15%的溢价，因为品牌需要讲“可持续故事”。今年还成了某国际大牌的指定供应商。&lt;/p>
+&lt;p>&lt;strong>说白了，当市场都在卷价格的时候，谁手里攥着“绿色认证”，谁就有定价权。&lt;/strong>&lt;/p>
+&lt;p>未来的竞争，不是比谁价格低，而是比谁&lt;strong>更合规、更靠谱&lt;/strong>。绿色供应链，就是你最硬的底牌。&lt;/p>
+&lt;h3 id="最后一句大实话">最后一句大实话&lt;/h3>
+&lt;p>别把绿色供应链当成“政治任务”或者“面子工程”。它就是一场&lt;strong>精明的风险对冲&lt;/strong>。&lt;/p>
+&lt;p>你每减少一次超标排放，就少一次被罚款的风险。
+你每选择一家合规供应商，就多一张客户的信任票。
+你每优化一个运输环节，就多一笔到手的利润。&lt;/p>
+&lt;p>&lt;strong>这年头，活下来不是本事，活得稳才是。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>关注公众号「甲方乙方供应链」，回复“绿色”领取《供应商环保风险评估清单》模板，我用血泪换来的，免费送你。&lt;/p></description></item><item><title>采购流程优化3步，省下50万冤枉钱</title><link>https://supplychain-tips.pages.dev/posts/procurement-optimization-tips/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-optimization-tips/</guid><description>&lt;hr>
+&lt;h3 id="正文">正文&lt;/h3>
+&lt;p>“哥，采购流程优化这个月第8次被老板催了，我快疯了。”
+上周一个做采购的哥们儿半夜发微信，配了张库存报表截图——&lt;strong>堆了8个月的零件，够用到2028年&lt;/strong>。&lt;/p>
+&lt;p>我问他：“你每个月花多少时间找供应商比价？”
+“至少5天，有时候单子急，赶鸭子上架。”
+“流程呢？”
+“一堆Excel表格，签字流程比双11发货还慢。”&lt;/p>
+&lt;p>这兄弟踩的坑，&lt;strong>90%的采购都在踩&lt;/strong>。
+今天不跟你扯理论，就讲3个真实案例，把流程优化掰开揉碎。&lt;/p>
+&lt;hr>
+&lt;h3 id="痛点扎心你的采购流程到底多坑">痛点扎心：你的采购流程到底多坑？&lt;/h3>
+&lt;p>先做个自测：&lt;/p>
+&lt;ul>
+&lt;li>下单到到货，平均要几天？&lt;/li>
+&lt;li>供应商报价，你手动比价还是靠Excel函数？&lt;/li>
+&lt;li>库存数据，每次月底盘点才准？&lt;/li>
+&lt;/ul>
+&lt;p>如果答案全是前者，恭喜，你公司至少&lt;strong>每年白扔50万&lt;/strong>。&lt;/p>
+&lt;p>我见过最离谱的案例：
+某电子厂采购部，&lt;strong>7个人每天花3小时填单子&lt;/strong>，结果订单漏发率18%。
+老板问为啥不优化？部门经理说“这是传统”。
+传统？传统是让你亏钱的理由吗？&lt;/p>
+&lt;hr>
+&lt;h3 id="-第1步砍掉僵尸流程用数据说话">### 第1步：砍掉“僵尸流程”，用数据说话&lt;/h3>
+&lt;p>&lt;strong>别把流程当祖宗供着。&lt;/strong>&lt;/p>
+&lt;p>很多采购流程是10年前设计的，那时候没有OA系统，没有即时通讯。
+现在呢？&lt;strong>审批还要打印纸质单子？&lt;/strong> 醒醒吧。&lt;/p>
+&lt;p>&lt;strong>怎么砍？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>用自动化工具&lt;/strong>：比如钉钉、飞书的审批流，5分钟搞定以前2天的流程。&lt;/li>
+&lt;li>&lt;strong>删减冗余节点&lt;/strong>：采购申请、比价、审批、入库、付款——&lt;strong>真正卡脖子的就2-3个环节&lt;/strong>，其他都是“面子工程”。&lt;/li>
+&lt;li>&lt;strong>数据化决策&lt;/strong>：别再靠经验拍脑袋。用ERP或SaaS工具，把历史采购数据拉出来，&lt;strong>哪个供应商准时率低于80%？哪个品类价格波动超过15%？&lt;/strong> 直接砍掉。&lt;/li>
+&lt;/ol>
+&lt;p>真实案例：
+某汽配公司，之前采购周期平均22天。优化后只保留“需求确认-比价-审批”3个节点，&lt;strong>周期缩到7天&lt;/strong>，库存周转率提升40%。
+老板看完数据，当场给采购团队发了奖金。&lt;/p>
+&lt;hr>
+&lt;h3 id="-第2步把供应商当队友别当备胎">### 第2步：把供应商当“队友”，别当“备胎”&lt;/h3>
+&lt;p>很多采购把供应商当韭菜，&lt;strong>比价往死里压，付款拖到天荒地老&lt;/strong>。
+结果呢？供应商要么偷工减料，要么直接拉黑你。&lt;/p>
+&lt;p>&lt;strong>流程优化核心：建立信任，但留底线。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>怎么做？&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>分级管理&lt;/strong>：按准时率、质量、价格把供应商分成A/B/C级。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>A级：长期合作，&lt;strong>直接谈季度价，免比价&lt;/strong>。&lt;/li>
+&lt;li>B级：每季度比价一次，重点监控。&lt;/li>
+&lt;li>C级：淘汰。&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>&lt;strong>共享数据&lt;/strong>：把你的库存预测发给供应商，&lt;strong>让他们提前备货&lt;/strong>。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>别怕泄密——你没那么重要，但供应商会因此把你当VIP。&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>&lt;strong>付款流程透明化&lt;/strong>：约定“30天付款”，就绝不拖到第31天。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>信誉值钱，比压价省的钱多得多。&lt;/li>
+&lt;/ul>
+&lt;p>真实案例：
+某服装品牌，之前换供应商频率高，质量不稳定。
+优化后，把前5名供应商拉进微信群，&lt;strong>每周同步销售预测&lt;/strong>。
+结果：缺货率从15%降到2%，供应商还主动降价5%。
+采购经理说：“原来信任比压价好使。”&lt;/p>
+&lt;hr>
+&lt;h3 id="-第3步用即时库存代替月末盘点">### 第3步：用“即时库存”代替“月末盘点”&lt;/h3>
+&lt;p>库存是采购流程的“黑洞”。
+&lt;strong>压了500万库存，才知道自己有多蠢。&lt;/strong>&lt;/p>
+&lt;p>传统做法：月底盘点，然后发现一堆废料。
+优化方案：&lt;strong>实时监控+动态调整&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>具体操作：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>上系统&lt;/strong>：别再用Excel了。用简道云、用友、SAP（小公司用免费版也行），&lt;strong>每天自动更新库存数据&lt;/strong>。&lt;/li>
+&lt;li>&lt;strong>设置预警线&lt;/strong>：低于安全库存自动补货，高于预警线自动停单。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>比如：某零件安全库存是1000件，低于1000系统直接弹窗提醒采购。&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>&lt;strong>分类管理&lt;/strong>：&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>高周转品&lt;/strong>（月消耗＞10%）：每周补货。&lt;/li>
+&lt;li>&lt;strong>低周转品&lt;/strong>（月消耗＜2%）：季度补货，甚至“零库存”，用的时候临时采购。&lt;/li>
+&lt;/ul>
+&lt;p>真实案例：
+某医疗器械公司，之前库存周转天数90天。
+优化后，用系统监控+安全库存预警，&lt;strong>周转天数降到28天&lt;/strong>，释放了300万现金流。
+老板说：“这比银行贷款还管用。”&lt;/p>
+&lt;hr>
+&lt;h3 id="最后说两句">最后说两句&lt;/h3>
+&lt;p>流程优化不是改个表格、加个审批节点就完事。
+&lt;strong>它是一场对“懒政”和“惯性”的战争。&lt;/strong>&lt;/p></description></item><item><title>**库存压了500万才明白的3个血泪教训**</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-tips/</guid><description>&lt;p>先讲个真事。&lt;/p>
 &lt;p>去年有个做家居的兄弟找我喝酒，脸喝得通红，跟我说：“老张，我仓库里堆了500万货，全是去年双11备的。结果呢？款式过时了，卖不动了。现在供应商催货款，房东催租金，银行催利息，我老婆催我滚回去上班。”&lt;/p>
 &lt;p>他干了啥？&lt;/p>
 &lt;p>&lt;strong>旺季前猛备货，看哪个供应商顺眼就下大单，仓库堆得跟迷宫似的，出货全靠吼。&lt;/strong>&lt;/p>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>企业数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BC%81%E4%B8%9A%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 企业数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BC%81%E4%B8%9A%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线当天，老板差点把我开了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pitfalls/</guid><description>&lt;p>先讲个真事。&lt;/p>
+&lt;p>去年夏天，某制造企业ERP上线。老板花了几百万，请了顶级咨询团队，折腾了大半年。上线那天，全员加班，财务妹子对着屏幕哭，仓库大叔把键盘摔了。&lt;/p>
+&lt;p>系统卡死3次，物料编码乱成一锅粥，采购单凭空消失。老板的脸从期待变成铁青，最后指着我鼻子吼：“这就是你吹的‘降本增效’？”&lt;/p>
+&lt;p>我差点当场被开了。&lt;/p>
+&lt;p>后来复盘才发现，这场灾难的种子，早在需求调研阶段就埋下了。&lt;strong>ERP实施从来不是技术问题，而是人性问题。&lt;/strong>&lt;/p>
+&lt;p>今天不整虚的，直接上硬核干货。带你拆解ERP实施最要命的5个坑，每一个都是我用头发换来的。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑1选型像相亲光看脸不看心">坑1：选型像相亲，光看脸不看心&lt;/h3>
+&lt;p>最怕遇到什么老板？就是那种“听说SAP很牛，上！”或者“隔壁老王用了XXX，我们也搞一套”。&lt;/p>
+&lt;p>&lt;strong>ERP选型不是买衣服，是换器官。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别迷信大品牌&lt;/strong>：SAP、Oracle是好，但你一个小几十人的工厂，用得着吗？实施成本比一年利润还高，这不是给自己找罪受？&lt;/li>
+&lt;li>&lt;strong>别只看演示&lt;/strong>：供应商PPT做得天花乱坠，你看着爽。一上线，你才发现，人家演示的是“理想国”，你面对的是“侏罗纪”。&lt;/li>
+&lt;li>&lt;strong>记住一条铁律&lt;/strong>：&lt;strong>适合你的业务阶段和行业特性，才是最好的。&lt;/strong> 做贸易的选带进销存的就行，搞制造的必须看MES（生产执行系统）对接能力。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么避坑？&lt;/strong>
+拉个清单，把自家最痛的3个业务场景写下来。比如“多工厂调拨”、“委外加工”、“批次追溯”。让供应商现场演示，&lt;strong>用你的真实数据，跑你的真实流程&lt;/strong>。能过的，再谈下一步。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑2老板拍脑袋员工拍大腿">坑2：老板拍脑袋，员工拍大腿&lt;/h3>
+&lt;p>这是最最最要命的坑，没有之一。&lt;/p>
+&lt;p>很多老板以为ERP是万能药，“上了系统，一切自动，我就能当甩手掌柜了”。现实呢？&lt;strong>系统是工具，不是神仙。&lt;/strong> 它只能放大你现有的管理能力，不能凭空创造。&lt;/p>
+&lt;p>&lt;strong>老板常说的3句“鬼话”：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>“你们不懂，我有经验，按我说的来。”（结果流程走不通，全员骂街）&lt;/li>
+&lt;li>“先上线，细节后面再补。”（数据一塌糊涂，补到天荒地老）&lt;/li>
+&lt;li>“搞个系统很简单，一个月搞定。”（结果半年后还在填坑）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>更扎心的是，员工的反抗。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>仓库阿姨&lt;/strong>：以前手写单子，现在要扫码？太麻烦，不干！&lt;/li>
+&lt;li>&lt;strong>老销售&lt;/strong>：系统太死板，客户临时改个价，流程要走三天？那我自己记小本本。&lt;/li>
+&lt;li>&lt;strong>财务大姐&lt;/strong>：这系统算的库存跟我账上不一样，肯定是系统错了。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>怎么破？&lt;/strong>
+老板必须第一个当“系统代言人”。开个誓师大会，&lt;strong>明确告诉所有人：这不是选择题，是必答题。&lt;/strong> 同时，建立激励机制。谁用得好，奖励；谁抵触，谈话。别指望靠自觉，&lt;strong>人性经不起考验，但经得起激励。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3 id="坑3数据搬家把垃圾当宝贝">坑3：数据搬家，把垃圾当宝贝&lt;/h3>
+&lt;p>这是上线前夜的修罗场。&lt;/p>
+&lt;p>你要把旧系统或Excel里的几十万条数据，一条条核对、清洗、导入新系统。这工作，枯燥、繁琐、容易出错，而且&lt;strong>没人愿意干&lt;/strong>。&lt;/p>
+&lt;p>结果呢？很多公司图省事，直接“Ctrl C + Ctrl V”。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>物料编码&lt;/strong>：同一个零件，叫“螺丝M8”和“不锈钢螺丝8mm”，系统以为是两个东西。采购直接买重。&lt;/li>
+&lt;li>&lt;strong>BOM（物料清单）表&lt;/strong>：明明是10个零件，表格里只写了8个。生产到一半，缺料，停线。&lt;/li>
+&lt;li>&lt;strong>客户/供应商&lt;/strong>：名称不统一，地址乱写，电话号码少一位。系统一跑，对账对得你怀疑人生。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>血的教训：&lt;/strong>
+&lt;strong>数据清洗是最重要、最不能省的一步。&lt;/strong> 专门成立数据组，用2-3周时间，逐条核对。&lt;strong>宁缺毋滥，错一条数据，可能让整个系统瘫痪。&lt;/strong> 实在忙不过来，花点钱请专业的数据清洗团队，比你请人填坑便宜得多。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑4培训靠传帮带师傅也一头雾水">坑4：培训靠“传帮带”，师傅也一头雾水&lt;/h3>
+&lt;p>常见的画面是：顾问讲完课，发一本厚得像砖头的操作手册，然后就没影了。&lt;/p>
+&lt;p>大家只能靠“老带新”。但那个“老”师傅，自己也是刚摸到门，半懂不懂。结果就是，&lt;strong>一个错误被复制十遍，最后所有人都觉得自己没错，是系统有毛病。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>高手的培训是这样的：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分角色、分场景&lt;/strong>：别让采购去听仓库的课。只讲你最需要的，比如“如何创建采购订单”、“如何做收货”。&lt;/li>
+&lt;li>&lt;strong>用真业务练手&lt;/strong>：别在测试环境里瞎点。拿一笔真实的采购单，让学员在沙盘环境里从头到尾跑一遍。出错？正好，现场解决。&lt;/li>
+&lt;li>&lt;strong>建立“救火队”&lt;/strong>：上线头两周，安排顾问和内部骨干守在关键岗位旁，&lt;strong>手把手带，有问题1分钟响应。&lt;/strong> 过了这关，大家才真正学会走路。&lt;/li>
+&lt;/ul>
+&lt;p>记住，&lt;strong>培训不是走过场，是帮员工建立“肌肉记忆”&lt;/strong>。别省那点顾问驻场费。&lt;/p>
+&lt;hr>
+&lt;h3 id="坑5以为上线是终点结果是起点">坑5：以为上线是终点，结果是起点&lt;/h3>
+&lt;p>这是我见过最多的悲剧。&lt;/p>
+&lt;p>系统上线，大家松一口气，觉得“项目成功了”。然后？&lt;strong>没人管了。&lt;/strong> 系统越跑越慢，数据越来越乱，新业务需求没人响应。&lt;/p>
+&lt;p>半年后，大家又悄悄回到了Excel的世界。花了几百万，买了个“高级摆设”。&lt;/p>
+&lt;p>&lt;strong>真相是：上线只是开始。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>成立持续优化小组&lt;/strong>：IT和业务各出1-2人，专门负责日常运维、处理异常、收集需求。&lt;/li>
+&lt;li>&lt;strong>定期复盘&lt;/strong>：每月开一次会，看看系统里哪些流程“跑偏了”，哪些数据“长毛了”。&lt;strong>别等问题变大，才去救火。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>拥抱变化&lt;/strong>：业务在变，系统就得跟着变。别死守着一套流程不动，灵活调整才是王道。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最后送你一句话：ERP是一把刀，能切菜也能砍人。关键看用刀的人。&lt;/strong>&lt;/p>
+&lt;p>如果你正被ERP搞得焦头烂额，或者准备上马但心里没底，别慌。我整理了[《ERP系统实施避坑指南》]，里面有详细的操作清单和复盘模板。评论区留言“求指南”，我私发你。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>关注公众号「甲方乙方供应链」获取更多干货&lt;/strong>&lt;/p></description></item></channel></rss>

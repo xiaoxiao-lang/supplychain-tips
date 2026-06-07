@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>降本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC/</link><description>Recent content in 降本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商报价砍一半还有利润，你信不信？</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>我认识一个采购老哥，干了8年，降本考核年年第一。&lt;/p>
+&lt;p>他的秘诀不是会砍价。他跟我说了一句话：&lt;strong>你见过哪个供应商会报成本价？&lt;/strong>&lt;/p>
+&lt;p>真正的高手，不是谈判桌上有多狠，是进谈判室之前，已经知道对方成本大概是多少了。&lt;/p>
+&lt;h3 id="第一招拆bom从材料端反推">第一招：拆BOM，从材料端反推&lt;/h3>
+&lt;p>供应商报价100块，你怎么知道贵不贵？&lt;/p>
+&lt;p>打开BOM表，查原材料行情。铁多少钱一吨、铜多少钱一公斤、塑料粒子什么价，这些都是公开信息。把材料成本算出来，再加上合理的加工费、管理费用，供应商的底线你就摸到了。&lt;/p>
+&lt;p>我见过最夸张的案例，一个机加工件，供应商报价380，我朋友拆完BOM算出来材料加加工费不超过120。最后谈到155，对方还有得赚。&lt;/p>
+&lt;p>不是供应商黑，是你懒得算。&lt;/p>
+&lt;h3 id="第二招算tco别只看单价">第二招：算TCO，别只看单价&lt;/h3>
+&lt;p>采购成本不是发票上的那个数字。&lt;/p>
+&lt;p>一台设备报价便宜5万，但耗电量比竞品高了40%，三年电费多出8万。你买的时候觉得自己捡了便宜，用起来才知道被坑了。&lt;/p>
+&lt;p>&lt;strong>TCO（总拥有成本）= 采购价 + 运输 + 安装 + 培训 + 运维 + 能耗 + 配件 + 报废处理&lt;/strong>&lt;/p>
+&lt;p>只有算过TCO，你才知道哪家是真的便宜。&lt;/p>
+&lt;h3 id="第三招建成本模型不只比一家">第三招：建成本模型，不只比一家&lt;/h3>
+&lt;p>别拿着三家报价就比价。要建自己行业的成本数据库。&lt;/p>
+&lt;p>同一个品类，你跟3家供方打过交道，就能摸出一个大概的成本区间。跟5家打过，就能建出一个粗略的成本模型。跟10家打过，供应商的报价在你面前基本就是透明的。&lt;/p>
+&lt;p>有个做电子的采购经理，花了半年把PCB、连接器、线束、包材四大类成本模型建起来以后，供应商报价第一次就被他看穿了水分，降本率从5%直接跳到了18%。&lt;/p>
+&lt;h3 id="最狠的一招共享降本">最狠的一招：共享降本&lt;/h3>
+&lt;p>别一味压价。你压太狠，供应商要么偷工减料，要么找机会涨价找补回来。&lt;/p>
+&lt;p>聪明人会跟供应商说：我们一起把这个成本降下来，省下来的钱五五分。&lt;/p>
+&lt;p>你帮供应商优化工艺、改进包装、合并物流，降下来的成本实实在在。比你拍桌子砍价效果好一百倍，而且供应商还感激你。&lt;/p>
+&lt;hr>
+&lt;p>采购成本分析，本质上是用数据替代感觉。你的成本模型越精确，你在谈判桌上的底气就越足。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>月薪3K和30K的采购，差在处理供应商关系的这3招</title><link>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relation-281/</guid><description>&lt;p>采购这行有个奇怪的现象：干了三年的和干了十年的人，做的事情差不多——询价、比价、下单、催货。&lt;/p>
+&lt;p>但他们的待遇差了一个零。&lt;/p>
+&lt;p>区别在哪？在于前者把供应商当工具，后者把供应商当资源。工具用完就扔，资源越养越值钱。&lt;/p>
+&lt;h3 id="供应商不是用来压的是用来养的">供应商不是用来压的，是用来养的&lt;/h3>
+&lt;p>供应商被压得太惨，会怎么报复你？不是直接说不做，而是——交期悄悄延迟两天，质量&amp;quot;刚好在合格线&amp;quot;，遇到急单优先排别人，你家永远排最后。&lt;/p>
+&lt;p>你说他没违约。但他的&amp;quot;刚好及格&amp;quot;让你的产线紧张得不行。&lt;/p>
+&lt;p>反过来，你是怎么对供应商的？砍价软件一键三连：比价、压价、找替代。你的人均采购额确实降了，但隐性成本却在狂涨：交期不靠谱导致的紧急采购价、质量不稳造成的返工、不配合带来的项目延期。&lt;/p>
+&lt;p>真正的高手不是在砍供应商，是在和供应商一起琢磨怎么把综合成本降下来。&lt;/p>
+&lt;h3 id="四类供应商四种打法">四类供应商，四种打法&lt;/h3>
+&lt;p>把你的供应商分成四类，画一个2×2矩阵：&lt;/p>
+&lt;p>&lt;strong>战略型：量大、关键、不可替代。&lt;/strong> 这是你的命脉。待遇应当是长期框架协议、信息共享、定期高层互访。别在这些供应商身上省芝麻，丢了西瓜。&lt;/p>
+&lt;p>&lt;strong>杠杆型：量大、标准品、多货源。&lt;/strong> 这类供应商你可以充分竞争，定期比价，保持2-3家同时供货。但别把人逼到绝路——留合理的利润，人家才愿意在你旺季加班。&lt;/p>
+&lt;p>&lt;strong>瓶颈型：量小、难采购但必须用。&lt;/strong> 供应商一只手捏着你的产量。对待他们要保证长期合作承诺、准时付款、经常沟通。他们的优先级就是你的安全感。&lt;/p>
+&lt;p>&lt;strong>一般型：量小、替代品多。&lt;/strong> 这类可以走流程化管理，定期比价，谁便宜就谁做。但这种也可以是一个人才池——哪天你缺供应商，可能就要从这里捞人。&lt;/p>
+&lt;p>你的时间应该优先花在战略型和瓶颈型上面，而不是每天盯着一般型的报价差。&lt;/p>
+&lt;h3 id="三个月一次供应商复盘">三个月一次供应商复盘&lt;/h3>
+&lt;p>大部分采购的供应商管理是这样：年初签合同，然后一整年不管，直到出问题了临时开会骂人。&lt;/p>
+&lt;p>我建议你每个季度拉一次供应商复盘会，就问你三个问题：&lt;/p>
+&lt;p>&lt;strong>1. 准交率变了吗？&lt;/strong> 如果从98%掉到91%，不管价格多便宜，回去找原因。趋势比绝对值重要。&lt;/p>
+&lt;p>&lt;strong>2. 质量批退率稳定吗？&lt;/strong> 稳定在万分之几是正常的，连续三个月上涨就是警报。&lt;/p>
+&lt;p>&lt;strong>3. 有没有新发生的&amp;quot;卡脖子&amp;quot;现象？&lt;/strong> 你只有一个货源，他涨价你只能接受。增加备份货源要提前布局，别等断供才开始找。&lt;/p>
+&lt;p>把这三个数据做成供应商档案，存档。半年后你会发现——对哪些供应商该信任、哪些该留后手，心里门清。&lt;/p>
+&lt;hr>
+&lt;p>月薪3K和30K的采购，差的不是报价技巧，是在供应商关系上有没有走心。走心的意思是：你拿出做朋友的心态，但始终保持职业的判断力。该严厉时严厉，该给人留空间时留空间。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

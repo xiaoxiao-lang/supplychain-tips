@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商评估 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/</link><description>Recent content in 供应商评估 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应商评估 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/</link><description>Recent content in 供应商评估 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估表填了三年，全是废纸</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/</guid><description>&lt;p>我问你一个问题：你们公司最近一次供应商评估，结果是什么？&lt;/p>
+&lt;p>大概率是全合格。最多有一两家走个过场被&amp;quot;降级&amp;quot;，过两个月又调回来了。&lt;/p>
+&lt;p>这不是评估，这是演戏。演给审计看的，演给管理层看的，连供应商都知道你们在演戏。&lt;/p>
+&lt;h3 id="为什么你的供应商评估是废纸">为什么你的供应商评估是废纸&lt;/h3>
+&lt;p>因为你的评估维度错了。&lt;/p>
+&lt;p>大部分公司的供应商评估是：质量 + 交期 + 价格 + 服务，各给个权重，然后打分。分高的优秀，分低的整改。&lt;/p>
+&lt;p>问题在哪？&lt;strong>你把所有供应商用同一把尺子量。&lt;/strong>&lt;/p>
+&lt;p>A类核心供应商（占了60%采购额的那几个）和C类非关键供应商（一年就买几万块的标准件），能用同一个评估体系吗？&lt;/p>
+&lt;p>C类供应商交期再烂，影响你产线吗？不影响。A类供应商质量波动1%，你整条线可能就废了。&lt;/p>
+&lt;h3 id="供应商分类比打分重要100倍">供应商分类，比打分重要100倍&lt;/h3>
+&lt;p>供应商管理的第一步是分类，不是评估。我的分类方法是：&lt;/p>
+&lt;p>&lt;strong>战略供应商&lt;/strong>：占你采购额大、替代成本高、对核心业务有直接影响。这种供方不是管，是&amp;quot;养&amp;quot;。你要派人驻厂、要做联合改善、要共享需求预测。&lt;/p>
+&lt;p>&lt;strong>杠杆供应商&lt;/strong>：采购额大但市场上替代多。这种就是充分竞争，谁的性价比高用谁。一视同仁地压价，不用心疼。&lt;/p>
+&lt;p>&lt;strong>瓶颈供应商&lt;/strong>：采购额不大但独家供应。这种是最大的风险。你的核心任务不是管理它，是找替代。哪怕暂时替代不了，也要时刻保持&amp;quot;随时能切&amp;quot;的技术储备。&lt;/p>
+&lt;p>&lt;strong>一般供应商&lt;/strong>：小额标准件、市场供应充足。这种不用花太多精力，走个电子竞价就完事了。&lt;/p>
+&lt;h3 id="评估要跟业务动作挂钩">评估要跟业务动作挂钩&lt;/h3>
+&lt;p>评估结果出来，不能只是&amp;quot;及格/不及格&amp;quot;。&lt;/p>
+&lt;p>战略供应商得分偏低 → 派驻厂工程师、开QBR（季度商务评审会）、定改善计划。
+杠杆供应商连续下降 → 直接降份额、引入竞争者。
+瓶颈供应商不配合 → 加速替代开发、暂时维持关系但要亮底牌。&lt;/p>
+&lt;p>每一个评估结果，都要对应一个具体的动作。没有动作的评估，就是一张废纸。&lt;/p>
+&lt;hr>
+&lt;p>供应商评估不是绩效考核，是供应商关系管理。你把它当考核做，供应商就把它当考试过。你把它当关系管理做，供应商才会认真对待。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商评估踩了3个坑，我被坑了300万</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/</guid><description>&lt;p>上周，前同事老张约我喝酒。&lt;/p>
 &lt;p>他刚被老板骂了一顿，差点卷铺盖走人——新换的“优质供应商”货期拖了3个月，品质一塌糊涂，客户直接取消订单。&lt;/p>
 &lt;p>他委屈得要死：“我明明用了最严的评估表，价格低、交期快、资质齐全，怎么还能出这事？”&lt;/p>
 &lt;p>我叹了口气：“你踩的坑，我3年前也踩过，那次公司亏了300万。”&lt;/p>

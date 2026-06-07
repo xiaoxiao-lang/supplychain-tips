@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>月薪5千和5万的供应链人，差在“黑箱”破了没</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</guid><description>&lt;p>&lt;strong>兄弟，你还在“盲人摸象”吗？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链黑箱让你每年亏掉15%利润，你敢信？</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>说个扎心的事：90%的中型制造企业，老板不知道自己的货在哪、什么时候到、为什么晚了。&lt;/p>
+&lt;p>问采购，采购说供应商没发货。问物流，物流说路上堵。问仓库，仓库说系统没更新。&lt;/p>
+&lt;p>你仔细想想，每个环节都在说谎，但你不是柯南，你查不过来。&lt;/p>
+&lt;p>这就是供应链黑箱——每一个你看不见的环节，都在偷偷吃掉你的利润。&lt;/p>
+&lt;h3 id="供应链黑箱的3个成本漏洞">供应链黑箱的3个成本漏洞&lt;/h3>
+&lt;p>&lt;strong>第一个：信息延迟&lt;/strong>&lt;/p>
+&lt;p>订单下了三天，采购才手动录入ERP。供应商发货了，物流没更新。到货了，仓库忙了两天才入系统。&lt;/p>
+&lt;p>这个延迟，至少让安全库存多备了20%。你多压的那20%库存，就是你为自己&amp;quot;看不见&amp;quot;付的税。&lt;/p>
+&lt;p>&lt;strong>第二个：异常不可见&lt;/strong>&lt;/p>
+&lt;p>供应商换人了、工厂停电了、路上堵车了——这些事每时每刻都在发生，但你是最后一个知道的。&lt;/p>
+&lt;p>等到客户催货你才知道晚了，这时候只能用加急/空运/赔钱来解决。一票加急的成本，够上一套可视化系统了。&lt;/p>
+&lt;p>&lt;strong>第三个：决策靠拍脑袋&lt;/strong>&lt;/p>
+&lt;p>没有实时数据，你做的每一个决策——备多少货、选哪家物流、定什么交期——靠的都是经验加运气。&lt;/p>
+&lt;p>经验会过时，运气会用完。&lt;/p>
+&lt;h3 id="3步把黑箱变白箱">3步把黑箱变白箱&lt;/h3>
+&lt;p>别一上来就想搞几百万的数字孪生。供应链可视化不是买大屏，是建数据链路。&lt;/p>
+&lt;p>&lt;strong>第1步：打通系统间的数据&lt;/strong>&lt;/p>
+&lt;p>你的ERP、WMS、TMS、SRM，装了一大堆系统，但互相不说话。第一步，选一个最痛的环节，把两个系统的数据连起来。&lt;/p>
+&lt;p>比如先打通采购和库存：采购订单下了，库存自动预占。这一步做好了，至少省掉3个人天/周的对账工作。&lt;/p>
+&lt;p>&lt;strong>第2步：建关键节点监控&lt;/strong>&lt;/p>
+&lt;p>别什么都监控，盯住这3个点就够了：&lt;/p>
+&lt;ul>
+&lt;li>订单到发货的时间差（供应商效率）&lt;/li>
+&lt;li>在途节点的异常触发（晚于ETA 2小时的主动预警）&lt;/li>
+&lt;li>到货到上架的间隔（仓库吞吐瓶颈）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第3步：可视化呈现，不是做报表&lt;/strong>&lt;/p>
+&lt;p>把数据变成一眼能看懂的图，而不是发给老板的Excel。核心是异常高亮，正常的数据没必要盯着看。&lt;/p>
+&lt;hr>
+&lt;p>供应链可视化不是为了好看，是为了让你比别人快一步发现问题。在供应链这个行当里，快一步，就是钱。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>月薪5千和5万的供应链人，差在“黑箱”破了没</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visibility/</guid><description>&lt;p>&lt;strong>兄弟，你还在“盲人摸象”吗？&lt;/strong>&lt;/p>
 &lt;p>凌晨2点，你被电话吵醒。&lt;/p>
 &lt;p>“那批货卡在海关了，客户说再不到就取消订单，Q3的KPI要完蛋。”&lt;/p>
 &lt;p>你翻身打开系统，界面一片空白。你只知道货“在路上”，但具体在哪个码头、哪个柜子、哪个环节卡住了？不知道。&lt;/p>

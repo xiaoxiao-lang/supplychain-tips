@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>干了10年采购才敢说：80%的库存都是废的</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</guid><description>&lt;p>上周去一个朋友的仓库，差点没把我送走。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存周转率翻倍，我只做了一件事</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</guid><description>&lt;p>库存压了300万那年，财务天天找我喝茶。老板也开始频繁调库存报表，我知道他想要的不是数据，是一个解释：为什么钱全压在货上了？&lt;/p>
+&lt;p>我查了一遍又一遍：入库及时，出库准点，盘点差异不大。那问题到底在哪？直到一个晚上复盘，我发现所有SKU里，有30%的货过去三个月根本没动过，有15%的货是去年备的，供应商还按老节奏继续送。&lt;/p>
+&lt;p>周转率差，根本不是你仓库管得不好，是源头没卡住。&lt;/p>
+&lt;h3 id="你盯着出库却忘了入库也是钱">你盯着出库，却忘了入库也是钱&lt;/h3>
+&lt;p>大多数人看周转率只看仓库端：发得快不快、拣得准不准。但周转率的分子是出库量，分母是平均库存。&lt;/p>
+&lt;p>平均库存谁在推高？是采购端。批量折扣一来，一口气进半年的量；供应商拍胸脯说&amp;quot;先备着，用不完退&amp;quot;，结果三个月后人家反悔。你的仓库就这样被塞成了堆栈。&lt;/p>
+&lt;p>我做了一件事：&lt;strong>把采购订单和库存周转率挂钩。&lt;/strong>&lt;/p>
+&lt;p>简单说：周转天数超过60天的货，采购端自动锁死，不得补货。想补？写专项申请，说清楚理由和消化计划。&lt;/p>
+&lt;p>刚开始采购部炸了锅，说耽误生产备货。结果两个月后，平均库存下降了24%，仓库利用率高了，连带仓租都谈下来5个点。&lt;/p>
+&lt;h3 id="周转不是平均分是找出血栓">周转不是平均分，是找出血栓&lt;/h3>
+&lt;p>你把一年销售额除以平均库存，得一个漂亮的年度周转率挂墙上——骗谁呢？&lt;/p>
+&lt;p>真正管用的做法是按SKU拆。&lt;/p>
+&lt;p>拆开了吓死人：畅销品周转只有15天，呆滞品却有210天。你拿两个一平均，全国排名看着还行。但呆滞品在烧你的仓租、你的现金流、你的管理精力。&lt;/p>
+&lt;p>拿ABC分类法对着库存跑一遍：C类货，周转超90天的，直接标红。能退的退，能折价出的折价出，能报废的走报废流程。果断清，别心软。&lt;/p>
+&lt;h3 id="预测不是算命但没预测就是等死">预测不是算命，但没预测就是等死&lt;/h3>
+&lt;p>补货靠感觉——某个品类上月卖得好，这个月就猛补。结果旺季过了，货还堆着。你们公司发生过几次？&lt;/p>
+&lt;p>需求的波动不是随机漫步，是你没去挖数据。去年同期的销量、竞品的上架节奏、季节性的规律——这些数据你的ERP系统里全有，只是没人用。&lt;/p>
+&lt;p>拉一张表，按品类、按月份跑近两年的出货趋势。你会发现：某些品类每年5月必涨，某些在11月之后直接腰斩。补货节奏如果不跟着这张表走，就是在拿现金流赌博。&lt;/p>
+&lt;h3 id="别拿供应商当挡箭牌">别拿供应商当挡箭牌&lt;/h3>
+&lt;p>还有一种情况：供应商每次来都说&amp;quot;这批货我给你优惠价，你多备点&amp;quot;，你一算单价便宜了挺多，大手一挥进了三个月的量。结果两个月后，同样的货市场价跌了15%，你多进的那批反而亏了。&lt;/p>
+&lt;p>这不是供应商坑你，是你没在库存持有成本里算违约金、资金占用费和价格波动风险。&lt;/p>
+&lt;p>周转率的对手不是别人，是你自己的惯性思维。下次供应商给你优惠价，先算一笔完整的账：这批货你存60天，利息成本多少？仓租加多少？如果价格下行，风险多大？&lt;/p>
+&lt;hr>
+&lt;p>把库存周转率翻倍，我做的就一件事：把采购锁上。你可能会说这不现实——但现实是，继续让采购端无约束地补货，你的周转率永远好看不了。&lt;/p>
+&lt;p>拉着财务、拉着采购、拉着老板一起坐下来。把周转天数、呆滞库存金额、仓租成本这三张表拍桌子上。他们会懂的，因为钱不是你和仓库的事，是所有人的事。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>干了10年采购才敢说：80%的库存都是废的</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-guide/</guid><description>&lt;p>上周去一个朋友的仓库，差点没把我送走。&lt;/p>
 &lt;p>满屋子货，堆得脚都伸不进去。他愁眉苦脸地跟我说：“哥，我库存压了500万，但客户天天催的货，我一件都发不出来。”&lt;/p>
 &lt;p>我看了眼他的库存报表，乐了。&lt;/p>
 &lt;p>&lt;strong>A类货（高价值高销量）只占了30%的库存，B类货勉强能卖，剩下的C类货——那些一年卖不了几件、占着仓位还压着钱的玩意儿，整整堆了50%的库存。&lt;/strong>&lt;/p>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E7%AE%A1%E7%90%86/</link><description>Recent content in 物流管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运了一车危险品，差点把公司干没了</title><link>https://supplychain-tips.pages.dev/posts/dangerous-goods-lessons/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/dangerous-goods-lessons/</guid><description>&lt;p>2022年，有个同行公司出了件事。&lt;/p>
+&lt;p>他们发了一批锂电池，按普通货物申报，走了航空件。结果在机场安检被查到，罚款&lt;strong>47万&lt;/strong>，法人代表被约谈，三个月内所有出口渠道被暂停。&lt;/p>
+&lt;p>那批货值不到20万。罚款是货值的两倍多。&lt;/p>
+&lt;p>老板后来跟我说：&amp;ldquo;我从来不知道电池算危险品。供应商说这是普通货，我就信了。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>危险品运输最可怕的，不是管得严，是你根本不知道自己在运危险品。&lt;/strong>&lt;/p>
+&lt;h3 id="第一个致命问题你根本不知道什么是危险品">第一个致命问题：你根本不知道什么是危险品&lt;/h3>
+&lt;p>很多人以为危险品就是炸药、剧毒化学品、放射性物质。跟自己没关系。&lt;/p>
+&lt;p>但实际上，&lt;strong>日常供应链中到处是危险品&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>锂电池（包括充电宝、电动工具电池、内置锂电池的设备）&lt;/li>
+&lt;li>香水、指甲油、酒精洗手液（易燃液体）&lt;/li>
+&lt;li>制冷剂、气雾罐（压缩气体）&lt;/li>
+&lt;li>磁铁（航空运输有磁场干扰限制）&lt;/li>
+&lt;li>干冰（制冷剂，属于危险品）&lt;/li>
+&lt;li>某些食品添加剂、农药、涂料&lt;/li>
+&lt;/ul>
+&lt;p>我见过一家化妆品公司，每年出口几百万的香水，从来不知道香水算危险品。直到有一次被海关扣了货。&lt;/p>
+&lt;p>&lt;strong>判断标准很简单&lt;/strong>：去查《危险货物品名表》（GB 12268）或联合国UN编号。不确定的，找第三方检测机构出一个&lt;strong>货物运输条件鉴定书&lt;/strong>。&lt;/p>
+&lt;p>这个鉴定书两三千块钱，比起违规罚款，那就是道保险。&lt;/p>
+&lt;h3 id="第二个坑包装认证不是贴个标签那么简单">第二个坑：包装认证不是贴个标签那么简单&lt;/h3>
+&lt;p>普通货物的包装你爱怎么包怎么包。危险品不行。&lt;/p>
+&lt;p>危险品包装需要&lt;strong>UN认证&lt;/strong>——包装上印有UN标志和代码的那种。用普通纸箱发危险品，查到就是违规。&lt;/p>
+&lt;p>而且不同危险品等级，对包装的要求完全不同：&lt;/p>
+&lt;ul>
+&lt;li>一级易燃液体：必须用UN认证铁桶或专用塑料桶&lt;/li>
+&lt;li>锂电池：必须通过UN38.3测试，使用短路防护包装&lt;/li>
+&lt;li>腐蚀品：包装必须抗腐蚀，且有防漏措施&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>别自己瞎包&lt;/strong>。找有资质的危险品包装供应商，让他们出包装合格证明。&lt;/p>
+&lt;h3 id="第三个坑申报文件少一个字都能卡死你">第三个坑：申报文件少一个字都能卡死你&lt;/h3>
+&lt;p>危险品运输的文件要求比普通货物严格得多。缺一张纸，货就出不去。&lt;/p>
+&lt;p>基础文件清单：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MSDS（化学品安全技术说明书）&lt;/strong>：16项内容，缺一不可，且必须是中文版&lt;/li>
+&lt;li>&lt;strong>危险品运输条件鉴定书&lt;/strong>：第三方机构出具，有效期通常一年&lt;/li>
+&lt;li>&lt;strong>危险品申报单&lt;/strong>：向承运人申报，内容必须跟MSDS一致&lt;/li>
+&lt;li>&lt;strong>包装证明&lt;/strong>：证明包装符合UN标准&lt;/li>
+&lt;/ul>
+&lt;p>最容易出错的地方：&lt;/p>
+&lt;ul>
+&lt;li>MSDS的UN编号跟实际货物不一致&lt;/li>
+&lt;li>鉴定书过期了还在用&lt;/li>
+&lt;li>申报单填的件数跟实际不一致&lt;/li>
+&lt;li>中文MSDS是机器翻译的，专业术语翻错了&lt;/li>
+&lt;/ul>
+&lt;p>海关和安检不跟你讲情理。信息不符=违规=扣货+罚款。&lt;/p>
+&lt;h3 id="第四个坑不同运输方式的规则完全不一样">第四个坑：不同运输方式的规则完全不一样&lt;/h3>
+&lt;p>你以为拿到一个&amp;quot;危险品可以做&amp;quot;的结论，就什么都能走了？&lt;/p>
+&lt;p>海运、空运、陆运，对危险品的限制各不相同：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>空运最严&lt;/strong>：很多在海运中可接受的危险品，空运是完全禁止的。尤其是锂电池，空运有严格的电量限制&lt;/li>
+&lt;li>&lt;strong>海运相对宽松&lt;/strong>：大部分危险品可以通过集装箱海运，但对拼箱有限制——某些危险品不能跟食品同箱&lt;/li>
+&lt;li>&lt;strong>陆运看各省规定&lt;/strong>：危险品公路运输需要专门的车辆和资质。跨省运输，有些省份对危化品车辆有夜间限行&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>必须逐个确认运输方式的可行性，别用一个结论套所有场景。&lt;/strong>&lt;/p>
+&lt;h3 id="第五个坑出了事故你的保险一分都不赔">第五个坑：出了事故，你的保险一分都不赔&lt;/h3>
+&lt;p>普通货物险不覆盖危险品。如果你的货物按普通货投保，出事了保险公司直接拒赔。&lt;/p>
+&lt;p>危险品运输必须买&lt;strong>专门的危险品运输险&lt;/strong>，保费通常是普通货运险的2-5倍。&lt;/p>
+&lt;p>但千万不要省这笔钱。一次泄漏事故的处理费用可能是运费的50倍。&lt;/p>
+&lt;p>另外，确认你的承运商有危险品运输资质。如果用无资质的车辆运危险品，出了事你的责任比承运商还大。&lt;/p>
+&lt;hr>
+&lt;p>危险品运输是供应链里不能有&amp;quot;差不多&amp;quot;的环节。&lt;/p>
+&lt;p>花两千块做个鉴定、多花五百块买UN认证包装、多填几张申报单——这些不是成本，是最便宜的保险。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

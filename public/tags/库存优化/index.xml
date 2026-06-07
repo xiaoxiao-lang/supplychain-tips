@@ -1,4 +1,255 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/</link><description>Recent content in 库存优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万才懂，WMS真能救命</title><link>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</guid><description>&lt;p>&lt;strong>兄弟，你仓库里那堆货，是不是快把你压死了？&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/</link><description>Recent content in 库存优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-management-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-625/</guid><description>&lt;p>你走进仓库，看到货架上密密麻麻的SKU，有没有一种莫名的安全感？&lt;/p>
+&lt;p>&amp;ldquo;我们的产品种类多，客户选择多，这是竞争力。&amp;quot;——销售是这么跟你说的。&lt;/p>
+&lt;p>但财务拿成本数据给你看的时候，你就不这么想了。&lt;/p>
+&lt;p>&lt;strong>每一个SKU，都是压在供应链身上的三座大山：库存成本、仓储成本、管理成本。&lt;/strong>&lt;/p>
+&lt;p>SKU不是越多越好。SKU膨胀，是仓库的慢性毒药。&lt;/p>
+&lt;h2 id="sku膨胀的根源没人敢砍">SKU膨胀的根源：没人敢砍&lt;/h2>
+&lt;p>SKU为什么越涨越多？根本原因是&lt;strong>没有人真正对SKU的生命周期负责&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>销售端&lt;/strong>：&amp;ldquo;多一个SKU就多一份生意机会。&amp;ldquo;他们只管上新，不管清退。每个新品上市，销售都能给出&amp;quot;这个有潜力&amp;quot;的理由。&lt;/p>
+&lt;p>&lt;strong>采购端&lt;/strong>：&amp;ldquo;多备几个规格，以防万一。&amp;ldquo;采购图省事，一次多订几个SKU，反正不用自己掏钱压库存。&lt;/p>
+&lt;p>&lt;strong>管理层&lt;/strong>：&amp;ldquo;先留着吧，万一以后有用呢？&amp;ldquo;没有人愿意做&amp;quot;砍SKU&amp;quot;这个坏人，因为砍掉容易，万一哪天真有订单呢？&lt;/p>
+&lt;p>结果就是：&lt;strong>SKU只增不减，仓库越来越像博物馆。&lt;/strong>&lt;/p>
+&lt;p>我见过最夸张的一家公司，仓库里有&lt;strong>37%的SKU连续90天零销量&lt;/strong>，但这些SKU占用了&lt;strong>28%的仓储面积和18%的库存资金&lt;/strong>。&lt;/p>
+&lt;p>这不是仓库，这是坟墓。&lt;/p>
+&lt;h2 id="abc-xyz分类双维交叉才是真分类">ABC-XYZ分类：双维交叉才是真分类&lt;/h2>
+&lt;p>砍SKU不能拍脑袋。你需要一套科学的分类方法。&lt;/p>
+&lt;p>市面上讲ABC分类的文章很多，但&lt;strong>只用ABC是不够的&lt;/strong>。ABC告诉你&amp;quot;谁贡献了大部分销售额&amp;rdquo;，但没告诉你&amp;quot;谁的需求是稳定的&amp;rdquo;。&lt;/p>
+&lt;p>所以要用&lt;strong>ABC-XYZ双维分类法&lt;/strong>。&lt;/p>
+&lt;h3 id="abc分类看贡献度">ABC分类：看贡献度&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>：贡献80%销售额的20%SKU（核心品）&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>：贡献15%销售额的30%SKU（中间品）&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>：贡献5%销售额的50%SKU（长尾品）&lt;/li>
+&lt;/ul>
+&lt;h3 id="xyz分类看需求波动">XYZ分类：看需求波动&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>X类&lt;/strong>：需求稳定，变异系数（标准差/均值）&amp;lt; 0.5&lt;/li>
+&lt;li>&lt;strong>Y类&lt;/strong>：需求有波动，变异系数0.5-1.0&lt;/li>
+&lt;li>&lt;strong>Z类&lt;/strong>：需求极不稳定，变异系数&amp;gt;1.0（甚至为零，偶尔爆单）&lt;/li>
+&lt;/ul>
+&lt;h3 id="双维交叉9宫格战略矩阵">双维交叉：9宫格战略矩阵&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>X（稳定）&lt;/th>
+ &lt;th>Y（波动）&lt;/th>
+ &lt;th>Z（极不稳定）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>A（高贡献）&lt;/strong>&lt;/td>
+ &lt;td>核心稳定品，重点保障库存&lt;/td>
+ &lt;td>核心波动品，需动态安全库存&lt;/td>
+ &lt;td>核心爆品，按需生产/快反补货&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>B（中贡献）&lt;/strong>&lt;/td>
+ &lt;td>稳定长尾，可适当降库存&lt;/td>
+ &lt;td>波动长尾，谨慎备货&lt;/td>
+ &lt;td>问题长尾，考虑清退&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>C（低贡献）&lt;/strong>&lt;/td>
+ &lt;td>低贡献稳定品，评估存在必要性&lt;/td>
+ &lt;td>低贡献波动品，优先清退&lt;/td>
+ &lt;td>&lt;strong>死SKU，立即清退&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>CX、CY、CZ三个格子里的SKU，是优先清理对象。&lt;/strong>&lt;/p>
+&lt;h2 id="死sku的定义和清理标准">死SKU的定义和清理标准&lt;/h2>
+&lt;p>什么叫&amp;quot;死SKU&amp;rdquo;？不同行业标准不一样，但有个通用框架：&lt;/p>
+&lt;h3 id="定量标准满足任意一条即可判定为死sku">定量标准（满足任意一条即可判定为&amp;quot;死SKU&amp;rdquo;）&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>连续90天零销量&lt;/strong>（快消品）/ 连续180天零销量（工业品）&lt;/li>
+&lt;li>&lt;strong>过去12个月贡献率&amp;lt;1%&lt;/strong>（即该SKU的销售额占总销售额不到1%）&lt;/li>
+&lt;li>&lt;strong>库存周转率&amp;lt;1&lt;/strong>（一年卖不出一拨）&lt;/li>
+&lt;li>&lt;strong>毛利率为负&lt;/strong>（卖一单亏一单）&lt;/li>
+&lt;/ol>
+&lt;h3 id="定性标准需要人工判断">定性标准（需要人工判断）&lt;/h3>
+&lt;ol>
+&lt;li>产品已停产，只有零星维修需求&lt;/li>
+&lt;li>客户定制化产品，客户已流失&lt;/li>
+&lt;li>尝鲜型SKU，上市6个月销量未达预期&lt;/li>
+&lt;/ol>
+&lt;h3 id="清理流程">清理流程&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>预警&lt;/strong>：系统自动标记符合&amp;quot;死SKU&amp;quot;标准的品，生成清退清单&lt;/li>
+&lt;li>&lt;strong>会审&lt;/strong>：销售、产品、供应链三方会审，确认是否可以清退（防止误杀）&lt;/li>
+&lt;li>&lt;strong>处理&lt;/strong>：清退决策确定后，30天内完成库存清理（促销、转售、报废）&lt;/li>
+&lt;li>&lt;strong>归档&lt;/strong>：SKU状态改为&amp;quot;停用&amp;rdquo;，系统保留历史数据但不参与补货计划&lt;/li>
+&lt;/ol>
+&lt;h2 id="真实案例从2000砍到600库存周转率翻倍">真实案例：从2000砍到600，库存周转率翻倍&lt;/h2>
+&lt;p>2024年初，我帮一家做家居用品的电商公司做供应链诊断。&lt;/p>
+&lt;p>&lt;strong>诊断结果让人震惊：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>活跃SKU：&lt;strong>2037个&lt;/strong>&lt;/li>
+&lt;li>其中连续90天零销量的：&lt;strong>768个（37.7%）&lt;/strong>&lt;/li>
+&lt;li>库存总金额：&lt;strong>4200万&lt;/strong>&lt;/li>
+&lt;li>库存周转率：&lt;strong>2.1次/年&lt;/strong>（行业平均4次）&lt;/li>
+&lt;/ul>
+&lt;p>我给他们做了一套SKU精简方案：&lt;/p>
+&lt;h3 id="第一步abc-xyz分类">第一步：ABC-XYZ分类&lt;/h3>
+&lt;p>用过去12个月销售数据，把所有SKU打上ABC-XYZ标签。&lt;/p></description></item><item><title>需求预测准不准，决定你是吃肉还是喝风</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-834/</guid><description>&lt;p>需求预测，供应链圈子里最玄学的一个词。&lt;/p>
+&lt;p>你对老板说&amp;quot;下个月预测出货2000件&amp;quot;，老板把预算全按这个数排了。结果月底只出了900件——库存堆满，老板说&amp;quot;你怎么预测的&amp;quot;。下个月你说&amp;quot;保守点，1000件&amp;quot;，结果来了个大单——缺货，销售堵你门口。&lt;/p>
+&lt;p>预测真这么难吗？难。但很多人的预测不准，不是因为缺乏预测能力，是因为用错了方法。&lt;/p>
+&lt;h3 id="第一条腿历史不是用来抄的是用来找规律的">第一条腿：历史不是用来抄的，是用来找规律的&lt;/h3>
+&lt;p>把去年同期的数据拉出来跑个平均，再加个增长率就报给老板——这叫算命，不叫预测。&lt;/p>
+&lt;p>真正有用的历史分析，是拆成三个维度看：&lt;/p>
+&lt;p>&lt;strong>趋势&lt;/strong>：这两年销量在往上走还是往下滑？这个品类的生命周期到了哪个阶段？&lt;/p>
+&lt;p>&lt;strong>周期&lt;/strong>：哪几个月是波峰，哪几个月是谷底？和促销、假期、气候有没有对应关系？&lt;/p>
+&lt;p>&lt;strong>异常&lt;/strong>：去年3月那波暴涨是因为疫情囤货还是竞品断供？这个因素下个月还会再来吗？&lt;/p>
+&lt;p>把这三个维度拆开，你才知道去年的数字里哪些是规律、哪些是噪音。&lt;/p>
+&lt;p>实操上最简单的方法：拿Excel拉一条近24个月的趋势线，标出每月销量和环比变化。凡是环比跳变超过30%的月度数据，旁边标注原因。半年后再看——你对自己品类的波动规律会清晰很多。&lt;/p>
+&lt;h3 id="第二条腿别只看自己的数据市场和竞品才是风向标">第二条腿：别只看自己的数据，市场和竞品才是风向标&lt;/h3>
+&lt;p>一个销售经理跟我说过一句扎心的话：&amp;ldquo;我不是预测不准，是我们的客户自己也搞不清楚下个月要多少。&amp;rdquo;&lt;/p>
+&lt;p>但你有没有想过——虽然单个客户的需求波动大，但一群客户聚合起来就相对稳定了？你的预测单位不应该是&amp;quot;老板的直觉&amp;quot;，而是把数据拆到品类、拆到渠道、拆到区域。&lt;/p>
+&lt;p>更关键的是看外部信号：&lt;/p>
+&lt;ul>
+&lt;li>竞品上个月有没有上新品？他们的促销力度有没有加大？&lt;/li>
+&lt;li>上下游的排产数据有没有变化？&lt;/li>
+&lt;li>终端零售的动销率有在掉吗？&lt;/li>
+&lt;/ul>
+&lt;p>这些信号都比你的内部数据更早反映需求的转折。你不需要做独立的市场研究，保持和销售部、市场部每周15分钟的碰头就够了。&lt;/p>
+&lt;h3 id="第三条腿永远留个安全垫但不是越厚越好">第三条腿：永远留个安全垫，但不是越厚越好&lt;/h3>
+&lt;p>有人一说预测加安全库存就直接加60%，结果库存成本比物资本身都贵。有人胆子大，不加安全库存——一次断货就赔掉半年利润。&lt;/p>
+&lt;p>安全库存不是一个固定比例，是动态计算的：&lt;/p>
+&lt;p>安全库存 = 日均销量 × 补货周期 × 波动系数&lt;/p>
+&lt;p>关键是波动系数。拿近6个月的实际销量算标准差，波动大的品类系数调高，稳定品类系数压低。不是一刀切。&lt;/p>
+&lt;p>我知道你们公司可能没这么多数据，那先做一个最简版：把品类分成ABC三类。A类畅销品波动系数1.5，B类常规品1.2，C类低频品看情况，低于安全水位不补。&lt;/p>
+&lt;p>有人说&amp;quot;这不精确&amp;quot;——但先做到这一步，已经比凭感觉拍数靠谱十倍。&lt;/p>
+&lt;hr>
+&lt;p>预测永远不可能100%准确，但把准确率从50%提到80%，就是真金白银的库存释放和缺货避免。&lt;/p>
+&lt;p>别等到又压了500万货或者又断货被投诉再想起预测。就从今天起，把上面三条腿跑起来。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>库存压了500万才懂，MRP是个坑？</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+&lt;p>我有个朋友，去年公司上线了一套牛逼哄哄的ERP，MRP模块吹得天花乱坠，老板说：“上了这玩意儿，库存周转率翻倍！”结果呢？半年后，仓库堆了500万的呆滞料，采购天天被催单，生产线上断料比KPI还准时。他找我喝酒，红着眼说：“这MRP是不是个坑？”&lt;/p>
+&lt;p>我笑了，不是MRP坑，是你不会用。&lt;/p>
+&lt;p>今天不扯定义，不念教科书。咱们用群聊的风格，聊5个MRP翻车现场。你中招几个？&lt;/p>
+&lt;h3 id="1-数据不准mrp就是个瞎子">1. 数据不准，MRP就是个瞎子&lt;/h3>
+&lt;p>MRP的底层逻辑是什么？&lt;strong>数据驱动&lt;/strong>。但你的数据干净吗？&lt;/p>
+&lt;p>产品BOM（物料清单）是不是三天两头改？采购提前期是不是凭感觉填？库存数据是不是靠月底盘点才准？如果你的回答是“嗯…”，那MRP算出来的计划，就是“垃圾进，垃圾出”。&lt;/p>
+&lt;p>真实案例：某电子厂，BOM里一个电阻的损耗率设成5%，实际产线损耗20%。MRP按5%算，采购只买了95%的量，结果月月断料。产线骂采购，采购骂MRP，MRP骂谁？骂你。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>BOM必须准&lt;/strong>：技术部改BOM，必须走流程，别让工艺员随便改。&lt;/li>
+&lt;li>&lt;strong>参数定期校准&lt;/strong>：提前期、安全库存、损耗率，每月复盘一次，别设了就忘。&lt;/li>
+&lt;li>&lt;strong>库存实时更新&lt;/strong>：别等月底盘点，用PDA扫码出入库，当天数据当天清。&lt;/li>
+&lt;/ul>
+&lt;p>记住：MRP的智商，取决于你喂的数据质量。喂屎，它算出来的就是屎。&lt;/p>
+&lt;h3 id="2-安全库存设成玄学爆仓只是时间问题">2. 安全库存设成玄学，爆仓只是时间问题&lt;/h3>
+&lt;p>很多老板喜欢说：“安全库存？多备点儿，别断料！”结果呢？仓库堆成山，资金全压死。&lt;/p>
+&lt;p>安全库存不是拍脑袋的。它是个数学题：&lt;strong>需求波动×服务水平系数×提前期波动&lt;/strong>。但现实是，99%的人不会算，直接拍一个“30天的量”。&lt;/p>
+&lt;p>更骚的操作是，销售一报个“大单”，老板就喊：“赶紧多备100万！”然后这单黄了，库存变呆滞。你问我怎么知道的？我仓库里现在还有那批货。&lt;/p>
+&lt;p>&lt;strong>怎么破？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>动态安全库存&lt;/strong>：用历史数据算，别拍脑袋。简单公式：安全库存=Z（服务水平对应的系数）×σ（需求标准差）×√L（提前期）&lt;/li>
+&lt;li>&lt;strong>ABC分类管理&lt;/strong>：A类物料（高价值、高频率）精算；C类物料（低价值、低频率）多备点没问题。&lt;/li>
+&lt;li>&lt;strong>别听老板瞎指挥&lt;/strong>：老板说“多备”时，拿数据怼他：“老板，多备100万，资金成本每月1.5%，相当于利润缩水1.5万，你确定？”&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-没有约束的mrp等于没有计划">3. 没有约束的MRP，等于没有计划&lt;/h3>
+&lt;p>MRP算出来一堆采购建议，你全信了？那你离死不远。&lt;/p>
+&lt;p>MRP假设什么？&lt;strong>无限产能&lt;/strong>。它不管你的供应商能不能按时交货，不管产线有没有排期，不管仓库有没有地方放。它只告诉你：需要买XX个。&lt;/p>
+&lt;p>然后你按这个下单，结果呢？供应商说“交不了，排期满了”；仓库说“没地方放，堆过道上了”；财务说“没钱付，下周再说”。&lt;/p>
+&lt;p>&lt;strong>正确操作：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MRP输出要过“约束”筛子&lt;/strong>：供应商产能、仓库库容、资金预算，通通算进去。&lt;/li>
+&lt;li>&lt;strong>做“有限能力计划”&lt;/strong>：别只依赖MRP，加个APS（高级排程系统）或手动调整。&lt;/li>
+&lt;li>&lt;strong>和供应商拉通&lt;/strong>：提前给他们看你的MRP预测，别临时下单。好的供应商会帮你备货，但前提是你别当“渣男”——今天下单，明天改单。&lt;/li>
+&lt;/ul>
+&lt;p>记住：MRP是工具，不是大脑。你的大脑才是用来做决策的。&lt;/p>
+&lt;h3 id="4-忽略长尾物料活该被拖死">4. 忽略“长尾物料”，活该被拖死&lt;/h3>
+&lt;p>大厂物料管理得好，但“长尾物料”才是隐形杀手。什么叫长尾物料？就是那些一年用不到几次、但每次都要用的备件、辅料、包装物。&lt;/p>
+&lt;p>MRP一般只跑主物料，长尾物料全靠人工拍脑袋。结果呢？要么没备，急用时花高价买；要么备了三年，最后当废铁卖。&lt;/p>
+&lt;p>&lt;strong>案例&lt;/strong>：某自动化公司，一台设备上有个特殊螺丝，一年只用50颗。采购嫌麻烦，一次性买了1000颗。结果第二年设备改款，螺丝型号换了，剩下950颗报废。每颗成本8毛，但占用了仓储、管理、资金，总成本远不止800块。&lt;/p>
+&lt;p>&lt;strong>怎么搞？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>长尾物料单独管理&lt;/strong>：别用MRP跑，用“看板”或“两箱法”。用完再买，别囤。&lt;/li>
+&lt;li>&lt;strong>和供应商签“代管协议”&lt;/strong>：让他们帮你备货，你用多少付多少。但前提是，你得够大，人家才愿意。&lt;/li>
+&lt;li>&lt;strong>定期清理&lt;/strong>：每季度跑一次“呆滞物料清单”，该报废就报废，别舍不得。库存占用资金，比直接扔钱还亏。&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-人不行系统再好也白搭">5. 人不行，系统再好也白搭&lt;/h3>
+&lt;p>最后，也是最扎心的：&lt;strong>你团队里的人，懂MRP吗？&lt;/strong>&lt;/p>
+&lt;p>很多公司上MRP，就是IT部门买了个软件，然后丢给采购和计划员：“你们用吧。”结果呢？计划员只会点“运行MRP”，看不懂报表；采购只看“采购建议”，不管交期和价格；仓库只管入库出库，不反馈数据。&lt;/p>
+&lt;p>系统是死的，人是活的。系统能帮你算，但算出来的东西，需要人判断、调整、反馈。&lt;/p>
+&lt;p>&lt;strong>怎么办？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>培训别省&lt;/strong>：让计划员懂MRP逻辑，别只会点鼠标。让他们知道：为什么安全库存要设这个数？为什么提前期变了？&lt;/li>
+&lt;li>&lt;strong>建立“计划-采购-仓库”铁三角&lt;/strong>：每周开15分钟碰头会，对数据、对问题、对计划。&lt;/li>
+&lt;li>&lt;strong>考核别只看KPI&lt;/strong>：别只盯着“库存周转率”，也要看“缺料次数”、“呆滞占比”。数据会撒谎，但人的反馈不会。&lt;/li>
+&lt;/ul>
+&lt;p>说到底，MRP就是个放大器。你管理差，它放大你的乱；你管理好，它放大你的效率。&lt;/p>
+&lt;hr>
+&lt;p>最后，留个作业：打开你的MRP系统，看看这5个坑你踩了多少。如果超过3个，别慌，调整还来得及。&lt;/p>
+&lt;p>&lt;strong>库存压了500万才懂的事，不想让你再踩一次。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」，回复“MRP”领取《物料管理避坑指南》PDF，你懂的。&lt;/p></description></item><item><title>库存压了500万才明白：VMI是个坑还是救星？</title><link>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-supply-chain/</guid><description>&lt;p>兄弟，你是不是也干过这种蠢事？&lt;/p>
+&lt;p>仓库堆满了货，财务天天催你清库存，老板拍桌子问你“为什么现金流又断了”。你盯着ERP系统里那一串串红色预警，恨不得把货全烧了换现金。&lt;/p>
+&lt;p>我知道，你不是不努力。你比谁都勤快，天天催供应商发货，月底对着报表发愁。&lt;/p>
+&lt;p>可问题是——&lt;strong>你管得太多了。&lt;/strong>&lt;/p>
+&lt;p>库存压了500万才明白：供应商管理库存（VMI），不是让你把锅甩给供应商，而是让你学会“让专业的人干专业的事”。&lt;/p>
+&lt;p>今天这篇，我就用踩坑换来的血泪经验，给你掰扯清楚：VMI到底怎么玩，才能不翻车？&lt;/p>
+&lt;h3 id="1-vmi不是甩锅神器是信息共享的试金石">1. VMI不是甩锅神器，是“信息共享”的试金石&lt;/h3>
+&lt;p>很多人一听VMI，第一反应是：“太好了，把库存全扔给供应商，我躺着等收货就行！”&lt;/p>
+&lt;p>醒醒。这不是甩锅，这是&lt;strong>信息绑架&lt;/strong>。&lt;/p>
+&lt;p>VMI的核心，不是你让供应商多备货，而是你把自己的需求数据、销售预测、生产计划，&lt;strong>赤裸裸地扔给供应商&lt;/strong>。&lt;/p>
+&lt;p>举个例子：你是个做小家电的采购，月销5000台破壁机。传统玩法是：你下订单，供应商按单生产，你自己扛库存。VMI的玩法是：你把过去6个月的历史销量、未来3个月的促销计划、甚至竞品的动销数据，全给供应商看。然后说：“兄弟，你看这数据，自己决定备多少货吧。”&lt;/p>
+&lt;p>结果呢？供应商比你更懂市场。他一看数据，发现你3月要推新款，旧款库存肯定滞销，直接建议你减单50%。&lt;/p>
+&lt;p>你看，&lt;strong>信息透明了，库存才能降下来&lt;/strong>。&lt;/p>
+&lt;p>踩坑提醒：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>别怕数据泄露。&lt;/strong> 签好保密协议，核心数据加密。&lt;/li>
+&lt;li>&lt;strong>别玩虚的。&lt;/strong> 你给虚假预测，供应商就敢给你乱备货。&lt;/li>
+&lt;li>&lt;strong>别做甩手掌柜。&lt;/strong> VMI不是不管理，是换了一种管法——管数据、管流程、管绩效。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-为什么你的vmi项目总是死在信任上">2. 为什么你的VMI项目，总是死在“信任”上？&lt;/h3>
+&lt;p>我见过太多公司，VMI搞了半年就崩盘。&lt;/p>
+&lt;p>原因很简单：&lt;strong>信任破产了。&lt;/strong>&lt;/p>
+&lt;p>采购方觉得“供应商肯定多报了库存”，供应商觉得“你肯定压了我的价格”。双方像防贼一样防着对方，最后数据不共享，系统不打通，项目黄了。&lt;/p>
+&lt;p>VMI是一个&lt;strong>共生系统&lt;/strong>，不是零和博弈。&lt;/p>
+&lt;p>怎么破局？
+&lt;strong>先做小范围试点，用结果换信任。&lt;/strong>&lt;/p>
+&lt;p>别一上来就上全品类。选一个SKU（库存单位）、一家供应商、一个仓库，签3个月协议，约定好：&lt;/p>
+&lt;ul>
+&lt;li>库存水位：安全库存+缓冲库存，谁超了谁买单。&lt;/li>
+&lt;li>补货频率：每天/每周/每旬，数据自动同步。&lt;/li>
+&lt;li>绩效指标：库存周转率、缺货率、库存持有成本。&lt;/li>
+&lt;/ul>
+&lt;p>我亲眼见过一家汽配厂，试点期间库存周转率从4次/年干到了12次/年，缺货率从15%降到2%。供应商那边呢？因为需求稳定，他的生产线利用率提升了20%，成本反而降了。&lt;/p>
+&lt;p>&lt;strong>双赢，才是VMI能走下去的命门。&lt;/strong>&lt;/p>
+&lt;h3 id="3-落地vmi的三字经算通罚">3. 落地VMI的“三字经”：算、通、罚&lt;/h3>
+&lt;p>别信那些高大上的PPT，VMI落地就靠这三个字。&lt;/p>
+&lt;p>&lt;strong>算：&lt;/strong>
+先算清楚你的库存成本。不只是货值，还包括仓储租金、人工、损耗、资金占用。算完你会发现，&lt;strong>库存不是资产，是负债&lt;/strong>。有了这个数字，你才知道VMI到底省了多少钱。&lt;/p>
+&lt;p>&lt;strong>通：&lt;/strong>
+系统打通。别搞“供应商登录你的ERP看数据”这种蠢事，直接API（应用程序接口）对接。实时数据同步，自动触发补货。如果供应商没有系统，那就用Excel模板+邮件，但必须标准化。记住：&lt;strong>手动操作越多，VMI死得越快。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>罚：&lt;/strong>
+制定明确的惩罚机制。比如：供应商补货不及时导致缺货，他赔；你数据不准确导致多备货，你赔。别讲人情，&lt;strong>VMI不是请客吃饭，是商业契约&lt;/strong>。&lt;/p>
+&lt;h3 id="4-那些年我踩过的vmi大坑附避坑指南">4. 那些年我踩过的VMI大坑（附避坑指南）&lt;/h3>
+&lt;p>坑1：库存所有权没厘清
+VMI模式下，库存到底算谁的？有些协议写着“货到VMI仓库，所有权转移”，结果货卖不出去，供应商不认账，你只能自己兜底。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 明确库存所有权转移节点。一般建议：货物从VMI仓库发货到你生产线时，所有权才转移。之前都是供应商的，他得负责。&lt;/p>
+&lt;p>坑2：退货机制不明确
+滞销品怎么办？有些供应商说“你退回来”，但运费谁出？时间窗口多久？没写清楚，最后扯皮。&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 提前约定滞销品退货规则：比如超过3个月未动销，供应商必须原价收回；或者按比例折价处理。&lt;/p>
+&lt;p>坑3：数据共享变“毒药”
+你给了供应商数据，他转身卖给竞品怎么办？&lt;/p>
+&lt;p>&lt;strong>避坑：&lt;/strong> 签数据保密协议，明确违约责任。关键数据脱敏处理，比如只给品类维度，不给具体客户信息。&lt;/p>
+&lt;h3 id="5-vmi的未来从库存管理到协同共赢">5. VMI的未来：从“库存管理”到“协同共赢”&lt;/h3>
+&lt;p>别把VMI当成一个工具，它是一套&lt;strong>生态系统&lt;/strong>。&lt;/p>
+&lt;p>真正的VMI高手，玩的不是“压货”，而是“&lt;strong>预测+协同&lt;/strong>”。&lt;/p>
+&lt;ul>
+&lt;li>你和供应商共享销售预测，他提前备料，你降低缺货风险。&lt;/li>
+&lt;li>你和供应商共建安全库存模型，动态调整，不再拍脑袋。&lt;/li>
+&lt;li>你和供应商一起优化物流，比如用Milk Run（循环取货）降低运输成本。&lt;/li>
+&lt;/ul>
+&lt;p>我见过最牛的公司，VMI做到极致：&lt;/p>
+&lt;ul>
+&lt;li>库存周转率从6次/年飙升到24次/年&lt;/li>
+&lt;li>缺货率从12%降到0.5%&lt;/li>
+&lt;li>供应商的订单波动率下降了40%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这才是供应链的终极形态：不是零和博弈，而是共生共荣。&lt;/strong>&lt;/p></description></item><item><title>库存压了300万才懂，WMS真能救命</title><link>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/</guid><description>&lt;p>&lt;strong>兄弟，你仓库里那堆货，是不是快把你压死了？&lt;/strong>&lt;/p>
 &lt;p>别跟我扯什么“库存周转率”、“SKU优化”，我就问你一句：&lt;/p>
 &lt;p>&lt;strong>你昨天盘点，又对不上数了吧？&lt;/strong>&lt;/p>
 &lt;p>别狡辩。干过仓储的都知道，那种“明明系统显示有，但货架上就是找不到”的绝望，比失恋还难受。更离谱的是，老板还天天在群里@你：“那个A类物料怎么又缺货了？不是刚进200箱吗？”&lt;/p>

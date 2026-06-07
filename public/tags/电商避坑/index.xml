@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电商避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%94%B5%E5%95%86%E9%81%BF%E5%9D%91/</link><description>Recent content in 电商避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%94%B5%E5%95%86%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>跨境物流踩了5个坑，亏了80万才醒</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-pitfalls/</guid><description>&lt;p>兄弟，你最近是不是也被跨境物流搞到头大？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电商避坑 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%94%B5%E5%95%86%E9%81%BF%E5%9D%91/</link><description>Recent content in 电商避坑 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%94%B5%E5%95%86%E9%81%BF%E5%9D%91/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才懂的SKU管理</title><link>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-secrets/</guid><description>&lt;p>&lt;strong>你有没有这种经历？&lt;/strong>&lt;/p>
+&lt;p>凌晨两点，你盯着ERP后台，库存数从三位数跳到四位数，像扎心瀑布。&lt;/p>
+&lt;ul>
+&lt;li>爆款卖断了货，补货要等15天&lt;/li>
+&lt;li>滞销款堆满仓库，每天交仓储费&lt;/li>
+&lt;li>采购和销售互相甩锅：“是你SKU太乱！”&lt;/li>
+&lt;/ul>
+&lt;p>我问你一个问题：&lt;strong>你管SKU，还是SKU管你？&lt;/strong>&lt;/p>
+&lt;p>90%的公司死在SKU泛滥上。&lt;/p>
+&lt;p>我踩过这个坑。库存压了500万，才明白——管理SKU不是搞分类，是&lt;strong>砍自己手&lt;/strong>。&lt;/p>
+&lt;h3 id="1-sku越多--赚钱越多">1. SKU越多 ≠ 赚钱越多&lt;/h3>
+&lt;p>大多数人的直觉：“SKU多，客户选择多，单子多。”&lt;/p>
+&lt;p>屁。&lt;/p>
+&lt;p>&lt;strong>SKU多 = 库存成本高 + 生产切换慢 + 决策瘫痪。&lt;/strong>&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;p>你卖手机壳。为了满足“全场景”，你搞了50个款式，每个款式10个颜色，每个颜色5个尺寸。&lt;/p>
+&lt;p>你算算：&lt;/p>
+&lt;p>50 × 10 × 5 = &lt;strong>2500个SKU&lt;/strong>&lt;/p>
+&lt;p>找工厂下单：起订量500/款。工厂排期45天。&lt;/p>
+&lt;p>货到仓库：爆款全断货，冷门款堆成山。&lt;/p>
+&lt;p>月底一看：销售额100万，净利润-10万。因为仓储费、过期损耗、资金占用，全吃掉了利润。&lt;/p>
+&lt;p>真实数据：&lt;/p>
+&lt;ul>
+&lt;li>某电商公司，SKU从2000个砍到300个，净利润翻3倍&lt;/li>
+&lt;li>某服装品牌，SKU减少40%，退货率从30%降到12%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>核心法则：20%的SKU贡献80%的利润。剩下的，都是你的吸血鬼。&lt;/strong>&lt;/p>
+&lt;h3 id="2-管sku先学会砍">2. 管SKU，先学会“砍”&lt;/h3>
+&lt;p>你舍不得砍？因为你怕错过任何一个订单。&lt;/p>
+&lt;p>来，我给你3个砍SKU的狠招：&lt;/p>
+&lt;p>&lt;strong>第一招：算“单SKU利润贡献”&lt;/strong>&lt;/p>
+&lt;p>别只看销售额，看利润。&lt;/p>
+&lt;p>一个SKU，月销100单，每单利润10元，总利润1000元。
+另一个SKU，月销5单，每单利润200元，总利润1000元。&lt;/p>
+&lt;p>第一个占用库存100件，第二个占用5件。&lt;/p>
+&lt;p>&lt;strong>你会选哪个？&lt;/strong>&lt;/p>
+&lt;p>选第二个。因为资金周转更快，仓储成本更低。&lt;/p>
+&lt;p>&lt;strong>第二招：按“动销率”清场&lt;/strong>&lt;/p>
+&lt;p>动销率 = 有销售的SKU / 总SKU&lt;/p>
+&lt;p>低于30%？你完了。意味着70%的SKU是摆设。&lt;/p>
+&lt;p>立刻做：&lt;/p>
+&lt;ul>
+&lt;li>90天内销量=0的SKU：直接清仓或下架&lt;/li>
+&lt;li>180天内销量&amp;lt;10单的SKU：降价处理，止损&lt;/li>
+&lt;li>季度销量后20%的SKU：给3个月观察期，不行就砍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三招：用“ABC-XYZ”矩阵&lt;/strong>&lt;/p>
+&lt;p>把SKU分成9个格子：&lt;/p>
+&lt;ul>
+&lt;li>A类（高利润）+ X类（高需求）：疯狂备货&lt;/li>
+&lt;li>C类（低利润）+ Z类（低需求）：直接砍掉&lt;/li>
+&lt;li>其他格子：按策略调整&lt;/li>
+&lt;/ul>
+&lt;p>别心软。砍掉一个SKU，省下的钱够招一个运营。&lt;/p>
+&lt;h3 id="3-新sku上架前先问这5个问题">3. 新SKU上架前，先问这5个问题&lt;/h3>
+&lt;p>大部分公司上SKU，靠拍脑袋。&lt;/p></description></item><item><title>跨境物流踩了5个坑，亏了80万才醒</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-pitfalls/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-pitfalls/</guid><description>&lt;p>兄弟，你最近是不是也被跨境物流搞到头大？&lt;/p>
 &lt;p>别急，先听我讲个故事。&lt;/p>
 &lt;p>我一个朋友，做亚马逊三年，去年旺季发了一柜货到美国。图便宜，找了个“包税包清关”的货代，报价比同行低30%。结果呢？货到了洛杉矶港，卡了一个月——查验、补税、交罚款，最后货值还没运费高。他咬着牙交了钱，结果货代直接失联。&lt;/p>
 &lt;p>那一单，他亏了80万。是的，&lt;strong>80万&lt;/strong>，不是8000。&lt;/p>
