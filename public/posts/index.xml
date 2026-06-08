@@ -1,4 +1,548 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线3个月，我差点被全公司骂走：90%的人栽在同一个坑里</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>&amp;ldquo;ERP上线那天，我凌晨3点还在办公室。不是激动的，是害怕的。因为我知道明天整个公司的人都会来找我，而系统有一半的功能可能跑不通。&amp;rdquo;&lt;/p>
+&lt;p>这是一个做ERP实施的朋友跟我说的原话。&lt;/p>
+&lt;p>ERP上线是供应链人职业生涯里最容易&amp;quot;一战成名&amp;quot;也最容易&amp;quot;一败涂地&amp;quot;的项目。做好了升职加薪，做砸了卷铺盖走人。&lt;/p>
+&lt;p>而做砸的概率，远超你的想象。业内普遍数据：ERP实施&amp;quot;不满意率&amp;quot;超过50%。&lt;/p>
+&lt;h2 id="erp失败根因从来不是软件不行">ERP失败，根因从来不是软件不行&lt;/h2>
+&lt;p>SAP、Oracle、用友、金蝶——这些软件的底层逻辑都是几十年工业管理实践的结晶，它们本身没问题。&lt;/p>
+&lt;p>&lt;strong>出问题的永远是人。&lt;/strong>&lt;/p>
+&lt;p>我见过用一套金蝶把供应链管得井井有条的公司，也见过花800万上SAP最后一地鸡毛的公司。差距不在软件，在实施。&lt;/p>
+&lt;h2 id="死亡陷阱一目标写成提升管理水平">死亡陷阱一：目标写成&amp;quot;提升管理水平&amp;quot;&lt;/h2>
+&lt;p>&amp;ldquo;我们要通过ERP提升公司管理水平、实现数字化转型。&amp;rdquo;&lt;/p>
+&lt;p>这是90%的ERP立项报告里的原话。这句话等于什么都没说。&lt;/p>
+&lt;p>什么叫&amp;quot;管理水平提升&amp;quot;？库存周转率从多少提到多少？订单准确率从多少提到多少？关账时间从几天缩短到几天？&lt;/p>
+&lt;p>&lt;strong>没有量化目标的ERP项目，注定失败。&lt;/strong> 因为项目过程中任何决策都没有判断标准——是优先上线速度还是优先数据质量？是满足财务需求还是满足业务需求？没有目标，就没有优先级。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 立项时写清楚3-5个可量化的核心目标，比如：&lt;/p>
+&lt;ul>
+&lt;li>库存准确率从92%提升到99%&lt;/li>
+&lt;li>月结关账从7天缩短到3天&lt;/li>
+&lt;li>订单交付及时率从85%提升到95%&lt;/li>
+&lt;/ul>
+&lt;p>每个目标后面跟一个负责人，跟一个考核时间。做不到要有人承担责任。&lt;/p>
+&lt;h2 id="死亡陷阱二基础数据比垃圾桶还脏">死亡陷阱二：基础数据比垃圾桶还脏&lt;/h2>
+&lt;p>物料编码一物多码、BOM长期不更新、供应商信息重复混乱、库存数据跟实际差了十万八千里。&lt;/p>
+&lt;p>&lt;strong>这些垃圾数据导入ERP，ERP就会基于垃圾数据跑出垃圾结果。&lt;/strong>&lt;/p>
+&lt;p>很多公司对&amp;quot;数据清洗&amp;quot;的理解就是：把Excel里的数据导进新系统。这不叫清洗，叫&amp;quot;搬垃圾&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>数据清洗至少要做三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>去重&lt;/strong>：一个物料只有一个编码，一个供应商只有一个档案&lt;/li>
+&lt;li>&lt;strong>补全&lt;/strong>：缺失的字段（规格、单位、提前期、价格）全部补齐&lt;/li>
+&lt;li>&lt;strong>校验&lt;/strong>：用实际库存盘点去校验系统数据，修正差异&lt;/li>
+&lt;/ol>
+&lt;p>这三件事至少需要2-3个月，而且要业务部门配合（不是IT部门单干）。那些号称&amp;quot;3个月上线ERP&amp;quot;的项目，数据清洗的时间够不够？你自己品。&lt;/p>
+&lt;h2 id="死亡陷阱三一把手只立项不参与">死亡陷阱三：一把手只立项不参与&lt;/h2>
+&lt;p>&amp;ldquo;ERP项目是IT项目，让IT总监负责就行了。&amp;quot;——一把手这么想的那一刻，项目就已经失败了一半。&lt;/p>
+&lt;p>ERP表面上是IT系统，实际上是&lt;strong>管理变革&lt;/strong>。它要改的是部门的流程、人员的职责、数据的归属。这些东西涉及部门利益，没有一把手拍板，谁推得动？&lt;/p>
+&lt;p>财务说&amp;quot;报表格式不能改&amp;rdquo;，销售说&amp;quot;客户信息不能共享&amp;quot;，生产说&amp;quot;你们别管我怎么排产&amp;quot;——IT总监能说服谁？说服不了，就只能妥协。妥协一次流程歪一块，妥协十次系统就废了。&lt;/p>
+&lt;p>&lt;strong>一把手在ERP项目里不需要每天盯着，但必须做三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>定调子：ERP是全公司的战略项目，各部门无条件配合&lt;/li>
+&lt;li>拍板子：部门间的流程冲突，一把手来决策&lt;/li>
+&lt;li>打板子：推不动的部门负责人，一把手出面谈话&lt;/li>
+&lt;/ol>
+&lt;p>一把手不参与的ERP，叫&amp;quot;IT部门的自嗨&amp;quot;。&lt;/p>
+&lt;h2 id="死亡陷阱四培训就是发个手册自己看">死亡陷阱四：培训就是&amp;quot;发个手册自己看&amp;quot;&lt;/h2>
+&lt;p>系统上线前一周，组织两场培训，投影仪放一遍操作流程，讲完散会。然后上线第一天，全公司的人都在问&amp;quot;这个按钮在哪&amp;quot;&amp;ldquo;那个单据怎么录&amp;rdquo;。&lt;/p>
+&lt;p>这不叫培训，叫&amp;quot;通知你系统要上线了&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>有效的ERP培训必须做到：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分层培训&lt;/strong>：操作员、部门主管、系统管理员分别培训，内容不同&lt;/li>
+&lt;li>&lt;strong>实操考核&lt;/strong>：不是听一遍就算，要上测试环境实际操作、考核通过才能上岗&lt;/li>
+&lt;li>&lt;strong>上线陪跑&lt;/strong>：上线第一周，实施团队驻场，有问题当场解决&lt;/li>
+&lt;li>&lt;strong>建立知识库&lt;/strong>：把常见问题录成短视频、写成FAQ，新人来了能自学&lt;/li>
+&lt;/ul>
+&lt;p>培训不够的ERP上线，等于让一群没学过开车的人上高速——出事故是必然的，不出是运气。&lt;/p>
+&lt;h2 id="上线不是结束是开始">上线不是结束，是开始&lt;/h2>
+&lt;p>最后一个忠告：ERP上线后前三个月，才是真正的考验。&lt;/p>
+&lt;p>系统跑出来的数据对不对？报表出来的数字跟原来对得上吗？业务流程有没有出现新的堵点？这些问题都要在上线后持续追踪。&lt;/p>
+&lt;p>&lt;strong>建议上线后三个月内：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每周一次复盘会，收集各部门反馈&lt;/li>
+&lt;li>每月一次数据审计，对比系统数据和实际数据&lt;/li>
+&lt;li>建立一个&amp;quot;问题清单&amp;quot;，排优先级一个一个改&lt;/li>
+&lt;/ul>
+&lt;p>ERP上线不够，持续优化才够。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>MRP跑了3年，库存还是500万：你以为的物料计划，其实是在自嗨</title><link>https://supplychain-tips.pages.dev/posts/mrp-not-magic/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-not-magic/</guid><description>&lt;p>一个做了8年生产计划的朋友跟我说了一句话，我记到现在：&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;公司上了3年MRP，库存从300万涨到了500万，我每次点&amp;rsquo;运行MRP&amp;rsquo;的时候，都觉得自己像个赌徒。&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>这不是段子。我调研过至少20家制造企业的MRP使用情况，真正跑得准的，不超过3家。&lt;/p>
+&lt;p>剩下的17家，MRP对他们来说就是一个心理安慰：按了按钮，系统跑了一堆数字，采购照着下单，然后库存还是该多的多、该缺的缺。&lt;/p>
+&lt;h2 id="mrp的核心逻辑没问题但你的数据全是垃圾">MRP的核心逻辑没问题，但你的数据全是垃圾&lt;/h2>
+&lt;p>MRP的算法本身没毛病：根据BOM展开物料需求 → 减去现有库存和在途 → 考虑提前期 → 算出净需求。这个逻辑从1970年代到现在没变过，一直跑得好好的。&lt;/p>
+&lt;p>&lt;strong>问题不在算法，在四个输入参数。&lt;/strong>&lt;/p>
+&lt;p>这四个参数，如果有一个是垃圾，MRP出来的结果就是垃圾。而90%的工厂，四个参数全有问题。&lt;/p>
+&lt;h2 id="参数一bom不准mrp从根上就歪了">参数一：BOM不准，MRP从根上就歪了&lt;/h2>
+&lt;p>BOM是MRP的骨架。如果BOM里的物料用量、损耗率、替代关系不对，MRP算出来的需求从第一层就偏了。&lt;/p>
+&lt;p>我见过最离谱的：一家电子厂的BOM里，某个电阻的用量写的是&amp;quot;0.001个&amp;quot;——因为工程师觉得&amp;quot;用量太小，随便填一下&amp;quot;。结果MRP跑了三年都没触发过这个物料的采购计划，产线上天天缺料。&lt;/p>
+&lt;p>&lt;strong>BOM不准的原因通常不是&amp;quot;忘记更新&amp;quot;，而是&amp;quot;没人在意&amp;quot;：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>研发改了配方，BOM没同步&lt;/li>
+&lt;li>工艺改了工序，BOM没反映&lt;/li>
+&lt;li>临时替代料用了半年，BOM还是老物料&lt;/li>
+&lt;li>损耗率是十年前定的，现在工艺早变了&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>修BOM没有捷径，就是定期审计。&lt;/strong> 每月抽10%的BOM跟现场核对，发现问题立刻修正。BOM准了，MRP才有资格往下跑。&lt;/p>
+&lt;h2 id="参数二提前期是拍脑袋拍的">参数二：提前期是拍脑袋拍的&lt;/h2>
+&lt;p>&amp;ldquo;这个供应商大概15天交货吧？&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;之前好像有一次25天才到，那就设20天吧，取个中间值。&amp;rdquo;&lt;/p>
+&lt;p>这种对话在99%的工厂发生过。采购提前期、生产提前期、检验提前期——全凭经验和感觉。&lt;/p>
+&lt;p>&lt;strong>提前期差一天，安全库存就要多备一天的量。差10天，你就多压了10天的库存。&lt;/strong>&lt;/p>
+&lt;p>怎么修？不用搞多复杂，拉过去6个月的采购订单数据，算三个数：&lt;/p>
+&lt;ul>
+&lt;li>平均实际交货周期&lt;/li>
+&lt;li>波动标准差&lt;/li>
+&lt;li>最差情况（P95分位值）&lt;/li>
+&lt;/ul>
+&lt;p>用平均值做计划基准，用波动范围设置预警线。比拍脑袋强十倍。&lt;/p>
+&lt;h2 id="参数三安全库存变成拍安全库存">参数三：安全库存变成&amp;quot;拍安全库存&amp;quot;&lt;/h2>
+&lt;p>安全库存的公式书上写得清清楚楚：安全库存 = Z × σ × √LT。&lt;/p>
+&lt;p>但现实中呢？&lt;/p>
+&lt;p>&amp;ldquo;这个料挺重要的，安全库存设500吧。&amp;ldquo;&amp;ldquo;这个客户不能得罪，设1000。&amp;ldquo;&amp;ldquo;老板说要降低库存，统统砍到200。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>安全库存是算出来的，不是拍出来的。&lt;/strong> 你拍的数字，大概率是拍给老板看的，不是拍给供应链看的。&lt;/p>
+&lt;p>正确的做法：&lt;/p>
+&lt;ol>
+&lt;li>按物料的关键性分类（停产影响大/中/小）&lt;/li>
+&lt;li>A类物料用统计学模型（需求波动×提前期波动×服务水平）&lt;/li>
+&lt;li>B类物料用经验值+定期回顾&lt;/li>
+&lt;li>C类物料甚至可以不用安全库存&lt;/li>
+&lt;/ol>
+&lt;p>重点是&lt;strong>定期回顾&lt;/strong>。上个月的安全库存是基于上个月的需求波动算的，这个月的需求结构变了，安全库存就该跟着变。MRP不会自动帮你调安全库存，这个动作必须人为介入。&lt;/p>
+&lt;h2 id="参数四需求预测是猜的但没人敢承认">参数四：需求预测是猜的，但没人敢承认&lt;/h2>
+&lt;p>需求预测不准是正常的。一个月后的订单你能猜到70%已经很牛了，三个月后的基本靠玄学。&lt;/p>
+&lt;p>但问题是：&lt;strong>很多工厂的MRP是按&amp;quot;确定需求&amp;quot;跑的，而不是&amp;quot;概率需求&amp;rdquo;。&lt;/strong>&lt;/p>
+&lt;p>MRP算出来&amp;quot;需要买1000个&amp;rdquo;，采购就买1000个。但实际需求可能是800，也可能是1200。你按1000买，要么多200要么少200。&lt;/p>
+&lt;p>解法是&lt;strong>别让MRP替你决策，让MRP替你算方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>跑三套参数：乐观/基准/悲观&lt;/li>
+&lt;li>对应三套采购计划&lt;/li>
+&lt;li>让计划员根据最新信息选最合适的那套&lt;/li>
+&lt;/ul>
+&lt;p>MRP是计算器，不是算命先生。它的职责是&amp;quot;根据你给的条件算出结果&amp;rdquo;，不是&amp;quot;替你预测未来&amp;rdquo;。&lt;/p>
+&lt;h2 id="mrp跑准的三个底线">MRP跑准的三个底线&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>BOM每季度审计一次&lt;/strong>，研发/工艺/生产三方会签&lt;/li>
+&lt;li>&lt;strong>提前期每半年回顾一次&lt;/strong>，用实际数据校准，不要用&amp;quot;历史惯例&amp;quot;&lt;/li>
+&lt;li>&lt;strong>安全库存每月review&lt;/strong>，跟着需求波动的节奏走&lt;/li>
+&lt;/ol>
+&lt;p>这三条做到了，你的MRP准确率能从&amp;quot;看运气&amp;quot;提升到&amp;quot;可预期&amp;quot;。做不到，再多花哨的MRP功能都是摆设。&lt;/p>
+&lt;p>&lt;strong>物料计划不是按按钮，是管数据。数据垃圾进，结果垃圾出。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>RFID上了半年还在手动扫码？90%的人第一步就错了</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-world/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-world/</guid><description>&lt;p>三年前有个仓库经理在展会上看到RFID演示：推一车货过通道，所有标签&amp;quot;嘀&amp;quot;一声全读出来了。他当场拍板：上！&lt;/p>
+&lt;p>三年后我去他的仓库，RFID通道落满了灰，员工还是在用手持扫码枪一个一个扫。&lt;/p>
+&lt;p>&amp;ldquo;为什么不用RFID？&amp;ldquo;我问他。&lt;/p>
+&lt;p>他说：&amp;ldquo;试了三个月，读取率只有70%，漏掉的30%还是要人工补扫。折腾一圈发现更慢了，就不用了。&amp;rdquo;&lt;/p>
+&lt;p>这哥们的问题非常典型：&lt;strong>把RFID当成&amp;quot;高级版条码&amp;quot;来用了。&lt;/strong> 贴个标签就指望它能自动识别一切，结果被现实啪啪打脸。&lt;/p>
+&lt;h2 id="rfid不是万能贴纸是系统工程">RFID不是万能贴纸，是系统工程&lt;/h2>
+&lt;p>条码是&amp;quot;一次读一个&amp;rdquo;，RFID是&amp;quot;一次读一堆&amp;rdquo;。这决定了它们的应用场景完全不同。&lt;/p>
+&lt;p>条码适合：单品逐个处理（收银、发货扫描）
+RFID适合：批量快速处理（整箱入库、盘点、通道读取）&lt;/p>
+&lt;p>&lt;strong>如果你把RFID用在条码的场景里，大概率会发现它不如条码好用。&lt;/strong> RFID的价值在于场景的&amp;quot;批量性&amp;quot;。&lt;/p>
+&lt;h2 id="第一关选对频段别被厂家忽悠">第一关：选对频段，别被厂家忽悠&lt;/h2>
+&lt;p>RFID分三个频段：低频（LF）、高频（HF/NFC）、超高频（UHF）。&lt;/p>
+&lt;p>&lt;strong>仓储物流场景，选超高频（UHF，860-960MHz），别选错了。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>低频读距太短（10cm以内），仓储用不了&lt;/li>
+&lt;li>高频（NFC那种）读距也不够（1m以内）&lt;/li>
+&lt;li>超高频读距可达10米以上，能同时读几百个标签，这才是仓储需要的&lt;/li>
+&lt;/ul>
+&lt;p>但超高频也有坑：&lt;strong>金属和液体对它有严重干扰。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标签贴在金属表面 → 信号被反射，读取率直线下降&lt;/li>
+&lt;li>标签贴在水性液体包装上 → 信号被吸收，基本读不到&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以选标签的时候，金属表面要用抗金属标签，液体包装要用特殊设计的天线标签。&lt;/strong> 省这个钱的结果就是70%读取率。&lt;/p>
+&lt;h2 id="第二关读取环境比标签更重要">第二关：读取环境比标签更重要&lt;/h2>
+&lt;p>很多人以为RFID读取率低是&amp;quot;标签质量不行&amp;quot;，于是换更贵的标签、更贵的天线。但问题往往不在硬件，在环境。&lt;/p>
+&lt;p>&lt;strong>影响RFID读取率的三个环境因素：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>标签方向&lt;/strong>：标签平面跟天线发射方向平行的时候读取效果最好。标签贴在箱子侧面，天线装在通道顶上——这个方向组合就是灾难。天线装哪，标签就得贴哪面。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>读取距离和速度&lt;/strong>：叉车以10km/h的速度通过RFID通道，标签被天线覆盖的时间不到1秒。距离越远、速度越快，漏读越多。需要根据实际场景调整天线功率和读取策略。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>多标签碰撞&lt;/strong>：同时读取几百个标签的时候会发生&amp;quot;信号碰撞&amp;quot;，导致部分标签漏读。好的RFID读写器有防碰撞算法，但便宜的读写器在这个环节会掉链子。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>RFID实施不是&amp;quot;买设备装上去&amp;quot;，是&amp;quot;测试-调整-再测试&amp;quot;的循环过程。&lt;/strong> 在一个真实场景里反复调试，直到读取率稳定在99%以上，才叫&amp;quot;能用&amp;quot;。&lt;/p>
+&lt;h2 id="第三关跟wms集成才是真正的价值">第三关：跟WMS集成才是真正的价值&lt;/h2>
+&lt;p>很多公司的RFID就停在&amp;quot;读取标签&amp;quot;这一步：读到了，显示在屏幕上，人工再录进系统。&lt;/p>
+&lt;p>&lt;strong>这不叫信息化，叫&amp;quot;电子化手工操作&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>RFID真正的价值在于跟WMS系统深度集成：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>入库&lt;/strong>：整托盘通过RFID通道 → 自动识别 → WMS自动确认收货、自动分配库位&lt;/li>
+&lt;li>&lt;strong>盘点&lt;/strong>：手持RFID终端在库区走一圈 → 自动盘点 → 自动生成盘点差异报告&lt;/li>
+&lt;li>&lt;strong>出库&lt;/strong>：整箱出库 → RFID通道自动校验（有没有拿错、有没有遗漏）→ WMS自动过账&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些场景里，人只做两件事：发现异常时去确认，系统报错时去处理。&lt;/strong> 剩下的全部自动化。&lt;/p>
+&lt;p>如果你的RFID还需要员工举着读写器对着每个箱子&amp;quot;嘀&amp;quot;一下——趁早别折腾，扫条码还便宜。&lt;/p>
+&lt;h2 id="上rfid之前先做这个小测试">上RFID之前，先做这个小测试&lt;/h2>
+&lt;p>不要一上来就全仓铺开。选一条通道、一个区域做3个月的试点。&lt;/p>
+&lt;p>试点盯三个数字：&lt;/p>
+&lt;ol>
+&lt;li>读取准确率（≥99%才算合格）&lt;/li>
+&lt;li>操作效率提升（比条码快了多少？）&lt;/li>
+&lt;li>异常处理时间（漏读/误读的处理耗时）&lt;/li>
+&lt;/ol>
+&lt;p>如果试点跑不出正收益，全仓铺开只会亏得更多。&lt;/p>
+&lt;p>&lt;strong>RFID是工具，不是魔法。用对了场景它是降维打击，用错了场景它就是智商税。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</title><link>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</guid><description>&lt;p>一个做家电的供应链总监找我吐槽：&amp;ldquo;去年推VMI，选了5家核心供应商试点，半年下来了，库存不但没降，还涨了30%。供应商天天骂我，财务天天盯我，老板直接甩了一句&amp;rsquo;搞不定你就别搞了&amp;rsquo;。&amp;rdquo;&lt;/p>
+&lt;p>我说你把数据拉出来我看看。看完以后发现，他的问题从头到尾就是一个：&lt;strong>把VMI理解成了&amp;quot;供应商帮我管库存&amp;quot;，而不是&amp;quot;我跟供应商一起管库存&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>差三个字，结果天差地别。&lt;/p>
+&lt;h2 id="vmi不是甩锅是协同">VMI不是甩锅，是协同&lt;/h2>
+&lt;p>VMI（供应商管理库存）的标准定义是：供应商根据客户的实时库存和需求数据，自主决定补货时间和数量。&lt;/p>
+&lt;p>听上去很美：客户不用操心库存了，库存成本也转到供应商那边去了，账期还能拉长。很多公司推VMI，冲的就是这三个&amp;quot;好处&amp;quot;。&lt;/p>
+&lt;p>但问题是：&lt;strong>你以为的&amp;quot;好处&amp;quot;，在供应商眼里全是&amp;quot;负担&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你甩库存成本给供应商，供应商就把这些成本加回单价里。你拉长账期，供应商就降低服务优先级。你觉得自己赚了，其实供应商早就算明白了——你觉得免费的午餐，只是换了个收费方式。&lt;/p>
+&lt;h2 id="死法一数据不给够让供应商盲猜">死法一：数据不给够，让供应商&amp;quot;盲猜&amp;quot;&lt;/h2>
+&lt;p>VMI能跑起来的前提是：供应商能看到你的真实需求信号。库存水位、消耗速度、需求预测、促销计划——这些数据不给供应商，供应商怎么决定什么时候补多少货？&lt;/p>
+&lt;p>我见过太多VMI项目，客户给供应商的数据仅限于&amp;quot;当前库存量&amp;quot;。没有需求预测，没有促销日历，没有波动规律。供应商只能拍脑袋猜：这个数够不够？下周会不会爆单？&lt;/p>
+&lt;p>&lt;strong>让供应商盲猜的结果就是：宁可多备，不能断供。&lt;/strong> 多备出来的库存，最后还是你自己买单——要么涨单价，要么库存积压。&lt;/p>
+&lt;p>正确的做法：给供应商开一个数据窗口，至少包含：&lt;/p>
+&lt;ul>
+&lt;li>实时库存水位&lt;/li>
+&lt;li>过去30天日均消耗量&lt;/li>
+&lt;li>未来2周的需求预测（哪怕不准也比没有强）&lt;/li>
+&lt;li>促销/活动日历&lt;/li>
+&lt;li>安全库存上下限&lt;/li>
+&lt;/ul>
+&lt;p>数据透明了，供应商才有能力做精准补货。&lt;/p>
+&lt;h2 id="死法二责任边界模糊出了事互相扯皮">死法二：责任边界模糊，出了事互相扯皮&lt;/h2>
+&lt;p>断货了算谁的？库存积压了算谁的？质量问题退货了算谁的？&lt;/p>
+&lt;p>如果这些边界没在合同里写清楚，VMI推到最后就是推卸责任比赛。&lt;/p>
+&lt;p>我见过最经典的扯皮场景：库存积压了300万的货，客户说是供应商&amp;quot;补多了&amp;quot;，供应商说是客户&amp;quot;预测给少了&amp;quot;。翻合同一看，根本没定义什么叫&amp;quot;多&amp;quot;什么叫&amp;quot;少&amp;quot;，什么叫&amp;quot;预测&amp;quot;什么叫&amp;quot;确认&amp;quot;。最后300万的库存谁都不认，双方关系破裂。&lt;/p>
+&lt;p>&lt;strong>VMI合同必须写清楚三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>库存所有权&lt;/strong>：货在你们仓库里，但货权是谁的？什么时候转移？&lt;/li>
+&lt;li>&lt;strong>呆滞库存处理&lt;/strong>：超过X天未消耗的库存，谁承担成本？怎么处理？&lt;/li>
+&lt;li>&lt;strong>断供责任&lt;/strong>：因供应商原因断供的罚则，因客户需求突变断供的免责条款&lt;/li>
+&lt;/ol>
+&lt;p>这三条写不清楚的VMI，不如不做。&lt;/p>
+&lt;h2 id="死法三激励机制跑偏供应商没有动力帮你优化">死法三：激励机制跑偏，供应商没有动力帮你优化&lt;/h2>
+&lt;p>VMI最理想的状态是：供应商通过优化补货策略，帮客户降了库存，自己也因为周转加快而受益。&lt;/p>
+&lt;p>但现实中更多是：客户单方面压库存指标，降了库存是客户的功劳，涨了库存是供应商的责任。供应商为什么要配合你？&lt;/p>
+&lt;p>&lt;strong>让供应商有动力配合的核心是：利益共享。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存低于目标水位，省下来的仓储成本分一部分给供应商&lt;/li>
+&lt;li>断供率低于约定标准，给供应商一个&amp;quot;服务奖金&amp;quot;&lt;/li>
+&lt;li>联合降本项目的收益，按约定比例分成&lt;/li>
+&lt;/ul>
+&lt;p>你让供应商赚到钱，供应商才会用心帮你管库存。只靠合同条款约束的VMI，供应商的底线是不出大错，绝不会帮你做得更好。&lt;/p>
+&lt;h2 id="vmi推成功的三个起点">VMI推成功的三个起点&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>试点别贪大&lt;/strong>：选1-2家关系最好的供应商、3-5个SKU先跑，跑顺了再扩&lt;/li>
+&lt;li>&lt;strong>数据先从粗到细&lt;/strong>：先给库存和消耗数据，跑两个月再补预测和促销数据&lt;/li>
+&lt;li>&lt;strong>先谈利益再谈KPI&lt;/strong>：跟供应商聊明白&amp;quot;这件事你能得到什么&amp;quot;，再谈考核指标&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>VMI的本质是信任，不是制度。信任靠利益共享建立，不靠合同条款约束。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库KPI看这4个就够了，剩下99%都是自欺欺人</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-that-matter/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-that-matter/</guid><description>&lt;p>我见过最离谱的仓库KPI考核表，列了37个指标。&lt;/p>
+&lt;p>37个。从&amp;quot;叉车充电效率&amp;quot;到&amp;quot;标签打印合格率&amp;quot;，从&amp;quot;员工如厕时间占比&amp;quot;到&amp;quot;通道地面清洁度&amp;quot;。就一个仓库，搞得跟上市公司年报似的。&lt;/p>
+&lt;p>我问那个仓库经理：&amp;ldquo;这37个指标，你每周能盯完几个？&amp;rdquo;&lt;/p>
+&lt;p>他说：&amp;ldquo;说实话，一个都盯不了。月底填表的时候拍脑袋编。&amp;rdquo;&lt;/p>
+&lt;p>那你这KPI是给谁看的？给老板看的。老板看完觉得&amp;quot;管理很精细&amp;quot;，实际仓库一团浆糊。&lt;/p>
+&lt;h2 id="kpi不是越多越好是越少越准">KPI不是越多越好，是越少越准&lt;/h2>
+&lt;p>KPI的本质是&lt;strong>帮你看清问题在哪&lt;/strong>，不是帮数据部刷存在感。&lt;/p>
+&lt;p>一个仓库，真正影响业务结果的指标，一只手就能数过来。你加一堆五花八门的指标，最后的结果就是：&lt;/p>
+&lt;ol>
+&lt;li>真正重要的指标没人盯&lt;/li>
+&lt;li>一线员工被各种考核搞得心态爆炸&lt;/li>
+&lt;li>管理层被一堆数据淹没，看不到关键问题&lt;/li>
+&lt;/ol>
+&lt;p>我总结了一下，一个仓库想管好，盯这4个就够了。&lt;/p>
+&lt;h2 id="指标一库存准确率最重要没有之一">指标一：库存准确率（最重要，没有之一）&lt;/h2>
+&lt;p>&lt;strong>目标：99.5%以上&lt;/strong>&lt;/p>
+&lt;p>库存不准，后面所有环节全是错的。WMS里显示有500件，实际货架上只有380件——你的采购、你的订单履约、你的财务核算，全在沙子上盖楼。&lt;/p>
+&lt;p>库存准确率怎么算？很简单：&lt;strong>盘点准确数 ÷ 盘点总数 × 100%&lt;/strong>。&lt;/p>
+&lt;p>但关键不是公式，是频次。一个月盘一次等于白盘，等你发现差异的时候已经过了30天，损失已经不可挽回了。&lt;/p>
+&lt;p>我的建议：&lt;strong>A类品周盘、B类品月盘、C类品季盘，用循环盘点替代大盘。&lt;/strong> 有问题及时发现，发现立刻纠正。&lt;/p>
+&lt;h2 id="指标二拣货准确率">指标二：拣货准确率&lt;/h2>
+&lt;p>&lt;strong>目标：99.9%以上&lt;/strong>&lt;/p>
+&lt;p>拣货错一次，后面就是：客户退货 → 补发 → 客服投诉 → 差评 → 流量降权。一个拣货错误，连锁反应的成本是拣货动作本身的10倍以上。&lt;/p>
+&lt;p>盯拣货准确率，不是为了统计错误，是为了&lt;strong>找到出错的根因&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>是库位标识不清？改标识&lt;/li>
+&lt;li>是SKU编码相似容易混？加校验&lt;/li>
+&lt;li>是某个员工频繁出错？单独培训&lt;/li>
+&lt;li>是波峰期压力太大？调整排班&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>拣货准确率不是KPI，是诊断工具。&lt;/strong> 用它来发现问题，而不是用它来扣绩效。&lt;/p>
+&lt;h2 id="指标三订单履约时效">指标三：订单履约时效&lt;/h2>
+&lt;p>&lt;strong>目标：按承诺时效履约率 ≥ 98%&lt;/strong>&lt;/p>
+&lt;p>客户不关心你的仓库有多先进，客户只关心&amp;quot;我下单的东西什么时候到&amp;quot;。&lt;/p>
+&lt;p>履约时效不是越快越好，是&lt;strong>越准越好&lt;/strong>。你承诺48小时到，客户预期就是48小时；你追求极致24小时到，成本翻倍但客户没多开心多少。&lt;/p>
+&lt;p>盯这个指标要分两个维度：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>截单时间前的订单当日出库率&lt;/strong>：衡量仓库处理能力&lt;/li>
+&lt;li>&lt;strong>实际送达 vs 承诺时效偏差&lt;/strong>：衡量全链路履约质量&lt;/li>
+&lt;/ul>
+&lt;p>如果当日出库率持续低于95%，要么是订单量超了设计产能，要么是排班/流程有问题。&lt;/p>
+&lt;h2 id="指标四坪效和人效">指标四：坪效和人效&lt;/h2>
+&lt;p>&lt;strong>坪效目标：按行业定；人效目标：看趋势，不比绝对数&lt;/strong>&lt;/p>
+&lt;p>坪效 = 日均出库件数（或金额）÷ 仓库面积&lt;/p>
+&lt;p>人效 = 日均出库件数（或金额）÷ 出勤人数&lt;/p>
+&lt;p>这两个指标别拿来跟别人比，每个仓库的品类结构、自动化水平、订单形态都不一样。跟电商仓比坪效没意义，你的SKU可能是大件家具，人家是手机壳。&lt;/p>
+&lt;p>这两个指标的用法是&lt;strong>看趋势&lt;/strong>。如果坪效持续下降，说明库容利用率在恶化；人效持续下降，说明流程或管理出了问题。&lt;/p>
+&lt;h2 id="那些看起来很重要的指标其实可以不盯">那些&amp;quot;看起来很重要&amp;quot;的指标，其实可以不盯&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>库存周转率&lt;/strong>：这是供应链全局指标，不是仓库能单独决定的。采购批量、销售速度、需求波动，仓库说了不算。&lt;/li>
+&lt;li>&lt;strong>设备利用率&lt;/strong>：AGV跑了80%还是90%的时间，跟你的业务结果有几毛钱关系？&lt;/li>
+&lt;li>&lt;strong>员工出勤率&lt;/strong>：管理的底线，不是管理的目标。把出勤率当KPI，说明你已经在混日子了。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>管仓库，盯4个就够了。盯多了，你不是在管理仓库，你是在管理你的焦虑。&lt;/strong>&lt;/p></description></item><item><title>供应商不是乙方，是你的半个生产部</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</guid><description>&lt;p>我刚入行的时候，公司一个老采购教我的第一句话是：&amp;ldquo;对供应商，就得往死里压。你不压他，他觉得你好欺负。&amp;rdquo;&lt;/p>
+&lt;p>我当时觉得好有道理。直到后来看到一个更狠的案例，我才意识到这套逻辑有多短视。&lt;/p>
+&lt;p>一家汽配厂，常年对自己最大的铸件供应商极限压价，每年砍5%雷打不动。供应商扛了3年不赚钱，第四年直接说&amp;quot;不做了&amp;quot;。这家汽配厂紧急找新供应商，前后换了三家，每家都要3-6个月的质量认证周期。期间因为供应不稳定，丢了一个主机厂的大单，损失至少3000万。&lt;/p>
+&lt;p>&lt;strong>省了三年一共180万的采购差价，最后一口气亏了3000万。&lt;/strong>&lt;/p>
+&lt;h2 id="供应商不是你的乙方是你的半个生产部">供应商不是你的乙方，是你的半个生产部&lt;/h2>
+&lt;p>制造业供应链有个容易被忽略的事实：&lt;strong>你交付给客户的最终产品质量，有一半取决于供应商。&lt;/strong>&lt;/p>
+&lt;p>原材料不行，你工艺再好也白搭。交期不稳定，你排产计划再精也是自嗨。供应商的生产效率、质量管理能力、技术迭代速度——每一个都直接影响你的竞争力。&lt;/p>
+&lt;p>把供应商当成&amp;quot;可以随便换的乙方&amp;quot;来管理，意味着你在用最笨的方式对待你最重要的外部资源。&lt;/p>
+&lt;h2 id="第一层交易型关系90的公司停在这一层">第一层：交易型关系（90%的公司停在这一层）&lt;/h2>
+&lt;p>特征就一个字：&lt;strong>压&lt;/strong>。压价、压账期、压交期、压质量扣款。供应商在他们眼里不是一个&amp;quot;伙伴&amp;quot;，是一个&amp;quot;成本项&amp;quot;。&lt;/p>
+&lt;p>交易型关系的后果很明确：&lt;/p>
+&lt;ul>
+&lt;li>供应商永远给你报&amp;quot;含压价空间&amp;quot;的价格&lt;/li>
+&lt;li>有好的技术不会第一时间跟你分享&lt;/li>
+&lt;li>产能紧张的时候，你的订单排最后&lt;/li>
+&lt;li>你永远拿不到供应商的&amp;quot;最优资源&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你还觉得省了5%很赚吗？你把供应商当韭菜割，供应商就会把你当跳板用——赚钱的时候给你供货，不赚钱的时候第一个甩你。&lt;/strong>&lt;/p>
+&lt;h2 id="第二层合作型关系前20的供应链公司的玩法">第二层：合作型关系（前20%的供应链公司的玩法）&lt;/h2>
+&lt;p>合作型关系的核心是：&lt;strong>共同降本，而不是转移成本。&lt;/strong>&lt;/p>
+&lt;p>什么叫共同降本？供应商报一个交付价，你派人去帮供应商做精益改善，省下来的成本按比例分。大家都赚钱，关系才能长久。&lt;/p>
+&lt;p>具体怎么操作：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>联合降本项目&lt;/strong>：帮供应商优化工艺、降低损耗、提升良率，降下来的成本五五分。&lt;/li>
+&lt;li>&lt;strong>信息共享&lt;/strong>：把你的需求预测同步给供应商，让他提前备料排产，别让他猜。供应商猜不准，要么多备料（成本摊到你头上），要么少备料（紧急插单加价）。&lt;/li>
+&lt;li>&lt;strong>稳定合作承诺&lt;/strong>：给核心供应商一个&amp;quot;年框&amp;quot;，别一年一招标。供应商有了稳定的预期，才敢为你投资设备、储备人才。&lt;/li>
+&lt;li>&lt;strong>共同解决问题&lt;/strong>：出了问题别先谈罚款，先共同找根因。质量问题、交期问题，80%的根因不在供应商那边，在你的需求波动、你的设计变更、你的预测不准。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合作型关系的本质：让供应商的成功变成你的成功。&lt;/strong>&lt;/p>
+&lt;h2 id="第三层战略型关系顶级供应链的杀手锏">第三层：战略型关系（顶级供应链的杀手锏）&lt;/h2>
+&lt;p>战略型供应商不是&amp;quot;买东西的人&amp;quot;，是&amp;quot;帮你赢的人&amp;quot;。&lt;/p>
+&lt;p>丰田跟电装的关系是教科书级的案例：电装早期参与丰田的车型开发，新车型还在设计阶段，电装的工程师就已经在同步开发配套零部件了。这不是&amp;quot;采购&amp;quot;，这是&amp;quot;联合研发&amp;quot;。&lt;/p>
+&lt;p>战略型关系需要：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>早期介入&lt;/strong>：让关键供应商参与你的新产品开发流程&lt;/li>
+&lt;li>&lt;strong>技术共享&lt;/strong>：你给供应商方向，供应商给你方案，双向技术输入&lt;/li>
+&lt;li>&lt;strong>长期承诺&lt;/strong>：不是一年一签，是五年十年的合作框架，双方都有底气做长期投资&lt;/li>
+&lt;li>&lt;strong>利益绑定&lt;/strong>：可以考虑联合投资/交叉持股/利润分成等机制&lt;/li>
+&lt;/ul>
+&lt;p>当然，不是所有供应商都值得战略投入。筛选标准：&lt;strong>这个供应商的能力，是不是你未来3-5年竞争力的关键组成部分？&lt;/strong> 是，就值得投。&lt;/p>
+&lt;h2 id="怎么从交易型升级到合作型">怎么从交易型升级到合作型？&lt;/h2>
+&lt;p>别想着一步到位。从你的供应商池里挑出TOP 5（按采购金额），一个一个做关系升级：&lt;/p>
+&lt;p>&lt;strong>第一步：坐下来聊。&lt;/strong> 别谈价格，谈痛点。问供应商：你跟我们合作最大的困难是什么？我们的哪些行为增加了你的成本？&lt;/p>
+&lt;p>&lt;strong>第二步：选一个共同降本项目试试水。&lt;/strong> 哪怕省不了多少钱，关键是建立&amp;quot;我们是一边的&amp;quot;这个认知。&lt;/p>
+&lt;p>&lt;strong>第三步：签一个年度框架协议。&lt;/strong> 承诺量，不承诺价。量稳了，供应商才敢给好价。&lt;/p>
+&lt;p>&lt;strong>把供应商当自己人，他才会把你当自己人。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>干了10年供应链才懂：90%的乱象不是能力问题，是这三堵墙</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</guid><description>&lt;p>我刚入行做供应链那年，最困惑的一件事是：为什么公司里的每个部门看起来都在做&amp;quot;正确的事&amp;quot;，但整个供应链还是一团糟？&lt;/p>
+&lt;p>采购说&amp;quot;我降本了&amp;quot;，仓库说&amp;quot;我发货了&amp;quot;，计划说&amp;quot;我排产了&amp;quot;。每个部门的KPI都是绿的，但客户满意度是红的，库存周转率是红的，毛利率也是红的。&lt;/p>
+&lt;p>我花了大概5年才想明白这个问题：&lt;strong>每个部门都在局部最优，但全局是次优的。&lt;/strong> 因为有三堵看不见的墙，把信息、利益和决策隔在了不同的格子里。&lt;/p>
+&lt;h2 id="第一堵墙部门墙">第一堵墙：部门墙&lt;/h2>
+&lt;p>这是最显而易见也最难打破的墙。&lt;/p>
+&lt;p>销售接了一个大单，承诺客户&amp;quot;7天交货&amp;quot;。计划拿到订单一看，这个SKU的生产周期就要10天。销售说&amp;quot;客户很重要，想想办法&amp;quot;，计划说&amp;quot;产线已经排满了&amp;quot;。最后销售直接找厂长施压，插单生产，打乱了后面所有的排产计划，三个小客户的订单全部延期。&lt;/p>
+&lt;p>&lt;strong>在这个例子里，销售做错了吗？&lt;/strong> 没有，他的KPI是接单量。
+&lt;strong>计划做错了吗？&lt;/strong> 没有，他的KPI是排产满足率。
+&lt;strong>厂长做错了吗？&lt;/strong> 也没有，大客户的单子不能丢。&lt;/p>
+&lt;p>&lt;strong>每个人在自己的KPI框架里都是对的，但整体供应链被打乱了。&lt;/strong>&lt;/p>
+&lt;p>部门墙的本质是：&lt;strong>KPI体系的设计让部门之间利益冲突。&lt;/strong> 销售要量不要利，采购要低价不要交期，生产要产能利用率不要灵活性。这三个目标天然互相矛盾。&lt;/p>
+&lt;p>&lt;strong>打破部门墙的核心不是搞团建、不是喊口号，是把KPI从部门导向改成流程导向。&lt;/strong>&lt;/p>
+&lt;p>比如：别只看&amp;quot;采购成本&amp;quot;，看&amp;quot;总拥有成本（TCO）&amp;quot;。别只看&amp;quot;销售额&amp;quot;，看&amp;quot;毛利率&amp;quot;。别只看&amp;quot;计划达成率&amp;quot;，看&amp;quot;订单交付及时率&amp;quot;和&amp;quot;库存周转率&amp;quot;的组合指标。&lt;/p>
+&lt;p>&lt;strong>指标的颗粒对齐了，部门之间的博弈才会消失。&lt;/strong>&lt;/p>
+&lt;h2 id="第二堵墙公司墙">第二堵墙：公司墙&lt;/h2>
+&lt;p>这是最难搞的一堵墙，因为涉及外部利益。&lt;/p>
+&lt;p>你的公司是你的公司，供应商是供应商，客户是客户。三者之间有明确的法律边界，也有隐形的信息边界。&lt;/p>
+&lt;p>供应商不知道你下个月的促销计划，只能凭历史数据估。为了&amp;quot;不断供&amp;quot;，他多备了30%的库存——这些库存的成本，最终会通过价格转嫁给你。&lt;/p>
+&lt;p>你不知道客户的真实需求，客户给了个&amp;quot;预测量&amp;quot;但你不敢全信，你自己也多备了20%的安全库存。&lt;/p>
+&lt;p>&lt;strong>供应链上每一环都在各自多备库存，这就是&amp;quot;牛鞭效应&amp;quot;。&lt;/strong> 信息每往上传递一层，波动就被放大一次。&lt;/p>
+&lt;p>打破公司墙不靠合同，靠信息共享：&lt;/p>
+&lt;ul>
+&lt;li>把你的需求预测同步给供应商，给他一个&amp;quot;参考量&amp;quot;而不是&amp;quot;承诺量&amp;quot;&lt;/li>
+&lt;li>让供应商参与你的S&amp;amp;OP会议，让他听到一线的需求信号&lt;/li>
+&lt;li>跟核心客户建立VMI/CPFR机制，让客户的需求直接驱动你的补货&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你捂着信息，供应商就靠猜。他猜的偏差，最后都是你的成本。&lt;/strong>&lt;/p>
+&lt;h2 id="第三堵墙层级墙">第三堵墙：层级墙&lt;/h2>
+&lt;p>这堵墙最隐蔽，破坏力也最大。&lt;/p>
+&lt;p>一线仓库员工发现某个SKU的库位设计不合理，每次拣货要多走30米。他跟主管提了，主管说&amp;quot;我反映一下&amp;quot;。然后这个反馈在上报的路上消失了——因为中间隔着3个层级，每个层级都觉得&amp;quot;这不是我的KPI&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>层级墙的本质是：决策权在一线以上，但信息在一线。手握信息的人没权做决策，有权做决策的人没信息。&lt;/strong>&lt;/p>
+&lt;p>很多公司的供应链优化项目，方案是咨询公司做的，数据是总部提供的，一线执行的人从一开始就没被问过意见。上线以后发现方案跟现场完全不匹配，又是一轮&amp;quot;推倒重来&amp;quot;。&lt;/p>
+&lt;p>打破层级墙的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>授权一线&lt;/strong>：给班组长/仓库主管一定的调整权限，不需要事事审批&lt;/li>
+&lt;li>&lt;strong>建议闭环&lt;/strong>：一线提的改善建议，必须回馈&amp;quot;采纳/不采纳/为什么&amp;quot;，不能石沉大海&lt;/li>
+&lt;li>&lt;strong>管理层下一线&lt;/strong>：供应链总监每月至少去一次仓库/产线，不是视察，是听一线吐槽&lt;/li>
+&lt;/ul>
+&lt;h2 id="打破这三堵墙比上任何系统都管用">打破这三堵墙，比上任何系统都管用&lt;/h2>
+&lt;p>我见过太多公司花几百万上系统，但系统只是把现有的混乱&amp;quot;数字化&amp;quot;了一遍。信息还是堵在部门之间，数据还是捂着不共享，一线的问题还是传不到决策层。&lt;/p>
+&lt;p>&lt;strong>供应链管理的本质不是&amp;quot;管货&amp;quot;，是&amp;quot;管信息流&amp;quot;。&lt;/strong> 信息流跑通了，货自然就顺了。&lt;/p>
+&lt;p>打破三堵墙不需要花一分钱，需要的是：&lt;/p>
+&lt;ol>
+&lt;li>把KPI从&amp;quot;部门导向&amp;quot;改成&amp;quot;流程导向&amp;quot;&lt;/li>
+&lt;li>跟上下游共享真实的需求信号&lt;/li>
+&lt;li>把决策权下沉到离信息最近的人&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>墙是自己建的，也只有自己能拆。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>签了300份采购合同才敢说：这5条不看，迟早被供应商坑哭</title><link>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</guid><description>&lt;p>上个月一个做采购的妹子在微信上问我：&amp;ldquo;哥，供应商送来的货明显是次品，我拒收了，供应商反手把我们告了，说我们无故拒收违约。怎么办？&amp;rdquo;&lt;/p>
+&lt;p>我要来合同一看，验收标准那一栏写的是&amp;quot;按行业标准验收&amp;quot;。什么叫&amp;quot;行业标准&amp;quot;？谁定的？判定依据是什么？什么都没写。&lt;/p>
+&lt;p>&lt;strong>就这四个字，让她从有理变成了没理。&lt;/strong>&lt;/p>
+&lt;p>采购合同这件事，90%的采购人把它当行政流程：&amp;ldquo;法务审核过了就行，我不用管。&amp;ldquo;但法务审的是法律风险，不是业务风险。合同里的坑，最后买单的永远是业务。&lt;/p>
+&lt;h2 id="坑一验收标准写成按行业标准">坑一：验收标准写成&amp;quot;按行业标准&amp;rdquo;&lt;/h2>
+&lt;p>这是我在采购合同里见过最多的模糊条款，没有之一。&lt;/p>
+&lt;p>&amp;ldquo;按行业标准&amp;quot;&amp;ldquo;按国家标准&amp;quot;&amp;ldquo;按通用标准&amp;rdquo;——这些词放在合同里等于什么都没写。出了纠纷，你说按你的标准，供应商说按他的标准，谁都说服不了谁。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&lt;/strong>&lt;/p>
+&lt;p>验收标准要具体到可量化、可检验、无歧义的程度。比如：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;外观无划痕、色差ΔE≤2&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;尺寸公差±0.1mm&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;交付文档包含：出厂检验报告、材质证明、RoHS检测报告&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>如果涉及服务类采购，验收标准更要写清楚：&amp;ldquo;XX功能上线后连续运行7天无重大bug&amp;quot;&amp;ldquo;客服响应时间≤30秒，月满意度评分≥4.5&amp;rdquo;。&lt;/p>
+&lt;p>&lt;strong>验收标准写不清楚，付了钱再发现问题，你就从甲方变成乙方了。&lt;/strong>&lt;/p>
+&lt;h2 id="坑二违约责任只约束你不约束供应商">坑二：违约责任只约束你不约束供应商&lt;/h2>
+&lt;p>很多采购合同的违约条款是这样的：你晚付款一天，罚千分之五；供应商晚交货一天，罚千分之一。&lt;/p>
+&lt;p>&amp;ldquo;五倍差距&amp;quot;听起来夸张，但现实中比这个严重的不在少数。&lt;/p>
+&lt;p>更隐蔽的坑是：供应商的违约责任只在&amp;quot;延期交货&amp;quot;这块写了，但&amp;quot;质量不达标&amp;quot;&amp;ldquo;以次充好&amp;quot;&amp;ldquo;擅自转包&amp;quot;这些情况根本没提。出了问题你找不到条款去追责。&lt;/p>
+&lt;p>&lt;strong>怎么改：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>双方的违约金比例要对等，不能供应商罚你5‰你罚他1‰&lt;/li>
+&lt;li>供应商的违约情形要覆盖全面：延期、质量、知识产权侵权、转包、数据安全&lt;/li>
+&lt;li>加上&amp;quot;因供应商原因导致客户对下游客户的违约损失由供应商承担&amp;quot;的连带责任条款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>合同不能只保护供应商，也得保护你自己。&lt;/strong>&lt;/p>
+&lt;h2 id="坑三知识产权归属没写清楚">坑三：知识产权归属没写清楚&lt;/h2>
+&lt;p>这一条在软件采购、设计服务、模具开发这类采购里尤其致命。&lt;/p>
+&lt;p>案例：一家消费品公司找设计公司开发了一套产品外观，付了全款。两年后想换供应商继续用这套设计，原设计公司跳出来说&amp;quot;知识产权没转让，你不能给别人用&amp;rdquo;。合同一翻，确实没写知识产权归属。&lt;/p>
+&lt;p>&lt;strong>结果：要么打官司，要么再付一笔&amp;quot;转让费&amp;rdquo;。&lt;/strong>&lt;/p>
+&lt;p>采购合同里的知识产权条款必须明确：&lt;/p>
+&lt;ul>
+&lt;li>为本项目产生的知识产权归谁所有&lt;/li>
+&lt;li>供应商使用的第三方知识产权是否合法授权（避免连带侵权）&lt;/li>
+&lt;li>供应商的保密义务范围和时间&lt;/li>
+&lt;/ul>
+&lt;h2 id="坑四不可抗力条款成了供应商的万能挡箭牌">坑四：不可抗力条款成了供应商的万能挡箭牌&lt;/h2>
+&lt;p>疫情之后，供应商最爱用的延期理由：不可抗力。&lt;/p>
+&lt;p>但&amp;quot;不可抗力&amp;quot;不是万能的。&amp;ldquo;上游原材料涨价了&amp;quot;算不算不可抗力？&amp;ldquo;工厂停电了&amp;quot;算不算？&amp;ldquo;工人罢工了&amp;quot;算不算？&lt;/p>
+&lt;p>如果合同里不可抗力条款写得太宽泛，供应商什么都能往里套。&lt;/p>
+&lt;p>&lt;strong>怎么防：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>明确列举不可抗力的范围：自然灾害、战争、政府禁令等真正不可预见、不可避免的事件&lt;/li>
+&lt;li>明确排除：原材料价格波动、产能不足、员工离职、设备故障等商业风险&lt;/li>
+&lt;li>加上通知义务：供应商在不可抗力发生后24小时内书面通知，并提供证明，否则不免责&lt;/li>
+&lt;li>加上终止权：不可抗力持续超过X天，你有权单方面解除合同&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>不可抗力不是免死金牌，商业风险不能混进去。&lt;/strong>&lt;/p>
+&lt;h2 id="坑五争议解决方式写得太随便">坑五：争议解决方式写得太随便&lt;/h2>
+&lt;p>这一条不看的人最多，吃亏的人也最多。&lt;/p>
+&lt;p>&amp;ldquo;如有争议，双方协商解决；协商不成的，提交法院处理。&amp;rdquo;&lt;/p>
+&lt;p>哪个法院？你公司所在地？供应商所在地？合同签订地？不写清楚，供应商肯定选对他有利的地方起诉。跨省打官司，光差旅费就能让你吃一壶。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&amp;rdquo;
+因本合同产生的争议，双方协商不成的，任何一方均有权向甲方所在地有管辖权的人民法院提起诉讼。&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>如果是跨境采购，优先选仲裁而非诉讼：仲裁裁决在170多个《纽约公约》成员国内都可以执行，法院判决出了国境基本是一张废纸。&lt;/p>
+&lt;p>另外注意仲裁机构的选定要有公信力：中国国际经济贸易仲裁委员会（CIETAC）、香港国际仲裁中心（HKIAC）、新加坡国际仲裁中心（SIAC）都是靠谱选择。&lt;/p>
+&lt;p>&lt;strong>争议解决条款是你最后的防线，别等出事了才发现这条没写清楚。&lt;/strong>&lt;/p>
+&lt;h2 id="一张合同自查清单">一张合同自查清单&lt;/h2>
+&lt;p>签合同之前，找5分钟过一下这5条：&lt;/p>
+&lt;ol>
+&lt;li>验收标准能不能量化？不能 → 改&lt;/li>
+&lt;li>违约条款是不是双向对等的？不是 → 改&lt;/li>
+&lt;li>知识产权归谁，写清楚了没有？没有 → 改&lt;/li>
+&lt;li>不可抗力有没有排除商业风险？没有 → 改&lt;/li>
+&lt;li>争议解决法院/仲裁机构指定了没有？没指定 → 改&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合同不是法务审完就完了的事，是你自己的风险防线。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>花80万上AGV，仓库效率反降了25%：自动化不是买设备</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</guid><description>&lt;p>上个礼拜，一个做电商仓储的兄弟给我打电话，语气像吃了屎。&lt;/p>
+&lt;p>&amp;ldquo;我花了80万上了套AGV，结果出库效率他妈还降了25%！老板现在天天盯我，我感觉要凉了。&amp;rdquo;&lt;/p>
+&lt;p>我说你别急，把情况细说一下。他说完以后，我发现他的问题根本不是设备的事——是仓库的拣货路径从来就没优化过，AGV只是把他原来的混乱&amp;quot;自动执行&amp;quot;了一遍。&lt;/p>
+&lt;p>这不叫自动化，这叫&lt;strong>把垃圾流程跑得更快&lt;/strong>。&lt;/p>
+&lt;h2 id="你买的是设备不是解决方案">你买的是设备，不是解决方案&lt;/h2>
+&lt;p>很多老板对&amp;quot;仓储自动化&amp;quot;的理解就四个字：砸钱买设备。&lt;/p>
+&lt;p>AGV很酷，自动分拣很酷，无人仓听起来很未来。然后花几十上百万把设备搬进来，期待第二天效率飙升、人力减半、KPI全绿。&lt;/p>
+&lt;p>现实是：设备进场第一周，AGV堵在通道里互相让路；第二周，员工发现手动推车比等AGV快三倍；第三周，老板开始后悔。&lt;/p>
+&lt;p>&lt;strong>核心问题：自动化设备是&amp;quot;手&amp;quot;，不是&amp;quot;脑&amp;quot;。&lt;/strong> 如果你的仓库连基础的动线规划、库位管理、订单波次都没理顺，AGV只会把你的混乱撸一遍，然后以更快的速度制造更严重的后果。&lt;/p>
+&lt;h2 id="第一个坑流程没理就上硬件">第一个坑：流程没理就上硬件&lt;/h2>
+&lt;p>仓储自动化的正确顺序是：&lt;strong>流程 → 系统 → 设备&lt;/strong>。先跑通人工流程，再上WMS管起来，最后才是自动化设备替代人工操作。&lt;/p>
+&lt;p>但90%的公司反过来做：先被销售一顿忽悠买了设备，然后发现设备跟前置流程不兼容，最后让流程去迁就设备。&lt;/p>
+&lt;p>我见过一个仓库，上了自动分拣线以后，因为原来的SKU编码体系一团糟，分拣错误率从3%飙到12%。机器分拣速度确实快了，但分错的也多了，退货率和客诉直接翻倍。&lt;/p>
+&lt;p>&lt;strong>流程没理顺的设备，等于给一个路痴配了辆法拉利——车是好车，但开不到目的地。&lt;/strong>&lt;/p>
+&lt;h2 id="第二个坑数据基础稀巴烂">第二个坑：数据基础稀巴烂&lt;/h2>
+&lt;p>自动化设备依赖数据。库位坐标、SKU尺寸重量、订单波动规律……这些数据如果不准，设备就是瞎子在跑步机上。&lt;/p>
+&lt;p>我诊断过不少&amp;quot;自动化失败&amp;quot;的案例，根因几乎都指向同一个：&lt;strong>基础数据质量不过关&lt;/strong>。&lt;/p>
+&lt;p>库位信息是手工录入的、SKU体积凭空估的、库存准确率不到90%——在这种数据基础上搞自动化，等于在沼泽地上盖摩天楼。&lt;/p>
+&lt;p>一个真实案例：某仓库上AGV后发现，系统里50%的库位坐标跟实际差了30厘米以上。AGV按系统数据去取货，到了位置发现货架根本不在那。最后AGV变成了仓库里的&amp;quot;障碍物&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>想上自动化，先把你的库存准确率干到99%以上，库位数据精确到厘米级，否则别碰。&lt;/strong>&lt;/p>
+&lt;h2 id="第三个坑把人当成了敌人">第三个坑：把&amp;quot;人&amp;quot;当成了敌人&lt;/h2>
+&lt;p>很多仓储自动化的宣传口径是&amp;quot;替代人力、降低成本&amp;quot;。这种叙事本身就是有问题的。&lt;/p>
+&lt;p>自动化的真正价值不是替代人，是&lt;strong>让人做更有价值的事&lt;/strong>。AGV替代的是&amp;quot;走路&amp;quot;这个动作，不是替代&amp;quot;判断&amp;quot;这个能力。&lt;/p>
+&lt;p>我见过最成功的仓储自动化案例，反而是把人用到了极致：AGV负责搬运，人负责异常处理、质量检查、灵活拣选——人工效率反而因为设备解放了双腿而大幅提升。&lt;/p>
+&lt;p>而那些把自动化当成&amp;quot;裁员工具&amp;quot;的公司，上线以后发现更惨：有经验的老员工走了，剩下的人不会处理异常情况，一旦设备出问题整个仓库停摆。&lt;/p>
+&lt;p>&lt;strong>自动化+聪明的人=降维打击；自动化+想省钱裁掉聪明的人=灾难。&lt;/strong>&lt;/p>
+&lt;h2 id="上自动化之前先问自己这5个问题">上自动化之前，先问自己这5个问题&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>你的流程跑通了吗？&lt;/strong> 人工模式下出库效率、准确率达标没有？&lt;/li>
+&lt;li>&lt;strong>你的数据准吗？&lt;/strong> 库存准确率、库位精度、SKU基础信息完整吗？&lt;/li>
+&lt;li>&lt;strong>你的订单结构稳定吗？&lt;/strong> 波峰波谷的规律摸清楚没有？&lt;/li>
+&lt;li>&lt;strong>你的人准备好了吗？&lt;/strong> 有没有能维护设备、处理异常的技术人员？&lt;/li>
+&lt;li>&lt;strong>你的ROI算对了吗？&lt;/strong> 别只看设备价格，维护成本、培训成本、系统对接成本加一起再算。&lt;/li>
+&lt;/ol>
+&lt;p>如果这5个问题有2个以上是&amp;quot;不确定&amp;quot;，我劝你先别急着上设备。&lt;/p>
+&lt;h2 id="仓储自动化的正确打开方式">仓储自动化的正确打开方式&lt;/h2>
+&lt;p>&lt;strong>第一步：跑数据。&lt;/strong> 至少积累6个月以上的运营数据，搞清楚你的订单波动、SKU活跃度、拣货路径热力图。&lt;/p>
+&lt;p>&lt;strong>第二步：优化流程。&lt;/strong> 在人工模式下把流程优化到极致，把该省的动作省了，把该调的库位调了。&lt;/p>
+&lt;p>&lt;strong>第三步：上WMS。&lt;/strong> 用系统管起来，让数据跑通，让流程固化。&lt;/p>
+&lt;p>&lt;strong>第四步：局部试点。&lt;/strong> 选一条线、一个区域先上设备，跑3个月不出大问题再全面铺开。&lt;/p>
+&lt;p>&lt;strong>第五步：人机协同。&lt;/strong> 别把自动化当裁员方案，把自动化当工具，让人和机器各自做自己擅长的事。&lt;/p>
+&lt;p>仓储自动化不是换设备，是换管理思维。设备是工具，人才是灵魂。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>需求预测不是算命：3个动作让准确率从50%干到80%</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</guid><description>&lt;p>有个做快消品供应链的朋友，每个月底做需求预测的时候都特别痛苦。他说那种感觉就像在算命：对着Excel瞎填几个数，然后祈祷下个月不要偏差太大。&lt;/p>
+&lt;p>我问他偏差大概多少，他说：&amp;ldquo;好的时候30%，差的时候50%以上。&amp;rdquo;&lt;/p>
+&lt;p>50%的预测偏差意味着什么？意味着你备的货有一半是浪费的，或者有一半的订单你供不上。&lt;/p>
+&lt;h2 id="需求预测的真相别追求100准确">需求预测的真相：别追求100%准确&lt;/h2>
+&lt;p>供应链人最常犯的一个认知错误：以为需求预测就应该&amp;quot;准&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>需求预测的本质不是&amp;quot;预测&amp;quot;，是&amp;quot;管理不确定性&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你能预测双十一卖多少吗？不能。但你知道会暴增。你能预测下周三下雨卖多少伞吗？不能。但你知道下雨天伞会多卖。&lt;/p>
+&lt;p>你不需要精确到个位数，你需要的是：知道什么时候该多备货，什么时候该少备货，偏差了怎么快速调整。&lt;/p>
+&lt;h2 id="动作一区分可预测和不可预测">动作一：区分&amp;quot;可预测&amp;quot;和&amp;quot;不可预测&amp;quot;&lt;/h2>
+&lt;p>不是所有SKU的需求都值得预测。你的2000个SKU里，大概只有20%的需求是有规律的。&lt;/p>
+&lt;p>&lt;strong>先做一遍ABC-XYZ分析：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>X类（需求稳定）：历史波动小，适合用时间序列模型预测&lt;/li>
+&lt;li>Y类（需求有趋势）：有季节性或增长趋势，适合用回归模型&lt;/li>
+&lt;li>Z类（需求随机）：完全没规律，别费劲预测了，用安全库存兜底&lt;/li>
+&lt;/ul>
+&lt;p>然后把精力集中在那20%有规律的SKU上（AX、BX、AY、BY），这20%通常贡献80%的销售额。剩下的那些，设一个合理的安全库存就行了，别在它们身上浪费时间。&lt;/p>
+&lt;p>&lt;strong>精力花在对的地方，准确率自然就上去了。&lt;/strong>&lt;/p>
+&lt;h2 id="动作二用协同预测替代自己猜">动作二：用&amp;quot;协同预测&amp;quot;替代&amp;quot;自己猜&amp;quot;&lt;/h2>
+&lt;p>大多数公司的需求预测是怎么做的？计划部一个人对着历史数据拍脑袋。&lt;/p>
+&lt;p>但你的销售知道客户下个月要搞大促，你的市场部知道下周要投一波广告，你的客户可能在季度会上说过&amp;quot;明年扩产&amp;quot;——这些信息都在不同人的脑子里，没人把它们汇到预测里来。&lt;/p>
+&lt;p>&lt;strong>协同预测不是搞多复杂的系统，就是做一件事：把关键信息汇集到一起。&lt;/strong>&lt;/p>
+&lt;p>实操建议：每月一次S&amp;amp;OP会议（销售与运营计划会议），让销售、市场、生产、采购坐下来对一遍下个月的需求。不需要每个人报数，但要把异常信息同步：&lt;/p>
+&lt;ul>
+&lt;li>销售：大客户有没有异常需求？有没有大项目要签？&lt;/li>
+&lt;li>市场：下个月有没有促销活动？力度多大？&lt;/li>
+&lt;li>生产：有没有产能瓶颈？新品什么时候上市？&lt;/li>
+&lt;/ul>
+&lt;p>这些信息加上历史数据趋势，预测准确率至少能提升10-15个百分点。&lt;/p>
+&lt;p>&lt;strong>一个人猜叫算命，一群人一起看叫管理。&lt;/strong>&lt;/p>
+&lt;h2 id="动作三建立预测纠偏机制">动作三：建立&amp;quot;预测纠偏&amp;quot;机制&lt;/h2>
+&lt;p>不管你用什么方法做预测，有一个事实必须接受：&lt;strong>你的预测一定会偏差。&lt;/strong>&lt;/p>
+&lt;p>关键不是你偏差了多少，而是你什么时候发现偏差、多快能调整。&lt;/p>
+&lt;p>&lt;strong>建立&amp;quot;预测 vs 实际&amp;quot;的周度跟踪：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每周一对比上周的预测值和实际值&lt;/li>
+&lt;li>偏差超过20%的SKU标红&lt;/li>
+&lt;li>标红的SKU立刻启动&amp;quot;纠偏流程&amp;quot;：调整安全库存、跟供应商沟通加急/延迟、通知销售调整出货计划&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个最常见的错误：偏差已经发生了还在死扛，继续按原来的预测执行。&lt;/strong> 该加急就加急，该暂停就暂停，越早纠偏成本越低。&lt;/p>
+&lt;p>小技巧：在WMS或ERP里设一个&amp;quot;预警库存&amp;quot;水位线。当实际出库速度超过预测的X%，系统自动提醒计划员检查是否需要补货。别等库存见底了才发现。&lt;/p>
+&lt;h2 id="不需要ai先做好这三件事">不需要AI，先做好这三件事&lt;/h2>
+&lt;p>现在动不动就有人跟我说&amp;quot;需求预测要用AI、要用机器学习&amp;quot;。&lt;/p>
+&lt;p>我说你先别想那么远。在你的数据基础还很差、你的协同机制还没跑通、你的纠偏流程还不存在的情况下，上AI预测就是给垃圾数据套一个高级算法，出来的还是垃圾。&lt;/p>
+&lt;p>&lt;strong>先做这三件简单的事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>给你的SKU分个类，知道哪些值得花时间预测&lt;/li>
+&lt;li>每个月拉着相关的人聊一次需求&lt;/li>
+&lt;li>每周对一下预测和实际的差距，偏了就调&lt;/li>
+&lt;/ol>
+&lt;p>这三件事做到了，预测准确率从50%到80%不是难事。拿这80%的基础再去谈AI、谈模型，才是有意义的升级。&lt;/p>
+&lt;p>&lt;strong>需求预测的及格线不是100%准确，是比上个月更准确一点。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
 &lt;p>3天停产 + 2天物流 + 产线调整 = 停线5天。直接损失300万，订单延期赔了80万。&lt;/p>
 &lt;p>老板问我：不是有供应商评估吗？我说：评了，优秀。老板又问：那为什么只有一家？我沉默了。&lt;/p>
 &lt;h3 id="供应链最大的风险你以为没事">供应链最大的风险：你以为没事&lt;/h3>

@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>需求预测 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/</link><description>Recent content in 需求预测 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>需求预测做了3年，1次都没准过</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</guid><description>&lt;p>去年双十一前夕，我拿着模型跑出来的需求预测去开会。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>需求预测 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/</link><description>Recent content in 需求预测 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>需求预测不是算命：3个动作让准确率从50%干到80%</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</guid><description>&lt;p>有个做快消品供应链的朋友，每个月底做需求预测的时候都特别痛苦。他说那种感觉就像在算命：对着Excel瞎填几个数，然后祈祷下个月不要偏差太大。&lt;/p>
+&lt;p>我问他偏差大概多少，他说：&amp;ldquo;好的时候30%，差的时候50%以上。&amp;rdquo;&lt;/p>
+&lt;p>50%的预测偏差意味着什么？意味着你备的货有一半是浪费的，或者有一半的订单你供不上。&lt;/p>
+&lt;h2 id="需求预测的真相别追求100准确">需求预测的真相：别追求100%准确&lt;/h2>
+&lt;p>供应链人最常犯的一个认知错误：以为需求预测就应该&amp;quot;准&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>需求预测的本质不是&amp;quot;预测&amp;quot;，是&amp;quot;管理不确定性&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你能预测双十一卖多少吗？不能。但你知道会暴增。你能预测下周三下雨卖多少伞吗？不能。但你知道下雨天伞会多卖。&lt;/p>
+&lt;p>你不需要精确到个位数，你需要的是：知道什么时候该多备货，什么时候该少备货，偏差了怎么快速调整。&lt;/p>
+&lt;h2 id="动作一区分可预测和不可预测">动作一：区分&amp;quot;可预测&amp;quot;和&amp;quot;不可预测&amp;quot;&lt;/h2>
+&lt;p>不是所有SKU的需求都值得预测。你的2000个SKU里，大概只有20%的需求是有规律的。&lt;/p>
+&lt;p>&lt;strong>先做一遍ABC-XYZ分析：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>X类（需求稳定）：历史波动小，适合用时间序列模型预测&lt;/li>
+&lt;li>Y类（需求有趋势）：有季节性或增长趋势，适合用回归模型&lt;/li>
+&lt;li>Z类（需求随机）：完全没规律，别费劲预测了，用安全库存兜底&lt;/li>
+&lt;/ul>
+&lt;p>然后把精力集中在那20%有规律的SKU上（AX、BX、AY、BY），这20%通常贡献80%的销售额。剩下的那些，设一个合理的安全库存就行了，别在它们身上浪费时间。&lt;/p>
+&lt;p>&lt;strong>精力花在对的地方，准确率自然就上去了。&lt;/strong>&lt;/p>
+&lt;h2 id="动作二用协同预测替代自己猜">动作二：用&amp;quot;协同预测&amp;quot;替代&amp;quot;自己猜&amp;quot;&lt;/h2>
+&lt;p>大多数公司的需求预测是怎么做的？计划部一个人对着历史数据拍脑袋。&lt;/p>
+&lt;p>但你的销售知道客户下个月要搞大促，你的市场部知道下周要投一波广告，你的客户可能在季度会上说过&amp;quot;明年扩产&amp;quot;——这些信息都在不同人的脑子里，没人把它们汇到预测里来。&lt;/p>
+&lt;p>&lt;strong>协同预测不是搞多复杂的系统，就是做一件事：把关键信息汇集到一起。&lt;/strong>&lt;/p>
+&lt;p>实操建议：每月一次S&amp;amp;OP会议（销售与运营计划会议），让销售、市场、生产、采购坐下来对一遍下个月的需求。不需要每个人报数，但要把异常信息同步：&lt;/p>
+&lt;ul>
+&lt;li>销售：大客户有没有异常需求？有没有大项目要签？&lt;/li>
+&lt;li>市场：下个月有没有促销活动？力度多大？&lt;/li>
+&lt;li>生产：有没有产能瓶颈？新品什么时候上市？&lt;/li>
+&lt;/ul>
+&lt;p>这些信息加上历史数据趋势，预测准确率至少能提升10-15个百分点。&lt;/p>
+&lt;p>&lt;strong>一个人猜叫算命，一群人一起看叫管理。&lt;/strong>&lt;/p>
+&lt;h2 id="动作三建立预测纠偏机制">动作三：建立&amp;quot;预测纠偏&amp;quot;机制&lt;/h2>
+&lt;p>不管你用什么方法做预测，有一个事实必须接受：&lt;strong>你的预测一定会偏差。&lt;/strong>&lt;/p>
+&lt;p>关键不是你偏差了多少，而是你什么时候发现偏差、多快能调整。&lt;/p>
+&lt;p>&lt;strong>建立&amp;quot;预测 vs 实际&amp;quot;的周度跟踪：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每周一对比上周的预测值和实际值&lt;/li>
+&lt;li>偏差超过20%的SKU标红&lt;/li>
+&lt;li>标红的SKU立刻启动&amp;quot;纠偏流程&amp;quot;：调整安全库存、跟供应商沟通加急/延迟、通知销售调整出货计划&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个最常见的错误：偏差已经发生了还在死扛，继续按原来的预测执行。&lt;/strong> 该加急就加急，该暂停就暂停，越早纠偏成本越低。&lt;/p>
+&lt;p>小技巧：在WMS或ERP里设一个&amp;quot;预警库存&amp;quot;水位线。当实际出库速度超过预测的X%，系统自动提醒计划员检查是否需要补货。别等库存见底了才发现。&lt;/p>
+&lt;h2 id="不需要ai先做好这三件事">不需要AI，先做好这三件事&lt;/h2>
+&lt;p>现在动不动就有人跟我说&amp;quot;需求预测要用AI、要用机器学习&amp;quot;。&lt;/p>
+&lt;p>我说你先别想那么远。在你的数据基础还很差、你的协同机制还没跑通、你的纠偏流程还不存在的情况下，上AI预测就是给垃圾数据套一个高级算法，出来的还是垃圾。&lt;/p>
+&lt;p>&lt;strong>先做这三件简单的事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>给你的SKU分个类，知道哪些值得花时间预测&lt;/li>
+&lt;li>每个月拉着相关的人聊一次需求&lt;/li>
+&lt;li>每周对一下预测和实际的差距，偏了就调&lt;/li>
+&lt;/ol>
+&lt;p>这三件事做到了，预测准确率从50%到80%不是难事。拿这80%的基础再去谈AI、谈模型，才是有意义的升级。&lt;/p>
+&lt;p>&lt;strong>需求预测的及格线不是100%准确，是比上个月更准确一点。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>需求预测做了3年，1次都没准过</title><link>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecast-pain/</guid><description>&lt;p>去年双十一前夕，我拿着模型跑出来的需求预测去开会。&lt;/p>
 &lt;p>销售总监看了一眼，直接把报告扔回桌上：&amp;ldquo;你这个数，跟我们实际订单差了一倍。&amp;rdquo;&lt;/p>
 &lt;p>我当时脸都绿了。&lt;/p>
 &lt;p>会后问了才知道，他们跟一个大客户签了框架协议，量早就定了，只是还没录入系统。&lt;/p>

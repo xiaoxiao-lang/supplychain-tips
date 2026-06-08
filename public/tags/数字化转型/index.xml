@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>2026年做供应链，不会数据分析只能等死</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</guid><description>&lt;p>2026年了，还在用Excel做需求预测、靠拍脑袋定安全库存的供应链人，说实话，风险已经大到睡不着觉了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线3个月，我差点被全公司骂走：90%的人栽在同一个坑里</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>&amp;ldquo;ERP上线那天，我凌晨3点还在办公室。不是激动的，是害怕的。因为我知道明天整个公司的人都会来找我，而系统有一半的功能可能跑不通。&amp;rdquo;&lt;/p>
+&lt;p>这是一个做ERP实施的朋友跟我说的原话。&lt;/p>
+&lt;p>ERP上线是供应链人职业生涯里最容易&amp;quot;一战成名&amp;quot;也最容易&amp;quot;一败涂地&amp;quot;的项目。做好了升职加薪，做砸了卷铺盖走人。&lt;/p>
+&lt;p>而做砸的概率，远超你的想象。业内普遍数据：ERP实施&amp;quot;不满意率&amp;quot;超过50%。&lt;/p>
+&lt;h2 id="erp失败根因从来不是软件不行">ERP失败，根因从来不是软件不行&lt;/h2>
+&lt;p>SAP、Oracle、用友、金蝶——这些软件的底层逻辑都是几十年工业管理实践的结晶，它们本身没问题。&lt;/p>
+&lt;p>&lt;strong>出问题的永远是人。&lt;/strong>&lt;/p>
+&lt;p>我见过用一套金蝶把供应链管得井井有条的公司，也见过花800万上SAP最后一地鸡毛的公司。差距不在软件，在实施。&lt;/p>
+&lt;h2 id="死亡陷阱一目标写成提升管理水平">死亡陷阱一：目标写成&amp;quot;提升管理水平&amp;quot;&lt;/h2>
+&lt;p>&amp;ldquo;我们要通过ERP提升公司管理水平、实现数字化转型。&amp;rdquo;&lt;/p>
+&lt;p>这是90%的ERP立项报告里的原话。这句话等于什么都没说。&lt;/p>
+&lt;p>什么叫&amp;quot;管理水平提升&amp;quot;？库存周转率从多少提到多少？订单准确率从多少提到多少？关账时间从几天缩短到几天？&lt;/p>
+&lt;p>&lt;strong>没有量化目标的ERP项目，注定失败。&lt;/strong> 因为项目过程中任何决策都没有判断标准——是优先上线速度还是优先数据质量？是满足财务需求还是满足业务需求？没有目标，就没有优先级。&lt;/p>
+&lt;p>&lt;strong>正确做法：&lt;/strong> 立项时写清楚3-5个可量化的核心目标，比如：&lt;/p>
+&lt;ul>
+&lt;li>库存准确率从92%提升到99%&lt;/li>
+&lt;li>月结关账从7天缩短到3天&lt;/li>
+&lt;li>订单交付及时率从85%提升到95%&lt;/li>
+&lt;/ul>
+&lt;p>每个目标后面跟一个负责人，跟一个考核时间。做不到要有人承担责任。&lt;/p>
+&lt;h2 id="死亡陷阱二基础数据比垃圾桶还脏">死亡陷阱二：基础数据比垃圾桶还脏&lt;/h2>
+&lt;p>物料编码一物多码、BOM长期不更新、供应商信息重复混乱、库存数据跟实际差了十万八千里。&lt;/p>
+&lt;p>&lt;strong>这些垃圾数据导入ERP，ERP就会基于垃圾数据跑出垃圾结果。&lt;/strong>&lt;/p>
+&lt;p>很多公司对&amp;quot;数据清洗&amp;quot;的理解就是：把Excel里的数据导进新系统。这不叫清洗，叫&amp;quot;搬垃圾&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>数据清洗至少要做三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>去重&lt;/strong>：一个物料只有一个编码，一个供应商只有一个档案&lt;/li>
+&lt;li>&lt;strong>补全&lt;/strong>：缺失的字段（规格、单位、提前期、价格）全部补齐&lt;/li>
+&lt;li>&lt;strong>校验&lt;/strong>：用实际库存盘点去校验系统数据，修正差异&lt;/li>
+&lt;/ol>
+&lt;p>这三件事至少需要2-3个月，而且要业务部门配合（不是IT部门单干）。那些号称&amp;quot;3个月上线ERP&amp;quot;的项目，数据清洗的时间够不够？你自己品。&lt;/p>
+&lt;h2 id="死亡陷阱三一把手只立项不参与">死亡陷阱三：一把手只立项不参与&lt;/h2>
+&lt;p>&amp;ldquo;ERP项目是IT项目，让IT总监负责就行了。&amp;quot;——一把手这么想的那一刻，项目就已经失败了一半。&lt;/p>
+&lt;p>ERP表面上是IT系统，实际上是&lt;strong>管理变革&lt;/strong>。它要改的是部门的流程、人员的职责、数据的归属。这些东西涉及部门利益，没有一把手拍板，谁推得动？&lt;/p>
+&lt;p>财务说&amp;quot;报表格式不能改&amp;rdquo;，销售说&amp;quot;客户信息不能共享&amp;quot;，生产说&amp;quot;你们别管我怎么排产&amp;quot;——IT总监能说服谁？说服不了，就只能妥协。妥协一次流程歪一块，妥协十次系统就废了。&lt;/p>
+&lt;p>&lt;strong>一把手在ERP项目里不需要每天盯着，但必须做三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>定调子：ERP是全公司的战略项目，各部门无条件配合&lt;/li>
+&lt;li>拍板子：部门间的流程冲突，一把手来决策&lt;/li>
+&lt;li>打板子：推不动的部门负责人，一把手出面谈话&lt;/li>
+&lt;/ol>
+&lt;p>一把手不参与的ERP，叫&amp;quot;IT部门的自嗨&amp;quot;。&lt;/p>
+&lt;h2 id="死亡陷阱四培训就是发个手册自己看">死亡陷阱四：培训就是&amp;quot;发个手册自己看&amp;quot;&lt;/h2>
+&lt;p>系统上线前一周，组织两场培训，投影仪放一遍操作流程，讲完散会。然后上线第一天，全公司的人都在问&amp;quot;这个按钮在哪&amp;quot;&amp;ldquo;那个单据怎么录&amp;rdquo;。&lt;/p>
+&lt;p>这不叫培训，叫&amp;quot;通知你系统要上线了&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>有效的ERP培训必须做到：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>分层培训&lt;/strong>：操作员、部门主管、系统管理员分别培训，内容不同&lt;/li>
+&lt;li>&lt;strong>实操考核&lt;/strong>：不是听一遍就算，要上测试环境实际操作、考核通过才能上岗&lt;/li>
+&lt;li>&lt;strong>上线陪跑&lt;/strong>：上线第一周，实施团队驻场，有问题当场解决&lt;/li>
+&lt;li>&lt;strong>建立知识库&lt;/strong>：把常见问题录成短视频、写成FAQ，新人来了能自学&lt;/li>
+&lt;/ul>
+&lt;p>培训不够的ERP上线，等于让一群没学过开车的人上高速——出事故是必然的，不出是运气。&lt;/p>
+&lt;h2 id="上线不是结束是开始">上线不是结束，是开始&lt;/h2>
+&lt;p>最后一个忠告：ERP上线后前三个月，才是真正的考验。&lt;/p>
+&lt;p>系统跑出来的数据对不对？报表出来的数字跟原来对得上吗？业务流程有没有出现新的堵点？这些问题都要在上线后持续追踪。&lt;/p>
+&lt;p>&lt;strong>建议上线后三个月内：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每周一次复盘会，收集各部门反馈&lt;/li>
+&lt;li>每月一次数据审计，对比系统数据和实际数据&lt;/li>
+&lt;li>建立一个&amp;quot;问题清单&amp;quot;，排优先级一个一个改&lt;/li>
+&lt;/ul>
+&lt;p>ERP上线不够，持续优化才够。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>2026年做供应链，不会数据分析只能等死</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/</guid><description>&lt;p>2026年了，还在用Excel做需求预测、靠拍脑袋定安全库存的供应链人，说实话，风险已经大到睡不着觉了。&lt;/p>
 &lt;p>不是危言耸听。我最近跟几个同行聊，发现一个很残酷的事实：&lt;strong>会用数据分析的供应链人，薪资已经比只会Excel的高了40-60%，而且差距还在拉大。&lt;/strong>&lt;/p>
 &lt;p>这不是工具之争，这是生存能力之争。&lt;/p>
 &lt;h2 id="现状70的企业还在用excel跑供应链">现状：70%的企业还在用Excel跑供应链&lt;/h2>

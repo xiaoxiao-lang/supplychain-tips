@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组织管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%84%E7%BB%87%E7%AE%A1%E7%90%86/</link><description>Recent content in 组织管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%84%E7%BB%87%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>干了10年供应链才懂：90%的乱象不是能力问题，是这三堵墙</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</guid><description>&lt;p>我刚入行做供应链那年，最困惑的一件事是：为什么公司里的每个部门看起来都在做&amp;quot;正确的事&amp;quot;，但整个供应链还是一团糟？&lt;/p>
+&lt;p>采购说&amp;quot;我降本了&amp;quot;，仓库说&amp;quot;我发货了&amp;quot;，计划说&amp;quot;我排产了&amp;quot;。每个部门的KPI都是绿的，但客户满意度是红的，库存周转率是红的，毛利率也是红的。&lt;/p>
+&lt;p>我花了大概5年才想明白这个问题：&lt;strong>每个部门都在局部最优，但全局是次优的。&lt;/strong> 因为有三堵看不见的墙，把信息、利益和决策隔在了不同的格子里。&lt;/p>
+&lt;h2 id="第一堵墙部门墙">第一堵墙：部门墙&lt;/h2>
+&lt;p>这是最显而易见也最难打破的墙。&lt;/p>
+&lt;p>销售接了一个大单，承诺客户&amp;quot;7天交货&amp;quot;。计划拿到订单一看，这个SKU的生产周期就要10天。销售说&amp;quot;客户很重要，想想办法&amp;quot;，计划说&amp;quot;产线已经排满了&amp;quot;。最后销售直接找厂长施压，插单生产，打乱了后面所有的排产计划，三个小客户的订单全部延期。&lt;/p>
+&lt;p>&lt;strong>在这个例子里，销售做错了吗？&lt;/strong> 没有，他的KPI是接单量。
+&lt;strong>计划做错了吗？&lt;/strong> 没有，他的KPI是排产满足率。
+&lt;strong>厂长做错了吗？&lt;/strong> 也没有，大客户的单子不能丢。&lt;/p>
+&lt;p>&lt;strong>每个人在自己的KPI框架里都是对的，但整体供应链被打乱了。&lt;/strong>&lt;/p>
+&lt;p>部门墙的本质是：&lt;strong>KPI体系的设计让部门之间利益冲突。&lt;/strong> 销售要量不要利，采购要低价不要交期，生产要产能利用率不要灵活性。这三个目标天然互相矛盾。&lt;/p>
+&lt;p>&lt;strong>打破部门墙的核心不是搞团建、不是喊口号，是把KPI从部门导向改成流程导向。&lt;/strong>&lt;/p>
+&lt;p>比如：别只看&amp;quot;采购成本&amp;quot;，看&amp;quot;总拥有成本（TCO）&amp;quot;。别只看&amp;quot;销售额&amp;quot;，看&amp;quot;毛利率&amp;quot;。别只看&amp;quot;计划达成率&amp;quot;，看&amp;quot;订单交付及时率&amp;quot;和&amp;quot;库存周转率&amp;quot;的组合指标。&lt;/p>
+&lt;p>&lt;strong>指标的颗粒对齐了，部门之间的博弈才会消失。&lt;/strong>&lt;/p>
+&lt;h2 id="第二堵墙公司墙">第二堵墙：公司墙&lt;/h2>
+&lt;p>这是最难搞的一堵墙，因为涉及外部利益。&lt;/p>
+&lt;p>你的公司是你的公司，供应商是供应商，客户是客户。三者之间有明确的法律边界，也有隐形的信息边界。&lt;/p>
+&lt;p>供应商不知道你下个月的促销计划，只能凭历史数据估。为了&amp;quot;不断供&amp;quot;，他多备了30%的库存——这些库存的成本，最终会通过价格转嫁给你。&lt;/p>
+&lt;p>你不知道客户的真实需求，客户给了个&amp;quot;预测量&amp;quot;但你不敢全信，你自己也多备了20%的安全库存。&lt;/p>
+&lt;p>&lt;strong>供应链上每一环都在各自多备库存，这就是&amp;quot;牛鞭效应&amp;quot;。&lt;/strong> 信息每往上传递一层，波动就被放大一次。&lt;/p>
+&lt;p>打破公司墙不靠合同，靠信息共享：&lt;/p>
+&lt;ul>
+&lt;li>把你的需求预测同步给供应商，给他一个&amp;quot;参考量&amp;quot;而不是&amp;quot;承诺量&amp;quot;&lt;/li>
+&lt;li>让供应商参与你的S&amp;amp;OP会议，让他听到一线的需求信号&lt;/li>
+&lt;li>跟核心客户建立VMI/CPFR机制，让客户的需求直接驱动你的补货&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你捂着信息，供应商就靠猜。他猜的偏差，最后都是你的成本。&lt;/strong>&lt;/p>
+&lt;h2 id="第三堵墙层级墙">第三堵墙：层级墙&lt;/h2>
+&lt;p>这堵墙最隐蔽，破坏力也最大。&lt;/p>
+&lt;p>一线仓库员工发现某个SKU的库位设计不合理，每次拣货要多走30米。他跟主管提了，主管说&amp;quot;我反映一下&amp;quot;。然后这个反馈在上报的路上消失了——因为中间隔着3个层级，每个层级都觉得&amp;quot;这不是我的KPI&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>层级墙的本质是：决策权在一线以上，但信息在一线。手握信息的人没权做决策，有权做决策的人没信息。&lt;/strong>&lt;/p>
+&lt;p>很多公司的供应链优化项目，方案是咨询公司做的，数据是总部提供的，一线执行的人从一开始就没被问过意见。上线以后发现方案跟现场完全不匹配，又是一轮&amp;quot;推倒重来&amp;quot;。&lt;/p>
+&lt;p>打破层级墙的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>授权一线&lt;/strong>：给班组长/仓库主管一定的调整权限，不需要事事审批&lt;/li>
+&lt;li>&lt;strong>建议闭环&lt;/strong>：一线提的改善建议，必须回馈&amp;quot;采纳/不采纳/为什么&amp;quot;，不能石沉大海&lt;/li>
+&lt;li>&lt;strong>管理层下一线&lt;/strong>：供应链总监每月至少去一次仓库/产线，不是视察，是听一线吐槽&lt;/li>
+&lt;/ul>
+&lt;h2 id="打破这三堵墙比上任何系统都管用">打破这三堵墙，比上任何系统都管用&lt;/h2>
+&lt;p>我见过太多公司花几百万上系统，但系统只是把现有的混乱&amp;quot;数字化&amp;quot;了一遍。信息还是堵在部门之间，数据还是捂着不共享，一线的问题还是传不到决策层。&lt;/p>
+&lt;p>&lt;strong>供应链管理的本质不是&amp;quot;管货&amp;quot;，是&amp;quot;管信息流&amp;quot;。&lt;/strong> 信息流跑通了，货自然就顺了。&lt;/p>
+&lt;p>打破三堵墙不需要花一分钱，需要的是：&lt;/p>
+&lt;ol>
+&lt;li>把KPI从&amp;quot;部门导向&amp;quot;改成&amp;quot;流程导向&amp;quot;&lt;/li>
+&lt;li>跟上下游共享真实的需求信号&lt;/li>
+&lt;li>把决策权下沉到离信息最近的人&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>墙是自己建的，也只有自己能拆。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

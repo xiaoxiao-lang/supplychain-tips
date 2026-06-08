@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓储管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库KPI看这5个就够了，剩下的全是在自嗨</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</guid><description>&lt;p>仓库里挂了一墙KPI看板，每天产出率、准确率、周转率报得飞起，老板看了还是皱眉——你报的这些花架子，到底哪个能帮我省成本？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓储管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID上了半年还在手动扫码？90%的人第一步就错了</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-world/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-world/</guid><description>&lt;p>三年前有个仓库经理在展会上看到RFID演示：推一车货过通道，所有标签&amp;quot;嘀&amp;quot;一声全读出来了。他当场拍板：上！&lt;/p>
+&lt;p>三年后我去他的仓库，RFID通道落满了灰，员工还是在用手持扫码枪一个一个扫。&lt;/p>
+&lt;p>&amp;ldquo;为什么不用RFID？&amp;ldquo;我问他。&lt;/p>
+&lt;p>他说：&amp;ldquo;试了三个月，读取率只有70%，漏掉的30%还是要人工补扫。折腾一圈发现更慢了，就不用了。&amp;rdquo;&lt;/p>
+&lt;p>这哥们的问题非常典型：&lt;strong>把RFID当成&amp;quot;高级版条码&amp;quot;来用了。&lt;/strong> 贴个标签就指望它能自动识别一切，结果被现实啪啪打脸。&lt;/p>
+&lt;h2 id="rfid不是万能贴纸是系统工程">RFID不是万能贴纸，是系统工程&lt;/h2>
+&lt;p>条码是&amp;quot;一次读一个&amp;rdquo;，RFID是&amp;quot;一次读一堆&amp;rdquo;。这决定了它们的应用场景完全不同。&lt;/p>
+&lt;p>条码适合：单品逐个处理（收银、发货扫描）
+RFID适合：批量快速处理（整箱入库、盘点、通道读取）&lt;/p>
+&lt;p>&lt;strong>如果你把RFID用在条码的场景里，大概率会发现它不如条码好用。&lt;/strong> RFID的价值在于场景的&amp;quot;批量性&amp;quot;。&lt;/p>
+&lt;h2 id="第一关选对频段别被厂家忽悠">第一关：选对频段，别被厂家忽悠&lt;/h2>
+&lt;p>RFID分三个频段：低频（LF）、高频（HF/NFC）、超高频（UHF）。&lt;/p>
+&lt;p>&lt;strong>仓储物流场景，选超高频（UHF，860-960MHz），别选错了。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>低频读距太短（10cm以内），仓储用不了&lt;/li>
+&lt;li>高频（NFC那种）读距也不够（1m以内）&lt;/li>
+&lt;li>超高频读距可达10米以上，能同时读几百个标签，这才是仓储需要的&lt;/li>
+&lt;/ul>
+&lt;p>但超高频也有坑：&lt;strong>金属和液体对它有严重干扰。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标签贴在金属表面 → 信号被反射，读取率直线下降&lt;/li>
+&lt;li>标签贴在水性液体包装上 → 信号被吸收，基本读不到&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>所以选标签的时候，金属表面要用抗金属标签，液体包装要用特殊设计的天线标签。&lt;/strong> 省这个钱的结果就是70%读取率。&lt;/p>
+&lt;h2 id="第二关读取环境比标签更重要">第二关：读取环境比标签更重要&lt;/h2>
+&lt;p>很多人以为RFID读取率低是&amp;quot;标签质量不行&amp;quot;，于是换更贵的标签、更贵的天线。但问题往往不在硬件，在环境。&lt;/p>
+&lt;p>&lt;strong>影响RFID读取率的三个环境因素：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>标签方向&lt;/strong>：标签平面跟天线发射方向平行的时候读取效果最好。标签贴在箱子侧面，天线装在通道顶上——这个方向组合就是灾难。天线装哪，标签就得贴哪面。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>读取距离和速度&lt;/strong>：叉车以10km/h的速度通过RFID通道，标签被天线覆盖的时间不到1秒。距离越远、速度越快，漏读越多。需要根据实际场景调整天线功率和读取策略。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>多标签碰撞&lt;/strong>：同时读取几百个标签的时候会发生&amp;quot;信号碰撞&amp;quot;，导致部分标签漏读。好的RFID读写器有防碰撞算法，但便宜的读写器在这个环节会掉链子。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>RFID实施不是&amp;quot;买设备装上去&amp;quot;，是&amp;quot;测试-调整-再测试&amp;quot;的循环过程。&lt;/strong> 在一个真实场景里反复调试，直到读取率稳定在99%以上，才叫&amp;quot;能用&amp;quot;。&lt;/p>
+&lt;h2 id="第三关跟wms集成才是真正的价值">第三关：跟WMS集成才是真正的价值&lt;/h2>
+&lt;p>很多公司的RFID就停在&amp;quot;读取标签&amp;quot;这一步：读到了，显示在屏幕上，人工再录进系统。&lt;/p>
+&lt;p>&lt;strong>这不叫信息化，叫&amp;quot;电子化手工操作&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>RFID真正的价值在于跟WMS系统深度集成：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>入库&lt;/strong>：整托盘通过RFID通道 → 自动识别 → WMS自动确认收货、自动分配库位&lt;/li>
+&lt;li>&lt;strong>盘点&lt;/strong>：手持RFID终端在库区走一圈 → 自动盘点 → 自动生成盘点差异报告&lt;/li>
+&lt;li>&lt;strong>出库&lt;/strong>：整箱出库 → RFID通道自动校验（有没有拿错、有没有遗漏）→ WMS自动过账&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些场景里，人只做两件事：发现异常时去确认，系统报错时去处理。&lt;/strong> 剩下的全部自动化。&lt;/p>
+&lt;p>如果你的RFID还需要员工举着读写器对着每个箱子&amp;quot;嘀&amp;quot;一下——趁早别折腾，扫条码还便宜。&lt;/p>
+&lt;h2 id="上rfid之前先做这个小测试">上RFID之前，先做这个小测试&lt;/h2>
+&lt;p>不要一上来就全仓铺开。选一条通道、一个区域做3个月的试点。&lt;/p>
+&lt;p>试点盯三个数字：&lt;/p>
+&lt;ol>
+&lt;li>读取准确率（≥99%才算合格）&lt;/li>
+&lt;li>操作效率提升（比条码快了多少？）&lt;/li>
+&lt;li>异常处理时间（漏读/误读的处理耗时）&lt;/li>
+&lt;/ol>
+&lt;p>如果试点跑不出正收益，全仓铺开只会亏得更多。&lt;/p>
+&lt;p>&lt;strong>RFID是工具，不是魔法。用对了场景它是降维打击，用错了场景它就是智商税。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库KPI看这4个就够了，剩下99%都是自欺欺人</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-that-matter/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-that-matter/</guid><description>&lt;p>我见过最离谱的仓库KPI考核表，列了37个指标。&lt;/p>
+&lt;p>37个。从&amp;quot;叉车充电效率&amp;quot;到&amp;quot;标签打印合格率&amp;quot;，从&amp;quot;员工如厕时间占比&amp;quot;到&amp;quot;通道地面清洁度&amp;quot;。就一个仓库，搞得跟上市公司年报似的。&lt;/p>
+&lt;p>我问那个仓库经理：&amp;ldquo;这37个指标，你每周能盯完几个？&amp;rdquo;&lt;/p>
+&lt;p>他说：&amp;ldquo;说实话，一个都盯不了。月底填表的时候拍脑袋编。&amp;rdquo;&lt;/p>
+&lt;p>那你这KPI是给谁看的？给老板看的。老板看完觉得&amp;quot;管理很精细&amp;quot;，实际仓库一团浆糊。&lt;/p>
+&lt;h2 id="kpi不是越多越好是越少越准">KPI不是越多越好，是越少越准&lt;/h2>
+&lt;p>KPI的本质是&lt;strong>帮你看清问题在哪&lt;/strong>，不是帮数据部刷存在感。&lt;/p>
+&lt;p>一个仓库，真正影响业务结果的指标，一只手就能数过来。你加一堆五花八门的指标，最后的结果就是：&lt;/p>
+&lt;ol>
+&lt;li>真正重要的指标没人盯&lt;/li>
+&lt;li>一线员工被各种考核搞得心态爆炸&lt;/li>
+&lt;li>管理层被一堆数据淹没，看不到关键问题&lt;/li>
+&lt;/ol>
+&lt;p>我总结了一下，一个仓库想管好，盯这4个就够了。&lt;/p>
+&lt;h2 id="指标一库存准确率最重要没有之一">指标一：库存准确率（最重要，没有之一）&lt;/h2>
+&lt;p>&lt;strong>目标：99.5%以上&lt;/strong>&lt;/p>
+&lt;p>库存不准，后面所有环节全是错的。WMS里显示有500件，实际货架上只有380件——你的采购、你的订单履约、你的财务核算，全在沙子上盖楼。&lt;/p>
+&lt;p>库存准确率怎么算？很简单：&lt;strong>盘点准确数 ÷ 盘点总数 × 100%&lt;/strong>。&lt;/p>
+&lt;p>但关键不是公式，是频次。一个月盘一次等于白盘，等你发现差异的时候已经过了30天，损失已经不可挽回了。&lt;/p>
+&lt;p>我的建议：&lt;strong>A类品周盘、B类品月盘、C类品季盘，用循环盘点替代大盘。&lt;/strong> 有问题及时发现，发现立刻纠正。&lt;/p>
+&lt;h2 id="指标二拣货准确率">指标二：拣货准确率&lt;/h2>
+&lt;p>&lt;strong>目标：99.9%以上&lt;/strong>&lt;/p>
+&lt;p>拣货错一次，后面就是：客户退货 → 补发 → 客服投诉 → 差评 → 流量降权。一个拣货错误，连锁反应的成本是拣货动作本身的10倍以上。&lt;/p>
+&lt;p>盯拣货准确率，不是为了统计错误，是为了&lt;strong>找到出错的根因&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>是库位标识不清？改标识&lt;/li>
+&lt;li>是SKU编码相似容易混？加校验&lt;/li>
+&lt;li>是某个员工频繁出错？单独培训&lt;/li>
+&lt;li>是波峰期压力太大？调整排班&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>拣货准确率不是KPI，是诊断工具。&lt;/strong> 用它来发现问题，而不是用它来扣绩效。&lt;/p>
+&lt;h2 id="指标三订单履约时效">指标三：订单履约时效&lt;/h2>
+&lt;p>&lt;strong>目标：按承诺时效履约率 ≥ 98%&lt;/strong>&lt;/p>
+&lt;p>客户不关心你的仓库有多先进，客户只关心&amp;quot;我下单的东西什么时候到&amp;quot;。&lt;/p>
+&lt;p>履约时效不是越快越好，是&lt;strong>越准越好&lt;/strong>。你承诺48小时到，客户预期就是48小时；你追求极致24小时到，成本翻倍但客户没多开心多少。&lt;/p>
+&lt;p>盯这个指标要分两个维度：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>截单时间前的订单当日出库率&lt;/strong>：衡量仓库处理能力&lt;/li>
+&lt;li>&lt;strong>实际送达 vs 承诺时效偏差&lt;/strong>：衡量全链路履约质量&lt;/li>
+&lt;/ul>
+&lt;p>如果当日出库率持续低于95%，要么是订单量超了设计产能，要么是排班/流程有问题。&lt;/p>
+&lt;h2 id="指标四坪效和人效">指标四：坪效和人效&lt;/h2>
+&lt;p>&lt;strong>坪效目标：按行业定；人效目标：看趋势，不比绝对数&lt;/strong>&lt;/p>
+&lt;p>坪效 = 日均出库件数（或金额）÷ 仓库面积&lt;/p>
+&lt;p>人效 = 日均出库件数（或金额）÷ 出勤人数&lt;/p>
+&lt;p>这两个指标别拿来跟别人比，每个仓库的品类结构、自动化水平、订单形态都不一样。跟电商仓比坪效没意义，你的SKU可能是大件家具，人家是手机壳。&lt;/p>
+&lt;p>这两个指标的用法是&lt;strong>看趋势&lt;/strong>。如果坪效持续下降，说明库容利用率在恶化；人效持续下降，说明流程或管理出了问题。&lt;/p>
+&lt;h2 id="那些看起来很重要的指标其实可以不盯">那些&amp;quot;看起来很重要&amp;quot;的指标，其实可以不盯&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>库存周转率&lt;/strong>：这是供应链全局指标，不是仓库能单独决定的。采购批量、销售速度、需求波动，仓库说了不算。&lt;/li>
+&lt;li>&lt;strong>设备利用率&lt;/strong>：AGV跑了80%还是90%的时间，跟你的业务结果有几毛钱关系？&lt;/li>
+&lt;li>&lt;strong>员工出勤率&lt;/strong>：管理的底线，不是管理的目标。把出勤率当KPI，说明你已经在混日子了。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>管仓库，盯4个就够了。盯多了，你不是在管理仓库，你是在管理你的焦虑。&lt;/strong>&lt;/p></description></item><item><title>仓库KPI看这5个就够了，剩下的全是在自嗨</title><link>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/</guid><description>&lt;p>仓库里挂了一墙KPI看板，每天产出率、准确率、周转率报得飞起，老板看了还是皱眉——你报的这些花架子，到底哪个能帮我省成本？&lt;/p>
 &lt;p>干仓储第6年我悟了：KPI不是越多越好，是越精准越值钱。20个指标盯着看，不如盯死5个能直接关联成本和质量的数据。&lt;/p>
 &lt;p>今天这篇，就给你掰扯清楚：仓库KPI里哪些是真功夫，哪些是花拳绣腿。&lt;/p>
 &lt;h3 id="1-订单准确率这是底线不是加分项">1. 订单准确率——这是底线，不是加分项&lt;/h3>

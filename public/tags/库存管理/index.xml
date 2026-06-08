@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</guid><description>&lt;p>去年我们公司做了一次SKU清理。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>MRP跑了3年，库存还是500万：你以为的物料计划，其实是在自嗨</title><link>https://supplychain-tips.pages.dev/posts/mrp-not-magic/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-not-magic/</guid><description>&lt;p>一个做了8年生产计划的朋友跟我说了一句话，我记到现在：&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;公司上了3年MRP，库存从300万涨到了500万，我每次点&amp;rsquo;运行MRP&amp;rsquo;的时候，都觉得自己像个赌徒。&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>这不是段子。我调研过至少20家制造企业的MRP使用情况，真正跑得准的，不超过3家。&lt;/p>
+&lt;p>剩下的17家，MRP对他们来说就是一个心理安慰：按了按钮，系统跑了一堆数字，采购照着下单，然后库存还是该多的多、该缺的缺。&lt;/p>
+&lt;h2 id="mrp的核心逻辑没问题但你的数据全是垃圾">MRP的核心逻辑没问题，但你的数据全是垃圾&lt;/h2>
+&lt;p>MRP的算法本身没毛病：根据BOM展开物料需求 → 减去现有库存和在途 → 考虑提前期 → 算出净需求。这个逻辑从1970年代到现在没变过，一直跑得好好的。&lt;/p>
+&lt;p>&lt;strong>问题不在算法，在四个输入参数。&lt;/strong>&lt;/p>
+&lt;p>这四个参数，如果有一个是垃圾，MRP出来的结果就是垃圾。而90%的工厂，四个参数全有问题。&lt;/p>
+&lt;h2 id="参数一bom不准mrp从根上就歪了">参数一：BOM不准，MRP从根上就歪了&lt;/h2>
+&lt;p>BOM是MRP的骨架。如果BOM里的物料用量、损耗率、替代关系不对，MRP算出来的需求从第一层就偏了。&lt;/p>
+&lt;p>我见过最离谱的：一家电子厂的BOM里，某个电阻的用量写的是&amp;quot;0.001个&amp;quot;——因为工程师觉得&amp;quot;用量太小，随便填一下&amp;quot;。结果MRP跑了三年都没触发过这个物料的采购计划，产线上天天缺料。&lt;/p>
+&lt;p>&lt;strong>BOM不准的原因通常不是&amp;quot;忘记更新&amp;quot;，而是&amp;quot;没人在意&amp;quot;：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>研发改了配方，BOM没同步&lt;/li>
+&lt;li>工艺改了工序，BOM没反映&lt;/li>
+&lt;li>临时替代料用了半年，BOM还是老物料&lt;/li>
+&lt;li>损耗率是十年前定的，现在工艺早变了&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>修BOM没有捷径，就是定期审计。&lt;/strong> 每月抽10%的BOM跟现场核对，发现问题立刻修正。BOM准了，MRP才有资格往下跑。&lt;/p>
+&lt;h2 id="参数二提前期是拍脑袋拍的">参数二：提前期是拍脑袋拍的&lt;/h2>
+&lt;p>&amp;ldquo;这个供应商大概15天交货吧？&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;之前好像有一次25天才到，那就设20天吧，取个中间值。&amp;rdquo;&lt;/p>
+&lt;p>这种对话在99%的工厂发生过。采购提前期、生产提前期、检验提前期——全凭经验和感觉。&lt;/p>
+&lt;p>&lt;strong>提前期差一天，安全库存就要多备一天的量。差10天，你就多压了10天的库存。&lt;/strong>&lt;/p>
+&lt;p>怎么修？不用搞多复杂，拉过去6个月的采购订单数据，算三个数：&lt;/p>
+&lt;ul>
+&lt;li>平均实际交货周期&lt;/li>
+&lt;li>波动标准差&lt;/li>
+&lt;li>最差情况（P95分位值）&lt;/li>
+&lt;/ul>
+&lt;p>用平均值做计划基准，用波动范围设置预警线。比拍脑袋强十倍。&lt;/p>
+&lt;h2 id="参数三安全库存变成拍安全库存">参数三：安全库存变成&amp;quot;拍安全库存&amp;quot;&lt;/h2>
+&lt;p>安全库存的公式书上写得清清楚楚：安全库存 = Z × σ × √LT。&lt;/p>
+&lt;p>但现实中呢？&lt;/p>
+&lt;p>&amp;ldquo;这个料挺重要的，安全库存设500吧。&amp;ldquo;&amp;ldquo;这个客户不能得罪，设1000。&amp;ldquo;&amp;ldquo;老板说要降低库存，统统砍到200。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>安全库存是算出来的，不是拍出来的。&lt;/strong> 你拍的数字，大概率是拍给老板看的，不是拍给供应链看的。&lt;/p>
+&lt;p>正确的做法：&lt;/p>
+&lt;ol>
+&lt;li>按物料的关键性分类（停产影响大/中/小）&lt;/li>
+&lt;li>A类物料用统计学模型（需求波动×提前期波动×服务水平）&lt;/li>
+&lt;li>B类物料用经验值+定期回顾&lt;/li>
+&lt;li>C类物料甚至可以不用安全库存&lt;/li>
+&lt;/ol>
+&lt;p>重点是&lt;strong>定期回顾&lt;/strong>。上个月的安全库存是基于上个月的需求波动算的，这个月的需求结构变了，安全库存就该跟着变。MRP不会自动帮你调安全库存，这个动作必须人为介入。&lt;/p>
+&lt;h2 id="参数四需求预测是猜的但没人敢承认">参数四：需求预测是猜的，但没人敢承认&lt;/h2>
+&lt;p>需求预测不准是正常的。一个月后的订单你能猜到70%已经很牛了，三个月后的基本靠玄学。&lt;/p>
+&lt;p>但问题是：&lt;strong>很多工厂的MRP是按&amp;quot;确定需求&amp;quot;跑的，而不是&amp;quot;概率需求&amp;rdquo;。&lt;/strong>&lt;/p>
+&lt;p>MRP算出来&amp;quot;需要买1000个&amp;rdquo;，采购就买1000个。但实际需求可能是800，也可能是1200。你按1000买，要么多200要么少200。&lt;/p>
+&lt;p>解法是&lt;strong>别让MRP替你决策，让MRP替你算方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>跑三套参数：乐观/基准/悲观&lt;/li>
+&lt;li>对应三套采购计划&lt;/li>
+&lt;li>让计划员根据最新信息选最合适的那套&lt;/li>
+&lt;/ul>
+&lt;p>MRP是计算器，不是算命先生。它的职责是&amp;quot;根据你给的条件算出结果&amp;rdquo;，不是&amp;quot;替你预测未来&amp;rdquo;。&lt;/p>
+&lt;h2 id="mrp跑准的三个底线">MRP跑准的三个底线&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>BOM每季度审计一次&lt;/strong>，研发/工艺/生产三方会签&lt;/li>
+&lt;li>&lt;strong>提前期每半年回顾一次&lt;/strong>，用实际数据校准，不要用&amp;quot;历史惯例&amp;quot;&lt;/li>
+&lt;li>&lt;strong>安全库存每月review&lt;/strong>，跟着需求波动的节奏走&lt;/li>
+&lt;/ol>
+&lt;p>这三条做到了，你的MRP准确率能从&amp;quot;看运气&amp;quot;提升到&amp;quot;可预期&amp;quot;。做不到，再多花哨的MRP功能都是摆设。&lt;/p>
+&lt;p>&lt;strong>物料计划不是按按钮，是管数据。数据垃圾进，结果垃圾出。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</title><link>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</guid><description>&lt;p>一个做家电的供应链总监找我吐槽：&amp;ldquo;去年推VMI，选了5家核心供应商试点，半年下来了，库存不但没降，还涨了30%。供应商天天骂我，财务天天盯我，老板直接甩了一句&amp;rsquo;搞不定你就别搞了&amp;rsquo;。&amp;rdquo;&lt;/p>
+&lt;p>我说你把数据拉出来我看看。看完以后发现，他的问题从头到尾就是一个：&lt;strong>把VMI理解成了&amp;quot;供应商帮我管库存&amp;quot;，而不是&amp;quot;我跟供应商一起管库存&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>差三个字，结果天差地别。&lt;/p>
+&lt;h2 id="vmi不是甩锅是协同">VMI不是甩锅，是协同&lt;/h2>
+&lt;p>VMI（供应商管理库存）的标准定义是：供应商根据客户的实时库存和需求数据，自主决定补货时间和数量。&lt;/p>
+&lt;p>听上去很美：客户不用操心库存了，库存成本也转到供应商那边去了，账期还能拉长。很多公司推VMI，冲的就是这三个&amp;quot;好处&amp;quot;。&lt;/p>
+&lt;p>但问题是：&lt;strong>你以为的&amp;quot;好处&amp;quot;，在供应商眼里全是&amp;quot;负担&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你甩库存成本给供应商，供应商就把这些成本加回单价里。你拉长账期，供应商就降低服务优先级。你觉得自己赚了，其实供应商早就算明白了——你觉得免费的午餐，只是换了个收费方式。&lt;/p>
+&lt;h2 id="死法一数据不给够让供应商盲猜">死法一：数据不给够，让供应商&amp;quot;盲猜&amp;quot;&lt;/h2>
+&lt;p>VMI能跑起来的前提是：供应商能看到你的真实需求信号。库存水位、消耗速度、需求预测、促销计划——这些数据不给供应商，供应商怎么决定什么时候补多少货？&lt;/p>
+&lt;p>我见过太多VMI项目，客户给供应商的数据仅限于&amp;quot;当前库存量&amp;quot;。没有需求预测，没有促销日历，没有波动规律。供应商只能拍脑袋猜：这个数够不够？下周会不会爆单？&lt;/p>
+&lt;p>&lt;strong>让供应商盲猜的结果就是：宁可多备，不能断供。&lt;/strong> 多备出来的库存，最后还是你自己买单——要么涨单价，要么库存积压。&lt;/p>
+&lt;p>正确的做法：给供应商开一个数据窗口，至少包含：&lt;/p>
+&lt;ul>
+&lt;li>实时库存水位&lt;/li>
+&lt;li>过去30天日均消耗量&lt;/li>
+&lt;li>未来2周的需求预测（哪怕不准也比没有强）&lt;/li>
+&lt;li>促销/活动日历&lt;/li>
+&lt;li>安全库存上下限&lt;/li>
+&lt;/ul>
+&lt;p>数据透明了，供应商才有能力做精准补货。&lt;/p>
+&lt;h2 id="死法二责任边界模糊出了事互相扯皮">死法二：责任边界模糊，出了事互相扯皮&lt;/h2>
+&lt;p>断货了算谁的？库存积压了算谁的？质量问题退货了算谁的？&lt;/p>
+&lt;p>如果这些边界没在合同里写清楚，VMI推到最后就是推卸责任比赛。&lt;/p>
+&lt;p>我见过最经典的扯皮场景：库存积压了300万的货，客户说是供应商&amp;quot;补多了&amp;quot;，供应商说是客户&amp;quot;预测给少了&amp;quot;。翻合同一看，根本没定义什么叫&amp;quot;多&amp;quot;什么叫&amp;quot;少&amp;quot;，什么叫&amp;quot;预测&amp;quot;什么叫&amp;quot;确认&amp;quot;。最后300万的库存谁都不认，双方关系破裂。&lt;/p>
+&lt;p>&lt;strong>VMI合同必须写清楚三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>库存所有权&lt;/strong>：货在你们仓库里，但货权是谁的？什么时候转移？&lt;/li>
+&lt;li>&lt;strong>呆滞库存处理&lt;/strong>：超过X天未消耗的库存，谁承担成本？怎么处理？&lt;/li>
+&lt;li>&lt;strong>断供责任&lt;/strong>：因供应商原因断供的罚则，因客户需求突变断供的免责条款&lt;/li>
+&lt;/ol>
+&lt;p>这三条写不清楚的VMI，不如不做。&lt;/p>
+&lt;h2 id="死法三激励机制跑偏供应商没有动力帮你优化">死法三：激励机制跑偏，供应商没有动力帮你优化&lt;/h2>
+&lt;p>VMI最理想的状态是：供应商通过优化补货策略，帮客户降了库存，自己也因为周转加快而受益。&lt;/p>
+&lt;p>但现实中更多是：客户单方面压库存指标，降了库存是客户的功劳，涨了库存是供应商的责任。供应商为什么要配合你？&lt;/p>
+&lt;p>&lt;strong>让供应商有动力配合的核心是：利益共享。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存低于目标水位，省下来的仓储成本分一部分给供应商&lt;/li>
+&lt;li>断供率低于约定标准，给供应商一个&amp;quot;服务奖金&amp;quot;&lt;/li>
+&lt;li>联合降本项目的收益，按约定比例分成&lt;/li>
+&lt;/ul>
+&lt;p>你让供应商赚到钱，供应商才会用心帮你管库存。只靠合同条款约束的VMI，供应商的底线是不出大错，绝不会帮你做得更好。&lt;/p>
+&lt;h2 id="vmi推成功的三个起点">VMI推成功的三个起点&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>试点别贪大&lt;/strong>：选1-2家关系最好的供应商、3-5个SKU先跑，跑顺了再扩&lt;/li>
+&lt;li>&lt;strong>数据先从粗到细&lt;/strong>：先给库存和消耗数据，跑两个月再补预测和促销数据&lt;/li>
+&lt;li>&lt;strong>先谈利益再谈KPI&lt;/strong>：跟供应商聊明白&amp;quot;这件事你能得到什么&amp;quot;，再谈考核指标&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>VMI的本质是信任，不是制度。信任靠利益共享建立，不靠合同条款约束。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>需求预测不是算命：3个动作让准确率从50%干到80%</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-real/</guid><description>&lt;p>有个做快消品供应链的朋友，每个月底做需求预测的时候都特别痛苦。他说那种感觉就像在算命：对着Excel瞎填几个数，然后祈祷下个月不要偏差太大。&lt;/p>
+&lt;p>我问他偏差大概多少，他说：&amp;ldquo;好的时候30%，差的时候50%以上。&amp;rdquo;&lt;/p>
+&lt;p>50%的预测偏差意味着什么？意味着你备的货有一半是浪费的，或者有一半的订单你供不上。&lt;/p>
+&lt;h2 id="需求预测的真相别追求100准确">需求预测的真相：别追求100%准确&lt;/h2>
+&lt;p>供应链人最常犯的一个认知错误：以为需求预测就应该&amp;quot;准&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>需求预测的本质不是&amp;quot;预测&amp;quot;，是&amp;quot;管理不确定性&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你能预测双十一卖多少吗？不能。但你知道会暴增。你能预测下周三下雨卖多少伞吗？不能。但你知道下雨天伞会多卖。&lt;/p>
+&lt;p>你不需要精确到个位数，你需要的是：知道什么时候该多备货，什么时候该少备货，偏差了怎么快速调整。&lt;/p>
+&lt;h2 id="动作一区分可预测和不可预测">动作一：区分&amp;quot;可预测&amp;quot;和&amp;quot;不可预测&amp;quot;&lt;/h2>
+&lt;p>不是所有SKU的需求都值得预测。你的2000个SKU里，大概只有20%的需求是有规律的。&lt;/p>
+&lt;p>&lt;strong>先做一遍ABC-XYZ分析：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>X类（需求稳定）：历史波动小，适合用时间序列模型预测&lt;/li>
+&lt;li>Y类（需求有趋势）：有季节性或增长趋势，适合用回归模型&lt;/li>
+&lt;li>Z类（需求随机）：完全没规律，别费劲预测了，用安全库存兜底&lt;/li>
+&lt;/ul>
+&lt;p>然后把精力集中在那20%有规律的SKU上（AX、BX、AY、BY），这20%通常贡献80%的销售额。剩下的那些，设一个合理的安全库存就行了，别在它们身上浪费时间。&lt;/p>
+&lt;p>&lt;strong>精力花在对的地方，准确率自然就上去了。&lt;/strong>&lt;/p>
+&lt;h2 id="动作二用协同预测替代自己猜">动作二：用&amp;quot;协同预测&amp;quot;替代&amp;quot;自己猜&amp;quot;&lt;/h2>
+&lt;p>大多数公司的需求预测是怎么做的？计划部一个人对着历史数据拍脑袋。&lt;/p>
+&lt;p>但你的销售知道客户下个月要搞大促，你的市场部知道下周要投一波广告，你的客户可能在季度会上说过&amp;quot;明年扩产&amp;quot;——这些信息都在不同人的脑子里，没人把它们汇到预测里来。&lt;/p>
+&lt;p>&lt;strong>协同预测不是搞多复杂的系统，就是做一件事：把关键信息汇集到一起。&lt;/strong>&lt;/p>
+&lt;p>实操建议：每月一次S&amp;amp;OP会议（销售与运营计划会议），让销售、市场、生产、采购坐下来对一遍下个月的需求。不需要每个人报数，但要把异常信息同步：&lt;/p>
+&lt;ul>
+&lt;li>销售：大客户有没有异常需求？有没有大项目要签？&lt;/li>
+&lt;li>市场：下个月有没有促销活动？力度多大？&lt;/li>
+&lt;li>生产：有没有产能瓶颈？新品什么时候上市？&lt;/li>
+&lt;/ul>
+&lt;p>这些信息加上历史数据趋势，预测准确率至少能提升10-15个百分点。&lt;/p>
+&lt;p>&lt;strong>一个人猜叫算命，一群人一起看叫管理。&lt;/strong>&lt;/p>
+&lt;h2 id="动作三建立预测纠偏机制">动作三：建立&amp;quot;预测纠偏&amp;quot;机制&lt;/h2>
+&lt;p>不管你用什么方法做预测，有一个事实必须接受：&lt;strong>你的预测一定会偏差。&lt;/strong>&lt;/p>
+&lt;p>关键不是你偏差了多少，而是你什么时候发现偏差、多快能调整。&lt;/p>
+&lt;p>&lt;strong>建立&amp;quot;预测 vs 实际&amp;quot;的周度跟踪：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每周一对比上周的预测值和实际值&lt;/li>
+&lt;li>偏差超过20%的SKU标红&lt;/li>
+&lt;li>标红的SKU立刻启动&amp;quot;纠偏流程&amp;quot;：调整安全库存、跟供应商沟通加急/延迟、通知销售调整出货计划&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个最常见的错误：偏差已经发生了还在死扛，继续按原来的预测执行。&lt;/strong> 该加急就加急，该暂停就暂停，越早纠偏成本越低。&lt;/p>
+&lt;p>小技巧：在WMS或ERP里设一个&amp;quot;预警库存&amp;quot;水位线。当实际出库速度超过预测的X%，系统自动提醒计划员检查是否需要补货。别等库存见底了才发现。&lt;/p>
+&lt;h2 id="不需要ai先做好这三件事">不需要AI，先做好这三件事&lt;/h2>
+&lt;p>现在动不动就有人跟我说&amp;quot;需求预测要用AI、要用机器学习&amp;quot;。&lt;/p>
+&lt;p>我说你先别想那么远。在你的数据基础还很差、你的协同机制还没跑通、你的纠偏流程还不存在的情况下，上AI预测就是给垃圾数据套一个高级算法，出来的还是垃圾。&lt;/p>
+&lt;p>&lt;strong>先做这三件简单的事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>给你的SKU分个类，知道哪些值得花时间预测&lt;/li>
+&lt;li>每个月拉着相关的人聊一次需求&lt;/li>
+&lt;li>每周对一下预测和实际的差距，偏了就调&lt;/li>
+&lt;/ol>
+&lt;p>这三件事做到了，预测准确率从50%到80%不是难事。拿这80%的基础再去谈AI、谈模型，才是有意义的升级。&lt;/p>
+&lt;p>&lt;strong>需求预测的及格线不是100%准确，是比上个月更准确一点。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>SKU从2000砍到600，库存成本直接降了40%</title><link>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-slash-40percent/</guid><description>&lt;p>去年我们公司做了一次SKU清理。&lt;/p>
 &lt;p>仓库主管把报表打出来给我看：2000多个SKU，其中&lt;strong>64%的产品在过去一年只卖了不到20件&lt;/strong>。&lt;/p>
 &lt;p>而这些SKU占了仓库面积的40%，占用了上百万的库存资金，每年产生十几万的仓储费用。&lt;/p>
 &lt;p>问题是：老板舍不得砍。他的逻辑是——&amp;ldquo;这个客户偶尔会要，那个产品虽然卖得少但利润高&amp;rdquo;。&lt;/p>

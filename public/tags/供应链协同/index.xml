@@ -1,4 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链协同 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/</link><description>Recent content in 供应链协同 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链协同不是开会，是把信息墙砸了</title><link>https://supplychain-tips.pages.dev/posts/supply-collab-173/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-collab-173/</guid><description>&lt;p>你有没有过这种经历：销售部报了个月底的出货预测，采购按这个备了料，生产排了班。临到出货前5天销售说&amp;quot;客户那边有变动，先停一停&amp;quot;。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链协同 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/</link><description>Recent content in 供应链协同 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</title><link>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</guid><description>&lt;p>一个做家电的供应链总监找我吐槽：&amp;ldquo;去年推VMI，选了5家核心供应商试点，半年下来了，库存不但没降，还涨了30%。供应商天天骂我，财务天天盯我，老板直接甩了一句&amp;rsquo;搞不定你就别搞了&amp;rsquo;。&amp;rdquo;&lt;/p>
+&lt;p>我说你把数据拉出来我看看。看完以后发现，他的问题从头到尾就是一个：&lt;strong>把VMI理解成了&amp;quot;供应商帮我管库存&amp;quot;，而不是&amp;quot;我跟供应商一起管库存&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>差三个字，结果天差地别。&lt;/p>
+&lt;h2 id="vmi不是甩锅是协同">VMI不是甩锅，是协同&lt;/h2>
+&lt;p>VMI（供应商管理库存）的标准定义是：供应商根据客户的实时库存和需求数据，自主决定补货时间和数量。&lt;/p>
+&lt;p>听上去很美：客户不用操心库存了，库存成本也转到供应商那边去了，账期还能拉长。很多公司推VMI，冲的就是这三个&amp;quot;好处&amp;quot;。&lt;/p>
+&lt;p>但问题是：&lt;strong>你以为的&amp;quot;好处&amp;quot;，在供应商眼里全是&amp;quot;负担&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>你甩库存成本给供应商，供应商就把这些成本加回单价里。你拉长账期，供应商就降低服务优先级。你觉得自己赚了，其实供应商早就算明白了——你觉得免费的午餐，只是换了个收费方式。&lt;/p>
+&lt;h2 id="死法一数据不给够让供应商盲猜">死法一：数据不给够，让供应商&amp;quot;盲猜&amp;quot;&lt;/h2>
+&lt;p>VMI能跑起来的前提是：供应商能看到你的真实需求信号。库存水位、消耗速度、需求预测、促销计划——这些数据不给供应商，供应商怎么决定什么时候补多少货？&lt;/p>
+&lt;p>我见过太多VMI项目，客户给供应商的数据仅限于&amp;quot;当前库存量&amp;quot;。没有需求预测，没有促销日历，没有波动规律。供应商只能拍脑袋猜：这个数够不够？下周会不会爆单？&lt;/p>
+&lt;p>&lt;strong>让供应商盲猜的结果就是：宁可多备，不能断供。&lt;/strong> 多备出来的库存，最后还是你自己买单——要么涨单价，要么库存积压。&lt;/p>
+&lt;p>正确的做法：给供应商开一个数据窗口，至少包含：&lt;/p>
+&lt;ul>
+&lt;li>实时库存水位&lt;/li>
+&lt;li>过去30天日均消耗量&lt;/li>
+&lt;li>未来2周的需求预测（哪怕不准也比没有强）&lt;/li>
+&lt;li>促销/活动日历&lt;/li>
+&lt;li>安全库存上下限&lt;/li>
+&lt;/ul>
+&lt;p>数据透明了，供应商才有能力做精准补货。&lt;/p>
+&lt;h2 id="死法二责任边界模糊出了事互相扯皮">死法二：责任边界模糊，出了事互相扯皮&lt;/h2>
+&lt;p>断货了算谁的？库存积压了算谁的？质量问题退货了算谁的？&lt;/p>
+&lt;p>如果这些边界没在合同里写清楚，VMI推到最后就是推卸责任比赛。&lt;/p>
+&lt;p>我见过最经典的扯皮场景：库存积压了300万的货，客户说是供应商&amp;quot;补多了&amp;quot;，供应商说是客户&amp;quot;预测给少了&amp;quot;。翻合同一看，根本没定义什么叫&amp;quot;多&amp;quot;什么叫&amp;quot;少&amp;quot;，什么叫&amp;quot;预测&amp;quot;什么叫&amp;quot;确认&amp;quot;。最后300万的库存谁都不认，双方关系破裂。&lt;/p>
+&lt;p>&lt;strong>VMI合同必须写清楚三件事：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>库存所有权&lt;/strong>：货在你们仓库里，但货权是谁的？什么时候转移？&lt;/li>
+&lt;li>&lt;strong>呆滞库存处理&lt;/strong>：超过X天未消耗的库存，谁承担成本？怎么处理？&lt;/li>
+&lt;li>&lt;strong>断供责任&lt;/strong>：因供应商原因断供的罚则，因客户需求突变断供的免责条款&lt;/li>
+&lt;/ol>
+&lt;p>这三条写不清楚的VMI，不如不做。&lt;/p>
+&lt;h2 id="死法三激励机制跑偏供应商没有动力帮你优化">死法三：激励机制跑偏，供应商没有动力帮你优化&lt;/h2>
+&lt;p>VMI最理想的状态是：供应商通过优化补货策略，帮客户降了库存，自己也因为周转加快而受益。&lt;/p>
+&lt;p>但现实中更多是：客户单方面压库存指标，降了库存是客户的功劳，涨了库存是供应商的责任。供应商为什么要配合你？&lt;/p>
+&lt;p>&lt;strong>让供应商有动力配合的核心是：利益共享。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存低于目标水位，省下来的仓储成本分一部分给供应商&lt;/li>
+&lt;li>断供率低于约定标准，给供应商一个&amp;quot;服务奖金&amp;quot;&lt;/li>
+&lt;li>联合降本项目的收益，按约定比例分成&lt;/li>
+&lt;/ul>
+&lt;p>你让供应商赚到钱，供应商才会用心帮你管库存。只靠合同条款约束的VMI，供应商的底线是不出大错，绝不会帮你做得更好。&lt;/p>
+&lt;h2 id="vmi推成功的三个起点">VMI推成功的三个起点&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>试点别贪大&lt;/strong>：选1-2家关系最好的供应商、3-5个SKU先跑，跑顺了再扩&lt;/li>
+&lt;li>&lt;strong>数据先从粗到细&lt;/strong>：先给库存和消耗数据，跑两个月再补预测和促销数据&lt;/li>
+&lt;li>&lt;strong>先谈利益再谈KPI&lt;/strong>：跟供应商聊明白&amp;quot;这件事你能得到什么&amp;quot;，再谈考核指标&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>VMI的本质是信任，不是制度。信任靠利益共享建立，不靠合同条款约束。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商不是乙方，是你的半个生产部</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</guid><description>&lt;p>我刚入行的时候，公司一个老采购教我的第一句话是：&amp;ldquo;对供应商，就得往死里压。你不压他，他觉得你好欺负。&amp;rdquo;&lt;/p>
+&lt;p>我当时觉得好有道理。直到后来看到一个更狠的案例，我才意识到这套逻辑有多短视。&lt;/p>
+&lt;p>一家汽配厂，常年对自己最大的铸件供应商极限压价，每年砍5%雷打不动。供应商扛了3年不赚钱，第四年直接说&amp;quot;不做了&amp;quot;。这家汽配厂紧急找新供应商，前后换了三家，每家都要3-6个月的质量认证周期。期间因为供应不稳定，丢了一个主机厂的大单，损失至少3000万。&lt;/p>
+&lt;p>&lt;strong>省了三年一共180万的采购差价，最后一口气亏了3000万。&lt;/strong>&lt;/p>
+&lt;h2 id="供应商不是你的乙方是你的半个生产部">供应商不是你的乙方，是你的半个生产部&lt;/h2>
+&lt;p>制造业供应链有个容易被忽略的事实：&lt;strong>你交付给客户的最终产品质量，有一半取决于供应商。&lt;/strong>&lt;/p>
+&lt;p>原材料不行，你工艺再好也白搭。交期不稳定，你排产计划再精也是自嗨。供应商的生产效率、质量管理能力、技术迭代速度——每一个都直接影响你的竞争力。&lt;/p>
+&lt;p>把供应商当成&amp;quot;可以随便换的乙方&amp;quot;来管理，意味着你在用最笨的方式对待你最重要的外部资源。&lt;/p>
+&lt;h2 id="第一层交易型关系90的公司停在这一层">第一层：交易型关系（90%的公司停在这一层）&lt;/h2>
+&lt;p>特征就一个字：&lt;strong>压&lt;/strong>。压价、压账期、压交期、压质量扣款。供应商在他们眼里不是一个&amp;quot;伙伴&amp;quot;，是一个&amp;quot;成本项&amp;quot;。&lt;/p>
+&lt;p>交易型关系的后果很明确：&lt;/p>
+&lt;ul>
+&lt;li>供应商永远给你报&amp;quot;含压价空间&amp;quot;的价格&lt;/li>
+&lt;li>有好的技术不会第一时间跟你分享&lt;/li>
+&lt;li>产能紧张的时候，你的订单排最后&lt;/li>
+&lt;li>你永远拿不到供应商的&amp;quot;最优资源&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你还觉得省了5%很赚吗？你把供应商当韭菜割，供应商就会把你当跳板用——赚钱的时候给你供货，不赚钱的时候第一个甩你。&lt;/strong>&lt;/p>
+&lt;h2 id="第二层合作型关系前20的供应链公司的玩法">第二层：合作型关系（前20%的供应链公司的玩法）&lt;/h2>
+&lt;p>合作型关系的核心是：&lt;strong>共同降本，而不是转移成本。&lt;/strong>&lt;/p>
+&lt;p>什么叫共同降本？供应商报一个交付价，你派人去帮供应商做精益改善，省下来的成本按比例分。大家都赚钱，关系才能长久。&lt;/p>
+&lt;p>具体怎么操作：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>联合降本项目&lt;/strong>：帮供应商优化工艺、降低损耗、提升良率，降下来的成本五五分。&lt;/li>
+&lt;li>&lt;strong>信息共享&lt;/strong>：把你的需求预测同步给供应商，让他提前备料排产，别让他猜。供应商猜不准，要么多备料（成本摊到你头上），要么少备料（紧急插单加价）。&lt;/li>
+&lt;li>&lt;strong>稳定合作承诺&lt;/strong>：给核心供应商一个&amp;quot;年框&amp;quot;，别一年一招标。供应商有了稳定的预期，才敢为你投资设备、储备人才。&lt;/li>
+&lt;li>&lt;strong>共同解决问题&lt;/strong>：出了问题别先谈罚款，先共同找根因。质量问题、交期问题，80%的根因不在供应商那边，在你的需求波动、你的设计变更、你的预测不准。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合作型关系的本质：让供应商的成功变成你的成功。&lt;/strong>&lt;/p>
+&lt;h2 id="第三层战略型关系顶级供应链的杀手锏">第三层：战略型关系（顶级供应链的杀手锏）&lt;/h2>
+&lt;p>战略型供应商不是&amp;quot;买东西的人&amp;quot;，是&amp;quot;帮你赢的人&amp;quot;。&lt;/p>
+&lt;p>丰田跟电装的关系是教科书级的案例：电装早期参与丰田的车型开发，新车型还在设计阶段，电装的工程师就已经在同步开发配套零部件了。这不是&amp;quot;采购&amp;quot;，这是&amp;quot;联合研发&amp;quot;。&lt;/p>
+&lt;p>战略型关系需要：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>早期介入&lt;/strong>：让关键供应商参与你的新产品开发流程&lt;/li>
+&lt;li>&lt;strong>技术共享&lt;/strong>：你给供应商方向，供应商给你方案，双向技术输入&lt;/li>
+&lt;li>&lt;strong>长期承诺&lt;/strong>：不是一年一签，是五年十年的合作框架，双方都有底气做长期投资&lt;/li>
+&lt;li>&lt;strong>利益绑定&lt;/strong>：可以考虑联合投资/交叉持股/利润分成等机制&lt;/li>
+&lt;/ul>
+&lt;p>当然，不是所有供应商都值得战略投入。筛选标准：&lt;strong>这个供应商的能力，是不是你未来3-5年竞争力的关键组成部分？&lt;/strong> 是，就值得投。&lt;/p>
+&lt;h2 id="怎么从交易型升级到合作型">怎么从交易型升级到合作型？&lt;/h2>
+&lt;p>别想着一步到位。从你的供应商池里挑出TOP 5（按采购金额），一个一个做关系升级：&lt;/p>
+&lt;p>&lt;strong>第一步：坐下来聊。&lt;/strong> 别谈价格，谈痛点。问供应商：你跟我们合作最大的困难是什么？我们的哪些行为增加了你的成本？&lt;/p>
+&lt;p>&lt;strong>第二步：选一个共同降本项目试试水。&lt;/strong> 哪怕省不了多少钱，关键是建立&amp;quot;我们是一边的&amp;quot;这个认知。&lt;/p>
+&lt;p>&lt;strong>第三步：签一个年度框架协议。&lt;/strong> 承诺量，不承诺价。量稳了，供应商才敢给好价。&lt;/p>
+&lt;p>&lt;strong>把供应商当自己人，他才会把你当自己人。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>干了10年供应链才懂：90%的乱象不是能力问题，是这三堵墙</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-walls/</guid><description>&lt;p>我刚入行做供应链那年，最困惑的一件事是：为什么公司里的每个部门看起来都在做&amp;quot;正确的事&amp;quot;，但整个供应链还是一团糟？&lt;/p>
+&lt;p>采购说&amp;quot;我降本了&amp;quot;，仓库说&amp;quot;我发货了&amp;quot;，计划说&amp;quot;我排产了&amp;quot;。每个部门的KPI都是绿的，但客户满意度是红的，库存周转率是红的，毛利率也是红的。&lt;/p>
+&lt;p>我花了大概5年才想明白这个问题：&lt;strong>每个部门都在局部最优，但全局是次优的。&lt;/strong> 因为有三堵看不见的墙，把信息、利益和决策隔在了不同的格子里。&lt;/p>
+&lt;h2 id="第一堵墙部门墙">第一堵墙：部门墙&lt;/h2>
+&lt;p>这是最显而易见也最难打破的墙。&lt;/p>
+&lt;p>销售接了一个大单，承诺客户&amp;quot;7天交货&amp;quot;。计划拿到订单一看，这个SKU的生产周期就要10天。销售说&amp;quot;客户很重要，想想办法&amp;quot;，计划说&amp;quot;产线已经排满了&amp;quot;。最后销售直接找厂长施压，插单生产，打乱了后面所有的排产计划，三个小客户的订单全部延期。&lt;/p>
+&lt;p>&lt;strong>在这个例子里，销售做错了吗？&lt;/strong> 没有，他的KPI是接单量。
+&lt;strong>计划做错了吗？&lt;/strong> 没有，他的KPI是排产满足率。
+&lt;strong>厂长做错了吗？&lt;/strong> 也没有，大客户的单子不能丢。&lt;/p>
+&lt;p>&lt;strong>每个人在自己的KPI框架里都是对的，但整体供应链被打乱了。&lt;/strong>&lt;/p>
+&lt;p>部门墙的本质是：&lt;strong>KPI体系的设计让部门之间利益冲突。&lt;/strong> 销售要量不要利，采购要低价不要交期，生产要产能利用率不要灵活性。这三个目标天然互相矛盾。&lt;/p>
+&lt;p>&lt;strong>打破部门墙的核心不是搞团建、不是喊口号，是把KPI从部门导向改成流程导向。&lt;/strong>&lt;/p>
+&lt;p>比如：别只看&amp;quot;采购成本&amp;quot;，看&amp;quot;总拥有成本（TCO）&amp;quot;。别只看&amp;quot;销售额&amp;quot;，看&amp;quot;毛利率&amp;quot;。别只看&amp;quot;计划达成率&amp;quot;，看&amp;quot;订单交付及时率&amp;quot;和&amp;quot;库存周转率&amp;quot;的组合指标。&lt;/p>
+&lt;p>&lt;strong>指标的颗粒对齐了，部门之间的博弈才会消失。&lt;/strong>&lt;/p>
+&lt;h2 id="第二堵墙公司墙">第二堵墙：公司墙&lt;/h2>
+&lt;p>这是最难搞的一堵墙，因为涉及外部利益。&lt;/p>
+&lt;p>你的公司是你的公司，供应商是供应商，客户是客户。三者之间有明确的法律边界，也有隐形的信息边界。&lt;/p>
+&lt;p>供应商不知道你下个月的促销计划，只能凭历史数据估。为了&amp;quot;不断供&amp;quot;，他多备了30%的库存——这些库存的成本，最终会通过价格转嫁给你。&lt;/p>
+&lt;p>你不知道客户的真实需求，客户给了个&amp;quot;预测量&amp;quot;但你不敢全信，你自己也多备了20%的安全库存。&lt;/p>
+&lt;p>&lt;strong>供应链上每一环都在各自多备库存，这就是&amp;quot;牛鞭效应&amp;quot;。&lt;/strong> 信息每往上传递一层，波动就被放大一次。&lt;/p>
+&lt;p>打破公司墙不靠合同，靠信息共享：&lt;/p>
+&lt;ul>
+&lt;li>把你的需求预测同步给供应商，给他一个&amp;quot;参考量&amp;quot;而不是&amp;quot;承诺量&amp;quot;&lt;/li>
+&lt;li>让供应商参与你的S&amp;amp;OP会议，让他听到一线的需求信号&lt;/li>
+&lt;li>跟核心客户建立VMI/CPFR机制，让客户的需求直接驱动你的补货&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你捂着信息，供应商就靠猜。他猜的偏差，最后都是你的成本。&lt;/strong>&lt;/p>
+&lt;h2 id="第三堵墙层级墙">第三堵墙：层级墙&lt;/h2>
+&lt;p>这堵墙最隐蔽，破坏力也最大。&lt;/p>
+&lt;p>一线仓库员工发现某个SKU的库位设计不合理，每次拣货要多走30米。他跟主管提了，主管说&amp;quot;我反映一下&amp;quot;。然后这个反馈在上报的路上消失了——因为中间隔着3个层级，每个层级都觉得&amp;quot;这不是我的KPI&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>层级墙的本质是：决策权在一线以上，但信息在一线。手握信息的人没权做决策，有权做决策的人没信息。&lt;/strong>&lt;/p>
+&lt;p>很多公司的供应链优化项目，方案是咨询公司做的，数据是总部提供的，一线执行的人从一开始就没被问过意见。上线以后发现方案跟现场完全不匹配，又是一轮&amp;quot;推倒重来&amp;quot;。&lt;/p>
+&lt;p>打破层级墙的方法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>授权一线&lt;/strong>：给班组长/仓库主管一定的调整权限，不需要事事审批&lt;/li>
+&lt;li>&lt;strong>建议闭环&lt;/strong>：一线提的改善建议，必须回馈&amp;quot;采纳/不采纳/为什么&amp;quot;，不能石沉大海&lt;/li>
+&lt;li>&lt;strong>管理层下一线&lt;/strong>：供应链总监每月至少去一次仓库/产线，不是视察，是听一线吐槽&lt;/li>
+&lt;/ul>
+&lt;h2 id="打破这三堵墙比上任何系统都管用">打破这三堵墙，比上任何系统都管用&lt;/h2>
+&lt;p>我见过太多公司花几百万上系统，但系统只是把现有的混乱&amp;quot;数字化&amp;quot;了一遍。信息还是堵在部门之间，数据还是捂着不共享，一线的问题还是传不到决策层。&lt;/p>
+&lt;p>&lt;strong>供应链管理的本质不是&amp;quot;管货&amp;quot;，是&amp;quot;管信息流&amp;quot;。&lt;/strong> 信息流跑通了，货自然就顺了。&lt;/p>
+&lt;p>打破三堵墙不需要花一分钱，需要的是：&lt;/p>
+&lt;ol>
+&lt;li>把KPI从&amp;quot;部门导向&amp;quot;改成&amp;quot;流程导向&amp;quot;&lt;/li>
+&lt;li>跟上下游共享真实的需求信号&lt;/li>
+&lt;li>把决策权下沉到离信息最近的人&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>墙是自己建的，也只有自己能拆。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链协同不是开会，是把信息墙砸了</title><link>https://supplychain-tips.pages.dev/posts/supply-collab-173/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-collab-173/</guid><description>&lt;p>你有没有过这种经历：销售部报了个月底的出货预测，采购按这个备了料，生产排了班。临到出货前5天销售说&amp;quot;客户那边有变动，先停一停&amp;quot;。&lt;/p>
 &lt;p>然后库存又堆上了，产线又停了。你去找销售理论，销售说&amp;quot;市场那帮人改的需求，关我什么事&amp;quot;。你去找市场，市场说&amp;quot;客户说了算，我能咋办&amp;quot;。&lt;/p>
 &lt;p>这种协同，协同了个寂寞。&lt;/p>
 &lt;h3 id="第一堵墙信息墙每个人手里都攥着自己的那张小表">第一堵墙：信息墙——每个人手里都攥着自己的那张小表&lt;/h3>

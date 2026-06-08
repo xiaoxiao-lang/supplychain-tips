@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商报价砍一半还有利润，你信不信？</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>我认识一个采购老哥，干了8年，降本考核年年第一。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商不是乙方，是你的半个生产部</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</guid><description>&lt;p>我刚入行的时候，公司一个老采购教我的第一句话是：&amp;ldquo;对供应商，就得往死里压。你不压他，他觉得你好欺负。&amp;rdquo;&lt;/p>
+&lt;p>我当时觉得好有道理。直到后来看到一个更狠的案例，我才意识到这套逻辑有多短视。&lt;/p>
+&lt;p>一家汽配厂，常年对自己最大的铸件供应商极限压价，每年砍5%雷打不动。供应商扛了3年不赚钱，第四年直接说&amp;quot;不做了&amp;quot;。这家汽配厂紧急找新供应商，前后换了三家，每家都要3-6个月的质量认证周期。期间因为供应不稳定，丢了一个主机厂的大单，损失至少3000万。&lt;/p>
+&lt;p>&lt;strong>省了三年一共180万的采购差价，最后一口气亏了3000万。&lt;/strong>&lt;/p>
+&lt;h2 id="供应商不是你的乙方是你的半个生产部">供应商不是你的乙方，是你的半个生产部&lt;/h2>
+&lt;p>制造业供应链有个容易被忽略的事实：&lt;strong>你交付给客户的最终产品质量，有一半取决于供应商。&lt;/strong>&lt;/p>
+&lt;p>原材料不行，你工艺再好也白搭。交期不稳定，你排产计划再精也是自嗨。供应商的生产效率、质量管理能力、技术迭代速度——每一个都直接影响你的竞争力。&lt;/p>
+&lt;p>把供应商当成&amp;quot;可以随便换的乙方&amp;quot;来管理，意味着你在用最笨的方式对待你最重要的外部资源。&lt;/p>
+&lt;h2 id="第一层交易型关系90的公司停在这一层">第一层：交易型关系（90%的公司停在这一层）&lt;/h2>
+&lt;p>特征就一个字：&lt;strong>压&lt;/strong>。压价、压账期、压交期、压质量扣款。供应商在他们眼里不是一个&amp;quot;伙伴&amp;quot;，是一个&amp;quot;成本项&amp;quot;。&lt;/p>
+&lt;p>交易型关系的后果很明确：&lt;/p>
+&lt;ul>
+&lt;li>供应商永远给你报&amp;quot;含压价空间&amp;quot;的价格&lt;/li>
+&lt;li>有好的技术不会第一时间跟你分享&lt;/li>
+&lt;li>产能紧张的时候，你的订单排最后&lt;/li>
+&lt;li>你永远拿不到供应商的&amp;quot;最优资源&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你还觉得省了5%很赚吗？你把供应商当韭菜割，供应商就会把你当跳板用——赚钱的时候给你供货，不赚钱的时候第一个甩你。&lt;/strong>&lt;/p>
+&lt;h2 id="第二层合作型关系前20的供应链公司的玩法">第二层：合作型关系（前20%的供应链公司的玩法）&lt;/h2>
+&lt;p>合作型关系的核心是：&lt;strong>共同降本，而不是转移成本。&lt;/strong>&lt;/p>
+&lt;p>什么叫共同降本？供应商报一个交付价，你派人去帮供应商做精益改善，省下来的成本按比例分。大家都赚钱，关系才能长久。&lt;/p>
+&lt;p>具体怎么操作：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>联合降本项目&lt;/strong>：帮供应商优化工艺、降低损耗、提升良率，降下来的成本五五分。&lt;/li>
+&lt;li>&lt;strong>信息共享&lt;/strong>：把你的需求预测同步给供应商，让他提前备料排产，别让他猜。供应商猜不准，要么多备料（成本摊到你头上），要么少备料（紧急插单加价）。&lt;/li>
+&lt;li>&lt;strong>稳定合作承诺&lt;/strong>：给核心供应商一个&amp;quot;年框&amp;quot;，别一年一招标。供应商有了稳定的预期，才敢为你投资设备、储备人才。&lt;/li>
+&lt;li>&lt;strong>共同解决问题&lt;/strong>：出了问题别先谈罚款，先共同找根因。质量问题、交期问题，80%的根因不在供应商那边，在你的需求波动、你的设计变更、你的预测不准。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合作型关系的本质：让供应商的成功变成你的成功。&lt;/strong>&lt;/p>
+&lt;h2 id="第三层战略型关系顶级供应链的杀手锏">第三层：战略型关系（顶级供应链的杀手锏）&lt;/h2>
+&lt;p>战略型供应商不是&amp;quot;买东西的人&amp;quot;，是&amp;quot;帮你赢的人&amp;quot;。&lt;/p>
+&lt;p>丰田跟电装的关系是教科书级的案例：电装早期参与丰田的车型开发，新车型还在设计阶段，电装的工程师就已经在同步开发配套零部件了。这不是&amp;quot;采购&amp;quot;，这是&amp;quot;联合研发&amp;quot;。&lt;/p>
+&lt;p>战略型关系需要：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>早期介入&lt;/strong>：让关键供应商参与你的新产品开发流程&lt;/li>
+&lt;li>&lt;strong>技术共享&lt;/strong>：你给供应商方向，供应商给你方案，双向技术输入&lt;/li>
+&lt;li>&lt;strong>长期承诺&lt;/strong>：不是一年一签，是五年十年的合作框架，双方都有底气做长期投资&lt;/li>
+&lt;li>&lt;strong>利益绑定&lt;/strong>：可以考虑联合投资/交叉持股/利润分成等机制&lt;/li>
+&lt;/ul>
+&lt;p>当然，不是所有供应商都值得战略投入。筛选标准：&lt;strong>这个供应商的能力，是不是你未来3-5年竞争力的关键组成部分？&lt;/strong> 是，就值得投。&lt;/p>
+&lt;h2 id="怎么从交易型升级到合作型">怎么从交易型升级到合作型？&lt;/h2>
+&lt;p>别想着一步到位。从你的供应商池里挑出TOP 5（按采购金额），一个一个做关系升级：&lt;/p>
+&lt;p>&lt;strong>第一步：坐下来聊。&lt;/strong> 别谈价格，谈痛点。问供应商：你跟我们合作最大的困难是什么？我们的哪些行为增加了你的成本？&lt;/p>
+&lt;p>&lt;strong>第二步：选一个共同降本项目试试水。&lt;/strong> 哪怕省不了多少钱，关键是建立&amp;quot;我们是一边的&amp;quot;这个认知。&lt;/p>
+&lt;p>&lt;strong>第三步：签一个年度框架协议。&lt;/strong> 承诺量，不承诺价。量稳了，供应商才敢给好价。&lt;/p>
+&lt;p>&lt;strong>把供应商当自己人，他才会把你当自己人。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>签了300份采购合同才敢说：这5条不看，迟早被供应商坑哭</title><link>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</guid><description>&lt;p>上个月一个做采购的妹子在微信上问我：&amp;ldquo;哥，供应商送来的货明显是次品，我拒收了，供应商反手把我们告了，说我们无故拒收违约。怎么办？&amp;rdquo;&lt;/p>
+&lt;p>我要来合同一看，验收标准那一栏写的是&amp;quot;按行业标准验收&amp;quot;。什么叫&amp;quot;行业标准&amp;quot;？谁定的？判定依据是什么？什么都没写。&lt;/p>
+&lt;p>&lt;strong>就这四个字，让她从有理变成了没理。&lt;/strong>&lt;/p>
+&lt;p>采购合同这件事，90%的采购人把它当行政流程：&amp;ldquo;法务审核过了就行，我不用管。&amp;ldquo;但法务审的是法律风险，不是业务风险。合同里的坑，最后买单的永远是业务。&lt;/p>
+&lt;h2 id="坑一验收标准写成按行业标准">坑一：验收标准写成&amp;quot;按行业标准&amp;rdquo;&lt;/h2>
+&lt;p>这是我在采购合同里见过最多的模糊条款，没有之一。&lt;/p>
+&lt;p>&amp;ldquo;按行业标准&amp;quot;&amp;ldquo;按国家标准&amp;quot;&amp;ldquo;按通用标准&amp;rdquo;——这些词放在合同里等于什么都没写。出了纠纷，你说按你的标准，供应商说按他的标准，谁都说服不了谁。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&lt;/strong>&lt;/p>
+&lt;p>验收标准要具体到可量化、可检验、无歧义的程度。比如：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;外观无划痕、色差ΔE≤2&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;尺寸公差±0.1mm&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;交付文档包含：出厂检验报告、材质证明、RoHS检测报告&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>如果涉及服务类采购，验收标准更要写清楚：&amp;ldquo;XX功能上线后连续运行7天无重大bug&amp;quot;&amp;ldquo;客服响应时间≤30秒，月满意度评分≥4.5&amp;rdquo;。&lt;/p>
+&lt;p>&lt;strong>验收标准写不清楚，付了钱再发现问题，你就从甲方变成乙方了。&lt;/strong>&lt;/p>
+&lt;h2 id="坑二违约责任只约束你不约束供应商">坑二：违约责任只约束你不约束供应商&lt;/h2>
+&lt;p>很多采购合同的违约条款是这样的：你晚付款一天，罚千分之五；供应商晚交货一天，罚千分之一。&lt;/p>
+&lt;p>&amp;ldquo;五倍差距&amp;quot;听起来夸张，但现实中比这个严重的不在少数。&lt;/p>
+&lt;p>更隐蔽的坑是：供应商的违约责任只在&amp;quot;延期交货&amp;quot;这块写了，但&amp;quot;质量不达标&amp;quot;&amp;ldquo;以次充好&amp;quot;&amp;ldquo;擅自转包&amp;quot;这些情况根本没提。出了问题你找不到条款去追责。&lt;/p>
+&lt;p>&lt;strong>怎么改：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>双方的违约金比例要对等，不能供应商罚你5‰你罚他1‰&lt;/li>
+&lt;li>供应商的违约情形要覆盖全面：延期、质量、知识产权侵权、转包、数据安全&lt;/li>
+&lt;li>加上&amp;quot;因供应商原因导致客户对下游客户的违约损失由供应商承担&amp;quot;的连带责任条款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>合同不能只保护供应商，也得保护你自己。&lt;/strong>&lt;/p>
+&lt;h2 id="坑三知识产权归属没写清楚">坑三：知识产权归属没写清楚&lt;/h2>
+&lt;p>这一条在软件采购、设计服务、模具开发这类采购里尤其致命。&lt;/p>
+&lt;p>案例：一家消费品公司找设计公司开发了一套产品外观，付了全款。两年后想换供应商继续用这套设计，原设计公司跳出来说&amp;quot;知识产权没转让，你不能给别人用&amp;rdquo;。合同一翻，确实没写知识产权归属。&lt;/p>
+&lt;p>&lt;strong>结果：要么打官司，要么再付一笔&amp;quot;转让费&amp;rdquo;。&lt;/strong>&lt;/p>
+&lt;p>采购合同里的知识产权条款必须明确：&lt;/p>
+&lt;ul>
+&lt;li>为本项目产生的知识产权归谁所有&lt;/li>
+&lt;li>供应商使用的第三方知识产权是否合法授权（避免连带侵权）&lt;/li>
+&lt;li>供应商的保密义务范围和时间&lt;/li>
+&lt;/ul>
+&lt;h2 id="坑四不可抗力条款成了供应商的万能挡箭牌">坑四：不可抗力条款成了供应商的万能挡箭牌&lt;/h2>
+&lt;p>疫情之后，供应商最爱用的延期理由：不可抗力。&lt;/p>
+&lt;p>但&amp;quot;不可抗力&amp;quot;不是万能的。&amp;ldquo;上游原材料涨价了&amp;quot;算不算不可抗力？&amp;ldquo;工厂停电了&amp;quot;算不算？&amp;ldquo;工人罢工了&amp;quot;算不算？&lt;/p>
+&lt;p>如果合同里不可抗力条款写得太宽泛，供应商什么都能往里套。&lt;/p>
+&lt;p>&lt;strong>怎么防：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>明确列举不可抗力的范围：自然灾害、战争、政府禁令等真正不可预见、不可避免的事件&lt;/li>
+&lt;li>明确排除：原材料价格波动、产能不足、员工离职、设备故障等商业风险&lt;/li>
+&lt;li>加上通知义务：供应商在不可抗力发生后24小时内书面通知，并提供证明，否则不免责&lt;/li>
+&lt;li>加上终止权：不可抗力持续超过X天，你有权单方面解除合同&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>不可抗力不是免死金牌，商业风险不能混进去。&lt;/strong>&lt;/p>
+&lt;h2 id="坑五争议解决方式写得太随便">坑五：争议解决方式写得太随便&lt;/h2>
+&lt;p>这一条不看的人最多，吃亏的人也最多。&lt;/p>
+&lt;p>&amp;ldquo;如有争议，双方协商解决；协商不成的，提交法院处理。&amp;rdquo;&lt;/p>
+&lt;p>哪个法院？你公司所在地？供应商所在地？合同签订地？不写清楚，供应商肯定选对他有利的地方起诉。跨省打官司，光差旅费就能让你吃一壶。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&amp;rdquo;
+因本合同产生的争议，双方协商不成的，任何一方均有权向甲方所在地有管辖权的人民法院提起诉讼。&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>如果是跨境采购，优先选仲裁而非诉讼：仲裁裁决在170多个《纽约公约》成员国内都可以执行，法院判决出了国境基本是一张废纸。&lt;/p>
+&lt;p>另外注意仲裁机构的选定要有公信力：中国国际经济贸易仲裁委员会（CIETAC）、香港国际仲裁中心（HKIAC）、新加坡国际仲裁中心（SIAC）都是靠谱选择。&lt;/p>
+&lt;p>&lt;strong>争议解决条款是你最后的防线，别等出事了才发现这条没写清楚。&lt;/strong>&lt;/p>
+&lt;h2 id="一张合同自查清单">一张合同自查清单&lt;/h2>
+&lt;p>签合同之前，找5分钟过一下这5条：&lt;/p>
+&lt;ol>
+&lt;li>验收标准能不能量化？不能 → 改&lt;/li>
+&lt;li>违约条款是不是双向对等的？不是 → 改&lt;/li>
+&lt;li>知识产权归谁，写清楚了没有？没有 → 改&lt;/li>
+&lt;li>不可抗力有没有排除商业风险？没有 → 改&lt;/li>
+&lt;li>争议解决法院/仲裁机构指定了没有？没指定 → 改&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合同不是法务审完就完了的事，是你自己的风险防线。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应商报价砍一半还有利润，你信不信？</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>我认识一个采购老哥，干了8年，降本考核年年第一。&lt;/p>
 &lt;p>他的秘诀不是会砍价。他跟我说了一句话：&lt;strong>你见过哪个供应商会报成本价？&lt;/strong>&lt;/p>
 &lt;p>真正的高手，不是谈判桌上有多狠，是进谈判室之前，已经知道对方成本大概是多少了。&lt;/p>
 &lt;h3 id="第一招拆bom从材料端反推">第一招：拆BOM，从材料端反推&lt;/h3>

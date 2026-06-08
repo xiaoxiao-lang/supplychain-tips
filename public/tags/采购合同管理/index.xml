@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>300份合同才悟出来：这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</guid><description>&lt;p>上周翻旧合同的时候，我发现2019年签的一份设备采购合同，交货条款写的是&amp;quot;货到验收后付款&amp;quot;。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购合同管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购合同管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>签了300份采购合同才敢说：这5条不看，迟早被供应商坑哭</title><link>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-contract-traps/</guid><description>&lt;p>上个月一个做采购的妹子在微信上问我：&amp;ldquo;哥，供应商送来的货明显是次品，我拒收了，供应商反手把我们告了，说我们无故拒收违约。怎么办？&amp;rdquo;&lt;/p>
+&lt;p>我要来合同一看，验收标准那一栏写的是&amp;quot;按行业标准验收&amp;quot;。什么叫&amp;quot;行业标准&amp;quot;？谁定的？判定依据是什么？什么都没写。&lt;/p>
+&lt;p>&lt;strong>就这四个字，让她从有理变成了没理。&lt;/strong>&lt;/p>
+&lt;p>采购合同这件事，90%的采购人把它当行政流程：&amp;ldquo;法务审核过了就行，我不用管。&amp;ldquo;但法务审的是法律风险，不是业务风险。合同里的坑，最后买单的永远是业务。&lt;/p>
+&lt;h2 id="坑一验收标准写成按行业标准">坑一：验收标准写成&amp;quot;按行业标准&amp;rdquo;&lt;/h2>
+&lt;p>这是我在采购合同里见过最多的模糊条款，没有之一。&lt;/p>
+&lt;p>&amp;ldquo;按行业标准&amp;quot;&amp;ldquo;按国家标准&amp;quot;&amp;ldquo;按通用标准&amp;rdquo;——这些词放在合同里等于什么都没写。出了纠纷，你说按你的标准，供应商说按他的标准，谁都说服不了谁。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&lt;/strong>&lt;/p>
+&lt;p>验收标准要具体到可量化、可检验、无歧义的程度。比如：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;外观无划痕、色差ΔE≤2&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;尺寸公差±0.1mm&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;交付文档包含：出厂检验报告、材质证明、RoHS检测报告&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>如果涉及服务类采购，验收标准更要写清楚：&amp;ldquo;XX功能上线后连续运行7天无重大bug&amp;quot;&amp;ldquo;客服响应时间≤30秒，月满意度评分≥4.5&amp;rdquo;。&lt;/p>
+&lt;p>&lt;strong>验收标准写不清楚，付了钱再发现问题，你就从甲方变成乙方了。&lt;/strong>&lt;/p>
+&lt;h2 id="坑二违约责任只约束你不约束供应商">坑二：违约责任只约束你不约束供应商&lt;/h2>
+&lt;p>很多采购合同的违约条款是这样的：你晚付款一天，罚千分之五；供应商晚交货一天，罚千分之一。&lt;/p>
+&lt;p>&amp;ldquo;五倍差距&amp;quot;听起来夸张，但现实中比这个严重的不在少数。&lt;/p>
+&lt;p>更隐蔽的坑是：供应商的违约责任只在&amp;quot;延期交货&amp;quot;这块写了，但&amp;quot;质量不达标&amp;quot;&amp;ldquo;以次充好&amp;quot;&amp;ldquo;擅自转包&amp;quot;这些情况根本没提。出了问题你找不到条款去追责。&lt;/p>
+&lt;p>&lt;strong>怎么改：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>双方的违约金比例要对等，不能供应商罚你5‰你罚他1‰&lt;/li>
+&lt;li>供应商的违约情形要覆盖全面：延期、质量、知识产权侵权、转包、数据安全&lt;/li>
+&lt;li>加上&amp;quot;因供应商原因导致客户对下游客户的违约损失由供应商承担&amp;quot;的连带责任条款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>合同不能只保护供应商，也得保护你自己。&lt;/strong>&lt;/p>
+&lt;h2 id="坑三知识产权归属没写清楚">坑三：知识产权归属没写清楚&lt;/h2>
+&lt;p>这一条在软件采购、设计服务、模具开发这类采购里尤其致命。&lt;/p>
+&lt;p>案例：一家消费品公司找设计公司开发了一套产品外观，付了全款。两年后想换供应商继续用这套设计，原设计公司跳出来说&amp;quot;知识产权没转让，你不能给别人用&amp;rdquo;。合同一翻，确实没写知识产权归属。&lt;/p>
+&lt;p>&lt;strong>结果：要么打官司，要么再付一笔&amp;quot;转让费&amp;rdquo;。&lt;/strong>&lt;/p>
+&lt;p>采购合同里的知识产权条款必须明确：&lt;/p>
+&lt;ul>
+&lt;li>为本项目产生的知识产权归谁所有&lt;/li>
+&lt;li>供应商使用的第三方知识产权是否合法授权（避免连带侵权）&lt;/li>
+&lt;li>供应商的保密义务范围和时间&lt;/li>
+&lt;/ul>
+&lt;h2 id="坑四不可抗力条款成了供应商的万能挡箭牌">坑四：不可抗力条款成了供应商的万能挡箭牌&lt;/h2>
+&lt;p>疫情之后，供应商最爱用的延期理由：不可抗力。&lt;/p>
+&lt;p>但&amp;quot;不可抗力&amp;quot;不是万能的。&amp;ldquo;上游原材料涨价了&amp;quot;算不算不可抗力？&amp;ldquo;工厂停电了&amp;quot;算不算？&amp;ldquo;工人罢工了&amp;quot;算不算？&lt;/p>
+&lt;p>如果合同里不可抗力条款写得太宽泛，供应商什么都能往里套。&lt;/p>
+&lt;p>&lt;strong>怎么防：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>明确列举不可抗力的范围：自然灾害、战争、政府禁令等真正不可预见、不可避免的事件&lt;/li>
+&lt;li>明确排除：原材料价格波动、产能不足、员工离职、设备故障等商业风险&lt;/li>
+&lt;li>加上通知义务：供应商在不可抗力发生后24小时内书面通知，并提供证明，否则不免责&lt;/li>
+&lt;li>加上终止权：不可抗力持续超过X天，你有权单方面解除合同&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>不可抗力不是免死金牌，商业风险不能混进去。&lt;/strong>&lt;/p>
+&lt;h2 id="坑五争议解决方式写得太随便">坑五：争议解决方式写得太随便&lt;/h2>
+&lt;p>这一条不看的人最多，吃亏的人也最多。&lt;/p>
+&lt;p>&amp;ldquo;如有争议，双方协商解决；协商不成的，提交法院处理。&amp;rdquo;&lt;/p>
+&lt;p>哪个法院？你公司所在地？供应商所在地？合同签订地？不写清楚，供应商肯定选对他有利的地方起诉。跨省打官司，光差旅费就能让你吃一壶。&lt;/p>
+&lt;p>&lt;strong>应该怎么写：&amp;rdquo;
+因本合同产生的争议，双方协商不成的，任何一方均有权向甲方所在地有管辖权的人民法院提起诉讼。&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>如果是跨境采购，优先选仲裁而非诉讼：仲裁裁决在170多个《纽约公约》成员国内都可以执行，法院判决出了国境基本是一张废纸。&lt;/p>
+&lt;p>另外注意仲裁机构的选定要有公信力：中国国际经济贸易仲裁委员会（CIETAC）、香港国际仲裁中心（HKIAC）、新加坡国际仲裁中心（SIAC）都是靠谱选择。&lt;/p>
+&lt;p>&lt;strong>争议解决条款是你最后的防线，别等出事了才发现这条没写清楚。&lt;/strong>&lt;/p>
+&lt;h2 id="一张合同自查清单">一张合同自查清单&lt;/h2>
+&lt;p>签合同之前，找5分钟过一下这5条：&lt;/p>
+&lt;ol>
+&lt;li>验收标准能不能量化？不能 → 改&lt;/li>
+&lt;li>违约条款是不是双向对等的？不是 → 改&lt;/li>
+&lt;li>知识产权归谁，写清楚了没有？没有 → 改&lt;/li>
+&lt;li>不可抗力有没有排除商业风险？没有 → 改&lt;/li>
+&lt;li>争议解决法院/仲裁机构指定了没有？没指定 → 改&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>合同不是法务审完就完了的事，是你自己的风险防线。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>300份合同才悟出来：这5条不看一定吃亏</title><link>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/contract-killer-clauses/</guid><description>&lt;p>上周翻旧合同的时候，我发现2019年签的一份设备采购合同，交货条款写的是&amp;quot;货到验收后付款&amp;quot;。&lt;/p>
 &lt;p>然后我查了一下，那批货从深圳到青岛，&lt;strong>走了23天&lt;/strong>。&lt;/p>
 &lt;p>供应商说海运排期滞后，合同里没写交货时限，我们一点办法没有。产线停了两周，损失远超那批设备的价值。&lt;/p>
 &lt;p>就这6个字——&amp;ldquo;货到验收后付款&amp;rdquo;——让我明明白白懂了：&lt;strong>采购合同不是模板填填就能签的&lt;/strong>。&lt;/p>
