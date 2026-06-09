@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRP on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/mrp/</link><description>Recent content in MRP on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/mrp/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了500万才懂，MRP是个坑？</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRP on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/mrp/</link><description>Recent content in MRP on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/mrp/index.xml" rel="self" type="application/rss+xml"/><item><title>MRP跑出来的计划为什么总是不准？3个原因你肯定中招了</title><link>https://supplychain-tips.pages.dev/posts/mrp%E8%B7%91%E5%87%BA%E6%9D%A5%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%8D%E5%87%863%E4%B8%AA%E5%8E%9F%E5%9B%A0%E4%BD%A0%E8%82%AF%E5%AE%9A%E4%B8%AD%E6%8B%9B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp%E8%B7%91%E5%87%BA%E6%9D%A5%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%8D%E5%87%863%E4%B8%AA%E5%8E%9F%E5%9B%A0%E4%BD%A0%E8%82%AF%E5%AE%9A%E4%B8%AD%E6%8B%9B%E4%BA%86/</guid><description>&lt;h2 id="mrp跑出来的计划你敢信吗">MRP跑出来的计划，你敢信吗？&lt;/h2>
+&lt;p>每个上了ERP的公司都有MRP，但真正按MRP跑出来的计划执行的，不到30%。&lt;/p>
+&lt;p>为什么？因为&lt;strong>MRP的输出质量取决于输入质量&lt;/strong>。垃圾进，垃圾出。&lt;/p>
+&lt;p>我问过几十个供应链同行：&amp;ldquo;你们MRP跑出来的采购建议，你直接执行的比例是多少？&amp;rdquo;&lt;/p>
+&lt;p>最常见的回答是：&lt;strong>30%-50%&lt;/strong>。剩下的要靠经验调整、人工干预、甚至完全推翻重来。&lt;/p>
+&lt;p>如果MRP跑出来的计划只有一半能用，那MRP跟Excel有什么区别？&lt;/p>
+&lt;h2 id="原因1主生产计划mps不准源头就是错的">原因1：主生产计划（MPS）不准——源头就是错的&lt;/h2>
+&lt;p>MRP的核心输入是主生产计划（MPS），MPS决定了&amp;quot;要生产什么、什么时候生产、生产多少&amp;quot;。&lt;/p>
+&lt;p>如果MPS是错的，MRP算出来的物料需求就全是错的。&lt;/p>
+&lt;p>&lt;strong>MPS不准的3个典型原因&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>销售预测代替了主计划&lt;/strong>：很多公司没有真正的MPS，直接把销售预测灌进去。但销售预测不是计划——预测是&amp;quot;可能卖多少&amp;quot;，计划是&amp;quot;决定做多少&amp;quot;。两者的差异有时候是数量级的。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>计划频繁变更&lt;/strong>：MPS改了3次，MRP就跑了3次，每次结果都不一样。采购部门不知道该信哪一次，干脆自己判断。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>没有产能约束&lt;/strong>：MPS写了一天要产1000件，但产线产能只有800件。MRP按1000件算物料需求，实际上只能做800件，多出来的物料就变成了库存。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>MPS必须经过S&amp;amp;OP（产销协同）会议确认，不是销售单方面决定&lt;/li>
+&lt;li>MPS的变更要有冻结期（如2周内不允许变更）&lt;/li>
+&lt;li>MPS必须经过产能验证（RCCP），超产能的计划不能发布&lt;/li>
+&lt;/ul>
+&lt;h2 id="原因2库存数据不准你看到的库存是假的">原因2：库存数据不准——你看到的库存是假的&lt;/h2>
+&lt;p>MRP计算物料需求的公式是：&lt;strong>净需求 = 毛需求 - 可用库存 - 在途量&lt;/strong>&lt;/p>
+&lt;p>如果库存数据不准，净需求就算不准。&lt;/p>
+&lt;p>&lt;strong>库存不准有多严重&lt;/strong>：&lt;/p>
+&lt;p>我见过一家公司，系统显示某物料库存500个，实际仓库只有120个。MRP按500个算，净需求少了380个。等发现时已经来不及了，紧急采购加急运费花了8万。&lt;/p>
+&lt;p>&lt;strong>库存不准的3个来源&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>账实不符&lt;/strong>：出入库没有及时录入，或者录错了&lt;/li>
+&lt;li>&lt;strong>在途量数据缺失&lt;/strong>：采购订单下了但没关联到MRP&lt;/li>
+&lt;li>&lt;strong>预留逻辑混乱&lt;/strong>：这500个库存里有300个是给其他订单预留的，但MRP不知道&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>循环盘点&lt;/strong>：每天盘点高价值物料（A类），每周盘B类，每月盘C类&lt;/li>
+&lt;li>&lt;strong>在途量自动关联&lt;/strong>：采购订单创建时自动关联到MRP&lt;/li>
+&lt;li>&lt;strong>预留规则透明&lt;/strong>：可用库存 = 总库存 - 已预留 - 质量冻结&lt;/li>
+&lt;/ul>
+&lt;h2 id="原因3bom和提前期不准系统参数是摆设">原因3：BOM和提前期不准——系统参数是摆设&lt;/h2>
+&lt;p>MRP依赖两个关键参数：&lt;strong>BOM（物料清单）&lt;/strong> 和 &lt;strong>提前期（Lead Time）&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>BOM不准&lt;/strong>的表现：&lt;/p>
+&lt;ul>
+&lt;li>工程变更了但BOM没更新，还在用旧版物料&lt;/li>
+&lt;li>替代物料关系没有维护，缺料时系统不会自动推荐替代&lt;/li>
+&lt;li>BOM层级太深（7-8层），底层物料的需求放大效应严重&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>提前期不准&lt;/strong>的表现：&lt;/p>
+&lt;ul>
+&lt;li>供应商实际交期是15天，系统里写的是10天，MRP提前5天下单&lt;/li>
+&lt;li>实际生产周期是3天，系统里写的是2天，排产总是来不及&lt;/li>
+&lt;li>提前期是固定值，不考虑季节波动（旺季交期更长）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>每次工程变更必须同步更新BOM（建立ECN流程）&lt;/li>
+&lt;li>替代物料关系由采购部门维护，至少覆盖A/B类物料&lt;/li>
+&lt;li>提前期按实际数据更新（每季度校准一次），而不是用默认值&lt;/li>
+&lt;/ul>
+&lt;h2 id="mrp的正确打开方式">MRP的正确打开方式&lt;/h2>
+&lt;p>别指望MRP是万能的，它只是一个计算工具。工具好不好用，取决于使用它的人。&lt;/p>
+&lt;p>&lt;strong>3步让MRP从&amp;quot;仅供参考&amp;quot;变成&amp;quot;值得信赖&amp;quot;&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先修数据&lt;/strong>——MPS、库存、BOM、提前期，四个核心输入必须准确&lt;/li>
+&lt;li>&lt;strong>再修流程&lt;/strong>——S&amp;amp;OP确认MPS，循环盘点保证库存，ECN同步BOM&lt;/li>
+&lt;li>&lt;strong>最后修习惯&lt;/strong>——按MRP建议执行，偏差复盘改进，而不是每次都人工推翻&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住&lt;/strong>：MRP不准不是系统的问题，是你喂给它的数据有问题。把输入搞对了，输出自然就对了。&lt;/p>
+&lt;p>垃圾进，垃圾出。这个道理，MRP不会例外。&lt;/p></description></item><item><title>库存压了500万才懂，MRP是个坑？</title><link>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp-pitfalls/</guid><description>&lt;p>兄弟，你被MRP坑过没？&lt;/p>
 &lt;p>我有个朋友，去年公司上线了一套牛逼哄哄的ERP，MRP模块吹得天花乱坠，老板说：“上了这玩意儿，库存周转率翻倍！”结果呢？半年后，仓库堆了500万的呆滞料，采购天天被催单，生产线上断料比KPI还准时。他找我喝酒，红着眼说：“这MRP是不是个坑？”&lt;/p>
 &lt;p>我笑了，不是MRP坑，是你不会用。&lt;/p>
 &lt;p>今天不扯定义，不念教科书。咱们用群聊的风格，聊5个MRP翻车现场。你中招几个？&lt;/p>

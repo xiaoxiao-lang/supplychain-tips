@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>花80万上AGV，仓库效率反降了25%：自动化不是买设备</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</guid><description>&lt;p>上个礼拜，一个做电商仓储的兄弟给我打电话，语气像吃了屎。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库面积不够用？3个方法比扩仓便宜10倍</title><link>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</guid><description>&lt;h2 id="仓库不够用别急着扩仓">仓库不够用？别急着扩仓&lt;/h2>
+&lt;p>老板说仓库不够用，要扩仓。你一算，多租1000平米，一年多花120万。加上设备、人员、管理成本，轻松200万起步。&lt;/p>
+&lt;p>但你想过没有：&lt;strong>你现有的仓库，真的用满了吗？&lt;/strong>&lt;/p>
+&lt;p>我做过一个统计：80%的仓库，实际空间利用率不到60%。剩下的40%被三样东西占了：&lt;strong>死库存、不合理布局、低效作业动线&lt;/strong>。&lt;/p>
+&lt;p>这三个问题解决了，相当于凭空多出30%-50%的仓库面积，成本只有扩仓的十分之一。&lt;/p>
+&lt;h2 id="方法1清理死库存释放20空间">方法1：清理死库存，释放20%空间&lt;/h2>
+&lt;p>&lt;strong>死库存是仓库里最贵的东西&lt;/strong>——不是因为它值钱，而是因为它占着最值钱的空间。&lt;/p>
+&lt;p>我见过最夸张的案例：一家电子厂仓库3000平米，其中1200平米放着超过1年没动过的物料。这些物料账面价值200万，但持有成本（仓储+管理+资金占用）一年就要80万。&lt;/p>
+&lt;p>&lt;strong>怎么清&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>第一步：识别&lt;/strong>——从WMS里拉出超180天无出库记录的SKU清单&lt;/li>
+&lt;li>&lt;strong>第二步：分类&lt;/strong>——按价值分3档（&amp;gt;1万、1千-1万、&amp;lt;1千）&lt;/li>
+&lt;li>&lt;strong>第三步：处置&lt;/strong>——高价值的找替代用途或内部消化，中价值的打折处理给回收商，低价值的直接报废&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>关键原则&lt;/strong>：别想着&amp;quot;以后可能用到&amp;quot;。算一笔账：一个托盘位一年持有成本约2000-3000元，如果上面放的东西价值不到5000元且1年没动过，持有它就是在亏钱。&lt;/p>
+&lt;p>一家日化企业这么做了之后，清理了600平米的死库存区，等于省了每年72万的仓储费。&lt;/p>
+&lt;h2 id="方法2优化布局提升30空间利用率">方法2：优化布局，提升30%空间利用率&lt;/h2>
+&lt;p>仓库布局不合理是第二大空间杀手。最常见的3个问题：&lt;/p>
+&lt;h3 id="问题1通道太宽">问题1：通道太宽&lt;/h3>
+&lt;p>很多仓库通道宽3-4米，但叉车实际只需2.5米就能通行。每条通道窄0.5米，100米长的通道就能省出50平米。&lt;/p>
+&lt;h3 id="问题2低层空高层满">问题2：低层空、高层满&lt;/h3>
+&lt;p>地面放着轻小件，重型货物堆在高层——这是典型的布局错误。正确做法是：&lt;strong>重低轻高&lt;/strong>，高频出库的放黄金位（1-1.5米高度），低频的放高层。&lt;/p>
+&lt;h3 id="问题3功能分区不清晰">问题3：功能分区不清晰&lt;/h3>
+&lt;p>收货区、存储区、拣货区、发货区混杂在一起，动线交叉，效率低下。&lt;/p>
+&lt;p>&lt;strong>优化方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>按U型或L型布局规划动线，避免交叉&lt;/li>
+&lt;li>拣货区用窄通道货架（1.2米），存储区用标准通道（2.5米）&lt;/li>
+&lt;li>立体存储：地面到天花板分4-5层，当前只用了2-3层的，加装阁楼货架&lt;/li>
+&lt;/ul>
+&lt;p>一家服装仓库从平面存储改为3层阁楼货架后，同样面积存储量翻了一倍，投资回报期不到8个月。&lt;/p>
+&lt;h2 id="方法3wms驱动动线优化效率提升25">方法3：WMS驱动动线优化，效率提升25%&lt;/h2>
+&lt;p>有了空间，还得会&amp;quot;动&amp;quot;。&lt;strong>仓库效率的关键不是面积，是动线。&lt;/strong>&lt;/p>
+&lt;p>没有WMS的仓库，拣货员平均走动距离是优化的2-3倍。为什么？因为拣货路径是随机的——从A区跑到C区再回到B区，一天下来走了15公里，有效拣货时间不到一半。&lt;/p>
+&lt;p>&lt;strong>WMS能做什么&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>波次拣货&lt;/strong>：把同一区域的订单合并成一个波次，一次走完&lt;/li>
+&lt;li>&lt;strong>路径优化&lt;/strong>：自动规划最短拣货路径（类似快递员路线优化）&lt;/li>
+&lt;li>&lt;strong>库位推荐&lt;/strong>：高频商品放最近位置，系统自动分配&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>真实数据&lt;/strong>：一家电商仓库上了WMS后，人均拣货效率从120行/小时提升到180行/小时，拣货错误率从0.8%降到0.05%。&lt;/p>
+&lt;h2 id="三步执行路线">三步执行路线&lt;/h2>
+&lt;p>别想一口吃成胖子，按这个节奏来：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>阶段&lt;/th>
+ &lt;th>动作&lt;/th>
+ &lt;th>时间&lt;/th>
+ &lt;th>预期收益&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>第1月&lt;/td>
+ &lt;td>清理死库存&lt;/td>
+ &lt;td>2-3周&lt;/td>
+ &lt;td>释放20%空间&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>第2月&lt;/td>
+ &lt;td>优化布局+动线&lt;/td>
+ &lt;td>3-4周&lt;/td>
+ &lt;td>提升30%利用率&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>第3月&lt;/td>
+ &lt;td>WMS上线或优化&lt;/td>
+ &lt;td>4-6周&lt;/td>
+ &lt;td>效率提升25%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>总投入&lt;/strong>：死库存清理基本免费（还能回收一点钱），布局优化约5-10万（货架调整+标识），WMS约15-30万（基础版）。&lt;/p>
+&lt;p>&lt;strong>总收益&lt;/strong>：相当于多出500-1000平米仓库面积，按年租1000元/平米算，省50-100万/年。&lt;/p>
+&lt;p>投入产出比：&lt;strong>1:5到1:10&lt;/strong>。&lt;/p>
+&lt;h2 id="别被扩仓绑架">别被&amp;quot;扩仓&amp;quot;绑架&lt;/h2>
+&lt;p>仓库不够用是表象，&lt;strong>空间浪费和效率低下&lt;/strong>才是根源。扩仓是最后的选择，不是第一选择。&lt;/p>
+&lt;p>先清、再优、后系统——三步走完再决定要不要扩仓。大概率你会发现：仓库不是不够用，是不会用。&lt;/p></description></item><item><title>花80万上AGV，仓库效率反降了25%：自动化不是买设备</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/</guid><description>&lt;p>上个礼拜，一个做电商仓储的兄弟给我打电话，语气像吃了屎。&lt;/p>
 &lt;p>&amp;ldquo;我花了80万上了套AGV，结果出库效率他妈还降了25%！老板现在天天盯我，我感觉要凉了。&amp;rdquo;&lt;/p>
 &lt;p>我说你别急，把情况细说一下。他说完以后，我发现他的问题根本不是设备的事——是仓库的拣货路径从来就没优化过，AGV只是把他原来的混乱&amp;quot;自动执行&amp;quot;了一遍。&lt;/p>
 &lt;p>这不叫自动化，这叫&lt;strong>把垃圾流程跑得更快&lt;/strong>。&lt;/p>

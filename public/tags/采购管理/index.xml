@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商不是乙方，是你的半个生产部</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</guid><description>&lt;p>我刚入行的时候，公司一个老采购教我的第一句话是：&amp;ldquo;对供应商，就得往死里压。你不压他，他觉得你好欺负。&amp;rdquo;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估表填了3年全是废纸？3步让你的评估真正有用</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</guid><description>&lt;h2 id="供应商评估表你填了有用吗">供应商评估表，你填了有用吗？&lt;/h2>
+&lt;p>问自己3个问题：&lt;/p>
+&lt;ol>
+&lt;li>你的供应商评估表，多久填一次？&lt;/li>
+&lt;li>填完之后，有人看过吗？&lt;/li>
+&lt;li>评估结果影响过任何决策吗？&lt;/li>
+&lt;/ol>
+&lt;p>如果3个答案都是&amp;quot;不确定&amp;quot;或者&amp;quot;没有&amp;quot;，恭喜你，你有一份精美的废纸。&lt;/p>
+&lt;p>我见过太多公司：评估表设计得漂亮，维度齐全、权重合理、打分科学。但填了3年，供应商该迟到还是迟到，该出质量问题还是出质量问题。&lt;/p>
+&lt;p>&lt;strong>评估不是目的，改进才是。&lt;/strong>&lt;/p>
+&lt;h2 id="为什么评估表变成废纸">为什么评估表变成废纸？&lt;/h2>
+&lt;h3 id="原因1指标太多重点全无">原因1：指标太多，重点全无&lt;/h3>
+&lt;p>有些评估表有20多个指标，质量、交期、价格、服务、技术、财务、ESG……每个指标权重3%-8%。&lt;/p>
+&lt;p>结果是：&lt;strong>谁都不差，谁都不好&lt;/strong>。所有供应商的分数都在75-85分之间，区分不出好坏。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：指标不超过8个，核心指标（质量+交期）权重不低于60%。&lt;/p>
+&lt;h3 id="原因2数据全靠人工打分">原因2：数据全靠人工打分&lt;/h3>
+&lt;p>&amp;ldquo;质量好不好？打个分吧。&amp;quot;——然后采购、质量、生产各打各的，主观性极强。&lt;/p>
+&lt;p>同一家供应商，采购打85分（因为配合度高），质量打65分（因为不良率高），生产打75分（一般般）。加权平均75分，然后呢？&lt;strong>什么决策都做不了。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：核心指标用&lt;strong>客观数据&lt;/strong>，不用主观打分。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;th>计算方式&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>来料合格率&lt;/td>
+ &lt;td>IQC系统&lt;/td>
+ &lt;td>合格批次数/总检验批次数×100%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期准时率&lt;/td>
+ &lt;td>ERP/采购系统&lt;/td>
+ &lt;td>按时交付批次数/总交付批次数×100%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>价格竞争力&lt;/td>
+ &lt;td>采购系统&lt;/td>
+ &lt;td>当前价格/市场标杆价格×100%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>响应速度&lt;/td>
+ &lt;td>邮件/工单系统&lt;/td>
+ &lt;td>平均响应时间（小时）&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>主观打分只用在&amp;quot;配合度&amp;quot;&amp;ldquo;创新能力&amp;quot;这类确实没有系统数据的指标上。&lt;/p>
+&lt;h3 id="原因3评估完就结束没有后续行动">原因3：评估完就结束，没有后续行动&lt;/h3>
+&lt;p>评估完出个报告，发给供应商，然后就没有然后了。下次评估还是一样的结果。&lt;/p>
+&lt;p>&lt;strong>评估不是终点，是起点。&lt;/strong> 评估的目的是发现差距、制定改进计划、跟踪改善效果。&lt;/p>
+&lt;h2 id="3步让评估真正有用">3步让评估真正有用&lt;/h2>
+&lt;h3 id="第1步精简指标突出重点">第1步：精简指标，突出重点&lt;/h3>
+&lt;p>&lt;strong>推荐8个指标体系&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>质量&lt;/td>
+ &lt;td>来料合格率&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>IQC系统&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量&lt;/td>
+ &lt;td>质量事故次数&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;td>8D报告&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期&lt;/td>
+ &lt;td>交期准时率&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;td>ERP&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期&lt;/td>
+ &lt;td>订单完成率&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;td>ERP&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>成本&lt;/td>
+ &lt;td>价格竞争力&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;td>采购系统&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>服务&lt;/td>
+ &lt;td>响应速度&lt;/td>
+ &lt;td>8%&lt;/td>
+ &lt;td>工单系统&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>服务&lt;/td>
+ &lt;td>投诉处理满意度&lt;/td>
+ &lt;td>7%&lt;/td>
+ &lt;td>客户反馈&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>创新&lt;/td>
+ &lt;td>技术/工艺改进&lt;/td>
+ &lt;td>5%&lt;/td>
+ &lt;td>人工评估&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>核心逻辑&lt;/strong>：质量+交期=55%，这就是你的生命线。成本15%够用（别让采购只看价格）。服务和创新占20%，但不主导。&lt;/p></description></item><item><title>供应商不是乙方，是你的半个生产部</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-management/</guid><description>&lt;p>我刚入行的时候，公司一个老采购教我的第一句话是：&amp;ldquo;对供应商，就得往死里压。你不压他，他觉得你好欺负。&amp;rdquo;&lt;/p>
 &lt;p>我当时觉得好有道理。直到后来看到一个更狠的案例，我才意识到这套逻辑有多短视。&lt;/p>
 &lt;p>一家汽配厂，常年对自己最大的铸件供应商极限压价，每年砍5%雷打不动。供应商扛了3年不赚钱，第四年直接说&amp;quot;不做了&amp;quot;。这家汽配厂紧急找新供应商，前后换了三家，每家都要3-6个月的质量认证周期。期间因为供应不稳定，丢了一个主机厂的大单，损失至少3000万。&lt;/p>
 &lt;p>&lt;strong>省了三年一共180万的采购差价，最后一口气亏了3000万。&lt;/strong>&lt;/p>

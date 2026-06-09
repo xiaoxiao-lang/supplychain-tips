@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/categories/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/</link><description>Recent content in 供应链管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/categories/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</guid><description>&lt;h2 id="jit零库存你想多了">JIT=零库存？你想多了&lt;/h2>
+&lt;p>每次听到有人说&amp;quot;我们要搞JIT，实现零库存&amp;quot;，我就知道又要有人踩坑了。&lt;/p>
+&lt;p>JIT（Just In Time）不等于零库存。零库存是JIT的&lt;strong>理想状态&lt;/strong>，不是&lt;strong>起始状态&lt;/strong>。&lt;/p>
+&lt;p>丰田用了20年才接近这个状态。你上来就追求零库存，结果就是产线天天缺料、供应商天天救火、仓库从&amp;quot;库存多&amp;quot;变成&amp;quot;库存不够&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>JIT的本质不是&amp;quot;没有库存&amp;quot;，而是&amp;quot;在需要的时候，按需要的量，生产/供应需要的东西&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>关键词是&lt;strong>需要的时候&lt;/strong>和&lt;strong>需要的量&lt;/strong>——不是不存，是不多存。&lt;/p>
+&lt;h2 id="误解1jit就是不要库存">误解1：JIT就是不要库存&lt;/h2>
+&lt;p>这是最危险的误解。&lt;/p>
+&lt;p>&lt;strong>库存的本质是缓冲&lt;/strong>——缓冲需求波动、供应波动、生产波动。你把缓冲撤了，但波动还在，结果就是断链。&lt;/p>
+&lt;p>丰田为什么能做到低库存？不是因为不存，而是因为&lt;strong>波动小&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>需求波动小：丰田的经销商订单按日均衡排产&lt;/li>
+&lt;li>供应波动小：供应商就在工厂旁边，1-2小时供货&lt;/li>
+&lt;li>生产波动小：产线切换时间从2小时压到了10分钟（SMED）&lt;/li>
+&lt;/ul>
+&lt;p>你的需求波动大不大？供应商交期稳不稳？产线换型快不快？&lt;/p>
+&lt;p>如果答案都是&amp;quot;不行&amp;quot;，那你现在的库存不是多了，是&lt;strong>必要的缓冲&lt;/strong>。JIT的目标是逐步减少缓冲，不是一开始就撤掉缓冲。&lt;/p>
+&lt;p>&lt;strong>正确理解&lt;/strong>：JIT是&lt;strong>减少不必要的库存&lt;/strong>，不是不要库存。&lt;/p>
+&lt;h2 id="误解2jit就是逼供应商压库存">误解2：JIT就是逼供应商压库存&lt;/h2>
+&lt;p>&amp;ldquo;我们搞JIT，供应商要VMI，库存放他那，我们用了再结算。&amp;rdquo;&lt;/p>
+&lt;p>这句话翻译一下就是：&lt;strong>我的库存我来用，你的库存你来扛。&lt;/strong>&lt;/p>
+&lt;p>这叫JIT吗？这不叫JIT，这叫&lt;strong>成本转移&lt;/strong>。总库存没减少，只是从你这边挪到了供应商那边。而且供应商的持有成本（资金、仓储、管理）最终都会加到报价里，你一个子儿也没省。&lt;/p>
+&lt;p>&lt;strong>JIT对供应商的要求不是&amp;quot;你存着我来用&amp;quot;，而是&amp;quot;你能在需要的时候精确地供应&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>区别在于：&lt;/p>
+&lt;ul>
+&lt;li>成本转移：供应商多存，你少存，总成本不变&lt;/li>
+&lt;li>真正JIT：供应商也少存，但能精准配合你的节拍供货&lt;/li>
+&lt;/ul>
+&lt;p>怎么做到？&lt;strong>信息共享+计划协同&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>把你的生产计划实时共享给供应商（不是月度预测，是周度甚至日度计划）&lt;/li>
+&lt;li>供应商在你工厂附近设中转仓（不是堆满库存的仓库，是小批量高频补货的hub）&lt;/li>
+&lt;li>双方共同优化交货频次和批量&lt;/li>
+&lt;/ul>
+&lt;h2 id="误解3jit就是抄丰田">误解3：JIT就是抄丰田&lt;/h2>
+&lt;p>&amp;ldquo;丰田就是这么做的，我们也这么做。&amp;rdquo;&lt;/p>
+&lt;p>丰田的JIT是在特定环境下长出来的：日本的爱知县，供应商集中在50公里范围内，劳资关系稳定，员工终身雇佣，持续改善文化深入人心。&lt;/p>
+&lt;p>你的环境和丰田一样吗？&lt;/p>
+&lt;ul>
+&lt;li>供应商集中度：你的供应商可能分布在全国各地&lt;/li>
+&lt;li>劳资关系：员工流动性高，培训成本大&lt;/li>
+&lt;li>文化：持续改善不是一天能建立的&lt;/li>
+&lt;li>订单模式：你的客户可能要求大批量交付，不是每日均衡&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>JIT不是抄作业，是因地制宜&lt;/strong>。&lt;/p>
+&lt;h2 id="正确实施jit的3个前提">正确实施JIT的3个前提&lt;/h2>
+&lt;p>JIT不是你想搞就能搞的，有3个前提条件：&lt;/p>
+&lt;h3 id="前提1需求相对稳定可预测">前提1：需求相对稳定可预测&lt;/h3>
+&lt;p>JIT的前提是生产计划稳定。如果你的订单忽大忽小、紧急插单频繁，JIT根本跑不起来。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：月度需求变异系数&amp;lt;30%的品类，可以考虑JIT；&amp;gt;50%的，老老实实备安全库存。&lt;/p>
+&lt;h3 id="前提2供应商有能力配合">前提2：供应商有能力配合&lt;/h3>
+&lt;p>JIT要求供应商小批量、高频次、准时供货。不是所有供应商都能做到。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>供应商距离近（最好200公里内）&lt;/li>
+&lt;li>供应商有柔性生产能力（不是大批量生产型）&lt;/li>
+&lt;li>供应商愿意共享库存和生产计划数据&lt;/li>
+&lt;/ul>
+&lt;h3 id="前提3内部流程高度标准化">前提3：内部流程高度标准化&lt;/h3>
+&lt;p>JIT对内部流程的要求极高：工序间衔接精确到小时，物料配送精确到工位，质量问题暴露必须即时。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>5S是否做到位？&lt;/li>
+&lt;li>标准作业是否执行？&lt;/li>
+&lt;li>异常响应是否在30分钟内？&lt;/li>
+&lt;/ul>
+&lt;p>三个条件都满足的品类，可以尝试JIT。不满足的，先改善基础，再谈JIT。&lt;/p>
+&lt;h2 id="jit的正确路径">JIT的正确路径&lt;/h2>
+&lt;p>别追求一步到位，按这个节奏来：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>阶段&lt;/th>
+ &lt;th>目标&lt;/th>
+ &lt;th>时间&lt;/th>
+ &lt;th>核心动作&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>阶段1&lt;/td>
+ &lt;td>减少不必要的库存&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>ABC分类、清理死库存、优化安全库存&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段2&lt;/td>
+ &lt;td>提升供应链响应速度&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>缩短交期、提高交期准时率、信息共享&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段3&lt;/td>
+ &lt;td>小批量高频次供应&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>供应商hub、日度补货、VMI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段4&lt;/td>
+ &lt;td>JIT&lt;/td>
+ &lt;td>持续&lt;/td>
+ &lt;td>按节拍生产、零切换浪费、持续改善&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>每个阶段至少6个月，4个阶段走完2-3年很正常。&lt;/strong>&lt;/p></description></item><item><title>MRP跑出来的计划为什么总是不准？3个原因你肯定中招了</title><link>https://supplychain-tips.pages.dev/posts/mrp%E8%B7%91%E5%87%BA%E6%9D%A5%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%8D%E5%87%863%E4%B8%AA%E5%8E%9F%E5%9B%A0%E4%BD%A0%E8%82%AF%E5%AE%9A%E4%B8%AD%E6%8B%9B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/mrp%E8%B7%91%E5%87%BA%E6%9D%A5%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%8D%E5%87%863%E4%B8%AA%E5%8E%9F%E5%9B%A0%E4%BD%A0%E8%82%AF%E5%AE%9A%E4%B8%AD%E6%8B%9B%E4%BA%86/</guid><description>&lt;h2 id="mrp跑出来的计划你敢信吗">MRP跑出来的计划，你敢信吗？&lt;/h2>
+&lt;p>每个上了ERP的公司都有MRP，但真正按MRP跑出来的计划执行的，不到30%。&lt;/p>
+&lt;p>为什么？因为&lt;strong>MRP的输出质量取决于输入质量&lt;/strong>。垃圾进，垃圾出。&lt;/p>
+&lt;p>我问过几十个供应链同行：&amp;ldquo;你们MRP跑出来的采购建议，你直接执行的比例是多少？&amp;rdquo;&lt;/p>
+&lt;p>最常见的回答是：&lt;strong>30%-50%&lt;/strong>。剩下的要靠经验调整、人工干预、甚至完全推翻重来。&lt;/p>
+&lt;p>如果MRP跑出来的计划只有一半能用，那MRP跟Excel有什么区别？&lt;/p>
+&lt;h2 id="原因1主生产计划mps不准源头就是错的">原因1：主生产计划（MPS）不准——源头就是错的&lt;/h2>
+&lt;p>MRP的核心输入是主生产计划（MPS），MPS决定了&amp;quot;要生产什么、什么时候生产、生产多少&amp;quot;。&lt;/p>
+&lt;p>如果MPS是错的，MRP算出来的物料需求就全是错的。&lt;/p>
+&lt;p>&lt;strong>MPS不准的3个典型原因&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>销售预测代替了主计划&lt;/strong>：很多公司没有真正的MPS，直接把销售预测灌进去。但销售预测不是计划——预测是&amp;quot;可能卖多少&amp;quot;，计划是&amp;quot;决定做多少&amp;quot;。两者的差异有时候是数量级的。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>计划频繁变更&lt;/strong>：MPS改了3次，MRP就跑了3次，每次结果都不一样。采购部门不知道该信哪一次，干脆自己判断。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>没有产能约束&lt;/strong>：MPS写了一天要产1000件，但产线产能只有800件。MRP按1000件算物料需求，实际上只能做800件，多出来的物料就变成了库存。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>MPS必须经过S&amp;amp;OP（产销协同）会议确认，不是销售单方面决定&lt;/li>
+&lt;li>MPS的变更要有冻结期（如2周内不允许变更）&lt;/li>
+&lt;li>MPS必须经过产能验证（RCCP），超产能的计划不能发布&lt;/li>
+&lt;/ul>
+&lt;h2 id="原因2库存数据不准你看到的库存是假的">原因2：库存数据不准——你看到的库存是假的&lt;/h2>
+&lt;p>MRP计算物料需求的公式是：&lt;strong>净需求 = 毛需求 - 可用库存 - 在途量&lt;/strong>&lt;/p>
+&lt;p>如果库存数据不准，净需求就算不准。&lt;/p>
+&lt;p>&lt;strong>库存不准有多严重&lt;/strong>：&lt;/p>
+&lt;p>我见过一家公司，系统显示某物料库存500个，实际仓库只有120个。MRP按500个算，净需求少了380个。等发现时已经来不及了，紧急采购加急运费花了8万。&lt;/p>
+&lt;p>&lt;strong>库存不准的3个来源&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>账实不符&lt;/strong>：出入库没有及时录入，或者录错了&lt;/li>
+&lt;li>&lt;strong>在途量数据缺失&lt;/strong>：采购订单下了但没关联到MRP&lt;/li>
+&lt;li>&lt;strong>预留逻辑混乱&lt;/strong>：这500个库存里有300个是给其他订单预留的，但MRP不知道&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>循环盘点&lt;/strong>：每天盘点高价值物料（A类），每周盘B类，每月盘C类&lt;/li>
+&lt;li>&lt;strong>在途量自动关联&lt;/strong>：采购订单创建时自动关联到MRP&lt;/li>
+&lt;li>&lt;strong>预留规则透明&lt;/strong>：可用库存 = 总库存 - 已预留 - 质量冻结&lt;/li>
+&lt;/ul>
+&lt;h2 id="原因3bom和提前期不准系统参数是摆设">原因3：BOM和提前期不准——系统参数是摆设&lt;/h2>
+&lt;p>MRP依赖两个关键参数：&lt;strong>BOM（物料清单）&lt;/strong> 和 &lt;strong>提前期（Lead Time）&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>BOM不准&lt;/strong>的表现：&lt;/p>
+&lt;ul>
+&lt;li>工程变更了但BOM没更新，还在用旧版物料&lt;/li>
+&lt;li>替代物料关系没有维护，缺料时系统不会自动推荐替代&lt;/li>
+&lt;li>BOM层级太深（7-8层），底层物料的需求放大效应严重&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>提前期不准&lt;/strong>的表现：&lt;/p>
+&lt;ul>
+&lt;li>供应商实际交期是15天，系统里写的是10天，MRP提前5天下单&lt;/li>
+&lt;li>实际生产周期是3天，系统里写的是2天，排产总是来不及&lt;/li>
+&lt;li>提前期是固定值，不考虑季节波动（旺季交期更长）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>每次工程变更必须同步更新BOM（建立ECN流程）&lt;/li>
+&lt;li>替代物料关系由采购部门维护，至少覆盖A/B类物料&lt;/li>
+&lt;li>提前期按实际数据更新（每季度校准一次），而不是用默认值&lt;/li>
+&lt;/ul>
+&lt;h2 id="mrp的正确打开方式">MRP的正确打开方式&lt;/h2>
+&lt;p>别指望MRP是万能的，它只是一个计算工具。工具好不好用，取决于使用它的人。&lt;/p>
+&lt;p>&lt;strong>3步让MRP从&amp;quot;仅供参考&amp;quot;变成&amp;quot;值得信赖&amp;quot;&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先修数据&lt;/strong>——MPS、库存、BOM、提前期，四个核心输入必须准确&lt;/li>
+&lt;li>&lt;strong>再修流程&lt;/strong>——S&amp;amp;OP确认MPS，循环盘点保证库存，ECN同步BOM&lt;/li>
+&lt;li>&lt;strong>最后修习惯&lt;/strong>——按MRP建议执行，偏差复盘改进，而不是每次都人工推翻&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>记住&lt;/strong>：MRP不准不是系统的问题，是你喂给它的数据有问题。把输入搞对了，输出自然就对了。&lt;/p>
+&lt;p>垃圾进，垃圾出。这个道理，MRP不会例外。&lt;/p></description></item><item><title>供应链成本降不下来？90%的人砍错了地方</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</guid><description>&lt;h2 id="供应链降本你砍错地方了">供应链降本，你砍错地方了&lt;/h2>
+&lt;p>说句扎心的话：大部分企业降本，就是跟供应商砍价。砍完价格砍服务，砍完服务砍质量，砍完质量发现总成本反而涨了。&lt;/p>
+&lt;p>为什么？因为你砍的是&lt;strong>显性成本&lt;/strong>，真正吃掉利润的是&lt;strong>隐性成本&lt;/strong>。&lt;/p>
+&lt;p>我见过一家制造企业，采购价格连续3年下降8%，但总供应链成本反而上升了12%。原因是：便宜的供应商交期不稳定，导致安全库存翻倍；质量波动大，退货返工成本飙升；沟通成本直线上升，3个采购天天围着供应商救火。&lt;/p>
+&lt;p>&lt;strong>降本不是砍价，是砍浪费。&lt;/strong>&lt;/p>
+&lt;h2 id="真正该砍的3个成本黑洞">真正该砍的3个成本黑洞&lt;/h2>
+&lt;h3 id="1-流程浪费一个审批走了5天">1. 流程浪费：一个审批走了5天&lt;/h3>
+&lt;p>你算过没有，一笔采购从需求提报到下单，平均走几个审批？我见过最离谱的：7个审批节点，平均5.2天。&lt;/p>
+&lt;p>5天什么概念？原材料价格波动了，交期变了，需求也变了。等你批完，原来的报价早废了。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>金额≤5000元的采购，1级审批直接过&lt;/li>
+&lt;li>金额5000-50000元，2级审批&lt;/li>
+&lt;li>金额&amp;gt;50000元，3级审批（含评审会）&lt;/li>
+&lt;li>引入采购金额分级授权，不是所有单子都走全流程&lt;/li>
+&lt;/ul>
+&lt;p>一家电子企业这么改完，采购周期从7天缩到1.8天，紧急采购比例从35%降到8%。&lt;/p>
+&lt;h3 id="2-库存浪费你的仓库里有一半是废的">2. 库存浪费：你的仓库里有一半是&amp;quot;废的&amp;quot;&lt;/h3>
+&lt;p>库存是供应链最大的成本黑洞，没有之一。&lt;/p>
+&lt;p>我见过一家公司，库存周转率1.8次/年，意味着平均库存够卖200天。其中60%的SKU年出库不到5次，但占了仓库40%的面积。&lt;/p>
+&lt;p>&lt;strong>库存浪费的3个来源&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存虚高&lt;/strong>：拍脑袋设的安全库存，比实际需求高出50%-200%&lt;/li>
+&lt;li>&lt;strong>死库存不清理&lt;/strong>：超过1年不动的东西还在账上挂着&lt;/li>
+&lt;li>&lt;strong>批量采购的错觉&lt;/strong>：量大折扣确实便宜，但加上持有成本反而更贵&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>按ABC分类重新设定安全库存系数（A类1.2倍，B类1.5倍，C类2倍，而不是统一2.5倍）&lt;/li>
+&lt;li>每季度清理超180天不动销库存，打折处理或报废&lt;/li>
+&lt;li>计算EOQ时把持有成本（年15%-25%）算进去，别只看采购单价&lt;/li>
+&lt;/ul>
+&lt;p>一家汽车零部件企业这么做了之后，库存金额从3800万降到2100万，库存周转率从2.1升到4.3。&lt;/p>
+&lt;h3 id="3-信息浪费数据有但没人用">3. 信息浪费：数据有，但没人用&lt;/h3>
+&lt;p>信息浪费是最容易被忽视的成本。你的ERP里躺着海量数据，但：&lt;/p>
+&lt;ul>
+&lt;li>销售预测准确率不到40%，采购部门不敢信&lt;/li>
+&lt;li>供应商交期数据没人分析，永远在&amp;quot;催&amp;quot;&lt;/li>
+&lt;li>质量数据散落在3个系统里，出问题才开始翻&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>信息浪费=决策浪费&lt;/strong>。错误的信息导致错误的决策，错误的决策导致错误的库存、错误的排产、错误的采购。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>建立预测准确率考核（月度跟踪，偏差&amp;gt;30%要复盘）&lt;/li>
+&lt;li>供应商交期看板化（承诺交期vs实际交期，一目了然）&lt;/li>
+&lt;li>质量数据统一到一个看板，别分散在3个系统&lt;/li>
+&lt;/ul>
+&lt;h2 id="降本的正确顺序">降本的正确顺序&lt;/h2>
+&lt;p>别一上来就砍价，按这个顺序来：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先砍流程浪费&lt;/strong>（最快见效，成本几乎为零）&lt;/li>
+&lt;li>&lt;strong>再砍库存浪费&lt;/strong>（中期见效，需要数据支撑）&lt;/li>
+&lt;li>&lt;strong>最后谈采购价格&lt;/strong>（有了前两步的底气，谈判地位完全不同）&lt;/li>
+&lt;/ol>
+&lt;p>一家年采购额2亿的制造企业，按这个顺序执行了6个月：流程优化省了800万（减少紧急采购和加急运费），库存优化省了1200万（减少持有成本和跌价损失），采购谈判省了600万（有了数据说话，不是空口砍价）。&lt;/p>
+&lt;p>&lt;strong>合计降本2600万，采购单价只贡献了23%。&lt;/strong>&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>供应链降本不是省钱，是&lt;strong>花钱花在刀刃上&lt;/strong>。砍掉浪费的，把资源投到创造价值的环节——比如供应商开发、需求预测、数字化工具。&lt;/p>
+&lt;p>砍价是战术，砍浪费是战略。战术赢一场，战略赢一局。&lt;/p>
+&lt;p>&lt;strong>你选哪个？&lt;/strong>&lt;/p></description></item><item><title>供应链风险管理的3个层次，90%的企业只做到了第1层</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</guid><description>&lt;h2 id="供应链出事了你怎么办">供应链出事了你怎么办？&lt;/h2>
+&lt;p>问10个供应链负责人&amp;quot;你们的风险管理怎么做&amp;quot;，8个会说&amp;quot;我们有应急预案&amp;quot;。&lt;/p>
+&lt;p>但如果继续问：&lt;/p>
+&lt;ul>
+&lt;li>你的应急预案上次更新是什么时候？&lt;/li>
+&lt;li>上次演练是什么时候？&lt;/li>
+&lt;li>预案里提到的替代供应商，验证过了吗？&lt;/li>
+&lt;/ul>
+&lt;p>大部分人的回答是沉默。&lt;/p>
+&lt;p>&lt;strong>供应链风险管理不是出事了再应对，是没出事就准备好。&lt;/strong>&lt;/p>
+&lt;p>我见过一家公司，供应商突然停产（环保问题），整个产线停了2周，损失1500万。事后复盘发现：这家供应商占单一物料100%的份额，没有替代源，没有安全库存，应急预案写了但没演练过。&lt;/p>
+&lt;p>&lt;strong>90%的企业供应链风险管理只做到了第1层——被动响应。&lt;/strong>&lt;/p>
+&lt;h2 id="第1层被动响应大多数企业在这">第1层：被动响应（大多数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：出了问题再想办法。&lt;/p>
+&lt;ul>
+&lt;li>供应商停产了→紧急找替代源&lt;/li>
+&lt;li>运输中断了→临时换路线&lt;/li>
+&lt;li>质量出问题了→退货+索赔&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>响应慢：从发现问题到找到解决方案，平均3-7天&lt;/li>
+&lt;li>成本高：紧急采购加价30%-100%，加急运费翻倍&lt;/li>
+&lt;li>效果差：临时方案质量不稳定&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这是底线，不是目标。&lt;/strong> 每个企业都应该有基本的应急预案，但不能停留在这里。&lt;/p>
+&lt;h2 id="第2层主动预防少数企业在这">第2层：主动预防（少数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：在问题发生前识别风险，提前准备。&lt;/p>
+&lt;h3 id="做法a风险识别和监控">做法A：风险识别和监控&lt;/h3>
+&lt;p>&lt;strong>建立供应商风险监控体系&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>风险维度&lt;/th>
+ &lt;th>监控指标&lt;/th>
+ &lt;th>预警阈值&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>财务风险&lt;/td>
+ &lt;td>资产负债率&lt;/td>
+ &lt;td>&amp;gt;70%&lt;/td>
+ &lt;td>企查查/天眼查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>经营风险&lt;/td>
+ &lt;td>法律诉讼数&lt;/td>
+ &lt;td>&amp;gt;3件/季度&lt;/td>
+ &lt;td>企查查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>产能风险&lt;/td>
+ &lt;td>订单满足率&lt;/td>
+ &lt;td>&amp;lt;90%&lt;/td>
+ &lt;td>ERP&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>合规风险&lt;/td>
+ &lt;td>环保处罚&lt;/td>
+ &lt;td>有&lt;/td>
+ &lt;td>生态环境部&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>地理风险&lt;/td>
+ &lt;td>自然灾害&lt;/td>
+ &lt;td>有预警&lt;/td>
+ &lt;td>气象数据&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="做法b供应链多元化">做法B：供应链多元化&lt;/h3>
+&lt;p>&lt;strong>不把鸡蛋放在一个篮子里&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>关键物料至少2家供应商（70/30或60/40分配）&lt;/li>
+&lt;li>关键运输路线有2套方案（日常+备用）&lt;/li>
+&lt;li>关键生产环节有2个基地（主基地+备份基地）&lt;/li>
+&lt;/ul>
+&lt;h3 id="做法c安全库存策略">做法C：安全库存策略&lt;/h3>
+&lt;p>&lt;strong>安全库存不只是应对需求波动，也是风险缓冲&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>单一来源的关键物料：安全库存增加50%&lt;/li>
+&lt;li>地缘政治敏感区域的物料：备6个月库存&lt;/li>
+&lt;li>交期长的物料：备足交期+2周的安全库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第2层的效果&lt;/strong>：风险事件发生后1-2天内启动预案，损失降低50%-70%。&lt;/p>
+&lt;h2 id="第3层韧性建设极少数企业在这">第3层：韧性建设（极少数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：不只是应对风险，而是让供应链在冲击下快速恢复甚至变得更强。&lt;/p>
+&lt;h3 id="3个核心能力">3个核心能力&lt;/h3>
+&lt;h4 id="能力1供应链可视化">能力1：供应链可视化&lt;/h4>
+&lt;p>&lt;strong>看得见才能管得住&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>多级供应商可视化：不只看一级供应商，能看到二级、三级&lt;/li>
+&lt;li>在途可视化：每批货物在哪、什么时候到，实时可查&lt;/li>
+&lt;li>风险可视化：全球地图上标注所有风险点&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>工具&lt;/strong>：供应链控制塔（Control Tower），不是什么高深技术，本质就是把散落的信息集中到一个仪表盘上。&lt;/p></description></item><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
+&lt;p>问10个供应链人安全库存怎么设，8个会说&amp;quot;凭经验&amp;quot;。剩下2个会用公式，但公式里的参数还是拍脑袋。&lt;/p>
+&lt;p>&lt;strong>结果就是&lt;/strong>：安全库存要么虚高——仓库里堆了一堆用不上的东西；要么不够——客户下单没货，紧急采购加急运费。&lt;/p>
+&lt;p>我见过一家公司，统一按2周需求量设安全库存。结果是：A类物料（占金额70%）频繁断货，C类物料（占金额5%）堆成山。&lt;/p>
+&lt;p>&lt;strong>安全库存不是拍脑袋的事，是算出来的。&lt;/strong>&lt;/p>
+&lt;h2 id="安全库存的本质是什么">安全库存的本质是什么&lt;/h2>
+&lt;p>安全库存的本质很简单：&lt;strong>应对不确定性&lt;/strong>。&lt;/p>
+&lt;p>什么不确定性？两个：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>需求不确定性&lt;/strong>——客户要的比你预测的多&lt;/li>
+&lt;li>&lt;strong>供应不确定性&lt;/strong>——供应商交的比你期望的晚&lt;/li>
+&lt;/ol>
+&lt;p>安全库存就是这两个不确定性的缓冲垫。垫子太薄，断货；垫子太厚，浪费。&lt;/p>
+&lt;h2 id="3步正确设定安全库存">3步正确设定安全库存&lt;/h2>
+&lt;h3 id="第1步计算需求波动">第1步：计算需求波动&lt;/h3>
+&lt;p>别用&amp;quot;经验值&amp;quot;，用&lt;strong>标准差&lt;/strong>。&lt;/p>
+&lt;p>取过去12个月（或24周）的需求数据，计算周需求的标准差。&lt;/p>
+&lt;p>公式：需求标准差 σ_d = STDEV(周需求量)&lt;/p>
+&lt;p>&lt;strong>注意&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>剔除异常值（如促销、大单）&lt;/li>
+&lt;li>用周数据比月数据更精确&lt;/li>
+&lt;li>至少12个数据点才靠谱&lt;/li>
+&lt;/ul>
+&lt;h3 id="第2步计算供应波动">第2步：计算供应波动&lt;/h3>
+&lt;p>同样用数据说话，取过去12个月的采购交期数据。&lt;/p>
+&lt;p>公式：交期标准差 σ_lt = STDEV(实际交期天数 - 承诺交期天数)&lt;/p>
+&lt;p>&lt;strong>注意&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>只统计正常采购订单，不含加急订单&lt;/li>
+&lt;li>如果供应商交期很稳定（标准差&amp;lt;1天），可以忽略供应波动&lt;/li>
+&lt;/ul>
+&lt;h3 id="第3步套公式">第3步：套公式&lt;/h3>
+&lt;p>&lt;strong>安全库存 = Z × √(交期 × σ_d² + 平均需求² × σ_lt²)&lt;/strong>&lt;/p>
+&lt;p>其中Z是服务水平对应的系数：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>服务水平&lt;/th>
+ &lt;th>Z值&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>90%&lt;/td>
+ &lt;td>1.28&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>95%&lt;/td>
+ &lt;td>1.65&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>97.5%&lt;/td>
+ &lt;td>1.96&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>99%&lt;/td>
+ &lt;td>2.33&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>服务水平怎么选&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>A类物料（金额占比大）：97.5%-99%&lt;/li>
+&lt;li>B类物料：95%-97.5%&lt;/li>
+&lt;li>C类物料：90%-95%&lt;/li>
+&lt;/ul>
+&lt;h2 id="举个真实的例子">举个真实的例子&lt;/h2>
+&lt;p>某物料数据：&lt;/p>
+&lt;ul>
+&lt;li>平均周需求：500个&lt;/li>
+&lt;li>需求标准差：120个&lt;/li>
+&lt;li>平均交期：2周&lt;/li>
+&lt;li>交期标准差：0.5周&lt;/li>
+&lt;li>服务水平目标：97.5%（Z=1.96）&lt;/li>
+&lt;/ul>
+&lt;p>安全库存 = 1.96 × √(2 × 120² + 500² × 0.5²)
+= 1.96 × √(28800 + 62500)
+= 1.96 × √91300
+= 1.96 × 302.2
+= &lt;strong>592个&lt;/strong>&lt;/p></description></item><item><title>数字化转型花了80万打水漂？先搞清楚这3件事再说</title><link>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</guid><description>&lt;h2 id="数字化转型先别急着花钱">数字化转型，先别急着花钱&lt;/h2>
+&lt;p>&amp;ldquo;数字化转型&amp;quot;这5个字，可能是供应链领域最大的坑。&lt;/p>
+&lt;p>我见过太多公司：花80万上了系统，3个月后还在用Excel；花200万做了数据中台，数据还在各个系统里睡大觉；花500万做了智能预测，准确率还不如老员工拍脑袋。&lt;/p>
+&lt;p>&lt;strong>不是数字化没用，是你没搞清楚这3件事就动手了。&lt;/strong>&lt;/p>
+&lt;h2 id="事情1你到底要解决什么问题">事情1：你到底要解决什么问题？&lt;/h2>
+&lt;p>80%的数字化转型失败，不是技术问题，是&lt;strong>没想清楚要解决什么问题&lt;/strong>。&lt;/p>
+&lt;p>&amp;ldquo;我们要数字化转型&amp;rdquo;——这不是需求，这是口号。&lt;/p>
+&lt;p>&lt;strong>真正的需求是什么&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>口号式需求&lt;/th>
+ &lt;th>真正的需求&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&amp;ldquo;我们要数字化&amp;rdquo;&lt;/td>
+ &lt;td>采购审批流程太慢，7天变2天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&amp;ldquo;我们要上大数据&amp;rdquo;&lt;/td>
+ &lt;td>库存数据不准，MRP跑出来没法用&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&amp;ldquo;我们要智能预测&amp;rdquo;&lt;/td>
+ &lt;td>预测准确率只有40%，安全库存虚高&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&amp;ldquo;我们要可视化&amp;rdquo;&lt;/td>
+ &lt;td>供应链信息断层，出了问题2天后才知道&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>数字化转型第一步不是选系统，是定义问题。&lt;/strong>&lt;/p>
+&lt;p>怎么定义？问3个问题：&lt;/p>
+&lt;ol>
+&lt;li>现在最痛的3个问题是什么？&lt;/li>
+&lt;li>这些问题每年造成多少损失（可以量化的）？&lt;/li>
+&lt;li>解决这些问题需要什么样的数据和能力？&lt;/li>
+&lt;/ol>
+&lt;p>把这3个问题回答清楚，你就知道该做什么了。&lt;/p>
+&lt;h2 id="事情2你的人准备好了吗">事情2：你的人准备好了吗？&lt;/h2>
+&lt;p>再好的系统，人不会用就是废铁。&lt;/p>
+&lt;p>&lt;strong>数字化转型的3个人力陷阱&lt;/strong>：&lt;/p>
+&lt;h3 id="陷阱1领导不带头">陷阱1：领导不带头&lt;/h3>
+&lt;p>数字化转型是&amp;quot;一把手工程&amp;rdquo;。如果老板自己还在用微信发审批、用电话催进度，下面的人凭什么用系统？&lt;/p>
+&lt;p>&lt;strong>真实案例&lt;/strong>：一家公司上了OA审批系统，但老板还是习惯口头批复。结果？重要审批走口头，不重要走系统，系统里的数据永远不完整。&lt;/p>
+&lt;h3 id="陷阱2培训走过场">陷阱2：培训走过场&lt;/h3>
+&lt;p>系统上线前培训2天，培训完大家还是不会用。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>关键用户（Super User）培训1周，必须通过考核&lt;/li>
+&lt;li>最终用户培训3天，用真实数据演练&lt;/li>
+&lt;li>上线后1个月内，每天1小时答疑&lt;/li>
+&lt;li>操作手册不是PDF，是3分钟短视频&lt;/li>
+&lt;/ul>
+&lt;h3 id="陷阱3老系统没退休">陷阱3：老系统没退休&lt;/h3>
+&lt;p>新系统上了，老系统（Excel、邮件、微信群）还在用。两套系统并行，数据不一致，工作量翻倍。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>明确cut-off日期：某月某日起，所有数据以新系统为准&lt;/li>
+&lt;li>老系统权限关闭：不能进入新数据，只能查历史&lt;/li>
+&lt;li>过渡期不超过1个月&lt;/li>
+&lt;/ul>
+&lt;h2 id="事情3你的数据准备好了吗">事情3：你的数据准备好了吗？&lt;/h2>
+&lt;p>&lt;strong>垃圾进，垃圾出&lt;/strong>——这句话在数字化转型里比在哪里都重要。&lt;/p>
+&lt;p>系统再先进，数据不准就是摆设。我见过一家公司花300万上了智能补货系统，但因为库存数据不准（账实差异30%+），系统算出来的补货建议一半是错的，最后还是靠人工判断。&lt;/p>
+&lt;p>&lt;strong>数据准备要做的4件事&lt;/strong>：&lt;/p>
+&lt;h3 id="1-数据清洗">1. 数据清洗&lt;/h3>
+&lt;ul>
+&lt;li>物料主数据：删除重复、补全缺失、统一编码&lt;/li>
+&lt;li>供应商主数据：一家供应商不能有3个编码&lt;/li>
+&lt;li>客户主数据：合并同一客户的不同账号&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-数据标准化">2. 数据标准化&lt;/h3>
+&lt;ul>
+&lt;li>编码规则统一：物料编码、供应商编码、客户编码&lt;/li>
+&lt;li>计量单位统一：kg和公斤不能共存&lt;/li>
+&lt;li>数据格式统一：日期格式、金额单位、小数位数&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-数据治理机制">3. 数据治理机制&lt;/h3>
+&lt;ul>
+&lt;li>谁负责维护？主数据Owner制度&lt;/li>
+&lt;li>怎么改？变更审批流程&lt;/li>
+&lt;li>多久核对一次？月度数据质量报告&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-数据集成">4. 数据集成&lt;/h3>
+&lt;ul>
+&lt;li>ERP和WMS的数据打通&lt;/li>
+&lt;li>采购系统和财务系统的数据对接&lt;/li>
+&lt;li>供应链数据和销售数据的联动&lt;/li>
+&lt;/ul>
+&lt;h2 id="数字化转型的正确顺序">数字化转型的正确顺序&lt;/h2>
+&lt;p>别一上来就买系统，按这个顺序来：&lt;/p></description></item></channel></rss>

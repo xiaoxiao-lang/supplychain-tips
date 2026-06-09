@@ -2,6 +2,16 @@
 
 ---
 
+## 2026-06-09 巡检报告
+
+📝 今日文章：0篇（content/posts/下无 2026-06-09 开头的文章。昨日6/8有10篇已提交14c3d5a）
+🔨 Hugo编译：✅ 成功（560页/1319ms）
+🌐 线上最新：2026-06-08（CF Pages已恢复，10篇文章日期均为6月8日）
+📌 Git本地：有未提交变更（2 modified + 1 untracked），最新commit 14c3d5a
+🚀 Git远程：未推送，HEAD领先origin/main 21个commits（无upstream跟踪）
+💡 建议：🟡 今日0篇断更，需确认生成脚本是否正常调度；🔴 21个commits严重积压需push；🟢 CF Pages已恢复自动部署
+
+---
 ## 2026-06-08 巡检报告
 
 === SEO站点日报 ===

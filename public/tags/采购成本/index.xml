@@ -1,4 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC/</link><description>Recent content in 采购成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC/</link><description>Recent content in 采购成本 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链成本降不下来？90%的人砍错了地方</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</guid><description>&lt;h2 id="供应链降本你砍错地方了">供应链降本，你砍错地方了&lt;/h2>
+&lt;p>说句扎心的话：大部分企业降本，就是跟供应商砍价。砍完价格砍服务，砍完服务砍质量，砍完质量发现总成本反而涨了。&lt;/p>
+&lt;p>为什么？因为你砍的是&lt;strong>显性成本&lt;/strong>，真正吃掉利润的是&lt;strong>隐性成本&lt;/strong>。&lt;/p>
+&lt;p>我见过一家制造企业，采购价格连续3年下降8%，但总供应链成本反而上升了12%。原因是：便宜的供应商交期不稳定，导致安全库存翻倍；质量波动大，退货返工成本飙升；沟通成本直线上升，3个采购天天围着供应商救火。&lt;/p>
+&lt;p>&lt;strong>降本不是砍价，是砍浪费。&lt;/strong>&lt;/p>
+&lt;h2 id="真正该砍的3个成本黑洞">真正该砍的3个成本黑洞&lt;/h2>
+&lt;h3 id="1-流程浪费一个审批走了5天">1. 流程浪费：一个审批走了5天&lt;/h3>
+&lt;p>你算过没有，一笔采购从需求提报到下单，平均走几个审批？我见过最离谱的：7个审批节点，平均5.2天。&lt;/p>
+&lt;p>5天什么概念？原材料价格波动了，交期变了，需求也变了。等你批完，原来的报价早废了。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>金额≤5000元的采购，1级审批直接过&lt;/li>
+&lt;li>金额5000-50000元，2级审批&lt;/li>
+&lt;li>金额&amp;gt;50000元，3级审批（含评审会）&lt;/li>
+&lt;li>引入采购金额分级授权，不是所有单子都走全流程&lt;/li>
+&lt;/ul>
+&lt;p>一家电子企业这么改完，采购周期从7天缩到1.8天，紧急采购比例从35%降到8%。&lt;/p>
+&lt;h3 id="2-库存浪费你的仓库里有一半是废的">2. 库存浪费：你的仓库里有一半是&amp;quot;废的&amp;quot;&lt;/h3>
+&lt;p>库存是供应链最大的成本黑洞，没有之一。&lt;/p>
+&lt;p>我见过一家公司，库存周转率1.8次/年，意味着平均库存够卖200天。其中60%的SKU年出库不到5次，但占了仓库40%的面积。&lt;/p>
+&lt;p>&lt;strong>库存浪费的3个来源&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>安全库存虚高&lt;/strong>：拍脑袋设的安全库存，比实际需求高出50%-200%&lt;/li>
+&lt;li>&lt;strong>死库存不清理&lt;/strong>：超过1年不动的东西还在账上挂着&lt;/li>
+&lt;li>&lt;strong>批量采购的错觉&lt;/strong>：量大折扣确实便宜，但加上持有成本反而更贵&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>按ABC分类重新设定安全库存系数（A类1.2倍，B类1.5倍，C类2倍，而不是统一2.5倍）&lt;/li>
+&lt;li>每季度清理超180天不动销库存，打折处理或报废&lt;/li>
+&lt;li>计算EOQ时把持有成本（年15%-25%）算进去，别只看采购单价&lt;/li>
+&lt;/ul>
+&lt;p>一家汽车零部件企业这么做了之后，库存金额从3800万降到2100万，库存周转率从2.1升到4.3。&lt;/p>
+&lt;h3 id="3-信息浪费数据有但没人用">3. 信息浪费：数据有，但没人用&lt;/h3>
+&lt;p>信息浪费是最容易被忽视的成本。你的ERP里躺着海量数据，但：&lt;/p>
+&lt;ul>
+&lt;li>销售预测准确率不到40%，采购部门不敢信&lt;/li>
+&lt;li>供应商交期数据没人分析，永远在&amp;quot;催&amp;quot;&lt;/li>
+&lt;li>质量数据散落在3个系统里，出问题才开始翻&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>信息浪费=决策浪费&lt;/strong>。错误的信息导致错误的决策，错误的决策导致错误的库存、错误的排产、错误的采购。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>建立预测准确率考核（月度跟踪，偏差&amp;gt;30%要复盘）&lt;/li>
+&lt;li>供应商交期看板化（承诺交期vs实际交期，一目了然）&lt;/li>
+&lt;li>质量数据统一到一个看板，别分散在3个系统&lt;/li>
+&lt;/ul>
+&lt;h2 id="降本的正确顺序">降本的正确顺序&lt;/h2>
+&lt;p>别一上来就砍价，按这个顺序来：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>先砍流程浪费&lt;/strong>（最快见效，成本几乎为零）&lt;/li>
+&lt;li>&lt;strong>再砍库存浪费&lt;/strong>（中期见效，需要数据支撑）&lt;/li>
+&lt;li>&lt;strong>最后谈采购价格&lt;/strong>（有了前两步的底气，谈判地位完全不同）&lt;/li>
+&lt;/ol>
+&lt;p>一家年采购额2亿的制造企业，按这个顺序执行了6个月：流程优化省了800万（减少紧急采购和加急运费），库存优化省了1200万（减少持有成本和跌价损失），采购谈判省了600万（有了数据说话，不是空口砍价）。&lt;/p>
+&lt;p>&lt;strong>合计降本2600万，采购单价只贡献了23%。&lt;/strong>&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>供应链降本不是省钱，是&lt;strong>花钱花在刀刃上&lt;/strong>。砍掉浪费的，把资源投到创造价值的环节——比如供应商开发、需求预测、数字化工具。&lt;/p>
+&lt;p>砍价是战术，砍浪费是战略。战术赢一场，战略赢一局。&lt;/p>
+&lt;p>&lt;strong>你选哪个？&lt;/strong>&lt;/p></description></item><item><title>采购谈判被供应商拿捏？3个数据让你反客为主</title><link>https://supplychain-tips.pages.dev/posts/%E9%87%87%E8%B4%AD%E8%B0%88%E5%88%A4%E8%A2%AB%E4%BE%9B%E5%BA%94%E5%95%86%E6%8B%BF%E6%8D%8F3%E4%B8%AA%E6%95%B0%E6%8D%AE%E8%AE%A9%E4%BD%A0%E5%8F%8D%E5%AE%A2%E4%B8%BA%E4%B8%BB/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E9%87%87%E8%B4%AD%E8%B0%88%E5%88%A4%E8%A2%AB%E4%BE%9B%E5%BA%94%E5%95%86%E6%8B%BF%E6%8D%8F3%E4%B8%AA%E6%95%B0%E6%8D%AE%E8%AE%A9%E4%BD%A0%E5%8F%8D%E5%AE%A2%E4%B8%BA%E4%B8%BB/</guid><description>&lt;h2 id="采购谈判你为什么总被拿捏">采购谈判，你为什么总被拿捏？&lt;/h2>
+&lt;p>说句大实话：90%的采购谈判，采购方是弱势的。&lt;/p>
+&lt;p>不是因为供应商多厉害，而是因为&lt;strong>你手里没数据&lt;/strong>。供应商比你还了解你的采购量、价格区间、替代选项，你拿什么谈？&lt;/p>
+&lt;p>我见过太多这样的场景：&lt;/p>
+&lt;ul>
+&lt;li>采购说&amp;quot;能不能降5个点&amp;quot;，供应商说&amp;quot;已经到底了&amp;quot;&lt;/li>
+&lt;li>采购说&amp;quot;别人比你便宜&amp;quot;，供应商说&amp;quot;他们质量不一样&amp;quot;&lt;/li>
+&lt;li>采购说&amp;quot;我们量很大&amp;quot;，供应商说&amp;quot;大客户价也就这个水平&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>然后呢？不了了之，降价2个点交差。&lt;/p>
+&lt;p>&lt;strong>谈判的底气不是嗓门大，是数据硬。&lt;/strong>&lt;/p>
+&lt;h2 id="数据1成本结构拆解知道他的钱花在哪了">数据1：成本结构拆解——知道他的钱花在哪了&lt;/h2>
+&lt;p>你不知道供应商的成本结构，就永远不知道他的利润空间在哪。&lt;/p>
+&lt;p>&lt;strong>怎么做成本拆解&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>要求供应商提供BOM级报价&lt;/strong>——不是只给一个总价，而是按原材料、人工、制造费用、管理费用、利润分项报价&lt;/li>
+&lt;li>&lt;strong>对标原材料价格&lt;/strong>——用大宗商品价格指数（如LME金属价格、化工产品价格）验证原材料成本是否合理&lt;/li>
+&lt;li>&lt;strong>计算加工费合理性&lt;/strong>——同类工艺的加工费市场价是多少，供应商报的是否偏高&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>真实案例&lt;/strong>：一家汽车零部件企业，供应商报价120元/件。采购做了成本拆解：原材料45元（市场价40元合理），加工费35元（同类工艺30元合理），管理费15元（合理10元），利润25元（利润率26%）。&lt;/p>
+&lt;p>拿着这个数据去谈，不是&amp;quot;能不能降5个点&amp;quot;，而是&amp;quot;原材料贵了5元，加工费贵了5元，管理费贵了5元，利润率26%远超行业15%的水平，合理价应该是95元&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>最终成交价98元，降价18%。&lt;/strong>&lt;/p>
+&lt;h2 id="数据2tco总拥有成本别只看采购单价">数据2：TCO总拥有成本——别只看采购单价&lt;/h2>
+&lt;p>供应商最爱说&amp;quot;我单价最低&amp;quot;。但采购单价最低≠总成本最低。&lt;/p>
+&lt;p>&lt;strong>TCO的5个维度&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>低单价供应商可能隐含的额外成本&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购价格&lt;/td>
+ &lt;td>最低，但需要量大才有这个价&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量成本&lt;/td>
+ &lt;td>不良率5% vs 1%，每个不良品返工成本200元&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期成本&lt;/td>
+ &lt;td>交期不稳定导致安全库存+紧急运费&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>沟通成本&lt;/td>
+ &lt;td>响应慢、对账难、催货累&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>切换成本&lt;/td>
+ &lt;td>出问题换供应商的验证、过渡、风险&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>算一笔账&lt;/strong>：&lt;/p>
+&lt;p>供应商A：单价100元，不良率5%，交期准时率85%
+供应商B：单价108元，不良率1%，交期准时率98%&lt;/p>
+&lt;p>年采购量10万件：&lt;/p>
+&lt;ul>
+&lt;li>供应商A总成本：100×100000 + 5%×100000×200（返工）+ 15%×100000×5（紧急运费）= 1000万+100万+7.5万 = &lt;strong>1107.5万&lt;/strong>&lt;/li>
+&lt;li>供应商B总成本：108×100000 + 1%×100000×200 + 2%×100000×5 = 1080万+20万+1万 = &lt;strong>1101万&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>供应商B单价贵8%，总成本反而低6.5万。&lt;/strong>&lt;/p>
+&lt;p>拿TCO数据去谈，供应商A要么降价要么改善，否则你换B的理由充分且数据硬。&lt;/p>
+&lt;h2 id="数据3替代方案矩阵让他知道你不是非他不可">数据3：替代方案矩阵——让他知道你不是非他不可&lt;/h2>
+&lt;p>谈判最大的筹码是&lt;strong>你有的选&lt;/strong>。但你得真的有备选，而且让供应商知道。&lt;/p>
+&lt;p>&lt;strong>替代方案矩阵怎么做&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>评估维度&lt;/th>
+ &lt;th>供应商A（现有）&lt;/th>
+ &lt;th>供应商B&lt;/th>
+ &lt;th>供应商C&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>价格&lt;/td>
+ &lt;td>100元&lt;/td>
+ &lt;td>108元&lt;/td>
+ &lt;td>95元&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>质量水平&lt;/td>
+ &lt;td>5%不良率&lt;/td>
+ &lt;td>1%不良率&lt;/td>
+ &lt;td>3%不良率&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>交期准时率&lt;/td>
+ &lt;td>85%&lt;/td>
+ &lt;td>98%&lt;/td>
+ &lt;td>90%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>技术能力&lt;/td>
+ &lt;td>★★★&lt;/td>
+ &lt;td>★★★★&lt;/td>
+ &lt;td>★★&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>财务稳定性&lt;/td>
+ &lt;td>良好&lt;/td>
+ &lt;td>优秀&lt;/td>
+ &lt;td>一般&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>使用策略&lt;/strong>：&lt;/p></description></item><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
 &lt;p>D是年需求，S是单次订货成本，H是单位持有成本。三个变量套进去，啪，最优订货量就出来了。&lt;/p>
 &lt;p>拿着算出来的数字跟领导汇报，领导听完说了句：&amp;ldquo;你算的这个数，供应商起订量都不够。&amp;rdquo;&lt;/p>
 &lt;p>我当时就懵了。&lt;/p>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JIT on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/jit/</link><description>Recent content in JIT on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/jit/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</guid><description>&lt;h2 id="jit零库存你想多了">JIT=零库存？你想多了&lt;/h2>
+&lt;p>每次听到有人说&amp;quot;我们要搞JIT，实现零库存&amp;quot;，我就知道又要有人踩坑了。&lt;/p>
+&lt;p>JIT（Just In Time）不等于零库存。零库存是JIT的&lt;strong>理想状态&lt;/strong>，不是&lt;strong>起始状态&lt;/strong>。&lt;/p>
+&lt;p>丰田用了20年才接近这个状态。你上来就追求零库存，结果就是产线天天缺料、供应商天天救火、仓库从&amp;quot;库存多&amp;quot;变成&amp;quot;库存不够&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>JIT的本质不是&amp;quot;没有库存&amp;quot;，而是&amp;quot;在需要的时候，按需要的量，生产/供应需要的东西&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>关键词是&lt;strong>需要的时候&lt;/strong>和&lt;strong>需要的量&lt;/strong>——不是不存，是不多存。&lt;/p>
+&lt;h2 id="误解1jit就是不要库存">误解1：JIT就是不要库存&lt;/h2>
+&lt;p>这是最危险的误解。&lt;/p>
+&lt;p>&lt;strong>库存的本质是缓冲&lt;/strong>——缓冲需求波动、供应波动、生产波动。你把缓冲撤了，但波动还在，结果就是断链。&lt;/p>
+&lt;p>丰田为什么能做到低库存？不是因为不存，而是因为&lt;strong>波动小&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>需求波动小：丰田的经销商订单按日均衡排产&lt;/li>
+&lt;li>供应波动小：供应商就在工厂旁边，1-2小时供货&lt;/li>
+&lt;li>生产波动小：产线切换时间从2小时压到了10分钟（SMED）&lt;/li>
+&lt;/ul>
+&lt;p>你的需求波动大不大？供应商交期稳不稳？产线换型快不快？&lt;/p>
+&lt;p>如果答案都是&amp;quot;不行&amp;quot;，那你现在的库存不是多了，是&lt;strong>必要的缓冲&lt;/strong>。JIT的目标是逐步减少缓冲，不是一开始就撤掉缓冲。&lt;/p>
+&lt;p>&lt;strong>正确理解&lt;/strong>：JIT是&lt;strong>减少不必要的库存&lt;/strong>，不是不要库存。&lt;/p>
+&lt;h2 id="误解2jit就是逼供应商压库存">误解2：JIT就是逼供应商压库存&lt;/h2>
+&lt;p>&amp;ldquo;我们搞JIT，供应商要VMI，库存放他那，我们用了再结算。&amp;rdquo;&lt;/p>
+&lt;p>这句话翻译一下就是：&lt;strong>我的库存我来用，你的库存你来扛。&lt;/strong>&lt;/p>
+&lt;p>这叫JIT吗？这不叫JIT，这叫&lt;strong>成本转移&lt;/strong>。总库存没减少，只是从你这边挪到了供应商那边。而且供应商的持有成本（资金、仓储、管理）最终都会加到报价里，你一个子儿也没省。&lt;/p>
+&lt;p>&lt;strong>JIT对供应商的要求不是&amp;quot;你存着我来用&amp;quot;，而是&amp;quot;你能在需要的时候精确地供应&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>区别在于：&lt;/p>
+&lt;ul>
+&lt;li>成本转移：供应商多存，你少存，总成本不变&lt;/li>
+&lt;li>真正JIT：供应商也少存，但能精准配合你的节拍供货&lt;/li>
+&lt;/ul>
+&lt;p>怎么做到？&lt;strong>信息共享+计划协同&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>把你的生产计划实时共享给供应商（不是月度预测，是周度甚至日度计划）&lt;/li>
+&lt;li>供应商在你工厂附近设中转仓（不是堆满库存的仓库，是小批量高频补货的hub）&lt;/li>
+&lt;li>双方共同优化交货频次和批量&lt;/li>
+&lt;/ul>
+&lt;h2 id="误解3jit就是抄丰田">误解3：JIT就是抄丰田&lt;/h2>
+&lt;p>&amp;ldquo;丰田就是这么做的，我们也这么做。&amp;rdquo;&lt;/p>
+&lt;p>丰田的JIT是在特定环境下长出来的：日本的爱知县，供应商集中在50公里范围内，劳资关系稳定，员工终身雇佣，持续改善文化深入人心。&lt;/p>
+&lt;p>你的环境和丰田一样吗？&lt;/p>
+&lt;ul>
+&lt;li>供应商集中度：你的供应商可能分布在全国各地&lt;/li>
+&lt;li>劳资关系：员工流动性高，培训成本大&lt;/li>
+&lt;li>文化：持续改善不是一天能建立的&lt;/li>
+&lt;li>订单模式：你的客户可能要求大批量交付，不是每日均衡&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>JIT不是抄作业，是因地制宜&lt;/strong>。&lt;/p>
+&lt;h2 id="正确实施jit的3个前提">正确实施JIT的3个前提&lt;/h2>
+&lt;p>JIT不是你想搞就能搞的，有3个前提条件：&lt;/p>
+&lt;h3 id="前提1需求相对稳定可预测">前提1：需求相对稳定可预测&lt;/h3>
+&lt;p>JIT的前提是生产计划稳定。如果你的订单忽大忽小、紧急插单频繁，JIT根本跑不起来。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：月度需求变异系数&amp;lt;30%的品类，可以考虑JIT；&amp;gt;50%的，老老实实备安全库存。&lt;/p>
+&lt;h3 id="前提2供应商有能力配合">前提2：供应商有能力配合&lt;/h3>
+&lt;p>JIT要求供应商小批量、高频次、准时供货。不是所有供应商都能做到。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>供应商距离近（最好200公里内）&lt;/li>
+&lt;li>供应商有柔性生产能力（不是大批量生产型）&lt;/li>
+&lt;li>供应商愿意共享库存和生产计划数据&lt;/li>
+&lt;/ul>
+&lt;h3 id="前提3内部流程高度标准化">前提3：内部流程高度标准化&lt;/h3>
+&lt;p>JIT对内部流程的要求极高：工序间衔接精确到小时，物料配送精确到工位，质量问题暴露必须即时。&lt;/p>
+&lt;p>&lt;strong>怎么判断&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>5S是否做到位？&lt;/li>
+&lt;li>标准作业是否执行？&lt;/li>
+&lt;li>异常响应是否在30分钟内？&lt;/li>
+&lt;/ul>
+&lt;p>三个条件都满足的品类，可以尝试JIT。不满足的，先改善基础，再谈JIT。&lt;/p>
+&lt;h2 id="jit的正确路径">JIT的正确路径&lt;/h2>
+&lt;p>别追求一步到位，按这个节奏来：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>阶段&lt;/th>
+ &lt;th>目标&lt;/th>
+ &lt;th>时间&lt;/th>
+ &lt;th>核心动作&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>阶段1&lt;/td>
+ &lt;td>减少不必要的库存&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>ABC分类、清理死库存、优化安全库存&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段2&lt;/td>
+ &lt;td>提升供应链响应速度&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>缩短交期、提高交期准时率、信息共享&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段3&lt;/td>
+ &lt;td>小批量高频次供应&lt;/td>
+ &lt;td>6-12月&lt;/td>
+ &lt;td>供应商hub、日度补货、VMI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>阶段4&lt;/td>
+ &lt;td>JIT&lt;/td>
+ &lt;td>持续&lt;/td>
+ &lt;td>按节拍生产、零切换浪费、持续改善&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>每个阶段至少6个月，4个阶段走完2-3年很正常。&lt;/strong>&lt;/p></description></item></channel></rss>

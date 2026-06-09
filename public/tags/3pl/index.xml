@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3PL on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/3pl/</link><description>Recent content in 3PL on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/3pl/index.xml" rel="self" type="application/rss+xml"/><item><title>物流外包3年亏了200万，我替你总结了5个血泪教训</title><link>https://supplychain-tips.pages.dev/posts/%E7%89%A9%E6%B5%81%E5%A4%96%E5%8C%853%E5%B9%B4%E4%BA%8F%E4%BA%86200%E4%B8%87%E6%88%91%E6%9B%BF%E4%BD%A0%E6%80%BB%E7%BB%93%E4%BA%865%E4%B8%AA%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E7%89%A9%E6%B5%81%E5%A4%96%E5%8C%853%E5%B9%B4%E4%BA%8F%E4%BA%86200%E4%B8%87%E6%88%91%E6%9B%BF%E4%BD%A0%E6%80%BB%E7%BB%93%E4%BA%865%E4%B8%AA%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/</guid><description>&lt;h2 id="物流外包你以为省心了">物流外包，你以为省心了？&lt;/h2>
+&lt;p>&amp;ldquo;把物流外包出去，省心省力省钱。&amp;rdquo;&lt;/p>
+&lt;p>这句话是我听过最大的谎言。&lt;/p>
+&lt;p>3年前我负责公司物流外包项目，从选供应商到签约到运营，一路踩坑。3年下来，账面上省了150万运费，但隐形成本花了350万——净亏200万。&lt;/p>
+&lt;p>今天把这些教训掏出来，不是为了诉苦，是希望你别再踩同样的坑。&lt;/p>
+&lt;h2 id="教训1只比运价不看tco">教训1：只比运价，不看TCO&lt;/h2>
+&lt;p>选供应商的时候，我犯了最蠢的错误：&lt;strong>谁运价低选谁&lt;/strong>。&lt;/p>
+&lt;p>5家供应商报价比下来，选了最便宜的那家，运价比之前自营低18%。觉得自己赚了。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>隐性加价&lt;/strong>：基础运费低，但装卸费、等待费、绕路费、节假日附加费一堆，实际总费用比报价高35%&lt;/li>
+&lt;li>&lt;strong>破损率高&lt;/strong>：货物破损率3.2%（行业平均1.5%），赔偿标准是运费的3倍而不是货值&lt;/li>
+&lt;li>&lt;strong>延误严重&lt;/strong>：准时交付率78%，每次延误客户投诉，客服成本上升&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确做法&lt;/strong>：TCO对比。把运费、装卸费、附加费、破损赔偿、延误损失、沟通成本全部算进去，至少看6个月的实际运营数据再下结论。&lt;/p>
+&lt;h2 id="教训2sla写了一页纸没有一条能执行">教训2：SLA写了一页纸，没有一条能执行&lt;/h2>
+&lt;p>签合同的时候，我花了大价钱请律师写了SLA（服务级别协议），看起来滴水不漏：&lt;/p>
+&lt;ul>
+&lt;li>准时交付率≥95%&lt;/li>
+&lt;li>货物破损率≤1%&lt;/li>
+&lt;li>客户投诉24小时内响应&lt;/li>
+&lt;/ul>
+&lt;p>但执行起来全是漏洞：&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;准时&amp;quot;的定义是什么？供应商说&amp;quot;到达目的地城市&amp;quot;就算准时，我说&amp;quot;客户签收&amp;quot;才算&lt;/li>
+&lt;li>破损率的计算基数是什么？供应商说按车次算，我说按件数算&lt;/li>
+&lt;li>24小时响应的&amp;quot;响应&amp;quot;是什么意思？供应商说&amp;quot;接到投诉&amp;quot;就是响应，我说&amp;quot;给出处理方案&amp;quot;才算&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确做法&lt;/strong>：SLA的每个指标都要有&lt;strong>明确的定义、计算公式、数据来源和考核周期&lt;/strong>。模糊的指标等于没有指标。&lt;/p>
+&lt;h2 id="教训3没有月度复盘小问题滚成大事故">教训3：没有月度复盘，小问题滚成大事故&lt;/h2>
+&lt;p>外包的前6个月，一切正常。我以为找到了好伙伴，放松了监管。&lt;/p>
+&lt;p>第7个月开始出问题：准时率悄悄从92%滑到85%。第9个月，一次重大延误导致客户产线停工4小时，损失80万。&lt;/p>
+&lt;p>复盘发现：供应商的运力从6月起就不足了，因为接了另一个大客户的单子，优先给了那边。我们的货被往后排了。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度运营回顾&lt;/strong>（MOR）：每月固定1小时，review准时率、破损率、成本、投诉&lt;/li>
+&lt;li>&lt;strong>异常预警机制&lt;/strong>：任何指标连续2周低于SLA，自动触发升级流程&lt;/li>
+&lt;li>&lt;strong>运力保障条款&lt;/strong>：合同中明确供应商的运力分配优先级&lt;/li>
+&lt;/ul>
+&lt;h2 id="教训4单一供应商依赖议价权为零">教训4：单一供应商依赖，议价权为零&lt;/h2>
+&lt;p>3年只用了1家供应商，第2年续约的时候，对方直接涨价15%。我拿着别家的报价去谈，对方说&amp;quot;你可以换，但3个月过渡期内的风险你自己担&amp;rdquo;。&lt;/p>
+&lt;p>换供应商的切换成本太高：系统对接、流程磨合、团队培训、客户通知……算下来至少要50万和3个月时间。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>70/30分配&lt;/strong>：主供应商70%运量，副供应商30%运量&lt;/li>
+&lt;li>副供应商保持活跃运营，随时可以扩量&lt;/li>
+&lt;li>每年做一次供应商评估，引入竞争&lt;/li>
+&lt;/ul>
+&lt;h2 id="教训5数据不在你手里你永远是被动的">教训5：数据不在你手里，你永远是被动的&lt;/h2>
+&lt;p>外包3年，最让我无力的不是成本，是&lt;strong>看不到数据&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>实时在途信息只有供应商的系统里有，我们看不到&lt;/li>
+&lt;li>每月的对账数据是供应商提供的，我们没有独立验证&lt;/li>
+&lt;li>客户投诉的处理进度全靠问&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据不在你手里，你连谈合同的底气都没有。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>要求供应商对接你们的TMS/OMS系统，数据实时同步&lt;/li>
+&lt;li>关键指标（在途、签收、破损）必须有&lt;strong>自动数据采集&lt;/strong>，不能靠人工填报&lt;/li>
+&lt;li>对账数据双方系统核对，而不是单方面提供&lt;/li>
+&lt;/ul>
+&lt;h2 id="物流外包的正确姿势">物流外包的正确姿势&lt;/h2>
+&lt;p>总结这3年的教训，物流外包的核心就是一句话：&lt;strong>外包的是执行，不是管理。&lt;/strong>&lt;/p>
+&lt;p>你可以把运输交给3PL，但路线规划、供应商管理、成本控制、数据监控——这些必须留在自己手里。&lt;/p>
+&lt;p>具体来说：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>环节&lt;/th>
+ &lt;th>可以外包&lt;/th>
+ &lt;th>必须自控&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>运输执行&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>仓储操作&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>路线规划&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>供应商选择&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>成本核算&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>数据监控&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>客户体验&lt;/td>
+ &lt;td>-&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>外包是为了聚焦，不是为了甩锅。&lt;/strong> 你甩出去的锅，最后都会以更高的成本回到你头上。&lt;/p></description></item></channel></rss>

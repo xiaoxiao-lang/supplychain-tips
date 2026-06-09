@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链风险管理的3个层次，90%的企业只做到了第1层</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</guid><description>&lt;h2 id="供应链出事了你怎么办">供应链出事了你怎么办？&lt;/h2>
+&lt;p>问10个供应链负责人&amp;quot;你们的风险管理怎么做&amp;quot;，8个会说&amp;quot;我们有应急预案&amp;quot;。&lt;/p>
+&lt;p>但如果继续问：&lt;/p>
+&lt;ul>
+&lt;li>你的应急预案上次更新是什么时候？&lt;/li>
+&lt;li>上次演练是什么时候？&lt;/li>
+&lt;li>预案里提到的替代供应商，验证过了吗？&lt;/li>
+&lt;/ul>
+&lt;p>大部分人的回答是沉默。&lt;/p>
+&lt;p>&lt;strong>供应链风险管理不是出事了再应对，是没出事就准备好。&lt;/strong>&lt;/p>
+&lt;p>我见过一家公司，供应商突然停产（环保问题），整个产线停了2周，损失1500万。事后复盘发现：这家供应商占单一物料100%的份额，没有替代源，没有安全库存，应急预案写了但没演练过。&lt;/p>
+&lt;p>&lt;strong>90%的企业供应链风险管理只做到了第1层——被动响应。&lt;/strong>&lt;/p>
+&lt;h2 id="第1层被动响应大多数企业在这">第1层：被动响应（大多数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：出了问题再想办法。&lt;/p>
+&lt;ul>
+&lt;li>供应商停产了→紧急找替代源&lt;/li>
+&lt;li>运输中断了→临时换路线&lt;/li>
+&lt;li>质量出问题了→退货+索赔&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>响应慢：从发现问题到找到解决方案，平均3-7天&lt;/li>
+&lt;li>成本高：紧急采购加价30%-100%，加急运费翻倍&lt;/li>
+&lt;li>效果差：临时方案质量不稳定&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这是底线，不是目标。&lt;/strong> 每个企业都应该有基本的应急预案，但不能停留在这里。&lt;/p>
+&lt;h2 id="第2层主动预防少数企业在这">第2层：主动预防（少数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：在问题发生前识别风险，提前准备。&lt;/p>
+&lt;h3 id="做法a风险识别和监控">做法A：风险识别和监控&lt;/h3>
+&lt;p>&lt;strong>建立供应商风险监控体系&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>风险维度&lt;/th>
+ &lt;th>监控指标&lt;/th>
+ &lt;th>预警阈值&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>财务风险&lt;/td>
+ &lt;td>资产负债率&lt;/td>
+ &lt;td>&amp;gt;70%&lt;/td>
+ &lt;td>企查查/天眼查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>经营风险&lt;/td>
+ &lt;td>法律诉讼数&lt;/td>
+ &lt;td>&amp;gt;3件/季度&lt;/td>
+ &lt;td>企查查&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>产能风险&lt;/td>
+ &lt;td>订单满足率&lt;/td>
+ &lt;td>&amp;lt;90%&lt;/td>
+ &lt;td>ERP&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>合规风险&lt;/td>
+ &lt;td>环保处罚&lt;/td>
+ &lt;td>有&lt;/td>
+ &lt;td>生态环境部&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>地理风险&lt;/td>
+ &lt;td>自然灾害&lt;/td>
+ &lt;td>有预警&lt;/td>
+ &lt;td>气象数据&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="做法b供应链多元化">做法B：供应链多元化&lt;/h3>
+&lt;p>&lt;strong>不把鸡蛋放在一个篮子里&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>关键物料至少2家供应商（70/30或60/40分配）&lt;/li>
+&lt;li>关键运输路线有2套方案（日常+备用）&lt;/li>
+&lt;li>关键生产环节有2个基地（主基地+备份基地）&lt;/li>
+&lt;/ul>
+&lt;h3 id="做法c安全库存策略">做法C：安全库存策略&lt;/h3>
+&lt;p>&lt;strong>安全库存不只是应对需求波动，也是风险缓冲&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>单一来源的关键物料：安全库存增加50%&lt;/li>
+&lt;li>地缘政治敏感区域的物料：备6个月库存&lt;/li>
+&lt;li>交期长的物料：备足交期+2周的安全库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第2层的效果&lt;/strong>：风险事件发生后1-2天内启动预案，损失降低50%-70%。&lt;/p>
+&lt;h2 id="第3层韧性建设极少数企业在这">第3层：韧性建设（极少数企业在这）&lt;/h2>
+&lt;p>&lt;strong>特征&lt;/strong>：不只是应对风险，而是让供应链在冲击下快速恢复甚至变得更强。&lt;/p>
+&lt;h3 id="3个核心能力">3个核心能力&lt;/h3>
+&lt;h4 id="能力1供应链可视化">能力1：供应链可视化&lt;/h4>
+&lt;p>&lt;strong>看得见才能管得住&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>多级供应商可视化：不只看一级供应商，能看到二级、三级&lt;/li>
+&lt;li>在途可视化：每批货物在哪、什么时候到，实时可查&lt;/li>
+&lt;li>风险可视化：全球地图上标注所有风险点&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>工具&lt;/strong>：供应链控制塔（Control Tower），不是什么高深技术，本质就是把散落的信息集中到一个仪表盘上。&lt;/p></description></item><item><title>一家供应商停产3天，我公司差点跟着黄了</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk/</guid><description>&lt;p>2024年，我亲历了一件事。一家供应商因为环保检查停产整改，只停了3天。但它是我们核心原件的唯一源头。&lt;/p>
 &lt;p>3天停产 + 2天物流 + 产线调整 = 停线5天。直接损失300万，订单延期赔了80万。&lt;/p>
 &lt;p>老板问我：不是有供应商评估吗？我说：评了，优秀。老板又问：那为什么只有一家？我沉默了。&lt;/p>
 &lt;h3 id="供应链最大的风险你以为没事">供应链最大的风险：你以为没事&lt;/h3>

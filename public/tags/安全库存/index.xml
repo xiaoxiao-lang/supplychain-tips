@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</link><description>Recent content in 安全库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>库存压了300万，我才学会算安全库存</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</guid><description>&lt;p>先讲个真事，别笑。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</link><description>Recent content in 安全库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
+&lt;p>问10个供应链人安全库存怎么设，8个会说&amp;quot;凭经验&amp;quot;。剩下2个会用公式，但公式里的参数还是拍脑袋。&lt;/p>
+&lt;p>&lt;strong>结果就是&lt;/strong>：安全库存要么虚高——仓库里堆了一堆用不上的东西；要么不够——客户下单没货，紧急采购加急运费。&lt;/p>
+&lt;p>我见过一家公司，统一按2周需求量设安全库存。结果是：A类物料（占金额70%）频繁断货，C类物料（占金额5%）堆成山。&lt;/p>
+&lt;p>&lt;strong>安全库存不是拍脑袋的事，是算出来的。&lt;/strong>&lt;/p>
+&lt;h2 id="安全库存的本质是什么">安全库存的本质是什么&lt;/h2>
+&lt;p>安全库存的本质很简单：&lt;strong>应对不确定性&lt;/strong>。&lt;/p>
+&lt;p>什么不确定性？两个：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>需求不确定性&lt;/strong>——客户要的比你预测的多&lt;/li>
+&lt;li>&lt;strong>供应不确定性&lt;/strong>——供应商交的比你期望的晚&lt;/li>
+&lt;/ol>
+&lt;p>安全库存就是这两个不确定性的缓冲垫。垫子太薄，断货；垫子太厚，浪费。&lt;/p>
+&lt;h2 id="3步正确设定安全库存">3步正确设定安全库存&lt;/h2>
+&lt;h3 id="第1步计算需求波动">第1步：计算需求波动&lt;/h3>
+&lt;p>别用&amp;quot;经验值&amp;quot;，用&lt;strong>标准差&lt;/strong>。&lt;/p>
+&lt;p>取过去12个月（或24周）的需求数据，计算周需求的标准差。&lt;/p>
+&lt;p>公式：需求标准差 σ_d = STDEV(周需求量)&lt;/p>
+&lt;p>&lt;strong>注意&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>剔除异常值（如促销、大单）&lt;/li>
+&lt;li>用周数据比月数据更精确&lt;/li>
+&lt;li>至少12个数据点才靠谱&lt;/li>
+&lt;/ul>
+&lt;h3 id="第2步计算供应波动">第2步：计算供应波动&lt;/h3>
+&lt;p>同样用数据说话，取过去12个月的采购交期数据。&lt;/p>
+&lt;p>公式：交期标准差 σ_lt = STDEV(实际交期天数 - 承诺交期天数)&lt;/p>
+&lt;p>&lt;strong>注意&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>只统计正常采购订单，不含加急订单&lt;/li>
+&lt;li>如果供应商交期很稳定（标准差&amp;lt;1天），可以忽略供应波动&lt;/li>
+&lt;/ul>
+&lt;h3 id="第3步套公式">第3步：套公式&lt;/h3>
+&lt;p>&lt;strong>安全库存 = Z × √(交期 × σ_d² + 平均需求² × σ_lt²)&lt;/strong>&lt;/p>
+&lt;p>其中Z是服务水平对应的系数：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>服务水平&lt;/th>
+ &lt;th>Z值&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>90%&lt;/td>
+ &lt;td>1.28&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>95%&lt;/td>
+ &lt;td>1.65&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>97.5%&lt;/td>
+ &lt;td>1.96&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>99%&lt;/td>
+ &lt;td>2.33&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>服务水平怎么选&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>A类物料（金额占比大）：97.5%-99%&lt;/li>
+&lt;li>B类物料：95%-97.5%&lt;/li>
+&lt;li>C类物料：90%-95%&lt;/li>
+&lt;/ul>
+&lt;h2 id="举个真实的例子">举个真实的例子&lt;/h2>
+&lt;p>某物料数据：&lt;/p>
+&lt;ul>
+&lt;li>平均周需求：500个&lt;/li>
+&lt;li>需求标准差：120个&lt;/li>
+&lt;li>平均交期：2周&lt;/li>
+&lt;li>交期标准差：0.5周&lt;/li>
+&lt;li>服务水平目标：97.5%（Z=1.96）&lt;/li>
+&lt;/ul>
+&lt;p>安全库存 = 1.96 × √(2 × 120² + 500² × 0.5²)
+= 1.96 × √(28800 + 62500)
+= 1.96 × √91300
+= 1.96 × 302.2
+= &lt;strong>592个&lt;/strong>&lt;/p></description></item><item><title>库存压了300万，我才学会算安全库存</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-calc/</guid><description>&lt;p>先讲个真事，别笑。&lt;/p>
 &lt;p>我第一年干采购的时候，被老板骂得狗血淋头，原因很简单——&lt;strong>断货了&lt;/strong>。客户订单飞进来，仓库却没货。销售在群里@我，老板在办公室拍桌子，那一刻我觉得自己离被开就差一张离职单。&lt;/p>
 &lt;p>怎么办？我当时的解决方案很“聪明”：&lt;strong>多备点&lt;/strong>。原来备两周的量，直接拉到四周。不够？再翻一倍。&lt;/p>
 &lt;p>结果呢？&lt;/p>

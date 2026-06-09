@@ -1,13 +1,494 @@
-<!doctype html><html lang=zh-CN><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="甲方乙方供应链 - 专注供应链管理知识分享，从采购到物流，从入门到精通"><meta name=robots content="index, follow"><title>仓储效率 - 供应链管理指南</title><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,microsoft yahei,sans-serif;line-height:1.7;color:#333;max-width:800px;margin:0 auto;padding:20px}header{text-align:center;padding:40px 0;border-bottom:1px solid #eee}h1{font-size:1.8em;margin-bottom:10px}h2{font-size:1.4em;margin:30px 0 15px}h3{font-size:1.2em;margin:20px 0 10px}a{color:#06c;text-decoration:none}a:hover{text-decoration:underline}.nav{margin-top:15px}.nav a{margin:0 10px;color:#666}.post-list{list-style:none}.post-list li{padding:15px 0;border-bottom:1px solid #f5f5f5}.post-list h3{margin:0}.post-meta{color:#999;font-size:.9em;margin-top:5px}.content{margin:30px 0}.content p{margin:15px 0}.content ul,.content ol{margin:15px 0 15px 25px}.content li{margin:5px 0}.content blockquote{border-left:4px solid #06c;padding-left:15px;margin:20px 0;color:#666}.content code{background:#f5f5f5;padding:2px 6px;border-radius:3px}.content pre{background:#f5f5f5;padding:15px;overflow-x:auto;border-radius:5px;margin:20px 0}.tag{display:inline-block;background:#f0f0f0;padding:2px 10px;border-radius:15px;font-size:.85em;margin:3px;color:#666}.wechat-box{background:#f9f9f9;border:1px solid #e0e0e0;border-radius:8px;padding:20px;text-align:center;margin:40px 0}footer{text-align:center;padding:40px 0;color:#999;font-size:.9em;border-top:1px solid #eee;margin-top:50px}@media(max-width:600px){body{padding:15px}h1{font-size:1.5em}}</style></head><body><header><h1><a href=/>供应链管理指南</a></h1><p style=color:#666;margin-top:10px>甲方乙方供应链 - 专注供应链管理知识分享，从采购到物流，从入门到精通</p><nav class=nav><a href=/>首页</a>
+<!doctype html><html lang=zh-CN><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=description content="甲方乙方供应链 - 专注供应链管理知识分享，从采购到物流，从入门到精通"><meta name=robots content="index, follow"><meta name=theme-color content="#F2F2F7"><title>仓储效率 - 供应链管理指南</title><style>:root{--bg-primary:#F2F2F7;--bg-secondary:#FFFFFF;--bg-tertiary:#E5E5EA;--text-primary:#000000;--text-secondary:#8E8E93;--text-tertiary:#C7C7CC;--accent-blue:#007AFF;--accent-orange:#FF9500;--separator:rgba(60, 60, 67, 0.12);--card-shadow:0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02)}@media(prefers-color-scheme:dark){:root{--bg-primary:#000000;--bg-secondary:#1C1C1E;--bg-tertiary:#2C2C2E;--text-primary:#FFFFFF;--text-secondary:#8E8E93;--text-tertiary:#48484A;--separator:rgba(255, 255, 255, 0.12);--card-shadow:0 1px 3px rgba(0,0,0,0.3)}}*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}body{font-family:-apple-system,BlinkMacSystemFont,sf pro display,sf pro text,helvetica neue,pingfang sc,microsoft yahei,sans-serif;line-height:1.5;color:var(--text-primary);background:var(--bg-primary);-webkit-text-size-adjust:100%}.nav-bar{position:sticky;top:0;z-index:100;background:rgba(242,242,247,.85);backdrop-filter:saturate(180%)blur(20px);-webkit-backdrop-filter:saturate(180%)blur(20px);border-bottom:.5px solid var(--separator);padding:12px 20px;display:flex;align-items:center;justify-content:space-between}@media(prefers-color-scheme:dark){.nav-bar{background:rgba(0,0,0,.65)}}.nav-title{font-size:17px;font-weight:600;letter-spacing:-.01em}.nav-links{display:flex;gap:20px}.nav-links a{font-size:15px;color:var(--accent-blue);text-decoration:none;font-weight:400}.hero{padding:24px 20px 16px;max-width:680px;margin:0 auto}.hero h1{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1.2;margin-bottom:8px}.hero p{font-size:15px;color:var(--text-secondary);line-height:1.4}main{max-width:680px;margin:0 auto;padding:0 20px 40px}.list-group{background:var(--bg-secondary);border-radius:12px;overflow:hidden;margin-bottom:20px;box-shadow:var(--card-shadow)}.list-item{padding:16px 20px;border-bottom:.5px solid var(--separator);transition:background .15s ease}.list-item:last-child{border-bottom:none}.list-item:active{background:var(--bg-tertiary)}.list-item h3{font-size:17px;font-weight:600;line-height:1.3;margin-bottom:6px;color:var(--text-primary)}.list-item h3 a{color:inherit;text-decoration:none}.post-meta{font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tag{display:inline-block;background:var(--bg-tertiary);color:var(--accent-blue);padding:2px 10px;border-radius:10px;font-size:12px;font-weight:500}.post-summary{font-size:15px;color:var(--text-secondary);margin-top:8px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.chevron{float:right;color:var(--text-tertiary);font-size:14px;margin-top:2px}.section-header{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-secondary);margin:24px 20px 8px;letter-spacing:.02em}.single-post{background:var(--bg-secondary);border-radius:12px;padding:24px 20px;margin-top:16px;box-shadow:var(--card-shadow)}.single-post h1{font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.25;margin-bottom:12px}.content{font-size:17px;line-height:1.7;color:var(--text-primary)}.content p{margin:16px 0}.content h2{font-size:22px;font-weight:700;margin:32px 0 16px;letter-spacing:-.01em}.content h3{font-size:19px;font-weight:600;margin:24px 0 12px}.content ul,.content ol{margin:16px 0 16px 24px}.content li{margin:8px 0}.content blockquote{border-left:3px solid var(--accent-blue);padding-left:16px;margin:20px 0;color:var(--text-secondary);font-style:italic}.content code{background:var(--bg-tertiary);padding:2px 8px;border-radius:6px;font-size:15px;font-family:sf mono,courier new,monospace}.content pre{background:var(--bg-tertiary);padding:16px;overflow-x:auto;border-radius:10px;margin:20px 0;font-size:14px}.content a{color:var(--accent-blue);text-decoration:none}.content a:hover{text-decoration:underline}.content img{max-width:100%;border-radius:10px;margin:16px 0}.content table{width:100%;border-collapse:collapse;margin:20px 0;font-size:15px}.content th,.content td{padding:12px;text-align:left;border-bottom:.5px solid var(--separator)}.content th{font-weight:600;color:var(--text-secondary);font-size:13px;text-transform:uppercase}.cta-card{background:linear-gradient(135deg,#FF9500 0%,#FF6B35 100%);border-radius:16px;padding:24px 20px;text-align:center;margin:32px 0;color:#fff}.cta-card p{margin:6px 0}.cta-card strong{font-size:18px;font-weight:700}.cta-card a{display:inline-block;background:rgba(255,255,255,.2);color:#fff;padding:10px 24px;border-radius:20px;text-decoration:none;font-weight:600;margin-top:12px;backdrop-filter:blur(10px)}.cta-card a:active{background:rgba(255,255,255,.35)}footer{text-align:center;padding:32px 20px;color:var(--text-secondary);font-size:13px}footer p{margin:4px 0}@media(max-width:600px){.hero h1{font-size:28px}.single-post h1{font-size:24px}.content{font-size:16px}.nav-bar{padding:10px 16px}main{padding:0 16px 32px}}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:0 0}::-webkit-scrollbar-thumb{background:var(--text-tertiary);border-radius:3px}</style></head><body><nav class=nav-bar><span class=nav-title>文章</span><div class=nav-links><a href=/>首页</a>
 <a href=/tags/>标签</a>
-<a href=/about/>关于</a></nav></header><main><article class=post-preview><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>供应链管理的核心：如何做好采购谈判</a></h3><p class=post-meta>2026-05-18 · <span class=tag>采购</span><span class=tag>谈判</span><span class=tag>供应链管理</span></p><p><h1 id=供应链管理的核心如何做好采购谈判>供应链管理的核心：如何做好采购谈判</h1><p>大家好，我是老王，在物流行业摸爬滚打了12年。今天聊一个供应链人都关心的话题：<strong>采购谈判</strong>。</p><p>很多人觉得谈判就是"砍价"，其实远远不是。谈判的本质是<strong>价值交换</strong>，是一场让双方都觉得赢了的博弈。</p><h2 id=一谈判前必做的3件事>一、谈判前必做的3件事</h2><h3 id=1-摸清对方底牌>1. 摸清对方底牌</h3><ul><li>供应商的的成本结构</li><li>他们的竞争对手是谁</li><li>他们的库存情况</li><li>旺季还是淡季</li></ul><blockquote><p>记住：你了解得越多，谈判空间就越大。</p></blockquote><h3 id=2-明确自己的底线>2. 明确自己的底线</h3><ul><li>目标价是多少？</li><li>哪些条件可以让步？</li><li>哪些条件绝对不能让步？</li></ul><h3 id=3-准备好替代方案>3. 准备好替代方案</h3><ul><li>备选供应商谈好了吗？</li><li>自产还是外购？</li></ul><h2 id=二谈判中的5个技巧>二、谈判中的5个技巧</h2><h3 id=技巧一先听后说>技巧一：先听后说</h3><p>不要一上来就报价。先让对方说，听出他们的痛点和期望。</p><h3 id=技巧二不要接受第一个offer>技巧二：不要接受第一个offer</h3><p>通常对方第一次报价都有10-15%的水分。</p><h3 id=技巧三使用如果那么句式>技巧三：使用"如果&mldr;那么&mldr;&ldquo;句式</h3><p>&ldquo;如果订单量增加到2000件，那么价格能降多少？&rdquo;</p><h3 id=技巧四谈总价不谈单价>技巧四：谈总价，不谈单价</h3><p>很多供应商单价便宜但附加费用高。</p><h3 id=技巧五争取非价格利益>技巧五：争取非价格利益</h3><p>账期、免费售后、优先发货&mldr;&mldr;这些都是可以谈的。</p><h2 id=三谈判后的跟进>三、谈判后的跟进</h2><p>合同签订不是终点，是合作的开始：</p><ol><li>及时付款维护信用</li><li>定期复盘供应商表现</li><li>保持沟通渠道畅通</li></ol><hr><p><strong>总结一下</strong>：好的采购谈判，不是把供应商榨干，而是建立长期稳定的合作关系。</p><hr><p><em>关注公众号「供应链那些事」，获取更多实战经验。</em></p></p></article><article class=post-preview><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/>库存周转率怎么算？3个公式+5个实战技巧，老板直呼内行</a></h3><p class=post-meta>2026-05-18 · <span class=tag>库存周转率</span><span class=tag>库存管理</span><span class=tag>供应链优化</span></p><p><p>你有没有遇到过这种情况：仓库堆得满满当当，老板问“库存周转率是多少”，你翻出报表一看，数字挺漂亮，可资金却越来越紧，仓库里还总有一堆卖不掉的货？或者，你压根儿就没算过这个指标，只知道“库存多了压钱，少了断货”？</p><p>别急，今天咱们就用大白话聊聊<strong>库存周转率</strong>。这玩意儿说白了，就是看你的货“转”得有多快。转得快，钱就活；转得慢，钱就死在仓库里。我干供应链这行十几年，见过太多公司因为算错或者忽视这个指标，最后现金流崩盘。今天这篇干货，保证你看完就能用。</p><h3 id=库存周转率到底是个啥用钱和货的关系来理解>库存周转率到底是个啥？用“钱”和“货”的关系来理解</h3><p>先别管那些复杂的公式，咱们用最直白的方式理解。想象你开了一家小卖部，进了100箱矿泉水，一个月全卖光了，又进了100箱。那你的“货”一个月就转了一圈，这叫<strong>高周转</strong>。如果你进了100箱，三个月才卖完，那你的钱就被压了三个月，这叫<strong>低周转</strong>。</p><p><strong>库存周转率</strong>，就是衡量你这批货在一年里“轮换”了多少次。次数越高，说明你的货卖得快，资金回笼快，仓储成本低。次数越低，说明你的货卖不动，钱都变成了仓库里积灰的纸箱。</p><p>很多新手容易犯一个错：<strong>只看库存金额，不看周转速度</strong>。比如你库存金额100万，别人也是100万，但人家一个月转3次，你一个月转1次，那你的资金效率只有别人的三分之一。所以，别再傻傻只盯着库存金额了，<strong>周转率才是真正的“照妖镜”</strong>。</p><h3 id=库存周转率的3个核心公式手把手教你算>库存周转率的3个核心公式，手把手教你算</h3><p>公式不难，但很多公司算错就在于“分母”没选对。记住这三个就够了，按需选用。</p><p><strong>1. 基础公式（最常用）</strong>
-库存周转率 = 出库总成本（或销售收入） / 平均库存值</p><ul><li><strong>出库总成本</strong>：指你卖出去那批货的成本，一般用“销售成本”或“COGS（主营业务成本）”。</li><li><strong>平均库存值</strong>：别用期末库存！用（期初库存+期末库存）/ 2。比如你年初库存200万，年末100万，平均就是150万。</li><li><strong>举个例子</strong>：你一年卖货成本500万，平均库存100万，那你的周转率就是5次/年。意味着你平均每73天（365/5）就把货全换了一遍。</li></ul><p><strong>2. 日期公式（看“压货”天数）</strong>
-库存周转天数 = 365天 / 库存周转率
-还是上面例子，365/5 = 73天。意思是你从进货到卖出去，平均要压73天。<strong>这个数字越短越好</strong>，如果超过90天，你就得警惕了——是不是买错货了？或者销售节奏太慢？</p><p><strong>3. 进阶公式（排除价格干扰）</strong>
-库存周转率 = 总出货数量 / 平均库存数量
-这个公式适合单价波动大的行业，比如电子产品、钢材。用“数量”算，能避免因为涨价跌价导致的“虚假周转”。比如你进了一批手机，进价3000，卖价5000，用金额算周转率会很好看，但用数量算，才能真正反映真实销售速度。</p><p><strong>小提醒</strong>：算的时候，<strong>数据周期要统一</strong>。比如按月算，就用月出库成本除以（月初+月末库存）/2。别用年出库成本除以月度库存，那算出来就是错的。</p><h3 id=行业标杆是多少别被高周转忽悠了>行业标杆是多少？别被“高周转”忽悠了</h3><p>很多人一听到“高周转”就盲目追求，但不同行业差异巨大。我整理了几个典型行业的参考值（按年算）：</p><ul><li><strong>快消品（饮料、零食、日化）</strong>：8-15次/年。比如可口可乐能做到20次以上，因为消费频次高，保质期短。</li><li><strong>服装鞋帽</strong>：4-8次/年。ZARA靠快反做到10次以上，但普通品牌能做到4次就不错了。</li><li><strong>家电家居</strong>：3-6次/年。冰箱、彩电这类耐用品，卖得慢。</li><li><strong>工业品、机械</strong>：2-4次/年。因为单价高、采购周期长。</li><li><strong>奢侈品、珠宝</strong>：1-2次/年。卖一件赚一件，不追求快。</li></ul><p><strong>警惕“虚假高周转”</strong>：有些公司为了冲指标，拼命打折促销，库存是清了，但毛利率跌成负数。这叫“赔本赚吆喝”，<strong>周转率上去了，利润没了</strong>。所以，<strong>高周转一定要建立在合理利润基础上</strong>。我见过一个做服装的朋友，把库存周转率做到12次，但毛利率只有5%，最后算下来亏了运费。记住：<strong>周转率是效率指标，不是利润指标</strong>。</p><h3 id=5个实战技巧把库存转起来>5个实战技巧，把库存“转”起来</h3><p>理论说完了，上干货。以下是我这些年踩坑后总结的“土办法”，直接能落地。</p><p><strong>技巧1：ABC分类法，别一视同仁</strong>
-别对所有SKU（库存单位）用一套标准。把库存按价值分成A（高价值）、B（中等）、C（低价值）。</p><ul><li><strong>A类货</strong>：比如单价5000元的手机，只占10%的SKU，却占70%的金额。这类货必须<strong>高频监控</strong>，每周算一次周转率，一旦超过30天不卖，立刻降价或捆绑销售。</li><li><strong>C类货</strong>：比如几块钱的配件，占70%的SKU，但金额低。这类货可以<strong>放宽周转要求</strong>，甚至允许压一两个月的货，因为占用资金少，断货反而更麻烦。</li></ul><p><strong>技巧2：安全库存，不是越多越好</strong>
-很多公司怕断货，就拼命囤安全库存。但安全库存每增加10%，周转率可能下降15%。正确做法是：<strong>用历史销售数据+销售预测</strong>，算出最小安全库存。比如过去三个月平均每天卖10个，补货周期是7天，那安全库存就设70个（7天销量），再额外加20%的波动余量（84个）。别拍脑袋说“给我囤500个”。</p><p><strong>技巧3：设定“死线”：库龄预警</strong>
-给每个SKU设一个“寿命”。比如食品保质期剩60天时，自动触发<strong>促销预警</strong>；剩30天时，直接<strong>低价清仓</strong>。对于非保质期商品，比如电子产品，设定<strong>库龄超过180天</strong>，强制打折或退给供应商。我服务过一家家电公司，给库存设了“红黄绿灯”：绿灯（正常卖）、黄灯（90-180天，开始促销）、红灯（超180天，亏本也要清）。结果半年内库存周转率提升了40%。</p><p><strong>技巧4：用“动态定价”消化呆滞库存</strong>
-别等货卖不动了再甩卖。<strong>提前设置价格阶梯</strong>：比如一件衣服上架第1个月卖原价，第2个月打9折，第3个月打7折，第4个月打5折。这个策略叫“早买早享受，晚买享折扣”，能倒逼销售团队尽早出货。我见过一家做快时尚的公司，靠这个把平均库存周转天数从90天压到了45天。</p><p><strong>技巧5：和供应商签“JIT”协议（准时制）</strong>
-别自己扛所有库存。和核心供应商谈：<strong>不设安全库存，按周下单，最小起订量不超过3天用量</strong>。比如你卖电脑配件，让供应商每天送一次货，你仓库里只放够卖2天的货。这样你的库存周转率直接逼近无限大。当然，这要求你销售预测很准，否则断货风险高。适合订单稳定的品类。</p><h3 id=总结盯住周转率就是盯住现金流>总结：盯住周转率，就是盯住现金流</h3><p>最后说点掏心窝的话。很多老板天天喊“现金流紧张”，却从不算库存周转率。其实<strong>库存就是被锁死的现金</strong>。你把货卖出去，钱回来了，这叫“活钱”；货压在仓库，钱回不来，这叫“死钱”。</p><p>我建议你：<strong>每周一上午，花10分钟拉出库存周转率报表，看三个数</strong>：总体周转率、A类货周转率、库龄超90天的SKU数量。只要这三个数字趋势变差，立刻拉响警报。</p><p>记住一句话：<strong>库存转得快，老板笑得快；库存压得久，公司走得早。</strong> 别让你的仓库成为“藏污纳垢”的地方，让每一件货都成为流动的现金流。</p><p>关注公众号「供应链那些事」获取更多干货</p></p></article></main><footer><p>&copy; 2026 供应链管理指南 · 关注公众号「甲方乙方供应链」</p></footer></body></html>
+<a href=/about/>关于</a></div></nav><main><div class=section-header>全部文章</div><div class=list-group><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/>JIT不是零库存！90%的人从一开始就理解错了</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>JIT</span>
+<span class=tag>精益生产</span>
+<span class=tag>零库存</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp%E8%B7%91%E5%87%BA%E6%9D%A5%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%8D%E5%87%863%E4%B8%AA%E5%8E%9F%E5%9B%A0%E4%BD%A0%E8%82%AF%E5%AE%9A%E4%B8%AD%E6%8B%9B%E4%BA%86/>MRP跑出来的计划为什么总是不准？3个原因你肯定中招了</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>MRP</span>
+<span class=tag>物料需求计划</span>
+<span class=tag>ERP</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/>仓库面积不够用？3个方法比扩仓便宜10倍</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>仓库管理</span>
+<span class=tag>仓储效率</span>
+<span class=tag>仓库面积</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/>供应商评估表填了3年全是废纸？3步让你的评估真正有用</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>供应商评估</span>
+<span class=tag>供应商管理</span>
+<span class=tag>采购管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/>供应链成本降不下来？90%的人砍错了地方</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>供应链成本</span>
+<span class=tag>降本增效</span>
+<span class=tag>物流成本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/>供应链风险管理的3个层次，90%的企业只做到了第1层</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>供应链风险</span>
+<span class=tag>风险管理</span>
+<span class=tag>供应链韧性</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E5%86%B7%E9%93%BE%E7%89%A9%E6%B5%81%E4%BA%8F%E4%BA%86300%E4%B8%87%E6%89%8D%E6%87%82%E7%9A%843%E4%B8%AA%E7%9C%9F%E7%9B%B8/>冷链物流亏了300万才懂的3个真相</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>冷链物流</span>
+<span class=tag>冷链管理</span>
+<span class=tag>温控运输</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/>安全库存设多少才对？别再拍脑袋了</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>安全库存</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/>数字化转型花了80万打水漂？先搞清楚这3件事再说</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>数字化转型</span>
+<span class=tag>供应链数字化</span>
+<span class=tag>ERP</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E7%89%A9%E6%B5%81%E5%A4%96%E5%8C%853%E5%B9%B4%E4%BA%8F%E4%BA%86200%E4%B8%87%E6%88%91%E6%9B%BF%E4%BD%A0%E6%80%BB%E7%BB%93%E4%BA%865%E4%B8%AA%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/>物流外包3年亏了200万，我替你总结了5个血泪教训</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>物流外包</span>
+<span class=tag>第三方物流</span>
+<span class=tag>3PL</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/%E9%87%87%E8%B4%AD%E8%B0%88%E5%88%A4%E8%A2%AB%E4%BE%9B%E5%BA%94%E5%95%86%E6%8B%BF%E6%8D%8F3%E4%B8%AA%E6%95%B0%E6%8D%AE%E8%AE%A9%E4%BD%A0%E5%8F%8D%E5%AE%A2%E4%B8%BA%E4%B8%BB/>采购谈判被供应商拿捏？3个数据让你反客为主</a></h3><div class=post-meta>2026年6月9日
+<span class=tag>采购谈判</span>
+<span class=tag>供应商管理</span>
+<span class=tag>采购成本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>ERP上线3个月，我差点被全公司骂走：90%的人栽在同一个坑里</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>ERP系统实施</span>
+<span class=tag>数字化转型</span>
+<span class=tag>项目管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-not-magic/>MRP跑了3年，库存还是500万：你以为的物料计划，其实是在自嗨</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>MRP物料需求计划</span>
+<span class=tag>库存管理</span>
+<span class=tag>ERP</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/rfid-real-world/>RFID上了半年还在手动扫码？90%的人第一步就错了</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>RFID技术</span>
+<span class=tag>仓储管理</span>
+<span class=tag>物联网</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/vmi-mistakes/>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>VMI供应商管理库存</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链协同</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-kpi-that-matter/>仓库KPI看这4个就够了，剩下99%都是自欺欺人</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>仓库KPI</span>
+<span class=tag>仓储管理</span>
+<span class=tag>绩效考核</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-relationship-management/>供应商不是乙方，是你的半个生产部</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>供应商关系管理</span>
+<span class=tag>采购管理</span>
+<span class=tag>供应链协同</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-walls/>干了10年供应链才懂：90%的乱象不是能力问题，是这三堵墙</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>供应链管理</span>
+<span class=tag>组织管理</span>
+<span class=tag>供应链协同</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-contract-traps/>签了300份采购合同才敢说：这5条不看，迟早被供应商坑哭</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>采购合同管理</span>
+<span class=tag>采购管理</span>
+<span class=tag>法律风险</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/>花80万上AGV，仓库效率反降了25%：自动化不是买设备</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>仓储自动化</span>
+<span class=tag>仓库管理</span>
+<span class=tag>AGV</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecasting-real/>需求预测不是算命：3个动作让准确率从50%干到80%</a></h3><div class=post-meta>2026年6月8日
+<span class=tag>需求预测</span>
+<span class=tag>库存管理</span>
+<span class=tag>数据分析</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-risk/>一家供应商停产3天，我公司差点跟着黄了</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>供应链风险</span>
+<span class=tag>供应商管理</span>
+<span class=tag>供应链韧性</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cross-border-customs/>一票货被海关卡了40天，我学会的3个避坑法则</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>跨境物流</span>
+<span class=tag>海关清关</span>
+<span class=tag>国际贸易</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/barcode-management/>仓库乱成狗，我换了套条码系统就治好了</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>条码管理</span>
+<span class=tag>仓库管理</span>
+<span class=tag>库存准确率</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/>供应商报价砍一半还有利润，你信不信？</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>采购成本分析</span>
+<span class=tag>采购管理</span>
+<span class=tag>降本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-evaluation-real/>供应商评估表填了三年，全是废纸</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>供应商评估</span>
+<span class=tag>供应商管理</span>
+<span class=tag>采购管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-visualization/>供应链黑箱让你每年亏掉15%利润，你敢信？</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>供应链可视化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-lessons/>干了8年供应链，我浓缩出3条能救命的原则</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>供应链管理</span>
+<span class=tag>职业成长</span>
+<span class=tag>供应链实战</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-automation-trap/>花50万上AGV，仓库效率反降了30%：自动化不是买设备</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>仓储自动化</span>
+<span class=tag>仓库管理</span>
+<span class=tag>供应链数字化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/>运费涨了30%，真正该砍的不是运价</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>运输管理</span>
+<span class=tag>物流成本</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/reverse-logistics/>退货率18%的公司，不搞逆向物流等于白干</a></h3><div class=post-meta>2026年6月7日
+<span class=tag>逆向物流</span>
+<span class=tag>退货管理</span>
+<span class=tag>电商物流</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/contract-killer-clauses/>300份合同才悟出来：这5条不看一定吃亏</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>采购合同管理</span>
+<span class=tag>采购流程优化</span>
+<span class=tag>供应商管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/sku-slash-40percent/>SKU从2000砍到600，库存成本直接降了40%</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>SKU管理</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-cost-30percent/>物流成本降了30%后，老板问我为什么之前不干</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>物流成本控制</span>
+<span class=tag>运输管理</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/stupid-eoq/>算了3年EOQ才发现，90%的场景根本用不上</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>经济订货量</span>
+<span class=tag>库存管理</span>
+<span class=tag>采购成本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/green-supply-chain-survival/>绿色供应链不是做公益，是救你自己</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>绿色供应链</span>
+<span class=tag>供应链管理</span>
+<span class=tag>ESG</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/dangerous-goods-lessons/>运了一车危险品，差点把公司干没了</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>危险品运输</span>
+<span class=tag>物流管理</span>
+<span class=tag>供应链风险</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/transport-cost-killer/>运输成本砍掉25%，我只动了这3个地方</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>运输管理</span>
+<span class=tag>物流成本控制</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-process-optimization/>采购流程改了3步，审核时间从5天缩到1小时</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>采购流程优化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>数字化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/negotiation-mind-game/>采购谈判被供应商拿捏？这3招让他主动降价</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>采购谈判技巧</span>
+<span class=tag>供应商关系管理</span>
+<span class=tag>采购流程优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecast-pain/>需求预测做了3年，1次都没准过</a></h3><div class=post-meta>2026年6月6日
+<span class=tag>需求预测</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-2026-625/>2026年做供应链，不会数据分析只能等死</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>供应链管理</span>
+<span class=tag>数字化转型</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/>JIT不是零库存！90%的人从一开始就理解错了</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>JIT准时制</span>
+<span class=tag>精益生产</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-pitfalls-625/>MRP跑了3年还是一团糟，问题出在你身上</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>MRP物料需求计划</span>
+<span class=tag>ERP</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/sku-management-625/>仓库SKU从2000砍到600，库存成本直接降了40%</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>SKU管理</span>
+<span class=tag>库存优化</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/bidding-procurement-625/>招标采购水到底有多深？3个环节最容易翻车</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>招标采购</span>
+<span class=tag>采购合规</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/last-mile-delivery-625/>最后一公里占了物流成本50%，怎么砍？</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>最后一公里配送</span>
+<span class=tag>配送优化</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-outsourcing-625/>物流外包3年亏了200万，这3个坑我替你踩了</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>物流外包</span>
+<span class=tag>第三方物流</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/eoq-myths-625/>算了一晚上EOQ公式，老板说'你在自嗨'</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>经济订货量</span>
+<span class=tag>EOQ</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/green-supply-chain-625/>被环保罚了50万才知道，绿色供应链不是做公益是保命</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>绿色供应链</span>
+<span class=tag>供应链合规</span>
+<span class=tag>ESG</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-cost-625/>采购成本只看单价？难怪你年年降本年年亏</a></h3><div class=post-meta>2026年6月5日
+<span class=tag>采购成本分析</span>
+<span class=tag>TCO</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/contract-pitfalls-653/>300份合同才悟出来的坑：采购合同这5条不看一定吃亏</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>采购合同</span>
+<span class=tag>合同管理</span>
+<span class=tag>风险防控</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/abc-class-927/>ABC分类法用错了三年，我才发现白干了</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>ABC分类法</span>
+<span class=tag>库存管理</span>
+<span class=tag>SKU管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/jit-lessons-518/>JIT搞了半年差点把产线饿死，我劝你别盲目学丰田</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>JIT准时制</span>
+<span class=tag>精益生产</span>
+<span class=tag>丰田模式</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-kpi-825/>仓库KPI看这5个就够了，剩下的全是在自嗨</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>仓库KPI</span>
+<span class=tag>仓储管理</span>
+<span class=tag>绩效指标</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-collab-173/>供应链协同不是开会，是把信息墙砸了</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>供应链协同</span>
+<span class=tag>信息共享</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-turnover-362/>库存周转率翻倍，我只做了一件事</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>库存周转率</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/digital-transformation-346/>数字化转型花了80万打水漂，我劝你先做这3件事</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>供应链数字化转型</span>
+<span class=tag>数字化</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/last-mile-629/>最后一公里烧钱烧到心慌？这3招救了我的配送成本</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>最后一公里</span>
+<span class=tag>物流配送</span>
+<span class=tag>配送成本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-relation-281/>月薪3K和30K的采购，差在处理供应商关系的这3招</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>供应商管理</span>
+<span class=tag>采购技巧</span>
+<span class=tag>供应链关系</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/transport-cost-471/>运输成本砍掉25%，我只优化了这3个地方</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>运输管理</span>
+<span class=tag>物流成本</span>
+<span class=tag>运输优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecast-834/>需求预测准不准，决定你是吃肉还是喝风</a></h3><div class=post-meta>2026年6月4日
+<span class=tag>需求预测</span>
+<span class=tag>供应链计划</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pitfalls/>ERP上线当天，老板差点把我开了</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>ERP实施</span>
+<span class=tag>供应链管理</span>
+<span class=tag>企业数字化转型</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-pitfalls/>库存压了500万才懂，MRP是个坑？</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>MRP</span>
+<span class=tag>物料需求计划</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/sku-management-secrets/>库存压了500万才懂的SKU管理</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>SKU管理</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/vmi-supply-chain/>库存压了500万才明白：VMI是个坑还是救星？</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>VMI</span>
+<span class=tag>供应商管理库存</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/bidding-mistakes-5/>招标采购第1年掉过的坑，我替你数了5个</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>招标采购</span>
+<span class=tag>采购避坑</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-cost-control-tips/>物流费烧了200万，老板才懂这3招</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>物流成本</span>
+<span class=tag>供应链降本</span>
+<span class=tag>仓库管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-outsourcing-tips/>老板甩锅我的第3年，物流外包让我翻盘了</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>物流外包</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/>被供应链金融坑了300万，我顿悟了3条铁律</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>供应链金融</span>
+<span class=tag>融资</span>
+<span class=tag>中小企业</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/green-supply-chain/>被环保局罚款50万，我才看懂绿色供应链</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>绿色供应链</span>
+<span class=tag>采购干货</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-optimization-tips/>采购流程优化3步，省下50万冤枉钱</a></h3><div class=post-meta>2026年6月3日
+<span class=tag>采购流程优化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-management-tips/>**库存压了500万才明白的3个血泪教训**</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>库存管理</span>
+<span class=tag>供应链</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>ERP上线当天，我差点被老板开了</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>ERP实施</span>
+<span class=tag>供应链管理</span>
+<span class=tag>数字化转型</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-save-tips/>仓库爆了，老板骂你？这3招救急</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>运输管理</span>
+<span class=tag>仓储优化</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/>供应商评估踩了3个坑，我被坑了300万</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>供应商评估</span>
+<span class=tag>采购避坑</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/>供应链崩盘前，这3个坑我先帮你踩了</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>供应链风险</span>
+<span class=tag>采购干货</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/dangerous-goods-tips/>危险品运输翻车3次，我才明白这5个坑</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>危险品运输</span>
+<span class=tag>供应链安全</span>
+<span class=tag>物流避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/abc-classification-guide/>干了10年采购才敢说：80%的库存都是废的</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>ABC分类法</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/wms-warehouse-saves-money/>库存压了300万才懂，WMS真能救命</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>WMS系统</span>
+<span class=tag>仓储管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/>物流外包3年，我被坑了100万才懂这些</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>物流外包</span>
+<span class=tag>供应链管理</span>
+<span class=tag>成本控制</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/>跨境物流亏了30万，我才学会这5个野路子</a></h3><div class=post-meta>2026年5月26日
+<span class=tag>跨境物流</span>
+<span class=tag>跨境电商</span>
+<span class=tag>供应链避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-relationship-secrets/>**月薪3K的采购和月薪3W的采购，差在这4个供应商关系**</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>供应商关系管理</span>
+<span class=tag>采购技巧</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>ERP上线那天，我差点被老板开除</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>ERP实施</span>
+<span class=tag>数字化转型</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>供应商说“最低价”，我直接怼回去</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>采购谈判技巧</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/wms-pitfalls/>库存压了500万，我才发现WMS这3个坑</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>WMS系统</span>
+<span class=tag>仓库管理</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-pain/>库存压了500万才明白：供应链别瞎卷</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecasting-tips/>库存压了500万才明白：预测不是算命</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>需求预测</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-visibility/>月薪5千和5万的供应链人，差在“黑箱”破了没</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>供应链可视化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>采购干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/contract-management-pitfalls/>签了300份合同才懂：这4个坑专坑采购人</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>采购合同</span>
+<span class=tag>合同管理</span>
+<span class=tag>采购避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cross-border-logistics-pitfalls/>跨境物流踩了5个坑，亏了80万才醒</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>跨境物流</span>
+<span class=tag>供应链管理</span>
+<span class=tag>电商避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/dangerous-goods-pitfalls/>运一车危险品差点赔掉裤衩，这5个坑别踩</a></h3><div class=post-meta>2026年5月25日
+<span class=tag>危险品运输</span>
+<span class=tag>物流避坑</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>上了ERP系统，我差点把公司干黄了</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>ERP实施</span>
+<span class=tag>供应链管理</span>
+<span class=tag>数字化转型</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-efficiency-hacks/>仓库乱成狗，这3招让效率翻倍</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>仓储管理</span>
+<span class=tag>效率提升</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-management-pain/>供应商管不好，3年亏掉一套房</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>供应商关系管理</span>
+<span class=tag>采购避坑</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-wake-up/>供应链转型3年亏了80万，我劝你清醒点</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>供应链数字化转型</span>
+<span class=tag>中小企业</span>
+<span class=tag>采购痛点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/>干了5年供应链金融，我劝你别碰这3个坑</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>供应链金融</span>
+<span class=tag>融资陷阱</span>
+<span class=tag>中小企业</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/safety-stock-calc/>库存压了300万，我才学会算安全库存</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>安全库存</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/wms-3-pitfalls/>库存积压500万，才搞懂WMS这3个坑</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>WMS系统</span>
+<span class=tag>仓储管理</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/>物流外包3年，我赔了300万才懂的事</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>物流外包</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/tco-total-cost-of-ownership/>算不清TCO，你一年白干300天</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>TCO</span>
+<span class=tag>总拥有成本</span>
+<span class=tag>采购成本</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>采购谈判3招，让供应商哭着降价</a></h3><div class=post-meta>2026年5月24日
+<span class=tag>采购谈判技巧</span>
+<span class=tag>供应链管理</span>
+<span class=tag>供应商谈判</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>ERP上了6个月，老板问我钱去哪了</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>ERP实施</span>
+<span class=tag>数字化转型</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-3-pitfalls/>上ERP前没想通这3点，我亏了500万</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>ERP实施</span>
+<span class=tag>供应链管理</span>
+<span class=tag>数字化转型</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cold-chain-pitfalls/>冷链物流这3个坑，我亏了300万才懂</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>冷链物流，供应链管理，物流成本，生鲜电商，行业痛点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/jit-mistakes-truth/>库存压了500万才搞懂：JIT根本不是省钱的</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>JIT准时制</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/rfid-inventory-tips/>库存对不上？你缺的不是人，是这3个RFID骚操作</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>RFID技术</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/last-mile-profit-killer/>最后一公里，正在吃掉你的利润</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>最后一公里配送</span>
+<span class=tag>物流成本</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-finance/>月供3万的老板，被供应链金融坑得想哭</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>供应链金融</span>
+<span class=tag>中小企业融资</span>
+<span class=tag>账期管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-optimization-guide/>采购流程优化3步走，省下500万我踩过的坑</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>采购流程优化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>采购谈判3招，让供应商主动降价20%</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>采购谈判技巧</span>
+<span class=tag>供应商管理</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/purchase-negotiation-tips/>采购谈判3次搞不定？试试这5招秒杀供应商</a></h3><div class=post-meta>2026年5月23日
+<span class=tag>采购谈判</span>
+<span class=tag>供应链管理</span>
+<span class=tag>谈判技巧</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-implementation-pain/>ERP上线那天，我差点被财务总监骂哭</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>ERP实施</span>
+<span class=tag>数字化转型</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/contract-management-tips/>合同签不对，采购干到废</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>采购合同管理</span>
+<span class=tag>供应链干货</span>
+<span class=tag>采购避坑指南</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-tips-5/>库存压了300万，我才学会这5招</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>库存管理</span>
+<span class=tag>供应链干货</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/rfid-inventory-truth/>库存压了500万才明白：RFID是降本神器还是智商税？</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>RFID技术</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存盘点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/vmi-rescue/>库存压了500万才明白：VMI就是救命稻草</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>VMI供应商管理库存</span>
+<span class=tag>供应链优化</span>
+<span class=tag>库存管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/safety-stock-mistakes/>库存压了500万才明白的事：安全库存是个坑？</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>安全库存</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/tender-pitfalls/>招标采购水多深？我踩了5个坑才懂</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>招标采购</span>
+<span class=tag>避坑指南</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecasting-gap/>月薪5千和5万的采购，差在需求预测这3个动作</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>需求预测</span>
+<span class=tag>采购技巧</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-outsourcing-pitfalls/>物流外包3年，亏了200万才懂的坑</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>物流外包</span>
+<span class=tag>供应链管理</span>
+<span class=tag>成本控制</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/negotiation-tips-purchasing/>采购谈判总被坑？这3招让供应商主动降价</a></h3><div class=post-meta>2026年5月22日
+<span class=tag>采购谈判</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本技巧</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>3个套路让供应商主动降价，采购别太老实</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>采购谈判</span>
+<span class=tag>供应链技巧</span>
+<span class=tag>供应商管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/erp-pitfalls-5-tips/>ERP上线3个月，我劝你早点看清这5个坑</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>ERP实施</span>
+<span class=tag>供应链管理</span>
+<span class=tag>数字化转型</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-efficiency-tips/>仓库效率提不上？这3招我亏了100万才搞懂</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>仓储管理</span>
+<span class=tag>效率提升</span>
+<span class=tag>仓库优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/>干了6年供应链，才敢说这5个坑别踩</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span>
+<span class=tag>采购避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/eoq-tips/>库存压了300万，我才学会算这笔账</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>经济订货量</span>
+<span class=tag>库存管理</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-life-saving-tips/>库存压了300万才懂：这4招能救命</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>库存管理</span>
+<span class=tag>供应链优化</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/rfid-inventory-blow/>库存压了500万才懂：RFID就是降维打击</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>RFID技术</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存盘点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/abc-myth-busting/>库存压了500万才明白：ABC分类法就是骗人的</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>库存管理</span>
+<span class=tag>ABC分类法</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/vmi-supplier-management/>库存压了800万，老板骂我傻X，直到用了这招</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>VMI</span>
+<span class=tag>供应商管理库存</span>
+<span class=tag>供应链优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips-386/>采购谈判3个致命错误，改一条多省20万</a></h3><div class=post-meta>2026年5月21日
+<span class=tag>采购谈判</span>
+<span class=tag>供应链技巧</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/>仓库KPI看这5个就够了，别被忽悠瘸了</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>仓库管理</span>
+<span class=tag>KPI</span>
+<span class=tag>供应链</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-automation-tips/>仓库堆成山，老板却说你效率低？这3招绝了</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>仓储自动化</span>
+<span class=tag>仓库管理</span>
+<span class=tag>供应链效率</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/>干供应链3年，被这5个金融坑干趴了</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>供应链金融</span>
+<span class=tag>资金周转</span>
+<span class=tag>应收账款</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/sku-management-tips/>库存压了500万才懂：SKU管理就4个字</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>SKU管理</span>
+<span class=tag>库存优化</span>
+<span class=tag>供应链干货</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/>库存压了500万才明白：MRP不是万能药</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>MRP物料需求计划</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存控制</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/bidding-pitfalls/>招标采购水太深？这3个坑我替你踩了</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>招标采购</span>
+<span class=tag>供应链</span>
+<span class=tag>避坑指南</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/logistics-cost-cut/>物流成本砍掉30%，我只做了这3步</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>物流成本控制</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/dangerous-goods-transport/>运一车炸药，我差点把命搭上</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>危险品运输</span>
+<span class=tag>供应链</span>
+<span class=tag>物流安全</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/reverse-logistics-hacks/>退货率60%血亏？逆向物流这3招救命</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>逆向物流</span>
+<span class=tag>供应链管理</span>
+<span class=tag>退货策略</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-optimization-steps/>采购流程优化3步走，省下的钱够发年终奖</a></h3><div class=post-meta>2026年5月20日
+<span class=tag>采购流程优化</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/warehouse-kpi-guide/>仓库管理的5个关键指标（KPI）</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>仓储</span>
+<span class=tag>KPI</span>
+<span class=tag>仓库管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supplier-evaluation-pitfalls/>供应商评估这5个坑，我踩了才醒</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>供应商评估</span>
+<span class=tag>采购避坑</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-pitfalls/>供应链协同3大坑，我踩了5年才爬出来</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>供应链协同</span>
+<span class=tag>库存管理</span>
+<span class=tag>采购痛点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/contract-mistakes-cost/>合同签错这3个字，公司白亏80万</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>采购合同管理</span>
+<span class=tag>供应链风险</span>
+<span class=tag>采购避坑</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/jit-just-in-time-trap/>库存压了500万才懂：JIT就是个骗局？</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>JIT准时制</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-three-steps/>库存压了500万才明白，MRP其实就这3步</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>MRP</span>
+<span class=tag>物料需求计划</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/demand-forecasting-truth/>库存压了500万才明白的需求预测真相</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>需求预测</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cost-analysis-tips/>月薪3千采购和月薪3万采购，差在这1个动作</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>采购成本分析</span>
+<span class=tag>供应链降本</span>
+<span class=tag>采购技能</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/supply-chain-visibility/>老板问货在哪，你只能回“在查”，丢人不？</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>供应链可视化， 供应链管理， 数字化转型， 库存管理， 采购痛点</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/tco-hidden-costs/>采购只看价格？你亏掉的钱能买一套房</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>TCO总拥有成本</span>
+<span class=tag>采购成本控制</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>采购谈判：你还在被供应商拿捏？</a></h3><div class=post-meta>2026年5月19日
+<span class=tag>采购谈判</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/digital-supply-chain-pain/>供应链数字化？别等库存爆仓才后悔</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>供应链数字化转型</span>
+<span class=tag>库存管理</span>
+<span class=tag>中小企业</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/procurement-negotiation-tips/>供应链管理的核心：如何做好采购谈判</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>采购</span>
+<span class=tag>谈判</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cold-chain-pitfalls/>冷链物流亏了300万，我才醒的3个坑</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>冷链物流</span>
+<span class=tag>供应链管理</span>
+<span class=tag>生鲜电商</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/inventory-turnover-tips/>库存压了500万，我才搞懂周转率</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>库存周转率</span>
+<span class=tag>供应链管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/eoq-secrets/>库存压了500万才懂的数学公式</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>经济订货量</span>
+<span class=tag>库存管理</span>
+<span class=tag>采购技巧</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/wms-inventory-lesson/>库存压了500万才明白：WMS是救命稻草</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>WMS系统</span>
+<span class=tag>仓储管理</span>
+<span class=tag>库存优化</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/mrp-mistakes-truth/>库存压了800万才懂：MRP不是万能药</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>MRP</span>
+<span class=tag>物料需求计划</span>
+<span class=tag>供应链管理</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/last-mile-delivery/>最后一公里配送，逼疯了多少打工人</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>最后一公里配送</span>
+<span class=tag>供应链痛点</span>
+<span class=tag>快递物流</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/3pl-pitfalls/>物流外包3年亏了80万，才懂这5个坑</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>物流外包</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/green-supply-chain-savings/>绿色供应链没你想象那么贵，3招省下30%成本</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>绿色供应链</span>
+<span class=tag>供应链管理</span>
+<span class=tag>降本增效</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/cross-border-logistics-tips/>跨境物流踩坑3年，我劝你省下这50万</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>跨境物流</span>
+<span class=tag>供应链</span>
+<span class=tag>亚马逊卖家</span></div></div><div class=list-item><span class=chevron>›</span><h3><a href=https://supplychain-tips.pages.dev/posts/transport-pitfalls-500k/>运输管理踩了3个坑，多亏了500万</a></h3><div class=post-meta>2026年5月18日
+<span class=tag>运输管理</span>
+<span class=tag>供应链</span>
+<span class=tag>物流成本</span></div></div></div></main><footer><p>&copy; 2026 供应链管理指南</p><p>关注公众号「甲方乙方供应链」</p></footer></body></html>
