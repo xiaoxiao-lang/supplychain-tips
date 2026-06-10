@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链金融 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%87%91%E8%9E%8D/</link><description>Recent content in 供应链金融 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%87%91%E8%9E%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>被供应链金融坑了300万，我顿悟了3条铁律</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</guid><description>&lt;p>老板，你是不是也有这种时候？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链金融 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%87%91%E8%9E%8D/</link><description>Recent content in 供应链金融 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%87%91%E8%9E%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>被供应链金融坑了300万才明白：这不是借钱，是借命</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-pitfalls/</guid><description>&lt;p>先给你讲一个真实故事。&lt;/p>
+&lt;p>我一个做建材的朋友，2024年接了一个开发商的大单。付款条件是——6个月商票。&lt;/p>
+&lt;p>6个月。商票。&lt;/p>
+&lt;p>开发商说：&amp;ldquo;你拿着我的商票去银行贴现啊，马上就能拿到钱，贴现利率才4%。&amp;rdquo;&lt;/p>
+&lt;p>朋友一算，贴现成本大约2%，他利润率12%，算下来还赚10个点。&lt;/p>
+&lt;p>他就接了。&lt;/p>
+&lt;p>结果你猜怎么着？拿着商票去银行贴现的时候，银行说：&amp;ldquo;不好意思，这家开发商的商票我们最近不做了。你可以去市场上的保理公司问问。&amp;rdquo;&lt;/p>
+&lt;p>保理公司的报价：贴现利率18%。&lt;/p>
+&lt;p>18%。不是4%。&lt;/p>
+&lt;p>朋友懵了。300万的商票，如果按18%贴现，利息就是27万。加上他已经垫付的原材料和人工，这单生意亏了将近30万。&lt;/p>
+&lt;p>这还不是最惨的。最惨的是，这张商票在市场上根本没人接——因为那家开发商最近上了多家银行的&amp;quot;关注名单&amp;quot;。&lt;/p>
+&lt;p>最后这张票在他手上整整压了8个月，回款的时候开发商还要求&amp;quot;再打个9折，不然下个月再付&amp;quot;。&lt;/p>
+&lt;p>300万的合同，最后到手不到250万。加上资金占用的隐性成本，这单亏了将近50万。&lt;/p>
+&lt;p>这就是供应链金融的第一条教训：&lt;strong>核心企业的信用，不是你的信用。&lt;/strong>&lt;/p>
+&lt;h2 id="坑一核心企业信用幻觉">坑一：核心企业信用幻觉&lt;/h2>
+&lt;p>供应链金融的逻辑是：核心企业信用好，所以围绕核心企业做生意的供应商也能享受这个信用。&lt;/p>
+&lt;p>但问题是——核心企业的信用好，不代表它会按时付你钱。&lt;/p>
+&lt;p>尤其是那些&amp;quot;大而不倒&amp;quot;的企业。它们不是没钱，是不想付。能拖就拖，拖到供应商撑不住了再来谈条件。&lt;/p>
+&lt;p>我后来统计了一下——朋友跟那家开发商合作三年，平均回款周期是合同约定的2.7倍。&lt;/p>
+&lt;p>合同说60天付款，实际平均162天。&lt;/p>
+&lt;p>这多出来的102天，就是供应商在给核心企业免费贷款。&lt;/p>
+&lt;p>所以，做供应链金融之前，你最该问的不是&amp;quot;贴现利率多少&amp;quot;，而是——这家核心企业的真实付款记录是什么样的？&lt;/p>
+&lt;p>找他的其他供应商打听一下就知道了。别看他合同上写的付款条款，要看他的实际付款时间。&lt;/p>
+&lt;h2 id="坑二确权供应链金融最脏的三个字">坑二：确权——供应链金融最脏的三个字&lt;/h2>
+&lt;p>还有一个更坑的：确权。&lt;/p>
+&lt;p>做应收账款保理，金融机构会要求你做一件事——确权。就是让核心企业确认&amp;quot;对，我是欠这个供应商这笔钱，我会按时付&amp;quot;。&lt;/p>
+&lt;p>听起来很合理对吧？金融机构要一个保障。&lt;/p>
+&lt;p>但实际操作中是怎样的呢？&lt;/p>
+&lt;p>核心企业的采购部听到&amp;quot;确权&amp;quot;两个字，第一反应是——&amp;ldquo;凭什么要我签字？这是你跟银行的事，别拉上我。&amp;rdquo;&lt;/p>
+&lt;p>他们不签。&lt;/p>
+&lt;p>为什么？因为他们一签确权，就意味着承认了这笔债务，财务上就要入账，影响他们的负债率和现金流指标。&lt;/p>
+&lt;p>所以很多核心企业的采购部有一条不成文的规定——不确权。绝不确权。&lt;/p>
+&lt;p>这就导致一个荒谬的局面：你有应收账款，你想用它融资，但融不了，因为债务人拒绝承认债务的存在。&lt;/p>
+&lt;p>而你不融资，这笔钱又不知道什么时候能收回来。&lt;/p>
+&lt;p>这就是供应链金融的&amp;quot;确权悖论&amp;quot;——最需要融资的人，最拿不到融资。&lt;/p>
+&lt;p>怎么办？两个路子：&lt;/p>
+&lt;p>&lt;strong>第一，在合同阶段就把确权条款写进去。&lt;/strong> 签合同的时候加一条：&amp;ldquo;买方承诺在收到卖方融资需求时，在X个工作日内配合完成应收账款确认。&amp;ldquo;如果他不签这条，你就得掂量掂量。&lt;/p>
+&lt;p>&lt;strong>第二，走&amp;quot;反向保理&amp;rdquo;。&lt;/strong> 不是以你的名义去融资，而是以核心企业的名义——让核心企业发起保理，你作为供应商被动受益。虽然利率可能高一点，但不用确权。&lt;/p>
+&lt;h2 id="坑三供应链金融不是无限杠杆">坑三：供应链金融不是无限杠杆&lt;/h2>
+&lt;p>最后一个坑是最隐蔽的——供应链金融会掩盖真正的经营问题。&lt;/p>
+&lt;p>你本来现金流已经很紧了，但因为能做应收账款保理、能做库存融资，银行一直在给你&amp;quot;续命&amp;rdquo;。你的账面看起来还行，但实际上你的应收账款周期越来越长、库存周转越来越慢、毛利率越来越薄。&lt;/p>
+&lt;p>你以为是银行在帮你，其实银行在掩盖你的问题。&lt;/p>
+&lt;p>等到有一天，核心企业真的出问题了（比如恒大那种），银行第一个收紧额度。你才发现——&lt;/p>
+&lt;p>原来自己已经不靠经营赚钱了，靠的是供应链金融在拆东墙补西墙。&lt;/p>
+&lt;p>这个时候再想调整，已经来不及了。&lt;/p>
+&lt;p>所以我的建议是：&lt;strong>把供应链金融当成润滑剂，不要当成燃料。&lt;/strong>&lt;/p>
+&lt;p>润滑剂的意思是——企业经营本身是健康的，融资只是帮你消除收付款之间的时间差。&lt;/p>
+&lt;p>燃料的意思是——企业经营已经不行了，靠融资在续命。&lt;/p>
+&lt;p>前者是正向循环，后者是饮鸩止渴。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>供应链金融本是个好东西。账期太长？做保理提前拿钱。库存太高？做存货质押释放现金流。&lt;/p>
+&lt;p>但这一切的前提是：你对自己的经营状况有清醒的认知。&lt;/p>
+&lt;p>供应链金融不能解决经营问题，它只能放大你的经营结果——赚的时候帮你赚更多，亏的时候让你亏更快。&lt;/p>
+&lt;p>记住两句话：&lt;/p>
+&lt;ol>
+&lt;li>核心企业的信用不等于你的信用，看实际付款记录比看信用评级管用。&lt;/li>
+&lt;li>融资解决的是时间差，不是经营差。&lt;/li>
+&lt;/ol>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>被供应链金融坑了300万，我顿悟了3条铁律</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-rules/</guid><description>&lt;p>老板，你是不是也有这种时候？&lt;/p>
 &lt;p>看着账上躺着几百万应收账款，急得嘴角起泡，想融点钱发工资、备货、撑过旺季。结果银行和保理公司甩你一句：“你们流水不够”“担保物不足”。&lt;/p>
 &lt;p>你咬牙去搞什么“数字资产质押”“区块链仓单”，钱没到账，先交了一堆手续费。最后被平台通知：“系统风控升级，暂时无法放款。”&lt;/p>
 &lt;p>&lt;strong>这哪是融资啊，这是给你上刑。&lt;/strong>&lt;/p>

@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>数字化转型花了80万打水漂？先搞清楚这3件事再说</title><link>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</guid><description>&lt;h2 id="数字化转型先别急着花钱">数字化转型，先别急着花钱&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>花60万上WMS，仓库效率反而降了：90%的公司在犯同一个错</title><link>https://supplychain-tips.pages.dev/posts/wms-implementation-pitfalls/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-implementation-pitfalls/</guid><description>&lt;p>去年一个做快消的朋友找我，说他们公司花60万上了一套WMS系统，上线三个月，仓库效率不升反降。&lt;/p>
+&lt;p>发货准确率从98%掉到了94%，盘点时间从2天变成了3天，最离谱的是——拣货员的计件工资反而少了，因为系统规划的拣货路径&amp;quot;看起来是最优的，实际上让他们在仓库里绕了三倍的路&amp;quot;。&lt;/p>
+&lt;p>老板急疯了，问我怎么办。&lt;/p>
+&lt;p>我说，你先别急着改系统。把你的上线过程跟我说一下。&lt;/p>
+&lt;p>他讲了五分钟，我就知道问题出在哪了。&lt;/p>
+&lt;p>&lt;strong>他们买了一套很牛的WMS，但没有做任何业务流程改造。&lt;/strong> 旧流程套新系统，就像给拖拉机装了一个F1方向盘——看起来高大上，但根本对不上。&lt;/p>
+&lt;p>这不是个例。我见过太多公司在上WMS这件事上交了昂贵的学费。今天把三个最常见的翻车案例拆给你看。&lt;/p>
+&lt;h2 id="翻车一基础数据都没整干净就上系统">翻车一：基础数据都没整干净就上系统&lt;/h2>
+&lt;p>这是最常见也最低级的错误。&lt;/p>
+&lt;p>WMS系统靠什么运转？靠数据。货位编码、SKU信息、批次号、效期、包装规格……每一个字段都必须准确。&lt;/p>
+&lt;p>我见过一个医药批发公司——WMS上线前，他们的货位标签是手写的，有的货架上有两个标签（老的没撕），有的货架上根本没标签。SKU信息更是离谱，同一个品种在ERP里叫&amp;quot;A型&amp;quot;，在采购单上叫&amp;quot;大号&amp;quot;，在仓库实物标签上叫&amp;quot;LA款&amp;quot;。&lt;/p>
+&lt;p>这种数据质量，你上什么系统都是白搭。WMS不是魔法棒，不会自动纠正你的数据。你给它垃圾数据，它就给你垃圾结果。&lt;/p>
+&lt;p>这家公司WMS上线第一天就翻车了——系统提示拣货位缺货，但实际货架上有货，因为SKU编码对不上。拣货员按系统提示跑去补货区拿货，结果发现两份库存，一份是老编码的，一份是新编码的。&lt;/p>
+&lt;p>场面一度非常混乱。&lt;/p>
+&lt;p>我的建议：&lt;strong>WMS上线之前，至少花一个月时间做数据清洗。&lt;/strong> 包括但不限于：&lt;/p>
+&lt;ul>
+&lt;li>SKU主数据全部标准化（编码、名称、规格、单位）&lt;/li>
+&lt;li>库位编码全部重做（物理标签 + 系统对应）&lt;/li>
+&lt;li>实物库存全盘一次，确保系统库存 = 实际库存&lt;/li>
+&lt;li>包装层级关系理清（箱/托/散件的换算关系）&lt;/li>
+&lt;/ul>
+&lt;p>这些事不做，60万的WMS就是个60万的记事本。&lt;/p>
+&lt;h2 id="翻车二流程不改就想靠系统提效">翻车二：流程不改就想靠系统提效&lt;/h2>
+&lt;p>回到开头那个快消公司的案例。&lt;/p>
+&lt;p>他们的拣货流程是这样的：订单来了，打印拣货单，拣货员拿着单子在仓库里满场跑。&lt;/p>
+&lt;p>上了WMS之后呢？还是这个流程。唯一的区别是——以前拣货单是ERP打印的，现在是WMS推荐的&amp;quot;最优拣货路径&amp;quot;。&lt;/p>
+&lt;p>问题出在哪？他们仓库的货位分布是按品类放的——饮料区、零食区、日化区，分区明确但跨区拣货多。WMS按&amp;quot;最近路径&amp;quot;规划，结果拣货员从A区跑到C区再跑回A区——系统没考虑货架的物理排列，只算了直线距离，忽略了&amp;quot;同一排货架的不同面&amp;quot;这个维度。&lt;/p>
+&lt;p>这还不是最关键的。最关键的是，他们没有做&lt;strong>流程重组&lt;/strong>。&lt;/p>
+&lt;p>WMS最擅长的不是优化路径，是优化作业模式——&lt;/p>
+&lt;ul>
+&lt;li>分区拣货：一个拣货员只管一个区，拣完传到下一个区&lt;/li>
+&lt;li>波次拣货：多个订单合并成一批，一次拣多单&lt;/li>
+&lt;li>播种式拣货：先按SKU拣出来，再按订单分播&lt;/li>
+&lt;/ul>
+&lt;p>这些作业模式都需要你在WMS上线前就设计好，上线后靠系统来执行和优化。&lt;/p>
+&lt;p>你不上WMS，这些作业模式也能做——无非是Excel+对讲机。上了WMS，是把这些模式自动化、数字化，效率乘数效应才出来。&lt;/p>
+&lt;p>但你如果流程压根没改，就硬把老模式往WMS里塞，WMS只会让你的效率更低——因为以前拣货员凭经验可以&amp;quot;抄近路&amp;quot;，现在系统让他怎么走他就怎么走，哪怕他知道有一条更快的路，也不敢不走系统——不走系统没绩效。&lt;/p>
+&lt;h2 id="翻车三忽视一线员工的抵制">翻车三：忽视一线员工的抵制&lt;/h2>
+&lt;p>这是很多项目经理最头疼但最不敢说的问题。&lt;/p>
+&lt;p>仓库的一线员工——拣货员、上架员、复核员——平均年龄可能40+，很多人之前的工作方式是凭经验、凭记性、凭关系。&lt;/p>
+&lt;p>你突然给他们上了一套WMS，要求用PDA扫码、按系统路径走、每个动作都要确认，他们是什么感受？&lt;/p>
+&lt;p>一个字：烦。&lt;/p>
+&lt;p>我见过最极端的一个案例——WMS上线一周后，三个老员工集体辞职了，理由是&amp;quot;系统太难用，干不了&amp;quot;。&lt;/p>
+&lt;p>这批老员工虽然文化水平不高，但他们对仓库里的每一件货、每一个货位比系统熟10倍。他们走了，仓库直接乱套。&lt;/p>
+&lt;p>怎么办？&lt;/p>
+&lt;p>两个动作：&lt;/p>
+&lt;p>&lt;strong>第一，让一线员工参与系统选型和测试。&lt;/strong> 别让IT部门关起门来选系统、做设计、确定方案，最后&amp;quot;通知&amp;quot;仓库：&amp;ldquo;下周新系统上线，都来培训。&amp;rdquo;&lt;/p>
+&lt;p>上线前三个月，就应该拉几个老员工来试用，让他们提意见。他们会告诉你&amp;quot;这个扫码角度不合理&amp;quot;&amp;ldquo;这个路径我闭着眼睛都知道怎么走更快&amp;quot;&amp;ldquo;这个操作步骤太多了，能不能简化&amp;rdquo;。&lt;/p>
+&lt;p>&lt;strong>第二，设计过渡期和激励机制。&lt;/strong> WMS上线第一个月，不要对效率有太高要求。给员工一个适应期，同时设置&amp;quot;学得快奖&amp;rdquo;——谁能先掌握新系统、效率率先恢复的，给额外奖励。&lt;/p>
+&lt;p>那个快消公司后来怎么解决的？&lt;/p>
+&lt;p>我跟他们一起去仓库蹲了一周，发现核心问题不是系统，是三个：&lt;/p>
+&lt;ol>
+&lt;li>货位没按拣货频率重新排——动销最快的SKU放在最远的位置&lt;/li>
+&lt;li>拣货路径算法没考虑仓库的物理布局——系统规划的路径在现实中要翻过传送带&lt;/li>
+&lt;li>员工的PDA扫码枪响应太慢——平均每次扫码要等2秒，一天扫800次就是浪费26分钟&lt;/li>
+&lt;/ol>
+&lt;p>我们做了三个调整：&lt;/p>
+&lt;ul>
+&lt;li>按ABC频次重新排货位（高频A类放黄金位置）&lt;/li>
+&lt;li>让WMS供应商调整路径算法，加入&amp;quot;障碍物坐标&amp;quot;&lt;/li>
+&lt;li>换了响应速度更快的扫码设备&lt;/li>
+&lt;/ul>
+&lt;p>两周后，拣货效率超过了上线前的水平。&lt;/p>
+&lt;h2 id="上wms之前先回答这三个问题">上WMS之前，先回答这三个问题&lt;/h2>
+&lt;p>如果你正在考虑上WMS，先别急着看供应商。先在纸上回答这三个问题：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>你的基础数据干净吗？&lt;/strong> SKU、库位、库存，这三个最基础的数据，准确率有没有99%以上？没有就别上系统，上了也是多个60万的烦恼。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>你的流程准备好被&amp;quot;系统化&amp;quot;了吗？&lt;/strong> 你现在的作业流程能不能被写成标准SOP？如果连你自己都写不清楚，WMS更不可能替你设计清楚。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>你的人准备好了吗？&lt;/strong> 有没有跟一线员工沟通过为什么上系统？有没有让他们参与进来？有没有设计好过渡方案？&lt;/p></description></item><item><title>数字化转型花了80万打水漂？先搞清楚这3件事再说</title><link>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B%E8%8A%B1%E4%BA%8680%E4%B8%87%E6%89%93%E6%B0%B4%E6%BC%82%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A%E8%BF%993%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%AF%B4/</guid><description>&lt;h2 id="数字化转型先别急着花钱">数字化转型，先别急着花钱&lt;/h2>
 &lt;p>&amp;ldquo;数字化转型&amp;quot;这5个字，可能是供应链领域最大的坑。&lt;/p>
 &lt;p>我见过太多公司：花80万上了系统，3个月后还在用Excel；花200万做了数据中台，数据还在各个系统里睡大觉；花500万做了智能预测，准确率还不如老员工拍脑袋。&lt;/p>
 &lt;p>&lt;strong>不是数字化没用，是你没搞清楚这3件事就动手了。&lt;/strong>&lt;/p>

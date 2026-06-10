@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>跨境物流 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%B7%A8%E5%A2%83%E7%89%A9%E6%B5%81/</link><description>Recent content in 跨境物流 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%B7%A8%E5%A2%83%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml"/><item><title>一票货被海关卡了40天，我学会的3个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-customs/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-customs/</guid><description>&lt;p>去年有一票货，从深圳到洛杉矶。产品不敏感、单证齐全、HS编码也报了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>跨境物流 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%B7%A8%E5%A2%83%E7%89%A9%E6%B5%81/</link><description>Recent content in 跨境物流 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%B7%A8%E5%A2%83%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml"/><item><title>跨境物流踩了5个坑亏了80万，这3条铁律能救命</title><link>https://supplychain-tips.pages.dev/posts/cross-border-survival-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-survival-guide/</guid><description>&lt;p>我第一票跨境货，发去马来西亚。&lt;/p>
+&lt;p>信心满满，觉得不就是运货吗，国内物流做了这么多年，出海能有多难。&lt;/p>
+&lt;p>结果一票货在海关卡了23天，客户直接取消订单，我赔了8万。&lt;/p>
+&lt;p>这只是开始。后来三年内，我在跨境物流上交的学费——关税纠纷、海外仓滞销、最后一公里崩盘、目的国政策突变——加起来超过80万。&lt;/p>
+&lt;p>如果你正在做出海，或者准备出海，我希望你用5分钟看完我这80万买来的教训。&lt;/p>
+&lt;h2 id="铁律一关税不是算出来的是蹲出来的">铁律一：关税不是&amp;quot;算&amp;quot;出来的，是&amp;quot;蹲&amp;quot;出来的&lt;/h2>
+&lt;p>大部分人做跨境，关税是怎么算的？&lt;/p>
+&lt;p>找货代问个HS编码、查一下税率、乘一下货值，完事。&lt;/p>
+&lt;p>我只能说，太天真了。&lt;/p>
+&lt;p>关税这件事，有三个层面是课本上学不到的：&lt;/p>
+&lt;p>&lt;strong>第一，反倾销。&lt;/strong> 你可能根本没想过自己的产品会触发反倾销。我一个朋友做铝合金门窗出口到美国，正常关税5%，结果美国商务部一纸反倾销裁定下来，税率直接变成168%。他一个柜的货到港了才知道这个消息，退运亏运费，清关亏关税，横竖都是一刀。&lt;/p>
+&lt;p>反倾销这东西，不是突然冒出来的。一般从立案调查到最终裁定，至少半年。你有半年的时间做准备、转移市场、调整策略。关键是你有没有在盯这些信息？&lt;/p>
+&lt;p>&lt;strong>第二，原产地规则。&lt;/strong> 很多做东南亚转口的企业，都栽在这上面。你以为在越南组装一下就能拿越南原产地证、避开美国关税？人家美国海关不傻。价值占比、工序复杂度、关键零部件的来源，全要审。&lt;/p>
+&lt;p>&lt;strong>第三，海关估价。&lt;/strong> 低价申报省关税，听起来很美对吧？海关的估价数据库比你想象的完整得多。被查到低报，补税+罚款+扣货+上黑名单，一条龙服务。&lt;/p>
+&lt;p>我的建议很简单：&lt;strong>找一个懂你品类的好报关行，比找一个便宜货代重要100倍。&lt;/strong>&lt;/p>
+&lt;p>一个懂行的报关行，能在你出货之前就告诉你：这个品类最近目的国海关查得严，要不要换HS编码策略；这个文件格式有问题，不补的话到港一定被卡；这条航线上最近有船公司被制裁，赶紧换。&lt;/p>
+&lt;p>这些预警，值多少钱？反正比80万学费便宜多了。&lt;/p>
+&lt;h2 id="铁律二海外仓不是租个仓库是你的供应链重资产">铁律二：海外仓不是&amp;quot;租个仓库&amp;quot;，是你的供应链重资产&lt;/h2>
+&lt;p>2024年我帮一家家具公司规划美国海外仓。老板的想法很简单——租个仓，备一批货，FBA断货的时候补过去，省得被亚马逊罚款。&lt;/p>
+&lt;p>听起来逻辑无懈可击。实际操作起来，一地鸡毛。&lt;/p>
+&lt;p>首先是&lt;strong>选址&lt;/strong>。美西和美东的仓租价差不大，但末端派送成本天差地别。你在加州备货发纽约，一票可能就要多花十几美元运费。但你要是全美布局三个仓，管理成本和库存成本翻倍。&lt;/p>
+&lt;p>其次是&lt;strong>库存水位&lt;/strong>。海外仓的库存不像国内工厂仓——你补一次货要45天海运，你算安全库存的时候至少得备够60天的量。60天库存意味着什么？意味着你的资金占了两个月。资金成本、仓租、滞销风险，全是叠加的。&lt;/p>
+&lt;p>最关键的是&lt;strong>退货处理&lt;/strong>。国内退货，退回来检查一下重新上架就行。海外的退货呢？退运回国不划算，就地销毁要花钱，翻新再卖你海外没有翻新能力。&lt;/p>
+&lt;p>这家家具公司在美国海外仓备了价值300万的货。半年后，180万的货变成了滞销库存——款式更新换代太快，上一批货还没卖完，新款已经在国内生产了。&lt;/p>
+&lt;p>所以我对所有做出海的朋友说：&lt;strong>海外仓不是仓库，是你的第二条供应链。它的管理难度不比你国内的工厂低。&lt;/strong>&lt;/p>
+&lt;p>如果你做不到在海外仓有专门的运营人员、有库存周转率的监控机制、有退货翻新的处理能力——不如老老实实走专线小包，慢是慢点，至少不会把现金流锁死在万里之外的仓库里。&lt;/p>
+&lt;h2 id="铁律三最后一公里不是配送是品牌的脸面">铁律三：最后一公里不是&amp;quot;配送&amp;quot;，是品牌的脸面&lt;/h2>
+&lt;p>跨境物流的前半段——工厂到港口、海运/空运、目的港清关——大部分人都能搞定。&lt;/p>
+&lt;p>但最后一公里，才是真正的修罗场。&lt;/p>
+&lt;p>我举个例子：你做欧美市场，前端花了大力气做品牌、投广告、搞社交媒体，客户终于下单了。你的货从中国漂洋过海到了目的国，清关、入仓、派送——结果送到了，包装烂了、晚了5天、送货员把包裹扔在门口淋了雨。&lt;/p>
+&lt;p>请问，这个客户还会复购吗？&lt;/p>
+&lt;p>他不会。&lt;/p>
+&lt;p>他只会记住&amp;quot;这个品牌的东西送过来就是烂的&amp;quot;，然后给你一个差评。&lt;/p>
+&lt;p>跨境物流的最后一公里，在国内是快递公司的事，在海外是你品牌的事。&lt;/p>
+&lt;p>我后来帮一家3C品牌优化了末端物流方案：&lt;/p>
+&lt;ul>
+&lt;li>美国用USPS Priority，虽然比普通件贵30%，但时效承诺72小时、有tracking、破损率低&lt;/li>
+&lt;li>欧洲按国家匹配——德国用DHL本土、法国用Colissimo、英国用Royal Mail&lt;/li>
+&lt;li>拉美和中东，宁愿牺牲速度也要选有签收确认的服务，因为丢件率太高了&lt;/li>
+&lt;/ul>
+&lt;p>这些调整以后，物流成本其实涨了大概15%，但退货率从12%降到了4%，差评率从8%降到了1.5%。&lt;/p>
+&lt;p>账算下来，多花的物流成本，远远少于减少的退货损失和客户流失。&lt;/p>
+&lt;p>最后一公里的钱，不是成本，是获客成本。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>做了三年跨境物流，烧了80万学费，我总结出三条铁律：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>关税合规 &amp;gt; 关税省钱。&lt;/strong> 省关税的前提是合规，不合规省下来的每一分钱，将来都可能变成罚金和黑名单。&lt;/li>
+&lt;li>&lt;strong>海外仓是重资产，不是轻方案。&lt;/strong> 没有运营能力就别碰海外仓，老老实实走直发。&lt;/li>
+&lt;li>&lt;strong>最后一公里是品牌资产，不是物流成本。&lt;/strong> 多花的配送费，买的是复购率和口碑。&lt;/li>
+&lt;/ol>
+&lt;p>出海这件事，看起来是产品的出海，实际上是供应链能力的出海。你的后端撑不住，前端跑再快也没用。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>一票货被海关卡了40天，我学会的3个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-customs/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-customs/</guid><description>&lt;p>去年有一票货，从深圳到洛杉矶。产品不敏感、单证齐全、HS编码也报了。&lt;/p>
 &lt;p>结果到港后被海关抽检，一查HS编码归类有争议，直接扣了40天。&lt;/p>
 &lt;p>40天什么概念？滞港费一天200美金，40天8000美金。仓储费另算。客户天天催，最后还赔了延迟交付违约金。&lt;/p>
 &lt;p>&lt;strong>整票货的利润，全被滞港费和罚款吃光了。&lt;/strong> 还不算丢了客户的隐性成本。&lt;/p>

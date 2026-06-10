@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运费涨了30%，真正该砍的不是运价</title><link>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</guid><description>&lt;p>做物流的人经常被老板灵魂拷问：为什么运费又涨了？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运费涨了30%，真正该管的不是价格而是这3件事</title><link>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</guid><description>&lt;p>我上一家公司，运费一年涨了28%，老板暴怒，让我去找物流公司重新谈。&lt;/p>
+&lt;p>我花了三个星期，把所有承运商的合同全部重新谈了一遍，单价压下来大概5%。老板不满意，说要砍20%。&lt;/p>
+&lt;p>我跟他讲了个故事。&lt;/p>
+&lt;h2 id="不是单价的问题是你根本不看数据">不是单价的问题，是你根本不看数据&lt;/h2>
+&lt;p>我给你看一组数字——&lt;/p>
+&lt;p>我们公司一个月发3000票货，其中：&lt;/p>
+&lt;ul>
+&lt;li>43%是零担，但拼车率只有62%&lt;/li>
+&lt;li>每天有6-8趟是&amp;quot;回头空车&amp;quot;，因为没人管返程配货&lt;/li>
+&lt;li>15%的紧急订单用的全是专车，但客户根本不急，是销售部提交的时候习惯性勾了&amp;quot;加急&amp;quot;&lt;/li>
+&lt;/ul>
+&lt;p>你猜砍了运输单价5%省了多少钱？大概8万。&lt;/p>
+&lt;p>但优化了拼车率，把零担拼到85%以上，省了多少？37万。&lt;/p>
+&lt;p>把那些假加急的订单改成普通时效，省了多少？22万。&lt;/p>
+&lt;p>把返程空车配上回程货，省了多少？15万。&lt;/p>
+&lt;p>所以你在跟物流公司死磕那5%的单价，真正浪费掉的60多万你连看都没看过。&lt;/p>
+&lt;p>这事让我明白了一个道理：&lt;strong>大部分人管运输，管的全是错的。&lt;/strong>&lt;/p>
+&lt;h2 id="别盯着单价盯装载率">别盯着单价，盯装载率&lt;/h2>
+&lt;p>我说句得罪人的话——大部分公司的运输管理，就停留在&amp;quot;比价&amp;quot;和&amp;quot;催货&amp;quot;两个动作上。&lt;/p>
+&lt;p>每个月拿三家物流公司的报价，谁便宜用谁。货发出去了就开始催，催不到就骂人。&lt;/p>
+&lt;p>但运费最核心的成本驱动是什么？是装载率。&lt;/p>
+&lt;p>一趟车，装50%和装90%，单件运费能差一倍。这不是什么高深理论，小学数学。&lt;/p>
+&lt;p>关键是你有没有一个机制在管这件事？&lt;/p>
+&lt;p>我见过一个做建材的公司，老板跟我吹他运输成本控制得多好——跟三家物流公司签了对赌协议，单价压到行业最低。&lt;/p>
+&lt;p>我去他仓库看了一眼，发货区堆着一堆明天要发的货，全是小票零担，没拼车，一个客户一票就直接发了。&lt;/p>
+&lt;p>我说哥，你这单价再低也白搭。一票货只占车厢的15%，剩下85%的空间全是空气，你付的运费里有一大半是在运空气。&lt;/p>
+&lt;p>后来我帮他做了三件事：&lt;/p>
+&lt;p>&lt;strong>第一，固定发车班次。&lt;/strong> 以前是有货就发，现在是每天上午10点、下午4点两个班次，所有在这期间的单子统一拼车。&lt;/p>
+&lt;p>&lt;strong>第二，按线路预拼。&lt;/strong> 同一个方向的单子，系统自动提示可以拼成整车。原来去南京一天发六七票零担，拼成一个整车，运费直接砍了40%。&lt;/p>
+&lt;p>&lt;strong>第三，让利给客户。&lt;/strong> 不急的单子，如果愿意等拼车，给客户运费打9折。客户占便宜了，公司省得更多。&lt;/p>
+&lt;p>一个月下来，运费降了31%，但不是靠压物流公司的价——是靠把车厢装满了。&lt;/p>
+&lt;h2 id="返程空驶运输界的隐形杀手">返程空驶，运输界的隐形杀手&lt;/h2>
+&lt;p>再说一个大多数公司从没想过的问题：返程车。&lt;/p>
+&lt;p>你去停车场看看——全国货车空驶率长期在40%以上。什么意思？将近一半的时间，货车在空跑。&lt;/p>
+&lt;p>这不是物流公司的问题，是整个行业的低效。&lt;/p>
+&lt;p>但你作为货主，是可以薅这个羊毛的。&lt;/p>
+&lt;p>怎么薅？&lt;/p>
+&lt;p>找有返程资源的物流平台。同样的线路，返程车的报价能比正常价低30%-50%。因为对司机来说，空车回去也是回，装点货哪怕是低价也是增量收入。&lt;/p>
+&lt;p>我以前做的一个项目，把公司三条固定线路的发货全部改成优先匹配返程车，一年运费省了180万。&lt;/p>
+&lt;p>但有个前提——你的发货计划要够稳定、够提前。返程车不等人，今天说有货明天又没了，两三次下来司机就不理你了。&lt;/p>
+&lt;p>所以这件事的本质是：&lt;strong>你的运输计划能力，就是你的砍价能力。&lt;/strong>&lt;/p>
+&lt;h2 id="紧急订单最大的隐形杀手">紧急订单——最大的隐形杀手&lt;/h2>
+&lt;p>我再问你一个问题：你公司一个月有多少票&amp;quot;紧急订单&amp;quot;？&lt;/p>
+&lt;p>你最好去查一查。&lt;/p>
+&lt;p>我遇到过一个极端案例——一家电子厂，一个月大概800票货，其中220票标了&amp;quot;紧急/加急&amp;quot;。&lt;/p>
+&lt;p>我逐票去核实，发现真正紧急的只有不到30票。剩下将近200票，要么是销售填单的时候习惯性勾的，要么是客户说&amp;quot;最好快点&amp;quot;但根本不急，要么是仓库发货慢了为了不背锅故意标成加急。&lt;/p>
+&lt;p>一票加急的成本，通常是普通时效的2-3倍。这200票假的加急，一个月多花将近40万。&lt;/p>
+&lt;p>所以我现在帮公司做运输优化，第一件事不是去看报价——是看紧急订单的真实比例。&lt;/p>
+&lt;p>做法很简单：&lt;/p>
+&lt;ul>
+&lt;li>加急申请必须填原因，而且要销售总监审批&lt;/li>
+&lt;li>系统自动统计每个销售人员的加急率，月度review&lt;/li>
+&lt;li>对客户那边，跟销售对一下&amp;quot;你以为的紧急&amp;quot;和&amp;quot;客户以为的紧急&amp;quot;是不是一回事&lt;/li>
+&lt;/ul>
+&lt;p>这三个动作下去，这家电子厂的加急订单从220票降到了50票以内。一分钱运输单价没变，运费省了将近30万/月。&lt;/p>
+&lt;h2 id="说到底运输管理是一个数据游戏">说到底，运输管理是一个数据游戏&lt;/h2>
+&lt;p>大部分人觉得运输管理就是&amp;quot;找人拉货&amp;quot;——跟物流公司砍价、催司机、处理破损。&lt;/p>
+&lt;p>但真正能省大钱的，全藏在数据里：&lt;/p>
+&lt;ul>
+&lt;li>你每条线路的平均装载率是多少？&lt;/li>
+&lt;li>返程空驶比例有多高？&lt;/li>
+&lt;li>紧急订单里有多少是假的？&lt;/li>
+&lt;li>同样的货，不同物流公司的时效偏差是多少？&lt;/li>
+&lt;li>破损率高的线路，是货的问题还是包装的问题还是承运商的问题？&lt;/li>
+&lt;/ul>
+&lt;p>这些数据你不看，你就永远在表面打转——压单价、换供应商、再压、再换，陷入死循环。&lt;/p>
+&lt;p>最后省的那点钱，还不够你换供应商折腾的成本。&lt;/p>
+&lt;p>我后来在自己的团队里立了一条规矩：&lt;strong>每周必须出一份运输数据周报，就盯5个指标——装载率、准点率、破损率、紧急订单占比、单位运费走势。&lt;/strong>&lt;/p>
+&lt;p>这5个数字，比你跟物流公司喝100顿酒都管用。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>运费涨了30%，真正该砍的不是运价</title><link>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-cost-hacks/</guid><description>&lt;p>做物流的人经常被老板灵魂拷问：为什么运费又涨了？&lt;/p>
 &lt;p>你解释油价涨了、司机工资涨了、过路费涨了——老板回你一句：那是你的事，我要的是成本降下来。&lt;/p>
 &lt;p>然后你就去跟车队砍价，砍到车队老板说再低就不跑了。运费确实降了5%，但服务质量也降了，迟到、破损、司机不配合——你相当于用自己的KPI换了一个烂服务。&lt;/p>
 &lt;h3 id="运费高八成是虚的">运费高，八成是&amp;quot;虚&amp;quot;的&lt;/h3>

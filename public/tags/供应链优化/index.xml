@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>库存周转率翻倍，我只做了一件事</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</guid><description>&lt;p>库存压了300万那年，财务天天找我喝茶。老板也开始频繁调库存报表，我知道他想要的不是数据，是一个解释：为什么钱全压在货上了？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从3500砍到1200，库存降了40%，销售额反而涨了</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</guid><description>&lt;p>讲一个反常识的事实。&lt;/p>
+&lt;p>我帮一个做五金件的贸易公司做库存诊断。他们有3500个SKU，库存周转天数高达187天，现金流被库存压得喘不过气。&lt;/p>
+&lt;p>老板跟我说：没办法啊，客户要什么我们就得备什么，SKU少了客户就跑了。&lt;/p>
+&lt;p>我说好，那我们来拉一个数据。&lt;/p>
+&lt;p>一拉数据，触目惊心：&lt;/p>
+&lt;ul>
+&lt;li>3500个SKU中，有1100个在过去一年里零销售&lt;/li>
+&lt;li>零销售的1100个SKU，库存价值大概380万&lt;/li>
+&lt;li>另外有800个SKU年度销售额不到5000块，但库存价值将近200万&lt;/li>
+&lt;/ul>
+&lt;p>也就是说，57%的SKU贡献了不到5%的销售额，占用了将近50%的库存资金。&lt;/p>
+&lt;p>老板沉默了很久。&lt;/p>
+&lt;p>后来我们用四个月，把SKU从3500砍到了1200。结果呢？库存降了40%，现金流释放了将近600万。销售额呢？不但没跌，反而涨了8%。&lt;/p>
+&lt;p>因为砍掉的都是&amp;quot;尾货&amp;quot;——不仅不赚钱，还占用了本该给爆款的库存资金和仓库空间。&lt;/p>
+&lt;h2 id="第一步认清你的sku真面目">第一步：认清你的SKU真面目&lt;/h2>
+&lt;p>SKU管理的第一步，不是砍，是认清每个SKU到底是什么角色。&lt;/p>
+&lt;p>我用的是&amp;quot;四象限分类法&amp;quot;，用两个维度：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销售额贡献&lt;/strong>：过去一年这个SKU卖了多少钱&lt;/li>
+&lt;li>&lt;strong>毛利率&lt;/strong>：卖了这么多钱，赚了多少&lt;/li>
+&lt;/ul>
+&lt;p>然后分成四类：&lt;/p>
+&lt;p>&lt;strong>金牛SKU&lt;/strong>（高销售 + 高毛利）：公司的印钞机，打死不能动。
+&lt;strong>流量SKU&lt;/strong>（高销售 + 低毛利）：不赚钱但引流，用来带动金牛SKU的销售，可以适当保留。
+&lt;strong>明星SKU&lt;/strong>（低销售 + 高毛利）：有潜力但还没放量，需要重点推广，而不是直接砍掉。
+&lt;strong>瘦狗SKU&lt;/strong>（低销售 + 低毛利）：又没人买又不赚钱，早砍早超生。&lt;/p>
+&lt;p>那家五金公司的3500个SKU里，瘦狗SKU占了2100个。2100个。&lt;/p>
+&lt;p>老板看到这个分类表的时候，终于理解了为什么自己觉得&amp;quot;生意还行但就是没钱&amp;quot;——你看起来卖了3500种货，实际上1700种的销售收入还不够付这些SKU的库存资金利息。&lt;/p>
+&lt;h2 id="第二步砍sku不是一杀了之要有退出策略">第二步：砍SKU不是一杀了之，要有退出策略&lt;/h2>
+&lt;p>很多人一听&amp;quot;砍SKU&amp;quot;，第一反应就是&amp;quot;直接停止采购，等库存卖完就完了&amp;quot;。&lt;/p>
+&lt;p>但这里面有两个坑：&lt;/p>
+&lt;p>&lt;strong>第一，有些瘦狗SKU是搭配金牛SKU卖的。&lt;/strong> 比如A螺丝（金牛）必须配B螺母（瘦狗）才能用。你把螺母砍了，螺丝也卖不动了。&lt;/p>
+&lt;p>这种叫&amp;quot;关联SKU&amp;quot;，砍之前必须确认没有强关联。怎么做？拉一下销售订单，看这个瘦狗SKU跟哪些高价值SKU经常出现在同一张订单里。如果关联度超过一定阈值（比如30%的订单同时出现），那就不能砍，或者要找替代方案。&lt;/p>
+&lt;p>&lt;strong>第二，剩余库存怎么处理。&lt;/strong> 瘦狗SKU虽然卖得少，但你手上可能还有不少库存。直接报废？亏。继续慢慢卖？占库位。&lt;/p>
+&lt;p>我的处理方案是&amp;quot;三级退出&amp;quot;：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>第一级：折价促销。&lt;/strong> 打7折打包卖，目标是在一个月内清掉70%的库存。&lt;/li>
+&lt;li>&lt;strong>第二级：捆绑搭售。&lt;/strong> 剩下的30%，跟金牛SKU搭在一起卖，&amp;ldquo;买A送B&amp;rdquo;，既能清尾货又能促进金牛销售。&lt;/li>
+&lt;li>&lt;strong>第三级：报废或捐赠。&lt;/strong> 促销也卖不掉的、搭售也送不出去的，果断报废。别舍不得，继续放着只会继续吃掉库位和仓库人员的管理精力。&lt;/li>
+&lt;/ul>
+&lt;h2 id="第三步建立sku准生证制度">第三步：建立&amp;quot;SKU准生证&amp;quot;制度&lt;/h2>
+&lt;p>砍完一轮以后，怎么防止过两年SKU又膨胀回3000个？&lt;/p>
+&lt;p>答案是：&lt;strong>从源头管住新增SKU。&lt;/strong>&lt;/p>
+&lt;p>我帮那家五金公司设计了一套&amp;quot;SKU准生证&amp;quot;流程：&lt;/p>
+&lt;p>任何一个新SKU想进来，必须先填一张表，回答：&lt;/p>
+&lt;ol>
+&lt;li>这个SKU预计年销售额是多少？依据是什么？&lt;/li>
+&lt;li>它跟现有哪个SKU竞争？会不会吃掉现有SKU的销量？&lt;/li>
+&lt;li>如果不引进，现有SKU能不能替代？&lt;/li>
+&lt;li>初始库存投入多少？如果6个月卖不到预期的50%，退出成本是多少？&lt;/li>
+&lt;/ol>
+&lt;p>这张表必须有销售、采购、财务三个部门签字，才能放行。&lt;/p>
+&lt;p>你猜效果怎么样？引入这个制度后的半年内，新增SKU申请从每月40多个降到了不到10个。而且留下来的新增SKU，首年存活率从之前的30%提高到了70%以上。&lt;/p>
+&lt;p>因为大部分&amp;quot;我想试试这个产品&amp;quot;的冲动，在填表的过程中就被劝退了。&lt;/p>
+&lt;h2 id="第四步定期sku复盘月月洗牌">第四步：定期SKU复盘，月月洗牌&lt;/h2>
+&lt;p>SKU管理不是一次性工程，是持续运营。&lt;/p>
+&lt;p>我建议的节奏是：&lt;/p>
+&lt;p>&lt;strong>月度&lt;/strong>：拉出每个SKU的销售额和毛利率，标记&amp;quot;连续3个月下滑&amp;quot;的SKU，自动进入观察名单。&lt;/p>
+&lt;p>&lt;strong>季度&lt;/strong>：观察名单上的SKU，做一次深度review——是季节性波动还是趋势性下滑？是竞品冲击还是自身老化？决定是&amp;quot;加大投入&amp;quot;还是&amp;quot;进入退出流程&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>半年度&lt;/strong>：全量SKU做一次四象限分析，对瘦狗SKU启动退出流程。&lt;/p>
+&lt;p>这套节奏跑起来以后，SKU数量会维持在一个健康的动态平衡——有进有出，但总量不膨胀。&lt;/p>
+&lt;p>那家五金公司后来把SKU稳定在1100-1300之间，库存周转天数从187天降到了68天。老板跟我说了一句让我印象很深的话：&lt;/p>
+&lt;p>&amp;ldquo;以前我觉得SKU多是优势，客户来了什么都能买到。现在我才明白，SKU少才是优势——我能把有限的资金和库位全部砸在爆款上，爆款更爆，库存更低，现金流更好。&amp;rdquo;&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>SKU管理这件事，最难的不是方法，是心态。&lt;/p></description></item><item><title>库存周转率翻倍，我只做了一件事</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-362/</guid><description>&lt;p>库存压了300万那年，财务天天找我喝茶。老板也开始频繁调库存报表，我知道他想要的不是数据，是一个解释：为什么钱全压在货上了？&lt;/p>
 &lt;p>我查了一遍又一遍：入库及时，出库准点，盘点差异不大。那问题到底在哪？直到一个晚上复盘，我发现所有SKU里，有30%的货过去三个月根本没动过，有15%的货是去年备的，供应商还按老节奏继续送。&lt;/p>
 &lt;p>周转率差，根本不是你仓库管得不好，是源头没卡住。&lt;/p>
 &lt;h3 id="你盯着出库却忘了入库也是钱">你盯着出库，却忘了入库也是钱&lt;/h3>

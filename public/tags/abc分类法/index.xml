@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ABC分类法 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/</link><description>Recent content in ABC分类法 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用错了三年，我才发现白干了</title><link>https://supplychain-tips.pages.dev/posts/abc-class-927/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-class-927/</guid><description>&lt;p>干了三年库存管理，每月惯例：拉SKU列表，按销售额从高到低排，前20%叫A，中间30%叫B，后面50%叫C。然后洋洋洒洒写报告：A类重点管理，C类放松管理。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ABC分类法 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/</link><description>Recent content in ABC分类法 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/abc%E5%88%86%E7%B1%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
+&lt;p>&amp;ldquo;A类是金额大的，要重点管。B类是中间的，正常管。C类是金额小的，随便管。&amp;rdquo;&lt;/p>
+&lt;p>这套话术在供应链圈子里讲了三十年。但真正做对的人，不到10%。&lt;/p>
+&lt;h2 id="按金额分类是abc分类法最大的坑">按金额分类，是ABC分类法最大的坑&lt;/h2>
+&lt;p>传统的ABC分类是按什么分的？&lt;strong>按年消耗金额。&lt;/strong>&lt;/p>
+&lt;p>A类：占金额70%的前10%种物料
+B类：占金额20%的中间20%种物料
+C类：占金额10%的后70%种物料&lt;/p>
+&lt;p>逻辑上没毛病。A类金额大，影响大，当然要重点管理。&lt;/p>
+&lt;p>但现实中有个巨大的漏洞——&lt;/p>
+&lt;p>&lt;strong>金额大的物料 ≠ 最难管的物料。&lt;/strong>&lt;/p>
+&lt;p>我举个例子：你是一家电子厂，最贵的东西是芯片，占了采购金额的65%。按ABC分类，芯片是A类，必须重点管。&lt;/p>
+&lt;p>但芯片供应商是世界五百强，准时率99.8%，质量零缺陷，交货比闹钟还准。你根本不用管它——它管你。&lt;/p>
+&lt;p>而你的C类物料里，有一种特殊的绝缘垫片。一个才两毛钱，全年采购金额也就三万块，排在C类的尾巴上。&lt;/p>
+&lt;p>但这个垫片是独家供应商，全世界就一家能做。这个供应商每年的准时率只有70%，而且动不动就说&amp;quot;下个月要涨价20%&amp;quot;。&lt;/p>
+&lt;p>按金额分类，这玩意是C类，不用怎么管。按风险分类呢？这他妈才是真正的A类——一旦断供，你整条生产线都得停。&lt;/p>
+&lt;p>所以传统ABC分类法最大的问题就是：&lt;strong>只看金额，不看风险。&lt;/strong>&lt;/p>
+&lt;h2 id="正确的分类法金额--风险">正确的分类法：金额 × 风险&lt;/h2>
+&lt;p>我后来在公司推行了一套&amp;quot;金额-风险矩阵&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>维度一：年消耗金额&lt;/strong>（跟传统一样）
+&lt;strong>维度二：供应风险&lt;/strong>（新增）&lt;/p>
+&lt;p>供应风险包括：&lt;/p>
+&lt;ul>
+&lt;li>独家供应商 vs 多家供应商&lt;/li>
+&lt;li>供应商财务健康度&lt;/li>
+&lt;li>交期稳定性（准时率）&lt;/li>
+&lt;li>质量稳定性（不良率）&lt;/li>
+&lt;li>替代难度（能不能找到备胎）&lt;/li>
+&lt;/ul>
+&lt;p>然后分成四个象限：&lt;/p>
+&lt;p>&lt;strong>战略物料&lt;/strong>（高金额 + 高风险）：真正的A类。比如独家供应的高价值核心件。需要跟供应商战略合作，长期合同，甚至考虑自制或联合开发。&lt;/p>
+&lt;p>&lt;strong>杠杆物料&lt;/strong>（高金额 + 低风险）：就是前面说的芯片。金额大但供应稳定。策略是充分竞争——用量的优势跟供应商谈价，但要维系2-3家合格供应商防止断供。&lt;/p>
+&lt;p>&lt;strong>瓶颈物料&lt;/strong>（低金额 + 高风险）：就是前面说的那个两毛钱的绝缘垫片。金额小但掐脖子。策略是保供优先——多备库存、帮供应商改善交付、甚至自己投资让供应商扩产。这时候别算计库存成本了，存货成本再高也没有停产的高。&lt;/p>
+&lt;p>&lt;strong>日常物料&lt;/strong>（低金额 + 低风险）：真正的C类。螺栓螺母、包装材料这种。策略是简化管理——双堆法、看板补货、VMI都可以，怎么省事怎么来。&lt;/p>
+&lt;p>这个矩阵的好处是：&lt;strong>你再也不会因为一个两毛钱的垫片导致停产了。&lt;/strong>&lt;/p>
+&lt;h2 id="c类物料不管不等于不管对">C类物料——&amp;ldquo;不管&amp;quot;不等于&amp;quot;不管对&amp;rdquo;&lt;/h2>
+&lt;p>传统ABC分类对C类的建议是&amp;quot;简单管理，不需要严格监控&amp;quot;。&lt;/p>
+&lt;p>结果很多公司对C类的管理就是&amp;quot;不管&amp;quot;——不做安全库存、不定补货点、不看领用异常。&lt;/p>
+&lt;p>这就导致一个很搞笑的现象：A类物料你管得死死的，差异率0.1%。C类物料你看都不看，差异率可能到20%以上。&lt;/p>
+&lt;p>虽然C类单件价值低，但架不住种类多。一千种C类物料，每种差一点，加起来也是一个不小的数字。&lt;/p>
+&lt;p>我的管理建议是：C类用&lt;strong>简化管理&lt;/strong>而不是&lt;strong>不管&lt;/strong>。&lt;/p>
+&lt;p>具体做法：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>双堆法&lt;/strong>：每种C类物料分两堆，一堆用完了开始用第二堆，同时下采购单补第一堆。不用算安全库存，不用设MIN/MAX，视觉化管理。&lt;/li>
+&lt;li>&lt;strong>固定补货周期&lt;/strong>：每周一补一次、每月1号补一次，到时间就补，不用每天都盯库存表。&lt;/li>
+&lt;li>&lt;strong>异常监控&lt;/strong>：设一个简单规则——任何C类物料的月消耗量如果比上月波动超过50%，自动触发审核。可能是生产计划变了，也可能是浪费或偷盗。&lt;/li>
+&lt;/ul>
+&lt;p>这些动作做下去，管理成本几乎为零，但C类物料的管理精度能提高一大截。&lt;/p>
+&lt;h2 id="写在最后">写在最后&lt;/h2>
+&lt;p>ABC分类法的核心思想是&amp;quot;抓住重要的，简化不重要的&amp;quot;。这个思想永远不过时。&lt;/p>
+&lt;p>但&amp;quot;什么是重要的&amp;quot;——这个问题你不能让三十年前的教材替你回答。&lt;/p>
+&lt;p>三十年前，供应链最重要的事是降库存金额。
+现在，供应链最重要的事是防断供。&lt;/p>
+&lt;p>所以你的ABC不应该按金额分，应该按&lt;strong>对公司经营的影响程度&lt;/strong>分。&lt;/p>
+&lt;p>金额大只是影响的一种，不是全部。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ABC分类法用错了三年，我才发现白干了</title><link>https://supplychain-tips.pages.dev/posts/abc-class-927/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-class-927/</guid><description>&lt;p>干了三年库存管理，每月惯例：拉SKU列表，按销售额从高到低排，前20%叫A，中间30%叫B，后面50%叫C。然后洋洋洒洒写报告：A类重点管理，C类放松管理。&lt;/p>
 &lt;p>老板过了新鲜劲就不看了——因为他发现不管你怎么分类，库存该压还是压，缺货该缺还是缺。&lt;/p>
 &lt;p>后来我才明白：只按金额做ABC，是你库存永远理不顺的根源。&lt;/p>
 &lt;h3 id="你以为a类最重要但它刚好不缺货">你以为A类最重要，但它刚好不缺货&lt;/h3>

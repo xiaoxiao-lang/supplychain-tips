@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>你算了三年的经济订货量，90%的时候是在自欺欺人</title><link>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</guid><description>&lt;p>供应链专业毕业的人，没有不知道EOQ的。&lt;/p>
+&lt;p>经济订货量。Q* = sqrt(2DS/H)。我到现在还能闭着眼睛写出来。&lt;/p>
+&lt;p>但干了十年供应链之后，我告诉你一句大实话：&lt;strong>这十年里，我真正用EOQ公式下过的采购单，不超过10次。&lt;/strong>&lt;/p>
+&lt;p>不是公式不对，是现实不跟你讲前提假设。&lt;/p>
+&lt;h2 id="eoq的5个前提现实中一个都不成立">EOQ的5个前提，现实中一个都不成立&lt;/h2>
+&lt;p>教材上的EOQ，建在五个完美假设上：&lt;/p>
+&lt;ol>
+&lt;li>需求是稳定的、连续的&lt;/li>
+&lt;li>订货提前期是固定的&lt;/li>
+&lt;li>单价跟订货量无关&lt;/li>
+&lt;li>库存持有成本是线性的&lt;/li>
+&lt;li>没有缺货成本&lt;/li>
+&lt;/ol>
+&lt;p>来，你告诉我，现实中哪个成立？&lt;/p>
+&lt;p>&lt;strong>需求稳定？&lt;/strong> 你做电商的，双十一销量是平时的8倍。你按&amp;quot;平均需求&amp;quot;算EOQ，双十一前就断货了。&lt;/p>
+&lt;p>&lt;strong>提前期固定？&lt;/strong> 一个疫情、一次台风、一个海关查验，你的提前期从7天变成30天。&lt;/p>
+&lt;p>&lt;strong>单价与量无关？&lt;/strong> 供应商说&amp;quot;订1000件9折，订5000件8折&amp;quot;，你EOQ算出来3500件，完美避开了两个折扣点。&lt;/p>
+&lt;p>&lt;strong>库存持有成本线性？&lt;/strong> 你的仓库满了，加租一个新的要整租，不是按件算的。&lt;/p>
+&lt;p>&lt;strong>没有缺货成本？&lt;/strong> 缺货带来的客户流失、生产线停工、被罚款——这些成本算得清吗？&lt;/p>
+&lt;p>所以EOQ这个公式，从诞生第一天起，就不是给你直接拿去用的。它是一个&lt;strong>思维框架&lt;/strong>，告诉你&amp;quot;订货有两个成本在博弈——订货成本和持有成本，你要找平衡点&amp;quot;。&lt;/p>
+&lt;p>但90%的人把它当成了精确计算工具。&lt;/p>
+&lt;h2 id="现实中的eoq长什么样">现实中的&amp;quot;EOQ&amp;quot;长什么样&lt;/h2>
+&lt;p>说一个我实际做过的案例。&lt;/p>
+&lt;p>一家家电企业，采购压缩机。年需求量大概50万台，单次订货成本（包括验货、入库、质量检验等）大概5000块，单台年库存持有成本大概8块钱。&lt;/p>
+&lt;p>按EOQ公式算：Q* = sqrt(2 × 500000 × 5000 / 8) = 25000台。&lt;/p>
+&lt;p>也就是说，理论最优订货量是每次25000台。&lt;/p>
+&lt;p>但你猜实际上怎么订的？&lt;/p>
+&lt;ul>
+&lt;li>淡季（4-9月），每个月40000台——因为要给旺季备货&lt;/li>
+&lt;li>旺季前（10-12月），每个月60000台——因为供应商这时候最忙，不提前锁产能就拿不到货&lt;/li>
+&lt;li>春节（1-2月），每个月10000台——工厂放假，生产量本来就只有平时的1/3&lt;/li>
+&lt;/ul>
+&lt;p>一年下来，没有一次订货量是25000台。&lt;/p>
+&lt;p>你要真按EOQ每次订25000台，旺季一定断货，淡季一定爆仓。&lt;/p>
+&lt;p>所以我们的做法是什么？&lt;strong>EOQ给了一个&amp;quot;锚点&amp;quot;，告诉我们大概的订货量级在25000左右。然后我们根据季节波动、促销计划、供应商产能约束，在这个锚点上下浮动。&lt;/strong>&lt;/p>
+&lt;p>这才是EOQ的正确用法——不是精确计算，是决策参考。&lt;/p>
+&lt;h2 id="eoq最大的坑忽略了数量折扣">EOQ最大的坑：忽略了数量折扣&lt;/h2>
+&lt;p>再讲一个更坑的。&lt;/p>
+&lt;p>还是这家企业，压缩机供应商报价：&lt;/p>
+&lt;ul>
+&lt;li>1-19999台：200元/台&lt;/li>
+&lt;li>20000-49999台：190元/台&lt;/li>
+&lt;li>50000台以上：178元/台&lt;/li>
+&lt;/ul>
+&lt;p>EOQ算出来25000台，单价190元。&lt;/p>
+&lt;p>但如果你一次订50000台呢？单价降到178元，每台省12元。多出来的25000台库存，一年的持有成本是多少？25000 × 8 = 20万。&lt;/p>
+&lt;p>而省下来的采购成本呢？500000 × 12 = 600万。&lt;/p>
+&lt;p>这还用算吗？闭着眼睛订50000台。&lt;/p>
+&lt;p>所以很多公司根本不是按EOQ订货，而是&lt;strong>按数量折扣的最佳阶梯订货&lt;/strong>。尤其是大宗原材料和标准件，折扣的诱惑远远大于库存持有成本的增加。&lt;/p>
+&lt;p>这也是为什么很多公司在仓库里压着巨量库存——不是因为不会管库存，而是因为供应商的价格曲线在那摆着。&lt;/p>
+&lt;p>压1000万库存多花80万的持有成本，但省了200万的采购成本。换成你，你也压。&lt;/p></description></item><item><title>算了3年EOQ才发现，90%的场景根本用不上</title><link>https://supplychain-tips.pages.dev/posts/stupid-eoq/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/stupid-eoq/</guid><description>&lt;p>我刚入行的时候，觉得EOQ公式简直太优美了。&lt;/p>
 &lt;p>D是年需求，S是单次订货成本，H是单位持有成本。三个变量套进去，啪，最优订货量就出来了。&lt;/p>
 &lt;p>拿着算出来的数字跟领导汇报，领导听完说了句：&amp;ldquo;你算的这个数，供应商起订量都不够。&amp;rdquo;&lt;/p>
 &lt;p>我当时就懵了。&lt;/p>

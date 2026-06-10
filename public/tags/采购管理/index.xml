@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估表填了3年全是废纸？3步让你的评估真正有用</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</guid><description>&lt;h2 id="供应商评估表你填了有用吗">供应商评估表，你填了有用吗？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本分析做了三年，发现90%的人在算假账</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</guid><description>&lt;p>说一个让很多采购人不舒服的事实：&lt;/p>
+&lt;p>&lt;strong>你做的采购成本分析，90%的时候是自欺欺人。&lt;/strong>&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;p>因为你只算了单价再加点运费。但一个供应商选择不当造成的隐性成本，可能是单价的5倍以上。&lt;/p>
+&lt;p>我帮一家医疗器械公司做采购成本分析的时候，遇到一个典型案例。&lt;/p>
+&lt;h2 id="一个供应商两种算法差了200万">一个供应商，两种算法，差了200万&lt;/h2>
+&lt;p>他们有一个关键零部件，两个供应商在供：&lt;/p>
+&lt;ul>
+&lt;li>A供应商：单价120元，付款账期30天&lt;/li>
+&lt;li>B供应商：单价105元，付款账期60天&lt;/li>
+&lt;/ul>
+&lt;p>采购经理选了B供应商。理由很充分：单价低15元，年采购量10万件，省了150万。账期还多了30天，现金流更好。&lt;/p>
+&lt;p>看起来没毛病对吧？&lt;/p>
+&lt;p>一年后我帮他们做全口径成本复盘，数据是这样的：&lt;/p>
+&lt;p>&lt;strong>B供应商的实际总成本：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购价格：105 × 10万 = 1050万&lt;/li>
+&lt;li>质量损失：B供应商的来料不良率是A的3倍（0.3% vs 0.1%），多出来的质检、退货、产线停线，全年损失约45万&lt;/li>
+&lt;li>交期成本：B供应商平均晚交3.2天，导致生产线等料停工，全年损失约60万&lt;/li>
+&lt;li>管理成本：因为B供应商问题多，采购员花在处理B供应商问题上的时间多了40%，折合成人力成本约15万&lt;/li>
+&lt;li>缺货损失：B供应商产能不稳定，出现过两次断供，紧急找替代供应商的溢价成本约30万&lt;/li>
+&lt;/ul>
+&lt;p>全口径总成本：1050 + 45 + 60 + 15 + 30 = 1200万。&lt;/p>
+&lt;p>而A供应商呢？&lt;/p>
+&lt;ul>
+&lt;li>采购价格：120 × 10万 = 1200万&lt;/li>
+&lt;li>质量损失：基本为零&lt;/li>
+&lt;li>交期成本：准时率99.5%&lt;/li>
+&lt;li>管理成本：正常水平&lt;/li>
+&lt;li>缺货损失：零&lt;/li>
+&lt;/ul>
+&lt;p>全口径总成本：1200万。&lt;/p>
+&lt;p>1200万 vs 1200万。&lt;/p>
+&lt;p>单价差了15元/件，全口径打平。&lt;/p>
+&lt;p>但你再看一个东西——现金流。A供应商账期30天，B供应商60天。1200万的采购额，30天账期差意味着B供应商多给了你大概100万的现金流空间。&lt;/p>
+&lt;p>所以综合来看，B供应商并不是错的选择。但问题是——采购经理在做决策的时候，根本没有算过这些隐性成本。他只是看到了单价。&lt;/p>
+&lt;p>&lt;strong>运气好，这次B供应商的汇率算下来比A强。运气不好的时候呢？&lt;/strong>&lt;/p>
+&lt;h2 id="tco不是什么高深的东西就是算总账">TCO不是什么高深的东西，就是&amp;quot;算总账&amp;quot;&lt;/h2>
+&lt;p>采购领域有个概念叫TCO（Total Cost of Ownership，总拥有成本）。很多人觉得这是大公司才玩得起的洋气方法论。&lt;/p>
+&lt;p>狗屁。&lt;/p>
+&lt;p>TCO的本质就是一句话：&lt;strong>把你花在这个供应商身上所有的钱加在一起，再除以采购量，得到真实单价。&lt;/strong>&lt;/p>
+&lt;p>包括：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>采购价格&lt;/strong>：发票上的数字&lt;/li>
+&lt;li>&lt;strong>物流成本&lt;/strong>：运费、保险费、关税、在途损耗&lt;/li>
+&lt;li>&lt;strong>质量成本&lt;/strong>：来料检验成本、不良品退货损失、生产线停工损失、质量事故赔偿&lt;/li>
+&lt;li>&lt;strong>交付成本&lt;/strong>：晚交导致的等料损失、提前交导致的库存积压&lt;/li>
+&lt;li>&lt;strong>管理成本&lt;/strong>：沟通成本、出差成本、谈判时间、问题处理时间&lt;/li>
+&lt;li>&lt;strong>切换成本&lt;/strong>：换供应商时的模具转移、试样验证、供应中断风险&lt;/li>
+&lt;/ul>
+&lt;p>你把这些全部加起来，才是你为这个供应商付出的真实单价。&lt;/p>
+&lt;p>那家医疗器械公司后来做了个TCO模板——每选一个新供应商，不光比报价，还把质量、交付、服务的历史数据填进去，系统自动算出一个&amp;quot;TCO单价&amp;quot;。&lt;/p>
+&lt;p>三个月后，他们淘汰了4家&amp;quot;报价低但TCO高&amp;quot;的供应商，一年省了将近400万。&lt;/p></description></item><item><title>供应商评估表填了3年全是废纸？3步让你的评估真正有用</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E5%95%86%E8%AF%84%E4%BC%B0%E8%A1%A8%E5%A1%AB%E4%BA%863%E5%B9%B4%E5%85%A8%E6%98%AF%E5%BA%9F%E7%BA%B83%E6%AD%A5%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AF%84%E4%BC%B0%E7%9C%9F%E6%AD%A3%E6%9C%89%E7%94%A8/</guid><description>&lt;h2 id="供应商评估表你填了有用吗">供应商评估表，你填了有用吗？&lt;/h2>
 &lt;p>问自己3个问题：&lt;/p>
 &lt;ol>
 &lt;li>你的供应商评估表，多久填一次？&lt;/li>
