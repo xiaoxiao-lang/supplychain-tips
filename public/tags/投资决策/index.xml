@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>投资决策 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96/</link><description>Recent content in 投资决策 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%8A%95%E8%B5%84%E5%86%B3%E7%AD%96/index.xml" rel="self" type="application/rss+xml"/><item><title>上AGV花了80万，效率不升反降？仓储自动化的真相扎心了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</guid><description>&lt;p>2024年初，一个做快消品的朋友找到我，说他刚给仓库上了一套AGV系统，花了80万。&lt;/p>
+&lt;p>我问他效果怎么样，他说：&amp;ldquo;别提了，发货效率反而降了15%。&amp;rdquo;&lt;/p>
+&lt;p>我愣了一下，问他为什么。&lt;/p>
+&lt;p>他说：&amp;ldquo;AGV跑得是快，但我们仓库地面不平，它经常卡住。货架也没改造，AGV对不准。员工也不会操作，天天报故障。最扯的是，旺季订单来了，AGV的速度根本跟不上，最后还是叫了临时工用手推车。&amp;rdquo;&lt;/p>
+&lt;p>80万的AGV系统，最后变成了仓库里的&amp;quot;高级装饰品&amp;quot;。&lt;/p>
+&lt;p>这就是仓储自动化的第一个真相：&lt;strong>不是自动化不好，是你没搞清楚自己该上什么级别的自动化。&lt;/strong>&lt;/p>
+&lt;h2 id="你的仓库到底需要什么先回答三个问题">你的仓库到底需要什么？先回答三个问题&lt;/h2>
+&lt;p>上自动化之前，先把这三个问题想明白：&lt;/p>
+&lt;p>&lt;strong>第一个问题：你的订单波动有多大？&lt;/strong>&lt;/p>
+&lt;p>如果你一年有6个月淡季、2个月平季、2个月旺季，旺季订单量是淡季的4倍。那你上固定产能的自动化设备，八成会出问题——淡季设备闲置，旺季产能不够。&lt;/p>
+&lt;p>这种情况下，你应该考虑的是一次性投入低、灵活性高的半自动化方案，比如拣选辅助系统、手持终端扫码+输送线，而不是上全自动AGV。&lt;/p>
+&lt;p>&lt;strong>第二个问题：你的SKU种类和包装规格有多复杂？&lt;/strong>&lt;/p>
+&lt;p>自动化设备最怕的就是&amp;quot;不标准&amp;quot;。如果你的SKU超过5000个，包装规格从5cm小件到2米大件都有，那自动化设备识别、抓取、搬运的难度和成本都会爆表。&lt;/p>
+&lt;p>这种情况下，你要先做的是SKU标准化和包装标准化，而不是急着上自动化。标准化做好了，效率能提升20-30%，成本几乎为零。&lt;/p>
+&lt;p>&lt;strong>第三个问题：你的订单结构是B2B还是B2C？&lt;/strong>&lt;/p>
+&lt;p>B2B是大批量、少批次。一件货可能是一整托盘，一辆车就装一两单。这种情况，自动化主要解决的是搬运问题。&lt;/p>
+&lt;p>B2C是小批量、多批次。一个订单可能就一两个小件，一辆车要装几百个订单。这种情况，自动化主要解决的是拣选和分拣问题。&lt;/p>
+&lt;p>两者需要的自动化方案完全不同。如果你的仓库B2B和B2C都要做，那对自动化的要求就更高了。&lt;/p>
+&lt;h2 id="上自动化之前的三板斧不花钱也能提升效率">上自动化之前的&amp;quot;三板斧&amp;quot;——不花钱也能提升效率&lt;/h2>
+&lt;p>在花一分钱买设备之前，先把这三件事做了：&lt;/p>
+&lt;h3 id="第一斧动线优化">第一斧：动线优化&lt;/h3>
+&lt;p>很多仓库拣货效率低，不是人走得慢，是路走得太远了。&lt;/p>
+&lt;p>我见过一个仓库，最常用的A类产品放在仓库最深处，B类放中间，C类放大门口。拣货员一天走两万步，其中一万五千步是在走A类产品的冤枉路。&lt;/p>
+&lt;p>把A类移到离发货区最近的位置后，拣货效率提升了30%。一分钱没花。&lt;/p>
+&lt;h3 id="第二斧拣货路径优化">第二斧：拣货路径优化&lt;/h3>
+&lt;p>如果你还在用&amp;quot;一张拣货单一个订单&amp;quot;的模式，那你的拣货效率至少能翻一倍。&lt;/p>
+&lt;p>用波次拣货——把同一时间段内的几十个订单合并成一批，按仓库动线规划拣货路径。拣货员走一趟，能把几十个订单全拣完，回到分拣台再按订单分。&lt;/p>
+&lt;p>波次拣货不需要什么高科技，一个简单的WMS系统就够了。成本几千块，效率提升至少50%。&lt;/p>
+&lt;h3 id="第三斧包装标准化">第三斧：包装标准化&lt;/h3>
+&lt;p>如果你的纸箱规格有20种，每种箱子装什么靠&amp;quot;经验&amp;quot;，那你的打包效率至少浪费了30%。&lt;/p>
+&lt;p>做一件事：把SKU按尺寸分类，定3-5种标准纸箱，然后写一个&amp;quot;什么SKU用什么箱&amp;quot;的标准操作手册。&lt;/p>
+&lt;p>打包效率立竿见影就上来了，而且运输费用也会降——标准箱的装载率比五花八门的箱子高得多。&lt;/p>
+&lt;h2 id="自动化应该先上哪一个最实用的优先级排序">自动化应该先上哪？一个最实用的优先级排序&lt;/h2>
+&lt;p>如果你确认需要上自动化了，按这个顺序来：&lt;/p>
+&lt;p>&lt;strong>第一优先：电子标签拣货系统（Pick-to-Light）&lt;/strong>&lt;/p>
+&lt;p>投资小（几万到十几万），见效快，操作简单。货位上有灯，灯亮了你拿，拿完了按灭。出错率从3-5%降到0.1%以下。ROI通常在6-12个月内回收。&lt;/p>
+&lt;p>&lt;strong>第二优先：输送线+分拣系统&lt;/strong>&lt;/p>
+&lt;p>如果你每天订单超过500单，输送线是性价比最高的自动化投资。它解决的是&amp;quot;人跑来跑去&amp;quot;的问题，让货动人不跑。成本从十几万到几十万不等，一般1-2年回收。&lt;/p>
+&lt;p>&lt;strong>第三优先：码垛机器人/无人叉车&lt;/strong>&lt;/p>
+&lt;p>如果出库量大、搬运距离远、工伤风险高（比如冷库），考虑无人叉车。单台成本10-30万，需要平整地面和配套的调度系统。&lt;/p>
+&lt;p>&lt;strong>最后才考虑：全自动AGV/ASRS&lt;/strong>&lt;/p>
+&lt;p>成本高（百万级起），实施周期长（半年起），对仓库条件要求高。除非你的日订单量超过5000单、人工成本太高、招人困难，否则不要轻易上全自动。&lt;/p>
+&lt;h2 id="说了这么多总结三句话">说了这么多，总结三句话&lt;/h2>
+&lt;p>第一句：**自动化解决的是规模问题，不是管理问题。**你管理流程都没跑通就想上自动化，那是花钱给自己添乱。&lt;/p>
+&lt;p>第二句：**先优化流程，再上工具。**把动线调好、拣货路径规划好、包装标准化，这些做好了，效率提升常常比上设备还大。&lt;/p>
+&lt;p>第三句：**自动化不是一次性投资，是长期运营。**设备要维护、系统要升级、人要被培训。如果你们公司连IT团队都没有，那你上全自动就是请了个爷回来供着。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item></channel></rss>

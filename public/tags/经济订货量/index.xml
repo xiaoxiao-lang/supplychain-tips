@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>你算了三年的经济订货量，90%的时候是在自欺欺人</title><link>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</guid><description>&lt;p>供应链专业毕业的人，没有不知道EOQ的。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>经济订货量算了个寂寞？3个原因让你白算了</title><link>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</guid><description>&lt;p>上学的时候，EOQ（经济订货量）公式是考试必考题。Q* = √(2DS/H)，背得滚瓜烂熟。&lt;/p>
+&lt;p>工作以后，我拿这个公式去算采购批量，结果被采购经理一句话怼回来：&amp;ldquo;你算的这个数，供应商根本不接单。&amp;rdquo;&lt;/p>
+&lt;p>后来我才明白，&lt;strong>EOQ不是算错了，是它的假设前提跟现实差了十万八千里。&lt;/strong>&lt;/p>
+&lt;h2 id="原因一eoq的假设条件在现实中几乎不存在">原因一：EOQ的假设条件在现实中几乎不存在&lt;/h2>
+&lt;p>EOQ公式的推导基于几个核心假设：&lt;/p>
+&lt;ul>
+&lt;li>需求是均匀稳定的&lt;/li>
+&lt;li>提前期是固定的&lt;/li>
+&lt;li>没有数量折扣&lt;/li>
+&lt;li>不存在缺货&lt;/li>
+&lt;li>单位持有成本是常数&lt;/li>
+&lt;/ul>
+&lt;p>但现实是什么样？&lt;/p>
+&lt;p>需求忽高忽低，旺季是淡季的5倍；供应商提前期从7天到30天都有可能；大批量采购有3%的折扣；缺货成本根本算不出来；仓库租金和资金成本也一直在变。&lt;/p>
+&lt;p>&lt;strong>在一个动态的现实世界里，用静态的公式去算最优批量，本身就是个悖论。&lt;/strong>&lt;/p>
+&lt;p>有个做MRO采购的朋友，用EOQ算出来的最优批量是237个，但供应商的包装规格是250个一箱。237个怎么买？拆箱？供应商不干。买250个？那就偏离了&amp;quot;最优&amp;quot;。&lt;/p>
+&lt;h2 id="原因二参数取值全靠拍脑袋">原因二：参数取值全靠拍脑袋&lt;/h2>
+&lt;p>EOQ公式需要三个输入：年需求量D、每次订货成本S、单位持有成本H。&lt;/p>
+&lt;p>D还好说，历史数据拉一拉就能估出来。但S和H呢？&lt;/p>
+&lt;p>&lt;strong>订货成本S&lt;/strong> 包括：下单的人工成本、审核成本、收货检验成本、入库成本、付款对账成本。这些成本大部分是间接的，跟订单量没有明确的线性关系。你下单10个和下单1000个，审核流程一样，收货检验的时间也差不多。所以S到底该算多少？100块？500块？不同人算出来的数差10倍都有可能。&lt;/p>
+&lt;p>&lt;strong>持有成本H&lt;/strong> 更离谱。资金成本、仓储成本、损耗成本、过时风险……资金成本还好算（按银行利率），但过时风险怎么量化？有些物料放半年就过时了，有些放3年都没事。&lt;/p>
+&lt;p>&lt;strong>输入是垃圾，输出就是垃圾。&lt;/strong> 这不是公式的问题，是参数的问题。&lt;/p>
+&lt;h2 id="原因三忽略了价格折扣和运输成本">原因三：忽略了价格折扣和运输成本&lt;/h2>
+&lt;p>这是EOQ最大的盲区。&lt;/p>
+&lt;p>假设供应商给了你一个价格阶梯：1000个以下单价10元，1000-5000个单价9.5元，5000个以上单价9元。&lt;/p>
+&lt;p>你用EOQ算出来最优批量是800个，单价10元，总成本=采购成本+订货成本+持有成本。&lt;/p>
+&lt;p>但如果你买1000个，虽然偏离了EOQ的&amp;quot;最优&amp;quot;，但单价降了5%，省下来的钱可能远超多出来的持有成本。&lt;/p>
+&lt;p>&lt;strong>运输成本也一样。&lt;/strong> 你的EOQ算出来是500个，但一车能装2000个。500个走零担运费2000块，2000个走整车运费3500块。分摊到每个单位，零担4块/个，整车1.75块/个。&lt;/p>
+&lt;p>这时候你还坚持EOQ的500个吗？&lt;/p>
+&lt;h2 id="那到底该怎么用">那到底该怎么用？&lt;/h2>
+&lt;p>EOQ不是废的，但不能直接套用。我的实操经验是：&lt;/p>
+&lt;p>&lt;strong>1. 把EOQ当起点，不当终点&lt;/strong>&lt;/p>
+&lt;p>算出来的Q*是一个参考值，不是最终答案。在这个基础上，考虑包装规格、价格折扣、运输经济批量等因素，做向上或向下的调整。&lt;/p>
+&lt;p>&lt;strong>2. 用EOQ的思路，不用EOQ的公式&lt;/strong>&lt;/p>
+&lt;p>EOQ的核心思想是：订货成本和持有成本之间的平衡。这个思路是对的，但平衡点不一定是公式算出来的那个数。你可以用模拟的方法，把不同的批量方案对应的总成本算出来，选成本最低的那个。&lt;/p>
+&lt;p>&lt;strong>3. 区分物料特性&lt;/strong>&lt;/p>
+&lt;p>A类物料（金额大、需求相对稳定）可以用EOQ的思路优化；C类物料（金额小、SKU多）用简单的再订货点法就行，不值得花时间算EOQ。&lt;/p>
+&lt;p>&lt;strong>4. 加入现实约束&lt;/strong>&lt;/p>
+&lt;p>在EOQ基础上加约束条件：最小起订量、包装规格倍数、价格阶梯、运输批量。这些约束会让&amp;quot;理论最优&amp;quot;变成&amp;quot;实际可行最优&amp;quot;。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>EOQ公式没有错，错的是生搬硬套。公式给你的是一个思考框架，不是一个标准答案。&lt;/p>
+&lt;p>真正的高手，不是会背公式的人，而是知道公式在什么条件下失效、怎么调整的人。&lt;/p>
+&lt;p>记住：&lt;strong>供应链管理是工程问题，不是数学题。&lt;/strong>&lt;/p></description></item><item><title>你算了三年的经济订货量，90%的时候是在自欺欺人</title><link>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-reality-check/</guid><description>&lt;p>供应链专业毕业的人，没有不知道EOQ的。&lt;/p>
 &lt;p>经济订货量。Q* = sqrt(2DS/H)。我到现在还能闭着眼睛写出来。&lt;/p>
 &lt;p>但干了十年供应链之后，我告诉你一句大实话：&lt;strong>这十年里，我真正用EOQ公式下过的采购单，不超过10次。&lt;/strong>&lt;/p>
 &lt;p>不是公式不对，是现实不跟你讲前提假设。&lt;/p>

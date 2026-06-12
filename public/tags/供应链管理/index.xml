@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/</link><description>Recent content in 供应链管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/</link><description>Recent content in 供应链管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链协同做了3年还是各干各的？问题不在IT系统</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</guid><description>&lt;p>去年一个做电子的朋友找我诉苦。&lt;/p>
+&lt;p>他公司2023年上了SAP，又花了两百万做了个供应链协同平台。供应商能看到他的生产计划，他能看到供应商的库存水位。数据跑通了，系统打通了，按说应该万事大吉。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>采购部还在压供应商的价，理由是&amp;quot;这是我的KPI&amp;quot;。
+销售部接了个大单，不跟生产打招呼，直接拍胸脯说15天交货。
+生产部接到订单开始备料，发现关键物料库存不够，找采购，采购说&amp;quot;供应商涨价，我没批，所以没下单&amp;quot;。
+最后订单延期20天，客户罚款30万。&lt;/p>
+&lt;p>朋友懵了：&amp;ldquo;我花几百万做的协同平台，他们全当没看见，还是各干各的。&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;因为你搞错了一件事。供应链协同的核心从来不是IT系统，是利益对齐。&amp;rdquo;&lt;/p>
+&lt;h2 id="it系统解决的是信息问题不是利益问题">IT系统解决的是信息问题，不是利益问题&lt;/h2>
+&lt;p>大多数公司对供应链协同的理解还停留在&amp;quot;信息共享&amp;quot;的层面：你看我的库存，我看你的计划，大家信息透明了，自然就协同了。&lt;/p>
+&lt;p>这是童话故事。&lt;/p>
+&lt;p>真正的供应链协同不是&amp;quot;我知道了你的情况所以我会配合你&amp;quot;，而是**&amp;ldquo;配合你对我也好所以我才配合你&amp;rdquo;**。&lt;/p>
+&lt;p>举个例子。我朋友公司的情况是这样的：&lt;/p>
+&lt;ul>
+&lt;li>采购的KPI是降本5%。所以不管什么情况，先压价再说。&lt;/li>
+&lt;li>生产的KPI是准时交付率。所以他们希望库存越多越好，最好所有料都在仓库等着。&lt;/li>
+&lt;li>销售的KPI是签单额。所以他们只管签单，不管能不能交。&lt;/li>
+&lt;li>供应商的诉求是多卖货、快回款。但采购压价+拖款，哪个供应商愿意跟你&amp;quot;协同&amp;quot;？&lt;/li>
+&lt;/ul>
+&lt;p>你看，每个人的KPI都在打架。你给他们一个再先进的协同平台，有什么用？他们还是会按自己的KPI干活。&lt;/p>
+&lt;p>&lt;strong>协同的前提是：大家的利益方向一致。如果销售签单等于生产背锅，你就永远不可能协同。&lt;/strong>&lt;/p>
+&lt;h2 id="三个让协同真正落地的方法">三个让协同真正落地的方法&lt;/h2>
+&lt;h3 id="方法一把别人的kpi变成我的kpi">方法一：把&amp;quot;别人的KPI&amp;quot;变成&amp;quot;我的KPI&amp;quot;&lt;/h3>
+&lt;p>我给我朋友的建议很简单：改KPI。&lt;/p>
+&lt;p>采购的KPI从&amp;quot;降本5%&amp;ldquo;改成&amp;quot;总拥有成本降低5%&amp;quot;。&lt;/p>
+&lt;p>什么意思？如果采购多花3%买了一家交期更稳定的供应商的料，导致生产线没停过，省下来的停工损失远不止3%。这笔账，要算在采购头上。&lt;/p>
+&lt;p>销售的KPI从&amp;quot;签单额&amp;quot;改成&amp;quot;签单额×准时交付率&amp;rdquo;。&lt;/p>
+&lt;p>如果销售接了一个交不出来的单，准时交付率下跌，他的奖金也跟着跌。你看他还敢不敢乱接单？&lt;/p>
+&lt;p>生产部的KPI从&amp;quot;准时交付率&amp;quot;改成&amp;quot;准时交付率×库存周转率&amp;quot;。&lt;/p>
+&lt;p>这样生产就不能张口就要安全库存翻倍，因为他们也得为库存成本买单。&lt;/p>
+&lt;p>三个部门的KPI里都有了&amp;quot;别人的事&amp;quot;，他们就会主动去跟别人协同。&lt;/p>
+&lt;p>不用开协同会议，不用催，他自己会去。&lt;/p>
+&lt;h3 id="方法二让供应商变成你的虚拟部门">方法二：让供应商变成你的&amp;quot;虚拟部门&amp;quot;&lt;/h3>
+&lt;p>我们总说&amp;quot;供应商是我们的合作伙伴&amp;quot;，但行为上呢？压价、拖款、临时改需求。&lt;/p>
+&lt;p>你管这叫合作伙伴？&lt;/p>
+&lt;p>真正的供应链协同，是把核心供应商当&lt;strong>虚拟部门&lt;/strong>来管理。什么意思？&lt;/p>
+&lt;p>第一，跟核心供应商签年度框架合同，不玩一单一议。让他知道今年大概有多少量，他才能做产能规划。&lt;/p>
+&lt;p>第二，把自己的生产计划提前同步给供应商。不是提前一周，是提前一个月、一个季度。供应商看到了确定的量，他就敢备库存，你的交期就短了。&lt;/p>
+&lt;p>第三，对核心供应商的回款周期缩短。别人60天，他30天。他资金周转快，自然愿意给你更好的价格和服务。&lt;/p>
+&lt;p>我见过最极端的案例：一家做汽车零部件的公司，对前三名供应商的回款周期是15天。结果这三家供应商在产能紧张的时候，优先保他们的货。因为对供应商来说，15天回款的客户就是最好的客户。&lt;/p>
+&lt;p>&lt;strong>你对供应商好，供应商就对你好。供应链协同说到底就这么简单。&lt;/strong>&lt;/p>
+&lt;h3 id="方法三按场景做协同别搞大而全">方法三：按场景做协同，别搞大而全&lt;/h3>
+&lt;p>很多公司上协同平台的时候，想把所有流程、所有供应商全拉进来。结果就是谁都嫌麻烦，谁都不配合。&lt;/p>
+&lt;p>我建议：先找一个最痛的场景，只在这个场景里做协同，跑顺了再扩。&lt;/p>
+&lt;p>比如你们公司最痛的是&amp;quot;紧急插单导致物料短缺&amp;quot;。那就只做这个场景的协同：销售一旦有插单意向，立刻在协同平台上发起需求，生产评估物料，采购马上跟供应商确认物料交期，三方在一个平台上24小时内给结论。&lt;/p>
+&lt;p>别的场景别管，先把这个跑通。&lt;/p>
+&lt;p>跑通了，大家尝到了甜头，自然会推着你去扩。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>供应链协同不是你买个系统、让大家把数据共享了就完了。&lt;/p>
+&lt;p>协同的本质是&lt;strong>利益重新分配&lt;/strong>。你要让每个参与方都觉得&amp;quot;协同对我有利&amp;quot;，而不是&amp;quot;协同是配合别人给我添麻烦&amp;quot;。&lt;/p>
+&lt;p>这个道理看起来简单，但90%的公司都做不到。因为他们宁可花几百万买系统，也不愿意花一天时间把KPI改合理。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>库存周转率翻3倍，我把死库存变成了活现金</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</guid><description>&lt;p>2023年年底，我接手了一家年销售额2个亿的贸易公司的供应链。&lt;/p>
+&lt;p>老板给我看了一张表：库存账面价值3800万。全年销售成本1.52亿。&lt;/p>
+&lt;p>一算，库存周转率 = 1.52亿 ÷ 3800万 = 4次。&lt;/p>
+&lt;p>一年才转4圈。3800万的货，在仓库里平均躺90天才动一次。&lt;/p>
+&lt;p>老板苦笑着说：&amp;ldquo;我知道这个数不对，但不知道怎么办。&amp;rdquo;&lt;/p>
+&lt;p>三个月后，库存降到1600万，周转率提到9.5次。又过了三个月，库存1200万，周转率12.7次。硬生生从仓库里挤出了2600万现金。&lt;/p>
+&lt;p>今天就把这套方法讲透。&lt;/p>
+&lt;h2 id="90的人算错了库存周转率你也算错了">90%的人算错了库存周转率，你也算错了&lt;/h2>
+&lt;p>先问你一个问题：你们公司的库存周转率怎么算的？&lt;/p>
+&lt;p>我猜你会说：销货成本 ÷ 平均库存。&lt;/p>
+&lt;p>对，公式没毛病。但问题是——你的&amp;quot;销货成本&amp;quot;和&amp;quot;平均库存&amp;quot;这两个数，用对了吗？&lt;/p>
+&lt;p>我见过最荒唐的算法：某公司把寄售库存也算进了自己的平均库存。寄售啊大哥，东西在你仓库，但所有权是供应商的，你都没付钱，算什么库存？&lt;/p>
+&lt;p>还有把在途库存、预付款订金、甚至已经报废还没走流程的呆滞品全算进去了。账面上库存3800万，实际能用的只有2800万。&lt;/p>
+&lt;p>另外一个坑是销货成本。有人把仓储费、运输费、甚至采购部门的工资都算进去了。这不是销货成本，这是期间费用。&lt;/p>
+&lt;p>&lt;strong>库存周转率不准，后面的所有分析和决策全是自嗨。&lt;/strong>&lt;/p>
+&lt;h2 id="别光盯着总周转率你该拆开看">别光盯着总周转率，你该拆开看&lt;/h2>
+&lt;p>很多公司只看一个总的库存周转率，然后发现&amp;quot;还行啊，8次&amp;quot;。但拆开一看——&lt;/p>
+&lt;p>A类产品周转率25次，B类3次，C类0.8次。&lt;/p>
+&lt;p>0.8次是什么概念？一年都卖不掉一批货。这说明你的C类产品就是一堆废铁，在仓库里吃灰、占地方、吃仓储费。&lt;/p>
+&lt;p>我当时的做法是：按ABC分类拆开算周转率。&lt;/p>
+&lt;p>A类（前20% SKU，占70%销售额）：目标周转率15-25次
+B类（中间30% SKU，占20%销售额）：目标周转率6-10次
+C类（后50% SKU，占10%销售额）：目标周转率3-5次，低于3次的直接砍&lt;/p>
+&lt;p>这个分类一做完，3800万库存里有1100万是C类产品，周转率连2次都不到。其中600万的东西，已经放了一年半以上。&lt;/p>
+&lt;p>你说这些是什么？不是库存，是坏账。&lt;/p>
+&lt;h2 id="提高周转率的三板斧">提高周转率的三板斧&lt;/h2>
+&lt;h3 id="第一板斧砍掉那些看起来有用的东西">第一板斧：砍掉那些&amp;quot;看起来有用&amp;quot;的东西&lt;/h3>
+&lt;p>我们当时做了一件事：把所有库存按&amp;quot;最近90天是否有出库&amp;quot;分了两类。&lt;/p>
+&lt;p>有出库的：正常管理。
+没出库的：标记，然后给业务部门30天时间，要么卖掉，要么报废。&lt;/p>
+&lt;p>结果业务部门急了。他们开始主动联系客户清库存、搞促销、换货。30天后，300万的&amp;quot;死货&amp;quot;变成了现金。&lt;/p>
+&lt;p>你知道为什么之前没人清这些库存吗？因为没人觉得这是自己的问题。采购觉得&amp;quot;我买进来的时候是老板批的&amp;quot;，销售觉得&amp;quot;滞销是产品问题不是我的问题&amp;quot;，仓库觉得&amp;quot;我只管存放不管卖&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>库存周转率的敌人不是缺流程，是缺责任人。&lt;/strong>&lt;/p>
+&lt;h3 id="第二板斧采购不是买越多越便宜">第二板斧：采购不是买越多越便宜&lt;/h3>
+&lt;p>我们当时的采购有个陋习：供应商说&amp;quot;一次买1000个，单价便宜15%&amp;quot;，采购就买了1000个。&lt;/p>
+&lt;p>结果这1000个卖了8个月才卖完。单价便宜15%，但资金占用8个月，加上仓储费、管理费、过时风险，实际成本比小批量高频次采购高了至少20%。&lt;/p>
+&lt;p>我跟采购说了一句话：&amp;ldquo;从现在开始，你不考核单价，考核库存周转天数。谁的周转天数低于30天，奖金翻倍。&amp;rdquo;&lt;/p>
+&lt;p>两个月后，采购部门主动跟供应商谈小批量、多批次供货。价格是涨了3%，但库存降了40%，资金成本省了不少。&lt;/p>
+&lt;p>&lt;strong>记住一句话：采购单价降1%的爽感，远不如库存周转率提升一倍的实在。&lt;/strong>&lt;/p>
+&lt;h3 id="第三板斧安全库存不是越安全越好">第三板斧：安全库存不是越安全越好&lt;/h3>
+&lt;p>很多人设安全库存只有一个原则：越多越安全。&lt;/p>
+&lt;p>完全错了。安全库存应该是算出来的，不是拍出来的。&lt;/p>
+&lt;p>公式就在那里：安全库存 = Z × σ × √LT&lt;/p>
+&lt;p>Z是你的服务水平的Z值，σ是需求波动的标准差，LT是补货提前期。&lt;/p>
+&lt;p>你服务水平设99.9%，Z就是3.09，安全库存自然高。设95%，Z就是1.65，安全库存直接砍半。&lt;/p>
+&lt;p>我们当时把服务水平从99%调到95%，安全库存直接降了35%。缺货率？从0.3%变成了1.2%，高了不到一个点，但省出来的库存资金是几百万。&lt;/p>
+&lt;p>&lt;strong>极致的安全是拿钱堆出来的。你是不是真的需要这么安全，先问问钱包。&lt;/strong>&lt;/p>
+&lt;h2 id="别把库存周转率当成唯一指标">别把库存周转率当成唯一指标&lt;/h2>
+&lt;p>最后说一句得罪人的话：库存周转率也不是越高越好。&lt;/p>
+&lt;p>我见过有公司把周转率做到30次，结果是天天断货。客户下单没有现货，等一周才能到货，客户直接跑了。&lt;/p>
+&lt;p>库存周转率是用来衡量效率的，但效率的前提是&lt;strong>不丢客户&lt;/strong>。如果为了提高周转率把客户丢了，那叫本末倒置。&lt;/p>
+&lt;p>好的库存管理，是在不缺货和不多压资金之间，找到那个最舒服的点。这个点没法靠公式算出来，只能靠你对业务的判断。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>被欧盟罚了800万才懂：绿色供应链不是做公益，是保命</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</guid><description>&lt;p>2025年，一家做汽车零配件的浙江企业被欧盟客户暂停了供货资格。&lt;/p>
+&lt;p>原因？客户要求所有供应商2025年底前完成碳排放核算，这家公司根本没做。不是不想做，是不知道怎么做，也没人告诉他们这有多严重。&lt;/p>
+&lt;p>三个月后，他们补了核算、做了减排方案、甚至花大价钱买了绿电，才重新拿回订单。但这三个月，丢了3000万的订单。&lt;/p>
+&lt;p>这不是段子，这是2026年的现实。绿色供应链已经不是&amp;quot;加分项&amp;quot;，而是&amp;quot;准入条件&amp;quot;。&lt;/p>
+&lt;h2 id="不是你想不想做是你不得不做">不是你想不想做，是你不得不做&lt;/h2>
+&lt;p>2026年，三条高压线已经落地了：&lt;/p>
+&lt;p>&lt;strong>第一条：欧盟碳边境调节机制（CBAM）。&lt;/strong> 2026年起，进口到欧盟的钢铁、铝、水泥、化肥、电力和氢，必须报告碳排放量。2027年开始，碳含量超标的要被征收碳关税。&lt;/p>
+&lt;p>你说&amp;quot;我不做欧盟业务&amp;quot;？随便。但你的客户如果做欧盟业务，他就要你提供碳数据。&lt;/p>
+&lt;p>&lt;strong>第二条：大客户的ESG供应链审查。&lt;/strong> 苹果、特斯拉、大众、沃尔玛这些巨头，都在要求供应商提供碳排放数据、使用可再生电力、披露供应链中的环境风险。你达不了标，轻则被要求整改，重则直接踢出供应商名单。&lt;/p>
+&lt;p>&lt;strong>第三条：国内的双碳目标。&lt;/strong> 2030年碳达峰、2060年碳中和，这不是口号。高碳排放的供应链环节，迟早要被限制。&lt;/p>
+&lt;p>这三条线加在一起，就是一句话：&lt;strong>你的供应链不绿，客户就不跟你玩。&lt;/strong>&lt;/p>
+&lt;h2 id="但是别一上来就喊碳中和">但是，别一上来就喊&amp;quot;碳中和&amp;quot;&lt;/h2>
+&lt;p>太多公司一听到绿色供应链，就开始喊&amp;quot;我们要2030年前碳中和&amp;quot;。&lt;/p>
+&lt;p>打住。&lt;/p>
+&lt;p>你没算过你家供应链的碳排放，你都不知道自己排了多少。怎么中和？&lt;/p>
+&lt;p>绿色供应链的落地路径不是&amp;quot;喊口号→花钱买碳汇→宣布碳中和&amp;quot;，而是：&lt;strong>先量化、再减量、最后再谈中和。&lt;/strong>&lt;/p>
+&lt;h3 id="第一步把你家供应链的碳账算清楚">第一步：把你家供应链的碳账算清楚&lt;/h3>
+&lt;p>碳排放分三个范围（Scope）：&lt;/p>
+&lt;p>&lt;strong>Scope 1：&lt;/strong> 自己直接烧的。比如你工厂锅炉烧的天然气、货车烧的柴油。
+&lt;strong>Scope 2：&lt;/strong> 买来的。你用了多少电，电厂的排放算在你头上。
+&lt;strong>Scope 3：&lt;/strong> 上下游产生的。你买的原材料在生产过程中排的、你的产品运到客户手上的运输排放、甚至你的员工出差坐飞机的排放。&lt;/p>
+&lt;p>大部分制造企业的碳排放，Scope 3（供应链的碳排放）占总排放的70-90%。&lt;/p>
+&lt;p>很多人只看Scope 1和Scope 2——自己工厂的排放。觉得自己烧的天然气不多、用电也不多，碳排放还好啊。&lt;/p>
+&lt;p>&lt;strong>但真正的碳大户在供应链上。&lt;/strong> 比如你买一批铝锭，生产这些铝锭排放的碳是你的Scope 3。这笔碳远比你整个工厂的排放大多了。&lt;/p>
+&lt;p>所以第一件事：搞清楚你家Scope 1、2、3到底各排了多少。不需要一开始就精确到小数点，有个数量级就行。找一家碳核算服务商，花几万块钱就能做。&lt;/p>
+&lt;h3 id="第二步从花钱最少的减排开始">第二步：从花钱最少的减排开始&lt;/h3>
+&lt;p>算完了碳账，你会发现有些减排几乎不花钱：&lt;/p>
+&lt;p>&lt;strong>换绿电。&lt;/strong> 如果你们在广东、江苏等有绿电交易的省份，采购绿电的成本只比常规电高10-15%。但这部分排放直接从Scope 2里清零。&lt;/p>
+&lt;p>&lt;strong>换新能源物流车。&lt;/strong> 城配的最后一公里用新能源车，油费能省一半，还减了碳。&lt;/p>
+&lt;p>&lt;strong>包装减量。&lt;/strong> 过度包装是双重浪费——材料浪费+运输浪费（更大体积=更多运输排放）。有些公司优化包装后，运输碳排放降了15%。&lt;/p>
+&lt;p>&lt;strong>要求核心供应商用绿电。&lt;/strong> 你买不起绿电没关系，让你的大供应商买。他是你的Scope 3，他要减排才对你有帮助。&lt;/p>
+&lt;p>这些都是低成本的减排动作，一年内能出成果。&lt;/p>
+&lt;h3 id="第三步别被骗去买碳汇">第三步：别被骗去买&amp;quot;碳汇&amp;quot;&lt;/h3>
+&lt;p>市面上有很多&amp;quot;碳中和认证服务&amp;quot;——你花几万块钱，买一些碳汇，就给你发一张&amp;quot;碳中和证书&amp;quot;。&lt;/p>
+&lt;p>说白了就是花钱买赎罪券。&lt;/p>
+&lt;p>这个东西，在客户那里的信任度正在快速下降。特斯拉、苹果这些大厂越来越不认碳汇了，他们要的是&lt;strong>实际减排&lt;/strong>。&lt;/p>
+&lt;p>你花50万买碳汇，不如花50万换绿电或者做节能改造。前者只是一个数字游戏，后者是真的降了排放、还省了长期成本。&lt;/p>
+&lt;h2 id="绿色供应链怎么做到不亏钱">绿色供应链怎么做到不亏钱？&lt;/h2>
+&lt;p>很多人认为绿色供应链就是花钱——加成本、降利润。&lt;/p>
+&lt;p>完全错了。&lt;strong>做得好，绿色供应链省钱。&lt;/strong>&lt;/p>
+&lt;p>举几个真实例子：&lt;/p>
+&lt;p>某快消品公司做物流路径优化，把分散在全国的多个区域仓整合成了3个枢纽仓+卫星仓网络。整合后运输距离减少了22%，碳排放降了20%，物流成本也降了22%。&lt;strong>既是绿色，也是降本。&lt;/strong>&lt;/p>
+&lt;p>某电子厂把产品包装从厚重的塑料盒改成了环保纸浆模塑包装。材料成本没变，但体积小了30%，一个集装箱能多装40%的货，单件运输成本大降。&lt;strong>环境收益=经济收益。&lt;/strong>&lt;/p>
+&lt;p>某食品公司把冷链仓库的制冷系统做了节能改造，换了更高效的压缩机+变频控制。花了80万，每年省电费35万，两年多就回收了投资，之后全是净赚。&lt;strong>减排=节能=省钱。&lt;/strong>&lt;/p>
+&lt;p>所以不要把绿色供应链等同于&amp;quot;成本增加&amp;quot;。它本质上是一次运营优化——把浪费减掉，把效率提上来。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>绿色供应链不是选择题，是必答题。&lt;/p>
+&lt;p>欧盟的碳关税不会因为你觉得麻烦就不收了。大客户的ESG审查不会因为你说&amp;quot;我们准备做&amp;quot;就不查了。&lt;/p>
+&lt;p>你早做，比别人先拿到合规证书、先优化好碳排放数据、先在客户的绿色供应商名单里占一个坑，这就是你的竞争优势。&lt;/p></description></item><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
 &lt;p>&amp;ldquo;A类是金额大的，要重点管。B类是中间的，正常管。C类是金额小的，随便管。&amp;rdquo;&lt;/p>
 &lt;p>这套话术在供应链圈子里讲了三十年。但真正做对的人，不到10%。&lt;/p>
 &lt;h2 id="按金额分类是abc分类法最大的坑">按金额分类，是ABC分类法最大的坑&lt;/h2>

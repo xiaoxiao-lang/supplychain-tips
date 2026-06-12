@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库面积不够用？3个方法比扩仓便宜10倍</title><link>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</guid><description>&lt;h2 id="仓库不够用别急着扩仓">仓库不够用？别急着扩仓&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
+&lt;p>你以为库存管理就是收货、上架、出库？那你的库存准确率永远上不了95%。&lt;/p>
+&lt;p>今天我把3年踩过的5个坑掰开来讲，每一条都是真金白银换来的。&lt;/p>
+&lt;h2 id="铁律一盘点频率不是拍脑袋定的">铁律一：盘点频率不是拍脑袋定的&lt;/h2>
+&lt;p>我刚入行的时候，仓库一年盘两次点——年中一次，年底一次。每次盘点全仓停发3天，20多号人从早上8点盘到晚上10点，最后准确率89%。&lt;/p>
+&lt;p>领导嫌低，让我想办法。&lt;/p>
+&lt;p>我研究了一圈发现，问题出在盘点频率上。A类物料（占库存金额70%的那20%SKU）每周盘一次，B类每月盘一次，C类每季度盘一次。听起来很合理对吧？&lt;/p>
+&lt;p>但实际操作下来，A类物料周转快，一周之内就可能发生几十笔出入库，光靠每周盘点根本追不上差异产生的速度。&lt;/p>
+&lt;p>&lt;strong>真正的做法是：A类物料用循环盘点，每天盘一小批，一周覆盖全部A类。&lt;/strong>&lt;/p>
+&lt;p>这样每次只盘20-30个SKU，不影响正常作业，差异当天发现当天处理。改了以后，A类库存准确率从89%直接拉到97%。&lt;/p>
+&lt;h2 id="铁律二安全库存不是越多越安全">铁律二：安全库存不是越多越安全&lt;/h2>
+&lt;p>&amp;ldquo;多备点总没错&amp;rdquo;——这是库存管理最大的谎言。&lt;/p>
+&lt;p>我之前负责一个电子元器件的仓库，有个采购同事特别&amp;quot;谨慎&amp;quot;，每个SKU的安全库存都设了3个月的量。结果呢？仓库里堆了价值800万的呆滞库存，其中一半是已经停产的老型号。&lt;/p>
+&lt;p>安全库存的计算公式课本上都有：安全库存 = Z值 × 标准差 × √提前期。但公式没告诉你的是，&lt;strong>标准差算的是需求波动，你还得加上供应波动&lt;/strong>。&lt;/p>
+&lt;p>供应商延期交付的概率是多少？每次延期多久？这些数据你不统计，安全库存就是拍脑袋。&lt;/p>
+&lt;p>我后来的做法是：把安全库存拆成两个部分——需求安全库存和供应安全库存。需求部分用公式算，供应部分用供应商交付历史数据算。两个加起来才是真正的安全库存量。&lt;/p>
+&lt;p>改完以后，库存金额降了25%，缺货率反而从3.2%降到1.1%。&lt;/p>
+&lt;h2 id="铁律三abc分类不是分完就完事">铁律三：ABC分类不是分完就完事&lt;/h2>
+&lt;p>ABC分类法谁都会，按金额占比分成A、B、C三类，然后重点管A类。&lt;/p>
+&lt;p>但你有没有想过，&lt;strong>ABC分类是动态的&lt;/strong>？&lt;/p>
+&lt;p>去年某个月，一个C类物料突然变成A类——因为客户临时下了个大单，这个SKU的消耗量突然翻了10倍。但我们的采购策略还是按C类走，最低起订量、最长的采购周期，结果紧急调货花了3倍的运费。&lt;/p>
+&lt;p>&lt;strong>ABC分类必须定期更新，至少每季度重新算一次。&lt;/strong> 而且不能只看金额，还得看需求波动性。有些SKU金额不大但波动剧烈，这种也是重点管控对象。&lt;/p>
+&lt;h2 id="铁律四先进先出不是喊口号就能实现的">铁律四：先进先出不是喊口号就能实现的&lt;/h2>
+&lt;p>&amp;ldquo;先进先出&amp;quot;四个字，每个仓库都贴在墙上，但真正能做到的不到30%。&lt;/p>
+&lt;p>为什么？因为先进先出需要系统支持+流程设计+员工执行，三个环节缺一不可。&lt;/p>
+&lt;p>我见过最离谱的例子：仓库用的系统根本没有批次管理功能，先进先出全靠库管员的记忆。一个管了5年老仓库的大姐确实能做到，但大姐请了一天假，整个仓库的先进先出就崩了。&lt;/p>
+&lt;p>&lt;strong>先进先出的底层是批次管理。&lt;/strong> 系统要能记录每个批次的入库时间，出库时自动推荐最早批次。物理存储上，要用流利架或者双面架，确保先进去的先出来。&lt;/p>
+&lt;p>如果这些条件不具备，先进先出就是一句空话。&lt;/p>
+&lt;h2 id="铁律五库存周转率不是越高越好">铁律五：库存周转率不是越高越好&lt;/h2>
+&lt;p>老板最爱的KPI就是库存周转率，恨不得一年转20次。&lt;/p>
+&lt;p>但你把周转率拉到天上去，代价是什么？是频繁的小批量采购，是运输成本翻倍，是缺货风险飙升。&lt;/p>
+&lt;p>我在一家制造企业待过，财务把库存周转率目标定到了15次/年。采购为了完成指标，把每个SKU的采购批量压到最低，结果运输费用涨了40%，还因为频繁断料导致产线停了3次。&lt;/p>
+&lt;p>&lt;strong>库存周转率有个甜蜜点，不是越高越好。&lt;/strong> 这个甜蜜点取决于你的持有成本、订货成本和缺货成本三者之间的平衡。用EOQ公式算出来的批量，对应的就是最优周转率。&lt;/p>
+&lt;p>当然，EOQ也有局限性，但至少比拍脑袋强。&lt;/p>
+&lt;h2 id="最后说句实话">最后说句实话&lt;/h2>
+&lt;p>库存管理这件事，没有银弹。每个仓库的物料特性、供应商结构、客户需求都不一样，照搬别人的做法大概率水土不服。&lt;/p>
+&lt;p>但上面这5条铁律是通用的：循环盘点、动态安全库存、定期重算ABC、批次管理支撑先进先出、周转率找甜蜜点。&lt;/p>
+&lt;p>做到这5条，你的库存管理水平至少能超过80%的同行。&lt;/p></description></item><item><title>上AGV花了80万，效率不升反降？仓储自动化的真相扎心了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</guid><description>&lt;p>2024年初，一个做快消品的朋友找到我，说他刚给仓库上了一套AGV系统，花了80万。&lt;/p>
+&lt;p>我问他效果怎么样，他说：&amp;ldquo;别提了，发货效率反而降了15%。&amp;rdquo;&lt;/p>
+&lt;p>我愣了一下，问他为什么。&lt;/p>
+&lt;p>他说：&amp;ldquo;AGV跑得是快，但我们仓库地面不平，它经常卡住。货架也没改造，AGV对不准。员工也不会操作，天天报故障。最扯的是，旺季订单来了，AGV的速度根本跟不上，最后还是叫了临时工用手推车。&amp;rdquo;&lt;/p>
+&lt;p>80万的AGV系统，最后变成了仓库里的&amp;quot;高级装饰品&amp;quot;。&lt;/p>
+&lt;p>这就是仓储自动化的第一个真相：&lt;strong>不是自动化不好，是你没搞清楚自己该上什么级别的自动化。&lt;/strong>&lt;/p>
+&lt;h2 id="你的仓库到底需要什么先回答三个问题">你的仓库到底需要什么？先回答三个问题&lt;/h2>
+&lt;p>上自动化之前，先把这三个问题想明白：&lt;/p>
+&lt;p>&lt;strong>第一个问题：你的订单波动有多大？&lt;/strong>&lt;/p>
+&lt;p>如果你一年有6个月淡季、2个月平季、2个月旺季，旺季订单量是淡季的4倍。那你上固定产能的自动化设备，八成会出问题——淡季设备闲置，旺季产能不够。&lt;/p>
+&lt;p>这种情况下，你应该考虑的是一次性投入低、灵活性高的半自动化方案，比如拣选辅助系统、手持终端扫码+输送线，而不是上全自动AGV。&lt;/p>
+&lt;p>&lt;strong>第二个问题：你的SKU种类和包装规格有多复杂？&lt;/strong>&lt;/p>
+&lt;p>自动化设备最怕的就是&amp;quot;不标准&amp;quot;。如果你的SKU超过5000个，包装规格从5cm小件到2米大件都有，那自动化设备识别、抓取、搬运的难度和成本都会爆表。&lt;/p>
+&lt;p>这种情况下，你要先做的是SKU标准化和包装标准化，而不是急着上自动化。标准化做好了，效率能提升20-30%，成本几乎为零。&lt;/p>
+&lt;p>&lt;strong>第三个问题：你的订单结构是B2B还是B2C？&lt;/strong>&lt;/p>
+&lt;p>B2B是大批量、少批次。一件货可能是一整托盘，一辆车就装一两单。这种情况，自动化主要解决的是搬运问题。&lt;/p>
+&lt;p>B2C是小批量、多批次。一个订单可能就一两个小件，一辆车要装几百个订单。这种情况，自动化主要解决的是拣选和分拣问题。&lt;/p>
+&lt;p>两者需要的自动化方案完全不同。如果你的仓库B2B和B2C都要做，那对自动化的要求就更高了。&lt;/p>
+&lt;h2 id="上自动化之前的三板斧不花钱也能提升效率">上自动化之前的&amp;quot;三板斧&amp;quot;——不花钱也能提升效率&lt;/h2>
+&lt;p>在花一分钱买设备之前，先把这三件事做了：&lt;/p>
+&lt;h3 id="第一斧动线优化">第一斧：动线优化&lt;/h3>
+&lt;p>很多仓库拣货效率低，不是人走得慢，是路走得太远了。&lt;/p>
+&lt;p>我见过一个仓库，最常用的A类产品放在仓库最深处，B类放中间，C类放大门口。拣货员一天走两万步，其中一万五千步是在走A类产品的冤枉路。&lt;/p>
+&lt;p>把A类移到离发货区最近的位置后，拣货效率提升了30%。一分钱没花。&lt;/p>
+&lt;h3 id="第二斧拣货路径优化">第二斧：拣货路径优化&lt;/h3>
+&lt;p>如果你还在用&amp;quot;一张拣货单一个订单&amp;quot;的模式，那你的拣货效率至少能翻一倍。&lt;/p>
+&lt;p>用波次拣货——把同一时间段内的几十个订单合并成一批，按仓库动线规划拣货路径。拣货员走一趟，能把几十个订单全拣完，回到分拣台再按订单分。&lt;/p>
+&lt;p>波次拣货不需要什么高科技，一个简单的WMS系统就够了。成本几千块，效率提升至少50%。&lt;/p>
+&lt;h3 id="第三斧包装标准化">第三斧：包装标准化&lt;/h3>
+&lt;p>如果你的纸箱规格有20种，每种箱子装什么靠&amp;quot;经验&amp;quot;，那你的打包效率至少浪费了30%。&lt;/p>
+&lt;p>做一件事：把SKU按尺寸分类，定3-5种标准纸箱，然后写一个&amp;quot;什么SKU用什么箱&amp;quot;的标准操作手册。&lt;/p>
+&lt;p>打包效率立竿见影就上来了，而且运输费用也会降——标准箱的装载率比五花八门的箱子高得多。&lt;/p>
+&lt;h2 id="自动化应该先上哪一个最实用的优先级排序">自动化应该先上哪？一个最实用的优先级排序&lt;/h2>
+&lt;p>如果你确认需要上自动化了，按这个顺序来：&lt;/p>
+&lt;p>&lt;strong>第一优先：电子标签拣货系统（Pick-to-Light）&lt;/strong>&lt;/p>
+&lt;p>投资小（几万到十几万），见效快，操作简单。货位上有灯，灯亮了你拿，拿完了按灭。出错率从3-5%降到0.1%以下。ROI通常在6-12个月内回收。&lt;/p>
+&lt;p>&lt;strong>第二优先：输送线+分拣系统&lt;/strong>&lt;/p>
+&lt;p>如果你每天订单超过500单，输送线是性价比最高的自动化投资。它解决的是&amp;quot;人跑来跑去&amp;quot;的问题，让货动人不跑。成本从十几万到几十万不等，一般1-2年回收。&lt;/p>
+&lt;p>&lt;strong>第三优先：码垛机器人/无人叉车&lt;/strong>&lt;/p>
+&lt;p>如果出库量大、搬运距离远、工伤风险高（比如冷库），考虑无人叉车。单台成本10-30万，需要平整地面和配套的调度系统。&lt;/p>
+&lt;p>&lt;strong>最后才考虑：全自动AGV/ASRS&lt;/strong>&lt;/p>
+&lt;p>成本高（百万级起），实施周期长（半年起），对仓库条件要求高。除非你的日订单量超过5000单、人工成本太高、招人困难，否则不要轻易上全自动。&lt;/p>
+&lt;h2 id="说了这么多总结三句话">说了这么多，总结三句话&lt;/h2>
+&lt;p>第一句：**自动化解决的是规模问题，不是管理问题。**你管理流程都没跑通就想上自动化，那是花钱给自己添乱。&lt;/p>
+&lt;p>第二句：**先优化流程，再上工具。**把动线调好、拣货路径规划好、包装标准化，这些做好了，效率提升常常比上设备还大。&lt;/p>
+&lt;p>第三句：**自动化不是一次性投资，是长期运营。**设备要维护、系统要升级、人要被培训。如果你们公司连IT团队都没有，那你上全自动就是请了个爷回来供着。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>条码贴了3年，库存还是对不上？你缺的不是条码，是规则</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-essentials/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-essentials/</guid><description>&lt;p>先讲一个让我血压飙升的真实场景。&lt;/p>
+&lt;p>我去一个做建材的客户仓库，看到他们的条码管理，直接沉默了：&lt;/p>
+&lt;ul>
+&lt;li>同一种货，采购部贴的条码是&amp;quot;MAT-2024-钢-001&amp;quot;，仓库自己又贴了一个&amp;quot;GC-001&amp;quot;，财务系统里叫&amp;quot;STL-20240001&amp;quot;。&lt;/li>
+&lt;li>条码贴的方式也是五花八门：有的贴侧面、有的贴顶部、有的贴底部。扫码的时候，员工要先把货翻过来才能扫到。&lt;/li>
+&lt;li>一张入库单上印着条码，但入库的时候没人扫，事后在系统里手动&amp;quot;确认入库&amp;quot;。&lt;/li>
+&lt;li>盘点的时候，扫码枪扫出来的库存跟ERP对不上。仓库说&amp;quot;条码不准&amp;quot;，财务说&amp;quot;系统没问题&amp;quot;，最后谁也不知道到底是多少货。&lt;/li>
+&lt;/ul>
+&lt;p>然后他们老板跟我说：&amp;ldquo;我们条码管理上了3年了，怎么库存还老对不上？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你们上了一套条码工具，但没上一套管条码的规矩。&amp;rdquo;&lt;/p>
+&lt;h2 id="坑一一物三码条码唯一性的灾难">坑一：一物三码——条码唯一性的灾难&lt;/h2>
+&lt;p>条码管理的底线是：&lt;strong>一个编码只对应一种物料，一种物料只有一个编码。&lt;/strong>&lt;/p>
+&lt;p>这个道理谁都知道，但做起来很多人就犯了。不同的部门各自定义自己的编码规则，谁也不跟谁对齐。结果就是同一个物料在系统里有三个&amp;quot;身份&amp;quot;，谁也不知道该信哪个。&lt;/p>
+&lt;p>&lt;strong>解决办法：&lt;/strong> 在公司层面建一个统一的物料主数据管理规范。规定谁有权力创建新物料编码、新物料编码的审批流程、编码规则的唯一标准。新物料先在主数据系统里&amp;quot;落户&amp;quot;，再流转到各个业务系统里使用。&lt;/p>
+&lt;p>这个投入不大，但执行起来需要一把手拍板——跨部门的规则统一，光靠IT协调根本推不动。&lt;/p>
+&lt;h2 id="坑二条码贴在哪都没人管">坑二：条码贴在哪都没人管&lt;/h2>
+&lt;p>条码不是随便往哪一贴就行的。&lt;/p>
+&lt;p>我见过在圆柱形桶上贴平面条码的，扫码的时候码面弯曲，识别率不到60%。&lt;/p>
+&lt;p>也见过把条码贴在包装接缝处的，叉车一叉，条码直接撕烂了。&lt;/p>
+&lt;p>还有把条码贴在货物底部或者背面的，不把所有货搬开根本扫不到。&lt;/p>
+&lt;p>&lt;strong>条码的张贴规范，至少该包括这些：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>贴在哪？&lt;/strong> 每个品类规定固定的条码位置。比如纸箱贴在右上角、托盘贴在四面的同一高度。&lt;/li>
+&lt;li>&lt;strong>怎么贴？&lt;/strong> 弯曲表面用标签袋或吊牌，不平整表面先清理再贴。&lt;/li>
+&lt;li>&lt;strong>贴几张？&lt;/strong> 大的、贵的、容易出错的货品，最好贴两张（不同位置），坏了一张还有一张。&lt;/li>
+&lt;li>&lt;strong>条码标签本身的质量：&lt;/strong> 仓库环境潮湿的，用防水标签。有化学腐蚀风险的，用耐化学标签。别贪便宜买普通纸标签，用几个月就模糊了，扫都扫不出来。&lt;/li>
+&lt;/ul>
+&lt;p>这些看起来是小事，但在一个月进出几千件货的仓库里，这些细节决定了条码系统到底能不能用起来。&lt;/p>
+&lt;h2 id="坑三扫了码但没闭环">坑三：扫了码，但没闭环&lt;/h2>
+&lt;p>很多公司的条码管理是半拉子工程——入库扫了，出库不扫。或者收发扫了，盘点不扫。&lt;/p>
+&lt;p>条码管理的核心逻辑是：&lt;strong>每动一次货，就扫一次码。&lt;/strong> 只有每一次移动都被记录，系统里的库存才能跟现场对上。&lt;/p>
+&lt;p>如果入库扫了，但上架的时候没扫；如果拣货扫了，但装车的时候没扫——那中间发生的错放、漏装、多装，系统一概不知道。&lt;/p>
+&lt;p>&lt;strong>闭环的最小集：入库扫→上架确认扫→拣货扫→出库扫→装车复核扫。&lt;/strong> 这五个环节缺一不可。&lt;/p>
+&lt;p>哪个环节没闭环，哪个环节就是你库存对不上的原因。&lt;/p>
+&lt;h2 id="坑四没有关联上层业务单据">坑四：没有关联上层业务单据&lt;/h2>
+&lt;p>条码上有信息，但如果这个信息和上游业务单据脱节，条码的价值就大打折扣。&lt;/p>
+&lt;p>比如一张采购入库单号PO20250120，扫码的时候只扫了物料条码，没关联到&amp;quot;这批货是从这张PO进来的&amp;quot;。后面如果有来料质量问题，你不知道这批货对应哪张订单、哪个供应商、哪个批次号。&lt;/p>
+&lt;p>&lt;strong>条码管理的追溯价值，就在于你把条码和业务单据关联起来。&lt;/strong> 扫一个码，能知道：这是什么、哪来的、什么时候来的、谁收的、哪个批次、质量检验结果是什么。&lt;/p>
+&lt;p>这需要系统支持。你需要WMS在扫描入库的时候，自动关联PO单号和ASN（预先发货通知）。如果你的WMS连这个都不支持，说明你的系统该升级了。&lt;/p>
+&lt;h2 id="坑五设备选型不对一线员工用不起来">坑五：设备选型不对，一线员工用不起来&lt;/h2>
+&lt;p>我最常听到的关于条码的抱怨是：&amp;ldquo;太麻烦了，不如手写快。&amp;rdquo;&lt;/p>
+&lt;p>一问原因：扫码枪是10年前买的，扫一个码要2-3秒，有时还扫不出来，要反复对角度。&lt;/p>
+&lt;p>或者：用的是手机APP扫码，但仓库Wi-Fi信号不好，扫完一个码要等5秒才跳出结果。一天扫几百次码，等待时间加起来就是大半小时。&lt;/p>
+&lt;p>&lt;strong>条码设备选型的原则：&lt;/strong> 速度第一、可靠性第二、价格第三。别为了省几千块钱买一个扫码慢的设备，然后让几十个员工每天多花十几分钟在&amp;quot;等扫码&amp;quot;上。&lt;/p>
+&lt;p>现在的工业级PDA或者手持终端，扫一个码0.1-0.3秒，防摔、防水、电池续航长。一个2000-3000块，比一部手机还便宜。该花这个钱就不要省。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>条码管理这件事，本质上解决的不是技术问题，是&lt;strong>规矩问题&lt;/strong>。&lt;/p>
+&lt;p>编码要统一、张贴要规范、扫码要闭环、关联要建立、设备要趁手——这五条规矩立住了，条码系统才能真正让你&amp;quot;账实一致&amp;quot;。&lt;/p>
+&lt;p>规矩没立住，条码就只是一个贴纸。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库面积不够用？3个方法比扩仓便宜10倍</title><link>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</guid><description>&lt;h2 id="仓库不够用别急着扩仓">仓库不够用？别急着扩仓&lt;/h2>
 &lt;p>老板说仓库不够用，要扩仓。你一算，多租1000平米，一年多花120万。加上设备、人员、管理成本，轻松200万起步。&lt;/p>
 &lt;p>但你想过没有：&lt;strong>你现有的仓库，真的用满了吗？&lt;/strong>&lt;/p>
 &lt;p>我做过一个统计：80%的仓库，实际空间利用率不到60%。剩下的40%被三样东西占了：&lt;strong>死库存、不合理布局、低效作业动线&lt;/strong>。&lt;/p>

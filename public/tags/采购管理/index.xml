@@ -1,4 +1,211 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本分析做了三年，发现90%的人在算假账</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</guid><description>&lt;p>说一个让很多采购人不舒服的事实：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
+&lt;p>需求提报→部门主管审批→采购主管审批→采购经理审批→财务审批→总经理审批→下单&lt;/p>
+&lt;p>一个普通采购件，从提需求到下单，平均7.5个工作日。&lt;/p>
+&lt;p>紧急件？加急走完流程也要3天。&lt;/p>
+&lt;p>我看完他们的流程图，说了句：&amp;ldquo;你们不是在管采购，是在管审批。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步砍掉不增值的审批环节">第一步：砍掉不增值的审批环节&lt;/h2>
+&lt;p>先看看每个审批节点到底在审什么：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>部门主管&lt;/strong>：审需求合理性——这个该审&lt;/li>
+&lt;li>&lt;strong>采购主管&lt;/strong>：审是否有库存/替代品——这个该审&lt;/li>
+&lt;li>&lt;strong>采购经理&lt;/strong>：审价格是否合理——这个该审&lt;/li>
+&lt;li>&lt;strong>财务审批&lt;/strong>：审预算——但财务根本不了解采购内容，只看有没有预算&lt;/li>
+&lt;li>&lt;strong>总经理审批&lt;/strong>：审金额——但500块的东西也要总经理签字？&lt;/li>
+&lt;/ul>
+&lt;p>问题很明显：&lt;strong>审批链条太长，越到后边越不增值。&lt;/strong>&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>按金额分级审批&lt;/strong>：5000元以下采购经理终审，5000-50000元财务加审，50000元以上总经理审&lt;/li>
+&lt;li>&lt;strong>砍掉财务常规审批&lt;/strong>：在预算范围内的采购，财务不逐笔审批，改为月度汇总审核&lt;/li>
+&lt;li>&lt;strong>框架协议免审批&lt;/strong>：已经在框架协议内的重复采购，直接下单，无需逐笔审批&lt;/li>
+&lt;/ol>
+&lt;p>改完以后，5000元以下采购的审批时间从5天降到0.5天（线上审批，采购经理手机一点就过）。&lt;/p>
+&lt;h2 id="第二步数字化审批流">第二步：数字化审批流&lt;/h2>
+&lt;p>审批慢的另一个原因是——线下审批。&lt;/p>
+&lt;p>他们的采购申请是Excel填表，打印出来找人签字。采购经理经常出差，一出差审批就卡住。总经理更忙，桌上一堆待签文件，采购申请排到第5位。&lt;/p>
+&lt;p>&lt;strong>数字化改造三个动作：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>动作一：上线采购管理模块。&lt;/strong> 需求提报、审批、下单、收货、付款全流程在线化。不用打印、不用跑腿、不用等人在办公室。&lt;/p>
+&lt;p>&lt;strong>动作二：移动端审批。&lt;/strong> 采购经理和总经理手机装了审批APP，出差路上就能批。审批时效从&amp;quot;等3天&amp;quot;变成&amp;quot;当天批&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>动作三：自动校验。&lt;/strong> 系统自动校验预算余额、历史价格、框架协议。价格超历史均价10%的自动标红提醒，预算不足的直接拦截。&lt;/p>
+&lt;p>数字化后，审批平均处理时间从7.5天降到1.8天。&lt;/p>
+&lt;h2 id="第三步建立供应商自助平台">第三步：建立供应商自助平台&lt;/h2>
+&lt;p>以前的流程是：采购员把订单导出Excel，发邮件给供应商，供应商确认后回邮件，采购员再录入系统。&lt;/p>
+&lt;p>一个订单来回3封邮件，如果供应商有疑问还得打电话确认。10个供应商、每天20笔订单，光订单沟通就占了一个采购员大半天。&lt;/p>
+&lt;p>&lt;strong>改法：上线供应商协同平台。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购在系统下单，供应商自动收到通知&lt;/li>
+&lt;li>供应商在线确认交期、数量&lt;/li>
+&lt;li>发货后在线录入物流信息&lt;/li>
+&lt;li>到货后仓库在线签收&lt;/li>
+&lt;/ul>
+&lt;p>供应商自助平台上线3个月后：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>改造前&lt;/th>
+ &lt;th>改造后&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>订单处理时间&lt;/td>
+ &lt;td>2.5小时/批&lt;/td>
+ &lt;td>0.5小时/批&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单确认周期&lt;/td>
+ &lt;td>1.5天&lt;/td>
+ &lt;td>0.3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购员人均处理订单量&lt;/td>
+ &lt;td>30单/天&lt;/td>
+ &lt;td>80单/天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单差错率&lt;/td>
+ &lt;td>3.2%&lt;/td>
+ &lt;td>0.5%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>一个采购员的工作效率提升了2.7倍。&lt;/strong> 原来需要5个采购员干的活，现在2个人就够了。&lt;/p>
+&lt;h2 id="综合效果">综合效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>审批流程简化&lt;/td>
+ &lt;td>审批时间从7.5天→1.8天，降76%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>数字化审批&lt;/td>
+ &lt;td>审批及时率从65%→98%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>供应商自助平台&lt;/td>
+ &lt;td>采购员效率提升2.7倍，差错率降84%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>人力节省&lt;/td>
+ &lt;td>5个采购员→2个采购员，年省人力成本约48万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购周期缩短&lt;/td>
+ &lt;td>从提需求到收货，从15天→6天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>省下来的48万，够发3个采购员3个月的工资了。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>采购流程优化的核心原则就一个：&lt;strong>砍掉不增值的活动，把时间花在真正需要人判断的地方。&lt;/strong>&lt;/p></description></item><item><title>招标采购做了5年才敢说：这4个环节不盯死，多少钱都白省</title><link>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</guid><description>&lt;p>先说一个数据：我做采购这行十来年，见过的招标项目里，至少有30%是&amp;quot;招标了，但没省到钱&amp;quot;。&lt;/p>
+&lt;p>你没看错。30%的招标，本质上就是走个过场。&lt;/p>
+&lt;p>有的招标，招标前就跟供应商谈好了价格，招标只是让流程合规。有的招标，技术参数写得太窄，能来投标的就那么两三家，根本形不成竞争。有的招标确实比了价，但中标的是&amp;quot;最低价&amp;quot;，结果交付一塌糊涂，后期变更和返工的钱比省下来的多三倍。&lt;/p>
+&lt;p>招标采购要真想省钱，不是看你会不会走流程，是看你能不能盯着这四个最容易翻车的环节。&lt;/p>
+&lt;h2 id="环节一资质审查给围标团伙留了后门没">环节一：资质审查——给&amp;quot;围标团伙&amp;quot;留了后门没？&lt;/h2>
+&lt;p>大部分公司对投标人的资质审查就一句话：&amp;ldquo;有营业执照、近三年无不良记录&amp;rdquo;。&lt;/p>
+&lt;p>太糙了。&lt;/p>
+&lt;p>我见过最离谱的案例：一个5亿的工程项目，7家公司来投标。表面上看是7家，实际上背后是一个老板注册的5家公司+2家真公司。&lt;/p>
+&lt;p>怎么操作的？这5家公司报高价当炮灰，2家真公司中标。最后不管谁中，钱都进了同一个口袋。&lt;/p>
+&lt;p>这种围标行为，靠看营业执照看不出来。你要看什么？&lt;/p>
+&lt;p>&lt;strong>看股权穿透。&lt;/strong> 用企查查、天眼查把投标公司的股东穿透到最终受益人。如果多家公司有同一个实际控制人，直接判定串标。&lt;/p>
+&lt;p>&lt;strong>看关联交易。&lt;/strong> 投标公司之间有没有历史交易记录？A公司给B公司供过货？那这两家在同一个项目上投标就有问题。&lt;/p>
+&lt;p>&lt;strong>看人员重叠。&lt;/strong> 法人、股东、高管、甚至项目经理，在多家投标公司重复出现？那就是一家人的马甲。&lt;/p>
+&lt;p>这些查完还觉得资质审查是&amp;quot;看一眼营业执照就行&amp;quot;的事吗？&lt;/p>
+&lt;h2 id="环节二技术标评审你给了商务一票否决权吗">环节二：技术标评审——你给了商务&amp;quot;一票否决权&amp;quot;吗？&lt;/h2>
+&lt;p>很多招标项目的评审标准是：技术分占40%，商务分占60%。&lt;/p>
+&lt;p>看起来很合理是吧？问题在于，技术分大家都是80-90分，差距不超过10分。商务分一拉，就是几百万的差距。&lt;/p>
+&lt;p>然后就出现了一种情况：技术实力强但报价高的供应商，被技术分最低但报价最低的供应商干掉了。&lt;/p>
+&lt;p>中标的那个，报价确实低。但交出来的东西呢？工期延误、质量不达标、变更单满天飞。&lt;/p>
+&lt;p>&lt;strong>解决办法很简单：设技术标最低分门槛。&lt;/strong>&lt;/p>
+&lt;p>比如技术分低于75分的，商务分再高也没用。这就倒逼供应商不能只靠低价中标，得先保证技术能力达标。&lt;/p>
+&lt;p>还有一个容易被忽略的：&lt;strong>履约能力审查。&lt;/strong> 中标的供应商产能够不够？他现在手里还有几个项目？你的人手和生产线能不能撑住这个项目？&lt;/p>
+&lt;p>你不问这些，中标的供应商也不主动说。然后项目做到一半他来一句&amp;quot;产能紧张，要延期&amp;quot;，你全公司干瞪眼。&lt;/p>
+&lt;h2 id="环节三低价中标陷阱你省了采购费赔了运营费">环节三：低价中标陷阱——你省了采购费，赔了运营费&lt;/h2>
+&lt;p>低价中标是招标中最经典的坑。报价最低的供应商中标，看起来省了一大笔钱。&lt;/p>
+&lt;p>但你知道低价供应商的钱从哪省出来的吗？&lt;/p>
+&lt;p>从原材料上：降标降配，你要求304不锈钢他用201的。
+从工艺上：省流程、省检测，质量事故的雷埋在后面。
+从服务上：没有售后、没有维保、出了问题人都不接你电话。
+从变更上：中标的时候报价低，交付时&amp;quot;这个不含&amp;quot;&amp;ldquo;那个要加钱&amp;rdquo;，变更单比中标价还高。&lt;/p>
+&lt;p>&lt;strong>怎么防？三招。&lt;/strong>&lt;/p>
+&lt;p>第一招：&lt;strong>设合理最低价。&lt;/strong> 算一下这个项目的合理成本是多少。有供应商报价比合理成本还低30%，那不用看，肯定有问题。&lt;/p>
+&lt;p>第二招：&lt;strong>技术标加&amp;quot;履约方案&amp;quot;这一项。&lt;/strong> 让投标方写清楚：你报这个价，怎么保证质量？怎么保证交期？怎么保证售后？你说得通，就信你。说不通，报价再低也不考虑。&lt;/p>
+&lt;p>第三招：&lt;strong>变更条款写死。&lt;/strong> 合同里明确：因投标方原因导致的任何变更，招标方不承担费用。把变更的后门堵死。&lt;/p>
+&lt;h2 id="环节四评标后的二次谈判你的招标白做了">环节四：评标后的&amp;quot;二次谈判&amp;quot;——你的招标白做了&lt;/h2>
+&lt;p>最让我无语的一种操作：评标结束，中标人确定后，采购部又去跟中标供应商&amp;quot;再谈一下价格&amp;quot;。&lt;/p>
+&lt;p>理由是&amp;quot;领导觉得价格还是高&amp;quot;&amp;ldquo;预算不够&amp;rdquo;。&lt;/p>
+&lt;p>你猜供应商怎么想？&lt;/p>
+&lt;p>&amp;ldquo;既然你们评标完了还能还价，那下次招标的时候，我报价可以报高一点，给你留个还价空间。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>这就是在破坏招标的严肃性。&lt;/strong> 供应商不信任你的招标流程，后面的招标就全都废了。&lt;/p>
+&lt;p>正确做法：评标即定标。评出来的价格就是最终价格。真有特殊情况需要降价，走正式的采购变更流程，不要私下&amp;quot;再谈谈&amp;quot;。&lt;/p>
+&lt;p>如果每次招标后都要&amp;quot;再谈谈&amp;quot;，那你就别招标了，直接谈判采购效率更高。&lt;/p>
+&lt;h2 id="最后说一句扎心的">最后说一句扎心的&lt;/h2>
+&lt;p>招标采购这个工具本身没问题。问题出在使用工具的人身上。&lt;/p>
+&lt;p>你以为招标就是发标书、收标书、评标、定标。但实际上，招标的核心是&lt;strong>规则设计&lt;/strong>——你设计的规则能不能筛出真正有实力的供应商、能不能防止围标串标、能不能让报价反映真实成本。&lt;/p>
+&lt;p>规则设计不好，招标就是走形式。省下来的那点采购费，全是后面运营费加倍还回来的。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购成本砍了15%，利润反降？你砍错了地方还不知道</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>去年年底，我一个做家电的朋友拿了年度降本奖——采购成本同比降了15%，全公司表彰。&lt;/p>
+&lt;p>不到三个月，售后部门的数据出来了：退货率从4.7%涨到了9.2%。维修成本涨了一倍。客户投诉量直接翻番。&lt;/p>
+&lt;p>他跑来找我，说算了一笔总账：采购省了800万，但售后多花了1200万。净亏400万。&lt;/p>
+&lt;p>然后问我一句话：&amp;ldquo;我到底哪里做错了？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你没做错，你只是算错了。你算的是采购单价，该算的是总拥有成本。&amp;rdquo;&lt;/p>
+&lt;h2 id="采购成本不是单价是总拥有成本tco">采购成本不是单价，是总拥有成本（TCO）&lt;/h2>
+&lt;p>大部分公司对采购成本的认知，还停留在&amp;quot;单价×数量&amp;quot;这个层面。&lt;/p>
+&lt;p>在ERP系统里拉一张报表，去年采购均价减去今年采购均价，乘以采购量，等于采购降本金额。看起来逻辑完美无瑕。&lt;/p>
+&lt;p>但你有没有算过——换了一家更便宜的供应商之后，多了多少来料检验不合格？多了多少生产线上因为料件质量问题停工的工时？多了多少售后维修和客户赔偿？&lt;/p>
+&lt;p>这些都不是&amp;quot;采购成本&amp;quot;？别骗自己了。&lt;/p>
+&lt;p>TCO（总拥有成本）不是个新概念，但90%的公司根本没有认真算过。TCO至少包含这四个部分：&lt;/p>
+&lt;p>&lt;strong>买价：&lt;/strong> 你以为采购成本就是它。其实这只是冰山一角。
+&lt;strong>使用成本：&lt;/strong> 质检、仓储、搬运、生产过程中的损耗。
+&lt;strong>质量成本：&lt;/strong> 来料不良导致的返工、停线、客户罚款、售后维修。
+&lt;strong>管理成本：&lt;/strong> 跟这个供应商打交道花了多少时间？催货花了多少精力？&lt;/p>
+&lt;p>如果你只算买价，不算后面的三个，那你的&amp;quot;降本&amp;quot;就是个伪命题。&lt;/p>
+&lt;h2 id="坑一为了降5的单价换了家质量差15的供应商">坑一：为了降5%的单价，换了家质量差15%的供应商&lt;/h2>
+&lt;p>这是我见过最普遍的采购降本操作——换供应商。&lt;/p>
+&lt;p>老供应商单价10块，质量合格率99.5%。新供应商单价9块5，便宜5%，质量合格率只有96%。&lt;/p>
+&lt;p>采购部觉得：便宜5%啊，质量差一点没关系吧？&lt;/p>
+&lt;p>算笔账：&lt;/p>
+&lt;p>假设一个月采购10万个。老供应商的次品率0.5%，500个次品。新供应商次品率4%，4000个次品。多了3500个次品。&lt;/p>
+&lt;p>每个次品的处理成本是多少？退货要走流程、质检要复检、生产要换料、可能还要停线。一个次品的综合处理成本，少说10块钱。&lt;/p>
+&lt;p>3500×10=35,000元。一个月多花3.5万，一年42万。&lt;/p>
+&lt;p>而采购单价省了多少钱？10万个×0.5元=5万元/月，一年60万。&lt;/p>
+&lt;p>60万-42万=18万。看起来还省了18万？&lt;/p>
+&lt;p>还没完。还有品牌损失。多了3500个次品流入生产，如果有10%没查出来进入了成品，那就是350个有质量风险的产品卖给了客户。哪怕只有10个出问题，引发的客户投诉、退换货、品牌声誉损失，就不是几十万能打住的。&lt;/p>
+&lt;p>&lt;strong>采购降本的账，从来不是只算买价。&lt;/strong>&lt;/p>
+&lt;h2 id="坑二为了凑量拿折扣把自己变成了供应商的仓库">坑二：为了凑量拿折扣，把自己变成了供应商的仓库&lt;/h2>
+&lt;p>&amp;ldquo;一次买够5000个，单价便宜12%。&amp;rdquo;&lt;/p>
+&lt;p>这种话听过吧？采购一听就上头，马上签了。&lt;/p>
+&lt;p>但你算过没有——5000个你多久用得完？&lt;/p>
+&lt;p>如果你一个月只用500个，那5000个就是10个月。这5000个货在仓库里躺10个月：占仓库面积、占库存资金、有过时风险、有损耗风险。&lt;/p>
+&lt;p>假设你的库存持有成本是年化25%（资金成本8%+仓储费5%+过时损失费5%+管理费7%，这个比例在制造业不算高），那10个月的持有成本大约是采购额的21%。&lt;/p>
+&lt;p>单价便宜12%，持有成本多了21%。净亏9%。&lt;/p>
+&lt;p>这还是没算&amp;quot;万一这10个月里产品改版了、物料变更了&amp;quot;的风险。5000个老物料全报废，那可就不是9%的事了。&lt;/p>
+&lt;p>&lt;strong>大量采购拿折扣，是采购降本最常见的自欺欺人。&lt;/strong>&lt;/p>
+&lt;h2 id="坑三不看付款条件为了降本把自己现金流搞崩了">坑三：不看付款条件，为了&amp;quot;降本&amp;quot;把自己现金流搞崩了&lt;/h2>
+&lt;p>现在很流行的一种&amp;quot;降本&amp;quot;手段：跟供应商谈延长付款周期。&lt;/p>
+&lt;p>从30天谈到90天，甚至120天。看起来钱在你账上多停了几个月，财务费用少了。&lt;/p>
+&lt;p>但你知道供应商怎么应对吗？&lt;/p>
+&lt;p>他会把资金成本打进报价里。你拖他90天，他报价的时候就加了2-3个点的资金成本。&lt;/p>
+&lt;p>更狠的是，付款周期长的客户，在供应商那里优先级最低。产能紧张的时候，先把货给付款快的。配送优先排付款快的。换货处理优先付款快的。&lt;/p>
+&lt;p>你省了2个点的资金成本，丢了的是供应稳定性、质量和优先级。这笔账，你算过吗？&lt;/p>
+&lt;p>我给朋友的第二个建议是：&lt;strong>核心供应商，主动缩短付款周期，换取总成本优化。&lt;/strong>&lt;/p>
+&lt;p>比如把一家关键物料供应商的付款周期从60天缩短到30天，条件是——你的优先供货权和稳定报价。&lt;/p>
+&lt;p>对供应商来说，30天回款的客户就是优质客户。他愿意给你更好的服务和更实在的价格。&lt;/p>
+&lt;h2 id="真正的采购成本分析怎么看">真正的采购成本分析，怎么看？&lt;/h2>
+&lt;p>说了这么多&amp;quot;不该怎么样&amp;quot;，那采购成本分析到底该怎么做？&lt;/p>
+&lt;p>我给你一个框架，照着来就行：&lt;/p>
+&lt;p>&lt;strong>第一步：按供应商做TCO分析。&lt;/strong> 别只看采购单价，把质检成本、断供损失、管理成本都加上去。你会发现：单价最低的供应商，往往是TCO最高的。&lt;/p>
+&lt;p>&lt;strong>第二步：按品类做采购结构分析。&lt;/strong> 你的采购额里，有哪些是&amp;quot;品类太多分散了量，导致每个品类都拿不到好价格&amp;quot;？有哪些是&amp;quot;过度集中在一个供应商，导致议价能力为零&amp;quot;？做完这个分析，你才知道该在哪集中、在哪分散。&lt;/p>
+&lt;p>&lt;strong>第三步：做采购流程本身的成本分析。&lt;/strong> 你们公司下一张采购订单，从需求提报→审批→下单→收货→对账→付款，一共要多少天？多少个人参与？这些人的工资摊到每张订单上，也是一笔不小的成本。&lt;/p>
+&lt;p>我见过一个公司，一张采购订单的流程成本是380元。他们一年下5000张订单，流程成本就是190万。优化了流程之后，成本砍半，省了将近100万。&lt;/p>
+&lt;p>&lt;strong>采购降本，不光要砍供应商的价格，也要砍自己的流程。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购成本分析做了三年，发现90%的人在算假账</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-real/</guid><description>&lt;p>说一个让很多采购人不舒服的事实：&lt;/p>
 &lt;p>&lt;strong>你做的采购成本分析，90%的时候是自欺欺人。&lt;/strong>&lt;/p>
 &lt;p>为什么？&lt;/p>
 &lt;p>因为你只算了单价再加点运费。但一个供应商选择不当造成的隐性成本，可能是单价的5倍以上。&lt;/p>

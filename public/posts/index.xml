@@ -1,4 +1,1221 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/posts/</link><description>Recent content in Posts on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+&lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
+&lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
+&lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>
+&lt;p>老板沉默了5秒，说：&amp;ldquo;砍。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步给sku做体检">第一步：给SKU做体检&lt;/h2>
+&lt;p>砍SKU不能拍脑袋，得用数据说话。我建了一个SKU分析模型，包含5个维度：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>销售贡献&lt;/td>
+ &lt;td>近12个月销售额&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>毛利贡献&lt;/td>
+ &lt;td>毛利率×销量&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>周转效率&lt;/td>
+ &lt;td>年周转次数&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求趋势&lt;/td>
+ &lt;td>近6个月环比变化&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>战略价值&lt;/td>
+ &lt;td>是否核心客户需求/是否新推&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>每个SKU按5个维度打分，总分0-100。然后按分数分四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A档（80分以上）&lt;/strong>：核心SKU，必须保留&lt;/li>
+&lt;li>&lt;strong>B档（60-79分）&lt;/strong>：一般SKU，正常管理&lt;/li>
+&lt;li>&lt;strong>C档（40-59分）&lt;/strong>：低效SKU，重点评审&lt;/li>
+&lt;li>&lt;strong>D档（40分以下）&lt;/strong>：候选淘汰&lt;/li>
+&lt;/ul>
+&lt;p>2000个SKU跑完模型，结果：&lt;/p>
+&lt;ul>
+&lt;li>A档：320个（16%）&lt;/li>
+&lt;li>B档：480个（24%）&lt;/li>
+&lt;li>C档：540个（27%）&lt;/li>
+&lt;li>D档：660个（33%）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>660个SKU得分不到40分，占SKU总数的33%，但只贡献了2%的销售额。&lt;/strong>&lt;/p>
+&lt;h2 id="第二步分类处理">第二步：分类处理&lt;/h2>
+&lt;p>D档660个SKU不是一刀切全砍，要分类处理：&lt;/p>
+&lt;p>&lt;strong>第一类：确认淘汰（380个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续6个月零销量的：直接淘汰&lt;/li>
+&lt;li>连续12个月销量&amp;lt;10个且毛利为负的：直接淘汰&lt;/li>
+&lt;li>已有替代品且替代品销量更好的：淘汰老品&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二类：有条件保留（180个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>核心客户指定要的：保留，但跟客户谈替代方案&lt;/li>
+&lt;li>新品还在培育期的：给3个月观察期，3个月后不达标淘汰&lt;/li>
+&lt;li>季节性产品：保留，但淡季不备库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三类：需要再评估（100个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>得分在35-40分之间的：补充调研后决定&lt;/li>
+&lt;li>有历史大客户偶尔采购的：跟销售确认未来需求&lt;/li>
+&lt;/ul>
+&lt;p>处理完以后，&lt;strong>最终淘汰480个SKU，保留1520个。&lt;/strong>&lt;/p>
+&lt;h2 id="第三步继续深挖">第三步：继续深挖&lt;/h2>
+&lt;p>1520个SKU还是太多。我又做了第二轮分析，这次重点看&amp;quot;长尾&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>重叠SKU问题。&lt;/strong> 我们有12款类似功能的螺丝，只是长度差2-3mm；有8款颜色不同的同款包装盒；有5款规格接近的密封圈。&lt;/p>
+&lt;p>这些重叠SKU合并后：&lt;/p>
+&lt;ul>
+&lt;li>螺丝从12款合并到5款（用垫片适配长度差异）&lt;/li>
+&lt;li>包装盒从8款合并到3款（用标签区分颜色）&lt;/li>
+&lt;li>密封圈从5款合并到2款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>又砍掉280个SKU，但客户满意度几乎不受影响——因为客户买的不是&amp;quot;2.5cm的螺丝&amp;quot;，而是&amp;quot;能固定的螺丝&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="第四步建立sku准入和退出机制">第四步：建立SKU准入和退出机制&lt;/h2>
+&lt;p>砍完不是终点，关键是防止SKU又偷偷涨回来。&lt;/p>
+&lt;p>我建了两条规矩：&lt;/p>
+&lt;p>&lt;strong>准入：&lt;/strong> 新增SKU必须通过&amp;quot;SKU评审会&amp;quot;，回答三个问题——预计年销量多少？毛利多少？现有SKU能不能替代？三个问题答不上来，不让上。&lt;/p>
+&lt;p>&lt;strong>退出：&lt;/strong> 每季度做一次SKU健康度检查，连续2个季度C档的SKU自动进入淘汰流程，需要销售总监签字才能保留。&lt;/p>
+&lt;h2 id="最终效果">最终效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>优化前&lt;/th>
+ &lt;th>优化后&lt;/th>
+ &lt;th>变化&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>SKU数量&lt;/td>
+ &lt;td>2000&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存总额&lt;/td>
+ &lt;td>1940万&lt;/td>
+ &lt;td>1160万&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存周转率&lt;/td>
+ &lt;td>4.2次/年&lt;/td>
+ &lt;td>7.8次/年&lt;/td>
+ &lt;td>+86%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>呆滞库存&lt;/td>
+ &lt;td>680万&lt;/td>
+ &lt;td>120万&lt;/td>
+ &lt;td>-82%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>客户满意度&lt;/td>
+ &lt;td>87%&lt;/td>
+ &lt;td>89%&lt;/td>
+ &lt;td>+2%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>缺货率&lt;/td>
+ &lt;td>3.5%&lt;/td>
+ &lt;td>2.1%&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>库存成本降了40%，客户满意度反而提高了2%。&lt;/strong> 为什么？因为SKU少了，每个SKU的库存更充裕，缺货率下降了。&lt;/p></description></item><item><title>仓库效率翻倍不需要花一分钱，改这3个布局就行</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</guid><description>&lt;p>每次有人问我仓库效率怎么提升，我第一个问题就是：你看过你的仓库布局吗？&lt;/p>
+&lt;p>90%的仓库效率问题，根子都在布局上。拣货员跑断腿、叉车堵在路上、收货和发货挤在一起——这些不是员工不努力，是布局在拖后腿。&lt;/p>
+&lt;p>最离谱的是，布局优化几乎零成本，但很多仓库宁愿花几十万上系统，也不愿意动一动货架的位置。&lt;/p>
+&lt;p>今天讲3个布局优化方法，不花一分钱，效率至少提升30%。&lt;/p>
+&lt;h2 id="优化一把热销品放进黄金拣选区">优化一：把热销品放进黄金拣选区&lt;/h2>
+&lt;p>什么是黄金拣选区？就是拣货员站着不用弯腰、伸手就能拿到的区域——货架的腰部位置，离出库口最近的区域。&lt;/p>
+&lt;p>我之前去一个做快消品的仓库，发现他们按SKU编号存放商品——A001在最里面，Z999在最外面。&lt;/p>
+&lt;p>结果就是：每天出库量最大的矿泉水在最里面，拣货员来回走600米才能拿一箱；而出库量极少的圣诞礼品套装就在门口，占着最好的位置。&lt;/p>
+&lt;p>&lt;strong>改法很简单：按ABC分类重新布局。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类SKU（出库频率最高的20%SKU）→ 黄金拣选区（腰部位置、近出库口）&lt;/li>
+&lt;li>B类SKU（出库频率中等的30%SKU）→ 黄金区上下层&lt;/li>
+&lt;li>C类SKU（出库频率最低的50%SKU）→ 最远端、最高层&lt;/li>
+&lt;/ul>
+&lt;p>改完以后，拣货员的平均行走距离从单趟280米降到110米，拣货效率提升40%。&lt;/p>
+&lt;p>&lt;strong>关键细节：&lt;/strong> 黄金拣选区不是一成不变的，每季度要根据出库数据重新调整。季节性产品（如饮料、保暖品）旺季要提前移入黄金区。&lt;/p>
+&lt;h2 id="优化二动线单向化消灭对冲">优化二：动线单向化，消灭对冲&lt;/h2>
+&lt;p>你去观察一个仓库，如果经常出现这样的场景——两辆叉车面对面堵在路上，谁都不让谁，后面排了一串车——那就是动线设计有问题。&lt;/p>
+&lt;p>&lt;strong>动线设计的核心原则：单向流动，不走回头路。&lt;/strong>&lt;/p>
+&lt;p>理想动线是U型或L型：收货区→存储区→拣选区→出库区，形成一条单行道。就像商场里&amp;quot;入口→货架→收银台→出口&amp;quot;的设计，不会有人在走廊里对冲。&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>画出U型动线&lt;/strong>：收货在一端，出库在另一端，中间存储和拣选形成环形通道&lt;/li>
+&lt;li>&lt;strong>设单行标识&lt;/strong>：通道地面画箭头，叉车只准一个方向走&lt;/li>
+&lt;li>&lt;strong>加超车区&lt;/strong>：每隔50米设一个超车避让区，速度快的车可以超车&lt;/li>
+&lt;/ol>
+&lt;p>一个5000平的仓库做了动线优化后，叉车平均通行时间从4.2分钟/趟降到2.8分钟/趟，通道堵塞事件从日均8次降到1次。&lt;/p>
+&lt;p>&lt;strong>零成本，效果立竿见影。&lt;/strong>&lt;/p>
+&lt;h2 id="优化三收发货分离消除拥堵">优化三：收发货分离，消除拥堵&lt;/h2>
+&lt;p>很多小仓库收货和发货共用一个门、一个区域。这就导致一个致命问题：&lt;/p>
+&lt;p>早上8-10点是收货高峰，下午3-5点是发货高峰。但如果供应商下午4点来送货，同时又有客户等着提货，收货月台上又卸货又装货，叉车、人、货物全挤在一起。&lt;/p>
+&lt;p>&lt;strong>效率低还是小事，安全才是大事。&lt;/strong> 收发货混合作业，叉车撞人的风险翻倍。&lt;/p>
+&lt;p>&lt;strong>改法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>物理分离&lt;/strong>：收货区和发货区分设在仓库两端，各设独立月台&lt;/li>
+&lt;li>&lt;strong>时间分离&lt;/strong>：如果空间不够物理分离，就错峰——上午收货、下午发货，中间留1小时缓冲&lt;/li>
+&lt;li>&lt;strong>人员分离&lt;/strong>：收货组和发货组不要用同一批人，避免多任务切换的混乱&lt;/li>
+&lt;/ol>
+&lt;p>一个3000平的仓库做了收发分离后，月台作业效率提升25%，安全事故从年3起降到0。&lt;/p>
+&lt;h2 id="效果汇总">效果汇总&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>成本&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>黄金拣选区&lt;/td>
+ &lt;td>0元（只是移动货位）&lt;/td>
+ &lt;td>拣货效率+40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>动线单向化&lt;/td>
+ &lt;td>0元（地面画线）&lt;/td>
+ &lt;td>通行时间-33%，堵塞-87%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>收发货分离&lt;/td>
+ &lt;td>0元（重新划区）&lt;/td>
+ &lt;td>月台效率+25%，安全事故归零&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>三项合计：仓库整体作业效率提升约30%，零投入。&lt;/strong>&lt;/p>
+&lt;h2 id="核心认知">核心认知&lt;/h2>
+&lt;p>仓库效率问题的根源，80%是布局问题，不是人的问题。&lt;/p>
+&lt;p>让员工在错误的布局下拼命干活，就像让一个跑步机上的仓鼠拼命跑——看起来很忙，但产出有限。&lt;/p>
+&lt;p>&lt;strong>先让布局合理，再谈自动化和系统。&lt;/strong> 布局不对，上什么系统都是事倍功半。&lt;/p>
+&lt;p>下次觉得仓库效率低的时候，别急着买设备，先看看你的仓库布局。可能只是把几排货架换个位置的事。&lt;/p></description></item><item><title>供应商关系搞砸的3种死法，第2种90%的人正在经历</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</guid><description>&lt;p>上周有个采购朋友跟我吐槽：&amp;ldquo;我们跟供应商的关系就是——要货的时候打电话，不给货的时候翻脸。&amp;rdquo;&lt;/p>
+&lt;p>我说你这不叫供应商关系，叫&amp;quot;交易关系&amp;quot;。&lt;/p>
+&lt;p>供应商关系管理这件事，很多人以为就是谈判压价、签合同、催交期。但真正搞砸的，往往不是价格谈不拢，而是关系本身出了问题。&lt;/p>
+&lt;p>今天讲3种最常见的&amp;quot;死法&amp;quot;，看看你中了几个。&lt;/p>
+&lt;h2 id="死法一只看价格看不到价值">死法一：只看价格，看不到价值&lt;/h2>
+&lt;p>有个做汽车零部件的公司，每年采购额2个亿，供应商50多家。采购的考核指标只有一个——降本。每年供应商评审会就是一场&amp;quot;竞价大会&amp;quot;，谁报价低谁留下。&lt;/p>
+&lt;p>结果呢？连续3年，每年降本5%，听起来很美。但同期品质投诉涨了3倍，交期延误涨了60%，工程变更响应时间从3天变成2周。&lt;/p>
+&lt;p>&lt;strong>你砍掉的不是成本，是供应商给你创造的价值。&lt;/strong>&lt;/p>
+&lt;p>好的供应商不只是给你供货，他们还能帮你优化设计、缩短开发周期、消化你的需求波动。这些&amp;quot;隐形价值&amp;quot;一砍掉，表面省下来的钱全在别的地方亏回去了。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong> 建立供应商分级体系。战略供应商看TCO（总拥有成本），不只是单价；一般供应商可以竞价，但也要留合理利润空间。记住，供应商不赚钱，早晚出问题。&lt;/p>
+&lt;h2 id="死法二甲方心态把供应商当下属">死法二：甲方心态，把供应商当下属&lt;/h2>
+&lt;p>这是90%的采购人正在踩的坑。&lt;/p>
+&lt;p>&amp;ldquo;我们是甲方，供应商就得听我们的。&amp;quot;——这句话我听了不下100遍。&lt;/p>
+&lt;p>有个做消费电子的采购总监，每次跟供应商开会都像审犯人。交期延误？罚款。品质出问题？罚款。要求降价？不接受就换人。&lt;/p>
+&lt;p>供应商表面上唯唯诺诺，背地里呢？先交付劣质品凑数，反正你检验抽检率只有5%；新项目报价虚高20%，怕你后面再砍价；关键产能优先给你竞争对手——因为人家态度好、付款准时。&lt;/p>
+&lt;p>&lt;strong>你以为你是甲方，其实你只是供应商的客户之一。&lt;/strong> 而且不是最重要的那个。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong> 把&amp;quot;甲方-乙方&amp;quot;思维换成&amp;quot;合作伙伴&amp;quot;思维。具体做法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>定期供应商座谈会&lt;/strong>：不是单向的考核通报，而是双向的沟通，听供应商的困难和建议&lt;/li>
+&lt;li>&lt;strong>合理利润保障&lt;/strong>：让供应商在你的项目上能赚到钱，他才愿意把好产能给你&lt;/li>
+&lt;li>&lt;strong>联合降本&lt;/strong>：不是压价，而是一起找降本空间——工艺优化、材料替代、物流整合，省下的钱双方分&lt;/li>
+&lt;/ol>
+&lt;h2 id="死法三信息不对称互相猜疑">死法三：信息不对称，互相猜疑&lt;/h2>
+&lt;p>这个坑最隐蔽，但杀伤力最大。&lt;/p>
+&lt;p>我见过一个案例：一家公司的采购量和预测信息完全不跟供应商共享。供应商只能根据订单量来排产，结果旺季一到，采购量突然翻3倍，供应商产能根本来不及扩。&lt;/p>
+&lt;p>采购怪供应商响应慢，供应商怪采购不提前通知。双方都觉得是对方的问题，关系越来越僵。&lt;/p>
+&lt;p>&lt;strong>信息不对称的后果就是：双方都在用最保守的策略做决策。&lt;/strong> 采购不敢给真实预测，怕供应商涨价；供应商不敢按预测备料，怕库存积压。最后的结果就是——你缺货，他库存。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>共享滚动预测&lt;/strong>：给供应商看未来3-6个月的需求预测，标注确定性和不确定性&lt;/li>
+&lt;li>&lt;strong>建立VMI机制&lt;/strong>：让供应商根据你的实际消耗自动补货，减少信息传递延迟&lt;/li>
+&lt;li>&lt;strong>数据对接&lt;/strong>：把库存数据、消耗数据对供应商开放（至少对战略供应商），让他看到真实需求&lt;/li>
+&lt;/ol>
+&lt;h2 id="一个检验标准">一个检验标准&lt;/h2>
+&lt;p>怎么判断你的供应商关系健不健康？看一个指标就够了：&lt;strong>供应商愿意不愿意在旺季把产能优先给你。&lt;/strong>&lt;/p>
+&lt;p>如果旺季一到，供应商先满足别人的单子，你的单子排后面，说明你在供应商心里的优先级很低。&lt;/p>
+&lt;p>而优先级低的原因，几乎都可以归到上面3种死法里。&lt;/p>
+&lt;p>供应商关系不是一锤子买卖，是长期经营。你今天对供应商的态度，决定了他明天给你的优先级。&lt;/p>
+&lt;p>想清楚这一点，你的供应商管理水平就能超过大多数同行。&lt;/p></description></item><item><title>安全库存算错了3年，我才发现公式少了两个变量</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</guid><description>&lt;p>算安全库存这件事，我前3年都是用教科书公式的：&lt;/p>
+&lt;p>安全库存 = Z × σd × √L&lt;/p>
+&lt;p>Z是服务水平对应的Z值，σd是需求标准差，L是提前期。&lt;/p>
+&lt;p>算出来的结果呢？有些SKU库存总是不够，频繁缺货；有些SKU库存积了一堆，半年都消化不完。&lt;/p>
+&lt;p>后来我仔细研究了一下，发现问题出在两个被忽略的变量上。&lt;/p>
+&lt;h2 id="被忽略的变量一供应波动">被忽略的变量一：供应波动&lt;/h2>
+&lt;p>教科书公式只考虑了需求波动（σd），但&lt;strong>供应也是波动的&lt;/strong>。&lt;/p>
+&lt;p>供应商说提前期7天，但实际上：&lt;/p>
+&lt;ul>
+&lt;li>7天准时交付的概率只有60%&lt;/li>
+&lt;li>8-10天交付的概率30%&lt;/li>
+&lt;li>超过10天的概率10%&lt;/li>
+&lt;/ul>
+&lt;p>有一次供应商设备故障，提前期变成了21天。我的安全库存只按7天算的，直接断货2周。&lt;/p>
+&lt;p>&lt;strong>正确的安全库存公式应该同时考虑需求波动和供应波动：&lt;/strong>&lt;/p>
+&lt;p>安全库存 = Z × √(L × σd² + d² × σL²)&lt;/p>
+&lt;p>其中σL是提前期的标准差，d是日均需求量。&lt;/p>
+&lt;p>这个公式意味着：&lt;strong>不仅要考虑需求的不确定性，还要考虑供应的不确定性，而且两者是叠加的。&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数&lt;/th>
+ &lt;th>值&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>日均需求d&lt;/td>
+ &lt;td>100个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求标准差σd&lt;/td>
+ &lt;td>25个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>名义提前期L&lt;/td>
+ &lt;td>7天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>提前期标准差σL&lt;/td>
+ &lt;td>3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>目标服务水平&lt;/td>
+ &lt;td>95%（Z=1.65）&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>只考虑需求波动：&lt;/strong>
+安全库存 = 1.65 × 25 × √7 = 109个&lt;/p>
+&lt;p>&lt;strong>同时考虑需求和供应波动：&lt;/strong>
+安全库存 = 1.65 × √(7 × 25² + 100² × 3²) = 1.65 × √(4375 + 90000) = 1.65 × 308 = &lt;strong>508个&lt;/strong>&lt;/p></description></item><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
+&lt;p>你以为库存管理就是收货、上架、出库？那你的库存准确率永远上不了95%。&lt;/p>
+&lt;p>今天我把3年踩过的5个坑掰开来讲，每一条都是真金白银换来的。&lt;/p>
+&lt;h2 id="铁律一盘点频率不是拍脑袋定的">铁律一：盘点频率不是拍脑袋定的&lt;/h2>
+&lt;p>我刚入行的时候，仓库一年盘两次点——年中一次，年底一次。每次盘点全仓停发3天，20多号人从早上8点盘到晚上10点，最后准确率89%。&lt;/p>
+&lt;p>领导嫌低，让我想办法。&lt;/p>
+&lt;p>我研究了一圈发现，问题出在盘点频率上。A类物料（占库存金额70%的那20%SKU）每周盘一次，B类每月盘一次，C类每季度盘一次。听起来很合理对吧？&lt;/p>
+&lt;p>但实际操作下来，A类物料周转快，一周之内就可能发生几十笔出入库，光靠每周盘点根本追不上差异产生的速度。&lt;/p>
+&lt;p>&lt;strong>真正的做法是：A类物料用循环盘点，每天盘一小批，一周覆盖全部A类。&lt;/strong>&lt;/p>
+&lt;p>这样每次只盘20-30个SKU，不影响正常作业，差异当天发现当天处理。改了以后，A类库存准确率从89%直接拉到97%。&lt;/p>
+&lt;h2 id="铁律二安全库存不是越多越安全">铁律二：安全库存不是越多越安全&lt;/h2>
+&lt;p>&amp;ldquo;多备点总没错&amp;rdquo;——这是库存管理最大的谎言。&lt;/p>
+&lt;p>我之前负责一个电子元器件的仓库，有个采购同事特别&amp;quot;谨慎&amp;quot;，每个SKU的安全库存都设了3个月的量。结果呢？仓库里堆了价值800万的呆滞库存，其中一半是已经停产的老型号。&lt;/p>
+&lt;p>安全库存的计算公式课本上都有：安全库存 = Z值 × 标准差 × √提前期。但公式没告诉你的是，&lt;strong>标准差算的是需求波动，你还得加上供应波动&lt;/strong>。&lt;/p>
+&lt;p>供应商延期交付的概率是多少？每次延期多久？这些数据你不统计，安全库存就是拍脑袋。&lt;/p>
+&lt;p>我后来的做法是：把安全库存拆成两个部分——需求安全库存和供应安全库存。需求部分用公式算，供应部分用供应商交付历史数据算。两个加起来才是真正的安全库存量。&lt;/p>
+&lt;p>改完以后，库存金额降了25%，缺货率反而从3.2%降到1.1%。&lt;/p>
+&lt;h2 id="铁律三abc分类不是分完就完事">铁律三：ABC分类不是分完就完事&lt;/h2>
+&lt;p>ABC分类法谁都会，按金额占比分成A、B、C三类，然后重点管A类。&lt;/p>
+&lt;p>但你有没有想过，&lt;strong>ABC分类是动态的&lt;/strong>？&lt;/p>
+&lt;p>去年某个月，一个C类物料突然变成A类——因为客户临时下了个大单，这个SKU的消耗量突然翻了10倍。但我们的采购策略还是按C类走，最低起订量、最长的采购周期，结果紧急调货花了3倍的运费。&lt;/p>
+&lt;p>&lt;strong>ABC分类必须定期更新，至少每季度重新算一次。&lt;/strong> 而且不能只看金额，还得看需求波动性。有些SKU金额不大但波动剧烈，这种也是重点管控对象。&lt;/p>
+&lt;h2 id="铁律四先进先出不是喊口号就能实现的">铁律四：先进先出不是喊口号就能实现的&lt;/h2>
+&lt;p>&amp;ldquo;先进先出&amp;quot;四个字，每个仓库都贴在墙上，但真正能做到的不到30%。&lt;/p>
+&lt;p>为什么？因为先进先出需要系统支持+流程设计+员工执行，三个环节缺一不可。&lt;/p>
+&lt;p>我见过最离谱的例子：仓库用的系统根本没有批次管理功能，先进先出全靠库管员的记忆。一个管了5年老仓库的大姐确实能做到，但大姐请了一天假，整个仓库的先进先出就崩了。&lt;/p>
+&lt;p>&lt;strong>先进先出的底层是批次管理。&lt;/strong> 系统要能记录每个批次的入库时间，出库时自动推荐最早批次。物理存储上，要用流利架或者双面架，确保先进去的先出来。&lt;/p>
+&lt;p>如果这些条件不具备，先进先出就是一句空话。&lt;/p>
+&lt;h2 id="铁律五库存周转率不是越高越好">铁律五：库存周转率不是越高越好&lt;/h2>
+&lt;p>老板最爱的KPI就是库存周转率，恨不得一年转20次。&lt;/p>
+&lt;p>但你把周转率拉到天上去，代价是什么？是频繁的小批量采购，是运输成本翻倍，是缺货风险飙升。&lt;/p>
+&lt;p>我在一家制造企业待过，财务把库存周转率目标定到了15次/年。采购为了完成指标，把每个SKU的采购批量压到最低，结果运输费用涨了40%，还因为频繁断料导致产线停了3次。&lt;/p>
+&lt;p>&lt;strong>库存周转率有个甜蜜点，不是越高越好。&lt;/strong> 这个甜蜜点取决于你的持有成本、订货成本和缺货成本三者之间的平衡。用EOQ公式算出来的批量，对应的就是最优周转率。&lt;/p>
+&lt;p>当然，EOQ也有局限性，但至少比拍脑袋强。&lt;/p>
+&lt;h2 id="最后说句实话">最后说句实话&lt;/h2>
+&lt;p>库存管理这件事，没有银弹。每个仓库的物料特性、供应商结构、客户需求都不一样，照搬别人的做法大概率水土不服。&lt;/p>
+&lt;p>但上面这5条铁律是通用的：循环盘点、动态安全库存、定期重算ABC、批次管理支撑先进先出、周转率找甜蜜点。&lt;/p>
+&lt;p>做到这5条，你的库存管理水平至少能超过80%的同行。&lt;/p></description></item><item><title>物流成本砍了30%，但我没砍一毛运费</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-reduction-without-cutting-freight/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-reduction-without-cutting-freight/</guid><description>&lt;p>去年老板给我下了个指标：物流成本降30%。&lt;/p>
+&lt;p>我第一反应是找货代压价，运费单价砍10%先。结果货代说：&amp;ldquo;现在的运价已经是底了，再降我只能换更差的车。&amp;rdquo;&lt;/p>
+&lt;p>换个角度想，&lt;strong>物流成本 ≠ 运费&lt;/strong>。运费只是冰山一角，水面下面还有包装成本、装卸成本、仓储成本、资金占用成本、损耗成本……&lt;/p>
+&lt;p>最后我的30%降本目标达成了，运费单价一分没降。怎么做到的？&lt;/p>
+&lt;h2 id="第一刀砍包装省了15">第一刀：砍包装，省了15%&lt;/h2>
+&lt;p>我们产品的外包装是3层瓦楞纸箱+泡沫内衬，单个包装成本8.5元。&lt;/p>
+&lt;p>我让仓库统计了一下运输破损率：0.3%。&lt;/p>
+&lt;p>0.3%的破损率，用了8.5元的包装。这意味着99.7%的产品都&amp;quot;过度包装&amp;quot;了。&lt;/p>
+&lt;p>跟产品部门协商后，我们把包装方案改了：&lt;/p>
+&lt;ul>
+&lt;li>泡沫内衬换成EPE珍珠棉，成本从3.2元降到1.8元&lt;/li>
+&lt;li>外箱从3层改成2层（我们的产品重量不到5kg，2层足够），成本从4.8元降到3.2元&lt;/li>
+&lt;li>加了束带固定，成本0.5元&lt;/li>
+&lt;/ul>
+&lt;p>新包装总成本5.5元，比原来省了3元。运输破损率从0.3%微涨到0.5%，多出的0.2%赔偿成本远低于省下来的包装费。&lt;/p>
+&lt;p>&lt;strong>年节省：3元/箱 × 12万箱/年 = 36万元&lt;/strong>&lt;/p>
+&lt;p>关键认知：&lt;strong>包装成本是物流成本的一部分，而且是可以优化的部分。&lt;/strong> 很多公司包装方案用了5年没改过，浪费巨大。&lt;/p>
+&lt;h2 id="第二刀提高装载率省了8">第二刀：提高装载率，省了8%&lt;/h2>
+&lt;p>我们的出货是委托第三方物流，按车次计费。13米高栏车，一车运费4500-5500元（看距离）。&lt;/p>
+&lt;p>我查了最近3个月的装车记录，平均装载率只有72%。&lt;/p>
+&lt;p>为什么？因为订单是按客户需求下的，仓库按单拣货按单装车，没人管这车装没装满。&lt;/p>
+&lt;p>改了两个动作：&lt;/p>
+&lt;p>&lt;strong>动作一：合并装车。&lt;/strong> 同一方向的订单合并到一辆车，不赶时效的订单等下一批凑满一车再发。时效要求高的走快递/专线，时效要求低的走拼车。&lt;/p>
+&lt;p>&lt;strong>动作二：装车指导。&lt;/strong> 给装车师傅出了个简易的装车图——重货放底层，轻货放上层，异形件最后塞缝。别笑，就这么简单的规则，装载率从72%提到了88%。&lt;/p>
+&lt;p>&lt;strong>年节省：&lt;/strong>&lt;/p>
+&lt;p>原来100车的量，现在只要82车。按均价5000元/车算，省18车 × 5000元 = 9万元/年。&lt;/p>
+&lt;p>别嫌少，这只是装载率优化这一项。&lt;/p>
+&lt;h2 id="第三刀整合运输频次省了7">第三刀：整合运输频次，省了7%&lt;/h2>
+&lt;p>以前我们的出货节奏是：客户下单就发货，一天最多发8车。&lt;/p>
+&lt;p>我跟销售聊了一下，发现很多客户根本不要求当天到，2-3天都行。但我们的流程是&amp;quot;接到订单就发货&amp;quot;，没有根据时效需求做分级。&lt;/p>
+&lt;p>改成分级发运后：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>紧急件&lt;/strong>（24小时到）：走专线或快递，占比约15%&lt;/li>
+&lt;li>&lt;strong>常规件&lt;/strong>（48-72小时到）：凑满一车发，占比约70%&lt;/li>
+&lt;li>&lt;strong>不急件&lt;/strong>（5天内到）：等最优路线凑满发，占比约15%&lt;/li>
+&lt;/ul>
+&lt;p>紧急件的物流单价确实提高了，但因为只占15%，整体影响很小。而常规件和不急件通过凑车和路线优化，单车成本大幅下降。&lt;/p>
+&lt;p>&lt;strong>年节省：约8万元&lt;/strong>&lt;/p>
+&lt;h2 id="降本效果汇总">降本效果汇总&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>年节省&lt;/th>
+ &lt;th>占比&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>包装优化&lt;/td>
+ &lt;td>36万&lt;/td>
+ &lt;td>50%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>装载率提升&lt;/td>
+ &lt;td>9万&lt;/td>
+ &lt;td>12.5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>运输频次整合&lt;/td>
+ &lt;td>8万&lt;/td>
+ &lt;td>11%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>其他（仓储优化等）&lt;/td>
+ &lt;td>19万&lt;/td>
+ &lt;td>26.5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>合计&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>72万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>100%&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>总物流成本降了30%，运费单价没降一分。&lt;/p>
+&lt;h2 id="核心逻辑">核心逻辑&lt;/h2>
+&lt;p>物流降本的核心逻辑不是&amp;quot;买更便宜的服务&amp;quot;，而是&amp;quot;减少浪费&amp;quot;。&lt;/p>
+&lt;p>过度包装是浪费，装载不满是浪费，高频次低批量发运是浪费。这些浪费不解决，运费压到零你也省不了多少。&lt;/p></description></item><item><title>经济订货量算了个寂寞？3个原因让你白算了</title><link>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</guid><description>&lt;p>上学的时候，EOQ（经济订货量）公式是考试必考题。Q* = √(2DS/H)，背得滚瓜烂熟。&lt;/p>
+&lt;p>工作以后，我拿这个公式去算采购批量，结果被采购经理一句话怼回来：&amp;ldquo;你算的这个数，供应商根本不接单。&amp;rdquo;&lt;/p>
+&lt;p>后来我才明白，&lt;strong>EOQ不是算错了，是它的假设前提跟现实差了十万八千里。&lt;/strong>&lt;/p>
+&lt;h2 id="原因一eoq的假设条件在现实中几乎不存在">原因一：EOQ的假设条件在现实中几乎不存在&lt;/h2>
+&lt;p>EOQ公式的推导基于几个核心假设：&lt;/p>
+&lt;ul>
+&lt;li>需求是均匀稳定的&lt;/li>
+&lt;li>提前期是固定的&lt;/li>
+&lt;li>没有数量折扣&lt;/li>
+&lt;li>不存在缺货&lt;/li>
+&lt;li>单位持有成本是常数&lt;/li>
+&lt;/ul>
+&lt;p>但现实是什么样？&lt;/p>
+&lt;p>需求忽高忽低，旺季是淡季的5倍；供应商提前期从7天到30天都有可能；大批量采购有3%的折扣；缺货成本根本算不出来；仓库租金和资金成本也一直在变。&lt;/p>
+&lt;p>&lt;strong>在一个动态的现实世界里，用静态的公式去算最优批量，本身就是个悖论。&lt;/strong>&lt;/p>
+&lt;p>有个做MRO采购的朋友，用EOQ算出来的最优批量是237个，但供应商的包装规格是250个一箱。237个怎么买？拆箱？供应商不干。买250个？那就偏离了&amp;quot;最优&amp;quot;。&lt;/p>
+&lt;h2 id="原因二参数取值全靠拍脑袋">原因二：参数取值全靠拍脑袋&lt;/h2>
+&lt;p>EOQ公式需要三个输入：年需求量D、每次订货成本S、单位持有成本H。&lt;/p>
+&lt;p>D还好说，历史数据拉一拉就能估出来。但S和H呢？&lt;/p>
+&lt;p>&lt;strong>订货成本S&lt;/strong> 包括：下单的人工成本、审核成本、收货检验成本、入库成本、付款对账成本。这些成本大部分是间接的，跟订单量没有明确的线性关系。你下单10个和下单1000个，审核流程一样，收货检验的时间也差不多。所以S到底该算多少？100块？500块？不同人算出来的数差10倍都有可能。&lt;/p>
+&lt;p>&lt;strong>持有成本H&lt;/strong> 更离谱。资金成本、仓储成本、损耗成本、过时风险……资金成本还好算（按银行利率），但过时风险怎么量化？有些物料放半年就过时了，有些放3年都没事。&lt;/p>
+&lt;p>&lt;strong>输入是垃圾，输出就是垃圾。&lt;/strong> 这不是公式的问题，是参数的问题。&lt;/p>
+&lt;h2 id="原因三忽略了价格折扣和运输成本">原因三：忽略了价格折扣和运输成本&lt;/h2>
+&lt;p>这是EOQ最大的盲区。&lt;/p>
+&lt;p>假设供应商给了你一个价格阶梯：1000个以下单价10元，1000-5000个单价9.5元，5000个以上单价9元。&lt;/p>
+&lt;p>你用EOQ算出来最优批量是800个，单价10元，总成本=采购成本+订货成本+持有成本。&lt;/p>
+&lt;p>但如果你买1000个，虽然偏离了EOQ的&amp;quot;最优&amp;quot;，但单价降了5%，省下来的钱可能远超多出来的持有成本。&lt;/p>
+&lt;p>&lt;strong>运输成本也一样。&lt;/strong> 你的EOQ算出来是500个，但一车能装2000个。500个走零担运费2000块，2000个走整车运费3500块。分摊到每个单位，零担4块/个，整车1.75块/个。&lt;/p>
+&lt;p>这时候你还坚持EOQ的500个吗？&lt;/p>
+&lt;h2 id="那到底该怎么用">那到底该怎么用？&lt;/h2>
+&lt;p>EOQ不是废的，但不能直接套用。我的实操经验是：&lt;/p>
+&lt;p>&lt;strong>1. 把EOQ当起点，不当终点&lt;/strong>&lt;/p>
+&lt;p>算出来的Q*是一个参考值，不是最终答案。在这个基础上，考虑包装规格、价格折扣、运输经济批量等因素，做向上或向下的调整。&lt;/p>
+&lt;p>&lt;strong>2. 用EOQ的思路，不用EOQ的公式&lt;/strong>&lt;/p>
+&lt;p>EOQ的核心思想是：订货成本和持有成本之间的平衡。这个思路是对的，但平衡点不一定是公式算出来的那个数。你可以用模拟的方法，把不同的批量方案对应的总成本算出来，选成本最低的那个。&lt;/p>
+&lt;p>&lt;strong>3. 区分物料特性&lt;/strong>&lt;/p>
+&lt;p>A类物料（金额大、需求相对稳定）可以用EOQ的思路优化；C类物料（金额小、SKU多）用简单的再订货点法就行，不值得花时间算EOQ。&lt;/p>
+&lt;p>&lt;strong>4. 加入现实约束&lt;/strong>&lt;/p>
+&lt;p>在EOQ基础上加约束条件：最小起订量、包装规格倍数、价格阶梯、运输批量。这些约束会让&amp;quot;理论最优&amp;quot;变成&amp;quot;实际可行最优&amp;quot;。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>EOQ公式没有错，错的是生搬硬套。公式给你的是一个思考框架，不是一个标准答案。&lt;/p>
+&lt;p>真正的高手，不是会背公式的人，而是知道公式在什么条件下失效、怎么调整的人。&lt;/p>
+&lt;p>记住：&lt;strong>供应链管理是工程问题，不是数学题。&lt;/strong>&lt;/p></description></item><item><title>运输管理做了5年，我总结了3个被严重低估的指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</guid><description>&lt;p>做运输管理的人，最常盯的KPI就是两个：运费和时效。&lt;/p>
+&lt;p>运费越低越好，时效越快越好。这谁都知道。&lt;/p>
+&lt;p>但盯了5年运输以后，我发现真正决定运输管理水平高低的，不是运费和时效，而是另外3个指标。这3个指标被严重低估了，但它们才是影响运输成本和客户体验的&amp;quot;隐性杀手&amp;quot;。&lt;/p>
+&lt;h2 id="指标一准时提货率">指标一：准时提货率&lt;/h2>
+&lt;p>大多数人关注的是&amp;quot;准时送达率&amp;quot;，但很少有人关注&amp;quot;准时提货率&amp;quot;。&lt;/p>
+&lt;p>为什么提货时效这么重要？因为&lt;strong>提货延误是运输全链路延误的源头。&lt;/strong>&lt;/p>
+&lt;p>我之前管一个全国配送网络，月度数据显示：准时送达率92%，看起来还行。但拆开看，92%准时送达的订单里，有15%是靠&amp;quot;抢时间&amp;quot;赶回来的——司机加班、绕路走高速、甚至超速。&lt;/p>
+&lt;p>这就意味着，真正在计划内正常完成的订单只有77%，剩下23%要么延误，要么靠牺牲安全和成本&amp;quot;抢&amp;quot;回来的。&lt;/p>
+&lt;p>而追根溯源，&lt;strong>延误订单中60%的第一环是提货延误&lt;/strong>。工厂没有按时备好货、仓库找不到物料、提货车辆晚到——任何一个环节出了问题，后面的时效就是空中楼阁。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>把&amp;quot;准时提货率&amp;quot;纳入承运商考核，权重不低于20%&lt;/li>
+&lt;li>提货前2小时自动提醒仓库备货&lt;/li>
+&lt;li>提货延误超过1小时的，当天出异常报告&lt;/li>
+&lt;/ol>
+&lt;p>我加了准时提货率考核后，3个月从83%提升到95%，准时送达率从92%自动提升到96%——不用赶，不用抢，源头控住了，下游自然就好了。&lt;/p>
+&lt;h2 id="指标二异常处理时效">指标二：异常处理时效&lt;/h2>
+&lt;p>运输异常是常态：车辆抛锚、天气封路、货物破损、客户拒收……&lt;/p>
+&lt;p>异常不可怕，可怕的是异常处理慢。&lt;/p>
+&lt;p>我统计过一组数据：每100票运输中大约有8-12票会出现异常。异常的平均处理时长是36小时。&lt;/p>
+&lt;p>36小时意味着什么？意味着客户的货在路上多停了1.5天，意味着可能要重新发货，意味着客户的体验直接崩了。&lt;/p>
+&lt;p>&lt;strong>异常处理时效才是运输管理的试金石。&lt;/strong> 正常情况谁都能搞定，出了问题能多快解决，才是真本事。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>建立异常分级机制&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一级异常（货物全损/整车延误）：30分钟内响应，4小时内给出解决方案&lt;/li>
+&lt;li>二级异常（部分破损/短量）：2小时内响应，12小时内解决&lt;/li>
+&lt;li>三级异常（单票延误/信息差错）：4小时内响应，24小时内解决&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常处理群&lt;/strong>：每个承运商建一个异常处理群，司机、调度、客服在群里。异常发生时第一时间在群里报，不用走系统等审批。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常复盘&lt;/strong>：每周做一次异常复盘，不是追责，而是找规律——哪些线路异常频发？哪些承运商异常率偏高？哪些异常类型可以预防？&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>改了以后，异常平均处理时长从36小时降到8小时，客户投诉率降了45%。&lt;/p>
+&lt;h2 id="指标三单票运输成本趋势">指标三：单票运输成本趋势&lt;/h2>
+&lt;p>运费单价是静态的，单票运输成本是动态的。&lt;/p>
+&lt;p>什么意思？运费单价看的是&amp;quot;每公斤多少钱&amp;quot;或&amp;quot;每车多少钱&amp;quot;，但单票运输成本看的是&amp;quot;每完成一票运输的总成本&amp;quot;。&lt;/p>
+&lt;p>总成本 = 运费 + 装卸费 + 保险费 + 异常处理费 + 管理成本分摊&lt;/p>
+&lt;p>我见过一家公司，运费单价降了15%（换了更便宜的承运商），但单票运输成本反而涨了8%。为什么？&lt;/p>
+&lt;ul>
+&lt;li>更便宜的承运商准时率低，导致紧急补发频次增加&lt;/li>
+&lt;li>破损率高，赔偿成本和补发成本上涨&lt;/li>
+&lt;li>服务差，客服沟通成本大幅增加&lt;/li>
+&lt;li>管理成本翻倍（要花更多时间盯这家承运商）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>运费单价降了15%，但总成本涨了8%。&lt;/strong> 这就是只看单价不看总成本的代价。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>每月核算单票运输成本趋势，不只是运费&lt;/li>
+&lt;li>把异常处理成本、补发成本、管理成本都计入&lt;/li>
+&lt;li>承运商评估用TCO（总拥有成本），不只看报价&lt;/li>
+&lt;/ol>
+&lt;h2 id="指标优先级">指标优先级&lt;/h2>
+&lt;p>这三个指标和传统的运费、时效指标怎么配合？我建议的优先级：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>准时提货率&lt;/strong> → 源头控制，优先级最高&lt;/li>
+&lt;li>&lt;strong>异常处理时效&lt;/strong> → 问题响应，决定客户体验&lt;/li>
+&lt;li>&lt;strong>单票运输成本趋势&lt;/strong> → 成本真相，避免被单价蒙蔽&lt;/li>
+&lt;li>准时送达率 → 结果指标，不用额外管，前三个做好了自然达标&lt;/li>
+&lt;li>运费单价 → 参考指标，不是核心管控对象&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>管好源头、快处异常、看清总成本。&lt;/strong> 这三件事做到位，运输管理就上了个台阶。&lt;/p></description></item><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
+&lt;p>需求提报→部门主管审批→采购主管审批→采购经理审批→财务审批→总经理审批→下单&lt;/p>
+&lt;p>一个普通采购件，从提需求到下单，平均7.5个工作日。&lt;/p>
+&lt;p>紧急件？加急走完流程也要3天。&lt;/p>
+&lt;p>我看完他们的流程图，说了句：&amp;ldquo;你们不是在管采购，是在管审批。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步砍掉不增值的审批环节">第一步：砍掉不增值的审批环节&lt;/h2>
+&lt;p>先看看每个审批节点到底在审什么：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>部门主管&lt;/strong>：审需求合理性——这个该审&lt;/li>
+&lt;li>&lt;strong>采购主管&lt;/strong>：审是否有库存/替代品——这个该审&lt;/li>
+&lt;li>&lt;strong>采购经理&lt;/strong>：审价格是否合理——这个该审&lt;/li>
+&lt;li>&lt;strong>财务审批&lt;/strong>：审预算——但财务根本不了解采购内容，只看有没有预算&lt;/li>
+&lt;li>&lt;strong>总经理审批&lt;/strong>：审金额——但500块的东西也要总经理签字？&lt;/li>
+&lt;/ul>
+&lt;p>问题很明显：&lt;strong>审批链条太长，越到后边越不增值。&lt;/strong>&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>按金额分级审批&lt;/strong>：5000元以下采购经理终审，5000-50000元财务加审，50000元以上总经理审&lt;/li>
+&lt;li>&lt;strong>砍掉财务常规审批&lt;/strong>：在预算范围内的采购，财务不逐笔审批，改为月度汇总审核&lt;/li>
+&lt;li>&lt;strong>框架协议免审批&lt;/strong>：已经在框架协议内的重复采购，直接下单，无需逐笔审批&lt;/li>
+&lt;/ol>
+&lt;p>改完以后，5000元以下采购的审批时间从5天降到0.5天（线上审批，采购经理手机一点就过）。&lt;/p>
+&lt;h2 id="第二步数字化审批流">第二步：数字化审批流&lt;/h2>
+&lt;p>审批慢的另一个原因是——线下审批。&lt;/p>
+&lt;p>他们的采购申请是Excel填表，打印出来找人签字。采购经理经常出差，一出差审批就卡住。总经理更忙，桌上一堆待签文件，采购申请排到第5位。&lt;/p>
+&lt;p>&lt;strong>数字化改造三个动作：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>动作一：上线采购管理模块。&lt;/strong> 需求提报、审批、下单、收货、付款全流程在线化。不用打印、不用跑腿、不用等人在办公室。&lt;/p>
+&lt;p>&lt;strong>动作二：移动端审批。&lt;/strong> 采购经理和总经理手机装了审批APP，出差路上就能批。审批时效从&amp;quot;等3天&amp;quot;变成&amp;quot;当天批&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>动作三：自动校验。&lt;/strong> 系统自动校验预算余额、历史价格、框架协议。价格超历史均价10%的自动标红提醒，预算不足的直接拦截。&lt;/p>
+&lt;p>数字化后，审批平均处理时间从7.5天降到1.8天。&lt;/p>
+&lt;h2 id="第三步建立供应商自助平台">第三步：建立供应商自助平台&lt;/h2>
+&lt;p>以前的流程是：采购员把订单导出Excel，发邮件给供应商，供应商确认后回邮件，采购员再录入系统。&lt;/p>
+&lt;p>一个订单来回3封邮件，如果供应商有疑问还得打电话确认。10个供应商、每天20笔订单，光订单沟通就占了一个采购员大半天。&lt;/p>
+&lt;p>&lt;strong>改法：上线供应商协同平台。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购在系统下单，供应商自动收到通知&lt;/li>
+&lt;li>供应商在线确认交期、数量&lt;/li>
+&lt;li>发货后在线录入物流信息&lt;/li>
+&lt;li>到货后仓库在线签收&lt;/li>
+&lt;/ul>
+&lt;p>供应商自助平台上线3个月后：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>改造前&lt;/th>
+ &lt;th>改造后&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>订单处理时间&lt;/td>
+ &lt;td>2.5小时/批&lt;/td>
+ &lt;td>0.5小时/批&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单确认周期&lt;/td>
+ &lt;td>1.5天&lt;/td>
+ &lt;td>0.3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购员人均处理订单量&lt;/td>
+ &lt;td>30单/天&lt;/td>
+ &lt;td>80单/天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单差错率&lt;/td>
+ &lt;td>3.2%&lt;/td>
+ &lt;td>0.5%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>一个采购员的工作效率提升了2.7倍。&lt;/strong> 原来需要5个采购员干的活，现在2个人就够了。&lt;/p>
+&lt;h2 id="综合效果">综合效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>审批流程简化&lt;/td>
+ &lt;td>审批时间从7.5天→1.8天，降76%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>数字化审批&lt;/td>
+ &lt;td>审批及时率从65%→98%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>供应商自助平台&lt;/td>
+ &lt;td>采购员效率提升2.7倍，差错率降84%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>人力节省&lt;/td>
+ &lt;td>5个采购员→2个采购员，年省人力成本约48万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购周期缩短&lt;/td>
+ &lt;td>从提需求到收货，从15天→6天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>省下来的48万，够发3个采购员3个月的工资了。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>采购流程优化的核心原则就一个：&lt;strong>砍掉不增值的活动，把时间花在真正需要人判断的地方。&lt;/strong>&lt;/p></description></item><item><title>需求预测不准？因为你把预测当成了算命</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</guid><description>&lt;p>每次做需求预测，总有人问我：&amp;ldquo;准确率能做到多少？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;看你用什么指标。月度总需求预测准确率能到85%就很好了，SKU级别能到60%就及格。&amp;rdquo;&lt;/p>
+&lt;p>然后对面就一脸嫌弃：&amp;ldquo;才60%？那预测有什么用？&amp;rdquo;&lt;/p>
+&lt;p>这就是对需求预测最大的误解——&lt;strong>把预测当成了算命。&lt;/strong>&lt;/p>
+&lt;h2 id="误区一追求预测准确率100">误区一：追求预测准确率100%&lt;/h2>
+&lt;p>没有人的预测能做到100%准确，连客户自己都不知道他下个月会买多少。&lt;/p>
+&lt;p>但很多人就是不信邪，搞各种复杂模型、加各种外部数据、请各种顾问，结果预测准确率从60%提到65%，投入成本翻了3倍。&lt;/p>
+&lt;p>&lt;strong>多5%的准确率，值得3倍的成本吗？&lt;/strong> 大多数情况下不值得。&lt;/p>
+&lt;p>需求预测的价值不在于&amp;quot;算准&amp;quot;，而在于&amp;quot;减少不确定性&amp;quot;。你从&amp;quot;完全不知道&amp;quot;到&amp;quot;大概知道一个范围&amp;quot;，这个不确定性的减少本身就是巨大的价值。&lt;/p>
+&lt;p>&lt;strong>正确的心态：预测是概率，不是承诺。&lt;/strong> 给出一个预测值+置信区间，比给一个&amp;quot;精确&amp;quot;的数字更实用。&lt;/p>
+&lt;h2 id="误区二只看历史数据">误区二：只看历史数据&lt;/h2>
+&lt;p>最常见的需求预测方法就是把过去12个月的销售数据拉出来，算个移动平均或者做个趋势外推。&lt;/p>
+&lt;p>这方法简单，但有个致命问题：&lt;strong>历史不会简单重复。&lt;/strong>&lt;/p>
+&lt;p>去年Q4卖了5000台，是因为有个大客户下了批量订单。今年这个客户不买了，你按去年数据预测Q4还要卖5000台？那等着积压吧。&lt;/p>
+&lt;p>&lt;strong>历史数据要结合业务判断才能用。&lt;/strong> 具体来说：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>清洗历史数据&lt;/strong>：把一次性大单、促销影响、缺货期间的销量等异常数据剔除，还原&amp;quot;真实需求&amp;quot;&lt;/li>
+&lt;li>&lt;strong>加入业务变量&lt;/strong>：新产品上市计划、客户开拓计划、促销计划、竞争对手动态&lt;/li>
+&lt;li>&lt;strong>分层预测&lt;/strong>：总量用统计模型，大客户需求单独确认，新品用类比法&lt;/li>
+&lt;/ol>
+&lt;h2 id="误区三预测只做一次">误区三：预测只做一次&lt;/h2>
+&lt;p>很多公司一年做一次需求预测，做完了就放在那里，实际执行跟预测完全脱节。&lt;/p>
+&lt;p>需求是动态的，预测也必须是动态的。&lt;strong>预测的价值在于持续更新，而不是一次性的&amp;quot;算命&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>好的做法是滚动预测：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度滚动&lt;/strong>：每月更新未来3-6个月的预测，把最新的销售数据和市场信息纳入&lt;/li>
+&lt;li>&lt;strong>周度微调&lt;/strong>：对近1个月的预测做周度微调，根据最新订单和库存情况&lt;/li>
+&lt;li>&lt;strong>异常触发&lt;/strong>：当实际销量偏离预测超过20%时，立即触发预测复盘&lt;/li>
+&lt;/ul>
+&lt;h2 id="实用方法一分层预测法">实用方法一：分层预测法&lt;/h2>
+&lt;p>不要试图用一个模型预测所有SKU的需求。不同类型的SKU，预测方法应该不同：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>SKU类型&lt;/th>
+ &lt;th>特征&lt;/th>
+ &lt;th>预测方法&lt;/th>
+ &lt;th>预期准确率&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>稳定型&lt;/td>
+ &lt;td>需求平稳、历史数据充足&lt;/td>
+ &lt;td>移动平均/指数平滑&lt;/td>
+ &lt;td>75-85%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>趋势型&lt;/td>
+ &lt;td>有明显上升或下降趋势&lt;/td>
+ &lt;td>趋势外推+季节调整&lt;/td>
+ &lt;td>65-75%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>间歇型&lt;/td>
+ &lt;td>时有时无、需求不连续&lt;/td>
+ &lt;td>Croston方法/组合预测&lt;/td>
+ &lt;td>50-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>新品型&lt;/td>
+ &lt;td>无历史数据&lt;/td>
+ &lt;td>类比法/客户意向&lt;/td>
+ &lt;td>40-55%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>不要追求所有SKU的预测准确率都一样高。&lt;/strong> 稳定型SKU准一点，新品粗一点，把精力放在最有价值的部分。&lt;/p>
+&lt;h2 id="实用方法二预测共识">实用方法二：预测+共识&lt;/h2>
+&lt;p>纯统计预测准确率有天花板，突破天花板的方法是加入&amp;quot;人&amp;quot;的判断。&lt;/p>
+&lt;p>具体做法是&lt;strong>S&amp;amp;OP（销售与运营计划）会议&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>统计预测给出基线&lt;/li>
+&lt;li>销售团队补充客户信息（大客户意向、促销计划、市场变化）&lt;/li>
+&lt;li>产品团队补充新品计划和老品退出计划&lt;/li>
+&lt;li>供应链团队评估供应约束&lt;/li>
+&lt;li>各方达成共识，形成最终预测&lt;/li>
+&lt;/ol>
+&lt;p>这个过程的本质不是&amp;quot;谁的预测更准&amp;quot;，而是把分散在各部门的信息汇聚起来，形成一个更有信息量的预测。&lt;/p>
+&lt;p>&lt;strong>共识预测的准确率通常比纯统计预测高10-15个百分点。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>需求预测的核心原则：&lt;strong>预测不是为了算准，是为了减少不确定性。&lt;/strong>&lt;/p>
+&lt;p>你永远不可能100%预测准确，但你可以从&amp;quot;完全不知道&amp;quot;进步到&amp;quot;知道一个范围&amp;quot;，从&amp;quot;被动响应&amp;quot;进步到&amp;quot;主动准备&amp;quot;。&lt;/p>
+&lt;p>预测的价值不在数字本身，而在预测过程——在这个过程中，你收集了信息、对齐了认知、识别了风险、准备了方案。&lt;/p>
+&lt;p>&lt;strong>即使预测不准，预测的过程也不会白费。&lt;/strong> 这才是需求预测真正的意义。&lt;/p></description></item><item><title>SKU从5000砍到800，库存降了60%还没丢客户</title><link>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</guid><description>&lt;p>三年前，我接手了一个做五金配件公司的供应链。他们的SKU数量是4862个。&lt;/p>
+&lt;p>但你知道这4862个SKU里，有多少个在前三个月里有销售记录吗？不到2100个。对，超过一半的SKU在3个月内一单都没卖过。&lt;/p>
+&lt;p>而这些&amp;quot;僵尸SKU&amp;quot;占了多少库存？37%。将近四成的库存资金，压在了一年也卖不出几件的东西上。&lt;/p>
+&lt;p>九个月后，我把SKU从4862砍到了823个。库存从2600万降到980万。销售额呢？从8000万涨到了8600万。&lt;/p>
+&lt;p>砍了4000个SKU，销售额不降反升。今天就来说说怎么做到的。&lt;/p>
+&lt;h2 id="大多数公司的sku泛滥是怎么来的">大多数公司的SKU泛滥是怎么来的？&lt;/h2>
+&lt;p>SKU不是一天多起来的。它长起来的路径通常是这样的：&lt;/p>
+&lt;p>一个大客户说&amp;quot;你能帮我做一批这种规格的吗？&amp;ldquo;销售说能，采购就去买了。客户要了两次不买了，但这个SKU永远留在了系统里。&lt;/p>
+&lt;p>一个产品经理说&amp;quot;我们要丰富产品线&amp;rdquo;，一下子上了30个新SKU。上完不管了，没有产品生命周期管理，卖的好的不管、卖不动的也不砍。&lt;/p>
+&lt;p>采购看到供应商有促销——&amp;ldquo;这批货便宜，多买点&amp;rdquo;。买回来三个月卖不动，但没人追责，货就这么堆着。&lt;/p>
+&lt;p>&lt;strong>SKU管理的最大问题不是怎么砍，是没有人管。&lt;/strong> SKU的生命周期从头到尾没有一个负责人，这才是根源。&lt;/p>
+&lt;h2 id="怎么判断该砍哪些sku">怎么判断该砍哪些SKU？&lt;/h2>
+&lt;p>给一个简单粗暴但行之有效的方法：&lt;strong>按&amp;quot;近12个月的销售频次&amp;quot;分类。&lt;/strong>&lt;/p>
+&lt;p>S类（高频）：每个月都有销售，占销量前70%的SKU。这些是核心，不能动。
+A类（中频）：不是每个月都有，但一个季度至少有一次销售。可以审视，不一定砍。
+B类（低频）：过去12个月只卖了1-3次。这些就要逐个问：有没有关键客户依赖？如果没有，标记待砍。
+C类（死货）：过去12个月零销售。没有讨论余地，直接砍。&lt;/p>
+&lt;p>我当时用这个方法，4862个SKU里筛出来：&lt;/p>
+&lt;ul>
+&lt;li>S类：812个（占比17%，贡献了72%的销售额）&lt;/li>
+&lt;li>A类：984个（占比20%，贡献了20%的销售额）&lt;/li>
+&lt;li>B类：1430个（占比29%，贡献了7%的销售额）&lt;/li>
+&lt;li>C类：1636个（占比34%，贡献了0.8%的销售额）&lt;/li>
+&lt;/ul>
+&lt;p>你看这个分布。不到40%的SKU贡献了92%的销售额。剩下60%的SKU，基本就是来凑数的。&lt;/p>
+&lt;h2 id="砍sku的时候怎么不丢客户">砍SKU的时候怎么不丢客户？&lt;/h2>
+&lt;p>砍SKU最大的阻力来自销售部：&amp;ldquo;这个客户就要这种规格的，你砍了我的客户怎么办？&amp;rdquo;&lt;/p>
+&lt;p>这是真实问题，需要认真对待。我的做法是三步走：&lt;/p>
+&lt;p>&lt;strong>第一步：把B类SKU对应的客户找出来。&lt;/strong> 这个SKU虽然卖得少，但卖给谁了？如果是卖给一个年销售额500万的大客户，那不能动。如果是卖给几个零散小客户，可以动。&lt;/p>
+&lt;p>&lt;strong>第二步：给客户提供替代方案。&lt;/strong> 这个规格不做了，有没有相近规格可以替代？很多时候客户要的精度没你想象的那么严格。你说这个垫片1.2mm的不做了，能不能用1.5mm的？大部分客户说可以。&lt;/p>
+&lt;p>&lt;strong>第三步：给缓冲期。&lt;/strong> 提前30天通知客户这个SKU要停产，让他们可以下一批&amp;quot;最后订单&amp;quot;。客户下完之后，你再裁掉。&lt;/p>
+&lt;p>当时我们800多个待砍SKU，经过这三步处理，最终只有23个因为&amp;quot;大客户依赖&amp;quot;被保留下来。其他的全部砍掉了。没有一个客户流失。&lt;/p>
+&lt;p>&lt;strong>关键是沟通。你闷不吭声地砍了，客户当然急。你提前沟通、给方案、给缓冲，客户是能理解的。&lt;/strong>&lt;/p>
+&lt;h2 id="砍完之后的正向收益">砍完之后的正向收益&lt;/h2>
+&lt;p>SKU砍完之后，带来的收益远不止库存下降：&lt;/p>
+&lt;p>&lt;strong>采购量集中了，议价能力上来了。&lt;/strong> 以前2000个SKU，每个买一点，哪来的议价能力？砍到800个之后，核心SKU的采购量翻了3倍，跟供应商谈价格更有底气了。&lt;/p>
+&lt;p>&lt;strong>仓库效率提升了。&lt;/strong> 4862个SKU的时候，拣货员要在几千个货位里找东西。823个SKU的时候，货位规划清晰，拣货速度快了至少30%。&lt;/p>
+&lt;p>&lt;strong>质检工作量减了。&lt;/strong> 以前每种SKU都要做来料检验，几千个SKU的质检报表厚得跟词典一样。现在集中在800个核心SKU上，质检做得更透了。&lt;/p>
+&lt;p>&lt;strong>运营复杂度降了。&lt;/strong> SKU少，预测简单，计划好做，异常少，团队管理也轻松。&lt;/p>
+&lt;p>这些收益加起来，比单纯的&amp;quot;库存降了&amp;quot;要大得多。&lt;/p>
+&lt;h2 id="但别犯这个错一刀切砍sku">但别犯这个错——一刀切砍SKU&lt;/h2>
+&lt;p>有一个陷阱我必须提醒：&lt;strong>砍SKU不是看销售额大小，是看有没有客户依赖。&lt;/strong>&lt;/p>
+&lt;p>我见过有公司用帕累托法则一刀切：把所有SKU按销售额排序，砍掉后80%的SKU。看起来很科学？&lt;/p>
+&lt;p>然后一个大客户的专用配件被砍掉了。这个配件一年只卖2次，每次5000块钱，销售额微乎其微。但没这个配件，客户的整个设备就转不起来。&lt;/p>
+&lt;p>这个大客户一年的总采购额是4000万。为了砍掉一个&amp;quot;低销售额SKU&amp;quot;，差点丢掉4000万的客户。&lt;/p>
+&lt;p>&lt;strong>所以判断&amp;quot;该砍哪个&amp;quot;的公式是：客户依赖度 &amp;gt; 销售额绝对值。&lt;/strong>&lt;/p>
+&lt;p>这个SKU虽然卖的少，但对大客户很重要 → 保留。
+这个SKU虽然卖的多，但产品生命周期到末期了 → 可以砍。
+这个SKU卖的少，也没有大客户依赖 → 放心砍。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>SKU管理不是什么高深的学问。它的底层逻辑就一句话：&lt;strong>你的SKU是为客户存在的，不是为系统存在的。&lt;/strong>&lt;/p>
+&lt;p>客户不需要的、客户可以替代的、客户已经淘汰的——这些SKU留在系统里就是毒品，消耗你的资金、空间和管理精力。&lt;/p>
+&lt;p>趁早清理，比攒多了一起清要容易得多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>上AGV花了80万，效率不升反降？仓储自动化的真相扎心了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-reality/</guid><description>&lt;p>2024年初，一个做快消品的朋友找到我，说他刚给仓库上了一套AGV系统，花了80万。&lt;/p>
+&lt;p>我问他效果怎么样，他说：&amp;ldquo;别提了，发货效率反而降了15%。&amp;rdquo;&lt;/p>
+&lt;p>我愣了一下，问他为什么。&lt;/p>
+&lt;p>他说：&amp;ldquo;AGV跑得是快，但我们仓库地面不平，它经常卡住。货架也没改造，AGV对不准。员工也不会操作，天天报故障。最扯的是，旺季订单来了，AGV的速度根本跟不上，最后还是叫了临时工用手推车。&amp;rdquo;&lt;/p>
+&lt;p>80万的AGV系统，最后变成了仓库里的&amp;quot;高级装饰品&amp;quot;。&lt;/p>
+&lt;p>这就是仓储自动化的第一个真相：&lt;strong>不是自动化不好，是你没搞清楚自己该上什么级别的自动化。&lt;/strong>&lt;/p>
+&lt;h2 id="你的仓库到底需要什么先回答三个问题">你的仓库到底需要什么？先回答三个问题&lt;/h2>
+&lt;p>上自动化之前，先把这三个问题想明白：&lt;/p>
+&lt;p>&lt;strong>第一个问题：你的订单波动有多大？&lt;/strong>&lt;/p>
+&lt;p>如果你一年有6个月淡季、2个月平季、2个月旺季，旺季订单量是淡季的4倍。那你上固定产能的自动化设备，八成会出问题——淡季设备闲置，旺季产能不够。&lt;/p>
+&lt;p>这种情况下，你应该考虑的是一次性投入低、灵活性高的半自动化方案，比如拣选辅助系统、手持终端扫码+输送线，而不是上全自动AGV。&lt;/p>
+&lt;p>&lt;strong>第二个问题：你的SKU种类和包装规格有多复杂？&lt;/strong>&lt;/p>
+&lt;p>自动化设备最怕的就是&amp;quot;不标准&amp;quot;。如果你的SKU超过5000个，包装规格从5cm小件到2米大件都有，那自动化设备识别、抓取、搬运的难度和成本都会爆表。&lt;/p>
+&lt;p>这种情况下，你要先做的是SKU标准化和包装标准化，而不是急着上自动化。标准化做好了，效率能提升20-30%，成本几乎为零。&lt;/p>
+&lt;p>&lt;strong>第三个问题：你的订单结构是B2B还是B2C？&lt;/strong>&lt;/p>
+&lt;p>B2B是大批量、少批次。一件货可能是一整托盘，一辆车就装一两单。这种情况，自动化主要解决的是搬运问题。&lt;/p>
+&lt;p>B2C是小批量、多批次。一个订单可能就一两个小件，一辆车要装几百个订单。这种情况，自动化主要解决的是拣选和分拣问题。&lt;/p>
+&lt;p>两者需要的自动化方案完全不同。如果你的仓库B2B和B2C都要做，那对自动化的要求就更高了。&lt;/p>
+&lt;h2 id="上自动化之前的三板斧不花钱也能提升效率">上自动化之前的&amp;quot;三板斧&amp;quot;——不花钱也能提升效率&lt;/h2>
+&lt;p>在花一分钱买设备之前，先把这三件事做了：&lt;/p>
+&lt;h3 id="第一斧动线优化">第一斧：动线优化&lt;/h3>
+&lt;p>很多仓库拣货效率低，不是人走得慢，是路走得太远了。&lt;/p>
+&lt;p>我见过一个仓库，最常用的A类产品放在仓库最深处，B类放中间，C类放大门口。拣货员一天走两万步，其中一万五千步是在走A类产品的冤枉路。&lt;/p>
+&lt;p>把A类移到离发货区最近的位置后，拣货效率提升了30%。一分钱没花。&lt;/p>
+&lt;h3 id="第二斧拣货路径优化">第二斧：拣货路径优化&lt;/h3>
+&lt;p>如果你还在用&amp;quot;一张拣货单一个订单&amp;quot;的模式，那你的拣货效率至少能翻一倍。&lt;/p>
+&lt;p>用波次拣货——把同一时间段内的几十个订单合并成一批，按仓库动线规划拣货路径。拣货员走一趟，能把几十个订单全拣完，回到分拣台再按订单分。&lt;/p>
+&lt;p>波次拣货不需要什么高科技，一个简单的WMS系统就够了。成本几千块，效率提升至少50%。&lt;/p>
+&lt;h3 id="第三斧包装标准化">第三斧：包装标准化&lt;/h3>
+&lt;p>如果你的纸箱规格有20种，每种箱子装什么靠&amp;quot;经验&amp;quot;，那你的打包效率至少浪费了30%。&lt;/p>
+&lt;p>做一件事：把SKU按尺寸分类，定3-5种标准纸箱，然后写一个&amp;quot;什么SKU用什么箱&amp;quot;的标准操作手册。&lt;/p>
+&lt;p>打包效率立竿见影就上来了，而且运输费用也会降——标准箱的装载率比五花八门的箱子高得多。&lt;/p>
+&lt;h2 id="自动化应该先上哪一个最实用的优先级排序">自动化应该先上哪？一个最实用的优先级排序&lt;/h2>
+&lt;p>如果你确认需要上自动化了，按这个顺序来：&lt;/p>
+&lt;p>&lt;strong>第一优先：电子标签拣货系统（Pick-to-Light）&lt;/strong>&lt;/p>
+&lt;p>投资小（几万到十几万），见效快，操作简单。货位上有灯，灯亮了你拿，拿完了按灭。出错率从3-5%降到0.1%以下。ROI通常在6-12个月内回收。&lt;/p>
+&lt;p>&lt;strong>第二优先：输送线+分拣系统&lt;/strong>&lt;/p>
+&lt;p>如果你每天订单超过500单，输送线是性价比最高的自动化投资。它解决的是&amp;quot;人跑来跑去&amp;quot;的问题，让货动人不跑。成本从十几万到几十万不等，一般1-2年回收。&lt;/p>
+&lt;p>&lt;strong>第三优先：码垛机器人/无人叉车&lt;/strong>&lt;/p>
+&lt;p>如果出库量大、搬运距离远、工伤风险高（比如冷库），考虑无人叉车。单台成本10-30万，需要平整地面和配套的调度系统。&lt;/p>
+&lt;p>&lt;strong>最后才考虑：全自动AGV/ASRS&lt;/strong>&lt;/p>
+&lt;p>成本高（百万级起），实施周期长（半年起），对仓库条件要求高。除非你的日订单量超过5000单、人工成本太高、招人困难，否则不要轻易上全自动。&lt;/p>
+&lt;h2 id="说了这么多总结三句话">说了这么多，总结三句话&lt;/h2>
+&lt;p>第一句：**自动化解决的是规模问题，不是管理问题。**你管理流程都没跑通就想上自动化，那是花钱给自己添乱。&lt;/p>
+&lt;p>第二句：**先优化流程，再上工具。**把动线调好、拣货路径规划好、包装标准化，这些做好了，效率提升常常比上设备还大。&lt;/p>
+&lt;p>第三句：**自动化不是一次性投资，是长期运营。**设备要维护、系统要升级、人要被培训。如果你们公司连IT团队都没有，那你上全自动就是请了个爷回来供着。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链协同做了3年还是各干各的？问题不在IT系统</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</guid><description>&lt;p>去年一个做电子的朋友找我诉苦。&lt;/p>
+&lt;p>他公司2023年上了SAP，又花了两百万做了个供应链协同平台。供应商能看到他的生产计划，他能看到供应商的库存水位。数据跑通了，系统打通了，按说应该万事大吉。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>采购部还在压供应商的价，理由是&amp;quot;这是我的KPI&amp;quot;。
+销售部接了个大单，不跟生产打招呼，直接拍胸脯说15天交货。
+生产部接到订单开始备料，发现关键物料库存不够，找采购，采购说&amp;quot;供应商涨价，我没批，所以没下单&amp;quot;。
+最后订单延期20天，客户罚款30万。&lt;/p>
+&lt;p>朋友懵了：&amp;ldquo;我花几百万做的协同平台，他们全当没看见，还是各干各的。&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;因为你搞错了一件事。供应链协同的核心从来不是IT系统，是利益对齐。&amp;rdquo;&lt;/p>
+&lt;h2 id="it系统解决的是信息问题不是利益问题">IT系统解决的是信息问题，不是利益问题&lt;/h2>
+&lt;p>大多数公司对供应链协同的理解还停留在&amp;quot;信息共享&amp;quot;的层面：你看我的库存，我看你的计划，大家信息透明了，自然就协同了。&lt;/p>
+&lt;p>这是童话故事。&lt;/p>
+&lt;p>真正的供应链协同不是&amp;quot;我知道了你的情况所以我会配合你&amp;quot;，而是**&amp;ldquo;配合你对我也好所以我才配合你&amp;rdquo;**。&lt;/p>
+&lt;p>举个例子。我朋友公司的情况是这样的：&lt;/p>
+&lt;ul>
+&lt;li>采购的KPI是降本5%。所以不管什么情况，先压价再说。&lt;/li>
+&lt;li>生产的KPI是准时交付率。所以他们希望库存越多越好，最好所有料都在仓库等着。&lt;/li>
+&lt;li>销售的KPI是签单额。所以他们只管签单，不管能不能交。&lt;/li>
+&lt;li>供应商的诉求是多卖货、快回款。但采购压价+拖款，哪个供应商愿意跟你&amp;quot;协同&amp;quot;？&lt;/li>
+&lt;/ul>
+&lt;p>你看，每个人的KPI都在打架。你给他们一个再先进的协同平台，有什么用？他们还是会按自己的KPI干活。&lt;/p>
+&lt;p>&lt;strong>协同的前提是：大家的利益方向一致。如果销售签单等于生产背锅，你就永远不可能协同。&lt;/strong>&lt;/p>
+&lt;h2 id="三个让协同真正落地的方法">三个让协同真正落地的方法&lt;/h2>
+&lt;h3 id="方法一把别人的kpi变成我的kpi">方法一：把&amp;quot;别人的KPI&amp;quot;变成&amp;quot;我的KPI&amp;quot;&lt;/h3>
+&lt;p>我给我朋友的建议很简单：改KPI。&lt;/p>
+&lt;p>采购的KPI从&amp;quot;降本5%&amp;ldquo;改成&amp;quot;总拥有成本降低5%&amp;quot;。&lt;/p>
+&lt;p>什么意思？如果采购多花3%买了一家交期更稳定的供应商的料，导致生产线没停过，省下来的停工损失远不止3%。这笔账，要算在采购头上。&lt;/p>
+&lt;p>销售的KPI从&amp;quot;签单额&amp;quot;改成&amp;quot;签单额×准时交付率&amp;rdquo;。&lt;/p>
+&lt;p>如果销售接了一个交不出来的单，准时交付率下跌，他的奖金也跟着跌。你看他还敢不敢乱接单？&lt;/p>
+&lt;p>生产部的KPI从&amp;quot;准时交付率&amp;quot;改成&amp;quot;准时交付率×库存周转率&amp;quot;。&lt;/p>
+&lt;p>这样生产就不能张口就要安全库存翻倍，因为他们也得为库存成本买单。&lt;/p>
+&lt;p>三个部门的KPI里都有了&amp;quot;别人的事&amp;quot;，他们就会主动去跟别人协同。&lt;/p>
+&lt;p>不用开协同会议，不用催，他自己会去。&lt;/p>
+&lt;h3 id="方法二让供应商变成你的虚拟部门">方法二：让供应商变成你的&amp;quot;虚拟部门&amp;quot;&lt;/h3>
+&lt;p>我们总说&amp;quot;供应商是我们的合作伙伴&amp;quot;，但行为上呢？压价、拖款、临时改需求。&lt;/p>
+&lt;p>你管这叫合作伙伴？&lt;/p>
+&lt;p>真正的供应链协同，是把核心供应商当&lt;strong>虚拟部门&lt;/strong>来管理。什么意思？&lt;/p>
+&lt;p>第一，跟核心供应商签年度框架合同，不玩一单一议。让他知道今年大概有多少量，他才能做产能规划。&lt;/p>
+&lt;p>第二，把自己的生产计划提前同步给供应商。不是提前一周，是提前一个月、一个季度。供应商看到了确定的量，他就敢备库存，你的交期就短了。&lt;/p>
+&lt;p>第三，对核心供应商的回款周期缩短。别人60天，他30天。他资金周转快，自然愿意给你更好的价格和服务。&lt;/p>
+&lt;p>我见过最极端的案例：一家做汽车零部件的公司，对前三名供应商的回款周期是15天。结果这三家供应商在产能紧张的时候，优先保他们的货。因为对供应商来说，15天回款的客户就是最好的客户。&lt;/p>
+&lt;p>&lt;strong>你对供应商好，供应商就对你好。供应链协同说到底就这么简单。&lt;/strong>&lt;/p>
+&lt;h3 id="方法三按场景做协同别搞大而全">方法三：按场景做协同，别搞大而全&lt;/h3>
+&lt;p>很多公司上协同平台的时候，想把所有流程、所有供应商全拉进来。结果就是谁都嫌麻烦，谁都不配合。&lt;/p>
+&lt;p>我建议：先找一个最痛的场景，只在这个场景里做协同，跑顺了再扩。&lt;/p>
+&lt;p>比如你们公司最痛的是&amp;quot;紧急插单导致物料短缺&amp;quot;。那就只做这个场景的协同：销售一旦有插单意向，立刻在协同平台上发起需求，生产评估物料，采购马上跟供应商确认物料交期，三方在一个平台上24小时内给结论。&lt;/p>
+&lt;p>别的场景别管，先把这个跑通。&lt;/p>
+&lt;p>跑通了，大家尝到了甜头，自然会推着你去扩。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>供应链协同不是你买个系统、让大家把数据共享了就完了。&lt;/p>
+&lt;p>协同的本质是&lt;strong>利益重新分配&lt;/strong>。你要让每个参与方都觉得&amp;quot;协同对我有利&amp;quot;，而不是&amp;quot;协同是配合别人给我添麻烦&amp;quot;。&lt;/p>
+&lt;p>这个道理看起来简单，但90%的公司都做不到。因为他们宁可花几百万买系统，也不愿意花一天时间把KPI改合理。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>安全库存设多少？一个公式告诉你：90%的人设高了</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-math/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-math/</guid><description>&lt;p>先问你一个问题：你们公司的安全库存怎么定出来的？&lt;/p>
+&lt;p>我猜答案是：经验。或者更狠的：往前看三个月的最大日用量×一个&amp;quot;足够安全&amp;quot;的倍数。&lt;/p>
+&lt;p>这个倍数是谁定的？好像是某任老总退休前随口一说，后面的人就一直沿用到现在。&lt;/p>
+&lt;p>我跟你说一个数字：国内制造企业的安全库存，平均被设高了&lt;strong>40%以上&lt;/strong>。&lt;/p>
+&lt;p>40%是什么概念？一个年销售额5亿的企业，如果库存周转率6次，平均库存大约8300万。安全库存占多少？少说30%，也就是2500万。&lt;/p>
+&lt;p>设高了40%，就是多压了1000万的货在仓库里。1000万啊，按年化8%的资金成本算，一年就是80万的纯损失。&lt;/p>
+&lt;p>这80万，就是因为没人去算——安全库存到底应该是多少。&lt;/p>
+&lt;h2 id="安全库存的公式没有那么难">安全库存的公式，没有那么难&lt;/h2>
+&lt;p>安全库存的经典公式是：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × σd × √LT&lt;/strong>&lt;/p>
+&lt;p>解释一下：&lt;/p>
+&lt;ul>
+&lt;li>Z：服务水平对应的安全系数&lt;/li>
+&lt;li>σd：日需求量的标准差（也就是需求的波动程度）&lt;/li>
+&lt;li>LT：补货提前期（天）&lt;/li>
+&lt;/ul>
+&lt;p>不要被公式吓到。我一个个拆。&lt;/p>
+&lt;h3 id="z值你想要多高的服务水平">Z值：你想要多高的服务水平？&lt;/h3>
+&lt;p>Z值是统计学里的&amp;quot;安全系数&amp;quot;，对应的是你期待的&amp;quot;不缺货概率&amp;quot;。&lt;/p>
+&lt;ul>
+&lt;li>如果要求99.99%不缺货，Z = 3.72&lt;/li>
+&lt;li>如果要求99%不缺货，Z = 2.33&lt;/li>
+&lt;li>如果要求97.5%不缺货，Z = 1.96&lt;/li>
+&lt;li>如果要求95%不缺货，Z = 1.65&lt;/li>
+&lt;li>如果要求90%不缺货，Z = 1.28&lt;/li>
+&lt;/ul>
+&lt;p>看到了吗？从95%提升到99%，Z值从1.65跳到2.33，安全库存要增加41%。&lt;/p>
+&lt;p>你每提升一个点的服务水平，安全库存的增长是指数级的。不是线性的。&lt;/p>
+&lt;p>&lt;strong>所以你要做的第一件事不是算公式，是想清楚：你究竟需要多高的不缺货率？&lt;/strong>&lt;/p>
+&lt;p>如果你是做医疗设备的，缺货可能导致手术延期，那99%以上是必须的。
+如果你是做快消品的，缺货就是消费者换了个牌子，下次再买，那95%差不多了。&lt;/p>
+&lt;p>大多数制造企业的合理服务水平在95%-97.5%之间。别动不动就设99.99%，那是给自己找麻烦。&lt;/p>
+&lt;h3 id="σd你的需求到底有多波动">σd：你的需求到底有多波动？&lt;/h3>
+&lt;p>σd是日需求量的标准差。这句话翻译成人话就是：你的需求每天变来变去，变化的幅度有多大。&lt;/p>
+&lt;p>算一下你过去90天每天的销量。如果平均每天卖100个，但有些天卖120个，有些天卖80个，那标准差可能是15。&lt;/p>
+&lt;p>如果极端情况下，有几天卖200个，有几天只卖30个，那标准差可能是40。&lt;/p>
+&lt;p>标准差越大，安全库存越高。因为需求不稳定，你就得多备货来应对。&lt;/p>
+&lt;p>这里有个很多人都忽略的点：&lt;strong>如果你能缩短补货提前期，需求波动的影响就会大幅降低。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为如果你补货只需要1天，那你只需要应对&amp;quot;1天内需求突然暴涨&amp;quot;的风险。但如果补货需要15天，你得应对&amp;quot;15天累计需求超出预期&amp;quot;的风险。15天的累计波动，比1天的波动大得多。&lt;/p>
+&lt;p>这就引出了下一个关键参数。&lt;/p>
+&lt;h3 id="lt你的补货到底要多久">LT：你的补货到底要多久？&lt;/h3>
+&lt;p>很多公司的补货提前期是拍脑袋的。采购说&amp;quot;大概15天&amp;quot;，就写15天。&lt;/p>
+&lt;p>你去看一下实际数据：过去30次补货，平均用了几天？最短几天？最长几天？&lt;/p>
+&lt;p>如果平均15天，但最长那次用了28天——那你应该用哪个数？&lt;/p>
+&lt;p>&lt;strong>建议用平均值加上一个安全裕度。&lt;/strong> 比如平均15天，标准差3天，可以设18-20天。&lt;/p>
+&lt;p>另外还有一个维度的提前期：&lt;strong>信息提前期&lt;/strong>。就是你的采购下单，从需求确认到订单发出，中间要多少天。&lt;/p>
+&lt;p>我见过一个公司：物料短缺→仓库提需求→主管审批→采购经理审批→财务审批→下单。这个流程平均要5天。&lt;/p>
+&lt;p>5天啊！这5天是纯浪费的流程时间，但你的安全库存得覆盖这5天的需求。&lt;/p>
+&lt;p>把这个流程从5天压缩到1天，安全库存直接省掉20%。&lt;/p>
+&lt;h2 id="一个真实的计算案例">一个真实的计算案例&lt;/h2>
+&lt;p>假设一个物料：&lt;/p>
+&lt;ul>
+&lt;li>日均需求量：100件&lt;/li>
+&lt;li>需求标准差：20件/天&lt;/li>
+&lt;li>补货提前期：7天&lt;/li>
+&lt;li>服务水平：95%（Z=1.65）&lt;/li>
+&lt;/ul>
+&lt;p>安全库存 = 1.65 × 20 × √7 ≈ 1.65 × 20 × 2.646 ≈ 87件&lt;/p></description></item><item><title>库存周转率翻3倍，我把死库存变成了活现金</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</guid><description>&lt;p>2023年年底，我接手了一家年销售额2个亿的贸易公司的供应链。&lt;/p>
+&lt;p>老板给我看了一张表：库存账面价值3800万。全年销售成本1.52亿。&lt;/p>
+&lt;p>一算，库存周转率 = 1.52亿 ÷ 3800万 = 4次。&lt;/p>
+&lt;p>一年才转4圈。3800万的货，在仓库里平均躺90天才动一次。&lt;/p>
+&lt;p>老板苦笑着说：&amp;ldquo;我知道这个数不对，但不知道怎么办。&amp;rdquo;&lt;/p>
+&lt;p>三个月后，库存降到1600万，周转率提到9.5次。又过了三个月，库存1200万，周转率12.7次。硬生生从仓库里挤出了2600万现金。&lt;/p>
+&lt;p>今天就把这套方法讲透。&lt;/p>
+&lt;h2 id="90的人算错了库存周转率你也算错了">90%的人算错了库存周转率，你也算错了&lt;/h2>
+&lt;p>先问你一个问题：你们公司的库存周转率怎么算的？&lt;/p>
+&lt;p>我猜你会说：销货成本 ÷ 平均库存。&lt;/p>
+&lt;p>对，公式没毛病。但问题是——你的&amp;quot;销货成本&amp;quot;和&amp;quot;平均库存&amp;quot;这两个数，用对了吗？&lt;/p>
+&lt;p>我见过最荒唐的算法：某公司把寄售库存也算进了自己的平均库存。寄售啊大哥，东西在你仓库，但所有权是供应商的，你都没付钱，算什么库存？&lt;/p>
+&lt;p>还有把在途库存、预付款订金、甚至已经报废还没走流程的呆滞品全算进去了。账面上库存3800万，实际能用的只有2800万。&lt;/p>
+&lt;p>另外一个坑是销货成本。有人把仓储费、运输费、甚至采购部门的工资都算进去了。这不是销货成本，这是期间费用。&lt;/p>
+&lt;p>&lt;strong>库存周转率不准，后面的所有分析和决策全是自嗨。&lt;/strong>&lt;/p>
+&lt;h2 id="别光盯着总周转率你该拆开看">别光盯着总周转率，你该拆开看&lt;/h2>
+&lt;p>很多公司只看一个总的库存周转率，然后发现&amp;quot;还行啊，8次&amp;quot;。但拆开一看——&lt;/p>
+&lt;p>A类产品周转率25次，B类3次，C类0.8次。&lt;/p>
+&lt;p>0.8次是什么概念？一年都卖不掉一批货。这说明你的C类产品就是一堆废铁，在仓库里吃灰、占地方、吃仓储费。&lt;/p>
+&lt;p>我当时的做法是：按ABC分类拆开算周转率。&lt;/p>
+&lt;p>A类（前20% SKU，占70%销售额）：目标周转率15-25次
+B类（中间30% SKU，占20%销售额）：目标周转率6-10次
+C类（后50% SKU，占10%销售额）：目标周转率3-5次，低于3次的直接砍&lt;/p>
+&lt;p>这个分类一做完，3800万库存里有1100万是C类产品，周转率连2次都不到。其中600万的东西，已经放了一年半以上。&lt;/p>
+&lt;p>你说这些是什么？不是库存，是坏账。&lt;/p>
+&lt;h2 id="提高周转率的三板斧">提高周转率的三板斧&lt;/h2>
+&lt;h3 id="第一板斧砍掉那些看起来有用的东西">第一板斧：砍掉那些&amp;quot;看起来有用&amp;quot;的东西&lt;/h3>
+&lt;p>我们当时做了一件事：把所有库存按&amp;quot;最近90天是否有出库&amp;quot;分了两类。&lt;/p>
+&lt;p>有出库的：正常管理。
+没出库的：标记，然后给业务部门30天时间，要么卖掉，要么报废。&lt;/p>
+&lt;p>结果业务部门急了。他们开始主动联系客户清库存、搞促销、换货。30天后，300万的&amp;quot;死货&amp;quot;变成了现金。&lt;/p>
+&lt;p>你知道为什么之前没人清这些库存吗？因为没人觉得这是自己的问题。采购觉得&amp;quot;我买进来的时候是老板批的&amp;quot;，销售觉得&amp;quot;滞销是产品问题不是我的问题&amp;quot;，仓库觉得&amp;quot;我只管存放不管卖&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>库存周转率的敌人不是缺流程，是缺责任人。&lt;/strong>&lt;/p>
+&lt;h3 id="第二板斧采购不是买越多越便宜">第二板斧：采购不是买越多越便宜&lt;/h3>
+&lt;p>我们当时的采购有个陋习：供应商说&amp;quot;一次买1000个，单价便宜15%&amp;quot;，采购就买了1000个。&lt;/p>
+&lt;p>结果这1000个卖了8个月才卖完。单价便宜15%，但资金占用8个月，加上仓储费、管理费、过时风险，实际成本比小批量高频次采购高了至少20%。&lt;/p>
+&lt;p>我跟采购说了一句话：&amp;ldquo;从现在开始，你不考核单价，考核库存周转天数。谁的周转天数低于30天，奖金翻倍。&amp;rdquo;&lt;/p>
+&lt;p>两个月后，采购部门主动跟供应商谈小批量、多批次供货。价格是涨了3%，但库存降了40%，资金成本省了不少。&lt;/p>
+&lt;p>&lt;strong>记住一句话：采购单价降1%的爽感，远不如库存周转率提升一倍的实在。&lt;/strong>&lt;/p>
+&lt;h3 id="第三板斧安全库存不是越安全越好">第三板斧：安全库存不是越安全越好&lt;/h3>
+&lt;p>很多人设安全库存只有一个原则：越多越安全。&lt;/p>
+&lt;p>完全错了。安全库存应该是算出来的，不是拍出来的。&lt;/p>
+&lt;p>公式就在那里：安全库存 = Z × σ × √LT&lt;/p>
+&lt;p>Z是你的服务水平的Z值，σ是需求波动的标准差，LT是补货提前期。&lt;/p>
+&lt;p>你服务水平设99.9%，Z就是3.09，安全库存自然高。设95%，Z就是1.65，安全库存直接砍半。&lt;/p>
+&lt;p>我们当时把服务水平从99%调到95%，安全库存直接降了35%。缺货率？从0.3%变成了1.2%，高了不到一个点，但省出来的库存资金是几百万。&lt;/p>
+&lt;p>&lt;strong>极致的安全是拿钱堆出来的。你是不是真的需要这么安全，先问问钱包。&lt;/strong>&lt;/p>
+&lt;h2 id="别把库存周转率当成唯一指标">别把库存周转率当成唯一指标&lt;/h2>
+&lt;p>最后说一句得罪人的话：库存周转率也不是越高越好。&lt;/p>
+&lt;p>我见过有公司把周转率做到30次，结果是天天断货。客户下单没有现货，等一周才能到货，客户直接跑了。&lt;/p>
+&lt;p>库存周转率是用来衡量效率的，但效率的前提是&lt;strong>不丢客户&lt;/strong>。如果为了提高周转率把客户丢了，那叫本末倒置。&lt;/p>
+&lt;p>好的库存管理，是在不缺货和不多压资金之间，找到那个最舒服的点。这个点没法靠公式算出来，只能靠你对业务的判断。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>投了50万做供应链可视化，老板却说'我还是看不到问题在哪'</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>前段时间去一家公司拜访，采购总监带我去看他们的&amp;quot;供应链作战室&amp;quot;。&lt;/p>
+&lt;p>一面墙全是屏幕：实时订单轨迹、库存水位、供应商绩效、物流看板。数据动态跳动，KPI花花绿绿，各种仪表盘、饼图、折线图，看着跟NASA指挥中心似的。&lt;/p>
+&lt;p>我问：&amp;ldquo;这个屏上显示的东西，有多少是你们每天真正用到的？&amp;rdquo;&lt;/p>
+&lt;p>他愣了一下，说：&amp;ldquo;老实讲……可能就左上角那块库存预警。其他的，开会的时候领导看一眼，平时没人盯。&amp;rdquo;&lt;/p>
+&lt;p>50万的可视化项目，真正有用的只有左上角四分之一块屏。&lt;/p>
+&lt;p>这就是供应链可视化的通病：&lt;strong>做的叫&amp;quot;展示&amp;quot;，不是&amp;quot;可视化&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="展示-vs-可视化差的不是一星半点">展示 vs 可视化，差的不是一星半点&lt;/h2>
+&lt;p>&lt;strong>展示：&lt;/strong> 把数据放在屏幕上。你看，这就是库存。这就是在途订单。这就是供应商交付率。&lt;/p>
+&lt;p>&lt;strong>可视化：&lt;/strong> 让数据告诉你该干什么。库存低于安全线了——亮红，并且告诉你&amp;quot;这个料只能撑3天了&amp;quot;。在途订单延迟了——亮红，并且告诉你&amp;quot;延迟会导致2个客户订单不能准时交付&amp;quot;。&lt;/p>
+&lt;p>两者的区别在于：展示是&amp;quot;你去看&amp;quot;，可视化是&amp;quot;它告诉你&amp;quot;。&lt;/p>
+&lt;p>大部分公司做的可视化大屏，都停留在展示层。各种华丽炫酷的图表，但没人会对着图表做决策。&lt;/p>
+&lt;p>&lt;strong>真正有用的可视化，是让异常自动凸显、让判断帮你先做、让行动建议直接摆在面前。&lt;/strong>&lt;/p>
+&lt;h2 id="供应链可视化的四个层级">供应链可视化的四个层级&lt;/h2>
+&lt;p>把可视化拆成四个层次，你就知道该从哪下手了：&lt;/p>
+&lt;h3 id="第一层状态一览你现在的水平">第一层：状态一览（你现在的水平）&lt;/h3>
+&lt;p>这就是最常见的&amp;quot;大屏&amp;quot;，告诉你现在的库存有多少、订单有多少、生产进度到哪了。它是一个全局快照，知道&amp;quot;现在是什么情况&amp;quot;。&lt;/p>
+&lt;p>这一层是有价值的，特别是对管理层来说。但很多人把可视化做到这里面就停了。&lt;/p>
+&lt;h3 id="第二层异常预警你该有的水平">第二层：异常预警（你该有的水平）&lt;/h3>
+&lt;p>这一层比第一层有用10倍。它的逻辑是：&lt;strong>正常情况不用看，异常自动跳出来。&lt;/strong>&lt;/p>
+&lt;p>比如：库存低于安全线了，自动标红闪烁，并且告诉你&amp;quot;当前库存可支撑3.2天，建议补货5000件&amp;quot;。&lt;/p>
+&lt;p>比如：某条产线效率连续3天低于目标的80%，自动提醒，并且告诉你&amp;quot;可能原因：最近换了这个批次的原材料&amp;quot;。&lt;/p>
+&lt;p>这一层的关键不是图表多漂亮，是&lt;strong>规则和算法&lt;/strong>。你要定义什么是异常，然后让系统自动识别并推送。&lt;/p>
+&lt;p>绝大多数公司缺的不是可视化技术，缺的是&lt;strong>谁来定义异常规则&lt;/strong>。&lt;/p>
+&lt;h3 id="第三层根因分析你努力的方向">第三层：根因分析（你努力的方向）&lt;/h3>
+&lt;p>预警告诉你有问题了，根因分析告诉你问题出在哪。&lt;/p>
+&lt;p>比如：销售订单准时交付率从95%降到了87%，预警发现了。&lt;/p>
+&lt;p>根因分析往下钻：是哪个环节慢了？生产？物料？物流？继续钻——是哪个物料缺了？哪个供应商延迟了？是运输堵了还是没人装车？&lt;/p>
+&lt;p>这一层需要你把数据打通。订单数据、生产数据、采购数据、物流数据，得在同一个维度上关联起来。技术上不复杂，难的是&lt;strong>数据治理&lt;/strong>——你的数据能不能做到一致、准确、及时。&lt;/p>
+&lt;h3 id="第四层决策建议终极目标">第四层：决策建议（终极目标）&lt;/h3>
+&lt;p>最高级的可视化，是&lt;strong>直接告诉你该怎么做&lt;/strong>。&lt;/p>
+&lt;p>比如：系统发现A供应商连续3次延迟交付，同时B供应商价格贵8%但交付稳定。系统建议：把A供应商30%的份额转给B，预计准时交付率可从87%提升到94%，每月增加采购成本约6万元，但节省因交付延误导致的客户罚款约12万元。&lt;/p>
+&lt;p>要不要执行，你来拍板。但该算的账，系统帮你算清楚了。&lt;/p>
+&lt;p>这才是供应链可视化该干的事：&lt;strong>不是让你多看数据，是让你少做重复判断。&lt;/strong>&lt;/p>
+&lt;h2 id="怎么落地别一上来就做大屏">怎么落地？别一上来就做大屏&lt;/h2>
+&lt;p>太多公司做供应链可视化，第一步就是招标找可视化厂商、定UI风格、画页面原型。&lt;/p>
+&lt;p>完全错了。正确的顺序是：&lt;/p>
+&lt;p>&lt;strong>第一步：找最痛的一个决策场景。&lt;/strong> 你们公司最常问&amp;quot;现在什么情况&amp;quot;的场景是哪个？是每天早上的订单交期确认？是每周的库存盘点？是每月的供应商绩效复盘？&lt;/p>
+&lt;p>&lt;strong>第二步：定义&amp;quot;正常&amp;quot;和&amp;quot;异常&amp;quot;。&lt;/strong> 这个场景下，什么算正常、什么算异常？异常到什么程度需要预警？这些规则谁来拍板？不是IT来拍，是业务来拍。&lt;/p>
+&lt;p>&lt;strong>第三步：先做Excel验证。&lt;/strong> 别急着上系统。用Excel把你的数据拉出来，套上规则，手工跑一个月。看看这些规则能不能真的发现你关心的问题。不行就调，行了再上系统。&lt;/p>
+&lt;p>&lt;strong>第四步：上最简单的工具。&lt;/strong> 业务场景没跑通之前，能用Excel就别用BI，能用BI就别自建系统。等规则跑顺了、数据打磨好了，再做可视化大屏。&lt;/p>
+&lt;p>我一个做医疗器械的客户，就用了这套方法。他们没有做大屏，只做了一张&amp;quot;每日供应链异常清单&amp;quot;——每天早上自动推送给所有相关人，总共不到10条异常。一年下来，订单延期率从12%降到了4%。&lt;/p>
+&lt;p>供应链可视化最核心的价值，不是让你看更多数据，而是&lt;strong>让你只看该看的数据&lt;/strong>。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>招标采购做了5年才敢说：这4个环节不盯死，多少钱都白省</title><link>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</guid><description>&lt;p>先说一个数据：我做采购这行十来年，见过的招标项目里，至少有30%是&amp;quot;招标了，但没省到钱&amp;quot;。&lt;/p>
+&lt;p>你没看错。30%的招标，本质上就是走个过场。&lt;/p>
+&lt;p>有的招标，招标前就跟供应商谈好了价格，招标只是让流程合规。有的招标，技术参数写得太窄，能来投标的就那么两三家，根本形不成竞争。有的招标确实比了价，但中标的是&amp;quot;最低价&amp;quot;，结果交付一塌糊涂，后期变更和返工的钱比省下来的多三倍。&lt;/p>
+&lt;p>招标采购要真想省钱，不是看你会不会走流程，是看你能不能盯着这四个最容易翻车的环节。&lt;/p>
+&lt;h2 id="环节一资质审查给围标团伙留了后门没">环节一：资质审查——给&amp;quot;围标团伙&amp;quot;留了后门没？&lt;/h2>
+&lt;p>大部分公司对投标人的资质审查就一句话：&amp;ldquo;有营业执照、近三年无不良记录&amp;rdquo;。&lt;/p>
+&lt;p>太糙了。&lt;/p>
+&lt;p>我见过最离谱的案例：一个5亿的工程项目，7家公司来投标。表面上看是7家，实际上背后是一个老板注册的5家公司+2家真公司。&lt;/p>
+&lt;p>怎么操作的？这5家公司报高价当炮灰，2家真公司中标。最后不管谁中，钱都进了同一个口袋。&lt;/p>
+&lt;p>这种围标行为，靠看营业执照看不出来。你要看什么？&lt;/p>
+&lt;p>&lt;strong>看股权穿透。&lt;/strong> 用企查查、天眼查把投标公司的股东穿透到最终受益人。如果多家公司有同一个实际控制人，直接判定串标。&lt;/p>
+&lt;p>&lt;strong>看关联交易。&lt;/strong> 投标公司之间有没有历史交易记录？A公司给B公司供过货？那这两家在同一个项目上投标就有问题。&lt;/p>
+&lt;p>&lt;strong>看人员重叠。&lt;/strong> 法人、股东、高管、甚至项目经理，在多家投标公司重复出现？那就是一家人的马甲。&lt;/p>
+&lt;p>这些查完还觉得资质审查是&amp;quot;看一眼营业执照就行&amp;quot;的事吗？&lt;/p>
+&lt;h2 id="环节二技术标评审你给了商务一票否决权吗">环节二：技术标评审——你给了商务&amp;quot;一票否决权&amp;quot;吗？&lt;/h2>
+&lt;p>很多招标项目的评审标准是：技术分占40%，商务分占60%。&lt;/p>
+&lt;p>看起来很合理是吧？问题在于，技术分大家都是80-90分，差距不超过10分。商务分一拉，就是几百万的差距。&lt;/p>
+&lt;p>然后就出现了一种情况：技术实力强但报价高的供应商，被技术分最低但报价最低的供应商干掉了。&lt;/p>
+&lt;p>中标的那个，报价确实低。但交出来的东西呢？工期延误、质量不达标、变更单满天飞。&lt;/p>
+&lt;p>&lt;strong>解决办法很简单：设技术标最低分门槛。&lt;/strong>&lt;/p>
+&lt;p>比如技术分低于75分的，商务分再高也没用。这就倒逼供应商不能只靠低价中标，得先保证技术能力达标。&lt;/p>
+&lt;p>还有一个容易被忽略的：&lt;strong>履约能力审查。&lt;/strong> 中标的供应商产能够不够？他现在手里还有几个项目？你的人手和生产线能不能撑住这个项目？&lt;/p>
+&lt;p>你不问这些，中标的供应商也不主动说。然后项目做到一半他来一句&amp;quot;产能紧张，要延期&amp;quot;，你全公司干瞪眼。&lt;/p>
+&lt;h2 id="环节三低价中标陷阱你省了采购费赔了运营费">环节三：低价中标陷阱——你省了采购费，赔了运营费&lt;/h2>
+&lt;p>低价中标是招标中最经典的坑。报价最低的供应商中标，看起来省了一大笔钱。&lt;/p>
+&lt;p>但你知道低价供应商的钱从哪省出来的吗？&lt;/p>
+&lt;p>从原材料上：降标降配，你要求304不锈钢他用201的。
+从工艺上：省流程、省检测，质量事故的雷埋在后面。
+从服务上：没有售后、没有维保、出了问题人都不接你电话。
+从变更上：中标的时候报价低，交付时&amp;quot;这个不含&amp;quot;&amp;ldquo;那个要加钱&amp;rdquo;，变更单比中标价还高。&lt;/p>
+&lt;p>&lt;strong>怎么防？三招。&lt;/strong>&lt;/p>
+&lt;p>第一招：&lt;strong>设合理最低价。&lt;/strong> 算一下这个项目的合理成本是多少。有供应商报价比合理成本还低30%，那不用看，肯定有问题。&lt;/p>
+&lt;p>第二招：&lt;strong>技术标加&amp;quot;履约方案&amp;quot;这一项。&lt;/strong> 让投标方写清楚：你报这个价，怎么保证质量？怎么保证交期？怎么保证售后？你说得通，就信你。说不通，报价再低也不考虑。&lt;/p>
+&lt;p>第三招：&lt;strong>变更条款写死。&lt;/strong> 合同里明确：因投标方原因导致的任何变更，招标方不承担费用。把变更的后门堵死。&lt;/p>
+&lt;h2 id="环节四评标后的二次谈判你的招标白做了">环节四：评标后的&amp;quot;二次谈判&amp;quot;——你的招标白做了&lt;/h2>
+&lt;p>最让我无语的一种操作：评标结束，中标人确定后，采购部又去跟中标供应商&amp;quot;再谈一下价格&amp;quot;。&lt;/p>
+&lt;p>理由是&amp;quot;领导觉得价格还是高&amp;quot;&amp;ldquo;预算不够&amp;rdquo;。&lt;/p>
+&lt;p>你猜供应商怎么想？&lt;/p>
+&lt;p>&amp;ldquo;既然你们评标完了还能还价，那下次招标的时候，我报价可以报高一点，给你留个还价空间。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>这就是在破坏招标的严肃性。&lt;/strong> 供应商不信任你的招标流程，后面的招标就全都废了。&lt;/p>
+&lt;p>正确做法：评标即定标。评出来的价格就是最终价格。真有特殊情况需要降价，走正式的采购变更流程，不要私下&amp;quot;再谈谈&amp;quot;。&lt;/p>
+&lt;p>如果每次招标后都要&amp;quot;再谈谈&amp;quot;，那你就别招标了，直接谈判采购效率更高。&lt;/p>
+&lt;h2 id="最后说一句扎心的">最后说一句扎心的&lt;/h2>
+&lt;p>招标采购这个工具本身没问题。问题出在使用工具的人身上。&lt;/p>
+&lt;p>你以为招标就是发标书、收标书、评标、定标。但实际上，招标的核心是&lt;strong>规则设计&lt;/strong>——你设计的规则能不能筛出真正有实力的供应商、能不能防止围标串标、能不能让报价反映真实成本。&lt;/p>
+&lt;p>规则设计不好，招标就是走形式。省下来的那点采购费，全是后面运营费加倍还回来的。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>条码贴了3年，库存还是对不上？你缺的不是条码，是规则</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-essentials/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-essentials/</guid><description>&lt;p>先讲一个让我血压飙升的真实场景。&lt;/p>
+&lt;p>我去一个做建材的客户仓库，看到他们的条码管理，直接沉默了：&lt;/p>
+&lt;ul>
+&lt;li>同一种货，采购部贴的条码是&amp;quot;MAT-2024-钢-001&amp;quot;，仓库自己又贴了一个&amp;quot;GC-001&amp;quot;，财务系统里叫&amp;quot;STL-20240001&amp;quot;。&lt;/li>
+&lt;li>条码贴的方式也是五花八门：有的贴侧面、有的贴顶部、有的贴底部。扫码的时候，员工要先把货翻过来才能扫到。&lt;/li>
+&lt;li>一张入库单上印着条码，但入库的时候没人扫，事后在系统里手动&amp;quot;确认入库&amp;quot;。&lt;/li>
+&lt;li>盘点的时候，扫码枪扫出来的库存跟ERP对不上。仓库说&amp;quot;条码不准&amp;quot;，财务说&amp;quot;系统没问题&amp;quot;，最后谁也不知道到底是多少货。&lt;/li>
+&lt;/ul>
+&lt;p>然后他们老板跟我说：&amp;ldquo;我们条码管理上了3年了，怎么库存还老对不上？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你们上了一套条码工具，但没上一套管条码的规矩。&amp;rdquo;&lt;/p>
+&lt;h2 id="坑一一物三码条码唯一性的灾难">坑一：一物三码——条码唯一性的灾难&lt;/h2>
+&lt;p>条码管理的底线是：&lt;strong>一个编码只对应一种物料，一种物料只有一个编码。&lt;/strong>&lt;/p>
+&lt;p>这个道理谁都知道，但做起来很多人就犯了。不同的部门各自定义自己的编码规则，谁也不跟谁对齐。结果就是同一个物料在系统里有三个&amp;quot;身份&amp;quot;，谁也不知道该信哪个。&lt;/p>
+&lt;p>&lt;strong>解决办法：&lt;/strong> 在公司层面建一个统一的物料主数据管理规范。规定谁有权力创建新物料编码、新物料编码的审批流程、编码规则的唯一标准。新物料先在主数据系统里&amp;quot;落户&amp;quot;，再流转到各个业务系统里使用。&lt;/p>
+&lt;p>这个投入不大，但执行起来需要一把手拍板——跨部门的规则统一，光靠IT协调根本推不动。&lt;/p>
+&lt;h2 id="坑二条码贴在哪都没人管">坑二：条码贴在哪都没人管&lt;/h2>
+&lt;p>条码不是随便往哪一贴就行的。&lt;/p>
+&lt;p>我见过在圆柱形桶上贴平面条码的，扫码的时候码面弯曲，识别率不到60%。&lt;/p>
+&lt;p>也见过把条码贴在包装接缝处的，叉车一叉，条码直接撕烂了。&lt;/p>
+&lt;p>还有把条码贴在货物底部或者背面的，不把所有货搬开根本扫不到。&lt;/p>
+&lt;p>&lt;strong>条码的张贴规范，至少该包括这些：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>贴在哪？&lt;/strong> 每个品类规定固定的条码位置。比如纸箱贴在右上角、托盘贴在四面的同一高度。&lt;/li>
+&lt;li>&lt;strong>怎么贴？&lt;/strong> 弯曲表面用标签袋或吊牌，不平整表面先清理再贴。&lt;/li>
+&lt;li>&lt;strong>贴几张？&lt;/strong> 大的、贵的、容易出错的货品，最好贴两张（不同位置），坏了一张还有一张。&lt;/li>
+&lt;li>&lt;strong>条码标签本身的质量：&lt;/strong> 仓库环境潮湿的，用防水标签。有化学腐蚀风险的，用耐化学标签。别贪便宜买普通纸标签，用几个月就模糊了，扫都扫不出来。&lt;/li>
+&lt;/ul>
+&lt;p>这些看起来是小事，但在一个月进出几千件货的仓库里，这些细节决定了条码系统到底能不能用起来。&lt;/p>
+&lt;h2 id="坑三扫了码但没闭环">坑三：扫了码，但没闭环&lt;/h2>
+&lt;p>很多公司的条码管理是半拉子工程——入库扫了，出库不扫。或者收发扫了，盘点不扫。&lt;/p>
+&lt;p>条码管理的核心逻辑是：&lt;strong>每动一次货，就扫一次码。&lt;/strong> 只有每一次移动都被记录，系统里的库存才能跟现场对上。&lt;/p>
+&lt;p>如果入库扫了，但上架的时候没扫；如果拣货扫了，但装车的时候没扫——那中间发生的错放、漏装、多装，系统一概不知道。&lt;/p>
+&lt;p>&lt;strong>闭环的最小集：入库扫→上架确认扫→拣货扫→出库扫→装车复核扫。&lt;/strong> 这五个环节缺一不可。&lt;/p>
+&lt;p>哪个环节没闭环，哪个环节就是你库存对不上的原因。&lt;/p>
+&lt;h2 id="坑四没有关联上层业务单据">坑四：没有关联上层业务单据&lt;/h2>
+&lt;p>条码上有信息，但如果这个信息和上游业务单据脱节，条码的价值就大打折扣。&lt;/p>
+&lt;p>比如一张采购入库单号PO20250120，扫码的时候只扫了物料条码，没关联到&amp;quot;这批货是从这张PO进来的&amp;quot;。后面如果有来料质量问题，你不知道这批货对应哪张订单、哪个供应商、哪个批次号。&lt;/p>
+&lt;p>&lt;strong>条码管理的追溯价值，就在于你把条码和业务单据关联起来。&lt;/strong> 扫一个码，能知道：这是什么、哪来的、什么时候来的、谁收的、哪个批次、质量检验结果是什么。&lt;/p>
+&lt;p>这需要系统支持。你需要WMS在扫描入库的时候，自动关联PO单号和ASN（预先发货通知）。如果你的WMS连这个都不支持，说明你的系统该升级了。&lt;/p>
+&lt;h2 id="坑五设备选型不对一线员工用不起来">坑五：设备选型不对，一线员工用不起来&lt;/h2>
+&lt;p>我最常听到的关于条码的抱怨是：&amp;ldquo;太麻烦了，不如手写快。&amp;rdquo;&lt;/p>
+&lt;p>一问原因：扫码枪是10年前买的，扫一个码要2-3秒，有时还扫不出来，要反复对角度。&lt;/p>
+&lt;p>或者：用的是手机APP扫码，但仓库Wi-Fi信号不好，扫完一个码要等5秒才跳出结果。一天扫几百次码，等待时间加起来就是大半小时。&lt;/p>
+&lt;p>&lt;strong>条码设备选型的原则：&lt;/strong> 速度第一、可靠性第二、价格第三。别为了省几千块钱买一个扫码慢的设备，然后让几十个员工每天多花十几分钟在&amp;quot;等扫码&amp;quot;上。&lt;/p>
+&lt;p>现在的工业级PDA或者手持终端，扫一个码0.1-0.3秒，防摔、防水、电池续航长。一个2000-3000块，比一部手机还便宜。该花这个钱就不要省。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>条码管理这件事，本质上解决的不是技术问题，是&lt;strong>规矩问题&lt;/strong>。&lt;/p>
+&lt;p>编码要统一、张贴要规范、扫码要闭环、关联要建立、设备要趁手——这五条规矩立住了，条码系统才能真正让你&amp;quot;账实一致&amp;quot;。&lt;/p>
+&lt;p>规矩没立住，条码就只是一个贴纸。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>被欧盟罚了800万才懂：绿色供应链不是做公益，是保命</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</guid><description>&lt;p>2025年，一家做汽车零配件的浙江企业被欧盟客户暂停了供货资格。&lt;/p>
+&lt;p>原因？客户要求所有供应商2025年底前完成碳排放核算，这家公司根本没做。不是不想做，是不知道怎么做，也没人告诉他们这有多严重。&lt;/p>
+&lt;p>三个月后，他们补了核算、做了减排方案、甚至花大价钱买了绿电，才重新拿回订单。但这三个月，丢了3000万的订单。&lt;/p>
+&lt;p>这不是段子，这是2026年的现实。绿色供应链已经不是&amp;quot;加分项&amp;quot;，而是&amp;quot;准入条件&amp;quot;。&lt;/p>
+&lt;h2 id="不是你想不想做是你不得不做">不是你想不想做，是你不得不做&lt;/h2>
+&lt;p>2026年，三条高压线已经落地了：&lt;/p>
+&lt;p>&lt;strong>第一条：欧盟碳边境调节机制（CBAM）。&lt;/strong> 2026年起，进口到欧盟的钢铁、铝、水泥、化肥、电力和氢，必须报告碳排放量。2027年开始，碳含量超标的要被征收碳关税。&lt;/p>
+&lt;p>你说&amp;quot;我不做欧盟业务&amp;quot;？随便。但你的客户如果做欧盟业务，他就要你提供碳数据。&lt;/p>
+&lt;p>&lt;strong>第二条：大客户的ESG供应链审查。&lt;/strong> 苹果、特斯拉、大众、沃尔玛这些巨头，都在要求供应商提供碳排放数据、使用可再生电力、披露供应链中的环境风险。你达不了标，轻则被要求整改，重则直接踢出供应商名单。&lt;/p>
+&lt;p>&lt;strong>第三条：国内的双碳目标。&lt;/strong> 2030年碳达峰、2060年碳中和，这不是口号。高碳排放的供应链环节，迟早要被限制。&lt;/p>
+&lt;p>这三条线加在一起，就是一句话：&lt;strong>你的供应链不绿，客户就不跟你玩。&lt;/strong>&lt;/p>
+&lt;h2 id="但是别一上来就喊碳中和">但是，别一上来就喊&amp;quot;碳中和&amp;quot;&lt;/h2>
+&lt;p>太多公司一听到绿色供应链，就开始喊&amp;quot;我们要2030年前碳中和&amp;quot;。&lt;/p>
+&lt;p>打住。&lt;/p>
+&lt;p>你没算过你家供应链的碳排放，你都不知道自己排了多少。怎么中和？&lt;/p>
+&lt;p>绿色供应链的落地路径不是&amp;quot;喊口号→花钱买碳汇→宣布碳中和&amp;quot;，而是：&lt;strong>先量化、再减量、最后再谈中和。&lt;/strong>&lt;/p>
+&lt;h3 id="第一步把你家供应链的碳账算清楚">第一步：把你家供应链的碳账算清楚&lt;/h3>
+&lt;p>碳排放分三个范围（Scope）：&lt;/p>
+&lt;p>&lt;strong>Scope 1：&lt;/strong> 自己直接烧的。比如你工厂锅炉烧的天然气、货车烧的柴油。
+&lt;strong>Scope 2：&lt;/strong> 买来的。你用了多少电，电厂的排放算在你头上。
+&lt;strong>Scope 3：&lt;/strong> 上下游产生的。你买的原材料在生产过程中排的、你的产品运到客户手上的运输排放、甚至你的员工出差坐飞机的排放。&lt;/p>
+&lt;p>大部分制造企业的碳排放，Scope 3（供应链的碳排放）占总排放的70-90%。&lt;/p>
+&lt;p>很多人只看Scope 1和Scope 2——自己工厂的排放。觉得自己烧的天然气不多、用电也不多，碳排放还好啊。&lt;/p>
+&lt;p>&lt;strong>但真正的碳大户在供应链上。&lt;/strong> 比如你买一批铝锭，生产这些铝锭排放的碳是你的Scope 3。这笔碳远比你整个工厂的排放大多了。&lt;/p>
+&lt;p>所以第一件事：搞清楚你家Scope 1、2、3到底各排了多少。不需要一开始就精确到小数点，有个数量级就行。找一家碳核算服务商，花几万块钱就能做。&lt;/p>
+&lt;h3 id="第二步从花钱最少的减排开始">第二步：从花钱最少的减排开始&lt;/h3>
+&lt;p>算完了碳账，你会发现有些减排几乎不花钱：&lt;/p>
+&lt;p>&lt;strong>换绿电。&lt;/strong> 如果你们在广东、江苏等有绿电交易的省份，采购绿电的成本只比常规电高10-15%。但这部分排放直接从Scope 2里清零。&lt;/p>
+&lt;p>&lt;strong>换新能源物流车。&lt;/strong> 城配的最后一公里用新能源车，油费能省一半，还减了碳。&lt;/p>
+&lt;p>&lt;strong>包装减量。&lt;/strong> 过度包装是双重浪费——材料浪费+运输浪费（更大体积=更多运输排放）。有些公司优化包装后，运输碳排放降了15%。&lt;/p>
+&lt;p>&lt;strong>要求核心供应商用绿电。&lt;/strong> 你买不起绿电没关系，让你的大供应商买。他是你的Scope 3，他要减排才对你有帮助。&lt;/p>
+&lt;p>这些都是低成本的减排动作，一年内能出成果。&lt;/p>
+&lt;h3 id="第三步别被骗去买碳汇">第三步：别被骗去买&amp;quot;碳汇&amp;quot;&lt;/h3>
+&lt;p>市面上有很多&amp;quot;碳中和认证服务&amp;quot;——你花几万块钱，买一些碳汇，就给你发一张&amp;quot;碳中和证书&amp;quot;。&lt;/p>
+&lt;p>说白了就是花钱买赎罪券。&lt;/p>
+&lt;p>这个东西，在客户那里的信任度正在快速下降。特斯拉、苹果这些大厂越来越不认碳汇了，他们要的是&lt;strong>实际减排&lt;/strong>。&lt;/p>
+&lt;p>你花50万买碳汇，不如花50万换绿电或者做节能改造。前者只是一个数字游戏，后者是真的降了排放、还省了长期成本。&lt;/p>
+&lt;h2 id="绿色供应链怎么做到不亏钱">绿色供应链怎么做到不亏钱？&lt;/h2>
+&lt;p>很多人认为绿色供应链就是花钱——加成本、降利润。&lt;/p>
+&lt;p>完全错了。&lt;strong>做得好，绿色供应链省钱。&lt;/strong>&lt;/p>
+&lt;p>举几个真实例子：&lt;/p>
+&lt;p>某快消品公司做物流路径优化，把分散在全国的多个区域仓整合成了3个枢纽仓+卫星仓网络。整合后运输距离减少了22%，碳排放降了20%，物流成本也降了22%。&lt;strong>既是绿色，也是降本。&lt;/strong>&lt;/p>
+&lt;p>某电子厂把产品包装从厚重的塑料盒改成了环保纸浆模塑包装。材料成本没变，但体积小了30%，一个集装箱能多装40%的货，单件运输成本大降。&lt;strong>环境收益=经济收益。&lt;/strong>&lt;/p>
+&lt;p>某食品公司把冷链仓库的制冷系统做了节能改造，换了更高效的压缩机+变频控制。花了80万，每年省电费35万，两年多就回收了投资，之后全是净赚。&lt;strong>减排=节能=省钱。&lt;/strong>&lt;/p>
+&lt;p>所以不要把绿色供应链等同于&amp;quot;成本增加&amp;quot;。它本质上是一次运营优化——把浪费减掉，把效率提上来。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>绿色供应链不是选择题，是必答题。&lt;/p>
+&lt;p>欧盟的碳关税不会因为你觉得麻烦就不收了。大客户的ESG审查不会因为你说&amp;quot;我们准备做&amp;quot;就不查了。&lt;/p>
+&lt;p>你早做，比别人先拿到合规证书、先优化好碳排放数据、先在客户的绿色供应商名单里占一个坑，这就是你的竞争优势。&lt;/p></description></item><item><title>采购成本砍了15%，利润反降？你砍错了地方还不知道</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>去年年底，我一个做家电的朋友拿了年度降本奖——采购成本同比降了15%，全公司表彰。&lt;/p>
+&lt;p>不到三个月，售后部门的数据出来了：退货率从4.7%涨到了9.2%。维修成本涨了一倍。客户投诉量直接翻番。&lt;/p>
+&lt;p>他跑来找我，说算了一笔总账：采购省了800万，但售后多花了1200万。净亏400万。&lt;/p>
+&lt;p>然后问我一句话：&amp;ldquo;我到底哪里做错了？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你没做错，你只是算错了。你算的是采购单价，该算的是总拥有成本。&amp;rdquo;&lt;/p>
+&lt;h2 id="采购成本不是单价是总拥有成本tco">采购成本不是单价，是总拥有成本（TCO）&lt;/h2>
+&lt;p>大部分公司对采购成本的认知，还停留在&amp;quot;单价×数量&amp;quot;这个层面。&lt;/p>
+&lt;p>在ERP系统里拉一张报表，去年采购均价减去今年采购均价，乘以采购量，等于采购降本金额。看起来逻辑完美无瑕。&lt;/p>
+&lt;p>但你有没有算过——换了一家更便宜的供应商之后，多了多少来料检验不合格？多了多少生产线上因为料件质量问题停工的工时？多了多少售后维修和客户赔偿？&lt;/p>
+&lt;p>这些都不是&amp;quot;采购成本&amp;quot;？别骗自己了。&lt;/p>
+&lt;p>TCO（总拥有成本）不是个新概念，但90%的公司根本没有认真算过。TCO至少包含这四个部分：&lt;/p>
+&lt;p>&lt;strong>买价：&lt;/strong> 你以为采购成本就是它。其实这只是冰山一角。
+&lt;strong>使用成本：&lt;/strong> 质检、仓储、搬运、生产过程中的损耗。
+&lt;strong>质量成本：&lt;/strong> 来料不良导致的返工、停线、客户罚款、售后维修。
+&lt;strong>管理成本：&lt;/strong> 跟这个供应商打交道花了多少时间？催货花了多少精力？&lt;/p>
+&lt;p>如果你只算买价，不算后面的三个，那你的&amp;quot;降本&amp;quot;就是个伪命题。&lt;/p>
+&lt;h2 id="坑一为了降5的单价换了家质量差15的供应商">坑一：为了降5%的单价，换了家质量差15%的供应商&lt;/h2>
+&lt;p>这是我见过最普遍的采购降本操作——换供应商。&lt;/p>
+&lt;p>老供应商单价10块，质量合格率99.5%。新供应商单价9块5，便宜5%，质量合格率只有96%。&lt;/p>
+&lt;p>采购部觉得：便宜5%啊，质量差一点没关系吧？&lt;/p>
+&lt;p>算笔账：&lt;/p>
+&lt;p>假设一个月采购10万个。老供应商的次品率0.5%，500个次品。新供应商次品率4%，4000个次品。多了3500个次品。&lt;/p>
+&lt;p>每个次品的处理成本是多少？退货要走流程、质检要复检、生产要换料、可能还要停线。一个次品的综合处理成本，少说10块钱。&lt;/p>
+&lt;p>3500×10=35,000元。一个月多花3.5万，一年42万。&lt;/p>
+&lt;p>而采购单价省了多少钱？10万个×0.5元=5万元/月，一年60万。&lt;/p>
+&lt;p>60万-42万=18万。看起来还省了18万？&lt;/p>
+&lt;p>还没完。还有品牌损失。多了3500个次品流入生产，如果有10%没查出来进入了成品，那就是350个有质量风险的产品卖给了客户。哪怕只有10个出问题，引发的客户投诉、退换货、品牌声誉损失，就不是几十万能打住的。&lt;/p>
+&lt;p>&lt;strong>采购降本的账，从来不是只算买价。&lt;/strong>&lt;/p>
+&lt;h2 id="坑二为了凑量拿折扣把自己变成了供应商的仓库">坑二：为了凑量拿折扣，把自己变成了供应商的仓库&lt;/h2>
+&lt;p>&amp;ldquo;一次买够5000个，单价便宜12%。&amp;rdquo;&lt;/p>
+&lt;p>这种话听过吧？采购一听就上头，马上签了。&lt;/p>
+&lt;p>但你算过没有——5000个你多久用得完？&lt;/p>
+&lt;p>如果你一个月只用500个，那5000个就是10个月。这5000个货在仓库里躺10个月：占仓库面积、占库存资金、有过时风险、有损耗风险。&lt;/p>
+&lt;p>假设你的库存持有成本是年化25%（资金成本8%+仓储费5%+过时损失费5%+管理费7%，这个比例在制造业不算高），那10个月的持有成本大约是采购额的21%。&lt;/p>
+&lt;p>单价便宜12%，持有成本多了21%。净亏9%。&lt;/p>
+&lt;p>这还是没算&amp;quot;万一这10个月里产品改版了、物料变更了&amp;quot;的风险。5000个老物料全报废，那可就不是9%的事了。&lt;/p>
+&lt;p>&lt;strong>大量采购拿折扣，是采购降本最常见的自欺欺人。&lt;/strong>&lt;/p>
+&lt;h2 id="坑三不看付款条件为了降本把自己现金流搞崩了">坑三：不看付款条件，为了&amp;quot;降本&amp;quot;把自己现金流搞崩了&lt;/h2>
+&lt;p>现在很流行的一种&amp;quot;降本&amp;quot;手段：跟供应商谈延长付款周期。&lt;/p>
+&lt;p>从30天谈到90天，甚至120天。看起来钱在你账上多停了几个月，财务费用少了。&lt;/p>
+&lt;p>但你知道供应商怎么应对吗？&lt;/p>
+&lt;p>他会把资金成本打进报价里。你拖他90天，他报价的时候就加了2-3个点的资金成本。&lt;/p>
+&lt;p>更狠的是，付款周期长的客户，在供应商那里优先级最低。产能紧张的时候，先把货给付款快的。配送优先排付款快的。换货处理优先付款快的。&lt;/p>
+&lt;p>你省了2个点的资金成本，丢了的是供应稳定性、质量和优先级。这笔账，你算过吗？&lt;/p>
+&lt;p>我给朋友的第二个建议是：&lt;strong>核心供应商，主动缩短付款周期，换取总成本优化。&lt;/strong>&lt;/p>
+&lt;p>比如把一家关键物料供应商的付款周期从60天缩短到30天，条件是——你的优先供货权和稳定报价。&lt;/p>
+&lt;p>对供应商来说，30天回款的客户就是优质客户。他愿意给你更好的服务和更实在的价格。&lt;/p>
+&lt;h2 id="真正的采购成本分析怎么看">真正的采购成本分析，怎么看？&lt;/h2>
+&lt;p>说了这么多&amp;quot;不该怎么样&amp;quot;，那采购成本分析到底该怎么做？&lt;/p>
+&lt;p>我给你一个框架，照着来就行：&lt;/p>
+&lt;p>&lt;strong>第一步：按供应商做TCO分析。&lt;/strong> 别只看采购单价，把质检成本、断供损失、管理成本都加上去。你会发现：单价最低的供应商，往往是TCO最高的。&lt;/p>
+&lt;p>&lt;strong>第二步：按品类做采购结构分析。&lt;/strong> 你的采购额里，有哪些是&amp;quot;品类太多分散了量，导致每个品类都拿不到好价格&amp;quot;？有哪些是&amp;quot;过度集中在一个供应商，导致议价能力为零&amp;quot;？做完这个分析，你才知道该在哪集中、在哪分散。&lt;/p>
+&lt;p>&lt;strong>第三步：做采购流程本身的成本分析。&lt;/strong> 你们公司下一张采购订单，从需求提报→审批→下单→收货→对账→付款，一共要多少天？多少个人参与？这些人的工资摊到每张订单上，也是一笔不小的成本。&lt;/p>
+&lt;p>我见过一个公司，一张采购订单的流程成本是380元。他们一年下5000张订单，流程成本就是190万。优化了流程之后，成本砍半，省了将近100万。&lt;/p>
+&lt;p>&lt;strong>采购降本，不光要砍供应商的价格，也要砍自己的流程。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
 &lt;p>&amp;ldquo;A类是金额大的，要重点管。B类是中间的，正常管。C类是金额小的，随便管。&amp;rdquo;&lt;/p>
 &lt;p>这套话术在供应链圈子里讲了三十年。但真正做对的人，不到10%。&lt;/p>
 &lt;h2 id="按金额分类是abc分类法最大的坑">按金额分类，是ABC分类法最大的坑&lt;/h2>

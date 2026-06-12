@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>需求预测 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/</link><description>Recent content in 需求预测 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>需求预测 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/</link><description>Recent content in 需求预测 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>需求预测不准？因为你把预测当成了算命</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</guid><description>&lt;p>每次做需求预测，总有人问我：&amp;ldquo;准确率能做到多少？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;看你用什么指标。月度总需求预测准确率能到85%就很好了，SKU级别能到60%就及格。&amp;rdquo;&lt;/p>
+&lt;p>然后对面就一脸嫌弃：&amp;ldquo;才60%？那预测有什么用？&amp;rdquo;&lt;/p>
+&lt;p>这就是对需求预测最大的误解——&lt;strong>把预测当成了算命。&lt;/strong>&lt;/p>
+&lt;h2 id="误区一追求预测准确率100">误区一：追求预测准确率100%&lt;/h2>
+&lt;p>没有人的预测能做到100%准确，连客户自己都不知道他下个月会买多少。&lt;/p>
+&lt;p>但很多人就是不信邪，搞各种复杂模型、加各种外部数据、请各种顾问，结果预测准确率从60%提到65%，投入成本翻了3倍。&lt;/p>
+&lt;p>&lt;strong>多5%的准确率，值得3倍的成本吗？&lt;/strong> 大多数情况下不值得。&lt;/p>
+&lt;p>需求预测的价值不在于&amp;quot;算准&amp;quot;，而在于&amp;quot;减少不确定性&amp;quot;。你从&amp;quot;完全不知道&amp;quot;到&amp;quot;大概知道一个范围&amp;quot;，这个不确定性的减少本身就是巨大的价值。&lt;/p>
+&lt;p>&lt;strong>正确的心态：预测是概率，不是承诺。&lt;/strong> 给出一个预测值+置信区间，比给一个&amp;quot;精确&amp;quot;的数字更实用。&lt;/p>
+&lt;h2 id="误区二只看历史数据">误区二：只看历史数据&lt;/h2>
+&lt;p>最常见的需求预测方法就是把过去12个月的销售数据拉出来，算个移动平均或者做个趋势外推。&lt;/p>
+&lt;p>这方法简单，但有个致命问题：&lt;strong>历史不会简单重复。&lt;/strong>&lt;/p>
+&lt;p>去年Q4卖了5000台，是因为有个大客户下了批量订单。今年这个客户不买了，你按去年数据预测Q4还要卖5000台？那等着积压吧。&lt;/p>
+&lt;p>&lt;strong>历史数据要结合业务判断才能用。&lt;/strong> 具体来说：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>清洗历史数据&lt;/strong>：把一次性大单、促销影响、缺货期间的销量等异常数据剔除，还原&amp;quot;真实需求&amp;quot;&lt;/li>
+&lt;li>&lt;strong>加入业务变量&lt;/strong>：新产品上市计划、客户开拓计划、促销计划、竞争对手动态&lt;/li>
+&lt;li>&lt;strong>分层预测&lt;/strong>：总量用统计模型，大客户需求单独确认，新品用类比法&lt;/li>
+&lt;/ol>
+&lt;h2 id="误区三预测只做一次">误区三：预测只做一次&lt;/h2>
+&lt;p>很多公司一年做一次需求预测，做完了就放在那里，实际执行跟预测完全脱节。&lt;/p>
+&lt;p>需求是动态的，预测也必须是动态的。&lt;strong>预测的价值在于持续更新，而不是一次性的&amp;quot;算命&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>好的做法是滚动预测：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度滚动&lt;/strong>：每月更新未来3-6个月的预测，把最新的销售数据和市场信息纳入&lt;/li>
+&lt;li>&lt;strong>周度微调&lt;/strong>：对近1个月的预测做周度微调，根据最新订单和库存情况&lt;/li>
+&lt;li>&lt;strong>异常触发&lt;/strong>：当实际销量偏离预测超过20%时，立即触发预测复盘&lt;/li>
+&lt;/ul>
+&lt;h2 id="实用方法一分层预测法">实用方法一：分层预测法&lt;/h2>
+&lt;p>不要试图用一个模型预测所有SKU的需求。不同类型的SKU，预测方法应该不同：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>SKU类型&lt;/th>
+ &lt;th>特征&lt;/th>
+ &lt;th>预测方法&lt;/th>
+ &lt;th>预期准确率&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>稳定型&lt;/td>
+ &lt;td>需求平稳、历史数据充足&lt;/td>
+ &lt;td>移动平均/指数平滑&lt;/td>
+ &lt;td>75-85%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>趋势型&lt;/td>
+ &lt;td>有明显上升或下降趋势&lt;/td>
+ &lt;td>趋势外推+季节调整&lt;/td>
+ &lt;td>65-75%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>间歇型&lt;/td>
+ &lt;td>时有时无、需求不连续&lt;/td>
+ &lt;td>Croston方法/组合预测&lt;/td>
+ &lt;td>50-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>新品型&lt;/td>
+ &lt;td>无历史数据&lt;/td>
+ &lt;td>类比法/客户意向&lt;/td>
+ &lt;td>40-55%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>不要追求所有SKU的预测准确率都一样高。&lt;/strong> 稳定型SKU准一点，新品粗一点，把精力放在最有价值的部分。&lt;/p>
+&lt;h2 id="实用方法二预测共识">实用方法二：预测+共识&lt;/h2>
+&lt;p>纯统计预测准确率有天花板，突破天花板的方法是加入&amp;quot;人&amp;quot;的判断。&lt;/p>
+&lt;p>具体做法是&lt;strong>S&amp;amp;OP（销售与运营计划）会议&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>统计预测给出基线&lt;/li>
+&lt;li>销售团队补充客户信息（大客户意向、促销计划、市场变化）&lt;/li>
+&lt;li>产品团队补充新品计划和老品退出计划&lt;/li>
+&lt;li>供应链团队评估供应约束&lt;/li>
+&lt;li>各方达成共识，形成最终预测&lt;/li>
+&lt;/ol>
+&lt;p>这个过程的本质不是&amp;quot;谁的预测更准&amp;quot;，而是把分散在各部门的信息汇聚起来，形成一个更有信息量的预测。&lt;/p>
+&lt;p>&lt;strong>共识预测的准确率通常比纯统计预测高10-15个百分点。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>需求预测的核心原则：&lt;strong>预测不是为了算准，是为了减少不确定性。&lt;/strong>&lt;/p>
+&lt;p>你永远不可能100%预测准确，但你可以从&amp;quot;完全不知道&amp;quot;进步到&amp;quot;知道一个范围&amp;quot;，从&amp;quot;被动响应&amp;quot;进步到&amp;quot;主动准备&amp;quot;。&lt;/p>
+&lt;p>预测的价值不在数字本身，而在预测过程——在这个过程中，你收集了信息、对齐了认知、识别了风险、准备了方案。&lt;/p>
+&lt;p>&lt;strong>即使预测不准，预测的过程也不会白费。&lt;/strong> 这才是需求预测真正的意义。&lt;/p></description></item><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
 &lt;p>问10个供应链人安全库存怎么设，8个会说&amp;quot;凭经验&amp;quot;。剩下2个会用公式，但公式里的参数还是拍脑袋。&lt;/p>
 &lt;p>&lt;strong>结果就是&lt;/strong>：安全库存要么虚高——仓库里堆了一堆用不上的东西；要么不够——客户下单没货，紧急采购加急运费。&lt;/p>
 &lt;p>我见过一家公司，统一按2周需求量设安全库存。结果是：A类物料（占金额70%）频繁断货，C类物料（占金额5%）堆成山。&lt;/p>

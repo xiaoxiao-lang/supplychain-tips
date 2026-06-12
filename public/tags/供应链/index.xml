@@ -1,4 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商关系搞砸的3种死法，第2种90%的人正在经历</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</guid><description>&lt;p>上周有个采购朋友跟我吐槽：&amp;ldquo;我们跟供应商的关系就是——要货的时候打电话，不给货的时候翻脸。&amp;rdquo;&lt;/p>
+&lt;p>我说你这不叫供应商关系，叫&amp;quot;交易关系&amp;quot;。&lt;/p>
+&lt;p>供应商关系管理这件事，很多人以为就是谈判压价、签合同、催交期。但真正搞砸的，往往不是价格谈不拢，而是关系本身出了问题。&lt;/p>
+&lt;p>今天讲3种最常见的&amp;quot;死法&amp;quot;，看看你中了几个。&lt;/p>
+&lt;h2 id="死法一只看价格看不到价值">死法一：只看价格，看不到价值&lt;/h2>
+&lt;p>有个做汽车零部件的公司，每年采购额2个亿，供应商50多家。采购的考核指标只有一个——降本。每年供应商评审会就是一场&amp;quot;竞价大会&amp;quot;，谁报价低谁留下。&lt;/p>
+&lt;p>结果呢？连续3年，每年降本5%，听起来很美。但同期品质投诉涨了3倍，交期延误涨了60%，工程变更响应时间从3天变成2周。&lt;/p>
+&lt;p>&lt;strong>你砍掉的不是成本，是供应商给你创造的价值。&lt;/strong>&lt;/p>
+&lt;p>好的供应商不只是给你供货，他们还能帮你优化设计、缩短开发周期、消化你的需求波动。这些&amp;quot;隐形价值&amp;quot;一砍掉，表面省下来的钱全在别的地方亏回去了。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong> 建立供应商分级体系。战略供应商看TCO（总拥有成本），不只是单价；一般供应商可以竞价，但也要留合理利润空间。记住，供应商不赚钱，早晚出问题。&lt;/p>
+&lt;h2 id="死法二甲方心态把供应商当下属">死法二：甲方心态，把供应商当下属&lt;/h2>
+&lt;p>这是90%的采购人正在踩的坑。&lt;/p>
+&lt;p>&amp;ldquo;我们是甲方，供应商就得听我们的。&amp;quot;——这句话我听了不下100遍。&lt;/p>
+&lt;p>有个做消费电子的采购总监，每次跟供应商开会都像审犯人。交期延误？罚款。品质出问题？罚款。要求降价？不接受就换人。&lt;/p>
+&lt;p>供应商表面上唯唯诺诺，背地里呢？先交付劣质品凑数，反正你检验抽检率只有5%；新项目报价虚高20%，怕你后面再砍价；关键产能优先给你竞争对手——因为人家态度好、付款准时。&lt;/p>
+&lt;p>&lt;strong>你以为你是甲方，其实你只是供应商的客户之一。&lt;/strong> 而且不是最重要的那个。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong> 把&amp;quot;甲方-乙方&amp;quot;思维换成&amp;quot;合作伙伴&amp;quot;思维。具体做法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>定期供应商座谈会&lt;/strong>：不是单向的考核通报，而是双向的沟通，听供应商的困难和建议&lt;/li>
+&lt;li>&lt;strong>合理利润保障&lt;/strong>：让供应商在你的项目上能赚到钱，他才愿意把好产能给你&lt;/li>
+&lt;li>&lt;strong>联合降本&lt;/strong>：不是压价，而是一起找降本空间——工艺优化、材料替代、物流整合，省下的钱双方分&lt;/li>
+&lt;/ol>
+&lt;h2 id="死法三信息不对称互相猜疑">死法三：信息不对称，互相猜疑&lt;/h2>
+&lt;p>这个坑最隐蔽，但杀伤力最大。&lt;/p>
+&lt;p>我见过一个案例：一家公司的采购量和预测信息完全不跟供应商共享。供应商只能根据订单量来排产，结果旺季一到，采购量突然翻3倍，供应商产能根本来不及扩。&lt;/p>
+&lt;p>采购怪供应商响应慢，供应商怪采购不提前通知。双方都觉得是对方的问题，关系越来越僵。&lt;/p>
+&lt;p>&lt;strong>信息不对称的后果就是：双方都在用最保守的策略做决策。&lt;/strong> 采购不敢给真实预测，怕供应商涨价；供应商不敢按预测备料，怕库存积压。最后的结果就是——你缺货，他库存。&lt;/p>
+&lt;p>&lt;strong>解法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>共享滚动预测&lt;/strong>：给供应商看未来3-6个月的需求预测，标注确定性和不确定性&lt;/li>
+&lt;li>&lt;strong>建立VMI机制&lt;/strong>：让供应商根据你的实际消耗自动补货，减少信息传递延迟&lt;/li>
+&lt;li>&lt;strong>数据对接&lt;/strong>：把库存数据、消耗数据对供应商开放（至少对战略供应商），让他看到真实需求&lt;/li>
+&lt;/ol>
+&lt;h2 id="一个检验标准">一个检验标准&lt;/h2>
+&lt;p>怎么判断你的供应商关系健不健康？看一个指标就够了：&lt;strong>供应商愿意不愿意在旺季把产能优先给你。&lt;/strong>&lt;/p>
+&lt;p>如果旺季一到，供应商先满足别人的单子，你的单子排后面，说明你在供应商心里的优先级很低。&lt;/p>
+&lt;p>而优先级低的原因，几乎都可以归到上面3种死法里。&lt;/p>
+&lt;p>供应商关系不是一锤子买卖，是长期经营。你今天对供应商的态度，决定了他明天给你的优先级。&lt;/p>
+&lt;p>想清楚这一点，你的供应商管理水平就能超过大多数同行。&lt;/p></description></item><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
+&lt;p>你以为库存管理就是收货、上架、出库？那你的库存准确率永远上不了95%。&lt;/p>
+&lt;p>今天我把3年踩过的5个坑掰开来讲，每一条都是真金白银换来的。&lt;/p>
+&lt;h2 id="铁律一盘点频率不是拍脑袋定的">铁律一：盘点频率不是拍脑袋定的&lt;/h2>
+&lt;p>我刚入行的时候，仓库一年盘两次点——年中一次，年底一次。每次盘点全仓停发3天，20多号人从早上8点盘到晚上10点，最后准确率89%。&lt;/p>
+&lt;p>领导嫌低，让我想办法。&lt;/p>
+&lt;p>我研究了一圈发现，问题出在盘点频率上。A类物料（占库存金额70%的那20%SKU）每周盘一次，B类每月盘一次，C类每季度盘一次。听起来很合理对吧？&lt;/p>
+&lt;p>但实际操作下来，A类物料周转快，一周之内就可能发生几十笔出入库，光靠每周盘点根本追不上差异产生的速度。&lt;/p>
+&lt;p>&lt;strong>真正的做法是：A类物料用循环盘点，每天盘一小批，一周覆盖全部A类。&lt;/strong>&lt;/p>
+&lt;p>这样每次只盘20-30个SKU，不影响正常作业，差异当天发现当天处理。改了以后，A类库存准确率从89%直接拉到97%。&lt;/p>
+&lt;h2 id="铁律二安全库存不是越多越安全">铁律二：安全库存不是越多越安全&lt;/h2>
+&lt;p>&amp;ldquo;多备点总没错&amp;rdquo;——这是库存管理最大的谎言。&lt;/p>
+&lt;p>我之前负责一个电子元器件的仓库，有个采购同事特别&amp;quot;谨慎&amp;quot;，每个SKU的安全库存都设了3个月的量。结果呢？仓库里堆了价值800万的呆滞库存，其中一半是已经停产的老型号。&lt;/p>
+&lt;p>安全库存的计算公式课本上都有：安全库存 = Z值 × 标准差 × √提前期。但公式没告诉你的是，&lt;strong>标准差算的是需求波动，你还得加上供应波动&lt;/strong>。&lt;/p>
+&lt;p>供应商延期交付的概率是多少？每次延期多久？这些数据你不统计，安全库存就是拍脑袋。&lt;/p>
+&lt;p>我后来的做法是：把安全库存拆成两个部分——需求安全库存和供应安全库存。需求部分用公式算，供应部分用供应商交付历史数据算。两个加起来才是真正的安全库存量。&lt;/p>
+&lt;p>改完以后，库存金额降了25%，缺货率反而从3.2%降到1.1%。&lt;/p>
+&lt;h2 id="铁律三abc分类不是分完就完事">铁律三：ABC分类不是分完就完事&lt;/h2>
+&lt;p>ABC分类法谁都会，按金额占比分成A、B、C三类，然后重点管A类。&lt;/p>
+&lt;p>但你有没有想过，&lt;strong>ABC分类是动态的&lt;/strong>？&lt;/p>
+&lt;p>去年某个月，一个C类物料突然变成A类——因为客户临时下了个大单，这个SKU的消耗量突然翻了10倍。但我们的采购策略还是按C类走，最低起订量、最长的采购周期，结果紧急调货花了3倍的运费。&lt;/p>
+&lt;p>&lt;strong>ABC分类必须定期更新，至少每季度重新算一次。&lt;/strong> 而且不能只看金额，还得看需求波动性。有些SKU金额不大但波动剧烈，这种也是重点管控对象。&lt;/p>
+&lt;h2 id="铁律四先进先出不是喊口号就能实现的">铁律四：先进先出不是喊口号就能实现的&lt;/h2>
+&lt;p>&amp;ldquo;先进先出&amp;quot;四个字，每个仓库都贴在墙上，但真正能做到的不到30%。&lt;/p>
+&lt;p>为什么？因为先进先出需要系统支持+流程设计+员工执行，三个环节缺一不可。&lt;/p>
+&lt;p>我见过最离谱的例子：仓库用的系统根本没有批次管理功能，先进先出全靠库管员的记忆。一个管了5年老仓库的大姐确实能做到，但大姐请了一天假，整个仓库的先进先出就崩了。&lt;/p>
+&lt;p>&lt;strong>先进先出的底层是批次管理。&lt;/strong> 系统要能记录每个批次的入库时间，出库时自动推荐最早批次。物理存储上，要用流利架或者双面架，确保先进去的先出来。&lt;/p>
+&lt;p>如果这些条件不具备，先进先出就是一句空话。&lt;/p>
+&lt;h2 id="铁律五库存周转率不是越高越好">铁律五：库存周转率不是越高越好&lt;/h2>
+&lt;p>老板最爱的KPI就是库存周转率，恨不得一年转20次。&lt;/p>
+&lt;p>但你把周转率拉到天上去，代价是什么？是频繁的小批量采购，是运输成本翻倍，是缺货风险飙升。&lt;/p>
+&lt;p>我在一家制造企业待过，财务把库存周转率目标定到了15次/年。采购为了完成指标，把每个SKU的采购批量压到最低，结果运输费用涨了40%，还因为频繁断料导致产线停了3次。&lt;/p>
+&lt;p>&lt;strong>库存周转率有个甜蜜点，不是越高越好。&lt;/strong> 这个甜蜜点取决于你的持有成本、订货成本和缺货成本三者之间的平衡。用EOQ公式算出来的批量，对应的就是最优周转率。&lt;/p>
+&lt;p>当然，EOQ也有局限性，但至少比拍脑袋强。&lt;/p>
+&lt;h2 id="最后说句实话">最后说句实话&lt;/h2>
+&lt;p>库存管理这件事，没有银弹。每个仓库的物料特性、供应商结构、客户需求都不一样，照搬别人的做法大概率水土不服。&lt;/p>
+&lt;p>但上面这5条铁律是通用的：循环盘点、动态安全库存、定期重算ABC、批次管理支撑先进先出、周转率找甜蜜点。&lt;/p>
+&lt;p>做到这5条，你的库存管理水平至少能超过80%的同行。&lt;/p></description></item><item><title>物流成本砍了30%，但我没砍一毛运费</title><link>https://supplychain-tips.pages.dev/posts/logistics-cost-reduction-without-cutting-freight/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-cost-reduction-without-cutting-freight/</guid><description>&lt;p>去年老板给我下了个指标：物流成本降30%。&lt;/p>
+&lt;p>我第一反应是找货代压价，运费单价砍10%先。结果货代说：&amp;ldquo;现在的运价已经是底了，再降我只能换更差的车。&amp;rdquo;&lt;/p>
+&lt;p>换个角度想，&lt;strong>物流成本 ≠ 运费&lt;/strong>。运费只是冰山一角，水面下面还有包装成本、装卸成本、仓储成本、资金占用成本、损耗成本……&lt;/p>
+&lt;p>最后我的30%降本目标达成了，运费单价一分没降。怎么做到的？&lt;/p>
+&lt;h2 id="第一刀砍包装省了15">第一刀：砍包装，省了15%&lt;/h2>
+&lt;p>我们产品的外包装是3层瓦楞纸箱+泡沫内衬，单个包装成本8.5元。&lt;/p>
+&lt;p>我让仓库统计了一下运输破损率：0.3%。&lt;/p>
+&lt;p>0.3%的破损率，用了8.5元的包装。这意味着99.7%的产品都&amp;quot;过度包装&amp;quot;了。&lt;/p>
+&lt;p>跟产品部门协商后，我们把包装方案改了：&lt;/p>
+&lt;ul>
+&lt;li>泡沫内衬换成EPE珍珠棉，成本从3.2元降到1.8元&lt;/li>
+&lt;li>外箱从3层改成2层（我们的产品重量不到5kg，2层足够），成本从4.8元降到3.2元&lt;/li>
+&lt;li>加了束带固定，成本0.5元&lt;/li>
+&lt;/ul>
+&lt;p>新包装总成本5.5元，比原来省了3元。运输破损率从0.3%微涨到0.5%，多出的0.2%赔偿成本远低于省下来的包装费。&lt;/p>
+&lt;p>&lt;strong>年节省：3元/箱 × 12万箱/年 = 36万元&lt;/strong>&lt;/p>
+&lt;p>关键认知：&lt;strong>包装成本是物流成本的一部分，而且是可以优化的部分。&lt;/strong> 很多公司包装方案用了5年没改过，浪费巨大。&lt;/p>
+&lt;h2 id="第二刀提高装载率省了8">第二刀：提高装载率，省了8%&lt;/h2>
+&lt;p>我们的出货是委托第三方物流，按车次计费。13米高栏车，一车运费4500-5500元（看距离）。&lt;/p>
+&lt;p>我查了最近3个月的装车记录，平均装载率只有72%。&lt;/p>
+&lt;p>为什么？因为订单是按客户需求下的，仓库按单拣货按单装车，没人管这车装没装满。&lt;/p>
+&lt;p>改了两个动作：&lt;/p>
+&lt;p>&lt;strong>动作一：合并装车。&lt;/strong> 同一方向的订单合并到一辆车，不赶时效的订单等下一批凑满一车再发。时效要求高的走快递/专线，时效要求低的走拼车。&lt;/p>
+&lt;p>&lt;strong>动作二：装车指导。&lt;/strong> 给装车师傅出了个简易的装车图——重货放底层，轻货放上层，异形件最后塞缝。别笑，就这么简单的规则，装载率从72%提到了88%。&lt;/p>
+&lt;p>&lt;strong>年节省：&lt;/strong>&lt;/p>
+&lt;p>原来100车的量，现在只要82车。按均价5000元/车算，省18车 × 5000元 = 9万元/年。&lt;/p>
+&lt;p>别嫌少，这只是装载率优化这一项。&lt;/p>
+&lt;h2 id="第三刀整合运输频次省了7">第三刀：整合运输频次，省了7%&lt;/h2>
+&lt;p>以前我们的出货节奏是：客户下单就发货，一天最多发8车。&lt;/p>
+&lt;p>我跟销售聊了一下，发现很多客户根本不要求当天到，2-3天都行。但我们的流程是&amp;quot;接到订单就发货&amp;quot;，没有根据时效需求做分级。&lt;/p>
+&lt;p>改成分级发运后：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>紧急件&lt;/strong>（24小时到）：走专线或快递，占比约15%&lt;/li>
+&lt;li>&lt;strong>常规件&lt;/strong>（48-72小时到）：凑满一车发，占比约70%&lt;/li>
+&lt;li>&lt;strong>不急件&lt;/strong>（5天内到）：等最优路线凑满发，占比约15%&lt;/li>
+&lt;/ul>
+&lt;p>紧急件的物流单价确实提高了，但因为只占15%，整体影响很小。而常规件和不急件通过凑车和路线优化，单车成本大幅下降。&lt;/p>
+&lt;p>&lt;strong>年节省：约8万元&lt;/strong>&lt;/p>
+&lt;h2 id="降本效果汇总">降本效果汇总&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>年节省&lt;/th>
+ &lt;th>占比&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>包装优化&lt;/td>
+ &lt;td>36万&lt;/td>
+ &lt;td>50%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>装载率提升&lt;/td>
+ &lt;td>9万&lt;/td>
+ &lt;td>12.5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>运输频次整合&lt;/td>
+ &lt;td>8万&lt;/td>
+ &lt;td>11%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>其他（仓储优化等）&lt;/td>
+ &lt;td>19万&lt;/td>
+ &lt;td>26.5%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>合计&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>72万&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>100%&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>总物流成本降了30%，运费单价没降一分。&lt;/p>
+&lt;h2 id="核心逻辑">核心逻辑&lt;/h2>
+&lt;p>物流降本的核心逻辑不是&amp;quot;买更便宜的服务&amp;quot;，而是&amp;quot;减少浪费&amp;quot;。&lt;/p>
+&lt;p>过度包装是浪费，装载不满是浪费，高频次低批量发运是浪费。这些浪费不解决，运费压到零你也省不了多少。&lt;/p></description></item><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
 &lt;p>问10个供应链人安全库存怎么设，8个会说&amp;quot;凭经验&amp;quot;。剩下2个会用公式，但公式里的参数还是拍脑袋。&lt;/p>
 &lt;p>&lt;strong>结果就是&lt;/strong>：安全库存要么虚高——仓库里堆了一堆用不上的东西；要么不够——客户下单没货，紧急采购加急运费。&lt;/p>
 &lt;p>我见过一家公司，统一按2周需求量设安全库存。结果是：A类物料（占金额70%）频繁断货，C类物料（占金额5%）堆成山。&lt;/p>

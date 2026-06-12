@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链黑箱让你每年亏掉15%利润，你敢信？</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>说个扎心的事：90%的中型制造企业，老板不知道自己的货在哪、什么时候到、为什么晚了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>投了50万做供应链可视化，老板却说'我还是看不到问题在哪'</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>前段时间去一家公司拜访，采购总监带我去看他们的&amp;quot;供应链作战室&amp;quot;。&lt;/p>
+&lt;p>一面墙全是屏幕：实时订单轨迹、库存水位、供应商绩效、物流看板。数据动态跳动，KPI花花绿绿，各种仪表盘、饼图、折线图，看着跟NASA指挥中心似的。&lt;/p>
+&lt;p>我问：&amp;ldquo;这个屏上显示的东西，有多少是你们每天真正用到的？&amp;rdquo;&lt;/p>
+&lt;p>他愣了一下，说：&amp;ldquo;老实讲……可能就左上角那块库存预警。其他的，开会的时候领导看一眼，平时没人盯。&amp;rdquo;&lt;/p>
+&lt;p>50万的可视化项目，真正有用的只有左上角四分之一块屏。&lt;/p>
+&lt;p>这就是供应链可视化的通病：&lt;strong>做的叫&amp;quot;展示&amp;quot;，不是&amp;quot;可视化&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="展示-vs-可视化差的不是一星半点">展示 vs 可视化，差的不是一星半点&lt;/h2>
+&lt;p>&lt;strong>展示：&lt;/strong> 把数据放在屏幕上。你看，这就是库存。这就是在途订单。这就是供应商交付率。&lt;/p>
+&lt;p>&lt;strong>可视化：&lt;/strong> 让数据告诉你该干什么。库存低于安全线了——亮红，并且告诉你&amp;quot;这个料只能撑3天了&amp;quot;。在途订单延迟了——亮红，并且告诉你&amp;quot;延迟会导致2个客户订单不能准时交付&amp;quot;。&lt;/p>
+&lt;p>两者的区别在于：展示是&amp;quot;你去看&amp;quot;，可视化是&amp;quot;它告诉你&amp;quot;。&lt;/p>
+&lt;p>大部分公司做的可视化大屏，都停留在展示层。各种华丽炫酷的图表，但没人会对着图表做决策。&lt;/p>
+&lt;p>&lt;strong>真正有用的可视化，是让异常自动凸显、让判断帮你先做、让行动建议直接摆在面前。&lt;/strong>&lt;/p>
+&lt;h2 id="供应链可视化的四个层级">供应链可视化的四个层级&lt;/h2>
+&lt;p>把可视化拆成四个层次，你就知道该从哪下手了：&lt;/p>
+&lt;h3 id="第一层状态一览你现在的水平">第一层：状态一览（你现在的水平）&lt;/h3>
+&lt;p>这就是最常见的&amp;quot;大屏&amp;quot;，告诉你现在的库存有多少、订单有多少、生产进度到哪了。它是一个全局快照，知道&amp;quot;现在是什么情况&amp;quot;。&lt;/p>
+&lt;p>这一层是有价值的，特别是对管理层来说。但很多人把可视化做到这里面就停了。&lt;/p>
+&lt;h3 id="第二层异常预警你该有的水平">第二层：异常预警（你该有的水平）&lt;/h3>
+&lt;p>这一层比第一层有用10倍。它的逻辑是：&lt;strong>正常情况不用看，异常自动跳出来。&lt;/strong>&lt;/p>
+&lt;p>比如：库存低于安全线了，自动标红闪烁，并且告诉你&amp;quot;当前库存可支撑3.2天，建议补货5000件&amp;quot;。&lt;/p>
+&lt;p>比如：某条产线效率连续3天低于目标的80%，自动提醒，并且告诉你&amp;quot;可能原因：最近换了这个批次的原材料&amp;quot;。&lt;/p>
+&lt;p>这一层的关键不是图表多漂亮，是&lt;strong>规则和算法&lt;/strong>。你要定义什么是异常，然后让系统自动识别并推送。&lt;/p>
+&lt;p>绝大多数公司缺的不是可视化技术，缺的是&lt;strong>谁来定义异常规则&lt;/strong>。&lt;/p>
+&lt;h3 id="第三层根因分析你努力的方向">第三层：根因分析（你努力的方向）&lt;/h3>
+&lt;p>预警告诉你有问题了，根因分析告诉你问题出在哪。&lt;/p>
+&lt;p>比如：销售订单准时交付率从95%降到了87%，预警发现了。&lt;/p>
+&lt;p>根因分析往下钻：是哪个环节慢了？生产？物料？物流？继续钻——是哪个物料缺了？哪个供应商延迟了？是运输堵了还是没人装车？&lt;/p>
+&lt;p>这一层需要你把数据打通。订单数据、生产数据、采购数据、物流数据，得在同一个维度上关联起来。技术上不复杂，难的是&lt;strong>数据治理&lt;/strong>——你的数据能不能做到一致、准确、及时。&lt;/p>
+&lt;h3 id="第四层决策建议终极目标">第四层：决策建议（终极目标）&lt;/h3>
+&lt;p>最高级的可视化，是&lt;strong>直接告诉你该怎么做&lt;/strong>。&lt;/p>
+&lt;p>比如：系统发现A供应商连续3次延迟交付，同时B供应商价格贵8%但交付稳定。系统建议：把A供应商30%的份额转给B，预计准时交付率可从87%提升到94%，每月增加采购成本约6万元，但节省因交付延误导致的客户罚款约12万元。&lt;/p>
+&lt;p>要不要执行，你来拍板。但该算的账，系统帮你算清楚了。&lt;/p>
+&lt;p>这才是供应链可视化该干的事：&lt;strong>不是让你多看数据，是让你少做重复判断。&lt;/strong>&lt;/p>
+&lt;h2 id="怎么落地别一上来就做大屏">怎么落地？别一上来就做大屏&lt;/h2>
+&lt;p>太多公司做供应链可视化，第一步就是招标找可视化厂商、定UI风格、画页面原型。&lt;/p>
+&lt;p>完全错了。正确的顺序是：&lt;/p>
+&lt;p>&lt;strong>第一步：找最痛的一个决策场景。&lt;/strong> 你们公司最常问&amp;quot;现在什么情况&amp;quot;的场景是哪个？是每天早上的订单交期确认？是每周的库存盘点？是每月的供应商绩效复盘？&lt;/p>
+&lt;p>&lt;strong>第二步：定义&amp;quot;正常&amp;quot;和&amp;quot;异常&amp;quot;。&lt;/strong> 这个场景下，什么算正常、什么算异常？异常到什么程度需要预警？这些规则谁来拍板？不是IT来拍，是业务来拍。&lt;/p>
+&lt;p>&lt;strong>第三步：先做Excel验证。&lt;/strong> 别急着上系统。用Excel把你的数据拉出来，套上规则，手工跑一个月。看看这些规则能不能真的发现你关心的问题。不行就调，行了再上系统。&lt;/p>
+&lt;p>&lt;strong>第四步：上最简单的工具。&lt;/strong> 业务场景没跑通之前，能用Excel就别用BI，能用BI就别自建系统。等规则跑顺了、数据打磨好了，再做可视化大屏。&lt;/p>
+&lt;p>我一个做医疗器械的客户，就用了这套方法。他们没有做大屏，只做了一张&amp;quot;每日供应链异常清单&amp;quot;——每天早上自动推送给所有相关人，总共不到10条异常。一年下来，订单延期率从12%降到了4%。&lt;/p>
+&lt;p>供应链可视化最核心的价值，不是让你看更多数据，而是&lt;strong>让你只看该看的数据&lt;/strong>。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链黑箱让你每年亏掉15%利润，你敢信？</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>说个扎心的事：90%的中型制造企业，老板不知道自己的货在哪、什么时候到、为什么晚了。&lt;/p>
 &lt;p>问采购，采购说供应商没发货。问物流，物流说路上堵。问仓库，仓库说系统没更新。&lt;/p>
 &lt;p>你仔细想想，每个环节都在说谎，但你不是柯南，你查不过来。&lt;/p>
 &lt;p>这就是供应链黑箱——每一个你看不见的环节，都在偷偷吃掉你的利润。&lt;/p>

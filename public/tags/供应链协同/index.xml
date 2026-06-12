@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链协同 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/</link><description>Recent content in 供应链协同 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</title><link>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</guid><description>&lt;p>一个做家电的供应链总监找我吐槽：&amp;ldquo;去年推VMI，选了5家核心供应商试点，半年下来了，库存不但没降，还涨了30%。供应商天天骂我，财务天天盯我，老板直接甩了一句&amp;rsquo;搞不定你就别搞了&amp;rsquo;。&amp;rdquo;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链协同 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/</link><description>Recent content in 供应链协同 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8D%8F%E5%90%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链协同做了3年还是各干各的？问题不在IT系统</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</guid><description>&lt;p>去年一个做电子的朋友找我诉苦。&lt;/p>
+&lt;p>他公司2023年上了SAP，又花了两百万做了个供应链协同平台。供应商能看到他的生产计划，他能看到供应商的库存水位。数据跑通了，系统打通了，按说应该万事大吉。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;p>采购部还在压供应商的价，理由是&amp;quot;这是我的KPI&amp;quot;。
+销售部接了个大单，不跟生产打招呼，直接拍胸脯说15天交货。
+生产部接到订单开始备料，发现关键物料库存不够，找采购，采购说&amp;quot;供应商涨价，我没批，所以没下单&amp;quot;。
+最后订单延期20天，客户罚款30万。&lt;/p>
+&lt;p>朋友懵了：&amp;ldquo;我花几百万做的协同平台，他们全当没看见，还是各干各的。&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;因为你搞错了一件事。供应链协同的核心从来不是IT系统，是利益对齐。&amp;rdquo;&lt;/p>
+&lt;h2 id="it系统解决的是信息问题不是利益问题">IT系统解决的是信息问题，不是利益问题&lt;/h2>
+&lt;p>大多数公司对供应链协同的理解还停留在&amp;quot;信息共享&amp;quot;的层面：你看我的库存，我看你的计划，大家信息透明了，自然就协同了。&lt;/p>
+&lt;p>这是童话故事。&lt;/p>
+&lt;p>真正的供应链协同不是&amp;quot;我知道了你的情况所以我会配合你&amp;quot;，而是**&amp;ldquo;配合你对我也好所以我才配合你&amp;rdquo;**。&lt;/p>
+&lt;p>举个例子。我朋友公司的情况是这样的：&lt;/p>
+&lt;ul>
+&lt;li>采购的KPI是降本5%。所以不管什么情况，先压价再说。&lt;/li>
+&lt;li>生产的KPI是准时交付率。所以他们希望库存越多越好，最好所有料都在仓库等着。&lt;/li>
+&lt;li>销售的KPI是签单额。所以他们只管签单，不管能不能交。&lt;/li>
+&lt;li>供应商的诉求是多卖货、快回款。但采购压价+拖款，哪个供应商愿意跟你&amp;quot;协同&amp;quot;？&lt;/li>
+&lt;/ul>
+&lt;p>你看，每个人的KPI都在打架。你给他们一个再先进的协同平台，有什么用？他们还是会按自己的KPI干活。&lt;/p>
+&lt;p>&lt;strong>协同的前提是：大家的利益方向一致。如果销售签单等于生产背锅，你就永远不可能协同。&lt;/strong>&lt;/p>
+&lt;h2 id="三个让协同真正落地的方法">三个让协同真正落地的方法&lt;/h2>
+&lt;h3 id="方法一把别人的kpi变成我的kpi">方法一：把&amp;quot;别人的KPI&amp;quot;变成&amp;quot;我的KPI&amp;quot;&lt;/h3>
+&lt;p>我给我朋友的建议很简单：改KPI。&lt;/p>
+&lt;p>采购的KPI从&amp;quot;降本5%&amp;ldquo;改成&amp;quot;总拥有成本降低5%&amp;quot;。&lt;/p>
+&lt;p>什么意思？如果采购多花3%买了一家交期更稳定的供应商的料，导致生产线没停过，省下来的停工损失远不止3%。这笔账，要算在采购头上。&lt;/p>
+&lt;p>销售的KPI从&amp;quot;签单额&amp;quot;改成&amp;quot;签单额×准时交付率&amp;rdquo;。&lt;/p>
+&lt;p>如果销售接了一个交不出来的单，准时交付率下跌，他的奖金也跟着跌。你看他还敢不敢乱接单？&lt;/p>
+&lt;p>生产部的KPI从&amp;quot;准时交付率&amp;quot;改成&amp;quot;准时交付率×库存周转率&amp;quot;。&lt;/p>
+&lt;p>这样生产就不能张口就要安全库存翻倍，因为他们也得为库存成本买单。&lt;/p>
+&lt;p>三个部门的KPI里都有了&amp;quot;别人的事&amp;quot;，他们就会主动去跟别人协同。&lt;/p>
+&lt;p>不用开协同会议，不用催，他自己会去。&lt;/p>
+&lt;h3 id="方法二让供应商变成你的虚拟部门">方法二：让供应商变成你的&amp;quot;虚拟部门&amp;quot;&lt;/h3>
+&lt;p>我们总说&amp;quot;供应商是我们的合作伙伴&amp;quot;，但行为上呢？压价、拖款、临时改需求。&lt;/p>
+&lt;p>你管这叫合作伙伴？&lt;/p>
+&lt;p>真正的供应链协同，是把核心供应商当&lt;strong>虚拟部门&lt;/strong>来管理。什么意思？&lt;/p>
+&lt;p>第一，跟核心供应商签年度框架合同，不玩一单一议。让他知道今年大概有多少量，他才能做产能规划。&lt;/p>
+&lt;p>第二，把自己的生产计划提前同步给供应商。不是提前一周，是提前一个月、一个季度。供应商看到了确定的量，他就敢备库存，你的交期就短了。&lt;/p>
+&lt;p>第三，对核心供应商的回款周期缩短。别人60天，他30天。他资金周转快，自然愿意给你更好的价格和服务。&lt;/p>
+&lt;p>我见过最极端的案例：一家做汽车零部件的公司，对前三名供应商的回款周期是15天。结果这三家供应商在产能紧张的时候，优先保他们的货。因为对供应商来说，15天回款的客户就是最好的客户。&lt;/p>
+&lt;p>&lt;strong>你对供应商好，供应商就对你好。供应链协同说到底就这么简单。&lt;/strong>&lt;/p>
+&lt;h3 id="方法三按场景做协同别搞大而全">方法三：按场景做协同，别搞大而全&lt;/h3>
+&lt;p>很多公司上协同平台的时候，想把所有流程、所有供应商全拉进来。结果就是谁都嫌麻烦，谁都不配合。&lt;/p>
+&lt;p>我建议：先找一个最痛的场景，只在这个场景里做协同，跑顺了再扩。&lt;/p>
+&lt;p>比如你们公司最痛的是&amp;quot;紧急插单导致物料短缺&amp;quot;。那就只做这个场景的协同：销售一旦有插单意向，立刻在协同平台上发起需求，生产评估物料，采购马上跟供应商确认物料交期，三方在一个平台上24小时内给结论。&lt;/p>
+&lt;p>别的场景别管，先把这个跑通。&lt;/p>
+&lt;p>跑通了，大家尝到了甜头，自然会推着你去扩。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>供应链协同不是你买个系统、让大家把数据共享了就完了。&lt;/p>
+&lt;p>协同的本质是&lt;strong>利益重新分配&lt;/strong>。你要让每个参与方都觉得&amp;quot;协同对我有利&amp;quot;，而不是&amp;quot;协同是配合别人给我添麻烦&amp;quot;。&lt;/p>
+&lt;p>这个道理看起来简单，但90%的公司都做不到。因为他们宁可花几百万买系统，也不愿意花一天时间把KPI改合理。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>VMI搞了半年库存反涨30%：不是模式不行，是你玩脱了</title><link>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/vmi-mistakes/</guid><description>&lt;p>一个做家电的供应链总监找我吐槽：&amp;ldquo;去年推VMI，选了5家核心供应商试点，半年下来了，库存不但没降，还涨了30%。供应商天天骂我，财务天天盯我，老板直接甩了一句&amp;rsquo;搞不定你就别搞了&amp;rsquo;。&amp;rdquo;&lt;/p>
 &lt;p>我说你把数据拉出来我看看。看完以后发现，他的问题从头到尾就是一个：&lt;strong>把VMI理解成了&amp;quot;供应商帮我管库存&amp;quot;，而不是&amp;quot;我跟供应商一起管库存&amp;quot;。&lt;/strong>&lt;/p>
 &lt;p>差三个字，结果天差地别。&lt;/p>
 &lt;h2 id="vmi不是甩锅是协同">VMI不是甩锅，是协同&lt;/h2>

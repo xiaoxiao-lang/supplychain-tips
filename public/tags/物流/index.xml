@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81/</link><description>Recent content in 物流 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库效率翻倍不需要花一分钱，改这3个布局就行</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</guid><description>&lt;p>每次有人问我仓库效率怎么提升，我第一个问题就是：你看过你的仓库布局吗？&lt;/p>
+&lt;p>90%的仓库效率问题，根子都在布局上。拣货员跑断腿、叉车堵在路上、收货和发货挤在一起——这些不是员工不努力，是布局在拖后腿。&lt;/p>
+&lt;p>最离谱的是，布局优化几乎零成本，但很多仓库宁愿花几十万上系统，也不愿意动一动货架的位置。&lt;/p>
+&lt;p>今天讲3个布局优化方法，不花一分钱，效率至少提升30%。&lt;/p>
+&lt;h2 id="优化一把热销品放进黄金拣选区">优化一：把热销品放进黄金拣选区&lt;/h2>
+&lt;p>什么是黄金拣选区？就是拣货员站着不用弯腰、伸手就能拿到的区域——货架的腰部位置，离出库口最近的区域。&lt;/p>
+&lt;p>我之前去一个做快消品的仓库，发现他们按SKU编号存放商品——A001在最里面，Z999在最外面。&lt;/p>
+&lt;p>结果就是：每天出库量最大的矿泉水在最里面，拣货员来回走600米才能拿一箱；而出库量极少的圣诞礼品套装就在门口，占着最好的位置。&lt;/p>
+&lt;p>&lt;strong>改法很简单：按ABC分类重新布局。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类SKU（出库频率最高的20%SKU）→ 黄金拣选区（腰部位置、近出库口）&lt;/li>
+&lt;li>B类SKU（出库频率中等的30%SKU）→ 黄金区上下层&lt;/li>
+&lt;li>C类SKU（出库频率最低的50%SKU）→ 最远端、最高层&lt;/li>
+&lt;/ul>
+&lt;p>改完以后，拣货员的平均行走距离从单趟280米降到110米，拣货效率提升40%。&lt;/p>
+&lt;p>&lt;strong>关键细节：&lt;/strong> 黄金拣选区不是一成不变的，每季度要根据出库数据重新调整。季节性产品（如饮料、保暖品）旺季要提前移入黄金区。&lt;/p>
+&lt;h2 id="优化二动线单向化消灭对冲">优化二：动线单向化，消灭对冲&lt;/h2>
+&lt;p>你去观察一个仓库，如果经常出现这样的场景——两辆叉车面对面堵在路上，谁都不让谁，后面排了一串车——那就是动线设计有问题。&lt;/p>
+&lt;p>&lt;strong>动线设计的核心原则：单向流动，不走回头路。&lt;/strong>&lt;/p>
+&lt;p>理想动线是U型或L型：收货区→存储区→拣选区→出库区，形成一条单行道。就像商场里&amp;quot;入口→货架→收银台→出口&amp;quot;的设计，不会有人在走廊里对冲。&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>画出U型动线&lt;/strong>：收货在一端，出库在另一端，中间存储和拣选形成环形通道&lt;/li>
+&lt;li>&lt;strong>设单行标识&lt;/strong>：通道地面画箭头，叉车只准一个方向走&lt;/li>
+&lt;li>&lt;strong>加超车区&lt;/strong>：每隔50米设一个超车避让区，速度快的车可以超车&lt;/li>
+&lt;/ol>
+&lt;p>一个5000平的仓库做了动线优化后，叉车平均通行时间从4.2分钟/趟降到2.8分钟/趟，通道堵塞事件从日均8次降到1次。&lt;/p>
+&lt;p>&lt;strong>零成本，效果立竿见影。&lt;/strong>&lt;/p>
+&lt;h2 id="优化三收发货分离消除拥堵">优化三：收发货分离，消除拥堵&lt;/h2>
+&lt;p>很多小仓库收货和发货共用一个门、一个区域。这就导致一个致命问题：&lt;/p>
+&lt;p>早上8-10点是收货高峰，下午3-5点是发货高峰。但如果供应商下午4点来送货，同时又有客户等着提货，收货月台上又卸货又装货，叉车、人、货物全挤在一起。&lt;/p>
+&lt;p>&lt;strong>效率低还是小事，安全才是大事。&lt;/strong> 收发货混合作业，叉车撞人的风险翻倍。&lt;/p>
+&lt;p>&lt;strong>改法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>物理分离&lt;/strong>：收货区和发货区分设在仓库两端，各设独立月台&lt;/li>
+&lt;li>&lt;strong>时间分离&lt;/strong>：如果空间不够物理分离，就错峰——上午收货、下午发货，中间留1小时缓冲&lt;/li>
+&lt;li>&lt;strong>人员分离&lt;/strong>：收货组和发货组不要用同一批人，避免多任务切换的混乱&lt;/li>
+&lt;/ol>
+&lt;p>一个3000平的仓库做了收发分离后，月台作业效率提升25%，安全事故从年3起降到0。&lt;/p>
+&lt;h2 id="效果汇总">效果汇总&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>成本&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>黄金拣选区&lt;/td>
+ &lt;td>0元（只是移动货位）&lt;/td>
+ &lt;td>拣货效率+40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>动线单向化&lt;/td>
+ &lt;td>0元（地面画线）&lt;/td>
+ &lt;td>通行时间-33%，堵塞-87%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>收发货分离&lt;/td>
+ &lt;td>0元（重新划区）&lt;/td>
+ &lt;td>月台效率+25%，安全事故归零&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>三项合计：仓库整体作业效率提升约30%，零投入。&lt;/strong>&lt;/p>
+&lt;h2 id="核心认知">核心认知&lt;/h2>
+&lt;p>仓库效率问题的根源，80%是布局问题，不是人的问题。&lt;/p>
+&lt;p>让员工在错误的布局下拼命干活，就像让一个跑步机上的仓鼠拼命跑——看起来很忙，但产出有限。&lt;/p>
+&lt;p>&lt;strong>先让布局合理，再谈自动化和系统。&lt;/strong> 布局不对，上什么系统都是事倍功半。&lt;/p>
+&lt;p>下次觉得仓库效率低的时候，别急着买设备，先看看你的仓库布局。可能只是把几排货架换个位置的事。&lt;/p></description></item><item><title>运输管理做了5年，我总结了3个被严重低估的指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</guid><description>&lt;p>做运输管理的人，最常盯的KPI就是两个：运费和时效。&lt;/p>
+&lt;p>运费越低越好，时效越快越好。这谁都知道。&lt;/p>
+&lt;p>但盯了5年运输以后，我发现真正决定运输管理水平高低的，不是运费和时效，而是另外3个指标。这3个指标被严重低估了，但它们才是影响运输成本和客户体验的&amp;quot;隐性杀手&amp;quot;。&lt;/p>
+&lt;h2 id="指标一准时提货率">指标一：准时提货率&lt;/h2>
+&lt;p>大多数人关注的是&amp;quot;准时送达率&amp;quot;，但很少有人关注&amp;quot;准时提货率&amp;quot;。&lt;/p>
+&lt;p>为什么提货时效这么重要？因为&lt;strong>提货延误是运输全链路延误的源头。&lt;/strong>&lt;/p>
+&lt;p>我之前管一个全国配送网络，月度数据显示：准时送达率92%，看起来还行。但拆开看，92%准时送达的订单里，有15%是靠&amp;quot;抢时间&amp;quot;赶回来的——司机加班、绕路走高速、甚至超速。&lt;/p>
+&lt;p>这就意味着，真正在计划内正常完成的订单只有77%，剩下23%要么延误，要么靠牺牲安全和成本&amp;quot;抢&amp;quot;回来的。&lt;/p>
+&lt;p>而追根溯源，&lt;strong>延误订单中60%的第一环是提货延误&lt;/strong>。工厂没有按时备好货、仓库找不到物料、提货车辆晚到——任何一个环节出了问题，后面的时效就是空中楼阁。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>把&amp;quot;准时提货率&amp;quot;纳入承运商考核，权重不低于20%&lt;/li>
+&lt;li>提货前2小时自动提醒仓库备货&lt;/li>
+&lt;li>提货延误超过1小时的，当天出异常报告&lt;/li>
+&lt;/ol>
+&lt;p>我加了准时提货率考核后，3个月从83%提升到95%，准时送达率从92%自动提升到96%——不用赶，不用抢，源头控住了，下游自然就好了。&lt;/p>
+&lt;h2 id="指标二异常处理时效">指标二：异常处理时效&lt;/h2>
+&lt;p>运输异常是常态：车辆抛锚、天气封路、货物破损、客户拒收……&lt;/p>
+&lt;p>异常不可怕，可怕的是异常处理慢。&lt;/p>
+&lt;p>我统计过一组数据：每100票运输中大约有8-12票会出现异常。异常的平均处理时长是36小时。&lt;/p>
+&lt;p>36小时意味着什么？意味着客户的货在路上多停了1.5天，意味着可能要重新发货，意味着客户的体验直接崩了。&lt;/p>
+&lt;p>&lt;strong>异常处理时效才是运输管理的试金石。&lt;/strong> 正常情况谁都能搞定，出了问题能多快解决，才是真本事。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>建立异常分级机制&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一级异常（货物全损/整车延误）：30分钟内响应，4小时内给出解决方案&lt;/li>
+&lt;li>二级异常（部分破损/短量）：2小时内响应，12小时内解决&lt;/li>
+&lt;li>三级异常（单票延误/信息差错）：4小时内响应，24小时内解决&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常处理群&lt;/strong>：每个承运商建一个异常处理群，司机、调度、客服在群里。异常发生时第一时间在群里报，不用走系统等审批。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常复盘&lt;/strong>：每周做一次异常复盘，不是追责，而是找规律——哪些线路异常频发？哪些承运商异常率偏高？哪些异常类型可以预防？&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>改了以后，异常平均处理时长从36小时降到8小时，客户投诉率降了45%。&lt;/p>
+&lt;h2 id="指标三单票运输成本趋势">指标三：单票运输成本趋势&lt;/h2>
+&lt;p>运费单价是静态的，单票运输成本是动态的。&lt;/p>
+&lt;p>什么意思？运费单价看的是&amp;quot;每公斤多少钱&amp;quot;或&amp;quot;每车多少钱&amp;quot;，但单票运输成本看的是&amp;quot;每完成一票运输的总成本&amp;quot;。&lt;/p>
+&lt;p>总成本 = 运费 + 装卸费 + 保险费 + 异常处理费 + 管理成本分摊&lt;/p>
+&lt;p>我见过一家公司，运费单价降了15%（换了更便宜的承运商），但单票运输成本反而涨了8%。为什么？&lt;/p>
+&lt;ul>
+&lt;li>更便宜的承运商准时率低，导致紧急补发频次增加&lt;/li>
+&lt;li>破损率高，赔偿成本和补发成本上涨&lt;/li>
+&lt;li>服务差，客服沟通成本大幅增加&lt;/li>
+&lt;li>管理成本翻倍（要花更多时间盯这家承运商）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>运费单价降了15%，但总成本涨了8%。&lt;/strong> 这就是只看单价不看总成本的代价。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>每月核算单票运输成本趋势，不只是运费&lt;/li>
+&lt;li>把异常处理成本、补发成本、管理成本都计入&lt;/li>
+&lt;li>承运商评估用TCO（总拥有成本），不只看报价&lt;/li>
+&lt;/ol>
+&lt;h2 id="指标优先级">指标优先级&lt;/h2>
+&lt;p>这三个指标和传统的运费、时效指标怎么配合？我建议的优先级：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>准时提货率&lt;/strong> → 源头控制，优先级最高&lt;/li>
+&lt;li>&lt;strong>异常处理时效&lt;/strong> → 问题响应，决定客户体验&lt;/li>
+&lt;li>&lt;strong>单票运输成本趋势&lt;/strong> → 成本真相，避免被单价蒙蔽&lt;/li>
+&lt;li>准时送达率 → 结果指标，不用额外管，前三个做好了自然达标&lt;/li>
+&lt;li>运费单价 → 参考指标，不是核心管控对象&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>管好源头、快处异常、看清总成本。&lt;/strong> 这三件事做到位，运输管理就上了个台阶。&lt;/p></description></item></channel></rss>

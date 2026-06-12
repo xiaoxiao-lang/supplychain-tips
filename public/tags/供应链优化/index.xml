@@ -1,4 +1,252 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从3500砍到1200，库存降了40%，销售额反而涨了</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</guid><description>&lt;p>讲一个反常识的事实。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/</link><description>Recent content in 供应链优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+&lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
+&lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
+&lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>
+&lt;p>老板沉默了5秒，说：&amp;ldquo;砍。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步给sku做体检">第一步：给SKU做体检&lt;/h2>
+&lt;p>砍SKU不能拍脑袋，得用数据说话。我建了一个SKU分析模型，包含5个维度：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>销售贡献&lt;/td>
+ &lt;td>近12个月销售额&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>毛利贡献&lt;/td>
+ &lt;td>毛利率×销量&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>周转效率&lt;/td>
+ &lt;td>年周转次数&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求趋势&lt;/td>
+ &lt;td>近6个月环比变化&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>战略价值&lt;/td>
+ &lt;td>是否核心客户需求/是否新推&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>每个SKU按5个维度打分，总分0-100。然后按分数分四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A档（80分以上）&lt;/strong>：核心SKU，必须保留&lt;/li>
+&lt;li>&lt;strong>B档（60-79分）&lt;/strong>：一般SKU，正常管理&lt;/li>
+&lt;li>&lt;strong>C档（40-59分）&lt;/strong>：低效SKU，重点评审&lt;/li>
+&lt;li>&lt;strong>D档（40分以下）&lt;/strong>：候选淘汰&lt;/li>
+&lt;/ul>
+&lt;p>2000个SKU跑完模型，结果：&lt;/p>
+&lt;ul>
+&lt;li>A档：320个（16%）&lt;/li>
+&lt;li>B档：480个（24%）&lt;/li>
+&lt;li>C档：540个（27%）&lt;/li>
+&lt;li>D档：660个（33%）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>660个SKU得分不到40分，占SKU总数的33%，但只贡献了2%的销售额。&lt;/strong>&lt;/p>
+&lt;h2 id="第二步分类处理">第二步：分类处理&lt;/h2>
+&lt;p>D档660个SKU不是一刀切全砍，要分类处理：&lt;/p>
+&lt;p>&lt;strong>第一类：确认淘汰（380个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续6个月零销量的：直接淘汰&lt;/li>
+&lt;li>连续12个月销量&amp;lt;10个且毛利为负的：直接淘汰&lt;/li>
+&lt;li>已有替代品且替代品销量更好的：淘汰老品&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二类：有条件保留（180个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>核心客户指定要的：保留，但跟客户谈替代方案&lt;/li>
+&lt;li>新品还在培育期的：给3个月观察期，3个月后不达标淘汰&lt;/li>
+&lt;li>季节性产品：保留，但淡季不备库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三类：需要再评估（100个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>得分在35-40分之间的：补充调研后决定&lt;/li>
+&lt;li>有历史大客户偶尔采购的：跟销售确认未来需求&lt;/li>
+&lt;/ul>
+&lt;p>处理完以后，&lt;strong>最终淘汰480个SKU，保留1520个。&lt;/strong>&lt;/p>
+&lt;h2 id="第三步继续深挖">第三步：继续深挖&lt;/h2>
+&lt;p>1520个SKU还是太多。我又做了第二轮分析，这次重点看&amp;quot;长尾&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>重叠SKU问题。&lt;/strong> 我们有12款类似功能的螺丝，只是长度差2-3mm；有8款颜色不同的同款包装盒；有5款规格接近的密封圈。&lt;/p>
+&lt;p>这些重叠SKU合并后：&lt;/p>
+&lt;ul>
+&lt;li>螺丝从12款合并到5款（用垫片适配长度差异）&lt;/li>
+&lt;li>包装盒从8款合并到3款（用标签区分颜色）&lt;/li>
+&lt;li>密封圈从5款合并到2款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>又砍掉280个SKU，但客户满意度几乎不受影响——因为客户买的不是&amp;quot;2.5cm的螺丝&amp;quot;，而是&amp;quot;能固定的螺丝&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="第四步建立sku准入和退出机制">第四步：建立SKU准入和退出机制&lt;/h2>
+&lt;p>砍完不是终点，关键是防止SKU又偷偷涨回来。&lt;/p>
+&lt;p>我建了两条规矩：&lt;/p>
+&lt;p>&lt;strong>准入：&lt;/strong> 新增SKU必须通过&amp;quot;SKU评审会&amp;quot;，回答三个问题——预计年销量多少？毛利多少？现有SKU能不能替代？三个问题答不上来，不让上。&lt;/p>
+&lt;p>&lt;strong>退出：&lt;/strong> 每季度做一次SKU健康度检查，连续2个季度C档的SKU自动进入淘汰流程，需要销售总监签字才能保留。&lt;/p>
+&lt;h2 id="最终效果">最终效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>优化前&lt;/th>
+ &lt;th>优化后&lt;/th>
+ &lt;th>变化&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>SKU数量&lt;/td>
+ &lt;td>2000&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存总额&lt;/td>
+ &lt;td>1940万&lt;/td>
+ &lt;td>1160万&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存周转率&lt;/td>
+ &lt;td>4.2次/年&lt;/td>
+ &lt;td>7.8次/年&lt;/td>
+ &lt;td>+86%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>呆滞库存&lt;/td>
+ &lt;td>680万&lt;/td>
+ &lt;td>120万&lt;/td>
+ &lt;td>-82%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>客户满意度&lt;/td>
+ &lt;td>87%&lt;/td>
+ &lt;td>89%&lt;/td>
+ &lt;td>+2%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>缺货率&lt;/td>
+ &lt;td>3.5%&lt;/td>
+ &lt;td>2.1%&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>库存成本降了40%，客户满意度反而提高了2%。&lt;/strong> 为什么？因为SKU少了，每个SKU的库存更充裕，缺货率下降了。&lt;/p></description></item><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
+&lt;p>需求提报→部门主管审批→采购主管审批→采购经理审批→财务审批→总经理审批→下单&lt;/p>
+&lt;p>一个普通采购件，从提需求到下单，平均7.5个工作日。&lt;/p>
+&lt;p>紧急件？加急走完流程也要3天。&lt;/p>
+&lt;p>我看完他们的流程图，说了句：&amp;ldquo;你们不是在管采购，是在管审批。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步砍掉不增值的审批环节">第一步：砍掉不增值的审批环节&lt;/h2>
+&lt;p>先看看每个审批节点到底在审什么：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>部门主管&lt;/strong>：审需求合理性——这个该审&lt;/li>
+&lt;li>&lt;strong>采购主管&lt;/strong>：审是否有库存/替代品——这个该审&lt;/li>
+&lt;li>&lt;strong>采购经理&lt;/strong>：审价格是否合理——这个该审&lt;/li>
+&lt;li>&lt;strong>财务审批&lt;/strong>：审预算——但财务根本不了解采购内容，只看有没有预算&lt;/li>
+&lt;li>&lt;strong>总经理审批&lt;/strong>：审金额——但500块的东西也要总经理签字？&lt;/li>
+&lt;/ul>
+&lt;p>问题很明显：&lt;strong>审批链条太长，越到后边越不增值。&lt;/strong>&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>按金额分级审批&lt;/strong>：5000元以下采购经理终审，5000-50000元财务加审，50000元以上总经理审&lt;/li>
+&lt;li>&lt;strong>砍掉财务常规审批&lt;/strong>：在预算范围内的采购，财务不逐笔审批，改为月度汇总审核&lt;/li>
+&lt;li>&lt;strong>框架协议免审批&lt;/strong>：已经在框架协议内的重复采购，直接下单，无需逐笔审批&lt;/li>
+&lt;/ol>
+&lt;p>改完以后，5000元以下采购的审批时间从5天降到0.5天（线上审批，采购经理手机一点就过）。&lt;/p>
+&lt;h2 id="第二步数字化审批流">第二步：数字化审批流&lt;/h2>
+&lt;p>审批慢的另一个原因是——线下审批。&lt;/p>
+&lt;p>他们的采购申请是Excel填表，打印出来找人签字。采购经理经常出差，一出差审批就卡住。总经理更忙，桌上一堆待签文件，采购申请排到第5位。&lt;/p>
+&lt;p>&lt;strong>数字化改造三个动作：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>动作一：上线采购管理模块。&lt;/strong> 需求提报、审批、下单、收货、付款全流程在线化。不用打印、不用跑腿、不用等人在办公室。&lt;/p>
+&lt;p>&lt;strong>动作二：移动端审批。&lt;/strong> 采购经理和总经理手机装了审批APP，出差路上就能批。审批时效从&amp;quot;等3天&amp;quot;变成&amp;quot;当天批&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>动作三：自动校验。&lt;/strong> 系统自动校验预算余额、历史价格、框架协议。价格超历史均价10%的自动标红提醒，预算不足的直接拦截。&lt;/p>
+&lt;p>数字化后，审批平均处理时间从7.5天降到1.8天。&lt;/p>
+&lt;h2 id="第三步建立供应商自助平台">第三步：建立供应商自助平台&lt;/h2>
+&lt;p>以前的流程是：采购员把订单导出Excel，发邮件给供应商，供应商确认后回邮件，采购员再录入系统。&lt;/p>
+&lt;p>一个订单来回3封邮件，如果供应商有疑问还得打电话确认。10个供应商、每天20笔订单，光订单沟通就占了一个采购员大半天。&lt;/p>
+&lt;p>&lt;strong>改法：上线供应商协同平台。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购在系统下单，供应商自动收到通知&lt;/li>
+&lt;li>供应商在线确认交期、数量&lt;/li>
+&lt;li>发货后在线录入物流信息&lt;/li>
+&lt;li>到货后仓库在线签收&lt;/li>
+&lt;/ul>
+&lt;p>供应商自助平台上线3个月后：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>改造前&lt;/th>
+ &lt;th>改造后&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>订单处理时间&lt;/td>
+ &lt;td>2.5小时/批&lt;/td>
+ &lt;td>0.5小时/批&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单确认周期&lt;/td>
+ &lt;td>1.5天&lt;/td>
+ &lt;td>0.3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购员人均处理订单量&lt;/td>
+ &lt;td>30单/天&lt;/td>
+ &lt;td>80单/天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单差错率&lt;/td>
+ &lt;td>3.2%&lt;/td>
+ &lt;td>0.5%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>一个采购员的工作效率提升了2.7倍。&lt;/strong> 原来需要5个采购员干的活，现在2个人就够了。&lt;/p>
+&lt;h2 id="综合效果">综合效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>审批流程简化&lt;/td>
+ &lt;td>审批时间从7.5天→1.8天，降76%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>数字化审批&lt;/td>
+ &lt;td>审批及时率从65%→98%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>供应商自助平台&lt;/td>
+ &lt;td>采购员效率提升2.7倍，差错率降84%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>人力节省&lt;/td>
+ &lt;td>5个采购员→2个采购员，年省人力成本约48万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购周期缩短&lt;/td>
+ &lt;td>从提需求到收货，从15天→6天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>省下来的48万，够发3个采购员3个月的工资了。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>采购流程优化的核心原则就一个：&lt;strong>砍掉不增值的活动，把时间花在真正需要人判断的地方。&lt;/strong>&lt;/p></description></item><item><title>SKU从3500砍到1200，库存降了40%，销售额反而涨了</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</guid><description>&lt;p>讲一个反常识的事实。&lt;/p>
 &lt;p>我帮一个做五金件的贸易公司做库存诊断。他们有3500个SKU，库存周转天数高达187天，现金流被库存压得喘不过气。&lt;/p>
 &lt;p>老板跟我说：没办法啊，客户要什么我们就得备什么，SKU少了客户就跑了。&lt;/p>
 &lt;p>我说好，那我们来拉一个数据。&lt;/p>

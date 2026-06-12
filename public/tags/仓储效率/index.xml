@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储效率 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E6%95%88%E7%8E%87/</link><description>Recent content in 仓储效率 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库面积不够用？3个方法比扩仓便宜10倍</title><link>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</guid><description>&lt;h2 id="仓库不够用别急着扩仓">仓库不够用？别急着扩仓&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储效率 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E6%95%88%E7%8E%87/</link><description>Recent content in 仓储效率 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库效率翻倍不需要花一分钱，改这3个布局就行</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout-optimization/</guid><description>&lt;p>每次有人问我仓库效率怎么提升，我第一个问题就是：你看过你的仓库布局吗？&lt;/p>
+&lt;p>90%的仓库效率问题，根子都在布局上。拣货员跑断腿、叉车堵在路上、收货和发货挤在一起——这些不是员工不努力，是布局在拖后腿。&lt;/p>
+&lt;p>最离谱的是，布局优化几乎零成本，但很多仓库宁愿花几十万上系统，也不愿意动一动货架的位置。&lt;/p>
+&lt;p>今天讲3个布局优化方法，不花一分钱，效率至少提升30%。&lt;/p>
+&lt;h2 id="优化一把热销品放进黄金拣选区">优化一：把热销品放进黄金拣选区&lt;/h2>
+&lt;p>什么是黄金拣选区？就是拣货员站着不用弯腰、伸手就能拿到的区域——货架的腰部位置，离出库口最近的区域。&lt;/p>
+&lt;p>我之前去一个做快消品的仓库，发现他们按SKU编号存放商品——A001在最里面，Z999在最外面。&lt;/p>
+&lt;p>结果就是：每天出库量最大的矿泉水在最里面，拣货员来回走600米才能拿一箱；而出库量极少的圣诞礼品套装就在门口，占着最好的位置。&lt;/p>
+&lt;p>&lt;strong>改法很简单：按ABC分类重新布局。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类SKU（出库频率最高的20%SKU）→ 黄金拣选区（腰部位置、近出库口）&lt;/li>
+&lt;li>B类SKU（出库频率中等的30%SKU）→ 黄金区上下层&lt;/li>
+&lt;li>C类SKU（出库频率最低的50%SKU）→ 最远端、最高层&lt;/li>
+&lt;/ul>
+&lt;p>改完以后，拣货员的平均行走距离从单趟280米降到110米，拣货效率提升40%。&lt;/p>
+&lt;p>&lt;strong>关键细节：&lt;/strong> 黄金拣选区不是一成不变的，每季度要根据出库数据重新调整。季节性产品（如饮料、保暖品）旺季要提前移入黄金区。&lt;/p>
+&lt;h2 id="优化二动线单向化消灭对冲">优化二：动线单向化，消灭对冲&lt;/h2>
+&lt;p>你去观察一个仓库，如果经常出现这样的场景——两辆叉车面对面堵在路上，谁都不让谁，后面排了一串车——那就是动线设计有问题。&lt;/p>
+&lt;p>&lt;strong>动线设计的核心原则：单向流动，不走回头路。&lt;/strong>&lt;/p>
+&lt;p>理想动线是U型或L型：收货区→存储区→拣选区→出库区，形成一条单行道。就像商场里&amp;quot;入口→货架→收银台→出口&amp;quot;的设计，不会有人在走廊里对冲。&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>画出U型动线&lt;/strong>：收货在一端，出库在另一端，中间存储和拣选形成环形通道&lt;/li>
+&lt;li>&lt;strong>设单行标识&lt;/strong>：通道地面画箭头，叉车只准一个方向走&lt;/li>
+&lt;li>&lt;strong>加超车区&lt;/strong>：每隔50米设一个超车避让区，速度快的车可以超车&lt;/li>
+&lt;/ol>
+&lt;p>一个5000平的仓库做了动线优化后，叉车平均通行时间从4.2分钟/趟降到2.8分钟/趟，通道堵塞事件从日均8次降到1次。&lt;/p>
+&lt;p>&lt;strong>零成本，效果立竿见影。&lt;/strong>&lt;/p>
+&lt;h2 id="优化三收发货分离消除拥堵">优化三：收发货分离，消除拥堵&lt;/h2>
+&lt;p>很多小仓库收货和发货共用一个门、一个区域。这就导致一个致命问题：&lt;/p>
+&lt;p>早上8-10点是收货高峰，下午3-5点是发货高峰。但如果供应商下午4点来送货，同时又有客户等着提货，收货月台上又卸货又装货，叉车、人、货物全挤在一起。&lt;/p>
+&lt;p>&lt;strong>效率低还是小事，安全才是大事。&lt;/strong> 收发货混合作业，叉车撞人的风险翻倍。&lt;/p>
+&lt;p>&lt;strong>改法：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>物理分离&lt;/strong>：收货区和发货区分设在仓库两端，各设独立月台&lt;/li>
+&lt;li>&lt;strong>时间分离&lt;/strong>：如果空间不够物理分离，就错峰——上午收货、下午发货，中间留1小时缓冲&lt;/li>
+&lt;li>&lt;strong>人员分离&lt;/strong>：收货组和发货组不要用同一批人，避免多任务切换的混乱&lt;/li>
+&lt;/ol>
+&lt;p>一个3000平的仓库做了收发分离后，月台作业效率提升25%，安全事故从年3起降到0。&lt;/p>
+&lt;h2 id="效果汇总">效果汇总&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>成本&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>黄金拣选区&lt;/td>
+ &lt;td>0元（只是移动货位）&lt;/td>
+ &lt;td>拣货效率+40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>动线单向化&lt;/td>
+ &lt;td>0元（地面画线）&lt;/td>
+ &lt;td>通行时间-33%，堵塞-87%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>收发货分离&lt;/td>
+ &lt;td>0元（重新划区）&lt;/td>
+ &lt;td>月台效率+25%，安全事故归零&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>三项合计：仓库整体作业效率提升约30%，零投入。&lt;/strong>&lt;/p>
+&lt;h2 id="核心认知">核心认知&lt;/h2>
+&lt;p>仓库效率问题的根源，80%是布局问题，不是人的问题。&lt;/p>
+&lt;p>让员工在错误的布局下拼命干活，就像让一个跑步机上的仓鼠拼命跑——看起来很忙，但产出有限。&lt;/p>
+&lt;p>&lt;strong>先让布局合理，再谈自动化和系统。&lt;/strong> 布局不对，上什么系统都是事倍功半。&lt;/p>
+&lt;p>下次觉得仓库效率低的时候，别急着买设备，先看看你的仓库布局。可能只是把几排货架换个位置的事。&lt;/p></description></item><item><title>仓库面积不够用？3个方法比扩仓便宜10倍</title><link>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BB%93%E5%BA%93%E9%9D%A2%E7%A7%AF%E4%B8%8D%E5%A4%9F%E7%94%A83%E4%B8%AA%E6%96%B9%E6%B3%95%E6%AF%94%E6%89%A9%E4%BB%93%E4%BE%BF%E5%AE%9C10%E5%80%8D/</guid><description>&lt;h2 id="仓库不够用别急着扩仓">仓库不够用？别急着扩仓&lt;/h2>
 &lt;p>老板说仓库不够用，要扩仓。你一算，多租1000平米，一年多花120万。加上设备、人员、管理成本，轻松200万起步。&lt;/p>
 &lt;p>但你想过没有：&lt;strong>你现有的仓库，真的用满了吗？&lt;/strong>&lt;/p>
 &lt;p>我做过一个统计：80%的仓库，实际空间利用率不到60%。剩下的40%被三样东西占了：&lt;strong>死库存、不合理布局、低效作业动线&lt;/strong>。&lt;/p>

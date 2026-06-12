@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</link><description>Recent content in 安全库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</link><description>Recent content in 安全库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存算错了3年，我才发现公式少了两个变量</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</guid><description>&lt;p>算安全库存这件事，我前3年都是用教科书公式的：&lt;/p>
+&lt;p>安全库存 = Z × σd × √L&lt;/p>
+&lt;p>Z是服务水平对应的Z值，σd是需求标准差，L是提前期。&lt;/p>
+&lt;p>算出来的结果呢？有些SKU库存总是不够，频繁缺货；有些SKU库存积了一堆，半年都消化不完。&lt;/p>
+&lt;p>后来我仔细研究了一下，发现问题出在两个被忽略的变量上。&lt;/p>
+&lt;h2 id="被忽略的变量一供应波动">被忽略的变量一：供应波动&lt;/h2>
+&lt;p>教科书公式只考虑了需求波动（σd），但&lt;strong>供应也是波动的&lt;/strong>。&lt;/p>
+&lt;p>供应商说提前期7天，但实际上：&lt;/p>
+&lt;ul>
+&lt;li>7天准时交付的概率只有60%&lt;/li>
+&lt;li>8-10天交付的概率30%&lt;/li>
+&lt;li>超过10天的概率10%&lt;/li>
+&lt;/ul>
+&lt;p>有一次供应商设备故障，提前期变成了21天。我的安全库存只按7天算的，直接断货2周。&lt;/p>
+&lt;p>&lt;strong>正确的安全库存公式应该同时考虑需求波动和供应波动：&lt;/strong>&lt;/p>
+&lt;p>安全库存 = Z × √(L × σd² + d² × σL²)&lt;/p>
+&lt;p>其中σL是提前期的标准差，d是日均需求量。&lt;/p>
+&lt;p>这个公式意味着：&lt;strong>不仅要考虑需求的不确定性，还要考虑供应的不确定性，而且两者是叠加的。&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数&lt;/th>
+ &lt;th>值&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>日均需求d&lt;/td>
+ &lt;td>100个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求标准差σd&lt;/td>
+ &lt;td>25个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>名义提前期L&lt;/td>
+ &lt;td>7天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>提前期标准差σL&lt;/td>
+ &lt;td>3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>目标服务水平&lt;/td>
+ &lt;td>95%（Z=1.65）&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>只考虑需求波动：&lt;/strong>
+安全库存 = 1.65 × 25 × √7 = 109个&lt;/p>
+&lt;p>&lt;strong>同时考虑需求和供应波动：&lt;/strong>
+安全库存 = 1.65 × √(7 × 25² + 100² × 3²) = 1.65 × √(4375 + 90000) = 1.65 × 308 = &lt;strong>508个&lt;/strong>&lt;/p></description></item><item><title>安全库存设多少？一个公式告诉你：90%的人设高了</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-math/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-math/</guid><description>&lt;p>先问你一个问题：你们公司的安全库存怎么定出来的？&lt;/p>
+&lt;p>我猜答案是：经验。或者更狠的：往前看三个月的最大日用量×一个&amp;quot;足够安全&amp;quot;的倍数。&lt;/p>
+&lt;p>这个倍数是谁定的？好像是某任老总退休前随口一说，后面的人就一直沿用到现在。&lt;/p>
+&lt;p>我跟你说一个数字：国内制造企业的安全库存，平均被设高了&lt;strong>40%以上&lt;/strong>。&lt;/p>
+&lt;p>40%是什么概念？一个年销售额5亿的企业，如果库存周转率6次，平均库存大约8300万。安全库存占多少？少说30%，也就是2500万。&lt;/p>
+&lt;p>设高了40%，就是多压了1000万的货在仓库里。1000万啊，按年化8%的资金成本算，一年就是80万的纯损失。&lt;/p>
+&lt;p>这80万，就是因为没人去算——安全库存到底应该是多少。&lt;/p>
+&lt;h2 id="安全库存的公式没有那么难">安全库存的公式，没有那么难&lt;/h2>
+&lt;p>安全库存的经典公式是：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × σd × √LT&lt;/strong>&lt;/p>
+&lt;p>解释一下：&lt;/p>
+&lt;ul>
+&lt;li>Z：服务水平对应的安全系数&lt;/li>
+&lt;li>σd：日需求量的标准差（也就是需求的波动程度）&lt;/li>
+&lt;li>LT：补货提前期（天）&lt;/li>
+&lt;/ul>
+&lt;p>不要被公式吓到。我一个个拆。&lt;/p>
+&lt;h3 id="z值你想要多高的服务水平">Z值：你想要多高的服务水平？&lt;/h3>
+&lt;p>Z值是统计学里的&amp;quot;安全系数&amp;quot;，对应的是你期待的&amp;quot;不缺货概率&amp;quot;。&lt;/p>
+&lt;ul>
+&lt;li>如果要求99.99%不缺货，Z = 3.72&lt;/li>
+&lt;li>如果要求99%不缺货，Z = 2.33&lt;/li>
+&lt;li>如果要求97.5%不缺货，Z = 1.96&lt;/li>
+&lt;li>如果要求95%不缺货，Z = 1.65&lt;/li>
+&lt;li>如果要求90%不缺货，Z = 1.28&lt;/li>
+&lt;/ul>
+&lt;p>看到了吗？从95%提升到99%，Z值从1.65跳到2.33，安全库存要增加41%。&lt;/p>
+&lt;p>你每提升一个点的服务水平，安全库存的增长是指数级的。不是线性的。&lt;/p>
+&lt;p>&lt;strong>所以你要做的第一件事不是算公式，是想清楚：你究竟需要多高的不缺货率？&lt;/strong>&lt;/p>
+&lt;p>如果你是做医疗设备的，缺货可能导致手术延期，那99%以上是必须的。
+如果你是做快消品的，缺货就是消费者换了个牌子，下次再买，那95%差不多了。&lt;/p>
+&lt;p>大多数制造企业的合理服务水平在95%-97.5%之间。别动不动就设99.99%，那是给自己找麻烦。&lt;/p>
+&lt;h3 id="σd你的需求到底有多波动">σd：你的需求到底有多波动？&lt;/h3>
+&lt;p>σd是日需求量的标准差。这句话翻译成人话就是：你的需求每天变来变去，变化的幅度有多大。&lt;/p>
+&lt;p>算一下你过去90天每天的销量。如果平均每天卖100个，但有些天卖120个，有些天卖80个，那标准差可能是15。&lt;/p>
+&lt;p>如果极端情况下，有几天卖200个，有几天只卖30个，那标准差可能是40。&lt;/p>
+&lt;p>标准差越大，安全库存越高。因为需求不稳定，你就得多备货来应对。&lt;/p>
+&lt;p>这里有个很多人都忽略的点：&lt;strong>如果你能缩短补货提前期，需求波动的影响就会大幅降低。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为如果你补货只需要1天，那你只需要应对&amp;quot;1天内需求突然暴涨&amp;quot;的风险。但如果补货需要15天，你得应对&amp;quot;15天累计需求超出预期&amp;quot;的风险。15天的累计波动，比1天的波动大得多。&lt;/p>
+&lt;p>这就引出了下一个关键参数。&lt;/p>
+&lt;h3 id="lt你的补货到底要多久">LT：你的补货到底要多久？&lt;/h3>
+&lt;p>很多公司的补货提前期是拍脑袋的。采购说&amp;quot;大概15天&amp;quot;，就写15天。&lt;/p>
+&lt;p>你去看一下实际数据：过去30次补货，平均用了几天？最短几天？最长几天？&lt;/p>
+&lt;p>如果平均15天，但最长那次用了28天——那你应该用哪个数？&lt;/p>
+&lt;p>&lt;strong>建议用平均值加上一个安全裕度。&lt;/strong> 比如平均15天，标准差3天，可以设18-20天。&lt;/p>
+&lt;p>另外还有一个维度的提前期：&lt;strong>信息提前期&lt;/strong>。就是你的采购下单，从需求确认到订单发出，中间要多少天。&lt;/p>
+&lt;p>我见过一个公司：物料短缺→仓库提需求→主管审批→采购经理审批→财务审批→下单。这个流程平均要5天。&lt;/p>
+&lt;p>5天啊！这5天是纯浪费的流程时间，但你的安全库存得覆盖这5天的需求。&lt;/p>
+&lt;p>把这个流程从5天压缩到1天，安全库存直接省掉20%。&lt;/p>
+&lt;h2 id="一个真实的计算案例">一个真实的计算案例&lt;/h2>
+&lt;p>假设一个物料：&lt;/p>
+&lt;ul>
+&lt;li>日均需求量：100件&lt;/li>
+&lt;li>需求标准差：20件/天&lt;/li>
+&lt;li>补货提前期：7天&lt;/li>
+&lt;li>服务水平：95%（Z=1.65）&lt;/li>
+&lt;/ul>
+&lt;p>安全库存 = 1.65 × 20 × √7 ≈ 1.65 × 20 × 2.646 ≈ 87件&lt;/p></description></item><item><title>安全库存设多少才对？别再拍脑袋了</title><link>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E8%AE%BE%E5%A4%9A%E5%B0%91%E6%89%8D%E5%AF%B9%E5%88%AB%E5%86%8D%E6%8B%8D%E8%84%91%E8%A2%8B%E4%BA%86/</guid><description>&lt;h2 id="安全库存你设对了吗">安全库存，你设对了吗？&lt;/h2>
 &lt;p>问10个供应链人安全库存怎么设，8个会说&amp;quot;凭经验&amp;quot;。剩下2个会用公式，但公式里的参数还是拍脑袋。&lt;/p>
 &lt;p>&lt;strong>结果就是&lt;/strong>：安全库存要么虚高——仓库里堆了一堆用不上的东西；要么不够——客户下单没货，紧急采购加急运费。&lt;/p>
 &lt;p>我见过一家公司，统一按2周需求量设安全库存。结果是：A类物料（占金额70%）频繁断货，C类物料（占金额5%）堆成山。&lt;/p>

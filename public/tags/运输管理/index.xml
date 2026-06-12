@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运费涨了30%，真正该管的不是价格而是这3件事</title><link>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</guid><description>&lt;p>我上一家公司，运费一年涨了28%，老板暴怒，让我去找物流公司重新谈。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运输管理做了5年，我总结了3个被严重低估的指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</guid><description>&lt;p>做运输管理的人，最常盯的KPI就是两个：运费和时效。&lt;/p>
+&lt;p>运费越低越好，时效越快越好。这谁都知道。&lt;/p>
+&lt;p>但盯了5年运输以后，我发现真正决定运输管理水平高低的，不是运费和时效，而是另外3个指标。这3个指标被严重低估了，但它们才是影响运输成本和客户体验的&amp;quot;隐性杀手&amp;quot;。&lt;/p>
+&lt;h2 id="指标一准时提货率">指标一：准时提货率&lt;/h2>
+&lt;p>大多数人关注的是&amp;quot;准时送达率&amp;quot;，但很少有人关注&amp;quot;准时提货率&amp;quot;。&lt;/p>
+&lt;p>为什么提货时效这么重要？因为&lt;strong>提货延误是运输全链路延误的源头。&lt;/strong>&lt;/p>
+&lt;p>我之前管一个全国配送网络，月度数据显示：准时送达率92%，看起来还行。但拆开看，92%准时送达的订单里，有15%是靠&amp;quot;抢时间&amp;quot;赶回来的——司机加班、绕路走高速、甚至超速。&lt;/p>
+&lt;p>这就意味着，真正在计划内正常完成的订单只有77%，剩下23%要么延误，要么靠牺牲安全和成本&amp;quot;抢&amp;quot;回来的。&lt;/p>
+&lt;p>而追根溯源，&lt;strong>延误订单中60%的第一环是提货延误&lt;/strong>。工厂没有按时备好货、仓库找不到物料、提货车辆晚到——任何一个环节出了问题，后面的时效就是空中楼阁。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>把&amp;quot;准时提货率&amp;quot;纳入承运商考核，权重不低于20%&lt;/li>
+&lt;li>提货前2小时自动提醒仓库备货&lt;/li>
+&lt;li>提货延误超过1小时的，当天出异常报告&lt;/li>
+&lt;/ol>
+&lt;p>我加了准时提货率考核后，3个月从83%提升到95%，准时送达率从92%自动提升到96%——不用赶，不用抢，源头控住了，下游自然就好了。&lt;/p>
+&lt;h2 id="指标二异常处理时效">指标二：异常处理时效&lt;/h2>
+&lt;p>运输异常是常态：车辆抛锚、天气封路、货物破损、客户拒收……&lt;/p>
+&lt;p>异常不可怕，可怕的是异常处理慢。&lt;/p>
+&lt;p>我统计过一组数据：每100票运输中大约有8-12票会出现异常。异常的平均处理时长是36小时。&lt;/p>
+&lt;p>36小时意味着什么？意味着客户的货在路上多停了1.5天，意味着可能要重新发货，意味着客户的体验直接崩了。&lt;/p>
+&lt;p>&lt;strong>异常处理时效才是运输管理的试金石。&lt;/strong> 正常情况谁都能搞定，出了问题能多快解决，才是真本事。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>建立异常分级机制&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一级异常（货物全损/整车延误）：30分钟内响应，4小时内给出解决方案&lt;/li>
+&lt;li>二级异常（部分破损/短量）：2小时内响应，12小时内解决&lt;/li>
+&lt;li>三级异常（单票延误/信息差错）：4小时内响应，24小时内解决&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常处理群&lt;/strong>：每个承运商建一个异常处理群，司机、调度、客服在群里。异常发生时第一时间在群里报，不用走系统等审批。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>异常复盘&lt;/strong>：每周做一次异常复盘，不是追责，而是找规律——哪些线路异常频发？哪些承运商异常率偏高？哪些异常类型可以预防？&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>改了以后，异常平均处理时长从36小时降到8小时，客户投诉率降了45%。&lt;/p>
+&lt;h2 id="指标三单票运输成本趋势">指标三：单票运输成本趋势&lt;/h2>
+&lt;p>运费单价是静态的，单票运输成本是动态的。&lt;/p>
+&lt;p>什么意思？运费单价看的是&amp;quot;每公斤多少钱&amp;quot;或&amp;quot;每车多少钱&amp;quot;，但单票运输成本看的是&amp;quot;每完成一票运输的总成本&amp;quot;。&lt;/p>
+&lt;p>总成本 = 运费 + 装卸费 + 保险费 + 异常处理费 + 管理成本分摊&lt;/p>
+&lt;p>我见过一家公司，运费单价降了15%（换了更便宜的承运商），但单票运输成本反而涨了8%。为什么？&lt;/p>
+&lt;ul>
+&lt;li>更便宜的承运商准时率低，导致紧急补发频次增加&lt;/li>
+&lt;li>破损率高，赔偿成本和补发成本上涨&lt;/li>
+&lt;li>服务差，客服沟通成本大幅增加&lt;/li>
+&lt;li>管理成本翻倍（要花更多时间盯这家承运商）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>运费单价降了15%，但总成本涨了8%。&lt;/strong> 这就是只看单价不看总成本的代价。&lt;/p>
+&lt;p>&lt;strong>怎么管：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>每月核算单票运输成本趋势，不只是运费&lt;/li>
+&lt;li>把异常处理成本、补发成本、管理成本都计入&lt;/li>
+&lt;li>承运商评估用TCO（总拥有成本），不只看报价&lt;/li>
+&lt;/ol>
+&lt;h2 id="指标优先级">指标优先级&lt;/h2>
+&lt;p>这三个指标和传统的运费、时效指标怎么配合？我建议的优先级：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>准时提货率&lt;/strong> → 源头控制，优先级最高&lt;/li>
+&lt;li>&lt;strong>异常处理时效&lt;/strong> → 问题响应，决定客户体验&lt;/li>
+&lt;li>&lt;strong>单票运输成本趋势&lt;/strong> → 成本真相，避免被单价蒙蔽&lt;/li>
+&lt;li>准时送达率 → 结果指标，不用额外管，前三个做好了自然达标&lt;/li>
+&lt;li>运费单价 → 参考指标，不是核心管控对象&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>管好源头、快处异常、看清总成本。&lt;/strong> 这三件事做到位，运输管理就上了个台阶。&lt;/p></description></item><item><title>运费涨了30%，真正该管的不是价格而是这3件事</title><link>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transport-management-secrets/</guid><description>&lt;p>我上一家公司，运费一年涨了28%，老板暴怒，让我去找物流公司重新谈。&lt;/p>
 &lt;p>我花了三个星期，把所有承运商的合同全部重新谈了一遍，单价压下来大概5%。老板不满意，说要砍20%。&lt;/p>
 &lt;p>我跟他讲了个故事。&lt;/p>
 &lt;h2 id="不是单价的问题是你根本不看数据">不是单价的问题，是你根本不看数据&lt;/h2>

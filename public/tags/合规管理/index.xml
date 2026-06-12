@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>合规管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%90%88%E8%A7%84%E7%AE%A1%E7%90%86/</link><description>Recent content in 合规管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%90%88%E8%A7%84%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>被欧盟罚了800万才懂：绿色供应链不是做公益，是保命</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-reality/</guid><description>&lt;p>2025年，一家做汽车零配件的浙江企业被欧盟客户暂停了供货资格。&lt;/p>
+&lt;p>原因？客户要求所有供应商2025年底前完成碳排放核算，这家公司根本没做。不是不想做，是不知道怎么做，也没人告诉他们这有多严重。&lt;/p>
+&lt;p>三个月后，他们补了核算、做了减排方案、甚至花大价钱买了绿电，才重新拿回订单。但这三个月，丢了3000万的订单。&lt;/p>
+&lt;p>这不是段子，这是2026年的现实。绿色供应链已经不是&amp;quot;加分项&amp;quot;，而是&amp;quot;准入条件&amp;quot;。&lt;/p>
+&lt;h2 id="不是你想不想做是你不得不做">不是你想不想做，是你不得不做&lt;/h2>
+&lt;p>2026年，三条高压线已经落地了：&lt;/p>
+&lt;p>&lt;strong>第一条：欧盟碳边境调节机制（CBAM）。&lt;/strong> 2026年起，进口到欧盟的钢铁、铝、水泥、化肥、电力和氢，必须报告碳排放量。2027年开始，碳含量超标的要被征收碳关税。&lt;/p>
+&lt;p>你说&amp;quot;我不做欧盟业务&amp;quot;？随便。但你的客户如果做欧盟业务，他就要你提供碳数据。&lt;/p>
+&lt;p>&lt;strong>第二条：大客户的ESG供应链审查。&lt;/strong> 苹果、特斯拉、大众、沃尔玛这些巨头，都在要求供应商提供碳排放数据、使用可再生电力、披露供应链中的环境风险。你达不了标，轻则被要求整改，重则直接踢出供应商名单。&lt;/p>
+&lt;p>&lt;strong>第三条：国内的双碳目标。&lt;/strong> 2030年碳达峰、2060年碳中和，这不是口号。高碳排放的供应链环节，迟早要被限制。&lt;/p>
+&lt;p>这三条线加在一起，就是一句话：&lt;strong>你的供应链不绿，客户就不跟你玩。&lt;/strong>&lt;/p>
+&lt;h2 id="但是别一上来就喊碳中和">但是，别一上来就喊&amp;quot;碳中和&amp;quot;&lt;/h2>
+&lt;p>太多公司一听到绿色供应链，就开始喊&amp;quot;我们要2030年前碳中和&amp;quot;。&lt;/p>
+&lt;p>打住。&lt;/p>
+&lt;p>你没算过你家供应链的碳排放，你都不知道自己排了多少。怎么中和？&lt;/p>
+&lt;p>绿色供应链的落地路径不是&amp;quot;喊口号→花钱买碳汇→宣布碳中和&amp;quot;，而是：&lt;strong>先量化、再减量、最后再谈中和。&lt;/strong>&lt;/p>
+&lt;h3 id="第一步把你家供应链的碳账算清楚">第一步：把你家供应链的碳账算清楚&lt;/h3>
+&lt;p>碳排放分三个范围（Scope）：&lt;/p>
+&lt;p>&lt;strong>Scope 1：&lt;/strong> 自己直接烧的。比如你工厂锅炉烧的天然气、货车烧的柴油。
+&lt;strong>Scope 2：&lt;/strong> 买来的。你用了多少电，电厂的排放算在你头上。
+&lt;strong>Scope 3：&lt;/strong> 上下游产生的。你买的原材料在生产过程中排的、你的产品运到客户手上的运输排放、甚至你的员工出差坐飞机的排放。&lt;/p>
+&lt;p>大部分制造企业的碳排放，Scope 3（供应链的碳排放）占总排放的70-90%。&lt;/p>
+&lt;p>很多人只看Scope 1和Scope 2——自己工厂的排放。觉得自己烧的天然气不多、用电也不多，碳排放还好啊。&lt;/p>
+&lt;p>&lt;strong>但真正的碳大户在供应链上。&lt;/strong> 比如你买一批铝锭，生产这些铝锭排放的碳是你的Scope 3。这笔碳远比你整个工厂的排放大多了。&lt;/p>
+&lt;p>所以第一件事：搞清楚你家Scope 1、2、3到底各排了多少。不需要一开始就精确到小数点，有个数量级就行。找一家碳核算服务商，花几万块钱就能做。&lt;/p>
+&lt;h3 id="第二步从花钱最少的减排开始">第二步：从花钱最少的减排开始&lt;/h3>
+&lt;p>算完了碳账，你会发现有些减排几乎不花钱：&lt;/p>
+&lt;p>&lt;strong>换绿电。&lt;/strong> 如果你们在广东、江苏等有绿电交易的省份，采购绿电的成本只比常规电高10-15%。但这部分排放直接从Scope 2里清零。&lt;/p>
+&lt;p>&lt;strong>换新能源物流车。&lt;/strong> 城配的最后一公里用新能源车，油费能省一半，还减了碳。&lt;/p>
+&lt;p>&lt;strong>包装减量。&lt;/strong> 过度包装是双重浪费——材料浪费+运输浪费（更大体积=更多运输排放）。有些公司优化包装后，运输碳排放降了15%。&lt;/p>
+&lt;p>&lt;strong>要求核心供应商用绿电。&lt;/strong> 你买不起绿电没关系，让你的大供应商买。他是你的Scope 3，他要减排才对你有帮助。&lt;/p>
+&lt;p>这些都是低成本的减排动作，一年内能出成果。&lt;/p>
+&lt;h3 id="第三步别被骗去买碳汇">第三步：别被骗去买&amp;quot;碳汇&amp;quot;&lt;/h3>
+&lt;p>市面上有很多&amp;quot;碳中和认证服务&amp;quot;——你花几万块钱，买一些碳汇，就给你发一张&amp;quot;碳中和证书&amp;quot;。&lt;/p>
+&lt;p>说白了就是花钱买赎罪券。&lt;/p>
+&lt;p>这个东西，在客户那里的信任度正在快速下降。特斯拉、苹果这些大厂越来越不认碳汇了，他们要的是&lt;strong>实际减排&lt;/strong>。&lt;/p>
+&lt;p>你花50万买碳汇，不如花50万换绿电或者做节能改造。前者只是一个数字游戏，后者是真的降了排放、还省了长期成本。&lt;/p>
+&lt;h2 id="绿色供应链怎么做到不亏钱">绿色供应链怎么做到不亏钱？&lt;/h2>
+&lt;p>很多人认为绿色供应链就是花钱——加成本、降利润。&lt;/p>
+&lt;p>完全错了。&lt;strong>做得好，绿色供应链省钱。&lt;/strong>&lt;/p>
+&lt;p>举几个真实例子：&lt;/p>
+&lt;p>某快消品公司做物流路径优化，把分散在全国的多个区域仓整合成了3个枢纽仓+卫星仓网络。整合后运输距离减少了22%，碳排放降了20%，物流成本也降了22%。&lt;strong>既是绿色，也是降本。&lt;/strong>&lt;/p>
+&lt;p>某电子厂把产品包装从厚重的塑料盒改成了环保纸浆模塑包装。材料成本没变，但体积小了30%，一个集装箱能多装40%的货，单件运输成本大降。&lt;strong>环境收益=经济收益。&lt;/strong>&lt;/p>
+&lt;p>某食品公司把冷链仓库的制冷系统做了节能改造，换了更高效的压缩机+变频控制。花了80万，每年省电费35万，两年多就回收了投资，之后全是净赚。&lt;strong>减排=节能=省钱。&lt;/strong>&lt;/p>
+&lt;p>所以不要把绿色供应链等同于&amp;quot;成本增加&amp;quot;。它本质上是一次运营优化——把浪费减掉，把效率提上来。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>绿色供应链不是选择题，是必答题。&lt;/p>
+&lt;p>欧盟的碳关税不会因为你觉得麻烦就不收了。大客户的ESG审查不会因为你说&amp;quot;我们准备做&amp;quot;就不查了。&lt;/p>
+&lt;p>你早做，比别人先拿到合规证书、先优化好碳排放数据、先在客户的绿色供应商名单里占一个坑，这就是你的竞争优势。&lt;/p></description></item></channel></rss>

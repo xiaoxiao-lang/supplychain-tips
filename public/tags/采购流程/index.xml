@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购流程 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%B5%81%E7%A8%8B/</link><description>Recent content in 采购流程 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%B5%81%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
+&lt;p>需求提报→部门主管审批→采购主管审批→采购经理审批→财务审批→总经理审批→下单&lt;/p>
+&lt;p>一个普通采购件，从提需求到下单，平均7.5个工作日。&lt;/p>
+&lt;p>紧急件？加急走完流程也要3天。&lt;/p>
+&lt;p>我看完他们的流程图，说了句：&amp;ldquo;你们不是在管采购，是在管审批。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步砍掉不增值的审批环节">第一步：砍掉不增值的审批环节&lt;/h2>
+&lt;p>先看看每个审批节点到底在审什么：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>部门主管&lt;/strong>：审需求合理性——这个该审&lt;/li>
+&lt;li>&lt;strong>采购主管&lt;/strong>：审是否有库存/替代品——这个该审&lt;/li>
+&lt;li>&lt;strong>采购经理&lt;/strong>：审价格是否合理——这个该审&lt;/li>
+&lt;li>&lt;strong>财务审批&lt;/strong>：审预算——但财务根本不了解采购内容，只看有没有预算&lt;/li>
+&lt;li>&lt;strong>总经理审批&lt;/strong>：审金额——但500块的东西也要总经理签字？&lt;/li>
+&lt;/ul>
+&lt;p>问题很明显：&lt;strong>审批链条太长，越到后边越不增值。&lt;/strong>&lt;/p>
+&lt;p>改法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>按金额分级审批&lt;/strong>：5000元以下采购经理终审，5000-50000元财务加审，50000元以上总经理审&lt;/li>
+&lt;li>&lt;strong>砍掉财务常规审批&lt;/strong>：在预算范围内的采购，财务不逐笔审批，改为月度汇总审核&lt;/li>
+&lt;li>&lt;strong>框架协议免审批&lt;/strong>：已经在框架协议内的重复采购，直接下单，无需逐笔审批&lt;/li>
+&lt;/ol>
+&lt;p>改完以后，5000元以下采购的审批时间从5天降到0.5天（线上审批，采购经理手机一点就过）。&lt;/p>
+&lt;h2 id="第二步数字化审批流">第二步：数字化审批流&lt;/h2>
+&lt;p>审批慢的另一个原因是——线下审批。&lt;/p>
+&lt;p>他们的采购申请是Excel填表，打印出来找人签字。采购经理经常出差，一出差审批就卡住。总经理更忙，桌上一堆待签文件，采购申请排到第5位。&lt;/p>
+&lt;p>&lt;strong>数字化改造三个动作：&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>动作一：上线采购管理模块。&lt;/strong> 需求提报、审批、下单、收货、付款全流程在线化。不用打印、不用跑腿、不用等人在办公室。&lt;/p>
+&lt;p>&lt;strong>动作二：移动端审批。&lt;/strong> 采购经理和总经理手机装了审批APP，出差路上就能批。审批时效从&amp;quot;等3天&amp;quot;变成&amp;quot;当天批&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>动作三：自动校验。&lt;/strong> 系统自动校验预算余额、历史价格、框架协议。价格超历史均价10%的自动标红提醒，预算不足的直接拦截。&lt;/p>
+&lt;p>数字化后，审批平均处理时间从7.5天降到1.8天。&lt;/p>
+&lt;h2 id="第三步建立供应商自助平台">第三步：建立供应商自助平台&lt;/h2>
+&lt;p>以前的流程是：采购员把订单导出Excel，发邮件给供应商，供应商确认后回邮件，采购员再录入系统。&lt;/p>
+&lt;p>一个订单来回3封邮件，如果供应商有疑问还得打电话确认。10个供应商、每天20笔订单，光订单沟通就占了一个采购员大半天。&lt;/p>
+&lt;p>&lt;strong>改法：上线供应商协同平台。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购在系统下单，供应商自动收到通知&lt;/li>
+&lt;li>供应商在线确认交期、数量&lt;/li>
+&lt;li>发货后在线录入物流信息&lt;/li>
+&lt;li>到货后仓库在线签收&lt;/li>
+&lt;/ul>
+&lt;p>供应商自助平台上线3个月后：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>改造前&lt;/th>
+ &lt;th>改造后&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>订单处理时间&lt;/td>
+ &lt;td>2.5小时/批&lt;/td>
+ &lt;td>0.5小时/批&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单确认周期&lt;/td>
+ &lt;td>1.5天&lt;/td>
+ &lt;td>0.3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购员人均处理订单量&lt;/td>
+ &lt;td>30单/天&lt;/td>
+ &lt;td>80单/天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>订单差错率&lt;/td>
+ &lt;td>3.2%&lt;/td>
+ &lt;td>0.5%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>一个采购员的工作效率提升了2.7倍。&lt;/strong> 原来需要5个采购员干的活，现在2个人就够了。&lt;/p>
+&lt;h2 id="综合效果">综合效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>优化项&lt;/th>
+ &lt;th>效果&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>审批流程简化&lt;/td>
+ &lt;td>审批时间从7.5天→1.8天，降76%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>数字化审批&lt;/td>
+ &lt;td>审批及时率从65%→98%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>供应商自助平台&lt;/td>
+ &lt;td>采购员效率提升2.7倍，差错率降84%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>人力节省&lt;/td>
+ &lt;td>5个采购员→2个采购员，年省人力成本约48万&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>采购周期缩短&lt;/td>
+ &lt;td>从提需求到收货，从15天→6天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>省下来的48万，够发3个采购员3个月的工资了。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>采购流程优化的核心原则就一个：&lt;strong>砍掉不增值的活动，把时间花在真正需要人判断的地方。&lt;/strong>&lt;/p></description></item></channel></rss>

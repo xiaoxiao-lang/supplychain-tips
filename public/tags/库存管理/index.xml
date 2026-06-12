@@ -1,4 +1,523 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+&lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
+&lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
+&lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>
+&lt;p>老板沉默了5秒，说：&amp;ldquo;砍。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步给sku做体检">第一步：给SKU做体检&lt;/h2>
+&lt;p>砍SKU不能拍脑袋，得用数据说话。我建了一个SKU分析模型，包含5个维度：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>销售贡献&lt;/td>
+ &lt;td>近12个月销售额&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>毛利贡献&lt;/td>
+ &lt;td>毛利率×销量&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>周转效率&lt;/td>
+ &lt;td>年周转次数&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求趋势&lt;/td>
+ &lt;td>近6个月环比变化&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>战略价值&lt;/td>
+ &lt;td>是否核心客户需求/是否新推&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>每个SKU按5个维度打分，总分0-100。然后按分数分四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A档（80分以上）&lt;/strong>：核心SKU，必须保留&lt;/li>
+&lt;li>&lt;strong>B档（60-79分）&lt;/strong>：一般SKU，正常管理&lt;/li>
+&lt;li>&lt;strong>C档（40-59分）&lt;/strong>：低效SKU，重点评审&lt;/li>
+&lt;li>&lt;strong>D档（40分以下）&lt;/strong>：候选淘汰&lt;/li>
+&lt;/ul>
+&lt;p>2000个SKU跑完模型，结果：&lt;/p>
+&lt;ul>
+&lt;li>A档：320个（16%）&lt;/li>
+&lt;li>B档：480个（24%）&lt;/li>
+&lt;li>C档：540个（27%）&lt;/li>
+&lt;li>D档：660个（33%）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>660个SKU得分不到40分，占SKU总数的33%，但只贡献了2%的销售额。&lt;/strong>&lt;/p>
+&lt;h2 id="第二步分类处理">第二步：分类处理&lt;/h2>
+&lt;p>D档660个SKU不是一刀切全砍，要分类处理：&lt;/p>
+&lt;p>&lt;strong>第一类：确认淘汰（380个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续6个月零销量的：直接淘汰&lt;/li>
+&lt;li>连续12个月销量&amp;lt;10个且毛利为负的：直接淘汰&lt;/li>
+&lt;li>已有替代品且替代品销量更好的：淘汰老品&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二类：有条件保留（180个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>核心客户指定要的：保留，但跟客户谈替代方案&lt;/li>
+&lt;li>新品还在培育期的：给3个月观察期，3个月后不达标淘汰&lt;/li>
+&lt;li>季节性产品：保留，但淡季不备库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三类：需要再评估（100个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>得分在35-40分之间的：补充调研后决定&lt;/li>
+&lt;li>有历史大客户偶尔采购的：跟销售确认未来需求&lt;/li>
+&lt;/ul>
+&lt;p>处理完以后，&lt;strong>最终淘汰480个SKU，保留1520个。&lt;/strong>&lt;/p>
+&lt;h2 id="第三步继续深挖">第三步：继续深挖&lt;/h2>
+&lt;p>1520个SKU还是太多。我又做了第二轮分析，这次重点看&amp;quot;长尾&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>重叠SKU问题。&lt;/strong> 我们有12款类似功能的螺丝，只是长度差2-3mm；有8款颜色不同的同款包装盒；有5款规格接近的密封圈。&lt;/p>
+&lt;p>这些重叠SKU合并后：&lt;/p>
+&lt;ul>
+&lt;li>螺丝从12款合并到5款（用垫片适配长度差异）&lt;/li>
+&lt;li>包装盒从8款合并到3款（用标签区分颜色）&lt;/li>
+&lt;li>密封圈从5款合并到2款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>又砍掉280个SKU，但客户满意度几乎不受影响——因为客户买的不是&amp;quot;2.5cm的螺丝&amp;quot;，而是&amp;quot;能固定的螺丝&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="第四步建立sku准入和退出机制">第四步：建立SKU准入和退出机制&lt;/h2>
+&lt;p>砍完不是终点，关键是防止SKU又偷偷涨回来。&lt;/p>
+&lt;p>我建了两条规矩：&lt;/p>
+&lt;p>&lt;strong>准入：&lt;/strong> 新增SKU必须通过&amp;quot;SKU评审会&amp;quot;，回答三个问题——预计年销量多少？毛利多少？现有SKU能不能替代？三个问题答不上来，不让上。&lt;/p>
+&lt;p>&lt;strong>退出：&lt;/strong> 每季度做一次SKU健康度检查，连续2个季度C档的SKU自动进入淘汰流程，需要销售总监签字才能保留。&lt;/p>
+&lt;h2 id="最终效果">最终效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>优化前&lt;/th>
+ &lt;th>优化后&lt;/th>
+ &lt;th>变化&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>SKU数量&lt;/td>
+ &lt;td>2000&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存总额&lt;/td>
+ &lt;td>1940万&lt;/td>
+ &lt;td>1160万&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存周转率&lt;/td>
+ &lt;td>4.2次/年&lt;/td>
+ &lt;td>7.8次/年&lt;/td>
+ &lt;td>+86%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>呆滞库存&lt;/td>
+ &lt;td>680万&lt;/td>
+ &lt;td>120万&lt;/td>
+ &lt;td>-82%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>客户满意度&lt;/td>
+ &lt;td>87%&lt;/td>
+ &lt;td>89%&lt;/td>
+ &lt;td>+2%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>缺货率&lt;/td>
+ &lt;td>3.5%&lt;/td>
+ &lt;td>2.1%&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>库存成本降了40%，客户满意度反而提高了2%。&lt;/strong> 为什么？因为SKU少了，每个SKU的库存更充裕，缺货率下降了。&lt;/p></description></item><item><title>安全库存算错了3年，我才发现公式少了两个变量</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-missing-variables/</guid><description>&lt;p>算安全库存这件事，我前3年都是用教科书公式的：&lt;/p>
+&lt;p>安全库存 = Z × σd × √L&lt;/p>
+&lt;p>Z是服务水平对应的Z值，σd是需求标准差，L是提前期。&lt;/p>
+&lt;p>算出来的结果呢？有些SKU库存总是不够，频繁缺货；有些SKU库存积了一堆，半年都消化不完。&lt;/p>
+&lt;p>后来我仔细研究了一下，发现问题出在两个被忽略的变量上。&lt;/p>
+&lt;h2 id="被忽略的变量一供应波动">被忽略的变量一：供应波动&lt;/h2>
+&lt;p>教科书公式只考虑了需求波动（σd），但&lt;strong>供应也是波动的&lt;/strong>。&lt;/p>
+&lt;p>供应商说提前期7天，但实际上：&lt;/p>
+&lt;ul>
+&lt;li>7天准时交付的概率只有60%&lt;/li>
+&lt;li>8-10天交付的概率30%&lt;/li>
+&lt;li>超过10天的概率10%&lt;/li>
+&lt;/ul>
+&lt;p>有一次供应商设备故障，提前期变成了21天。我的安全库存只按7天算的，直接断货2周。&lt;/p>
+&lt;p>&lt;strong>正确的安全库存公式应该同时考虑需求波动和供应波动：&lt;/strong>&lt;/p>
+&lt;p>安全库存 = Z × √(L × σd² + d² × σL²)&lt;/p>
+&lt;p>其中σL是提前期的标准差，d是日均需求量。&lt;/p>
+&lt;p>这个公式意味着：&lt;strong>不仅要考虑需求的不确定性，还要考虑供应的不确定性，而且两者是叠加的。&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数&lt;/th>
+ &lt;th>值&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>日均需求d&lt;/td>
+ &lt;td>100个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求标准差σd&lt;/td>
+ &lt;td>25个&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>名义提前期L&lt;/td>
+ &lt;td>7天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>提前期标准差σL&lt;/td>
+ &lt;td>3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>目标服务水平&lt;/td>
+ &lt;td>95%（Z=1.65）&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>只考虑需求波动：&lt;/strong>
+安全库存 = 1.65 × 25 × √7 = 109个&lt;/p>
+&lt;p>&lt;strong>同时考虑需求和供应波动：&lt;/strong>
+安全库存 = 1.65 × √(7 × 25² + 100² × 3²) = 1.65 × √(4375 + 90000) = 1.65 × 308 = &lt;strong>508个&lt;/strong>&lt;/p></description></item><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
+&lt;p>你以为库存管理就是收货、上架、出库？那你的库存准确率永远上不了95%。&lt;/p>
+&lt;p>今天我把3年踩过的5个坑掰开来讲，每一条都是真金白银换来的。&lt;/p>
+&lt;h2 id="铁律一盘点频率不是拍脑袋定的">铁律一：盘点频率不是拍脑袋定的&lt;/h2>
+&lt;p>我刚入行的时候，仓库一年盘两次点——年中一次，年底一次。每次盘点全仓停发3天，20多号人从早上8点盘到晚上10点，最后准确率89%。&lt;/p>
+&lt;p>领导嫌低，让我想办法。&lt;/p>
+&lt;p>我研究了一圈发现，问题出在盘点频率上。A类物料（占库存金额70%的那20%SKU）每周盘一次，B类每月盘一次，C类每季度盘一次。听起来很合理对吧？&lt;/p>
+&lt;p>但实际操作下来，A类物料周转快，一周之内就可能发生几十笔出入库，光靠每周盘点根本追不上差异产生的速度。&lt;/p>
+&lt;p>&lt;strong>真正的做法是：A类物料用循环盘点，每天盘一小批，一周覆盖全部A类。&lt;/strong>&lt;/p>
+&lt;p>这样每次只盘20-30个SKU，不影响正常作业，差异当天发现当天处理。改了以后，A类库存准确率从89%直接拉到97%。&lt;/p>
+&lt;h2 id="铁律二安全库存不是越多越安全">铁律二：安全库存不是越多越安全&lt;/h2>
+&lt;p>&amp;ldquo;多备点总没错&amp;rdquo;——这是库存管理最大的谎言。&lt;/p>
+&lt;p>我之前负责一个电子元器件的仓库，有个采购同事特别&amp;quot;谨慎&amp;quot;，每个SKU的安全库存都设了3个月的量。结果呢？仓库里堆了价值800万的呆滞库存，其中一半是已经停产的老型号。&lt;/p>
+&lt;p>安全库存的计算公式课本上都有：安全库存 = Z值 × 标准差 × √提前期。但公式没告诉你的是，&lt;strong>标准差算的是需求波动，你还得加上供应波动&lt;/strong>。&lt;/p>
+&lt;p>供应商延期交付的概率是多少？每次延期多久？这些数据你不统计，安全库存就是拍脑袋。&lt;/p>
+&lt;p>我后来的做法是：把安全库存拆成两个部分——需求安全库存和供应安全库存。需求部分用公式算，供应部分用供应商交付历史数据算。两个加起来才是真正的安全库存量。&lt;/p>
+&lt;p>改完以后，库存金额降了25%，缺货率反而从3.2%降到1.1%。&lt;/p>
+&lt;h2 id="铁律三abc分类不是分完就完事">铁律三：ABC分类不是分完就完事&lt;/h2>
+&lt;p>ABC分类法谁都会，按金额占比分成A、B、C三类，然后重点管A类。&lt;/p>
+&lt;p>但你有没有想过，&lt;strong>ABC分类是动态的&lt;/strong>？&lt;/p>
+&lt;p>去年某个月，一个C类物料突然变成A类——因为客户临时下了个大单，这个SKU的消耗量突然翻了10倍。但我们的采购策略还是按C类走，最低起订量、最长的采购周期，结果紧急调货花了3倍的运费。&lt;/p>
+&lt;p>&lt;strong>ABC分类必须定期更新，至少每季度重新算一次。&lt;/strong> 而且不能只看金额，还得看需求波动性。有些SKU金额不大但波动剧烈，这种也是重点管控对象。&lt;/p>
+&lt;h2 id="铁律四先进先出不是喊口号就能实现的">铁律四：先进先出不是喊口号就能实现的&lt;/h2>
+&lt;p>&amp;ldquo;先进先出&amp;quot;四个字，每个仓库都贴在墙上，但真正能做到的不到30%。&lt;/p>
+&lt;p>为什么？因为先进先出需要系统支持+流程设计+员工执行，三个环节缺一不可。&lt;/p>
+&lt;p>我见过最离谱的例子：仓库用的系统根本没有批次管理功能，先进先出全靠库管员的记忆。一个管了5年老仓库的大姐确实能做到，但大姐请了一天假，整个仓库的先进先出就崩了。&lt;/p>
+&lt;p>&lt;strong>先进先出的底层是批次管理。&lt;/strong> 系统要能记录每个批次的入库时间，出库时自动推荐最早批次。物理存储上，要用流利架或者双面架，确保先进去的先出来。&lt;/p>
+&lt;p>如果这些条件不具备，先进先出就是一句空话。&lt;/p>
+&lt;h2 id="铁律五库存周转率不是越高越好">铁律五：库存周转率不是越高越好&lt;/h2>
+&lt;p>老板最爱的KPI就是库存周转率，恨不得一年转20次。&lt;/p>
+&lt;p>但你把周转率拉到天上去，代价是什么？是频繁的小批量采购，是运输成本翻倍，是缺货风险飙升。&lt;/p>
+&lt;p>我在一家制造企业待过，财务把库存周转率目标定到了15次/年。采购为了完成指标，把每个SKU的采购批量压到最低，结果运输费用涨了40%，还因为频繁断料导致产线停了3次。&lt;/p>
+&lt;p>&lt;strong>库存周转率有个甜蜜点，不是越高越好。&lt;/strong> 这个甜蜜点取决于你的持有成本、订货成本和缺货成本三者之间的平衡。用EOQ公式算出来的批量，对应的就是最优周转率。&lt;/p>
+&lt;p>当然，EOQ也有局限性，但至少比拍脑袋强。&lt;/p>
+&lt;h2 id="最后说句实话">最后说句实话&lt;/h2>
+&lt;p>库存管理这件事，没有银弹。每个仓库的物料特性、供应商结构、客户需求都不一样，照搬别人的做法大概率水土不服。&lt;/p>
+&lt;p>但上面这5条铁律是通用的：循环盘点、动态安全库存、定期重算ABC、批次管理支撑先进先出、周转率找甜蜜点。&lt;/p>
+&lt;p>做到这5条，你的库存管理水平至少能超过80%的同行。&lt;/p></description></item><item><title>经济订货量算了个寂寞？3个原因让你白算了</title><link>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</guid><description>&lt;p>上学的时候，EOQ（经济订货量）公式是考试必考题。Q* = √(2DS/H)，背得滚瓜烂熟。&lt;/p>
+&lt;p>工作以后，我拿这个公式去算采购批量，结果被采购经理一句话怼回来：&amp;ldquo;你算的这个数，供应商根本不接单。&amp;rdquo;&lt;/p>
+&lt;p>后来我才明白，&lt;strong>EOQ不是算错了，是它的假设前提跟现实差了十万八千里。&lt;/strong>&lt;/p>
+&lt;h2 id="原因一eoq的假设条件在现实中几乎不存在">原因一：EOQ的假设条件在现实中几乎不存在&lt;/h2>
+&lt;p>EOQ公式的推导基于几个核心假设：&lt;/p>
+&lt;ul>
+&lt;li>需求是均匀稳定的&lt;/li>
+&lt;li>提前期是固定的&lt;/li>
+&lt;li>没有数量折扣&lt;/li>
+&lt;li>不存在缺货&lt;/li>
+&lt;li>单位持有成本是常数&lt;/li>
+&lt;/ul>
+&lt;p>但现实是什么样？&lt;/p>
+&lt;p>需求忽高忽低，旺季是淡季的5倍；供应商提前期从7天到30天都有可能；大批量采购有3%的折扣；缺货成本根本算不出来；仓库租金和资金成本也一直在变。&lt;/p>
+&lt;p>&lt;strong>在一个动态的现实世界里，用静态的公式去算最优批量，本身就是个悖论。&lt;/strong>&lt;/p>
+&lt;p>有个做MRO采购的朋友，用EOQ算出来的最优批量是237个，但供应商的包装规格是250个一箱。237个怎么买？拆箱？供应商不干。买250个？那就偏离了&amp;quot;最优&amp;quot;。&lt;/p>
+&lt;h2 id="原因二参数取值全靠拍脑袋">原因二：参数取值全靠拍脑袋&lt;/h2>
+&lt;p>EOQ公式需要三个输入：年需求量D、每次订货成本S、单位持有成本H。&lt;/p>
+&lt;p>D还好说，历史数据拉一拉就能估出来。但S和H呢？&lt;/p>
+&lt;p>&lt;strong>订货成本S&lt;/strong> 包括：下单的人工成本、审核成本、收货检验成本、入库成本、付款对账成本。这些成本大部分是间接的，跟订单量没有明确的线性关系。你下单10个和下单1000个，审核流程一样，收货检验的时间也差不多。所以S到底该算多少？100块？500块？不同人算出来的数差10倍都有可能。&lt;/p>
+&lt;p>&lt;strong>持有成本H&lt;/strong> 更离谱。资金成本、仓储成本、损耗成本、过时风险……资金成本还好算（按银行利率），但过时风险怎么量化？有些物料放半年就过时了，有些放3年都没事。&lt;/p>
+&lt;p>&lt;strong>输入是垃圾，输出就是垃圾。&lt;/strong> 这不是公式的问题，是参数的问题。&lt;/p>
+&lt;h2 id="原因三忽略了价格折扣和运输成本">原因三：忽略了价格折扣和运输成本&lt;/h2>
+&lt;p>这是EOQ最大的盲区。&lt;/p>
+&lt;p>假设供应商给了你一个价格阶梯：1000个以下单价10元，1000-5000个单价9.5元，5000个以上单价9元。&lt;/p>
+&lt;p>你用EOQ算出来最优批量是800个，单价10元，总成本=采购成本+订货成本+持有成本。&lt;/p>
+&lt;p>但如果你买1000个，虽然偏离了EOQ的&amp;quot;最优&amp;quot;，但单价降了5%，省下来的钱可能远超多出来的持有成本。&lt;/p>
+&lt;p>&lt;strong>运输成本也一样。&lt;/strong> 你的EOQ算出来是500个，但一车能装2000个。500个走零担运费2000块，2000个走整车运费3500块。分摊到每个单位，零担4块/个，整车1.75块/个。&lt;/p>
+&lt;p>这时候你还坚持EOQ的500个吗？&lt;/p>
+&lt;h2 id="那到底该怎么用">那到底该怎么用？&lt;/h2>
+&lt;p>EOQ不是废的，但不能直接套用。我的实操经验是：&lt;/p>
+&lt;p>&lt;strong>1. 把EOQ当起点，不当终点&lt;/strong>&lt;/p>
+&lt;p>算出来的Q*是一个参考值，不是最终答案。在这个基础上，考虑包装规格、价格折扣、运输经济批量等因素，做向上或向下的调整。&lt;/p>
+&lt;p>&lt;strong>2. 用EOQ的思路，不用EOQ的公式&lt;/strong>&lt;/p>
+&lt;p>EOQ的核心思想是：订货成本和持有成本之间的平衡。这个思路是对的，但平衡点不一定是公式算出来的那个数。你可以用模拟的方法，把不同的批量方案对应的总成本算出来，选成本最低的那个。&lt;/p>
+&lt;p>&lt;strong>3. 区分物料特性&lt;/strong>&lt;/p>
+&lt;p>A类物料（金额大、需求相对稳定）可以用EOQ的思路优化；C类物料（金额小、SKU多）用简单的再订货点法就行，不值得花时间算EOQ。&lt;/p>
+&lt;p>&lt;strong>4. 加入现实约束&lt;/strong>&lt;/p>
+&lt;p>在EOQ基础上加约束条件：最小起订量、包装规格倍数、价格阶梯、运输批量。这些约束会让&amp;quot;理论最优&amp;quot;变成&amp;quot;实际可行最优&amp;quot;。&lt;/p>
+&lt;h2 id="最后">最后&lt;/h2>
+&lt;p>EOQ公式没有错，错的是生搬硬套。公式给你的是一个思考框架，不是一个标准答案。&lt;/p>
+&lt;p>真正的高手，不是会背公式的人，而是知道公式在什么条件下失效、怎么调整的人。&lt;/p>
+&lt;p>记住：&lt;strong>供应链管理是工程问题，不是数学题。&lt;/strong>&lt;/p></description></item><item><title>需求预测不准？因为你把预测当成了算命</title><link>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/demand-forecasting-not-fortune-telling/</guid><description>&lt;p>每次做需求预测，总有人问我：&amp;ldquo;准确率能做到多少？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;看你用什么指标。月度总需求预测准确率能到85%就很好了，SKU级别能到60%就及格。&amp;rdquo;&lt;/p>
+&lt;p>然后对面就一脸嫌弃：&amp;ldquo;才60%？那预测有什么用？&amp;rdquo;&lt;/p>
+&lt;p>这就是对需求预测最大的误解——&lt;strong>把预测当成了算命。&lt;/strong>&lt;/p>
+&lt;h2 id="误区一追求预测准确率100">误区一：追求预测准确率100%&lt;/h2>
+&lt;p>没有人的预测能做到100%准确，连客户自己都不知道他下个月会买多少。&lt;/p>
+&lt;p>但很多人就是不信邪，搞各种复杂模型、加各种外部数据、请各种顾问，结果预测准确率从60%提到65%，投入成本翻了3倍。&lt;/p>
+&lt;p>&lt;strong>多5%的准确率，值得3倍的成本吗？&lt;/strong> 大多数情况下不值得。&lt;/p>
+&lt;p>需求预测的价值不在于&amp;quot;算准&amp;quot;，而在于&amp;quot;减少不确定性&amp;quot;。你从&amp;quot;完全不知道&amp;quot;到&amp;quot;大概知道一个范围&amp;quot;，这个不确定性的减少本身就是巨大的价值。&lt;/p>
+&lt;p>&lt;strong>正确的心态：预测是概率，不是承诺。&lt;/strong> 给出一个预测值+置信区间，比给一个&amp;quot;精确&amp;quot;的数字更实用。&lt;/p>
+&lt;h2 id="误区二只看历史数据">误区二：只看历史数据&lt;/h2>
+&lt;p>最常见的需求预测方法就是把过去12个月的销售数据拉出来，算个移动平均或者做个趋势外推。&lt;/p>
+&lt;p>这方法简单，但有个致命问题：&lt;strong>历史不会简单重复。&lt;/strong>&lt;/p>
+&lt;p>去年Q4卖了5000台，是因为有个大客户下了批量订单。今年这个客户不买了，你按去年数据预测Q4还要卖5000台？那等着积压吧。&lt;/p>
+&lt;p>&lt;strong>历史数据要结合业务判断才能用。&lt;/strong> 具体来说：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>清洗历史数据&lt;/strong>：把一次性大单、促销影响、缺货期间的销量等异常数据剔除，还原&amp;quot;真实需求&amp;quot;&lt;/li>
+&lt;li>&lt;strong>加入业务变量&lt;/strong>：新产品上市计划、客户开拓计划、促销计划、竞争对手动态&lt;/li>
+&lt;li>&lt;strong>分层预测&lt;/strong>：总量用统计模型，大客户需求单独确认，新品用类比法&lt;/li>
+&lt;/ol>
+&lt;h2 id="误区三预测只做一次">误区三：预测只做一次&lt;/h2>
+&lt;p>很多公司一年做一次需求预测，做完了就放在那里，实际执行跟预测完全脱节。&lt;/p>
+&lt;p>需求是动态的，预测也必须是动态的。&lt;strong>预测的价值在于持续更新，而不是一次性的&amp;quot;算命&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>好的做法是滚动预测：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>月度滚动&lt;/strong>：每月更新未来3-6个月的预测，把最新的销售数据和市场信息纳入&lt;/li>
+&lt;li>&lt;strong>周度微调&lt;/strong>：对近1个月的预测做周度微调，根据最新订单和库存情况&lt;/li>
+&lt;li>&lt;strong>异常触发&lt;/strong>：当实际销量偏离预测超过20%时，立即触发预测复盘&lt;/li>
+&lt;/ul>
+&lt;h2 id="实用方法一分层预测法">实用方法一：分层预测法&lt;/h2>
+&lt;p>不要试图用一个模型预测所有SKU的需求。不同类型的SKU，预测方法应该不同：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>SKU类型&lt;/th>
+ &lt;th>特征&lt;/th>
+ &lt;th>预测方法&lt;/th>
+ &lt;th>预期准确率&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>稳定型&lt;/td>
+ &lt;td>需求平稳、历史数据充足&lt;/td>
+ &lt;td>移动平均/指数平滑&lt;/td>
+ &lt;td>75-85%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>趋势型&lt;/td>
+ &lt;td>有明显上升或下降趋势&lt;/td>
+ &lt;td>趋势外推+季节调整&lt;/td>
+ &lt;td>65-75%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>间歇型&lt;/td>
+ &lt;td>时有时无、需求不连续&lt;/td>
+ &lt;td>Croston方法/组合预测&lt;/td>
+ &lt;td>50-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>新品型&lt;/td>
+ &lt;td>无历史数据&lt;/td>
+ &lt;td>类比法/客户意向&lt;/td>
+ &lt;td>40-55%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>不要追求所有SKU的预测准确率都一样高。&lt;/strong> 稳定型SKU准一点，新品粗一点，把精力放在最有价值的部分。&lt;/p>
+&lt;h2 id="实用方法二预测共识">实用方法二：预测+共识&lt;/h2>
+&lt;p>纯统计预测准确率有天花板，突破天花板的方法是加入&amp;quot;人&amp;quot;的判断。&lt;/p>
+&lt;p>具体做法是&lt;strong>S&amp;amp;OP（销售与运营计划）会议&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>统计预测给出基线&lt;/li>
+&lt;li>销售团队补充客户信息（大客户意向、促销计划、市场变化）&lt;/li>
+&lt;li>产品团队补充新品计划和老品退出计划&lt;/li>
+&lt;li>供应链团队评估供应约束&lt;/li>
+&lt;li>各方达成共识，形成最终预测&lt;/li>
+&lt;/ol>
+&lt;p>这个过程的本质不是&amp;quot;谁的预测更准&amp;quot;，而是把分散在各部门的信息汇聚起来，形成一个更有信息量的预测。&lt;/p>
+&lt;p>&lt;strong>共识预测的准确率通常比纯统计预测高10-15个百分点。&lt;/strong>&lt;/p>
+&lt;h2 id="核心原则">核心原则&lt;/h2>
+&lt;p>需求预测的核心原则：&lt;strong>预测不是为了算准，是为了减少不确定性。&lt;/strong>&lt;/p>
+&lt;p>你永远不可能100%预测准确，但你可以从&amp;quot;完全不知道&amp;quot;进步到&amp;quot;知道一个范围&amp;quot;，从&amp;quot;被动响应&amp;quot;进步到&amp;quot;主动准备&amp;quot;。&lt;/p>
+&lt;p>预测的价值不在数字本身，而在预测过程——在这个过程中，你收集了信息、对齐了认知、识别了风险、准备了方案。&lt;/p>
+&lt;p>&lt;strong>即使预测不准，预测的过程也不会白费。&lt;/strong> 这才是需求预测真正的意义。&lt;/p></description></item><item><title>SKU从5000砍到800，库存降了60%还没丢客户</title><link>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</guid><description>&lt;p>三年前，我接手了一个做五金配件公司的供应链。他们的SKU数量是4862个。&lt;/p>
+&lt;p>但你知道这4862个SKU里，有多少个在前三个月里有销售记录吗？不到2100个。对，超过一半的SKU在3个月内一单都没卖过。&lt;/p>
+&lt;p>而这些&amp;quot;僵尸SKU&amp;quot;占了多少库存？37%。将近四成的库存资金，压在了一年也卖不出几件的东西上。&lt;/p>
+&lt;p>九个月后，我把SKU从4862砍到了823个。库存从2600万降到980万。销售额呢？从8000万涨到了8600万。&lt;/p>
+&lt;p>砍了4000个SKU，销售额不降反升。今天就来说说怎么做到的。&lt;/p>
+&lt;h2 id="大多数公司的sku泛滥是怎么来的">大多数公司的SKU泛滥是怎么来的？&lt;/h2>
+&lt;p>SKU不是一天多起来的。它长起来的路径通常是这样的：&lt;/p>
+&lt;p>一个大客户说&amp;quot;你能帮我做一批这种规格的吗？&amp;ldquo;销售说能，采购就去买了。客户要了两次不买了，但这个SKU永远留在了系统里。&lt;/p>
+&lt;p>一个产品经理说&amp;quot;我们要丰富产品线&amp;rdquo;，一下子上了30个新SKU。上完不管了，没有产品生命周期管理，卖的好的不管、卖不动的也不砍。&lt;/p>
+&lt;p>采购看到供应商有促销——&amp;ldquo;这批货便宜，多买点&amp;rdquo;。买回来三个月卖不动，但没人追责，货就这么堆着。&lt;/p>
+&lt;p>&lt;strong>SKU管理的最大问题不是怎么砍，是没有人管。&lt;/strong> SKU的生命周期从头到尾没有一个负责人，这才是根源。&lt;/p>
+&lt;h2 id="怎么判断该砍哪些sku">怎么判断该砍哪些SKU？&lt;/h2>
+&lt;p>给一个简单粗暴但行之有效的方法：&lt;strong>按&amp;quot;近12个月的销售频次&amp;quot;分类。&lt;/strong>&lt;/p>
+&lt;p>S类（高频）：每个月都有销售，占销量前70%的SKU。这些是核心，不能动。
+A类（中频）：不是每个月都有，但一个季度至少有一次销售。可以审视，不一定砍。
+B类（低频）：过去12个月只卖了1-3次。这些就要逐个问：有没有关键客户依赖？如果没有，标记待砍。
+C类（死货）：过去12个月零销售。没有讨论余地，直接砍。&lt;/p>
+&lt;p>我当时用这个方法，4862个SKU里筛出来：&lt;/p>
+&lt;ul>
+&lt;li>S类：812个（占比17%，贡献了72%的销售额）&lt;/li>
+&lt;li>A类：984个（占比20%，贡献了20%的销售额）&lt;/li>
+&lt;li>B类：1430个（占比29%，贡献了7%的销售额）&lt;/li>
+&lt;li>C类：1636个（占比34%，贡献了0.8%的销售额）&lt;/li>
+&lt;/ul>
+&lt;p>你看这个分布。不到40%的SKU贡献了92%的销售额。剩下60%的SKU，基本就是来凑数的。&lt;/p>
+&lt;h2 id="砍sku的时候怎么不丢客户">砍SKU的时候怎么不丢客户？&lt;/h2>
+&lt;p>砍SKU最大的阻力来自销售部：&amp;ldquo;这个客户就要这种规格的，你砍了我的客户怎么办？&amp;rdquo;&lt;/p>
+&lt;p>这是真实问题，需要认真对待。我的做法是三步走：&lt;/p>
+&lt;p>&lt;strong>第一步：把B类SKU对应的客户找出来。&lt;/strong> 这个SKU虽然卖得少，但卖给谁了？如果是卖给一个年销售额500万的大客户，那不能动。如果是卖给几个零散小客户，可以动。&lt;/p>
+&lt;p>&lt;strong>第二步：给客户提供替代方案。&lt;/strong> 这个规格不做了，有没有相近规格可以替代？很多时候客户要的精度没你想象的那么严格。你说这个垫片1.2mm的不做了，能不能用1.5mm的？大部分客户说可以。&lt;/p>
+&lt;p>&lt;strong>第三步：给缓冲期。&lt;/strong> 提前30天通知客户这个SKU要停产，让他们可以下一批&amp;quot;最后订单&amp;quot;。客户下完之后，你再裁掉。&lt;/p>
+&lt;p>当时我们800多个待砍SKU，经过这三步处理，最终只有23个因为&amp;quot;大客户依赖&amp;quot;被保留下来。其他的全部砍掉了。没有一个客户流失。&lt;/p>
+&lt;p>&lt;strong>关键是沟通。你闷不吭声地砍了，客户当然急。你提前沟通、给方案、给缓冲，客户是能理解的。&lt;/strong>&lt;/p>
+&lt;h2 id="砍完之后的正向收益">砍完之后的正向收益&lt;/h2>
+&lt;p>SKU砍完之后，带来的收益远不止库存下降：&lt;/p>
+&lt;p>&lt;strong>采购量集中了，议价能力上来了。&lt;/strong> 以前2000个SKU，每个买一点，哪来的议价能力？砍到800个之后，核心SKU的采购量翻了3倍，跟供应商谈价格更有底气了。&lt;/p>
+&lt;p>&lt;strong>仓库效率提升了。&lt;/strong> 4862个SKU的时候，拣货员要在几千个货位里找东西。823个SKU的时候，货位规划清晰，拣货速度快了至少30%。&lt;/p>
+&lt;p>&lt;strong>质检工作量减了。&lt;/strong> 以前每种SKU都要做来料检验，几千个SKU的质检报表厚得跟词典一样。现在集中在800个核心SKU上，质检做得更透了。&lt;/p>
+&lt;p>&lt;strong>运营复杂度降了。&lt;/strong> SKU少，预测简单，计划好做，异常少，团队管理也轻松。&lt;/p>
+&lt;p>这些收益加起来，比单纯的&amp;quot;库存降了&amp;quot;要大得多。&lt;/p>
+&lt;h2 id="但别犯这个错一刀切砍sku">但别犯这个错——一刀切砍SKU&lt;/h2>
+&lt;p>有一个陷阱我必须提醒：&lt;strong>砍SKU不是看销售额大小，是看有没有客户依赖。&lt;/strong>&lt;/p>
+&lt;p>我见过有公司用帕累托法则一刀切：把所有SKU按销售额排序，砍掉后80%的SKU。看起来很科学？&lt;/p>
+&lt;p>然后一个大客户的专用配件被砍掉了。这个配件一年只卖2次，每次5000块钱，销售额微乎其微。但没这个配件，客户的整个设备就转不起来。&lt;/p>
+&lt;p>这个大客户一年的总采购额是4000万。为了砍掉一个&amp;quot;低销售额SKU&amp;quot;，差点丢掉4000万的客户。&lt;/p>
+&lt;p>&lt;strong>所以判断&amp;quot;该砍哪个&amp;quot;的公式是：客户依赖度 &amp;gt; 销售额绝对值。&lt;/strong>&lt;/p>
+&lt;p>这个SKU虽然卖的少，但对大客户很重要 → 保留。
+这个SKU虽然卖的多，但产品生命周期到末期了 → 可以砍。
+这个SKU卖的少，也没有大客户依赖 → 放心砍。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>SKU管理不是什么高深的学问。它的底层逻辑就一句话：&lt;strong>你的SKU是为客户存在的，不是为系统存在的。&lt;/strong>&lt;/p>
+&lt;p>客户不需要的、客户可以替代的、客户已经淘汰的——这些SKU留在系统里就是毒品，消耗你的资金、空间和管理精力。&lt;/p>
+&lt;p>趁早清理，比攒多了一起清要容易得多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>安全库存设多少？一个公式告诉你：90%的人设高了</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-math/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-math/</guid><description>&lt;p>先问你一个问题：你们公司的安全库存怎么定出来的？&lt;/p>
+&lt;p>我猜答案是：经验。或者更狠的：往前看三个月的最大日用量×一个&amp;quot;足够安全&amp;quot;的倍数。&lt;/p>
+&lt;p>这个倍数是谁定的？好像是某任老总退休前随口一说，后面的人就一直沿用到现在。&lt;/p>
+&lt;p>我跟你说一个数字：国内制造企业的安全库存，平均被设高了&lt;strong>40%以上&lt;/strong>。&lt;/p>
+&lt;p>40%是什么概念？一个年销售额5亿的企业，如果库存周转率6次，平均库存大约8300万。安全库存占多少？少说30%，也就是2500万。&lt;/p>
+&lt;p>设高了40%，就是多压了1000万的货在仓库里。1000万啊，按年化8%的资金成本算，一年就是80万的纯损失。&lt;/p>
+&lt;p>这80万，就是因为没人去算——安全库存到底应该是多少。&lt;/p>
+&lt;h2 id="安全库存的公式没有那么难">安全库存的公式，没有那么难&lt;/h2>
+&lt;p>安全库存的经典公式是：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × σd × √LT&lt;/strong>&lt;/p>
+&lt;p>解释一下：&lt;/p>
+&lt;ul>
+&lt;li>Z：服务水平对应的安全系数&lt;/li>
+&lt;li>σd：日需求量的标准差（也就是需求的波动程度）&lt;/li>
+&lt;li>LT：补货提前期（天）&lt;/li>
+&lt;/ul>
+&lt;p>不要被公式吓到。我一个个拆。&lt;/p>
+&lt;h3 id="z值你想要多高的服务水平">Z值：你想要多高的服务水平？&lt;/h3>
+&lt;p>Z值是统计学里的&amp;quot;安全系数&amp;quot;，对应的是你期待的&amp;quot;不缺货概率&amp;quot;。&lt;/p>
+&lt;ul>
+&lt;li>如果要求99.99%不缺货，Z = 3.72&lt;/li>
+&lt;li>如果要求99%不缺货，Z = 2.33&lt;/li>
+&lt;li>如果要求97.5%不缺货，Z = 1.96&lt;/li>
+&lt;li>如果要求95%不缺货，Z = 1.65&lt;/li>
+&lt;li>如果要求90%不缺货，Z = 1.28&lt;/li>
+&lt;/ul>
+&lt;p>看到了吗？从95%提升到99%，Z值从1.65跳到2.33，安全库存要增加41%。&lt;/p>
+&lt;p>你每提升一个点的服务水平，安全库存的增长是指数级的。不是线性的。&lt;/p>
+&lt;p>&lt;strong>所以你要做的第一件事不是算公式，是想清楚：你究竟需要多高的不缺货率？&lt;/strong>&lt;/p>
+&lt;p>如果你是做医疗设备的，缺货可能导致手术延期，那99%以上是必须的。
+如果你是做快消品的，缺货就是消费者换了个牌子，下次再买，那95%差不多了。&lt;/p>
+&lt;p>大多数制造企业的合理服务水平在95%-97.5%之间。别动不动就设99.99%，那是给自己找麻烦。&lt;/p>
+&lt;h3 id="σd你的需求到底有多波动">σd：你的需求到底有多波动？&lt;/h3>
+&lt;p>σd是日需求量的标准差。这句话翻译成人话就是：你的需求每天变来变去，变化的幅度有多大。&lt;/p>
+&lt;p>算一下你过去90天每天的销量。如果平均每天卖100个，但有些天卖120个，有些天卖80个，那标准差可能是15。&lt;/p>
+&lt;p>如果极端情况下，有几天卖200个，有几天只卖30个，那标准差可能是40。&lt;/p>
+&lt;p>标准差越大，安全库存越高。因为需求不稳定，你就得多备货来应对。&lt;/p>
+&lt;p>这里有个很多人都忽略的点：&lt;strong>如果你能缩短补货提前期，需求波动的影响就会大幅降低。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为如果你补货只需要1天，那你只需要应对&amp;quot;1天内需求突然暴涨&amp;quot;的风险。但如果补货需要15天，你得应对&amp;quot;15天累计需求超出预期&amp;quot;的风险。15天的累计波动，比1天的波动大得多。&lt;/p>
+&lt;p>这就引出了下一个关键参数。&lt;/p>
+&lt;h3 id="lt你的补货到底要多久">LT：你的补货到底要多久？&lt;/h3>
+&lt;p>很多公司的补货提前期是拍脑袋的。采购说&amp;quot;大概15天&amp;quot;，就写15天。&lt;/p>
+&lt;p>你去看一下实际数据：过去30次补货，平均用了几天？最短几天？最长几天？&lt;/p>
+&lt;p>如果平均15天，但最长那次用了28天——那你应该用哪个数？&lt;/p>
+&lt;p>&lt;strong>建议用平均值加上一个安全裕度。&lt;/strong> 比如平均15天，标准差3天，可以设18-20天。&lt;/p>
+&lt;p>另外还有一个维度的提前期：&lt;strong>信息提前期&lt;/strong>。就是你的采购下单，从需求确认到订单发出，中间要多少天。&lt;/p>
+&lt;p>我见过一个公司：物料短缺→仓库提需求→主管审批→采购经理审批→财务审批→下单。这个流程平均要5天。&lt;/p>
+&lt;p>5天啊！这5天是纯浪费的流程时间，但你的安全库存得覆盖这5天的需求。&lt;/p>
+&lt;p>把这个流程从5天压缩到1天，安全库存直接省掉20%。&lt;/p>
+&lt;h2 id="一个真实的计算案例">一个真实的计算案例&lt;/h2>
+&lt;p>假设一个物料：&lt;/p>
+&lt;ul>
+&lt;li>日均需求量：100件&lt;/li>
+&lt;li>需求标准差：20件/天&lt;/li>
+&lt;li>补货提前期：7天&lt;/li>
+&lt;li>服务水平：95%（Z=1.65）&lt;/li>
+&lt;/ul>
+&lt;p>安全库存 = 1.65 × 20 × √7 ≈ 1.65 × 20 × 2.646 ≈ 87件&lt;/p></description></item><item><title>库存周转率翻3倍，我把死库存变成了活现金</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</guid><description>&lt;p>2023年年底，我接手了一家年销售额2个亿的贸易公司的供应链。&lt;/p>
+&lt;p>老板给我看了一张表：库存账面价值3800万。全年销售成本1.52亿。&lt;/p>
+&lt;p>一算，库存周转率 = 1.52亿 ÷ 3800万 = 4次。&lt;/p>
+&lt;p>一年才转4圈。3800万的货，在仓库里平均躺90天才动一次。&lt;/p>
+&lt;p>老板苦笑着说：&amp;ldquo;我知道这个数不对，但不知道怎么办。&amp;rdquo;&lt;/p>
+&lt;p>三个月后，库存降到1600万，周转率提到9.5次。又过了三个月，库存1200万，周转率12.7次。硬生生从仓库里挤出了2600万现金。&lt;/p>
+&lt;p>今天就把这套方法讲透。&lt;/p>
+&lt;h2 id="90的人算错了库存周转率你也算错了">90%的人算错了库存周转率，你也算错了&lt;/h2>
+&lt;p>先问你一个问题：你们公司的库存周转率怎么算的？&lt;/p>
+&lt;p>我猜你会说：销货成本 ÷ 平均库存。&lt;/p>
+&lt;p>对，公式没毛病。但问题是——你的&amp;quot;销货成本&amp;quot;和&amp;quot;平均库存&amp;quot;这两个数，用对了吗？&lt;/p>
+&lt;p>我见过最荒唐的算法：某公司把寄售库存也算进了自己的平均库存。寄售啊大哥，东西在你仓库，但所有权是供应商的，你都没付钱，算什么库存？&lt;/p>
+&lt;p>还有把在途库存、预付款订金、甚至已经报废还没走流程的呆滞品全算进去了。账面上库存3800万，实际能用的只有2800万。&lt;/p>
+&lt;p>另外一个坑是销货成本。有人把仓储费、运输费、甚至采购部门的工资都算进去了。这不是销货成本，这是期间费用。&lt;/p>
+&lt;p>&lt;strong>库存周转率不准，后面的所有分析和决策全是自嗨。&lt;/strong>&lt;/p>
+&lt;h2 id="别光盯着总周转率你该拆开看">别光盯着总周转率，你该拆开看&lt;/h2>
+&lt;p>很多公司只看一个总的库存周转率，然后发现&amp;quot;还行啊，8次&amp;quot;。但拆开一看——&lt;/p>
+&lt;p>A类产品周转率25次，B类3次，C类0.8次。&lt;/p>
+&lt;p>0.8次是什么概念？一年都卖不掉一批货。这说明你的C类产品就是一堆废铁，在仓库里吃灰、占地方、吃仓储费。&lt;/p>
+&lt;p>我当时的做法是：按ABC分类拆开算周转率。&lt;/p>
+&lt;p>A类（前20% SKU，占70%销售额）：目标周转率15-25次
+B类（中间30% SKU，占20%销售额）：目标周转率6-10次
+C类（后50% SKU，占10%销售额）：目标周转率3-5次，低于3次的直接砍&lt;/p>
+&lt;p>这个分类一做完，3800万库存里有1100万是C类产品，周转率连2次都不到。其中600万的东西，已经放了一年半以上。&lt;/p>
+&lt;p>你说这些是什么？不是库存，是坏账。&lt;/p>
+&lt;h2 id="提高周转率的三板斧">提高周转率的三板斧&lt;/h2>
+&lt;h3 id="第一板斧砍掉那些看起来有用的东西">第一板斧：砍掉那些&amp;quot;看起来有用&amp;quot;的东西&lt;/h3>
+&lt;p>我们当时做了一件事：把所有库存按&amp;quot;最近90天是否有出库&amp;quot;分了两类。&lt;/p>
+&lt;p>有出库的：正常管理。
+没出库的：标记，然后给业务部门30天时间，要么卖掉，要么报废。&lt;/p>
+&lt;p>结果业务部门急了。他们开始主动联系客户清库存、搞促销、换货。30天后，300万的&amp;quot;死货&amp;quot;变成了现金。&lt;/p>
+&lt;p>你知道为什么之前没人清这些库存吗？因为没人觉得这是自己的问题。采购觉得&amp;quot;我买进来的时候是老板批的&amp;quot;，销售觉得&amp;quot;滞销是产品问题不是我的问题&amp;quot;，仓库觉得&amp;quot;我只管存放不管卖&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>库存周转率的敌人不是缺流程，是缺责任人。&lt;/strong>&lt;/p>
+&lt;h3 id="第二板斧采购不是买越多越便宜">第二板斧：采购不是买越多越便宜&lt;/h3>
+&lt;p>我们当时的采购有个陋习：供应商说&amp;quot;一次买1000个，单价便宜15%&amp;quot;，采购就买了1000个。&lt;/p>
+&lt;p>结果这1000个卖了8个月才卖完。单价便宜15%，但资金占用8个月，加上仓储费、管理费、过时风险，实际成本比小批量高频次采购高了至少20%。&lt;/p>
+&lt;p>我跟采购说了一句话：&amp;ldquo;从现在开始，你不考核单价，考核库存周转天数。谁的周转天数低于30天，奖金翻倍。&amp;rdquo;&lt;/p>
+&lt;p>两个月后，采购部门主动跟供应商谈小批量、多批次供货。价格是涨了3%，但库存降了40%，资金成本省了不少。&lt;/p>
+&lt;p>&lt;strong>记住一句话：采购单价降1%的爽感，远不如库存周转率提升一倍的实在。&lt;/strong>&lt;/p>
+&lt;h3 id="第三板斧安全库存不是越安全越好">第三板斧：安全库存不是越安全越好&lt;/h3>
+&lt;p>很多人设安全库存只有一个原则：越多越安全。&lt;/p>
+&lt;p>完全错了。安全库存应该是算出来的，不是拍出来的。&lt;/p>
+&lt;p>公式就在那里：安全库存 = Z × σ × √LT&lt;/p>
+&lt;p>Z是你的服务水平的Z值，σ是需求波动的标准差，LT是补货提前期。&lt;/p>
+&lt;p>你服务水平设99.9%，Z就是3.09，安全库存自然高。设95%，Z就是1.65，安全库存直接砍半。&lt;/p>
+&lt;p>我们当时把服务水平从99%调到95%，安全库存直接降了35%。缺货率？从0.3%变成了1.2%，高了不到一个点，但省出来的库存资金是几百万。&lt;/p>
+&lt;p>&lt;strong>极致的安全是拿钱堆出来的。你是不是真的需要这么安全，先问问钱包。&lt;/strong>&lt;/p>
+&lt;h2 id="别把库存周转率当成唯一指标">别把库存周转率当成唯一指标&lt;/h2>
+&lt;p>最后说一句得罪人的话：库存周转率也不是越高越好。&lt;/p>
+&lt;p>我见过有公司把周转率做到30次，结果是天天断货。客户下单没有现货，等一周才能到货，客户直接跑了。&lt;/p>
+&lt;p>库存周转率是用来衡量效率的，但效率的前提是&lt;strong>不丢客户&lt;/strong>。如果为了提高周转率把客户丢了，那叫本末倒置。&lt;/p>
+&lt;p>好的库存管理，是在不缺货和不多压资金之间，找到那个最舒服的点。这个点没法靠公式算出来，只能靠你对业务的判断。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ABC分类法用了三年才发现用反了，A类货你根本不该管那么紧</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>ABC分类法有多普及？随便去一个仓库，保管员都能告诉你：&lt;/p>
 &lt;p>&amp;ldquo;A类是金额大的，要重点管。B类是中间的，正常管。C类是金额小的，随便管。&amp;rdquo;&lt;/p>
 &lt;p>这套话术在供应链圈子里讲了三十年。但真正做对的人，不到10%。&lt;/p>
 &lt;h2 id="按金额分类是abc分类法最大的坑">按金额分类，是ABC分类法最大的坑&lt;/h2>

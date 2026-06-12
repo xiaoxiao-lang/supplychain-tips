@@ -1,4 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/</link><description>Recent content in SKU管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从3500砍到1200，库存降了40%，销售额反而涨了</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</guid><description>&lt;p>讲一个反常识的事实。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/</link><description>Recent content in SKU管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+&lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
+&lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
+&lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>
+&lt;p>老板沉默了5秒，说：&amp;ldquo;砍。&amp;rdquo;&lt;/p>
+&lt;h2 id="第一步给sku做体检">第一步：给SKU做体检&lt;/h2>
+&lt;p>砍SKU不能拍脑袋，得用数据说话。我建了一个SKU分析模型，包含5个维度：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>维度&lt;/th>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>销售贡献&lt;/td>
+ &lt;td>近12个月销售额&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>毛利贡献&lt;/td>
+ &lt;td>毛利率×销量&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>周转效率&lt;/td>
+ &lt;td>年周转次数&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>需求趋势&lt;/td>
+ &lt;td>近6个月环比变化&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>战略价值&lt;/td>
+ &lt;td>是否核心客户需求/是否新推&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>每个SKU按5个维度打分，总分0-100。然后按分数分四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A档（80分以上）&lt;/strong>：核心SKU，必须保留&lt;/li>
+&lt;li>&lt;strong>B档（60-79分）&lt;/strong>：一般SKU，正常管理&lt;/li>
+&lt;li>&lt;strong>C档（40-59分）&lt;/strong>：低效SKU，重点评审&lt;/li>
+&lt;li>&lt;strong>D档（40分以下）&lt;/strong>：候选淘汰&lt;/li>
+&lt;/ul>
+&lt;p>2000个SKU跑完模型，结果：&lt;/p>
+&lt;ul>
+&lt;li>A档：320个（16%）&lt;/li>
+&lt;li>B档：480个（24%）&lt;/li>
+&lt;li>C档：540个（27%）&lt;/li>
+&lt;li>D档：660个（33%）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>660个SKU得分不到40分，占SKU总数的33%，但只贡献了2%的销售额。&lt;/strong>&lt;/p>
+&lt;h2 id="第二步分类处理">第二步：分类处理&lt;/h2>
+&lt;p>D档660个SKU不是一刀切全砍，要分类处理：&lt;/p>
+&lt;p>&lt;strong>第一类：确认淘汰（380个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>连续6个月零销量的：直接淘汰&lt;/li>
+&lt;li>连续12个月销量&amp;lt;10个且毛利为负的：直接淘汰&lt;/li>
+&lt;li>已有替代品且替代品销量更好的：淘汰老品&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二类：有条件保留（180个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>核心客户指定要的：保留，但跟客户谈替代方案&lt;/li>
+&lt;li>新品还在培育期的：给3个月观察期，3个月后不达标淘汰&lt;/li>
+&lt;li>季节性产品：保留，但淡季不备库存&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三类：需要再评估（100个）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>得分在35-40分之间的：补充调研后决定&lt;/li>
+&lt;li>有历史大客户偶尔采购的：跟销售确认未来需求&lt;/li>
+&lt;/ul>
+&lt;p>处理完以后，&lt;strong>最终淘汰480个SKU，保留1520个。&lt;/strong>&lt;/p>
+&lt;h2 id="第三步继续深挖">第三步：继续深挖&lt;/h2>
+&lt;p>1520个SKU还是太多。我又做了第二轮分析，这次重点看&amp;quot;长尾&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>重叠SKU问题。&lt;/strong> 我们有12款类似功能的螺丝，只是长度差2-3mm；有8款颜色不同的同款包装盒；有5款规格接近的密封圈。&lt;/p>
+&lt;p>这些重叠SKU合并后：&lt;/p>
+&lt;ul>
+&lt;li>螺丝从12款合并到5款（用垫片适配长度差异）&lt;/li>
+&lt;li>包装盒从8款合并到3款（用标签区分颜色）&lt;/li>
+&lt;li>密封圈从5款合并到2款&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>又砍掉280个SKU，但客户满意度几乎不受影响——因为客户买的不是&amp;quot;2.5cm的螺丝&amp;quot;，而是&amp;quot;能固定的螺丝&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h2 id="第四步建立sku准入和退出机制">第四步：建立SKU准入和退出机制&lt;/h2>
+&lt;p>砍完不是终点，关键是防止SKU又偷偷涨回来。&lt;/p>
+&lt;p>我建了两条规矩：&lt;/p>
+&lt;p>&lt;strong>准入：&lt;/strong> 新增SKU必须通过&amp;quot;SKU评审会&amp;quot;，回答三个问题——预计年销量多少？毛利多少？现有SKU能不能替代？三个问题答不上来，不让上。&lt;/p>
+&lt;p>&lt;strong>退出：&lt;/strong> 每季度做一次SKU健康度检查，连续2个季度C档的SKU自动进入淘汰流程，需要销售总监签字才能保留。&lt;/p>
+&lt;h2 id="最终效果">最终效果&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>优化前&lt;/th>
+ &lt;th>优化后&lt;/th>
+ &lt;th>变化&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>SKU数量&lt;/td>
+ &lt;td>2000&lt;/td>
+ &lt;td>800&lt;/td>
+ &lt;td>-60%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存总额&lt;/td>
+ &lt;td>1940万&lt;/td>
+ &lt;td>1160万&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>库存周转率&lt;/td>
+ &lt;td>4.2次/年&lt;/td>
+ &lt;td>7.8次/年&lt;/td>
+ &lt;td>+86%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>呆滞库存&lt;/td>
+ &lt;td>680万&lt;/td>
+ &lt;td>120万&lt;/td>
+ &lt;td>-82%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>客户满意度&lt;/td>
+ &lt;td>87%&lt;/td>
+ &lt;td>89%&lt;/td>
+ &lt;td>+2%&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>缺货率&lt;/td>
+ &lt;td>3.5%&lt;/td>
+ &lt;td>2.1%&lt;/td>
+ &lt;td>-40%&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>库存成本降了40%，客户满意度反而提高了2%。&lt;/strong> 为什么？因为SKU少了，每个SKU的库存更充裕，缺货率下降了。&lt;/p></description></item><item><title>SKU从5000砍到800，库存降了60%还没丢客户</title><link>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</guid><description>&lt;p>三年前，我接手了一个做五金配件公司的供应链。他们的SKU数量是4862个。&lt;/p>
+&lt;p>但你知道这4862个SKU里，有多少个在前三个月里有销售记录吗？不到2100个。对，超过一半的SKU在3个月内一单都没卖过。&lt;/p>
+&lt;p>而这些&amp;quot;僵尸SKU&amp;quot;占了多少库存？37%。将近四成的库存资金，压在了一年也卖不出几件的东西上。&lt;/p>
+&lt;p>九个月后，我把SKU从4862砍到了823个。库存从2600万降到980万。销售额呢？从8000万涨到了8600万。&lt;/p>
+&lt;p>砍了4000个SKU，销售额不降反升。今天就来说说怎么做到的。&lt;/p>
+&lt;h2 id="大多数公司的sku泛滥是怎么来的">大多数公司的SKU泛滥是怎么来的？&lt;/h2>
+&lt;p>SKU不是一天多起来的。它长起来的路径通常是这样的：&lt;/p>
+&lt;p>一个大客户说&amp;quot;你能帮我做一批这种规格的吗？&amp;ldquo;销售说能，采购就去买了。客户要了两次不买了，但这个SKU永远留在了系统里。&lt;/p>
+&lt;p>一个产品经理说&amp;quot;我们要丰富产品线&amp;rdquo;，一下子上了30个新SKU。上完不管了，没有产品生命周期管理，卖的好的不管、卖不动的也不砍。&lt;/p>
+&lt;p>采购看到供应商有促销——&amp;ldquo;这批货便宜，多买点&amp;rdquo;。买回来三个月卖不动，但没人追责，货就这么堆着。&lt;/p>
+&lt;p>&lt;strong>SKU管理的最大问题不是怎么砍，是没有人管。&lt;/strong> SKU的生命周期从头到尾没有一个负责人，这才是根源。&lt;/p>
+&lt;h2 id="怎么判断该砍哪些sku">怎么判断该砍哪些SKU？&lt;/h2>
+&lt;p>给一个简单粗暴但行之有效的方法：&lt;strong>按&amp;quot;近12个月的销售频次&amp;quot;分类。&lt;/strong>&lt;/p>
+&lt;p>S类（高频）：每个月都有销售，占销量前70%的SKU。这些是核心，不能动。
+A类（中频）：不是每个月都有，但一个季度至少有一次销售。可以审视，不一定砍。
+B类（低频）：过去12个月只卖了1-3次。这些就要逐个问：有没有关键客户依赖？如果没有，标记待砍。
+C类（死货）：过去12个月零销售。没有讨论余地，直接砍。&lt;/p>
+&lt;p>我当时用这个方法，4862个SKU里筛出来：&lt;/p>
+&lt;ul>
+&lt;li>S类：812个（占比17%，贡献了72%的销售额）&lt;/li>
+&lt;li>A类：984个（占比20%，贡献了20%的销售额）&lt;/li>
+&lt;li>B类：1430个（占比29%，贡献了7%的销售额）&lt;/li>
+&lt;li>C类：1636个（占比34%，贡献了0.8%的销售额）&lt;/li>
+&lt;/ul>
+&lt;p>你看这个分布。不到40%的SKU贡献了92%的销售额。剩下60%的SKU，基本就是来凑数的。&lt;/p>
+&lt;h2 id="砍sku的时候怎么不丢客户">砍SKU的时候怎么不丢客户？&lt;/h2>
+&lt;p>砍SKU最大的阻力来自销售部：&amp;ldquo;这个客户就要这种规格的，你砍了我的客户怎么办？&amp;rdquo;&lt;/p>
+&lt;p>这是真实问题，需要认真对待。我的做法是三步走：&lt;/p>
+&lt;p>&lt;strong>第一步：把B类SKU对应的客户找出来。&lt;/strong> 这个SKU虽然卖得少，但卖给谁了？如果是卖给一个年销售额500万的大客户，那不能动。如果是卖给几个零散小客户，可以动。&lt;/p>
+&lt;p>&lt;strong>第二步：给客户提供替代方案。&lt;/strong> 这个规格不做了，有没有相近规格可以替代？很多时候客户要的精度没你想象的那么严格。你说这个垫片1.2mm的不做了，能不能用1.5mm的？大部分客户说可以。&lt;/p>
+&lt;p>&lt;strong>第三步：给缓冲期。&lt;/strong> 提前30天通知客户这个SKU要停产，让他们可以下一批&amp;quot;最后订单&amp;quot;。客户下完之后，你再裁掉。&lt;/p>
+&lt;p>当时我们800多个待砍SKU，经过这三步处理，最终只有23个因为&amp;quot;大客户依赖&amp;quot;被保留下来。其他的全部砍掉了。没有一个客户流失。&lt;/p>
+&lt;p>&lt;strong>关键是沟通。你闷不吭声地砍了，客户当然急。你提前沟通、给方案、给缓冲，客户是能理解的。&lt;/strong>&lt;/p>
+&lt;h2 id="砍完之后的正向收益">砍完之后的正向收益&lt;/h2>
+&lt;p>SKU砍完之后，带来的收益远不止库存下降：&lt;/p>
+&lt;p>&lt;strong>采购量集中了，议价能力上来了。&lt;/strong> 以前2000个SKU，每个买一点，哪来的议价能力？砍到800个之后，核心SKU的采购量翻了3倍，跟供应商谈价格更有底气了。&lt;/p>
+&lt;p>&lt;strong>仓库效率提升了。&lt;/strong> 4862个SKU的时候，拣货员要在几千个货位里找东西。823个SKU的时候，货位规划清晰，拣货速度快了至少30%。&lt;/p>
+&lt;p>&lt;strong>质检工作量减了。&lt;/strong> 以前每种SKU都要做来料检验，几千个SKU的质检报表厚得跟词典一样。现在集中在800个核心SKU上，质检做得更透了。&lt;/p>
+&lt;p>&lt;strong>运营复杂度降了。&lt;/strong> SKU少，预测简单，计划好做，异常少，团队管理也轻松。&lt;/p>
+&lt;p>这些收益加起来，比单纯的&amp;quot;库存降了&amp;quot;要大得多。&lt;/p>
+&lt;h2 id="但别犯这个错一刀切砍sku">但别犯这个错——一刀切砍SKU&lt;/h2>
+&lt;p>有一个陷阱我必须提醒：&lt;strong>砍SKU不是看销售额大小，是看有没有客户依赖。&lt;/strong>&lt;/p>
+&lt;p>我见过有公司用帕累托法则一刀切：把所有SKU按销售额排序，砍掉后80%的SKU。看起来很科学？&lt;/p>
+&lt;p>然后一个大客户的专用配件被砍掉了。这个配件一年只卖2次，每次5000块钱，销售额微乎其微。但没这个配件，客户的整个设备就转不起来。&lt;/p>
+&lt;p>这个大客户一年的总采购额是4000万。为了砍掉一个&amp;quot;低销售额SKU&amp;quot;，差点丢掉4000万的客户。&lt;/p>
+&lt;p>&lt;strong>所以判断&amp;quot;该砍哪个&amp;quot;的公式是：客户依赖度 &amp;gt; 销售额绝对值。&lt;/strong>&lt;/p>
+&lt;p>这个SKU虽然卖的少，但对大客户很重要 → 保留。
+这个SKU虽然卖的多，但产品生命周期到末期了 → 可以砍。
+这个SKU卖的少，也没有大客户依赖 → 放心砍。&lt;/p>
+&lt;h2 id="最后说一句">最后说一句&lt;/h2>
+&lt;p>SKU管理不是什么高深的学问。它的底层逻辑就一句话：&lt;strong>你的SKU是为客户存在的，不是为系统存在的。&lt;/strong>&lt;/p>
+&lt;p>客户不需要的、客户可以替代的、客户已经淘汰的——这些SKU留在系统里就是毒品，消耗你的资金、空间和管理精力。&lt;/p>
+&lt;p>趁早清理，比攒多了一起清要容易得多。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>SKU从3500砍到1200，库存降了40%，销售额反而涨了</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-guide/</guid><description>&lt;p>讲一个反常识的事实。&lt;/p>
 &lt;p>我帮一个做五金件的贸易公司做库存诊断。他们有3500个SKU，库存周转天数高达187天，现金流被库存压得喘不过气。&lt;/p>
 &lt;p>老板跟我说：没办法啊，客户要什么我们就得备什么，SKU少了客户就跑了。&lt;/p>
 &lt;p>我说好，那我们来拉一个数据。&lt;/p>
