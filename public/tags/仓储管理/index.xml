@@ -1,4 +1,218 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓储管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库盘点差了80万，不是人偷了，是你的条码系统是摆设</title><link>https://supplychain-tips.pages.dev/posts/barcode-system-real-value/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-system-real-value/</guid><description>&lt;p>去年我帮一个做汽车配件的公司做库存审计。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓储管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓储管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%82%A8%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
+&lt;p>提到RFID，你肯定听过两种声音：&lt;/p>
+&lt;p>&lt;strong>甲方&lt;/strong>：&amp;ldquo;RFID太贵了，一个标签1块钱，我们10万个SKU，光标签就10万，还有读写器、天线、软件，上百万的投入，3年收不回成本。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>乙方&lt;/strong>：&amp;ldquo;RFID是仓储的未来，不用RFID的仓库就是落后的，人力成本越来越高，不上RFID迟早被淘汰。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>两个都对，也两个都不完全对。&lt;/strong>&lt;/p>
+&lt;p>RFID该不该上，取决于你的场景。我看过6个真实案例，有赚回来的，有亏到底裤的，给你一个参考。&lt;/p>
+&lt;h2 id="案例1服装仓库该上">案例1：服装仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某服装电商，SKU 8000+，日发5000单，季节性强。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点一次3天，一年4次，每次停发2天&lt;/li>
+&lt;li>找货平均5分钟/件&lt;/li>
+&lt;li>错发率2.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点4小时，不用停发&lt;/li>
+&lt;li>找货30秒&lt;/li>
+&lt;li>错发率0.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：标签+设备+软件，120万
+&lt;strong>回报&lt;/strong>：人工成本降40万/年，盘点损失降15万/年，错发赔偿降8万/年
+&lt;strong>回本周期&lt;/strong>：约2年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ SKU多、体积小、高周转——RFID的黄金场景&lt;/p>
+&lt;h2 id="案例2汽车零部件该上">案例2：汽车零部件——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某汽配仓库，SKU 12000+，体积大，价值高。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找一个零件平均15分钟&lt;/li>
+&lt;li>库存准确率87%&lt;/li>
+&lt;li>产线因缺件停线，每月2-3次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找零件2分钟&lt;/li>
+&lt;li>库存准确率99.2%&lt;/li>
+&lt;li>停线事件降到半年1次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：200万（含重型标签和工业级读写器）
+&lt;strong>回报&lt;/strong>：停线损失减少200万/年，人工节省60万/年
+&lt;strong>回本周期&lt;/strong>：不到1年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 高价值、找货难、停线代价大——ROI极高&lt;/p>
+&lt;h2 id="案例3图书仓库该上">案例3：图书仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某图书仓库，SKU 50000+，薄利多销。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点耗时5天&lt;/li>
+&lt;li>库存差异率3%&lt;/li>
+&lt;li>拣货效率低&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点1天&lt;/li>
+&lt;li>库存差异率0.5%&lt;/li>
+&lt;li>批量扫描，效率提升3倍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 超多SKU、小体积、标准化程度高——天然适合&lt;/p>
+&lt;h2 id="案例4建筑材料仓库别上">案例4：建筑材料仓库——别上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某建材仓库，SKU 2000，体积大，金属和液体多。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>金属材料严重干扰RFID信号&lt;/li>
+&lt;li>大件商品贴标签容易脱落&lt;/li>
+&lt;li>SKU少，条码完全够用&lt;/li>
+&lt;li>盘点频率低（半年1次）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：投入80万，效果不如条码+手持终端。ROI为负。&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：❌ 金属环境、大件、SKU少——RFID是浪费钱&lt;/p>
+&lt;h2 id="案例5食品冷链谨慎上">案例5：食品冷链——谨慎上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某生鲜冷链仓，SKU 3000，温控-18°C到4°C。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>RFID标签在极低温下读取率骤降（从99%到70%）&lt;/li>
+&lt;li>冷藏环境水汽影响天线性能&lt;/li>
+&lt;li>食品保质期短，标签来不及回收就过期了&lt;/li>
+&lt;li>一次性标签成本无法摊薄&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：试点3个月后放弃，改用条码+语音拣选。&lt;/p></description></item><item><title>WMS系统上了半年还是一团糟？3个原因你肯定中招了</title><link>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</guid><description>&lt;h2 id="wms上线半年老板问我钱花哪了">WMS上线半年，老板问我&amp;quot;钱花哪了&amp;quot;&lt;/h2>
+&lt;p>花80万上了WMS，半年后：&lt;/p>
+&lt;ul>
+&lt;li>找货还是靠人肉&lt;/li>
+&lt;li>库存数据还是不准&lt;/li>
+&lt;li>拣货效率没提升反而降了&lt;/li>
+&lt;li>仓库人员天天骂系统难用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>80万打水漂了？&lt;/strong>&lt;/p>
+&lt;p>不，80万没打水漂，&lt;strong>是你没用对。&lt;/strong>&lt;/p>
+&lt;p>我见过太多WMS上线后一团糟的案例，90%不是系统的问题，是这3个原因。&lt;/p>
+&lt;h2 id="原因一基础数据没洗就上线">原因一：基础数据没洗就上线&lt;/h2>
+&lt;p>WMS是&amp;quot;垃圾进垃圾出&amp;quot;的典型系统。你的物料主数据如果是这样的：&lt;/p>
+&lt;ul>
+&lt;li>同一个物料3个编码&lt;/li>
+&lt;li>部分物料没有尺寸重量&lt;/li>
+&lt;li>库位信息一半是旧的&lt;/li>
+&lt;li>批次管理规则不统一&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>那你上什么系统都白搭。&lt;/strong>&lt;/p>
+&lt;p>WMS上线前必须做的3件事：&lt;/p>
+&lt;p>&lt;strong>1. 物料主数据清洗&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，不能重复&lt;/li>
+&lt;li>每个物料必须有：长宽高、重量、ABC分类、存储条件&lt;/li>
+&lt;li>淘汰不再使用的编码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 库位重新规划&lt;/strong>&lt;/p>
+&lt;p>WMS的核心能力之一就是库位管理。但如果你连库位都没有标准化：&lt;/p>
+&lt;ul>
+&lt;li>库位编码规则不统一&lt;/li>
+&lt;li>混放区没有定义&lt;/li>
+&lt;li>拣货区和存储区没分开&lt;/li>
+&lt;/ul>
+&lt;p>WMS根本无法进行智能库位推荐。&lt;/p>
+&lt;p>&lt;strong>3. 业务流程梳理&lt;/strong>&lt;/p>
+&lt;p>先想清楚：&lt;/p>
+&lt;ul>
+&lt;li>收货流程是什么？是否需要质检？质检不通过怎么处理？&lt;/li>
+&lt;li>上架策略是什么？按重量？按周转率？按品类？&lt;/li>
+&lt;li>拣货策略是什么？批量拣？单件拣？波次拣？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些不是系统决定的，是你决定的。系统只是执行你的策略。&lt;/strong>&lt;/p>
+&lt;h2 id="原因二把wms当excel用">原因二：把WMS当Excel用&lt;/h2>
+&lt;p>这是最常见的坑。&lt;/p>
+&lt;p>WMS上线了，但仓库人员还是这样用：&lt;/p>
+&lt;ul>
+&lt;li>手动录入出入库数据（而不是扫码）&lt;/li>
+&lt;li>在系统外用Excel记一版，系统里再录一版&lt;/li>
+&lt;li>库存调整用手工单，事后补录&lt;/li>
+&lt;li>系统提示的库位不放，按自己习惯放&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这跟没上WMS有什么区别？&lt;/strong>&lt;/p>
+&lt;p>WMS的价值在于&lt;strong>实时、自动、闭环&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>扫码收货 → 系统自动分配库位 → 扫码确认上架 → 库存实时更新&lt;/li>
+&lt;li>订单下达 → 系统生成拣货路径 → 扫码拣货 → 扫码复核 → 出库&lt;/li>
+&lt;li>全程扫码，零人工录入&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果不用扫码，WMS就是80万的Excel。&lt;/strong>&lt;/p>
+&lt;p>为什么员工不用扫码？两个原因：&lt;/p>
+&lt;ol>
+&lt;li>扫码枪不好用，经常断连、扫码慢&lt;/li>
+&lt;li>扫码流程比手工麻烦（步骤太多）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>解决方案&lt;/strong>：简化操作步骤，换好用的PDA，把扫码步骤从7步减到3步。&lt;/p>
+&lt;h2 id="原因三没有盘点策略">原因三：没有盘点策略&lt;/h2>
+&lt;p>WMS上线后，很多人以为库存数据就是准的了。&lt;/p>
+&lt;p>&lt;strong>想多了。&lt;/strong>&lt;/p></description></item><item><title>条码管理做了3年，我才发现之前全做错了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</guid><description>&lt;h2 id="条码管理看着简单做对的人不到10">条码管理：看着简单，做对的人不到10%&lt;/h2>
+&lt;p>条码管理有多基础？几乎所有仓库都在用。&lt;/p>
+&lt;p>但条码管理做对的仓库有多少？&lt;strong>不到10%。&lt;/strong>&lt;/p>
+&lt;p>怎么判断你做没做对？3个问题：&lt;/p>
+&lt;ol>
+&lt;li>你的条码有重复的吗？&lt;/li>
+&lt;li>扫码后需要手工补录信息吗？&lt;/li>
+&lt;li>你有&amp;quot;扫不上&amp;quot;的情况吗？&lt;/li>
+&lt;/ol>
+&lt;p>如果任何一个答案是&amp;quot;有&amp;quot;，你的条码管理就是错的。&lt;/p>
+&lt;h2 id="错误一一物多码">错误一：一物多码&lt;/h2>
+&lt;p>同一个物料，3个编码：&lt;/p>
+&lt;ul>
+&lt;li>ERP里一个码&lt;/li>
+&lt;li>WMS里一个码&lt;/li>
+&lt;li>供应商自己贴的码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：收货扫供应商码 → 系统不认 → 手工匹配 → 搞错 → 库存对不上&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，全系统统一&lt;/li>
+&lt;li>供应商送货必须贴你的条码（在PO里约定好）&lt;/li>
+&lt;li>如果供应商贴不了，收货时统一打印替换&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一物一码，这是条码管理的第一原则。&lt;/strong>&lt;/p>
+&lt;h2 id="错误二条码只管入库不管出库">错误二：条码只管入库不管出库&lt;/h2>
+&lt;p>很多仓库的条码管理是这样的：&lt;/p>
+&lt;ul>
+&lt;li>入库：扫码登记 ✅&lt;/li>
+&lt;li>上架：系统分配库位，扫码确认 ✅&lt;/li>
+&lt;li>拣货：打印纸质拣货单，按单找货 ❌&lt;/li>
+&lt;li>出库：手工确认 ❌&lt;/li>
+&lt;/ul>
+&lt;p>入库扫了码，出库不扫码，&lt;strong>中间的库存数据就是虚的。&lt;/strong>&lt;/p>
+&lt;p>你入库扫码100件，出库不扫码出了80件，系统还显示100件。&lt;strong>库存差异就是这么来的。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>拣货扫码确认&lt;/li>
+&lt;li>复核扫码验证&lt;/li>
+&lt;li>出库扫码扣减&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>全程闭环，一扫到底。&lt;/strong>&lt;/p>
+&lt;p>有人说：拣货扫码太慢了。&lt;/p>
+&lt;p>说这话的人没算过账：一次库存差异造成的损失（找货时间+盘点时间+缺货损失），够你扫码扫一年。&lt;/p>
+&lt;h2 id="错误三条码打印管理混乱">错误三：条码打印管理混乱&lt;/h2>
+&lt;p>条码打印看似小事，实际是大坑：&lt;/p>
+&lt;ul>
+&lt;li>打印机型号不统一，标签尺寸规格不同&lt;/li>
+&lt;li>碳带质量差，条码3个月后褪色扫不上&lt;/li>
+&lt;li>标签贴的位置不统一，有的贴正面有的贴侧面&lt;/li>
+&lt;li>补打的条码没有关联原始批次信息&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 统一标签规格&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标准箱标签：100mm×60mm&lt;/li>
+&lt;li>小件标签：40mm×20mm&lt;/li>
+&lt;li>栈板标签：150mm×100mm&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 规范贴标位置&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>箱子：右上角离边5cm&lt;/li>
+&lt;li>托盘：正面中间偏上&lt;/li>
+&lt;li>零件：最大面的右下角&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 碳带和纸张质量&lt;/strong>&lt;/p>
+&lt;p>别省这个钱。差的碳带打印出来的条码3个月就模糊，好的碳带可以用2年。&lt;/p>
+&lt;p>一条碳带差价5块钱，一次扫码失败导致的差错成本500块。&lt;strong>100倍的差距。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>4. 补打规则&lt;/strong>&lt;/p>
+&lt;p>补打条码必须：&lt;/p></description></item><item><title>仓库盘点差了80万，不是人偷了，是你的条码系统是摆设</title><link>https://supplychain-tips.pages.dev/posts/barcode-system-real-value/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-system-real-value/</guid><description>&lt;p>去年我帮一个做汽车配件的公司做库存审计。&lt;/p>
 &lt;p>WMS上线三年了，条码系统也上了三年。老板一直觉得库存管理&amp;quot;还行&amp;quot;。&lt;/p>
 &lt;p>我说咱们来一次突击盘点吧。&lt;/p>
 &lt;p>盘点结果出来，管理层的脸都绿了——账实差异率4.7%，折合库存价值差了将近80万。&lt;/p>

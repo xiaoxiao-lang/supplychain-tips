@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商评估做了3年全白费？3步让你的评估真正有用</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-that-actually-works/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-that-actually-works/</guid><description>&lt;h2 id="供应商评估表填了3年全是废纸">供应商评估表填了3年，全是废纸？&lt;/h2>
+&lt;p>你有没有这种感觉：供应商评估年年做，但该出问题还是出问题。&lt;/p>
+&lt;p>评估表上一堆指标，每个供应商打完分，85分、88分、92分。看起来都挺好，但实际上：&lt;/p>
+&lt;ul>
+&lt;li>质量出了问题，评估表上质量分还是90+&lt;/li>
+&lt;li>交期延迟3次，评估表上交期分没怎么变&lt;/li>
+&lt;li>价格比同行高20%，评估表上价格分还行&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>评估表上全是绿灯，现实全是红灯。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为你的评估表大概率犯了3个错误：&lt;/p>
+&lt;ol>
+&lt;li>指标太多，每个权重太低，拉不开差距&lt;/li>
+&lt;li>数据全靠人工打分，没有客观数据支撑&lt;/li>
+&lt;li>评估结果跟采购决策脱节&lt;/li>
+&lt;/ol>
+&lt;h2 id="第一步指标砍到5个以内">第一步：指标砍到5个以内&lt;/h2>
+&lt;p>别搞20个指标的评估表了，你根本看不过来。&lt;/p>
+&lt;p>&lt;strong>核心5个指标&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>质量合格率&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;td>来料检验系统&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>准时交货率&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>ERP交期数据&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>价格竞争力&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;td>市场比价&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>响应速度&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;td>异常处理记录&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>风险等级&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;td>财务/合规审查&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>为什么是这5个？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>质量&lt;/strong>：一票否决，出问题损失最大&lt;/li>
+&lt;li>&lt;strong>交期&lt;/strong>：直接影响生产计划和库存&lt;/li>
+&lt;li>&lt;strong>价格&lt;/strong>：不用解释&lt;/li>
+&lt;li>&lt;strong>响应&lt;/strong>：出问题后解决问题的速度，比不出现问题更重要&lt;/li>
+&lt;li>&lt;strong>风险&lt;/strong>：供应商倒闭、合规问题，能要你的命&lt;/li>
+&lt;/ul>
+&lt;p>5个指标，每个权重够高，&lt;strong>真正拉开差距&lt;/strong>。&lt;/p>
+&lt;h2 id="第二步数据系统自动采集不打分">第二步：数据系统自动采集，不打分&lt;/h2>
+&lt;p>&amp;ldquo;人工打分&amp;quot;是供应商评估最大的毒瘤。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;ul>
+&lt;li>人情分：跟供应商关系好的，分总不会低&lt;/li>
+&lt;li>懒惰分：懒得核实，按印象打分&lt;/li>
+&lt;li>从众分：去年打85，今年也打85&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案：数据自动采集。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>质量合格率 → 从MES/QIS系统自动取&lt;/li>
+&lt;li>准时交货率 → 从ERP自动计算（PO交期vs实际交货日期）&lt;/li>
+&lt;li>价格竞争力 → 抓取市场公开价自动比对&lt;/li>
+&lt;li>响应速度 → 从异常工单系统取（从提报到解决的时间）&lt;/li>
+&lt;li>风险等级 → 财务数据+天眼查/企查查自动评级&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>人只负责审核和判断，不负责打分。&lt;/strong>&lt;/p>
+&lt;p>如果某个指标没有系统数据，那就先不要这个指标，或者用简化版：&lt;/p>
+&lt;ul>
+&lt;li>没有MES系统 → 用来料检验批次合格率代替&lt;/li>
+&lt;li>没有异常工单 → 用电话/邮件响应时间代替（有记录的）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据不完美的评估，远好于纯人工打分的评估。&lt;/strong>&lt;/p></description></item><item><title>采购成本分析做了3年，我发现90%的人只会算单价</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</guid><description>&lt;h2 id="你的采购成本分析可能全是废话">你的采购成本分析，可能全是废话&lt;/h2>
+&lt;p>老板说：&amp;ldquo;把采购成本降10%。&amp;rdquo;&lt;/p>
+&lt;p>你打开Excel，把供应商报价从高到低排一遍，选最便宜的那个，交差。&lt;/p>
+&lt;p>&lt;strong>恭喜你，你属于90%只看单价的采购。&lt;/strong>&lt;/p>
+&lt;p>但你知道你忽略了多少钱吗？一个真实的案例：&lt;/p>
+&lt;p>A供应商报价100元/件，B供应商报价95元/件。你选了B。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>B的良品率只有92%，A是99%&lt;/li>
+&lt;li>B的交期不稳定，经常加急运费&lt;/li>
+&lt;li>B的售后响应3天，A是当天&lt;/li>
+&lt;li>B用了8个月开始出质量问题，返工成本爆炸&lt;/li>
+&lt;/ul>
+&lt;p>一年下来，B的实际总成本比A&lt;strong>高出23%&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>单价便宜5块，总成本多花28块。&lt;/strong> 这就是只看单价的代价。&lt;/p>
+&lt;h2 id="单价之外的6大隐藏成本">单价之外的6大隐藏成本&lt;/h2>
+&lt;h3 id="1-质量成本">1. 质量成本&lt;/h3>
+&lt;p>不良品率每高1%，你的隐性成本包括：&lt;/p>
+&lt;ul>
+&lt;li>返工/返修人工&lt;/li>
+&lt;li>客户退货和赔偿&lt;/li>
+&lt;li>停线等待物料&lt;/li>
+&lt;li>品质检验追加频次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>公式&lt;/strong>：质量成本 = 不良率 × (返工成本 + 报废成本 + 客诉成本)&lt;/p>
+&lt;h3 id="2-交期成本">2. 交期成本&lt;/h3>
+&lt;p>交期不稳定意味着：&lt;/p>
+&lt;ul>
+&lt;li>安全库存要备更多&lt;/li>
+&lt;li>加急运输费（空运代替海运）&lt;/li>
+&lt;li>产线停工等待&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一次空运代替海运，多出来的运费可能抵消你一整年的降价空间。&lt;/strong>&lt;/p>
+&lt;h3 id="3-库存持有成本">3. 库存持有成本&lt;/h3>
+&lt;p>便宜但交期长的供应商，逼你多备库存。库存持有成本通常按年化20%-30%算：&lt;/p>
+&lt;ul>
+&lt;li>资金占用&lt;/li>
+&lt;li>仓储空间&lt;/li>
+&lt;li>损耗贬值&lt;/li>
+&lt;li>过期报废&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-管理成本">4. 管理成本&lt;/h3>
+&lt;p>有些供应商看着便宜，但管理成本高得离谱：&lt;/p>
+&lt;ul>
+&lt;li>天天催货&lt;/li>
+&lt;li>频繁来料检验&lt;/li>
+&lt;li>供应商审核出差&lt;/li>
+&lt;li>持续改善会议&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你的时间不是免费的。&lt;/strong>&lt;/p>
+&lt;h3 id="5-转换成本">5. 转换成本&lt;/h3>
+&lt;p>换供应商不是零成本：&lt;/p>
+&lt;ul>
+&lt;li>样品验证（至少3个月）&lt;/li>
+&lt;li>产线调试&lt;/li>
+&lt;li>客户重新认证&lt;/li>
+&lt;li>双源过渡期的价格劣势&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-风险成本">6. 风险成本&lt;/h3>
+&lt;p>最低价往往意味着最低的冗余：&lt;/p>
+&lt;ul>
+&lt;li>单一来源风险&lt;/li>
+&lt;li>供应商经营不稳定&lt;/li>
+&lt;li>地缘政治或物流中断&lt;/li>
+&lt;/ul>
+&lt;h2 id="tco采购成本分析的正确姿势">TCO：采购成本分析的正确姿势&lt;/h2>
+&lt;p>&lt;strong>TCO（Total Cost of Ownership，总拥有成本）&lt;/strong> 才是你该看的。&lt;/p></description></item><item><title>采购流程优化3步走，省下来的钱够发3个月工资</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimization-three-steps/</guid><description>&lt;p>上个月帮一个做工业设备的公司做了采购流程优化，他们原来的采购审批流程是这样的：&lt;/p>
 &lt;p>需求提报→部门主管审批→采购主管审批→采购经理审批→财务审批→总经理审批→下单&lt;/p>
 &lt;p>一个普通采购件，从提需求到下单，平均7.5个工作日。&lt;/p>
 &lt;p>紧急件？加急走完流程也要3天。&lt;/p>

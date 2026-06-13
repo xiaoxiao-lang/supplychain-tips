@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>国际贸易 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93/</link><description>Recent content in 国际贸易 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93/index.xml" rel="self" type="application/rss+xml"/><item><title>一票货被海关卡了40天，我学会的3个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-customs/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-customs/</guid><description>&lt;p>去年有一票货，从深圳到洛杉矶。产品不敏感、单证齐全、HS编码也报了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>国际贸易 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93/</link><description>Recent content in 国际贸易 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93/index.xml" rel="self" type="application/rss+xml"/><item><title>跨境物流亏了80万才学会的5个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-lessons-learned/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-lessons-learned/</guid><description>&lt;h2 id="80万学费买来的教训">80万学费买来的教训&lt;/h2>
+&lt;p>去年我们做了一票东南亚的单，货值120万，利润预期15万。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>报关单证填错一个HS编码，海关扣了18天，仓储费8万&lt;/li>
+&lt;li>目的港清关慢了7天，客户拒收要求降价20%，亏24万&lt;/li>
+&lt;li>退货运费+重新包装+二次发货，又花了18万&lt;/li>
+&lt;li>汇率波动吃掉5万&lt;/li>
+&lt;li>保险条款没覆盖&amp;quot;延迟交付&amp;quot;，0赔偿&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这笔单子亏了37万，加上其他零碎损失，全年跨境物流踩坑总共80万。&lt;/strong>&lt;/p>
+&lt;p>痛定思痛，我把这些坑全整理出来，希望你别再交同样的学费。&lt;/p>
+&lt;h2 id="坑一hs编码不核实海关帮你上课">坑一：HS编码不核实，海关帮你&amp;quot;上课&amp;quot;&lt;/h2>
+&lt;p>HS编码看着就是一串数字，但它决定了：&lt;/p>
+&lt;ul>
+&lt;li>你的关税率（可能差10倍）&lt;/li>
+&lt;li>能不能退税&lt;/li>
+&lt;li>是不是需要特殊许可证&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：出货前拿样品和产品说明去海关预归类，花500块钱咨询费，省8万仓储费。&lt;/p>
+&lt;p>不要相信百度查的HS编码，不同材质、用途、加工工艺，编码可能完全不同。&lt;/p>
+&lt;h2 id="坑二cif和fob傻傻分不清">坑二：CIF和FOB傻傻分不清&lt;/h2>
+&lt;p>FOB：你只管到船上，后面的事买家操心。
+CIF：你要管到目的港，包括运费和保险。&lt;/p>
+&lt;p>很多新手觉得CIF省心，选了CIF。但问题来了：&lt;/p>
+&lt;ul>
+&lt;li>目的港的清关延误，算谁的？&lt;/li>
+&lt;li>港口拥堵产生的滞期费，谁出？&lt;/li>
+&lt;li>货到港后15天没人提，仓储费谁付？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：贸易条款谈清楚，CIF不等于&amp;quot;送到门&amp;quot;。在合同里明确：目的港后的责任边界、滞期费分摊规则、提货时限。&lt;/p>
+&lt;h2 id="坑三保险买了等于没买">坑三：保险买了等于没买&lt;/h2>
+&lt;p>你以为买了海运一切险就万事大吉？&lt;/p>
+&lt;ul>
+&lt;li>战争险？不包含&lt;/li>
+&lt;li>罢工险？不包含&lt;/li>
+&lt;li>延迟交付？不包含&lt;/li>
+&lt;li>内在缺陷？不包含&lt;/li>
+&lt;li>间接损失？不包含&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：买保险前搞清楚3件事：&lt;/p>
+&lt;ol>
+&lt;li>承保范围具体包含什么（别只看&amp;quot;一切险&amp;quot;三个字）&lt;/li>
+&lt;li>免赔额是多少&lt;/li>
+&lt;li>理赔时效和举证要求&lt;/li>
+&lt;/ol>
+&lt;p>保险不是买了就安心了，&lt;strong>买错了比不买更可怕&lt;/strong>——因为你会放松警惕。&lt;/p>
+&lt;h2 id="坑四汇率波动不动利润被偷偷吃掉">坑四：汇率波动不动，利润被偷偷吃掉&lt;/h2>
+&lt;p>去年人民币对美元波动了5%。如果你的利润率只有10%，汇率吃掉一半。&lt;/p>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>签合同时锁定汇率（远期结售汇）&lt;/li>
+&lt;li>用人民币结算（如果客户接受）&lt;/li>
+&lt;li>利润率低于15%的单子，不做汇率裸露&lt;/li>
+&lt;/ul>
+&lt;p>这不是做金融，这是&lt;strong>保护你已经赚到的钱&lt;/strong>。&lt;/p>
+&lt;h2 id="坑五目的港潜规则不了解">坑五：目的港&amp;quot;潜规则&amp;quot;不了解&lt;/h2>
+&lt;p>每个国家的港口都有自己的&amp;quot;规矩&amp;quot;：&lt;/p>
+&lt;ul>
+&lt;li>东南亚某些港口，清关要&amp;quot;加速费&amp;quot;&lt;/li>
+&lt;li>南美某些国家，进口许可证排队3个月&lt;/li>
+&lt;li>中东某些港口，周末不清关，周五算休息日&lt;/li>
+&lt;li>非洲某些港口，卸货可能排队2-3周&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：新市场第一次出运前，找当地货代问清楚：&lt;/p>
+&lt;ol>
+&lt;li>清关实际需要几天&lt;/li>
+&lt;li>有没有额外的&amp;quot;费用&amp;quot;&lt;/li>
+&lt;li>提货的流程和时间&lt;/li>
+&lt;/ol>
+&lt;p>100块钱的咨询，省10万的滞期费。&lt;/p>
+&lt;h2 id="跨境物流的3条铁律">跨境物流的3条铁律&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>出货前搞清规则&lt;/strong>：HS编码、贸易条款、目的港规矩，一个都不能漏&lt;/li>
+&lt;li>&lt;strong>保险别贪便宜&lt;/strong>：覆盖范围比保费重要100倍&lt;/li>
+&lt;li>&lt;strong>锁住利润&lt;/strong>：汇率、账期、退换货条款，每个都是利润黑洞&lt;/li>
+&lt;/ol>
+&lt;p>跨境物流不是一个运费的问题，是一整套风险管理。80万的学费，希望你别再交了。&lt;/p></description></item><item><title>一票货被海关卡了40天，我学会的3个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-customs/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-customs/</guid><description>&lt;p>去年有一票货，从深圳到洛杉矶。产品不敏感、单证齐全、HS编码也报了。&lt;/p>
 &lt;p>结果到港后被海关抽检，一查HS编码归类有争议，直接扣了40天。&lt;/p>
 &lt;p>40天什么概念？滞港费一天200美金，40天8000美金。仓储费另算。客户天天催，最后还赔了延迟交付违约金。&lt;/p>
 &lt;p>&lt;strong>整票货的利润，全被滞港费和罚款吃光了。&lt;/strong> 还不算丢了客户的隐性成本。&lt;/p>

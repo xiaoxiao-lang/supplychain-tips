@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RFID技术 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/rfid%E6%8A%80%E6%9C%AF/</link><description>Recent content in RFID技术 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/rfid%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID上了半年还在手动扫码？90%的人第一步就错了</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-world/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-world/</guid><description>&lt;p>三年前有个仓库经理在展会上看到RFID演示：推一车货过通道，所有标签&amp;quot;嘀&amp;quot;一声全读出来了。他当场拍板：上！&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RFID技术 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/rfid%E6%8A%80%E6%9C%AF/</link><description>Recent content in RFID技术 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/rfid%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
+&lt;p>提到RFID，你肯定听过两种声音：&lt;/p>
+&lt;p>&lt;strong>甲方&lt;/strong>：&amp;ldquo;RFID太贵了，一个标签1块钱，我们10万个SKU，光标签就10万，还有读写器、天线、软件，上百万的投入，3年收不回成本。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>乙方&lt;/strong>：&amp;ldquo;RFID是仓储的未来，不用RFID的仓库就是落后的，人力成本越来越高，不上RFID迟早被淘汰。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>两个都对，也两个都不完全对。&lt;/strong>&lt;/p>
+&lt;p>RFID该不该上，取决于你的场景。我看过6个真实案例，有赚回来的，有亏到底裤的，给你一个参考。&lt;/p>
+&lt;h2 id="案例1服装仓库该上">案例1：服装仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某服装电商，SKU 8000+，日发5000单，季节性强。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点一次3天，一年4次，每次停发2天&lt;/li>
+&lt;li>找货平均5分钟/件&lt;/li>
+&lt;li>错发率2.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点4小时，不用停发&lt;/li>
+&lt;li>找货30秒&lt;/li>
+&lt;li>错发率0.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：标签+设备+软件，120万
+&lt;strong>回报&lt;/strong>：人工成本降40万/年，盘点损失降15万/年，错发赔偿降8万/年
+&lt;strong>回本周期&lt;/strong>：约2年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ SKU多、体积小、高周转——RFID的黄金场景&lt;/p>
+&lt;h2 id="案例2汽车零部件该上">案例2：汽车零部件——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某汽配仓库，SKU 12000+，体积大，价值高。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找一个零件平均15分钟&lt;/li>
+&lt;li>库存准确率87%&lt;/li>
+&lt;li>产线因缺件停线，每月2-3次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找零件2分钟&lt;/li>
+&lt;li>库存准确率99.2%&lt;/li>
+&lt;li>停线事件降到半年1次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：200万（含重型标签和工业级读写器）
+&lt;strong>回报&lt;/strong>：停线损失减少200万/年，人工节省60万/年
+&lt;strong>回本周期&lt;/strong>：不到1年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 高价值、找货难、停线代价大——ROI极高&lt;/p>
+&lt;h2 id="案例3图书仓库该上">案例3：图书仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某图书仓库，SKU 50000+，薄利多销。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点耗时5天&lt;/li>
+&lt;li>库存差异率3%&lt;/li>
+&lt;li>拣货效率低&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点1天&lt;/li>
+&lt;li>库存差异率0.5%&lt;/li>
+&lt;li>批量扫描，效率提升3倍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 超多SKU、小体积、标准化程度高——天然适合&lt;/p>
+&lt;h2 id="案例4建筑材料仓库别上">案例4：建筑材料仓库——别上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某建材仓库，SKU 2000，体积大，金属和液体多。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>金属材料严重干扰RFID信号&lt;/li>
+&lt;li>大件商品贴标签容易脱落&lt;/li>
+&lt;li>SKU少，条码完全够用&lt;/li>
+&lt;li>盘点频率低（半年1次）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：投入80万，效果不如条码+手持终端。ROI为负。&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：❌ 金属环境、大件、SKU少——RFID是浪费钱&lt;/p>
+&lt;h2 id="案例5食品冷链谨慎上">案例5：食品冷链——谨慎上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某生鲜冷链仓，SKU 3000，温控-18°C到4°C。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>RFID标签在极低温下读取率骤降（从99%到70%）&lt;/li>
+&lt;li>冷藏环境水汽影响天线性能&lt;/li>
+&lt;li>食品保质期短，标签来不及回收就过期了&lt;/li>
+&lt;li>一次性标签成本无法摊薄&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：试点3个月后放弃，改用条码+语音拣选。&lt;/p></description></item><item><title>RFID上了半年还在手动扫码？90%的人第一步就错了</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-world/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-world/</guid><description>&lt;p>三年前有个仓库经理在展会上看到RFID演示：推一车货过通道，所有标签&amp;quot;嘀&amp;quot;一声全读出来了。他当场拍板：上！&lt;/p>
 &lt;p>三年后我去他的仓库，RFID通道落满了灰，员工还是在用手持扫码枪一个一个扫。&lt;/p>
 &lt;p>&amp;ldquo;为什么不用RFID？&amp;ldquo;我问他。&lt;/p>
 &lt;p>他说：&amp;ldquo;试了三个月，读取率只有70%，漏掉的30%还是要人工补扫。折腾一圈发现更慢了，就不用了。&amp;rdquo;&lt;/p>

@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最后一公里 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%9C%80%E5%90%8E%E4%B8%80%E5%85%AC%E9%87%8C/</link><description>Recent content in 最后一公里 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%9C%80%E5%90%8E%E4%B8%80%E5%85%AC%E9%87%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>最后一公里烧钱烧到心慌？这3招救了我的配送成本</title><link>https://supplychain-tips.pages.dev/posts/last-mile-629/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-629/</guid><description>&lt;p>做了三年最后一公里配送，看着每单配送成本从8块涨到15块，老板问我：为什么量越大越亏？&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最后一公里 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E6%9C%80%E5%90%8E%E4%B8%80%E5%85%AC%E9%87%8C/</link><description>Recent content in 最后一公里 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E6%9C%80%E5%90%8E%E4%B8%80%E5%85%AC%E9%87%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>最后一公里配送烧了200万，我才搞懂这3件事</title><link>https://supplychain-tips.pages.dev/posts/last-mile-delivery-cost-reduction/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-delivery-cost-reduction/</guid><description>&lt;h2 id="最后一公里物流成本的黑洞">最后一公里：物流成本的&amp;quot;黑洞&amp;quot;&lt;/h2>
+&lt;p>你有没有算过，一单物流从仓库到客户手里，最后一公里占了多少成本？&lt;/p>
+&lt;p>&lt;strong>答案是50%以上。&lt;/strong>&lt;/p>
+&lt;p>一单总成本15块，最后一公里8块。100公里干线运输5块，最后3公里8块。&lt;/p>
+&lt;p>这合理吗？不合理。但这是现实。&lt;/p>
+&lt;p>我们公司做同城配送，去年最后一公里烧了200万，老板天天骂。我花了半年把成本砍了35%，靠的就是搞懂了3件事。&lt;/p>
+&lt;h2 id="第一件路线不是最近就好">第一件：路线不是&amp;quot;最近&amp;quot;就好&lt;/h2>
+&lt;p>大多数人的直觉是：路线越短，成本越低。&lt;/p>
+&lt;p>&lt;strong>错。&lt;/strong>&lt;/p>
+&lt;p>路线优化的核心不是最短距离，是&lt;strong>最少总时间&lt;/strong>。&lt;/p>
+&lt;p>为什么？因为配送员的成本是按时间算的，不是按距离。&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;ul>
+&lt;li>路线A：15公里，但经过3个堵点，耗时50分钟&lt;/li>
+&lt;li>路线B：20公里，全程畅通，耗时35分钟&lt;/li>
+&lt;/ul>
+&lt;p>选B。虽然多跑了5公里，但省了15分钟。&lt;/p>
+&lt;p>&lt;strong>15分钟能多送2单。&lt;/strong> 一天下来，同样的配送员能多跑30%的量。&lt;/p>
+&lt;p>实操建议：&lt;/p>
+&lt;ul>
+&lt;li>用导航API做路线规划，别靠经验&lt;/li>
+&lt;li>把时间窗约束加进去（客户要求的配送时段）&lt;/li>
+&lt;li>高峰期避堵比省距离重要100倍&lt;/li>
+&lt;/ul>
+&lt;h2 id="第二件密度才是王道">第二件：密度才是王道&lt;/h2>
+&lt;p>你有没有发现：同样一个配送员，在CBD区域一天能送120单，在郊区只能送40单？&lt;/p>
+&lt;p>&lt;strong>不是配送员偷懒，是订单密度不同。&lt;/strong>&lt;/p>
+&lt;p>最后一公里的成本，本质上是由&lt;strong>单均服务面积&lt;/strong>决定的：&lt;/p>
+&lt;ul>
+&lt;li>密度高的区域：1平方公里50单，单均成本低&lt;/li>
+&lt;li>密度低的区域：1平方公里5单，单均成本高&lt;/li>
+&lt;/ul>
+&lt;p>所以降本的关键不是让每个配送员跑更快，是&lt;strong>让每个配送员的覆盖区域内订单更多&lt;/strong>。&lt;/p>
+&lt;p>3个提升密度的方法：&lt;/p>
+&lt;p>&lt;strong>1. 自提点/驿站&lt;/strong>&lt;/p>
+&lt;p>把散单集中到一个点，一个配送员一次放下30单，而不是跑30个地址。自提点的成本大约是1-2元/单，上门配送8-12元/单。&lt;/p>
+&lt;p>&lt;strong>省70%。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2. 时段集中&lt;/strong>&lt;/p>
+&lt;p>把同一个区域的订单集中到一个时段配送，而不是分散在全天。一趟出门送完一个区域，减少空跑。&lt;/p>
+&lt;p>&lt;strong>3. 逆向合并&lt;/strong>&lt;/p>
+&lt;p>如果配送区域有退货/取件需求，把取件和配送合并到同一条路线。一趟路，两份收入。&lt;/p>
+&lt;h2 id="第三件不是所有单都值得送">第三件：不是所有单都值得送&lt;/h2>
+&lt;p>这是最反直觉但最有效的降本方法。&lt;/p>
+&lt;p>&lt;strong>低价值+远距离的订单，你每送一单都在亏钱。&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;ul>
+&lt;li>配送成本8元/单&lt;/li>
+&lt;li>客单价25元，毛利5元&lt;/li>
+&lt;li>净亏3元/单&lt;/li>
+&lt;/ul>
+&lt;p>这种单子送得越多，亏得越多。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>起送门槛&lt;/strong>：低于39元不配送，或者加收配送费&lt;/li>
+&lt;li>&lt;strong>分区定价&lt;/strong>：远区域加收配送费，近区域免配送费&lt;/li>
+&lt;li>&lt;strong>引导自提&lt;/strong>：低客单价订单引导到自提点，给2元优惠券&lt;/li>
+&lt;/ol>
+&lt;p>不是不服务客户，是&lt;strong>别用亏损的方式服务客户&lt;/strong>。&lt;/p>
+&lt;h2 id="一个被忽略的隐性成本">一个被忽略的隐性成本&lt;/h2>
+&lt;p>最后一公里还有个大坑：&lt;strong>配送失败。&lt;/strong>&lt;/p>
+&lt;p>客户不在家 → 二次配送 → 又不在家 → 三次配送 → 退回仓库&lt;/p>
+&lt;p>一次配送8元，三次加退回就是32元。而你的利润可能只有5元。&lt;/p>
+&lt;p>&lt;strong>降低配送失败率的3招：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>配送前30分钟短信/电话确认&lt;/li>
+&lt;li>提供预约时段选择（2小时窗口）&lt;/li>
+&lt;li>默认投放自提点，需上门另行标注&lt;/li>
+&lt;/ol>
+&lt;p>配送失败率每降1个百分点，年省的成本比你砍10个配送员的工资还多。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>最后一公里降本的核心逻辑：&lt;/p></description></item><item><title>最后一公里烧钱烧到心慌？这3招救了我的配送成本</title><link>https://supplychain-tips.pages.dev/posts/last-mile-629/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-629/</guid><description>&lt;p>做了三年最后一公里配送，看着每单配送成本从8块涨到15块，老板问我：为什么量越大越亏？&lt;/p>
 &lt;p>真正干过末端的都懂，这个痛。不是你不努力，是末端配送的结构性问题摆在那里：客单分散、高峰集中、退货率高、客户不在家——随便哪一条都是烧油的漏斗。&lt;/p>
 &lt;p>我花了大半年把配送成本压了30%，没有用什么高科技，就是三个笨办法。&lt;/p>
 &lt;h3 id="1-别死磕上门驿站和自提是降本神器">1. 别死磕上门，驿站和自提是降本神器&lt;/h3>

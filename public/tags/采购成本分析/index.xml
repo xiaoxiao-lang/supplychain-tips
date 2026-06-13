@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本分析 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/</link><description>Recent content in 采购成本分析 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本砍了15%，利润反降？你砍错了地方还不知道</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>去年年底，我一个做家电的朋友拿了年度降本奖——采购成本同比降了15%，全公司表彰。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购成本分析 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/</link><description>Recent content in 采购成本分析 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本分析做了3年，我发现90%的人只会算单价</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</guid><description>&lt;h2 id="你的采购成本分析可能全是废话">你的采购成本分析，可能全是废话&lt;/h2>
+&lt;p>老板说：&amp;ldquo;把采购成本降10%。&amp;rdquo;&lt;/p>
+&lt;p>你打开Excel，把供应商报价从高到低排一遍，选最便宜的那个，交差。&lt;/p>
+&lt;p>&lt;strong>恭喜你，你属于90%只看单价的采购。&lt;/strong>&lt;/p>
+&lt;p>但你知道你忽略了多少钱吗？一个真实的案例：&lt;/p>
+&lt;p>A供应商报价100元/件，B供应商报价95元/件。你选了B。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>B的良品率只有92%，A是99%&lt;/li>
+&lt;li>B的交期不稳定，经常加急运费&lt;/li>
+&lt;li>B的售后响应3天，A是当天&lt;/li>
+&lt;li>B用了8个月开始出质量问题，返工成本爆炸&lt;/li>
+&lt;/ul>
+&lt;p>一年下来，B的实际总成本比A&lt;strong>高出23%&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>单价便宜5块，总成本多花28块。&lt;/strong> 这就是只看单价的代价。&lt;/p>
+&lt;h2 id="单价之外的6大隐藏成本">单价之外的6大隐藏成本&lt;/h2>
+&lt;h3 id="1-质量成本">1. 质量成本&lt;/h3>
+&lt;p>不良品率每高1%，你的隐性成本包括：&lt;/p>
+&lt;ul>
+&lt;li>返工/返修人工&lt;/li>
+&lt;li>客户退货和赔偿&lt;/li>
+&lt;li>停线等待物料&lt;/li>
+&lt;li>品质检验追加频次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>公式&lt;/strong>：质量成本 = 不良率 × (返工成本 + 报废成本 + 客诉成本)&lt;/p>
+&lt;h3 id="2-交期成本">2. 交期成本&lt;/h3>
+&lt;p>交期不稳定意味着：&lt;/p>
+&lt;ul>
+&lt;li>安全库存要备更多&lt;/li>
+&lt;li>加急运输费（空运代替海运）&lt;/li>
+&lt;li>产线停工等待&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一次空运代替海运，多出来的运费可能抵消你一整年的降价空间。&lt;/strong>&lt;/p>
+&lt;h3 id="3-库存持有成本">3. 库存持有成本&lt;/h3>
+&lt;p>便宜但交期长的供应商，逼你多备库存。库存持有成本通常按年化20%-30%算：&lt;/p>
+&lt;ul>
+&lt;li>资金占用&lt;/li>
+&lt;li>仓储空间&lt;/li>
+&lt;li>损耗贬值&lt;/li>
+&lt;li>过期报废&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-管理成本">4. 管理成本&lt;/h3>
+&lt;p>有些供应商看着便宜，但管理成本高得离谱：&lt;/p>
+&lt;ul>
+&lt;li>天天催货&lt;/li>
+&lt;li>频繁来料检验&lt;/li>
+&lt;li>供应商审核出差&lt;/li>
+&lt;li>持续改善会议&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你的时间不是免费的。&lt;/strong>&lt;/p>
+&lt;h3 id="5-转换成本">5. 转换成本&lt;/h3>
+&lt;p>换供应商不是零成本：&lt;/p>
+&lt;ul>
+&lt;li>样品验证（至少3个月）&lt;/li>
+&lt;li>产线调试&lt;/li>
+&lt;li>客户重新认证&lt;/li>
+&lt;li>双源过渡期的价格劣势&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-风险成本">6. 风险成本&lt;/h3>
+&lt;p>最低价往往意味着最低的冗余：&lt;/p>
+&lt;ul>
+&lt;li>单一来源风险&lt;/li>
+&lt;li>供应商经营不稳定&lt;/li>
+&lt;li>地缘政治或物流中断&lt;/li>
+&lt;/ul>
+&lt;h2 id="tco采购成本分析的正确姿势">TCO：采购成本分析的正确姿势&lt;/h2>
+&lt;p>&lt;strong>TCO（Total Cost of Ownership，总拥有成本）&lt;/strong> 才是你该看的。&lt;/p></description></item><item><title>采购成本砍了15%，利润反降？你砍错了地方还不知道</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis/</guid><description>&lt;p>去年年底，我一个做家电的朋友拿了年度降本奖——采购成本同比降了15%，全公司表彰。&lt;/p>
 &lt;p>不到三个月，售后部门的数据出来了：退货率从4.7%涨到了9.2%。维修成本涨了一倍。客户投诉量直接翻番。&lt;/p>
 &lt;p>他跑来找我，说算了一笔总账：采购省了800万，但售后多花了1200万。净亏400万。&lt;/p>
 &lt;p>然后问我一句话：&amp;ldquo;我到底哪里做错了？&amp;rdquo;&lt;/p>

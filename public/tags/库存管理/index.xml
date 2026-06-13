@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>条码管理做了3年，我才发现之前全做错了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</guid><description>&lt;h2 id="条码管理看着简单做对的人不到10">条码管理：看着简单，做对的人不到10%&lt;/h2>
+&lt;p>条码管理有多基础？几乎所有仓库都在用。&lt;/p>
+&lt;p>但条码管理做对的仓库有多少？&lt;strong>不到10%。&lt;/strong>&lt;/p>
+&lt;p>怎么判断你做没做对？3个问题：&lt;/p>
+&lt;ol>
+&lt;li>你的条码有重复的吗？&lt;/li>
+&lt;li>扫码后需要手工补录信息吗？&lt;/li>
+&lt;li>你有&amp;quot;扫不上&amp;quot;的情况吗？&lt;/li>
+&lt;/ol>
+&lt;p>如果任何一个答案是&amp;quot;有&amp;quot;，你的条码管理就是错的。&lt;/p>
+&lt;h2 id="错误一一物多码">错误一：一物多码&lt;/h2>
+&lt;p>同一个物料，3个编码：&lt;/p>
+&lt;ul>
+&lt;li>ERP里一个码&lt;/li>
+&lt;li>WMS里一个码&lt;/li>
+&lt;li>供应商自己贴的码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：收货扫供应商码 → 系统不认 → 手工匹配 → 搞错 → 库存对不上&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，全系统统一&lt;/li>
+&lt;li>供应商送货必须贴你的条码（在PO里约定好）&lt;/li>
+&lt;li>如果供应商贴不了，收货时统一打印替换&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一物一码，这是条码管理的第一原则。&lt;/strong>&lt;/p>
+&lt;h2 id="错误二条码只管入库不管出库">错误二：条码只管入库不管出库&lt;/h2>
+&lt;p>很多仓库的条码管理是这样的：&lt;/p>
+&lt;ul>
+&lt;li>入库：扫码登记 ✅&lt;/li>
+&lt;li>上架：系统分配库位，扫码确认 ✅&lt;/li>
+&lt;li>拣货：打印纸质拣货单，按单找货 ❌&lt;/li>
+&lt;li>出库：手工确认 ❌&lt;/li>
+&lt;/ul>
+&lt;p>入库扫了码，出库不扫码，&lt;strong>中间的库存数据就是虚的。&lt;/strong>&lt;/p>
+&lt;p>你入库扫码100件，出库不扫码出了80件，系统还显示100件。&lt;strong>库存差异就是这么来的。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>拣货扫码确认&lt;/li>
+&lt;li>复核扫码验证&lt;/li>
+&lt;li>出库扫码扣减&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>全程闭环，一扫到底。&lt;/strong>&lt;/p>
+&lt;p>有人说：拣货扫码太慢了。&lt;/p>
+&lt;p>说这话的人没算过账：一次库存差异造成的损失（找货时间+盘点时间+缺货损失），够你扫码扫一年。&lt;/p>
+&lt;h2 id="错误三条码打印管理混乱">错误三：条码打印管理混乱&lt;/h2>
+&lt;p>条码打印看似小事，实际是大坑：&lt;/p>
+&lt;ul>
+&lt;li>打印机型号不统一，标签尺寸规格不同&lt;/li>
+&lt;li>碳带质量差，条码3个月后褪色扫不上&lt;/li>
+&lt;li>标签贴的位置不统一，有的贴正面有的贴侧面&lt;/li>
+&lt;li>补打的条码没有关联原始批次信息&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 统一标签规格&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标准箱标签：100mm×60mm&lt;/li>
+&lt;li>小件标签：40mm×20mm&lt;/li>
+&lt;li>栈板标签：150mm×100mm&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 规范贴标位置&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>箱子：右上角离边5cm&lt;/li>
+&lt;li>托盘：正面中间偏上&lt;/li>
+&lt;li>零件：最大面的右下角&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 碳带和纸张质量&lt;/strong>&lt;/p>
+&lt;p>别省这个钱。差的碳带打印出来的条码3个月就模糊，好的碳带可以用2年。&lt;/p>
+&lt;p>一条碳带差价5块钱，一次扫码失败导致的差错成本500块。&lt;strong>100倍的差距。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>4. 补打规则&lt;/strong>&lt;/p>
+&lt;p>补打条码必须：&lt;/p></description></item><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
 &lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
 &lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
 &lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>

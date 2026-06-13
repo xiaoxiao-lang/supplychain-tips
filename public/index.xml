@@ -1,4 +1,760 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
+&lt;p>提到RFID，你肯定听过两种声音：&lt;/p>
+&lt;p>&lt;strong>甲方&lt;/strong>：&amp;ldquo;RFID太贵了，一个标签1块钱，我们10万个SKU，光标签就10万，还有读写器、天线、软件，上百万的投入，3年收不回成本。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>乙方&lt;/strong>：&amp;ldquo;RFID是仓储的未来，不用RFID的仓库就是落后的，人力成本越来越高，不上RFID迟早被淘汰。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>两个都对，也两个都不完全对。&lt;/strong>&lt;/p>
+&lt;p>RFID该不该上，取决于你的场景。我看过6个真实案例，有赚回来的，有亏到底裤的，给你一个参考。&lt;/p>
+&lt;h2 id="案例1服装仓库该上">案例1：服装仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某服装电商，SKU 8000+，日发5000单，季节性强。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点一次3天，一年4次，每次停发2天&lt;/li>
+&lt;li>找货平均5分钟/件&lt;/li>
+&lt;li>错发率2.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>盘点4小时，不用停发&lt;/li>
+&lt;li>找货30秒&lt;/li>
+&lt;li>错发率0.3%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：标签+设备+软件，120万
+&lt;strong>回报&lt;/strong>：人工成本降40万/年，盘点损失降15万/年，错发赔偿降8万/年
+&lt;strong>回本周期&lt;/strong>：约2年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ SKU多、体积小、高周转——RFID的黄金场景&lt;/p>
+&lt;h2 id="案例2汽车零部件该上">案例2：汽车零部件——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某汽配仓库，SKU 12000+，体积大，价值高。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找一个零件平均15分钟&lt;/li>
+&lt;li>库存准确率87%&lt;/li>
+&lt;li>产线因缺件停线，每月2-3次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>找零件2分钟&lt;/li>
+&lt;li>库存准确率99.2%&lt;/li>
+&lt;li>停线事件降到半年1次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>投入&lt;/strong>：200万（含重型标签和工业级读写器）
+&lt;strong>回报&lt;/strong>：停线损失减少200万/年，人工节省60万/年
+&lt;strong>回本周期&lt;/strong>：不到1年&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 高价值、找货难、停线代价大——ROI极高&lt;/p>
+&lt;h2 id="案例3图书仓库该上">案例3：图书仓库——该上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某图书仓库，SKU 50000+，薄利多销。&lt;/p>
+&lt;p>&lt;strong>上RFID前&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点耗时5天&lt;/li>
+&lt;li>库存差异率3%&lt;/li>
+&lt;li>拣货效率低&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>上RFID后&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>年盘点1天&lt;/li>
+&lt;li>库存差异率0.5%&lt;/li>
+&lt;li>批量扫描，效率提升3倍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结论&lt;/strong>：✅ 超多SKU、小体积、标准化程度高——天然适合&lt;/p>
+&lt;h2 id="案例4建筑材料仓库别上">案例4：建筑材料仓库——别上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某建材仓库，SKU 2000，体积大，金属和液体多。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>金属材料严重干扰RFID信号&lt;/li>
+&lt;li>大件商品贴标签容易脱落&lt;/li>
+&lt;li>SKU少，条码完全够用&lt;/li>
+&lt;li>盘点频率低（半年1次）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：投入80万，效果不如条码+手持终端。ROI为负。&lt;/p>
+&lt;p>&lt;strong>结论&lt;/strong>：❌ 金属环境、大件、SKU少——RFID是浪费钱&lt;/p>
+&lt;h2 id="案例5食品冷链谨慎上">案例5：食品冷链——谨慎上&lt;/h2>
+&lt;p>&lt;strong>背景&lt;/strong>：某生鲜冷链仓，SKU 3000，温控-18°C到4°C。&lt;/p>
+&lt;p>&lt;strong>问题&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>RFID标签在极低温下读取率骤降（从99%到70%）&lt;/li>
+&lt;li>冷藏环境水汽影响天线性能&lt;/li>
+&lt;li>食品保质期短，标签来不及回收就过期了&lt;/li>
+&lt;li>一次性标签成本无法摊薄&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：试点3个月后放弃，改用条码+语音拣选。&lt;/p></description></item><item><title>WMS系统上了半年还是一团糟？3个原因你肯定中招了</title><link>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</guid><description>&lt;h2 id="wms上线半年老板问我钱花哪了">WMS上线半年，老板问我&amp;quot;钱花哪了&amp;quot;&lt;/h2>
+&lt;p>花80万上了WMS，半年后：&lt;/p>
+&lt;ul>
+&lt;li>找货还是靠人肉&lt;/li>
+&lt;li>库存数据还是不准&lt;/li>
+&lt;li>拣货效率没提升反而降了&lt;/li>
+&lt;li>仓库人员天天骂系统难用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>80万打水漂了？&lt;/strong>&lt;/p>
+&lt;p>不，80万没打水漂，&lt;strong>是你没用对。&lt;/strong>&lt;/p>
+&lt;p>我见过太多WMS上线后一团糟的案例，90%不是系统的问题，是这3个原因。&lt;/p>
+&lt;h2 id="原因一基础数据没洗就上线">原因一：基础数据没洗就上线&lt;/h2>
+&lt;p>WMS是&amp;quot;垃圾进垃圾出&amp;quot;的典型系统。你的物料主数据如果是这样的：&lt;/p>
+&lt;ul>
+&lt;li>同一个物料3个编码&lt;/li>
+&lt;li>部分物料没有尺寸重量&lt;/li>
+&lt;li>库位信息一半是旧的&lt;/li>
+&lt;li>批次管理规则不统一&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>那你上什么系统都白搭。&lt;/strong>&lt;/p>
+&lt;p>WMS上线前必须做的3件事：&lt;/p>
+&lt;p>&lt;strong>1. 物料主数据清洗&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，不能重复&lt;/li>
+&lt;li>每个物料必须有：长宽高、重量、ABC分类、存储条件&lt;/li>
+&lt;li>淘汰不再使用的编码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 库位重新规划&lt;/strong>&lt;/p>
+&lt;p>WMS的核心能力之一就是库位管理。但如果你连库位都没有标准化：&lt;/p>
+&lt;ul>
+&lt;li>库位编码规则不统一&lt;/li>
+&lt;li>混放区没有定义&lt;/li>
+&lt;li>拣货区和存储区没分开&lt;/li>
+&lt;/ul>
+&lt;p>WMS根本无法进行智能库位推荐。&lt;/p>
+&lt;p>&lt;strong>3. 业务流程梳理&lt;/strong>&lt;/p>
+&lt;p>先想清楚：&lt;/p>
+&lt;ul>
+&lt;li>收货流程是什么？是否需要质检？质检不通过怎么处理？&lt;/li>
+&lt;li>上架策略是什么？按重量？按周转率？按品类？&lt;/li>
+&lt;li>拣货策略是什么？批量拣？单件拣？波次拣？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些不是系统决定的，是你决定的。系统只是执行你的策略。&lt;/strong>&lt;/p>
+&lt;h2 id="原因二把wms当excel用">原因二：把WMS当Excel用&lt;/h2>
+&lt;p>这是最常见的坑。&lt;/p>
+&lt;p>WMS上线了，但仓库人员还是这样用：&lt;/p>
+&lt;ul>
+&lt;li>手动录入出入库数据（而不是扫码）&lt;/li>
+&lt;li>在系统外用Excel记一版，系统里再录一版&lt;/li>
+&lt;li>库存调整用手工单，事后补录&lt;/li>
+&lt;li>系统提示的库位不放，按自己习惯放&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这跟没上WMS有什么区别？&lt;/strong>&lt;/p>
+&lt;p>WMS的价值在于&lt;strong>实时、自动、闭环&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>扫码收货 → 系统自动分配库位 → 扫码确认上架 → 库存实时更新&lt;/li>
+&lt;li>订单下达 → 系统生成拣货路径 → 扫码拣货 → 扫码复核 → 出库&lt;/li>
+&lt;li>全程扫码，零人工录入&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果不用扫码，WMS就是80万的Excel。&lt;/strong>&lt;/p>
+&lt;p>为什么员工不用扫码？两个原因：&lt;/p>
+&lt;ol>
+&lt;li>扫码枪不好用，经常断连、扫码慢&lt;/li>
+&lt;li>扫码流程比手工麻烦（步骤太多）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>解决方案&lt;/strong>：简化操作步骤，换好用的PDA，把扫码步骤从7步减到3步。&lt;/p>
+&lt;h2 id="原因三没有盘点策略">原因三：没有盘点策略&lt;/h2>
+&lt;p>WMS上线后，很多人以为库存数据就是准的了。&lt;/p>
+&lt;p>&lt;strong>想多了。&lt;/strong>&lt;/p></description></item><item><title>供应商评估做了3年全白费？3步让你的评估真正有用</title><link>https://supplychain-tips.pages.dev/posts/supplier-evaluation-that-actually-works/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-evaluation-that-actually-works/</guid><description>&lt;h2 id="供应商评估表填了3年全是废纸">供应商评估表填了3年，全是废纸？&lt;/h2>
+&lt;p>你有没有这种感觉：供应商评估年年做，但该出问题还是出问题。&lt;/p>
+&lt;p>评估表上一堆指标，每个供应商打完分，85分、88分、92分。看起来都挺好，但实际上：&lt;/p>
+&lt;ul>
+&lt;li>质量出了问题，评估表上质量分还是90+&lt;/li>
+&lt;li>交期延迟3次，评估表上交期分没怎么变&lt;/li>
+&lt;li>价格比同行高20%，评估表上价格分还行&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>评估表上全是绿灯，现实全是红灯。&lt;/strong>&lt;/p>
+&lt;p>为什么？因为你的评估表大概率犯了3个错误：&lt;/p>
+&lt;ol>
+&lt;li>指标太多，每个权重太低，拉不开差距&lt;/li>
+&lt;li>数据全靠人工打分，没有客观数据支撑&lt;/li>
+&lt;li>评估结果跟采购决策脱节&lt;/li>
+&lt;/ol>
+&lt;h2 id="第一步指标砍到5个以内">第一步：指标砍到5个以内&lt;/h2>
+&lt;p>别搞20个指标的评估表了，你根本看不过来。&lt;/p>
+&lt;p>&lt;strong>核心5个指标&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>指标&lt;/th>
+ &lt;th>权重&lt;/th>
+ &lt;th>数据来源&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>质量合格率&lt;/td>
+ &lt;td>30%&lt;/td>
+ &lt;td>来料检验系统&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>准时交货率&lt;/td>
+ &lt;td>25%&lt;/td>
+ &lt;td>ERP交期数据&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>价格竞争力&lt;/td>
+ &lt;td>20%&lt;/td>
+ &lt;td>市场比价&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>响应速度&lt;/td>
+ &lt;td>15%&lt;/td>
+ &lt;td>异常处理记录&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>风险等级&lt;/td>
+ &lt;td>10%&lt;/td>
+ &lt;td>财务/合规审查&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>为什么是这5个？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>质量&lt;/strong>：一票否决，出问题损失最大&lt;/li>
+&lt;li>&lt;strong>交期&lt;/strong>：直接影响生产计划和库存&lt;/li>
+&lt;li>&lt;strong>价格&lt;/strong>：不用解释&lt;/li>
+&lt;li>&lt;strong>响应&lt;/strong>：出问题后解决问题的速度，比不出现问题更重要&lt;/li>
+&lt;li>&lt;strong>风险&lt;/strong>：供应商倒闭、合规问题，能要你的命&lt;/li>
+&lt;/ul>
+&lt;p>5个指标，每个权重够高，&lt;strong>真正拉开差距&lt;/strong>。&lt;/p>
+&lt;h2 id="第二步数据系统自动采集不打分">第二步：数据系统自动采集，不打分&lt;/h2>
+&lt;p>&amp;ldquo;人工打分&amp;quot;是供应商评估最大的毒瘤。&lt;/p>
+&lt;p>为什么？&lt;/p>
+&lt;ul>
+&lt;li>人情分：跟供应商关系好的，分总不会低&lt;/li>
+&lt;li>懒惰分：懒得核实，按印象打分&lt;/li>
+&lt;li>从众分：去年打85，今年也打85&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>解决方案：数据自动采集。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>质量合格率 → 从MES/QIS系统自动取&lt;/li>
+&lt;li>准时交货率 → 从ERP自动计算（PO交期vs实际交货日期）&lt;/li>
+&lt;li>价格竞争力 → 抓取市场公开价自动比对&lt;/li>
+&lt;li>响应速度 → 从异常工单系统取（从提报到解决的时间）&lt;/li>
+&lt;li>风险等级 → 财务数据+天眼查/企查查自动评级&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>人只负责审核和判断，不负责打分。&lt;/strong>&lt;/p>
+&lt;p>如果某个指标没有系统数据，那就先不要这个指标，或者用简化版：&lt;/p>
+&lt;ul>
+&lt;li>没有MES系统 → 用来料检验批次合格率代替&lt;/li>
+&lt;li>没有异常工单 → 用电话/邮件响应时间代替（有记录的）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>数据不完美的评估，远好于纯人工打分的评估。&lt;/strong>&lt;/p></description></item><item><title>供应链金融3个套路，90%的中小企业被割了韭菜</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-finance-traps/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-finance-traps/</guid><description>&lt;h2 id="供应链金融到底是救星还是陷阱">供应链金融，到底是救星还是陷阱？&lt;/h2>
+&lt;p>你公司账上有500万应收账款，但现金流快断了。银行不贷款，供应商催款，员工等着发工资。&lt;/p>
+&lt;p>这时候有人跟你说：做供应链金融吧，拿应收账款融资，3天放款。&lt;/p>
+&lt;p>你一听，这不就是救命的吗？&lt;/p>
+&lt;p>&lt;strong>等等。&lt;/strong> 先别急着签，看完这篇文章再说。&lt;/p>
+&lt;h2 id="套路一利率看起来低实际成本吓死人">套路一：利率看起来低，实际成本吓死人&lt;/h2>
+&lt;p>&amp;ldquo;年化6%，比银行还低！&amp;quot;——这是供应链金融最常见的广告词。&lt;/p>
+&lt;p>但你仔细算算：&lt;/p>
+&lt;ul>
+&lt;li>贴现费：2%-3%&lt;/li>
+&lt;li>平台服务费：1%-2%&lt;/li>
+&lt;li>担保费：1%-3%&lt;/li>
+&lt;li>尽调费、开户费、管理费……加起来又1%-2%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>实际年化成本15%-25%&lt;/strong>，比银行高3-5倍。&lt;/p>
+&lt;p>这就是所谓的&amp;quot;低利率&amp;quot;陷阱：表面利率低，但各种费用加起来，你的融资成本直逼民间借贷。&lt;/p>
+&lt;p>一个做汽配的朋友，拿100万应收账款去融资，到手72万，3个月后还款100万。实际年化成本？&lt;strong>你算算就知道了。&lt;/strong>&lt;/p>
+&lt;h2 id="套路二核心企业信用被滥用">套路二：核心企业信用被滥用&lt;/h2>
+&lt;p>供应链金融的核心逻辑是：&lt;strong>核心企业信用传导到上游中小企业&lt;/strong>。&lt;/p>
+&lt;p>但现实是什么？&lt;/p>
+&lt;ul>
+&lt;li>核心企业开出的商票，银行认可度参差不齐&lt;/li>
+&lt;li>有些平台拿核心企业名义做担保，实际是自有资金放贷&lt;/li>
+&lt;li>核心企业一句话&amp;quot;这笔款我不认&amp;rdquo;，你的融资就黄了&lt;/li>
+&lt;/ul>
+&lt;p>最狠的是：&lt;strong>某些核心企业故意拉长账期到180天甚至360天，然后&amp;quot;贴心&amp;quot;地给你推荐他们的供应链金融平台。&lt;/strong>&lt;/p>
+&lt;p>你没看错——先拖欠你货款，再高息借钱给你。左手欠你钱，右手赚你利息。&lt;/p>
+&lt;p>这操作，稳赚不赔。&lt;/p>
+&lt;h2 id="套路三数据被截胡议价权归零">套路三：数据被截胡，议价权归零&lt;/h2>
+&lt;p>做供应链金融要什么？&lt;strong>数据。&lt;/strong>&lt;/p>
+&lt;p>你的订单、库存、物流、结算数据，全部要上传平台。&lt;/p>
+&lt;p>你以为只是用来做风控？&lt;/p>
+&lt;p>想多了：&lt;/p>
+&lt;ul>
+&lt;li>平台分析你的利润率，下次给你报更高的融资价格&lt;/li>
+&lt;li>你的供应链信息被平台掌握，核心企业可以直接绕过你找下家&lt;/li>
+&lt;li>你所有的经营数据变成平台的&amp;quot;资产&amp;quot;，用来做更多生意&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你在融资，平台在收割你的数据资产。&lt;/strong>&lt;/p>
+&lt;h2 id="那到底该不该做">那到底该不该做？&lt;/h2>
+&lt;p>别误会，供应链金融本身是好东西，关键看你怎么用：&lt;/p>
+&lt;p>&lt;strong>应该做的情况：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>成本算清楚，总年化在10%以内&lt;/li>
+&lt;li>核心企业信用真实可靠，不是&amp;quot;假担保&amp;quot;&lt;/li>
+&lt;li>数据只用于风控，不泄露给第三方&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>千万避开的情况：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>各种费用加起来超过15%年化&lt;/li>
+&lt;li>核心企业推荐&amp;quot;自家平台&amp;quot;，账期还特别长&lt;/li>
+&lt;li>合同里有&amp;quot;数据可商用&amp;quot;条款&lt;/li>
+&lt;/ul>
+&lt;h2 id="3条铁律">3条铁律&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>算总成本&lt;/strong>：别看表面利率，所有费用加一起才是你的真实成本&lt;/li>
+&lt;li>&lt;strong>看核心企业&lt;/strong>：信用传导是否真实？账期是否合理？有没有利益冲突？&lt;/li>
+&lt;li>&lt;strong>护数据&lt;/strong>：融资协议里必须明确数据用途，禁止商用&lt;/li>
+&lt;/ol>
+&lt;p>供应链金融不是不能做，是别被&amp;quot;低利率&amp;quot;三个字冲昏了头。你的应收账款是你的资产，不是别人割韭菜的工具。&lt;/p></description></item><item><title>最后一公里配送烧了200万，我才搞懂这3件事</title><link>https://supplychain-tips.pages.dev/posts/last-mile-delivery-cost-reduction/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/last-mile-delivery-cost-reduction/</guid><description>&lt;h2 id="最后一公里物流成本的黑洞">最后一公里：物流成本的&amp;quot;黑洞&amp;quot;&lt;/h2>
+&lt;p>你有没有算过，一单物流从仓库到客户手里，最后一公里占了多少成本？&lt;/p>
+&lt;p>&lt;strong>答案是50%以上。&lt;/strong>&lt;/p>
+&lt;p>一单总成本15块，最后一公里8块。100公里干线运输5块，最后3公里8块。&lt;/p>
+&lt;p>这合理吗？不合理。但这是现实。&lt;/p>
+&lt;p>我们公司做同城配送，去年最后一公里烧了200万，老板天天骂。我花了半年把成本砍了35%，靠的就是搞懂了3件事。&lt;/p>
+&lt;h2 id="第一件路线不是最近就好">第一件：路线不是&amp;quot;最近&amp;quot;就好&lt;/h2>
+&lt;p>大多数人的直觉是：路线越短，成本越低。&lt;/p>
+&lt;p>&lt;strong>错。&lt;/strong>&lt;/p>
+&lt;p>路线优化的核心不是最短距离，是&lt;strong>最少总时间&lt;/strong>。&lt;/p>
+&lt;p>为什么？因为配送员的成本是按时间算的，不是按距离。&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;ul>
+&lt;li>路线A：15公里，但经过3个堵点，耗时50分钟&lt;/li>
+&lt;li>路线B：20公里，全程畅通，耗时35分钟&lt;/li>
+&lt;/ul>
+&lt;p>选B。虽然多跑了5公里，但省了15分钟。&lt;/p>
+&lt;p>&lt;strong>15分钟能多送2单。&lt;/strong> 一天下来，同样的配送员能多跑30%的量。&lt;/p>
+&lt;p>实操建议：&lt;/p>
+&lt;ul>
+&lt;li>用导航API做路线规划，别靠经验&lt;/li>
+&lt;li>把时间窗约束加进去（客户要求的配送时段）&lt;/li>
+&lt;li>高峰期避堵比省距离重要100倍&lt;/li>
+&lt;/ul>
+&lt;h2 id="第二件密度才是王道">第二件：密度才是王道&lt;/h2>
+&lt;p>你有没有发现：同样一个配送员，在CBD区域一天能送120单，在郊区只能送40单？&lt;/p>
+&lt;p>&lt;strong>不是配送员偷懒，是订单密度不同。&lt;/strong>&lt;/p>
+&lt;p>最后一公里的成本，本质上是由&lt;strong>单均服务面积&lt;/strong>决定的：&lt;/p>
+&lt;ul>
+&lt;li>密度高的区域：1平方公里50单，单均成本低&lt;/li>
+&lt;li>密度低的区域：1平方公里5单，单均成本高&lt;/li>
+&lt;/ul>
+&lt;p>所以降本的关键不是让每个配送员跑更快，是&lt;strong>让每个配送员的覆盖区域内订单更多&lt;/strong>。&lt;/p>
+&lt;p>3个提升密度的方法：&lt;/p>
+&lt;p>&lt;strong>1. 自提点/驿站&lt;/strong>&lt;/p>
+&lt;p>把散单集中到一个点，一个配送员一次放下30单，而不是跑30个地址。自提点的成本大约是1-2元/单，上门配送8-12元/单。&lt;/p>
+&lt;p>&lt;strong>省70%。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2. 时段集中&lt;/strong>&lt;/p>
+&lt;p>把同一个区域的订单集中到一个时段配送，而不是分散在全天。一趟出门送完一个区域，减少空跑。&lt;/p>
+&lt;p>&lt;strong>3. 逆向合并&lt;/strong>&lt;/p>
+&lt;p>如果配送区域有退货/取件需求，把取件和配送合并到同一条路线。一趟路，两份收入。&lt;/p>
+&lt;h2 id="第三件不是所有单都值得送">第三件：不是所有单都值得送&lt;/h2>
+&lt;p>这是最反直觉但最有效的降本方法。&lt;/p>
+&lt;p>&lt;strong>低价值+远距离的订单，你每送一单都在亏钱。&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;ul>
+&lt;li>配送成本8元/单&lt;/li>
+&lt;li>客单价25元，毛利5元&lt;/li>
+&lt;li>净亏3元/单&lt;/li>
+&lt;/ul>
+&lt;p>这种单子送得越多，亏得越多。&lt;/p>
+&lt;p>&lt;strong>解决方案&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>起送门槛&lt;/strong>：低于39元不配送，或者加收配送费&lt;/li>
+&lt;li>&lt;strong>分区定价&lt;/strong>：远区域加收配送费，近区域免配送费&lt;/li>
+&lt;li>&lt;strong>引导自提&lt;/strong>：低客单价订单引导到自提点，给2元优惠券&lt;/li>
+&lt;/ol>
+&lt;p>不是不服务客户，是&lt;strong>别用亏损的方式服务客户&lt;/strong>。&lt;/p>
+&lt;h2 id="一个被忽略的隐性成本">一个被忽略的隐性成本&lt;/h2>
+&lt;p>最后一公里还有个大坑：&lt;strong>配送失败。&lt;/strong>&lt;/p>
+&lt;p>客户不在家 → 二次配送 → 又不在家 → 三次配送 → 退回仓库&lt;/p>
+&lt;p>一次配送8元，三次加退回就是32元。而你的利润可能只有5元。&lt;/p>
+&lt;p>&lt;strong>降低配送失败率的3招：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>配送前30分钟短信/电话确认&lt;/li>
+&lt;li>提供预约时段选择（2小时窗口）&lt;/li>
+&lt;li>默认投放自提点，需上门另行标注&lt;/li>
+&lt;/ol>
+&lt;p>配送失败率每降1个百分点，年省的成本比你砍10个配送员的工资还多。&lt;/p>
+&lt;h2 id="总结">总结&lt;/h2>
+&lt;p>最后一公里降本的核心逻辑：&lt;/p></description></item><item><title>条码管理做了3年，我才发现之前全做错了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</guid><description>&lt;h2 id="条码管理看着简单做对的人不到10">条码管理：看着简单，做对的人不到10%&lt;/h2>
+&lt;p>条码管理有多基础？几乎所有仓库都在用。&lt;/p>
+&lt;p>但条码管理做对的仓库有多少？&lt;strong>不到10%。&lt;/strong>&lt;/p>
+&lt;p>怎么判断你做没做对？3个问题：&lt;/p>
+&lt;ol>
+&lt;li>你的条码有重复的吗？&lt;/li>
+&lt;li>扫码后需要手工补录信息吗？&lt;/li>
+&lt;li>你有&amp;quot;扫不上&amp;quot;的情况吗？&lt;/li>
+&lt;/ol>
+&lt;p>如果任何一个答案是&amp;quot;有&amp;quot;，你的条码管理就是错的。&lt;/p>
+&lt;h2 id="错误一一物多码">错误一：一物多码&lt;/h2>
+&lt;p>同一个物料，3个编码：&lt;/p>
+&lt;ul>
+&lt;li>ERP里一个码&lt;/li>
+&lt;li>WMS里一个码&lt;/li>
+&lt;li>供应商自己贴的码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>结果&lt;/strong>：收货扫供应商码 → 系统不认 → 手工匹配 → 搞错 → 库存对不上&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，全系统统一&lt;/li>
+&lt;li>供应商送货必须贴你的条码（在PO里约定好）&lt;/li>
+&lt;li>如果供应商贴不了，收货时统一打印替换&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一物一码，这是条码管理的第一原则。&lt;/strong>&lt;/p>
+&lt;h2 id="错误二条码只管入库不管出库">错误二：条码只管入库不管出库&lt;/h2>
+&lt;p>很多仓库的条码管理是这样的：&lt;/p>
+&lt;ul>
+&lt;li>入库：扫码登记 ✅&lt;/li>
+&lt;li>上架：系统分配库位，扫码确认 ✅&lt;/li>
+&lt;li>拣货：打印纸质拣货单，按单找货 ❌&lt;/li>
+&lt;li>出库：手工确认 ❌&lt;/li>
+&lt;/ul>
+&lt;p>入库扫了码，出库不扫码，&lt;strong>中间的库存数据就是虚的。&lt;/strong>&lt;/p>
+&lt;p>你入库扫码100件，出库不扫码出了80件，系统还显示100件。&lt;strong>库存差异就是这么来的。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>拣货扫码确认&lt;/li>
+&lt;li>复核扫码验证&lt;/li>
+&lt;li>出库扫码扣减&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>全程闭环，一扫到底。&lt;/strong>&lt;/p>
+&lt;p>有人说：拣货扫码太慢了。&lt;/p>
+&lt;p>说这话的人没算过账：一次库存差异造成的损失（找货时间+盘点时间+缺货损失），够你扫码扫一年。&lt;/p>
+&lt;h2 id="错误三条码打印管理混乱">错误三：条码打印管理混乱&lt;/h2>
+&lt;p>条码打印看似小事，实际是大坑：&lt;/p>
+&lt;ul>
+&lt;li>打印机型号不统一，标签尺寸规格不同&lt;/li>
+&lt;li>碳带质量差，条码3个月后褪色扫不上&lt;/li>
+&lt;li>标签贴的位置不统一，有的贴正面有的贴侧面&lt;/li>
+&lt;li>补打的条码没有关联原始批次信息&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 统一标签规格&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>标准箱标签：100mm×60mm&lt;/li>
+&lt;li>小件标签：40mm×20mm&lt;/li>
+&lt;li>栈板标签：150mm×100mm&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 规范贴标位置&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>箱子：右上角离边5cm&lt;/li>
+&lt;li>托盘：正面中间偏上&lt;/li>
+&lt;li>零件：最大面的右下角&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 碳带和纸张质量&lt;/strong>&lt;/p>
+&lt;p>别省这个钱。差的碳带打印出来的条码3个月就模糊，好的碳带可以用2年。&lt;/p>
+&lt;p>一条碳带差价5块钱，一次扫码失败导致的差错成本500块。&lt;strong>100倍的差距。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>4. 补打规则&lt;/strong>&lt;/p>
+&lt;p>补打条码必须：&lt;/p></description></item><item><title>物流外包3年亏了200万，3个坑我替你踩了</title><link>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-hidden-traps/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-outsourcing-hidden-traps/</guid><description>&lt;h2 id="物流外包你以为省钱了">物流外包，你以为省钱了？&lt;/h2>
+&lt;p>老板说：&amp;ldquo;物流外包吧，专业的事交给专业的人，我们还省了自建车队的钱。&amp;rdquo;&lt;/p>
+&lt;p>听起来很美。但3年下来，我们物流外包不仅没省钱，还亏了200万。&lt;/p>
+&lt;p>&lt;strong>不是我蠢，是物流外包的水比你想的深得多。&lt;/strong>&lt;/p>
+&lt;h2 id="坑一合同里的隐形加价">坑一：合同里的&amp;quot;隐形加价&amp;quot;&lt;/h2>
+&lt;p>物流外包的报价单看着很清楚：&lt;/p>
+&lt;ul>
+&lt;li>干线运输：X元/吨公里&lt;/li>
+&lt;li>仓储：X元/平米/天&lt;/li>
+&lt;li>配送：X元/单&lt;/li>
+&lt;/ul>
+&lt;p>但你签完合同后才发现：&lt;/p>
+&lt;p>&lt;strong>1. 燃油附加费&lt;/strong>&lt;/p>
+&lt;p>合同里写着&amp;quot;燃油附加费按市场价浮动&amp;quot;。结果国际油价涨10%，附加费涨15%。你问为什么？人家说&amp;quot;浮动公式包含其他因素&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>2. 超时/超区费&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;配送时效为工作日24小时内，超区另计。&amp;quot;——超区的定义是什么？3公里外还是10公里外？没人告诉你，直到账单来了才知道。&lt;/p>
+&lt;p>&lt;strong>3. 峰谷附加费&lt;/strong>&lt;/p>
+&lt;p>双11、年货节加价30%-50%。理由是&amp;quot;临时调配资源成本上升&amp;rdquo;。&lt;/p>
+&lt;p>问题是：你的旺季就是他的旺季，你不可能不用，加价也得咬牙付。&lt;/p>
+&lt;p>&lt;strong>避坑方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>合同里明确所有附加费的触发条件和计算方式&lt;/li>
+&lt;li>旺季加价写封顶（不超过X%）&lt;/li>
+&lt;li>超区定义写清楚（附地图和距离标准）&lt;/li>
+&lt;/ul>
+&lt;h2 id="坑二kpi条款形同虚设">坑二：KPI条款形同虚设&lt;/h2>
+&lt;p>签合同时，对方拍胸脯保证：&lt;/p>
+&lt;ul>
+&lt;li>准时交货率98%&lt;/li>
+&lt;li>货损率0.1%以下&lt;/li>
+&lt;li>客诉响应2小时&lt;/li>
+&lt;/ul>
+&lt;p>但合同里的KPI条款是这样的：&lt;/p>
+&lt;p>&amp;ldquo;如服务质量未达标，双方友好协商解决。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>友好协商？意思是没达标也不罚？&lt;/strong>&lt;/p>
+&lt;p>果然，第一月准时率只有89%，货损率0.8%。找他理论，回复是&amp;quot;不可抗力因素导致，已在改善中&amp;quot;。&lt;/p>
+&lt;p>第二月还是一样。&lt;/p>
+&lt;p>&lt;strong>根本原因：没有违约罚则，KPI就是废纸。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>避坑方法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>每个KPI必须有明确的罚则（如准时率低于95%，扣当月运费的3%）&lt;/li>
+&lt;li>连续3个月不达标，有权终止合同&lt;/li>
+&lt;li>KPI数据由双方系统对接自动生成，不接受人工报告&lt;/li>
+&lt;/ul>
+&lt;h2 id="坑三把物流外包当甩手掌柜">坑三：把物流外包当&amp;quot;甩手掌柜&amp;quot;&lt;/h2>
+&lt;p>这是最贵的一个坑。&lt;/p>
+&lt;p>外包了物流后，公司内部不再有人懂物流。所有物流相关的事全部依赖外包方。&lt;/p>
+&lt;p>&lt;strong>后果&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>价格失控&lt;/strong>：你不知道市场价是多少，外包方说涨就涨，你无法判断合不合理&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>服务失控&lt;/strong>：客户投诉物流体验差，你只能转达给外包方，外包方说&amp;quot;已经在改善了&amp;quot;，然后没有然后&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>数据失控&lt;/strong>：所有物流数据在外包方系统里，你要一份报表还得求人&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>切换成本极高&lt;/strong>：想换外包方？你的仓库是他们的、系统是他们的、人员是他们的。换一次等于重建一次&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>避坑方法&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>1. 保留物流管理职能&lt;/strong>&lt;/p>
+&lt;p>至少保留2-3个人：&lt;/p>
+&lt;ul>
+&lt;li>物流经理：管外包方、看数据、做决策&lt;/li>
+&lt;li>数据分析师：分析物流成本和效率数据&lt;/li>
+&lt;li>客诉处理：第一手了解服务质量&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 数据必须自己掌握&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>要求外包方系统对接你的ERP/WMS&lt;/li>
+&lt;li>所有物流数据实时回传&lt;/li>
+&lt;li>你有自己的BI报表，不依赖外包方提供&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. 定期市场比价&lt;/strong>&lt;/p>
+&lt;p>每年至少做一次市场比价：&lt;/p>
+&lt;ul>
+&lt;li>同等服务水平，其他物流商报价多少&lt;/li>
+&lt;li>你的外包方定价是否合理&lt;/li>
+&lt;li>是否有更好的替代方案&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>4. 预留切换空间&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>合同期限不要太长（1-2年，不要3-5年）&lt;/li>
+&lt;li>仓库选址不跟外包方绑定&lt;/li>
+&lt;li>系统接口标准化，方便切换&lt;/li>
+&lt;/ul>
+&lt;h2 id="物流外包的正确姿势">物流外包的正确姿势&lt;/h2>
+&lt;p>物流外包本身没错，错的是&amp;quot;一包了之&amp;quot;的心态。&lt;/p></description></item><item><title>跨境物流亏了80万才学会的5个避坑法则</title><link>https://supplychain-tips.pages.dev/posts/cross-border-logistics-lessons-learned/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/cross-border-logistics-lessons-learned/</guid><description>&lt;h2 id="80万学费买来的教训">80万学费买来的教训&lt;/h2>
+&lt;p>去年我们做了一票东南亚的单，货值120万，利润预期15万。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>报关单证填错一个HS编码，海关扣了18天，仓储费8万&lt;/li>
+&lt;li>目的港清关慢了7天，客户拒收要求降价20%，亏24万&lt;/li>
+&lt;li>退货运费+重新包装+二次发货，又花了18万&lt;/li>
+&lt;li>汇率波动吃掉5万&lt;/li>
+&lt;li>保险条款没覆盖&amp;quot;延迟交付&amp;quot;，0赔偿&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这笔单子亏了37万，加上其他零碎损失，全年跨境物流踩坑总共80万。&lt;/strong>&lt;/p>
+&lt;p>痛定思痛，我把这些坑全整理出来，希望你别再交同样的学费。&lt;/p>
+&lt;h2 id="坑一hs编码不核实海关帮你上课">坑一：HS编码不核实，海关帮你&amp;quot;上课&amp;quot;&lt;/h2>
+&lt;p>HS编码看着就是一串数字，但它决定了：&lt;/p>
+&lt;ul>
+&lt;li>你的关税率（可能差10倍）&lt;/li>
+&lt;li>能不能退税&lt;/li>
+&lt;li>是不是需要特殊许可证&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：出货前拿样品和产品说明去海关预归类，花500块钱咨询费，省8万仓储费。&lt;/p>
+&lt;p>不要相信百度查的HS编码，不同材质、用途、加工工艺，编码可能完全不同。&lt;/p>
+&lt;h2 id="坑二cif和fob傻傻分不清">坑二：CIF和FOB傻傻分不清&lt;/h2>
+&lt;p>FOB：你只管到船上，后面的事买家操心。
+CIF：你要管到目的港，包括运费和保险。&lt;/p>
+&lt;p>很多新手觉得CIF省心，选了CIF。但问题来了：&lt;/p>
+&lt;ul>
+&lt;li>目的港的清关延误，算谁的？&lt;/li>
+&lt;li>港口拥堵产生的滞期费，谁出？&lt;/li>
+&lt;li>货到港后15天没人提，仓储费谁付？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：贸易条款谈清楚，CIF不等于&amp;quot;送到门&amp;quot;。在合同里明确：目的港后的责任边界、滞期费分摊规则、提货时限。&lt;/p>
+&lt;h2 id="坑三保险买了等于没买">坑三：保险买了等于没买&lt;/h2>
+&lt;p>你以为买了海运一切险就万事大吉？&lt;/p>
+&lt;ul>
+&lt;li>战争险？不包含&lt;/li>
+&lt;li>罢工险？不包含&lt;/li>
+&lt;li>延迟交付？不包含&lt;/li>
+&lt;li>内在缺陷？不包含&lt;/li>
+&lt;li>间接损失？不包含&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：买保险前搞清楚3件事：&lt;/p>
+&lt;ol>
+&lt;li>承保范围具体包含什么（别只看&amp;quot;一切险&amp;quot;三个字）&lt;/li>
+&lt;li>免赔额是多少&lt;/li>
+&lt;li>理赔时效和举证要求&lt;/li>
+&lt;/ol>
+&lt;p>保险不是买了就安心了，&lt;strong>买错了比不买更可怕&lt;/strong>——因为你会放松警惕。&lt;/p>
+&lt;h2 id="坑四汇率波动不动利润被偷偷吃掉">坑四：汇率波动不动，利润被偷偷吃掉&lt;/h2>
+&lt;p>去年人民币对美元波动了5%。如果你的利润率只有10%，汇率吃掉一半。&lt;/p>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>签合同时锁定汇率（远期结售汇）&lt;/li>
+&lt;li>用人民币结算（如果客户接受）&lt;/li>
+&lt;li>利润率低于15%的单子，不做汇率裸露&lt;/li>
+&lt;/ul>
+&lt;p>这不是做金融，这是&lt;strong>保护你已经赚到的钱&lt;/strong>。&lt;/p>
+&lt;h2 id="坑五目的港潜规则不了解">坑五：目的港&amp;quot;潜规则&amp;quot;不了解&lt;/h2>
+&lt;p>每个国家的港口都有自己的&amp;quot;规矩&amp;quot;：&lt;/p>
+&lt;ul>
+&lt;li>东南亚某些港口，清关要&amp;quot;加速费&amp;quot;&lt;/li>
+&lt;li>南美某些国家，进口许可证排队3个月&lt;/li>
+&lt;li>中东某些港口，周末不清关，周五算休息日&lt;/li>
+&lt;li>非洲某些港口，卸货可能排队2-3周&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>避坑法则&lt;/strong>：新市场第一次出运前，找当地货代问清楚：&lt;/p>
+&lt;ol>
+&lt;li>清关实际需要几天&lt;/li>
+&lt;li>有没有额外的&amp;quot;费用&amp;quot;&lt;/li>
+&lt;li>提货的流程和时间&lt;/li>
+&lt;/ol>
+&lt;p>100块钱的咨询，省10万的滞期费。&lt;/p>
+&lt;h2 id="跨境物流的3条铁律">跨境物流的3条铁律&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>出货前搞清规则&lt;/strong>：HS编码、贸易条款、目的港规矩，一个都不能漏&lt;/li>
+&lt;li>&lt;strong>保险别贪便宜&lt;/strong>：覆盖范围比保费重要100倍&lt;/li>
+&lt;li>&lt;strong>锁住利润&lt;/strong>：汇率、账期、退换货条款，每个都是利润黑洞&lt;/li>
+&lt;/ol>
+&lt;p>跨境物流不是一个运费的问题，是一整套风险管理。80万的学费，希望你别再交了。&lt;/p></description></item><item><title>逆向物流：退货率18%的公司，不搞等于白干</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</guid><description>&lt;h2 id="18退货率你算过成本吗">18%退货率，你算过成本吗？&lt;/h2>
+&lt;p>电商行业平均退货率15%-25%，有的品类（服装）高达30%-40%。&lt;/p>
+&lt;p>退货率18%意味着什么？&lt;/p>
+&lt;ul>
+&lt;li>每卖出100件，18件要回来&lt;/li>
+&lt;li>每件退货的逆向物流成本是正向的1.5-2倍&lt;/li>
+&lt;li>退回来的货有30%-50%无法二次销售&lt;/li>
+&lt;li>处理一件退货的人工成本是处理一件新订单的3倍&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>粗略算一下：如果你的年销售额1个亿，退货率18%，逆向物流直接吃掉你5%-8%的利润。&lt;/strong>&lt;/p>
+&lt;p>而大多数公司对逆向物流的态度是：退货就退呗，仓库处理一下就好。&lt;/p>
+&lt;p>&lt;strong>这跟把钱往水里扔没区别。&lt;/strong>&lt;/p>
+&lt;h2 id="逆向物流的3个层次">逆向物流的3个层次&lt;/h2>
+&lt;h3 id="第一层退货处理80的公司停在这里">第一层：退货处理（80%的公司停在这里）&lt;/h3>
+&lt;p>收到退货 → 检查 → 入库/报废 → 退款&lt;/p>
+&lt;p>这是最基础的操作，&lt;strong>纯粹的成本中心&lt;/strong>，没有任何优化空间。&lt;/p>
+&lt;h3 id="第二层退货管理15的公司做到这里">第二层：退货管理（15%的公司做到这里）&lt;/h3>
+&lt;ul>
+&lt;li>分析退货原因（质量？尺寸？描述不符？）&lt;/li>
+&lt;li>按原因分类处理（维修/翻新/折扣/报废）&lt;/li>
+&lt;li>建立退货SLA（48小时内处理完毕）&lt;/li>
+&lt;li>数据反馈给前端（减少同类退货）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这一层开始省钱了。&lt;/strong> 退货处理周期从7天缩到2天，库存周转率提升，翻新率从0%到30%。&lt;/p>
+&lt;h3 id="第三层退货预防5的公司做到这里">第三层：退货预防（5%的公司做到这里）&lt;/h3>
+&lt;ul>
+&lt;li>产品详情页增加尺码对照表，服装退货率降8%&lt;/li>
+&lt;li>发货前质检清单化，错发率降90%&lt;/li>
+&lt;li>包装加固，运输损坏退货降60%&lt;/li>
+&lt;li>客户评价分析，提前识别问题SKU&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这一层才是真正赚钱的。&lt;/strong> 每降低1个百分点的退货率，省下的都是纯利润。&lt;/p>
+&lt;h2 id="一个被严重低估的指标">一个被严重低估的指标&lt;/h2>
+&lt;p>&lt;strong>退货处理周期（Return Processing Time）&lt;/strong>&lt;/p>
+&lt;p>从客户发起退货到货物重新可用（或报废结案）的时间。&lt;/p>
+&lt;ul>
+&lt;li>行业平均：7-14天&lt;/li>
+&lt;li>优秀水平：2-3天&lt;/li>
+&lt;li>差的水平：30天+&lt;/li>
+&lt;/ul>
+&lt;p>为什么这个指标重要？&lt;/p>
+&lt;p>&lt;strong>因为退货在途期间 = 资金被占用 + 库存虚高 + 数据失真&lt;/strong>&lt;/p>
+&lt;p>一单退货如果拖14天才处理完：&lt;/p>
+&lt;ul>
+&lt;li>这14天里，这笔钱既不在客户口袋，也不在你口袋&lt;/li>
+&lt;li>系统显示库存里有这货，实际在退货路上，你不敢补货，结果断货&lt;/li>
+&lt;li>退货数据延迟14天，你发现某款退货率异常的时候，已经又卖了200单&lt;/li>
+&lt;/ul>
+&lt;h2 id="3个立竿见影的优化">3个立竿见影的优化&lt;/h2>
+&lt;h3 id="1-退货预授权机制">1. 退货预授权机制&lt;/h3>
+&lt;p>别等货回到仓库才退款。用&amp;quot;退款预授权&amp;quot;：&lt;/p>
+&lt;ul>
+&lt;li>客户申请退货 → 系统自动审核通过 → 客户寄回&lt;/li>
+&lt;li>物流揽收即触发退款（不需要等入库）&lt;/li>
+&lt;li>货到仓库后质检，有问题再追回&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>好处&lt;/strong>：客户体验提升50%，退货纠纷降70%，同时你有5-7天的资金缓冲。&lt;/p>
+&lt;h3 id="2-退货分级处理">2. 退货分级处理&lt;/h3>
+&lt;p>不是所有退货都值得花同样的时间处理：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>级别&lt;/th>
+ &lt;th>条件&lt;/th>
+ &lt;th>处理方式&lt;/th>
+ &lt;th>处理时间&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>A级&lt;/td>
+ &lt;td>未拆封/完好&lt;/td>
+ &lt;td>直接二次销售&lt;/td>
+ &lt;td>1小时&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>B级&lt;/td>
+ &lt;td>已拆封/完好&lt;/td>
+ &lt;td>翻新后折扣销售&lt;/td>
+ &lt;td>1天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>C级&lt;/td>
+ &lt;td>有瑕疵&lt;/td>
+ &lt;td>维修后折扣销售&lt;/td>
+ &lt;td>3天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>D级&lt;/td>
+ &lt;td>严重损坏&lt;/td>
+ &lt;td>报废/零件拆用&lt;/td>
+ &lt;td>当天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>关键&lt;/strong>：分级标准必须明确，仓库人员5秒内判断级别。&lt;/p></description></item><item><title>采购成本分析做了3年，我发现90%的人只会算单价</title><link>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-cost-analysis-beyond-unit-price/</guid><description>&lt;h2 id="你的采购成本分析可能全是废话">你的采购成本分析，可能全是废话&lt;/h2>
+&lt;p>老板说：&amp;ldquo;把采购成本降10%。&amp;rdquo;&lt;/p>
+&lt;p>你打开Excel，把供应商报价从高到低排一遍，选最便宜的那个，交差。&lt;/p>
+&lt;p>&lt;strong>恭喜你，你属于90%只看单价的采购。&lt;/strong>&lt;/p>
+&lt;p>但你知道你忽略了多少钱吗？一个真实的案例：&lt;/p>
+&lt;p>A供应商报价100元/件，B供应商报价95元/件。你选了B。&lt;/p>
+&lt;p>结果呢？&lt;/p>
+&lt;ul>
+&lt;li>B的良品率只有92%，A是99%&lt;/li>
+&lt;li>B的交期不稳定，经常加急运费&lt;/li>
+&lt;li>B的售后响应3天，A是当天&lt;/li>
+&lt;li>B用了8个月开始出质量问题，返工成本爆炸&lt;/li>
+&lt;/ul>
+&lt;p>一年下来，B的实际总成本比A&lt;strong>高出23%&lt;/strong>。&lt;/p>
+&lt;p>&lt;strong>单价便宜5块，总成本多花28块。&lt;/strong> 这就是只看单价的代价。&lt;/p>
+&lt;h2 id="单价之外的6大隐藏成本">单价之外的6大隐藏成本&lt;/h2>
+&lt;h3 id="1-质量成本">1. 质量成本&lt;/h3>
+&lt;p>不良品率每高1%，你的隐性成本包括：&lt;/p>
+&lt;ul>
+&lt;li>返工/返修人工&lt;/li>
+&lt;li>客户退货和赔偿&lt;/li>
+&lt;li>停线等待物料&lt;/li>
+&lt;li>品质检验追加频次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>公式&lt;/strong>：质量成本 = 不良率 × (返工成本 + 报废成本 + 客诉成本)&lt;/p>
+&lt;h3 id="2-交期成本">2. 交期成本&lt;/h3>
+&lt;p>交期不稳定意味着：&lt;/p>
+&lt;ul>
+&lt;li>安全库存要备更多&lt;/li>
+&lt;li>加急运输费（空运代替海运）&lt;/li>
+&lt;li>产线停工等待&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一次空运代替海运，多出来的运费可能抵消你一整年的降价空间。&lt;/strong>&lt;/p>
+&lt;h3 id="3-库存持有成本">3. 库存持有成本&lt;/h3>
+&lt;p>便宜但交期长的供应商，逼你多备库存。库存持有成本通常按年化20%-30%算：&lt;/p>
+&lt;ul>
+&lt;li>资金占用&lt;/li>
+&lt;li>仓储空间&lt;/li>
+&lt;li>损耗贬值&lt;/li>
+&lt;li>过期报废&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-管理成本">4. 管理成本&lt;/h3>
+&lt;p>有些供应商看着便宜，但管理成本高得离谱：&lt;/p>
+&lt;ul>
+&lt;li>天天催货&lt;/li>
+&lt;li>频繁来料检验&lt;/li>
+&lt;li>供应商审核出差&lt;/li>
+&lt;li>持续改善会议&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>你的时间不是免费的。&lt;/strong>&lt;/p>
+&lt;h3 id="5-转换成本">5. 转换成本&lt;/h3>
+&lt;p>换供应商不是零成本：&lt;/p>
+&lt;ul>
+&lt;li>样品验证（至少3个月）&lt;/li>
+&lt;li>产线调试&lt;/li>
+&lt;li>客户重新认证&lt;/li>
+&lt;li>双源过渡期的价格劣势&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-风险成本">6. 风险成本&lt;/h3>
+&lt;p>最低价往往意味着最低的冗余：&lt;/p>
+&lt;ul>
+&lt;li>单一来源风险&lt;/li>
+&lt;li>供应商经营不稳定&lt;/li>
+&lt;li>地缘政治或物流中断&lt;/li>
+&lt;/ul>
+&lt;h2 id="tco采购成本分析的正确姿势">TCO：采购成本分析的正确姿势&lt;/h2>
+&lt;p>&lt;strong>TCO（Total Cost of Ownership，总拥有成本）&lt;/strong> 才是你该看的。&lt;/p></description></item><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-rationalization-40-percent-cost-cut/</guid><description>&lt;p>每次做库存盘点，看着那2000多个SKU，我就头疼。&lt;/p>
 &lt;p>仓库里一半的SKU半年没动过，20%的SKU贡献了80%的出库量，剩下的要么是&amp;quot;万一有人要呢&amp;quot;，要么是&amp;quot;以前卖得好现在没人买了&amp;quot;。&lt;/p>
 &lt;p>但砍SKU这件事，谁都不敢动。销售说&amp;quot;客户可能需要&amp;quot;，产品说&amp;quot;这是我们的产品矩阵&amp;quot;，老板说&amp;quot;砍了影响营收怎么办&amp;quot;。&lt;/p>
 &lt;p>直到有一天，CFO在经营分析会上甩了一张表：&lt;strong>呆滞库存金额680万，占库存总额的35%。&lt;/strong>&lt;/p>

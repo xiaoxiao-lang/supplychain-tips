@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>WMS系统上了半年还是一团糟？3个原因你肯定中招了</title><link>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/wms-system-mess-after-6-months/</guid><description>&lt;h2 id="wms上线半年老板问我钱花哪了">WMS上线半年，老板问我&amp;quot;钱花哪了&amp;quot;&lt;/h2>
+&lt;p>花80万上了WMS，半年后：&lt;/p>
+&lt;ul>
+&lt;li>找货还是靠人肉&lt;/li>
+&lt;li>库存数据还是不准&lt;/li>
+&lt;li>拣货效率没提升反而降了&lt;/li>
+&lt;li>仓库人员天天骂系统难用&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>80万打水漂了？&lt;/strong>&lt;/p>
+&lt;p>不，80万没打水漂，&lt;strong>是你没用对。&lt;/strong>&lt;/p>
+&lt;p>我见过太多WMS上线后一团糟的案例，90%不是系统的问题，是这3个原因。&lt;/p>
+&lt;h2 id="原因一基础数据没洗就上线">原因一：基础数据没洗就上线&lt;/h2>
+&lt;p>WMS是&amp;quot;垃圾进垃圾出&amp;quot;的典型系统。你的物料主数据如果是这样的：&lt;/p>
+&lt;ul>
+&lt;li>同一个物料3个编码&lt;/li>
+&lt;li>部分物料没有尺寸重量&lt;/li>
+&lt;li>库位信息一半是旧的&lt;/li>
+&lt;li>批次管理规则不统一&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>那你上什么系统都白搭。&lt;/strong>&lt;/p>
+&lt;p>WMS上线前必须做的3件事：&lt;/p>
+&lt;p>&lt;strong>1. 物料主数据清洗&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>一个物料一个编码，不能重复&lt;/li>
+&lt;li>每个物料必须有：长宽高、重量、ABC分类、存储条件&lt;/li>
+&lt;li>淘汰不再使用的编码&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. 库位重新规划&lt;/strong>&lt;/p>
+&lt;p>WMS的核心能力之一就是库位管理。但如果你连库位都没有标准化：&lt;/p>
+&lt;ul>
+&lt;li>库位编码规则不统一&lt;/li>
+&lt;li>混放区没有定义&lt;/li>
+&lt;li>拣货区和存储区没分开&lt;/li>
+&lt;/ul>
+&lt;p>WMS根本无法进行智能库位推荐。&lt;/p>
+&lt;p>&lt;strong>3. 业务流程梳理&lt;/strong>&lt;/p>
+&lt;p>先想清楚：&lt;/p>
+&lt;ul>
+&lt;li>收货流程是什么？是否需要质检？质检不通过怎么处理？&lt;/li>
+&lt;li>上架策略是什么？按重量？按周转率？按品类？&lt;/li>
+&lt;li>拣货策略是什么？批量拣？单件拣？波次拣？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这些不是系统决定的，是你决定的。系统只是执行你的策略。&lt;/strong>&lt;/p>
+&lt;h2 id="原因二把wms当excel用">原因二：把WMS当Excel用&lt;/h2>
+&lt;p>这是最常见的坑。&lt;/p>
+&lt;p>WMS上线了，但仓库人员还是这样用：&lt;/p>
+&lt;ul>
+&lt;li>手动录入出入库数据（而不是扫码）&lt;/li>
+&lt;li>在系统外用Excel记一版，系统里再录一版&lt;/li>
+&lt;li>库存调整用手工单，事后补录&lt;/li>
+&lt;li>系统提示的库位不放，按自己习惯放&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>这跟没上WMS有什么区别？&lt;/strong>&lt;/p>
+&lt;p>WMS的价值在于&lt;strong>实时、自动、闭环&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>扫码收货 → 系统自动分配库位 → 扫码确认上架 → 库存实时更新&lt;/li>
+&lt;li>订单下达 → 系统生成拣货路径 → 扫码拣货 → 扫码复核 → 出库&lt;/li>
+&lt;li>全程扫码，零人工录入&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>如果不用扫码，WMS就是80万的Excel。&lt;/strong>&lt;/p>
+&lt;p>为什么员工不用扫码？两个原因：&lt;/p>
+&lt;ol>
+&lt;li>扫码枪不好用，经常断连、扫码慢&lt;/li>
+&lt;li>扫码流程比手工麻烦（步骤太多）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>解决方案&lt;/strong>：简化操作步骤，换好用的PDA，把扫码步骤从7步减到3步。&lt;/p>
+&lt;h2 id="原因三没有盘点策略">原因三：没有盘点策略&lt;/h2>
+&lt;p>WMS上线后，很多人以为库存数据就是准的了。&lt;/p>
+&lt;p>&lt;strong>想多了。&lt;/strong>&lt;/p></description></item><item><title>库存管理3年，我悟出了5条血泪铁律</title><link>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-management-hard-truths/</guid><description>&lt;p>干了3年库存管理，我最大的感悟就是：教科书上写的那些，和实际操作完全是两回事。&lt;/p>
 &lt;p>你以为库存管理就是收货、上架、出库？那你的库存准确率永远上不了95%。&lt;/p>
 &lt;p>今天我把3年踩过的5个坑掰开来讲，每一条都是真金白银换来的。&lt;/p>
 &lt;h2 id="铁律一盘点频率不是拍脑袋定的">铁律一：盘点频率不是拍脑袋定的&lt;/h2>
