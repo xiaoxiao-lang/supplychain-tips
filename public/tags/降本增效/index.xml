@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>降本增效 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/</link><description>Recent content in 降本增效 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链成本降不下来？90%的人砍错了地方</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</guid><description>&lt;h2 id="供应链降本你砍错地方了">供应链降本，你砍错地方了&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>降本增效 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/</link><description>Recent content in 降本增效 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>采购成本只看单价？难怪你年年降本，年年利润在降</title><link>https://supplychain-tips.pages.dev/posts/tco-total-cost-ownership/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-total-cost-ownership/</guid><description>&lt;p>采购干了5年，年年完成降本KPI，但公司利润一年比一年差。&lt;/p>
+&lt;p>老板把你叫到办公室：&amp;ldquo;你每年都说降了多少多少钱，钱呢？&amp;rdquo;&lt;/p>
+&lt;p>你解释不通。因为你确实把采购价砍下来了。但公司花钱反而更多了。&lt;/p>
+&lt;p>问题出在哪？&lt;strong>你只算了采购单价，没算总拥有成本。&lt;/strong>&lt;/p>
+&lt;h3 id="tco是什么别被英文缩写唬住">TCO是什么？别被英文缩写唬住&lt;/h3>
+&lt;p>TCO = Total Cost of Ownership，总拥有成本。&lt;/p>
+&lt;p>简单说：买一台设备花了100万，但如果这台设备能耗是同行的2倍、故障率是同行的3倍、5年后残值是零——你的真实成本远不止100万。&lt;/p>
+&lt;p>&lt;strong>TCO = 采购成本 + 使用成本 + 维护成本 + 处置成本&lt;/strong>&lt;/p>
+&lt;p>大部分采购只盯第一个数字。&lt;/p>
+&lt;h3 id="一个真实案例扎心但真实">一个真实案例，扎心但真实&lt;/h3>
+&lt;p>某工厂采购了两台设备：&lt;/p>
+&lt;ul>
+&lt;li>A设备：80万，国产，能耗高，每月维护费2万&lt;/li>
+&lt;li>B设备：120万，进口，能耗低，每月维护费5千&lt;/li>
+&lt;/ul>
+&lt;p>财务角度看，采购A&amp;quot;省了&amp;quot;40万。&lt;/p>
+&lt;p>但算总账：A设备5年使用成本 = 80万 + (2万x60月) = 200万。B设备5年使用成本 = 120万 + (0.5万x60月) = 150万。&lt;/p>
+&lt;p>&lt;strong>选了便宜的，5年多花了50万。&lt;/strong>&lt;/p>
+&lt;h3 id="怎么把tco落地">怎么把TCO落地？&lt;/h3>
+&lt;p>&lt;strong>第一步：建立TCO模板&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购成本：报价、运费、关税、安装费&lt;/li>
+&lt;li>使用成本：能耗、耗材、操作人工&lt;/li>
+&lt;li>维护成本：日常保养、备件、维修、停机损失&lt;/li>
+&lt;li>处置成本：残值、拆卸、环保处理&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：要求供应商提供TCO数据&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>能耗数据、故障率、使用寿命、备件价格——这些不是在签合同之后才问的&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三步：采购决策用TCO，不是单价&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>供应商评估表里TCO权重至少要占40%&lt;/li>
+&lt;/ul>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>只看单价的采购，永远在给自己挖坑。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链成本降不下来？90%的人砍错了地方</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC%E9%99%8D%E4%B8%8D%E4%B8%8B%E6%9D%A590%E7%9A%84%E4%BA%BA%E7%A0%8D%E9%94%99%E4%BA%86%E5%9C%B0%E6%96%B9/</guid><description>&lt;h2 id="供应链降本你砍错地方了">供应链降本，你砍错地方了&lt;/h2>
 &lt;p>说句扎心的话：大部分企业降本，就是跟供应商砍价。砍完价格砍服务，砍完服务砍质量，砍完质量发现总成本反而涨了。&lt;/p>
 &lt;p>为什么？因为你砍的是&lt;strong>显性成本&lt;/strong>，真正吃掉利润的是&lt;strong>隐性成本&lt;/strong>。&lt;/p>
 &lt;p>我见过一家制造企业，采购价格连续3年下降8%，但总供应链成本反而上升了12%。原因是：便宜的供应商交期不稳定，导致安全库存翻倍；质量波动大，退货返工成本飙升；沟通成本直线上升，3个采购天天围着供应商救火。&lt;/p>

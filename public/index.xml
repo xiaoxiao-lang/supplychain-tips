@@ -1,4 +1,266 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了3年全白费？因为你只分类，没行动</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>我在三家公司都做过ABC分类。&lt;/p>
+&lt;p>第一家公司：分了类，然后就没了。Excel表存进了共享盘，再也没打开过。&lt;/p>
+&lt;p>第二家公司：分了类，但所有SKU一视同仁。A类和C类补货逻辑一样，安全库存算法一样。&lt;/p>
+&lt;p>第三家公司：我才搞明白ABC分类法的真正用法。&lt;/p>
+&lt;h3 id="abc不是分类游戏是资源分配策略">ABC不是分类游戏，是资源分配策略&lt;/h3>
+&lt;p>ABC分类的核心思想很简单：&lt;strong>把有限的精力花在最重要的地方。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类品：占SKU数量10-20%，但占销售额70-80%&lt;/li>
+&lt;li>B类品：占SKU数量30%，占销售额15-20%&lt;/li>
+&lt;li>C类品：占SKU数量50-60%，占销售额5-10%&lt;/li>
+&lt;/ul>
+&lt;p>但知道分类只是第一步，怎么做才是关键。&lt;/p>
+&lt;h3 id="a类品像盯股票一样盯">A类品：像盯股票一样盯&lt;/h3>
+&lt;p>A类品的库存管理应该是&lt;strong>颗粒级&lt;/strong>的。&lt;/p>
+&lt;ul>
+&lt;li>每天看库存水位，低于安全库存立刻补&lt;/li>
+&lt;li>每周回顾销售趋势，预测调整要实时&lt;/li>
+&lt;li>每月跟供应商对一次需求计划&lt;/li>
+&lt;/ul>
+&lt;p>在A类品上花80%的精力，因为这些货一旦断货或缺货，损失最大。&lt;/p>
+&lt;h3 id="b类品走流程不走心">B类品：走流程，不走心&lt;/h3>
+&lt;p>B类品不需要天天盯，但要有一套规范的补货机制。&lt;/p>
+&lt;p>设置好安全库存、补货点、经济订货量，系统自动触发补货。人工只处理异常。&lt;/p>
+&lt;p>B类品省下来的精力，全部投到A类上去。&lt;/p>
+&lt;h3 id="c类品这是你最大的浪费">C类品：这是你最大的浪费&lt;/h3>
+&lt;p>C类品占了你SKU的大半，但贡献的销售额不到10%。&lt;/p>
+&lt;p>更可怕的是，这些C类品还在消耗你的仓储空间、管理精力、资金占用。&lt;/p>
+&lt;p>&lt;strong>对C类品的态度应该是：能砍就砍，能并就并。&lt;/strong>&lt;/p>
+&lt;p>很多C类品是可以直接淘汰的——一年卖不了几次，客户也不是非它不可。&lt;/p>
+&lt;p>实在砍不掉的C类品：合并SKU、提高起订量、延长补货周期。让它尽量不占用你的精力。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>ABC分类是工具，不是终点。分类之后不行动，等于你辛辛苦苦整理了一份体检报告，然后扔进抽屉里。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链协同不是开周会，是敢把真实数据亮给供应商看</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-collaboration/</guid><description>&lt;p>说个扎心的事：你以为的供应链协同，可能只是&amp;quot;每周跟供应商开个视频会&amp;quot;。&lt;/p>
+&lt;p>真正的协同是什么？&lt;strong>是供应商能实时看到你的库存水位，你能看到他的产能状态；是一方出了问题，另一方不是追责而是补位。&lt;/strong>&lt;/p>
+&lt;p>在中国做供应链，90%的企业连第一层都没做好。&lt;/p>
+&lt;h3 id="第一层信息透明大部分企业不及格">第一层：信息透明（大部分企业不及格）&lt;/h3>
+&lt;p>你敢不敢把真实销售数据给供应商看？&lt;/p>
+&lt;p>不敢。因为你怕供应商知道卖得好就涨价，知道卖得差就砍产能。&lt;/p>
+&lt;p>但反过来想：供应商没有真实数据，只能靠猜。猜错了就备货不足或者备多了。最后损失的还是你。&lt;/p>
+&lt;p>&lt;strong>信息共享的核心不是&amp;quot;给不给&amp;quot;，是&amp;quot;怎么给&amp;quot;。&lt;/strong> 可以先从非敏感数据开始：生产计划、库存水位、到货时间。等信任建立起来，再逐步开放。&lt;/p>
+&lt;h3 id="第二层计划协同只有头部企业在做">第二层：计划协同（只有头部企业在做）&lt;/h3>
+&lt;p>你的促销计划，提前多久告诉供应商？&lt;/p>
+&lt;p>大部分企业：提前1-2周。供应商接到通知就开始骂娘——产能早排满了，临时插单成本翻倍。&lt;/p>
+&lt;p>真正做得好的企业：提前3-6个月给供应商销售预测和促销计划。不一定100%准确，但给供应商一个准备的方向。&lt;/p>
+&lt;h3 id="第三层利益绑定凤毛麟角">第三层：利益绑定（凤毛麟角）&lt;/h3>
+&lt;p>协同的终极形态是什么？&lt;strong>供应商不是你压榨的对象，是你利润的合伙人。&lt;/strong>&lt;/p>
+&lt;p>有些企业已经开始这么做了：和核心供应商签3-5年长约，约定降本目标，超额完成的部分利润分成。供应商从&amp;quot;你要我降价&amp;quot;变成了&amp;quot;我们一起省钱&amp;quot;。&lt;/p>
+&lt;h3 id="你的供应链协同在哪个层次">你的供应链协同在哪个层次？&lt;/h3>
+&lt;ul>
+&lt;li>还在发邮件、打电话催货 → 0层&lt;/li>
+&lt;li>有系统对接，但数据不准 → 1层&lt;/li>
+&lt;li>计划同步，但执行靠人 → 1.5层&lt;/li>
+&lt;li>全链路协同，供应商参与你经营决策 → 2层以上&lt;/li>
+&lt;/ul>
+&lt;p>看看自己的水平，别骗自己。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链可视化不是做几张漂亮大屏，是让你的钱看得见</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>公司花50万做了一套供应链可视化大屏。&lt;/p>
+&lt;p>数据跳动、图表炫酷、领导参观时倍有面子。&lt;/p>
+&lt;p>但会议室里那块屏幕亮了一个月之后，就再也没人看了。&lt;/p>
+&lt;p>为什么？&lt;strong>因为它只显示了&amp;quot;看起来很美&amp;quot;，没有告诉你&amp;quot;问题在哪&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h3 id="可视化不是为了好看是为了好管">可视化不是为了好看，是为了好管&lt;/h3>
+&lt;p>真正的供应链可视化应该回答三个问题：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>我的钱卡在哪了？&lt;/strong>——库存金额、在途资金、应付账款，每一笔资金占用都要看得见&lt;/li>
+&lt;li>&lt;strong>风险在哪？&lt;/strong>——哪些供应商交货延迟趋势在恶化、哪些仓库库存水位逼近红线&lt;/li>
+&lt;li>&lt;strong>效率瓶颈在哪？&lt;/strong>——哪个环节处理时间最长、哪条线路成本异常&lt;/li>
+&lt;/ol>
+&lt;p>做不到这三点，你的可视化就是一块昂贵的装饰品。&lt;/p>
+&lt;h3 id="从四个维度建可视化">从四个维度建可视化&lt;/h3>
+&lt;p>&lt;strong>库存可视化&lt;/strong>：不是看总量，是看结构。A类品缺不缺？C类品积不积压？库龄超过90天的有多少？——这才是你要盯的。&lt;/p>
+&lt;p>&lt;strong>物流可视化&lt;/strong>：在途货物的位置、预计到达时间、是否有异常停留。跨境电商尤其重要，一票货在海上漂30天，你都不知道它在哪，怎么跟客户交代？&lt;/p>
+&lt;p>&lt;strong>供应商可视化&lt;/strong>：交货及时率、质量合格率、价格波动趋势。一张表拉出来，谁在变好谁在变差一目了然。&lt;/p>
+&lt;p>&lt;strong>成本可视化&lt;/strong>：不是总成本，是单位成本。每一件商品的采购成本、物流成本、库存持有成本全拆开。才知道钱花哪了。&lt;/p>
+&lt;h3 id="别一上来就上系统">别一上来就上系统&lt;/h3>
+&lt;p>很多企业一谈可视化就说上系统。其实第一步是理数据。&lt;/p>
+&lt;p>数据不准，可视化就是垃圾进、垃圾出。&lt;/p>
+&lt;p>&lt;strong>建议路径&lt;/strong>：先用Excel做手动报表（1个月）→ 确认指标定义和数据口径 → 再用BI工具做自动化看板 → 最后才是大屏。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>供应链可视化不是技术问题，是管理问题。你连要管什么都不知道，再漂亮的大屏也是摆设。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链数字化转型花了100万打水漂，我劝你先做这4件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</guid><description>&lt;p>去年公司启动供应链数字化转型。&lt;/p>
+&lt;p>预算100万，目标是&amp;quot;打造数字化供应链&amp;quot;。&lt;/p>
+&lt;p>一年后，系统上线了，数据进了，报表出了。&lt;/p>
+&lt;p>&lt;strong>但仓库还是那个仓库，效率还是那个效率，成本还是那个成本。&lt;/strong>&lt;/p>
+&lt;p>老板把我叫过去：&amp;ldquo;100万花哪了？&amp;rdquo;&lt;/p>
+&lt;h3 id="数字化转型的真相不是买系统是改习惯">数字化转型的真相：不是买系统，是改习惯&lt;/h3>
+&lt;p>大部分企业犯的错误是一样的：以为数字化就是上一套系统。&lt;/p>
+&lt;p>实际上，系统只是工具。真正的数字化要解决三个问题：&lt;strong>数据从哪来、数据准不准、数据怎么用。&lt;/strong>&lt;/p>
+&lt;p>这三个问题不解决，花多少钱上系统都白搭。&lt;/p>
+&lt;h3 id="先做这4件事再谈系统">先做这4件事，再谈系统&lt;/h3>
+&lt;p>&lt;strong>第一件：主数据治理&lt;/strong>&lt;/p>
+&lt;p>你的物料编码是不是乱七八糟？同一个供应商在系统里有三个名字？一个SKU有两个编码？&lt;/p>
+&lt;p>主数据乱了，什么系统都救不了你。&lt;/p>
+&lt;p>花一个月时间，把物料编码、供应商信息、客户信息、仓库库位全部清洗一遍。这一步省不了，跳过去后面全是坑。&lt;/p>
+&lt;p>&lt;strong>第二件：理清端到端流程&lt;/strong>&lt;/p>
+&lt;p>从客户下单到货物签收，整个链条画出来。&lt;/p>
+&lt;p>别画&amp;quot;应该是什么样&amp;quot;，画&amp;quot;实际是什么样&amp;quot;。每个环节谁做什么、用什么工具、给谁传递什么信息。&lt;/p>
+&lt;p>流程图画完之后你会发现：至少30%的环节在传递垃圾信息。&lt;/p>
+&lt;p>&lt;strong>第三件：选最小可行场景先跑&lt;/strong>&lt;/p>
+&lt;p>别一上来就搞全链路覆盖。选一个痛点最明显的环节先做。&lt;/p>
+&lt;p>比如先做库存可视化、先做订单跟踪。做成了，团队有信心了，再逐步扩。&lt;/p>
+&lt;p>&lt;strong>第四件：别把Excel妖魔化&lt;/strong>&lt;/p>
+&lt;p>很多顾问会告诉你：Excel不行，得上系统。&lt;/p>
+&lt;p>但其实，在你搞清楚自己的数据和流程之前，Excel是最好的工具。灵活、便宜、人人会用。&lt;/p>
+&lt;p>先用Excel把数据规范起来、把报表跑起来。等逻辑跑通了、需求清晰了，再上系统。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>数字化转型不是技术项目，是管理变革。系统是果，数据是因，流程是根。根没扎好，什么果都结不出来。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>库存周转率从4提到8，我没压一毛钱供应商货款</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</guid><description>&lt;p>先别往下看，算一下你上个月的库存周转率是多少。&lt;/p>
+&lt;p>如果算不出来，或者算了没超过6次/年，这篇文章你非看不可。&lt;/p>
+&lt;p>库存周转率，说白了就是&amp;quot;一年内库存翻了几次&amp;quot;。翻得越快，钱赚得越多。但90%的企业用错了方法：要么死压采购量导致断货，要么使劲压供应商账期把自己口碑搞臭。&lt;/p>
+&lt;p>我花了2年时间，把公司的库存周转率从4提到了8，没多压供应商一分钱。方法拆给你们看。&lt;/p>
+&lt;h3 id="第一步干掉安全库存安全幻觉">第一步：干掉&amp;quot;安全库存=安全幻觉&amp;quot;&lt;/h3>
+&lt;p>大部分公司的安全库存是拍脑袋定的。问为什么设这个数，回答永远是&amp;quot;领导定的&amp;quot;或者&amp;quot;一直都是这么多&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>安全库存真正的算法&lt;/strong>：基于历史需求的波动性和补货提前期的不确定性来算。&lt;/p>
+&lt;p>具体做法：提取过去12个月每个SKU的周销量数据，算标准差。波动大的SKU，安全库存加量；波动小、需求稳定的SKU，安全库存可以大幅压缩。&lt;/p>
+&lt;p>一个SKU一个SKU地过，你会发现至少有30%的SKU安全库存设高了。&lt;/p>
+&lt;h3 id="第二步abc分类不是终点是起点">第二步：ABC分类不是终点，是起点&lt;/h3>
+&lt;p>ABC分类法很多人都在用，但大部分只做到了分类，没做到差异化策略。&lt;/p>
+&lt;p>&lt;strong>A类（高价值/高周转）&lt;/strong>：重点管理，每日监控库存水位，补货策略精细化
+&lt;strong>B类（中价值/中周转）&lt;/strong>：定期盘点，设置安全库存水位线自动补货
+&lt;strong>C类（低价值/低周转）&lt;/strong>：能砍就砍，能并就并。很多C类SKU其实是可以合并或淘汰的&lt;/p>
+&lt;p>关键不是分类，是分类之后的行动。分了类不行动，等于白分。&lt;/p>
+&lt;h3 id="第三步把预测往前移而不是往后甩锅">第三步：把预测往前移，而不是往后甩锅&lt;/h3>
+&lt;p>库存积压的根源，多半是预测不准。&lt;/p>
+&lt;p>但预测不准不是预测部门的锅——你让预测部门看着历史数据猜未来，他能准才怪。&lt;/p>
+&lt;p>&lt;strong>好的预测机制&lt;/strong>：销售、市场、供应链三方坐下来一起看。销售知道客户动向，市场知道促销节奏，供应链知道产能约束。三方信息合在一起，预测准确率能提升30%以上。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>库存周转率不是财务指标，是你供应链运营能力的体温计。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>招标采购水有多深？干过5年的采购才敢说的5个坑</title><link>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/bidding-procurement-pitfalls/</guid><description>&lt;p>刚入行的时候，我觉得招标是最公平的采购方式。&lt;/p>
+&lt;p>公开透明、价比三家、流程规范——教科书上就是这么写的。&lt;/p>
+&lt;p>&lt;strong>干了5年我才明白：招标的水，比你想的深多了。&lt;/strong>&lt;/p>
+&lt;h3 id="坑一技术参数里有鬼">坑一：技术参数里有鬼&lt;/h3>
+&lt;p>最常见的套路：技术参数写得特别细，细到只有某一家供应商能完全满足。&lt;/p>
+&lt;p>比如要求&amp;quot;设备长宽高分别是XX±1mm&amp;quot;，看起来是严谨，其实就是给特定供应商量身定做。&lt;/p>
+&lt;p>&lt;strong>怎么破&lt;/strong>：参数设置之前先做市场调研，确认至少3家以上供应商能满足核心参数。&lt;/p>
+&lt;h3 id="坑二围标串标防不胜防">坑二：围标串标防不胜防&lt;/h3>
+&lt;p>三家来投标，其实背后是同一家。报价一家高一家低一家中间，你选中间那个——刚好中了套。&lt;/p>
+&lt;p>&lt;strong>怎么破&lt;/strong>：查投标保证金来源、查IP地址、查文件创建人信息。围标的企业往往在这些细节上露出马脚。&lt;/p>
+&lt;h3 id="坑三低价中标高价索赔">坑三：低价中标，高价索赔&lt;/h3>
+&lt;p>这是最经典的套路。&lt;/p>
+&lt;p>报价时拼命压低，中标之后各种&amp;quot;变更&amp;quot;&amp;ldquo;增项&amp;quot;&amp;ldquo;不可预见费用&amp;rdquo;，最后结算价翻倍。&lt;/p>
+&lt;p>&lt;strong>怎么破&lt;/strong>：合同里要明确变更管理条款，变更金额超过合同总价10%的要有严格审批流程。另外，不要唯低价论，低于成本价的报价直接剔出。&lt;/p>
+&lt;h3 id="坑四样品是一套大货是另一套">坑四：样品是一套，大货是另一套&lt;/h3>
+&lt;p>投标样品做得漂漂亮亮，量产质量一塌糊涂。&lt;/p>
+&lt;p>&lt;strong>怎么破&lt;/strong>：合同里约定&amp;quot;以封样样品为标准&amp;rdquo;，并在量产后随机抽检。抽检不合格直接按违约处理。&lt;/p>
+&lt;h3 id="坑五评标委员会成了摆设">坑五：评标委员会成了摆设&lt;/h3>
+&lt;p>表面上评委都是独立打分，实际上早有人打过招呼了。&lt;/p>
+&lt;p>&lt;strong>怎么破&lt;/strong>：评标过程录像存档、评分表签字留痕、结果公示不少于3天。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>招标本身是个好工具，但工具再好也架不住用工具的人心术不正。做采购，专业能力重要，守住底线更重要。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>绿色供应链不是做公益，做不到这3点反而会亏掉底裤</title><link>https://supplychain-tips.pages.dev/posts/green-supply-chain-real-talk/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/green-supply-chain-real-talk/</guid><description>&lt;p>去年有个朋友的公司丢了一个大单。&lt;/p>
+&lt;p>不是因为价格高、不是因为交期长、不是因为质量差。&lt;/p>
+&lt;p>&lt;strong>因为客户要求供应商必须有碳排放报告，他拿不出来。&lt;/strong>&lt;/p>
+&lt;p>到手的3000万飞了。&lt;/p>
+&lt;h3 id="绿色供应链不是选择题是必答题">绿色供应链不是选择题，是必答题&lt;/h3>
+&lt;p>很多人觉得绿色供应链是个&amp;quot;加分项&amp;quot;——做好了锦上添花，不做也无所谓。&lt;/p>
+&lt;p>错了。&lt;/p>
+&lt;p>2026年，三个趋势正在改变游戏规则：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>欧盟碳关税（CBAM）&lt;/strong>：出口到欧洲的产品要交碳税，没有碳排放数据的按最高标准征&lt;/li>
+&lt;li>&lt;strong>大客户合规要求&lt;/strong>：苹果、特斯拉、沃尔玛都在要求供应商提供ESG报告&lt;/li>
+&lt;li>&lt;strong>融资门槛&lt;/strong>：银行给绿色企业贷款利率更低，非绿色企业融资越来越难&lt;/li>
+&lt;/ol>
+&lt;p>不做绿色供应链，不是省了成本，是丢了门槛。&lt;/p>
+&lt;h3 id="别一上来就想搞大的">别一上来就想搞大的&lt;/h3>
+&lt;p>很多老板被ESG咨询公司忽悠，一上来就要做全链条碳足迹、买碳积分、搞零碳工厂。&lt;/p>
+&lt;p>&lt;strong>清醒点。&lt;/strong>&lt;/p>
+&lt;p>第一步其实很简单：搞清楚你的碳排放主要来自哪里。&lt;/p>
+&lt;p>对于大部分制造业企业：60-70%的碳排放来自用电。工厂换个绿电、屋顶装个光伏，碳排放直接降一大截。比搞什么碳交易都管用。&lt;/p>
+&lt;h3 id="三个马上能做的事">三个马上能做的事&lt;/h3>
+&lt;p>&lt;strong>第一：算清楚账&lt;/strong>。请第三方做一次碳排放盘查，搞清楚自己的排放结构和基数。连基线都不知道，谈什么减排？&lt;/p>
+&lt;p>&lt;strong>第二：先干省钱的&lt;/strong>。节能改造、包装减量、运输路线优化——这些既减碳又省钱。不用纠结于&amp;quot;环保成本&amp;quot;，先做&amp;quot;利润+环保&amp;quot;双赢的事。&lt;/p>
+&lt;p>&lt;strong>第三：拉着供应商一起&lt;/strong>。你的Scope 3排放（供应链排放）可能占80%以上。选3-5家核心供应商，帮他们一起做节能减排。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>绿色供应链不是道德问题，是生存问题。今天不关心碳排放的，明天可能连报价的资格都没有。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
+&lt;p>设备跑得飞快，但人跟不上。操作工不会用，系统对接不上，故障处理全靠喊。三个月下来，老板脸都绿了。&lt;/p>
+&lt;p>仓储自动化到底该怎么搞？我总结了3条血泪教训。&lt;/p>
+&lt;h3 id="一自动化之前先把流程搞干净">一、自动化之前，先把流程搞干净&lt;/h3>
+&lt;p>80%的仓库上自动化失败，根源在这。&lt;/p>
+&lt;p>流程是乱的，上自动化只会放大混乱。原来人工分拣错了还能补救，自动化系统一旦跑偏，一批货全错，损失翻倍。&lt;/p>
+&lt;p>上自动化之前，先问自己三个问题：&lt;/p>
+&lt;ul>
+&lt;li>你的动线合理吗？A类品是不是放在了最远的位置？&lt;/li>
+&lt;li>你的数据准吗？系统里的库存和实物对得上吗？&lt;/li>
+&lt;li>你的流程标准化了吗？同一件事两个人做出来是不是一样的结果？&lt;/li>
+&lt;/ul>
+&lt;p>这三个问题搞不定，多少钱的设备都白搭。&lt;/p>
+&lt;h3 id="二人比机器更难搞定">二、人比机器更难搞定&lt;/h3>
+&lt;p>AGV再智能，也得有人配合。但现实是：老员工觉得自动化抢饭碗，消极抵触；新员工培训不到位，操作失误频发；管理层只看ROI，不关心落地过程。&lt;/p>
+&lt;p>&lt;strong>建议&lt;/strong>：设备进场前，先花一个月做人员培训和流程演练。让一线员工参与方案设计，他们的反馈比咨询公司的PPT值钱一百倍。&lt;/p>
+&lt;h3 id="三别被供应商的ppt忽悠瘸了">三、别被供应商的PPT忽悠瘸了&lt;/h3>
+&lt;p>每个自动化设备厂商都会给你画一张大饼：效率翻倍、人工减半、投资回报18个月。&lt;/p>
+&lt;p>&lt;strong>实际呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>效率提升：宣传50%，实际15-20%&lt;/li>
+&lt;li>人工减少：宣传40%，实际要留一半以上做运维&lt;/li>
+&lt;li>回报周期：宣传18个月，实际普遍3年以上&lt;/li>
+&lt;/ul>
+&lt;p>不是供应商骗你，是他们算的是理想状态。你的仓库永远不是理想状态。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>仓储自动化是趋势，但不是万能药。设备是工具，流程是骨架，人才是灵魂。三者缺一不可。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>运输管理干了5年，我才发现90%的人压根不看这3个指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-kpi/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-kpi/</guid><description>&lt;p>刚干运输管理的时候，老板问我&amp;quot;运费为什么这么高&amp;quot;，我只会说&amp;quot;油价涨了&amp;quot;。&lt;/p>
+&lt;p>后来发现，油价涨跌只影响运费的10-15%。真正的大头在另外三个地方。&lt;/p>
+&lt;p>我把公司的运输成本从营收的8.5%压到了5.2%，靠的不是跟车队砍价，&lt;strong>是看懂了三个指标。&lt;/strong>&lt;/p>
+&lt;h3 id="指标一装载率你车上装了多少空气">指标一：装载率——你车上装了多少&amp;quot;空气&amp;quot;&lt;/h3>
+&lt;p>大部分企业的卡车装载率在60-70%。&lt;/p>
+&lt;p>什么意思？一辆能装10吨的车，实际只装了6-7吨货。剩下的3-4吨空间在运空气。空气不用付运费吗？用——你付的是&amp;quot;空驶成本&amp;quot;。&lt;/p>
+&lt;p>提装载率最有效的方法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>合并发货&lt;/strong>：同一线路、同一天的订单合并装车&lt;/li>
+&lt;li>&lt;strong>回程配货&lt;/strong>：别让车空着回来，找回头货&lt;/li>
+&lt;li>&lt;strong>优化车型&lt;/strong>：货少用小车，货多用大车，别啥都用标准车&lt;/li>
+&lt;/ol>
+&lt;p>装载率从60%提到80%，运费直接降15%。&lt;/p>
+&lt;h3 id="指标二吨公里成本别只看总运费">指标二：吨公里成本——别只看总运费&lt;/h3>
+&lt;p>一个月运费花了50万——多还是少？&lt;/p>
+&lt;p>不知道。因为你不知道运了多少吨货、跑了多少公里。&lt;/p>
+&lt;p>&lt;strong>吨公里成本 = 总运费 / (运输吨数 x 运输里程)&lt;/strong>&lt;/p>
+&lt;p>这个指标才是衡量运输效率的尺子。&lt;/p>
+&lt;p>不同品类、不同线路的吨公里成本差别很大。纵向比——看自己的成本趋势；横向比——看是不是行业平均水平。&lt;/p>
+&lt;h3 id="指标三异常率最被低估的成本杀手">指标三：异常率——最被低估的成本杀手&lt;/h3>
+&lt;p>货物破损、送货延迟、签收异常——这些都是成本。&lt;/p>
+&lt;p>你以为这些是&amp;quot;意外&amp;quot;，实际是管理出来的。&lt;/p>
+&lt;p>异常率的背后是：包装标准执行了吗？装车顺序合理吗？司机考核到位了吗？&lt;/p>
+&lt;p>每次异常都是钱。降低异常率不需要额外花钱，只需要把流程执行到位。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>运输管理不是体力活，是脑力活。看懂这三个指标，比你跟车队吵100次架都有用。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>采购成本只看单价？难怪你年年降本，年年利润在降</title><link>https://supplychain-tips.pages.dev/posts/tco-total-cost-ownership/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/tco-total-cost-ownership/</guid><description>&lt;p>采购干了5年，年年完成降本KPI，但公司利润一年比一年差。&lt;/p>
+&lt;p>老板把你叫到办公室：&amp;ldquo;你每年都说降了多少多少钱，钱呢？&amp;rdquo;&lt;/p>
+&lt;p>你解释不通。因为你确实把采购价砍下来了。但公司花钱反而更多了。&lt;/p>
+&lt;p>问题出在哪？&lt;strong>你只算了采购单价，没算总拥有成本。&lt;/strong>&lt;/p>
+&lt;h3 id="tco是什么别被英文缩写唬住">TCO是什么？别被英文缩写唬住&lt;/h3>
+&lt;p>TCO = Total Cost of Ownership，总拥有成本。&lt;/p>
+&lt;p>简单说：买一台设备花了100万，但如果这台设备能耗是同行的2倍、故障率是同行的3倍、5年后残值是零——你的真实成本远不止100万。&lt;/p>
+&lt;p>&lt;strong>TCO = 采购成本 + 使用成本 + 维护成本 + 处置成本&lt;/strong>&lt;/p>
+&lt;p>大部分采购只盯第一个数字。&lt;/p>
+&lt;h3 id="一个真实案例扎心但真实">一个真实案例，扎心但真实&lt;/h3>
+&lt;p>某工厂采购了两台设备：&lt;/p>
+&lt;ul>
+&lt;li>A设备：80万，国产，能耗高，每月维护费2万&lt;/li>
+&lt;li>B设备：120万，进口，能耗低，每月维护费5千&lt;/li>
+&lt;/ul>
+&lt;p>财务角度看，采购A&amp;quot;省了&amp;quot;40万。&lt;/p>
+&lt;p>但算总账：A设备5年使用成本 = 80万 + (2万x60月) = 200万。B设备5年使用成本 = 120万 + (0.5万x60月) = 150万。&lt;/p>
+&lt;p>&lt;strong>选了便宜的，5年多花了50万。&lt;/strong>&lt;/p>
+&lt;h3 id="怎么把tco落地">怎么把TCO落地？&lt;/h3>
+&lt;p>&lt;strong>第一步：建立TCO模板&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>采购成本：报价、运费、关税、安装费&lt;/li>
+&lt;li>使用成本：能耗、耗材、操作人工&lt;/li>
+&lt;li>维护成本：日常保养、备件、维修、停机损失&lt;/li>
+&lt;li>处置成本：残值、拆卸、环保处理&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第二步：要求供应商提供TCO数据&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>能耗数据、故障率、使用寿命、备件价格——这些不是在签合同之后才问的&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>第三步：采购决策用TCO，不是单价&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>供应商评估表里TCO权重至少要占40%&lt;/li>
+&lt;/ul>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>只看单价的采购，永远在给自己挖坑。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
 &lt;p>提到RFID，你肯定听过两种声音：&lt;/p>
 &lt;p>&lt;strong>甲方&lt;/strong>：&amp;ldquo;RFID太贵了，一个标签1块钱，我们10万个SKU，光标签就10万，还有读写器、天线、软件，上百万的投入，3年收不回成本。&amp;rdquo;&lt;/p>
 &lt;p>&lt;strong>乙方&lt;/strong>：&amp;ldquo;RFID是仓储的未来，不用RFID的仓库就是落后的，人力成本越来越高，不上RFID迟早被淘汰。&amp;rdquo;&lt;/p>

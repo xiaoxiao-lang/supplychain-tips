@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运输管理做了5年，我总结了3个被严重低估的指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</guid><description>&lt;p>做运输管理的人，最常盯的KPI就是两个：运费和时效。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>运输管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 运输管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E8%BF%90%E8%BE%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>运输管理干了5年，我才发现90%的人压根不看这3个指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-kpi/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-kpi/</guid><description>&lt;p>刚干运输管理的时候，老板问我&amp;quot;运费为什么这么高&amp;quot;，我只会说&amp;quot;油价涨了&amp;quot;。&lt;/p>
+&lt;p>后来发现，油价涨跌只影响运费的10-15%。真正的大头在另外三个地方。&lt;/p>
+&lt;p>我把公司的运输成本从营收的8.5%压到了5.2%，靠的不是跟车队砍价，&lt;strong>是看懂了三个指标。&lt;/strong>&lt;/p>
+&lt;h3 id="指标一装载率你车上装了多少空气">指标一：装载率——你车上装了多少&amp;quot;空气&amp;quot;&lt;/h3>
+&lt;p>大部分企业的卡车装载率在60-70%。&lt;/p>
+&lt;p>什么意思？一辆能装10吨的车，实际只装了6-7吨货。剩下的3-4吨空间在运空气。空气不用付运费吗？用——你付的是&amp;quot;空驶成本&amp;quot;。&lt;/p>
+&lt;p>提装载率最有效的方法：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>合并发货&lt;/strong>：同一线路、同一天的订单合并装车&lt;/li>
+&lt;li>&lt;strong>回程配货&lt;/strong>：别让车空着回来，找回头货&lt;/li>
+&lt;li>&lt;strong>优化车型&lt;/strong>：货少用小车，货多用大车，别啥都用标准车&lt;/li>
+&lt;/ol>
+&lt;p>装载率从60%提到80%，运费直接降15%。&lt;/p>
+&lt;h3 id="指标二吨公里成本别只看总运费">指标二：吨公里成本——别只看总运费&lt;/h3>
+&lt;p>一个月运费花了50万——多还是少？&lt;/p>
+&lt;p>不知道。因为你不知道运了多少吨货、跑了多少公里。&lt;/p>
+&lt;p>&lt;strong>吨公里成本 = 总运费 / (运输吨数 x 运输里程)&lt;/strong>&lt;/p>
+&lt;p>这个指标才是衡量运输效率的尺子。&lt;/p>
+&lt;p>不同品类、不同线路的吨公里成本差别很大。纵向比——看自己的成本趋势；横向比——看是不是行业平均水平。&lt;/p>
+&lt;h3 id="指标三异常率最被低估的成本杀手">指标三：异常率——最被低估的成本杀手&lt;/h3>
+&lt;p>货物破损、送货延迟、签收异常——这些都是成本。&lt;/p>
+&lt;p>你以为这些是&amp;quot;意外&amp;quot;，实际是管理出来的。&lt;/p>
+&lt;p>异常率的背后是：包装标准执行了吗？装车顺序合理吗？司机考核到位了吗？&lt;/p>
+&lt;p>每次异常都是钱。降低异常率不需要额外花钱，只需要把流程执行到位。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>运输管理不是体力活，是脑力活。看懂这三个指标，比你跟车队吵100次架都有用。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>运输管理做了5年，我总结了3个被严重低估的指标</title><link>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/transportation-management-underrated-metrics/</guid><description>&lt;p>做运输管理的人，最常盯的KPI就是两个：运费和时效。&lt;/p>
 &lt;p>运费越低越好，时效越快越好。这谁都知道。&lt;/p>
 &lt;p>但盯了5年运输以后，我发现真正决定运输管理水平高低的，不是运费和时效，而是另外3个指标。这3个指标被严重低估了，但它们才是影响运输成本和客户体验的&amp;quot;隐性杀手&amp;quot;。&lt;/p>
 &lt;h2 id="指标一准时提货率">指标一：准时提货率&lt;/h2>

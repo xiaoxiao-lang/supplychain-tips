@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SKU优化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/sku%E4%BC%98%E5%8C%96/</link><description>Recent content in SKU优化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/sku%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了3年全白费？因为你只分类，没行动</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>我在三家公司都做过ABC分类。&lt;/p>
+&lt;p>第一家公司：分了类，然后就没了。Excel表存进了共享盘，再也没打开过。&lt;/p>
+&lt;p>第二家公司：分了类，但所有SKU一视同仁。A类和C类补货逻辑一样，安全库存算法一样。&lt;/p>
+&lt;p>第三家公司：我才搞明白ABC分类法的真正用法。&lt;/p>
+&lt;h3 id="abc不是分类游戏是资源分配策略">ABC不是分类游戏，是资源分配策略&lt;/h3>
+&lt;p>ABC分类的核心思想很简单：&lt;strong>把有限的精力花在最重要的地方。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类品：占SKU数量10-20%，但占销售额70-80%&lt;/li>
+&lt;li>B类品：占SKU数量30%，占销售额15-20%&lt;/li>
+&lt;li>C类品：占SKU数量50-60%，占销售额5-10%&lt;/li>
+&lt;/ul>
+&lt;p>但知道分类只是第一步，怎么做才是关键。&lt;/p>
+&lt;h3 id="a类品像盯股票一样盯">A类品：像盯股票一样盯&lt;/h3>
+&lt;p>A类品的库存管理应该是&lt;strong>颗粒级&lt;/strong>的。&lt;/p>
+&lt;ul>
+&lt;li>每天看库存水位，低于安全库存立刻补&lt;/li>
+&lt;li>每周回顾销售趋势，预测调整要实时&lt;/li>
+&lt;li>每月跟供应商对一次需求计划&lt;/li>
+&lt;/ul>
+&lt;p>在A类品上花80%的精力，因为这些货一旦断货或缺货，损失最大。&lt;/p>
+&lt;h3 id="b类品走流程不走心">B类品：走流程，不走心&lt;/h3>
+&lt;p>B类品不需要天天盯，但要有一套规范的补货机制。&lt;/p>
+&lt;p>设置好安全库存、补货点、经济订货量，系统自动触发补货。人工只处理异常。&lt;/p>
+&lt;p>B类品省下来的精力，全部投到A类上去。&lt;/p>
+&lt;h3 id="c类品这是你最大的浪费">C类品：这是你最大的浪费&lt;/h3>
+&lt;p>C类品占了你SKU的大半，但贡献的销售额不到10%。&lt;/p>
+&lt;p>更可怕的是，这些C类品还在消耗你的仓储空间、管理精力、资金占用。&lt;/p>
+&lt;p>&lt;strong>对C类品的态度应该是：能砍就砍，能并就并。&lt;/strong>&lt;/p>
+&lt;p>很多C类品是可以直接淘汰的——一年卖不了几次，客户也不是非它不可。&lt;/p>
+&lt;p>实在砍不掉的C类品：合并SKU、提高起订量、延长补货周期。让它尽量不占用你的精力。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>ABC分类是工具，不是终点。分类之后不行动，等于你辛辛苦苦整理了一份体检报告，然后扔进抽屉里。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

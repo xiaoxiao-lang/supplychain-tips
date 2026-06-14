@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>条码管理做了3年，我才发现之前全做错了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</guid><description>&lt;h2 id="条码管理看着简单做对的人不到10">条码管理：看着简单，做对的人不到10%&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>库存管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/</link><description>Recent content in 库存管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC分类法用了3年全白费？因为你只分类，没行动</title><link>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/abc-classification-rethink/</guid><description>&lt;p>我在三家公司都做过ABC分类。&lt;/p>
+&lt;p>第一家公司：分了类，然后就没了。Excel表存进了共享盘，再也没打开过。&lt;/p>
+&lt;p>第二家公司：分了类，但所有SKU一视同仁。A类和C类补货逻辑一样，安全库存算法一样。&lt;/p>
+&lt;p>第三家公司：我才搞明白ABC分类法的真正用法。&lt;/p>
+&lt;h3 id="abc不是分类游戏是资源分配策略">ABC不是分类游戏，是资源分配策略&lt;/h3>
+&lt;p>ABC分类的核心思想很简单：&lt;strong>把有限的精力花在最重要的地方。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A类品：占SKU数量10-20%，但占销售额70-80%&lt;/li>
+&lt;li>B类品：占SKU数量30%，占销售额15-20%&lt;/li>
+&lt;li>C类品：占SKU数量50-60%，占销售额5-10%&lt;/li>
+&lt;/ul>
+&lt;p>但知道分类只是第一步，怎么做才是关键。&lt;/p>
+&lt;h3 id="a类品像盯股票一样盯">A类品：像盯股票一样盯&lt;/h3>
+&lt;p>A类品的库存管理应该是&lt;strong>颗粒级&lt;/strong>的。&lt;/p>
+&lt;ul>
+&lt;li>每天看库存水位，低于安全库存立刻补&lt;/li>
+&lt;li>每周回顾销售趋势，预测调整要实时&lt;/li>
+&lt;li>每月跟供应商对一次需求计划&lt;/li>
+&lt;/ul>
+&lt;p>在A类品上花80%的精力，因为这些货一旦断货或缺货，损失最大。&lt;/p>
+&lt;h3 id="b类品走流程不走心">B类品：走流程，不走心&lt;/h3>
+&lt;p>B类品不需要天天盯，但要有一套规范的补货机制。&lt;/p>
+&lt;p>设置好安全库存、补货点、经济订货量，系统自动触发补货。人工只处理异常。&lt;/p>
+&lt;p>B类品省下来的精力，全部投到A类上去。&lt;/p>
+&lt;h3 id="c类品这是你最大的浪费">C类品：这是你最大的浪费&lt;/h3>
+&lt;p>C类品占了你SKU的大半，但贡献的销售额不到10%。&lt;/p>
+&lt;p>更可怕的是，这些C类品还在消耗你的仓储空间、管理精力、资金占用。&lt;/p>
+&lt;p>&lt;strong>对C类品的态度应该是：能砍就砍，能并就并。&lt;/strong>&lt;/p>
+&lt;p>很多C类品是可以直接淘汰的——一年卖不了几次，客户也不是非它不可。&lt;/p>
+&lt;p>实在砍不掉的C类品：合并SKU、提高起订量、延长补货周期。让它尽量不占用你的精力。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>ABC分类是工具，不是终点。分类之后不行动，等于你辛辛苦苦整理了一份体检报告，然后扔进抽屉里。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>库存周转率从4提到8，我没压一毛钱供应商货款</title><link>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/inventory-turnover-secrets/</guid><description>&lt;p>先别往下看，算一下你上个月的库存周转率是多少。&lt;/p>
+&lt;p>如果算不出来，或者算了没超过6次/年，这篇文章你非看不可。&lt;/p>
+&lt;p>库存周转率，说白了就是&amp;quot;一年内库存翻了几次&amp;quot;。翻得越快，钱赚得越多。但90%的企业用错了方法：要么死压采购量导致断货，要么使劲压供应商账期把自己口碑搞臭。&lt;/p>
+&lt;p>我花了2年时间，把公司的库存周转率从4提到了8，没多压供应商一分钱。方法拆给你们看。&lt;/p>
+&lt;h3 id="第一步干掉安全库存安全幻觉">第一步：干掉&amp;quot;安全库存=安全幻觉&amp;quot;&lt;/h3>
+&lt;p>大部分公司的安全库存是拍脑袋定的。问为什么设这个数，回答永远是&amp;quot;领导定的&amp;quot;或者&amp;quot;一直都是这么多&amp;quot;。&lt;/p>
+&lt;p>&lt;strong>安全库存真正的算法&lt;/strong>：基于历史需求的波动性和补货提前期的不确定性来算。&lt;/p>
+&lt;p>具体做法：提取过去12个月每个SKU的周销量数据，算标准差。波动大的SKU，安全库存加量；波动小、需求稳定的SKU，安全库存可以大幅压缩。&lt;/p>
+&lt;p>一个SKU一个SKU地过，你会发现至少有30%的SKU安全库存设高了。&lt;/p>
+&lt;h3 id="第二步abc分类不是终点是起点">第二步：ABC分类不是终点，是起点&lt;/h3>
+&lt;p>ABC分类法很多人都在用，但大部分只做到了分类，没做到差异化策略。&lt;/p>
+&lt;p>&lt;strong>A类（高价值/高周转）&lt;/strong>：重点管理，每日监控库存水位，补货策略精细化
+&lt;strong>B类（中价值/中周转）&lt;/strong>：定期盘点，设置安全库存水位线自动补货
+&lt;strong>C类（低价值/低周转）&lt;/strong>：能砍就砍，能并就并。很多C类SKU其实是可以合并或淘汰的&lt;/p>
+&lt;p>关键不是分类，是分类之后的行动。分了类不行动，等于白分。&lt;/p>
+&lt;h3 id="第三步把预测往前移而不是往后甩锅">第三步：把预测往前移，而不是往后甩锅&lt;/h3>
+&lt;p>库存积压的根源，多半是预测不准。&lt;/p>
+&lt;p>但预测不准不是预测部门的锅——你让预测部门看着历史数据猜未来，他能准才怪。&lt;/p>
+&lt;p>&lt;strong>好的预测机制&lt;/strong>：销售、市场、供应链三方坐下来一起看。销售知道客户动向，市场知道促销节奏，供应链知道产能约束。三方信息合在一起，预测准确率能提升30%以上。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>库存周转率不是财务指标，是你供应链运营能力的体温计。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>条码管理做了3年，我才发现之前全做错了</title><link>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/barcode-management-common-mistakes/</guid><description>&lt;h2 id="条码管理看着简单做对的人不到10">条码管理：看着简单，做对的人不到10%&lt;/h2>
 &lt;p>条码管理有多基础？几乎所有仓库都在用。&lt;/p>
 &lt;p>但条码管理做对的仓库有多少？&lt;strong>不到10%。&lt;/strong>&lt;/p>
 &lt;p>怎么判断你做没做对？3个问题：&lt;/p>
