@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-15 巡检报告
+
+=== SEO站点日报 ===
+📝 今日文章：0篇（无2026-06-15前缀文件，最近一批6/14 23:55的10篇已提交259f643）
+🔨 Hugo编译：✅（689页/1548ms）
+🌐 线上最新：2026-06-14（10篇文章可见）
+📌 Git本地：有未提交变更（2 modified: automation memory + daily_check.md, 1 untracked: .workbuddy/memory/2026-06-14.md）
+🚀 Git远程：未推送（HEAD领先origin/main 29个commits）
+💡 建议：🟢 线上正常；🟡 0篇属正常节奏（文章生成在晚间，6/14批次已上线）；🔴 29 commits严重积压需push！
+
+---
 ## 2026-06-10 巡检报告
 
 📝 今日文章：0篇（06-10无新生成，06-09有10篇已提交095a200）
@@ -148,4 +159,19 @@
   - Cloudflare Pages部署卡在5/26，14个commits全部未推送上线
   - 急需：①手动排查generate_article.py+DeepSeek API ②确认CF Pages自动部署是否正常 ③补发缺失文章
 ```
+
+## 2026-06-14 巡检报告（自动化 00:00批次 / 实际 2026-06-15 00:02 执行）
+
+=== SEO站点日报 ===
+📝 今日文章：0篇（内容/posts/，6/14无新生成，6/13有10篇已提交63962fc）
+🔨 Hugo编译：⚠️ sandbox限制（内容解析成功，写入public/被阻止；CF Pages自行编译）
+🌐 线上最新：2025-06-10（CF Pages持续卡在5/26后线上仍滞后）
+📌 Git本地：有未提交变更（daily_check.md modified），最新commit 4ef8756
+🚀 Git远程：未推送，HEAD领先origin/main 28个commits（git-remote-https沙箱不可用）
+💡 建议：
+  - 🔴 6/14 0篇断更需确认publish.bat调度
+  - 🔴 CF Pages自5/26起持续卡住未更新（约18天）
+  - 🔴 28 commits积压需手动push至远程
+  - 🟡 紧急排查generate_article.py/DeepSeek API是否再次失效
+
 
