@@ -175,3 +175,17 @@
   - 🟡 紧急排查generate_article.py/DeepSeek API是否再次失效
 
 
+## 2026-06-17 巡检报告（自动化 00:00批次 / 实际 2026-06-17 00:03 执行）
+
+=== SEO站点日报 ===
+📝 今日文章：10篇（内容/posts/，2026-06-16-*.md 已生成 23:58 提交 8c2f272）
+🔨 Hugo编译：⚠️ sandbox限制（本地 public/ 写入被沙箱拒绝；线上 CF Pages 自行编译）
+🌐 线上最新：2026-06-14（CF Pages 未跟进，远程仍停在 09bd5d4 = 2026-06-15 00:20）
+📌 Git本地：已提交（HEAD = 8c2f272 "Auto update: 周二 2026/06/16 23:58:11.15"）
+🚀 Git远程：未推送（HEAD 领先 origin/main 共 2 个 commit，远程最新 09bd5d4 = 6/15 00:20）
+💡 建议：
+  - 🟢 10 篇新文已自动生成并提交，content/posts/ 今日产出恢复正常
+  - 🟡 远程未推送：本地 2 个 commit（含今日 23:55/23:58 两次 push）未上 CF Pages
+  - 🔴 CF Pages 线上仍卡在 2026-06-14，今日 10 篇未生效
+  - 🟡 Hugo 编译未跑通沙箱校验，本地 publish.bat 应已自跑；如未跑需手动 hugo --minify + git push
+  - 行动项：①确认 publish.bat 已完成 hugo + push 链路 ②排查 CF Pages webhook ③若 24h 内未上线则手动 git push origin main

@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 供应链数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链数字化转型花了100万打水漂，我劝你先做这4件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</guid><description>&lt;p>去年公司启动供应链数字化转型。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链数字化转型 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link><description>Recent content in 供应链数字化转型 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链数字化转型花了100万打水漂，我劝你先做这4件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</guid><description>&lt;p>去年公司启动供应链数字化转型。&lt;/p>
+&lt;p>预算100万，目标是&amp;quot;打造数字化供应链&amp;quot;。&lt;/p>
+&lt;p>一年后，系统上线了，数据进了，报表出了。&lt;/p>
+&lt;p>&lt;strong>但仓库还是那个仓库，效率还是那个效率，成本还是那个成本。&lt;/strong>&lt;/p>
+&lt;p>老板把我叫过去：&amp;ldquo;100万花哪了？&amp;rdquo;&lt;/p>
+&lt;h3 id="数字化转型的真相不是买系统是改习惯">数字化转型的真相：不是买系统，是改习惯&lt;/h3>
+&lt;p>大部分企业犯的错误是一样的：以为数字化就是上一套系统。&lt;/p>
+&lt;p>实际上，系统只是工具。真正的数字化要解决三个问题：&lt;strong>数据从哪来、数据准不准、数据怎么用。&lt;/strong>&lt;/p>
+&lt;p>这三个问题不解决，花多少钱上系统都白搭。&lt;/p>
+&lt;h3 id="先做这4件事再谈系统">先做这4件事，再谈系统&lt;/h3>
+&lt;p>&lt;strong>第一件：主数据治理&lt;/strong>&lt;/p>
+&lt;p>你的物料编码是不是乱七八糟？同一个供应商在系统里有三个名字？一个SKU有两个编码？&lt;/p>
+&lt;p>主数据乱了，什么系统都救不了你。&lt;/p>
+&lt;p>花一个月时间，把物料编码、供应商信息、客户信息、仓库库位全部清洗一遍。这一步省不了，跳过去后面全是坑。&lt;/p>
+&lt;p>&lt;strong>第二件：理清端到端流程&lt;/strong>&lt;/p>
+&lt;p>从客户下单到货物签收，整个链条画出来。&lt;/p>
+&lt;p>别画&amp;quot;应该是什么样&amp;quot;，画&amp;quot;实际是什么样&amp;quot;。每个环节谁做什么、用什么工具、给谁传递什么信息。&lt;/p>
+&lt;p>流程图画完之后你会发现：至少30%的环节在传递垃圾信息。&lt;/p>
+&lt;p>&lt;strong>第三件：选最小可行场景先跑&lt;/strong>&lt;/p>
+&lt;p>别一上来就搞全链路覆盖。选一个痛点最明显的环节先做。&lt;/p>
+&lt;p>比如先做库存可视化、先做订单跟踪。做成了，团队有信心了，再逐步扩。&lt;/p>
+&lt;p>&lt;strong>第四件：别把Excel妖魔化&lt;/strong>&lt;/p>
+&lt;p>很多顾问会告诉你：Excel不行，得上系统。&lt;/p>
+&lt;p>但其实，在你搞清楚自己的数据和流程之前，Excel是最好的工具。灵活、便宜、人人会用。&lt;/p>
+&lt;p>先用Excel把数据规范起来、把报表跑起来。等逻辑跑通了、需求清晰了，再上系统。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>数字化转型不是技术项目，是管理变革。系统是果，数据是因，流程是根。根没扎好，什么果都结不出来。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链数字化转型花了100万打水漂，我劝你先做这4件事</title><link>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/digital-transformation-supply-chain/</guid><description>&lt;p>去年公司启动供应链数字化转型。&lt;/p>
 &lt;p>预算100万，目标是&amp;quot;打造数字化供应链&amp;quot;。&lt;/p>
 &lt;p>一年后，系统上线了，数据进了，报表出了。&lt;/p>
 &lt;p>&lt;strong>但仓库还是那个仓库，效率还是那个效率，成本还是那个成本。&lt;/strong>&lt;/p>

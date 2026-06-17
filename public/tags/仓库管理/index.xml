@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
+&lt;p>设备跑得飞快，但人跟不上。操作工不会用，系统对接不上，故障处理全靠喊。三个月下来，老板脸都绿了。&lt;/p>
+&lt;p>仓储自动化到底该怎么搞？我总结了3条血泪教训。&lt;/p>
+&lt;h3 id="一自动化之前先把流程搞干净">一、自动化之前，先把流程搞干净&lt;/h3>
+&lt;p>80%的仓库上自动化失败，根源在这。&lt;/p>
+&lt;p>流程是乱的，上自动化只会放大混乱。原来人工分拣错了还能补救，自动化系统一旦跑偏，一批货全错，损失翻倍。&lt;/p>
+&lt;p>上自动化之前，先问自己三个问题：&lt;/p>
+&lt;ul>
+&lt;li>你的动线合理吗？A类品是不是放在了最远的位置？&lt;/li>
+&lt;li>你的数据准吗？系统里的库存和实物对得上吗？&lt;/li>
+&lt;li>你的流程标准化了吗？同一件事两个人做出来是不是一样的结果？&lt;/li>
+&lt;/ul>
+&lt;p>这三个问题搞不定，多少钱的设备都白搭。&lt;/p>
+&lt;h3 id="二人比机器更难搞定">二、人比机器更难搞定&lt;/h3>
+&lt;p>AGV再智能，也得有人配合。但现实是：老员工觉得自动化抢饭碗，消极抵触；新员工培训不到位，操作失误频发；管理层只看ROI，不关心落地过程。&lt;/p>
+&lt;p>&lt;strong>建议&lt;/strong>：设备进场前，先花一个月做人员培训和流程演练。让一线员工参与方案设计，他们的反馈比咨询公司的PPT值钱一百倍。&lt;/p>
+&lt;h3 id="三别被供应商的ppt忽悠瘸了">三、别被供应商的PPT忽悠瘸了&lt;/h3>
+&lt;p>每个自动化设备厂商都会给你画一张大饼：效率翻倍、人工减半、投资回报18个月。&lt;/p>
+&lt;p>&lt;strong>实际呢？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>效率提升：宣传50%，实际15-20%&lt;/li>
+&lt;li>人工减少：宣传40%，实际要留一半以上做运维&lt;/li>
+&lt;li>回报周期：宣传18个月，实际普遍3年以上&lt;/li>
+&lt;/ul>
+&lt;p>不是供应商骗你，是他们算的是理想状态。你的仓库永远不是理想状态。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>仓储自动化是趋势，但不是万能药。设备是工具，流程是骨架，人才是灵魂。三者缺一不可。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
 &lt;p>设备跑得飞快，但人跟不上。操作工不会用，系统对接不上，故障处理全靠喊。三个月下来，老板脸都绿了。&lt;/p>
 &lt;p>仓储自动化到底该怎么搞？我总结了3条血泪教训。&lt;/p>
 &lt;h3 id="一自动化之前先把流程搞干净">一、自动化之前，先把流程搞干净&lt;/h3>

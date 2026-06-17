@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链可视化不是做几张漂亮大屏，是让你的钱看得见</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>公司花50万做了一套供应链可视化大屏。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链可视化 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 供应链可视化 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链可视化不是做几张漂亮大屏，是让你的钱看得见</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>公司花50万做了一套供应链可视化大屏。&lt;/p>
+&lt;p>数据跳动、图表炫酷、领导参观时倍有面子。&lt;/p>
+&lt;p>但会议室里那块屏幕亮了一个月之后，就再也没人看了。&lt;/p>
+&lt;p>为什么？&lt;strong>因为它只显示了&amp;quot;看起来很美&amp;quot;，没有告诉你&amp;quot;问题在哪&amp;quot;。&lt;/strong>&lt;/p>
+&lt;h3 id="可视化不是为了好看是为了好管">可视化不是为了好看，是为了好管&lt;/h3>
+&lt;p>真正的供应链可视化应该回答三个问题：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>我的钱卡在哪了？&lt;/strong>——库存金额、在途资金、应付账款，每一笔资金占用都要看得见&lt;/li>
+&lt;li>&lt;strong>风险在哪？&lt;/strong>——哪些供应商交货延迟趋势在恶化、哪些仓库库存水位逼近红线&lt;/li>
+&lt;li>&lt;strong>效率瓶颈在哪？&lt;/strong>——哪个环节处理时间最长、哪条线路成本异常&lt;/li>
+&lt;/ol>
+&lt;p>做不到这三点，你的可视化就是一块昂贵的装饰品。&lt;/p>
+&lt;h3 id="从四个维度建可视化">从四个维度建可视化&lt;/h3>
+&lt;p>&lt;strong>库存可视化&lt;/strong>：不是看总量，是看结构。A类品缺不缺？C类品积不积压？库龄超过90天的有多少？——这才是你要盯的。&lt;/p>
+&lt;p>&lt;strong>物流可视化&lt;/strong>：在途货物的位置、预计到达时间、是否有异常停留。跨境电商尤其重要，一票货在海上漂30天，你都不知道它在哪，怎么跟客户交代？&lt;/p>
+&lt;p>&lt;strong>供应商可视化&lt;/strong>：交货及时率、质量合格率、价格波动趋势。一张表拉出来，谁在变好谁在变差一目了然。&lt;/p>
+&lt;p>&lt;strong>成本可视化&lt;/strong>：不是总成本，是单位成本。每一件商品的采购成本、物流成本、库存持有成本全拆开。才知道钱花哪了。&lt;/p>
+&lt;h3 id="别一上来就上系统">别一上来就上系统&lt;/h3>
+&lt;p>很多企业一谈可视化就说上系统。其实第一步是理数据。&lt;/p>
+&lt;p>数据不准，可视化就是垃圾进、垃圾出。&lt;/p>
+&lt;p>&lt;strong>建议路径&lt;/strong>：先用Excel做手动报表（1个月）→ 确认指标定义和数据口径 → 再用BI工具做自动化看板 → 最后才是大屏。&lt;/p>
+&lt;h3 id="写在最后">写在最后&lt;/h3>
+&lt;p>供应链可视化不是技术问题，是管理问题。你连要管什么都不知道，再漂亮的大屏也是摆设。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链可视化不是做几张漂亮大屏，是让你的钱看得见</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-visualization/</guid><description>&lt;p>公司花50万做了一套供应链可视化大屏。&lt;/p>
 &lt;p>数据跳动、图表炫酷、领导参观时倍有面子。&lt;/p>
 &lt;p>但会议室里那块屏幕亮了一个月之后，就再也没人看了。&lt;/p>
 &lt;p>为什么？&lt;strong>因为它只显示了&amp;quot;看起来很美&amp;quot;，没有告诉你&amp;quot;问题在哪&amp;quot;。&lt;/strong>&lt;/p>
