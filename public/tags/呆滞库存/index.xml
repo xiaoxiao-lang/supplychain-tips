@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>呆滞库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%91%86%E6%BB%9E%E5%BA%93%E5%AD%98/</link><description>Recent content in 呆滞库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%91%86%E6%BB%9E%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>库龄超过180天的货，打骨折出掉才是赚</title><link>https://supplychain-tips.pages.dev/posts/aging-inventory-write-off-strategy/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/aging-inventory-write-off-strategy/</guid><description>&lt;p>财务每个月催你处理呆滞库存，你每次都说&amp;quot;再等等，说不定能卖出去&amp;quot;。&lt;/p>
+&lt;p>等了半年，没卖出去。价格跌了20%，仓储费又交了10万。&lt;/p>
+&lt;p>&lt;strong>你亏的不是那20%的价格差，是半年的仓储费+资金占用+管理精力。&lt;/strong>&lt;/p>
+&lt;h3 id="呆滞库存的真实成本">呆滞库存的真实成本&lt;/h3>
+&lt;p>一件库龄180天的货，你以为它的成本只是采购价？&lt;/p>
+&lt;p>&lt;strong>实际成本 = 采购价 + 仓储费 + 资金占用 + 减值准备 + 管理成本&lt;/strong>&lt;/p>
+&lt;p>算一笔账：&lt;/p>
+&lt;ul>
+&lt;li>采购价：100元/件&lt;/li>
+&lt;li>仓储费：0.5元/件/天 × 180天 = 90元&lt;/li>
+&lt;li>资金占用：100元 × 5%年化 ÷ 2 = 2.5元&lt;/li>
+&lt;li>减值准备：按企业会计准则，库龄超180天通常需计提20-50%减值&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一件100块的东西，放了半年，实际成本已经接近200块。&lt;/strong>&lt;/p>
+&lt;p>而且这还是在不考虑跌价的情况下。电子产品、服装、食品——这些品类180天后可能直接贬值50%以上。&lt;/p>
+&lt;h3 id="处理呆滞库存的4种方法">处理呆滞库存的4种方法&lt;/h3>
+&lt;p>&lt;strong>方法一：打折清仓——最简单最有效&lt;/strong>&lt;/p>
+&lt;p>别心疼。库龄超180天的货，打5折出掉比放在仓库里继续亏钱强。&lt;/p>
+&lt;p>&lt;strong>关键是速度&lt;/strong>。越快处理，损失越小。&lt;/p>
+&lt;ul>
+&lt;li>拼多多/1688清仓&lt;/li>
+&lt;li>尾货市场批量出&lt;/li>
+&lt;li>给现有客户做赠品&lt;/li>
+&lt;li>员工内购价&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>算账原则&lt;/strong>：只要回收金额 &amp;gt;（仓储费 + 继续减值预期），就出。&lt;/p>
+&lt;p>&lt;strong>方法二：退回供应商——试试看不吃亏&lt;/strong>&lt;/p>
+&lt;p>有些供应商会接受退货，尤其是：&lt;/p>
+&lt;ul>
+&lt;li>还在保质期内的标准化产品&lt;/li>
+&lt;li>供应商本身有其他客户能用&lt;/li>
+&lt;li>你和供应商关系好&lt;/li>
+&lt;/ul>
+&lt;p>退货折扣通常在30-50%，但比烂在仓库里强。&lt;/p>
+&lt;p>&lt;strong>方法三：跨区域/跨渠道调拨&lt;/strong>&lt;/p>
+&lt;p>在你的产品体系里找找，有没有其他区域或渠道能消化这批货？&lt;/p>
+&lt;ul>
+&lt;li>线上卖不动，线下可能行&lt;/li>
+&lt;li>一线城市滞销，三四线可能有人要&lt;/li>
+&lt;li>国内卖不掉，出口到发展中国家&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>方法四：拆解回收&lt;/strong>&lt;/p>
+&lt;p>最差的情况下，把产品拆了，回收可用零部件和原材料。&lt;/p>
+&lt;p>别笑，有些行业的拆解回收率能达到采购价的20-30%。&lt;/p>
+&lt;h3 id="预防永远比治疗便宜">预防永远比治疗便宜&lt;/h3>
+&lt;p>处理呆滞库存是治标，防止呆滞产生是治本。&lt;/p>
+&lt;p>&lt;strong>三道防线&lt;/strong>：&lt;/p>
+&lt;p>&lt;strong>防线一：新品上市前的&amp;quot;死亡预判&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>每个新品上市前，问3个问题：&lt;/p>
+&lt;ul>
+&lt;li>3个月后卖不掉的概率有多大？&lt;/li>
+&lt;li>如果卖不掉，能打折出清吗？&lt;/li>
+&lt;li>有没有最低起订量更小的供应商？&lt;/li>
+&lt;/ul>
+&lt;p>如果3个答案都不乐观，减少首单量，宁可补货快一点。&lt;/p>
+&lt;p>&lt;strong>防线二：库龄预警机制&lt;/strong>&lt;/p>
+&lt;p>别等180天了才发现。&lt;/p></description></item></channel></rss>

@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链风险管理的3个层次，90%的企业只做到了第1层</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</guid><description>&lt;h2 id="供应链出事了你怎么办">供应链出事了你怎么办？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链韧性不是多囤货，是能在3天内切换</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</guid><description>&lt;p>2020年疫情的时候，有个做汽车零部件的朋友，唯一的供应商在武汉。&lt;/p>
+&lt;p>停工2个月。他公司差点跟着倒。&lt;/p>
+&lt;p>事后他跟我说：&amp;ldquo;我以后要多备6个月的安全库存。&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;那不是韧性，那是烧钱。&amp;rdquo;&lt;/p>
+&lt;h3 id="多囤货不是韧性是恐惧">多囤货不是韧性，是恐惧&lt;/h3>
+&lt;p>安全库存囤得越多，资金占用越多、过期风险越大、仓储成本越高。&lt;/p>
+&lt;p>而且囤货只能防&amp;quot;需求波动&amp;quot;，防不了&amp;quot;供应中断&amp;quot;。供应商工厂着火了，你囤再多货也有用完的一天。&lt;/p>
+&lt;p>&lt;strong>真正的韧性，是切换能力。&lt;/strong>&lt;/p>
+&lt;p>出了事，能在3天内切换到Plan B，这才是供应链韧性。&lt;/p>
+&lt;h3 id="能力一备用供应商不是名单上有是真的能切">能力一：备用供应商——不是名单上有，是真的能切&lt;/h3>
+&lt;p>大部分企业的备用供应商名单是有的，但从来没真正用过。&lt;/p>
+&lt;p>真到切换的时候发现：&lt;/p>
+&lt;ul>
+&lt;li>备用供应商的产能根本不够&lt;/li>
+&lt;li>产品质量过不了关&lt;/li>
+&lt;li>价格高出30%以上&lt;/li>
+&lt;li>样品确认要2周&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>备用供应商需要&amp;quot;养&amp;quot;&lt;/strong>：每季度分配5-10%的量给备用供应商做，让他们保持产线状态。不是浪费，是保险费。&lt;/p>
+&lt;p>&lt;strong>实操建议&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>核心物料至少有2家合格供应商&lt;/li>
+&lt;li>每家至少占总采购量的20%&lt;/li>
+&lt;li>每季度审核一次备用供应商的实际产能&lt;/li>
+&lt;/ul>
+&lt;h3 id="能力二替代方案不是找到就行是验证过才行">能力二：替代方案——不是找到就行，是验证过才行&lt;/h3>
+&lt;p>&amp;ldquo;这款芯片断货了，可以用另一款替代。&amp;quot;——理论上可以。&lt;/p>
+&lt;p>但实际上：替代品的性能参数是否一致？客户是否认可？产线是否需要调整？认证周期多长？&lt;/p>
+&lt;p>&lt;strong>替代方案的关键不是&amp;quot;有&amp;rdquo;，是&amp;quot;验证过&amp;quot;。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>物料替代&lt;/strong>：提前做交叉验证，确认替代品能通过功能测试和客户认可&lt;/li>
+&lt;li>&lt;strong>工艺替代&lt;/strong>：如果关键工序停了，有没有替代工艺？效率可能低一点，但能保交付&lt;/li>
+&lt;li>&lt;strong>规格替代&lt;/strong>：非核心规格是否可以临时放宽？需要跟客户提前约定&lt;/li>
+&lt;/ul>
+&lt;h3 id="能力三物流路线切换不是临时找车是提前有网">能力三：物流路线切换——不是临时找车，是提前有网&lt;/h3>
+&lt;p>你只用一条物流线路。那条线断了，你就断供。&lt;/p>
+&lt;p>有韧性的物流网络是什么样的？&lt;/p>
+&lt;ul>
+&lt;li>同一条线路至少有2家承运商&lt;/li>
+&lt;li>关键节点有替代路线（如某港口拥堵，能走另一港口）&lt;/li>
+&lt;li>国际运输有海/空/铁多种方案&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>最实际的做法&lt;/strong>：画一张物流网络图，标出每个环节的&amp;quot;单点故障&amp;quot;。凡是只有一个选项的节点，都要想办法加一个备选。&lt;/p>
+&lt;h3 id="怎么知道自己有没有韧性">怎么知道自己有没有韧性？&lt;/h3>
+&lt;p>做一次&amp;quot;模拟断供&amp;quot;演练：&lt;/p>
+&lt;ol>
+&lt;li>选一个核心物料&lt;/li>
+&lt;li>假设主供应商明天断供&lt;/li>
+&lt;li>看你的团队需要多久才能切换到备用方案&lt;/li>
+&lt;/ol>
+&lt;p>如果答案超过3天，你的韧性不合格。&lt;/p>
+&lt;p>&lt;strong>3天是及格线，1天是优秀线。&lt;/strong>&lt;/p>
+&lt;p>能3天切换的供应链，和要2周才能恢复的供应链，差的不是库存量，是管理能力。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>供应链风险管理的3个层次，90%的企业只做到了第1层</title><link>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E7%9A%843%E4%B8%AA%E5%B1%82%E6%AC%A190%E7%9A%84%E4%BC%81%E4%B8%9A%E5%8F%AA%E5%81%9A%E5%88%B0%E4%BA%86%E7%AC%AC1%E5%B1%82/</guid><description>&lt;h2 id="供应链出事了你怎么办">供应链出事了你怎么办？&lt;/h2>
 &lt;p>问10个供应链负责人&amp;quot;你们的风险管理怎么做&amp;quot;，8个会说&amp;quot;我们有应急预案&amp;quot;。&lt;/p>
 &lt;p>但如果继续问：&lt;/p>
 &lt;ul>

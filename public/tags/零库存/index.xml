@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>零库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9B%B6%E5%BA%93%E5%AD%98/</link><description>Recent content in 零库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9B%B6%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</guid><description>&lt;h2 id="jit零库存你想多了">JIT=零库存？你想多了&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>零库存 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%9B%B6%E5%BA%93%E5%AD%98/</link><description>Recent content in 零库存 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%9B%B6%E5%BA%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml"/><item><title>零库存是伪命题，但零浪费不是</title><link>https://supplychain-tips.pages.dev/posts/zero-waste-not-zero-inventory/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/zero-waste-not-zero-inventory/</guid><description>&lt;p>每次有人跟我吹&amp;quot;我们做到了零库存&amp;quot;，我就知道他在吹牛。&lt;/p>
+&lt;p>&lt;strong>零库存是个伪命题。&lt;/strong> 丰田自己也做不到，它的零库存是建立在供应商围着它转、产能极度灵活、需求高度稳定的基础上。这三个条件，你满足了哪个？&lt;/p>
+&lt;p>但零浪费不是伪命题。库存可以存在，但库存里的&amp;quot;浪费&amp;quot;必须消灭。&lt;/p>
+&lt;h3 id="供应链里的7种浪费">供应链里的7种浪费&lt;/h3>
+&lt;p>精益生产里有7种浪费，放到供应链里一样适用：&lt;/p>
+&lt;p>&lt;strong>1. 过量生产的浪费&lt;/strong>&lt;/p>
+&lt;p>生产了卖不掉的东西，或者采购了用不上的物料。这是所有浪费的源头——因为后面6种浪费都是跟着过量生产来的。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：按需求拉动物料，不是按产能推动生产。&lt;/p>
+&lt;p>&lt;strong>2. 等待的浪费&lt;/strong>&lt;/p>
+&lt;p>等人、等单、等审批、等补货、等物流。仓库里拣货员等系统派单，产线等物料，客户等发货——等待时间占了整个供应链周期的一半以上。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：流程前置+并行作业。别串着干，能并行的就并行。&lt;/p>
+&lt;p>&lt;strong>3. 搬运的浪费&lt;/strong>&lt;/p>
+&lt;p>货物从A仓移到B仓，再从B仓移到C仓。每搬一次就是一次成本，还多一次出错的机会。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：减少中转环节。能直发的就直发，能一次到位的别拆两次。&lt;/p>
+&lt;p>&lt;strong>4. 过度加工的浪费&lt;/strong>&lt;/p>
+&lt;p>质检做3次、审批走5道、报表做8份——你是在做管理还是在制造工作量？&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：砍掉不增值的环节。质检查关键项，审批卡关键节点，报表留有用的。&lt;/p>
+&lt;p>&lt;strong>5. 库存的浪费&lt;/strong>&lt;/p>
+&lt;p>库存本身不是浪费，但&lt;strong>超过合理水平的库存&lt;/strong>是浪费。安全库存设高了、C类品囤多了、呆滞品不处理——这些都是白占钱。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：每个SKU的安全库存用公式算，别拍脑袋。呆滞品超180天强制处理。&lt;/p>
+&lt;p>&lt;strong>6. 动作的浪费&lt;/strong>&lt;/p>
+&lt;p>仓库里拣货员弯腰拿货、绕路找库位、来回复核——这些多余动作每天都在发生，日积月累就是巨大的效率损失。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：人体工学+库位优化。高频品放在黄金高度（腰到肩），动线设计成单向不回头。&lt;/p>
+&lt;p>&lt;strong>7. 缺陷的浪费&lt;/strong>&lt;/p>
+&lt;p>发错货、贴错标签、包装破损、质量不合格——每一次缺陷都意味着返工、退货、赔偿。&lt;/p>
+&lt;p>&lt;strong>解法&lt;/strong>：第一次就做对。防错机制比事后检验更有效。&lt;/p>
+&lt;h3 id="从哪种浪费开始砍">从哪种浪费开始砍？&lt;/h3>
+&lt;p>别一口气7种全砍，先找&amp;quot;最肥&amp;quot;的那个。&lt;/p>
+&lt;p>最简单的判断方法：&lt;strong>哪一种浪费占你成本的比例最高？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>如果是库存成本高 → 先砍库存浪费&lt;/li>
+&lt;li>如果是物流成本高 → 先砍搬运和等待&lt;/li>
+&lt;li>如果是质量成本高 → 先砍缺陷浪费&lt;/li>
+&lt;/ul>
+&lt;p>一年砍掉2-3种浪费，三年下来供应链效率提升50%不是梦。&lt;/p>
+&lt;h3 id="零库存不如零浪费">零库存不如零浪费&lt;/h3>
+&lt;p>追求零库存，最后往往是&amp;quot;库存为零，断货不断&amp;quot;。&lt;/p>
+&lt;p>追求零浪费，才是真正省钱、提效、降风险的路径。&lt;/p>
+&lt;p>库存可以留，浪费不能忍。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit%E4%B8%8D%E6%98%AF%E9%9B%B6%E5%BA%93%E5%AD%9890%E7%9A%84%E4%BA%BA%E4%BB%8E%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E7%90%86%E8%A7%A3%E9%94%99%E4%BA%86/</guid><description>&lt;h2 id="jit零库存你想多了">JIT=零库存？你想多了&lt;/h2>
 &lt;p>每次听到有人说&amp;quot;我们要搞JIT，实现零库存&amp;quot;，我就知道又要有人踩坑了。&lt;/p>
 &lt;p>JIT（Just In Time）不等于零库存。零库存是JIT的&lt;strong>理想状态&lt;/strong>，不是&lt;strong>起始状态&lt;/strong>。&lt;/p>
 &lt;p>丰田用了20年才接近这个状态。你上来就追求零库存，结果就是产线天天缺料、供应商天天救火、仓库从&amp;quot;库存多&amp;quot;变成&amp;quot;库存不够&amp;quot;。&lt;/p>

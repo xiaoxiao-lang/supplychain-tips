@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链绩效 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%BB%A9%E6%95%88/</link><description>Recent content in 供应链绩效 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E7%BB%A9%E6%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链绩效考评的3个死穴，踩一个全盘皆输</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-kpi-fatal-flaws/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-kpi-fatal-flaws/</guid><description>&lt;p>有个客户跟我抱怨：&amp;ldquo;我给采购定了降本8%的KPI，结果降本是做到了，但来料不合格率翻了3倍，产线停了5次，紧急空运费花了200万。&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你用降本KPI考核采购，采购当然只管降价不管质量。&lt;strong>你的KPI指哪，团队就打哪。&lt;/strong>&amp;rdquo;&lt;/p>
+&lt;h3 id="死穴一只考核成本不考核服务">死穴一：只考核成本，不考核服务&lt;/h3>
+&lt;p>最常见的错误KPI组合：&lt;/p>
+&lt;ul>
+&lt;li>采购：降本率&lt;/li>
+&lt;li>物流：运费控制率&lt;/li>
+&lt;li>仓储：单位仓储成本&lt;/li>
+&lt;/ul>
+&lt;p>全是成本指标，没有一个服务指标。&lt;/p>
+&lt;p>&lt;strong>结果&lt;/strong>：采购找最便宜的供应商，质量差；物流选最便宜的承运商，时效烂；仓储雇最便宜的人，出错率高。&lt;/p>
+&lt;p>最后客户投诉、订单流失，省的那点成本全赔进去了还倒贴。&lt;/p>
+&lt;p>&lt;strong>正确的KPI组合&lt;/strong>：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>部门&lt;/th>
+ &lt;th>成本指标&lt;/th>
+ &lt;th>服务指标（必须配对）&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>采购&lt;/td>
+ &lt;td>降本率&lt;/td>
+ &lt;td>来料合格率、交付及时率&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>物流&lt;/td>
+ &lt;td>吨公里成本&lt;/td>
+ &lt;td>准时交付率、破损率&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>仓储&lt;/td>
+ &lt;td>单位仓储成本&lt;/td>
+ &lt;td>发货准确率、库存准确率&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>原则&lt;/strong>：每个成本指标必须配一个服务指标，权重各占50%。只降本不保服务，等于拆东墙补西墙。&lt;/p>
+&lt;h3 id="死穴二只看指标不看根因">死穴二：只看指标，不看根因&lt;/h3>
+&lt;p>库存周转率下降了，老板第一反应：&amp;ldquo;库存管理有问题！&amp;rdquo;&lt;/p>
+&lt;p>但可能真正的原因是：销售预测偏差太大，采购被迫多备货。&lt;/p>
+&lt;p>物流成本上升了，老板第一反应：&amp;ldquo;物流管理有问题！&amp;rdquo;&lt;/p>
+&lt;p>但可能真正的原因是：订单碎片化严重，小单多、急单多，怎么发都贵。&lt;/p>
+&lt;p>&lt;strong>KPI只告诉你&amp;quot;出了什么问题&amp;quot;，不告诉你&amp;quot;为什么出问题&amp;quot;。&lt;/strong>&lt;/p>
+&lt;p>如果只看指标追责，团队会学会两个技能：一是甩锅，二是做数据。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>每个KPI异常都要做根因分析（5-Why法）&lt;/li>
+&lt;li>跨部门复盘，不搞部门间追责&lt;/li>
+&lt;li>把&amp;quot;根因解决率&amp;quot;纳入考核&lt;/li>
+&lt;/ul>
+&lt;h3 id="死穴三只奖个人不奖协作">死穴三：只奖个人，不奖协作&lt;/h3>
+&lt;p>供应链是个链条，最怕的是每个环节各干各的。&lt;/p>
+&lt;p>采购为了降本，大批量采购，库存压得老高——仓库背锅。
+销售为了拿单，承诺超短交期，物流被迫空运——物流背锅。
+仓库为了降低成本，减少安全库存，断货频繁——销售背锅。&lt;/p>
+&lt;p>&lt;strong>每个部门都在完成自己的KPI，但整个链条在崩塌。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>设置&amp;quot;链路KPI&amp;quot;：订单完美交付率（从下单到签收一次成功的比例）&lt;/li>
+&lt;li>链路KPI的权重占团队考核的30-40%&lt;/li>
+&lt;li>部门间协作事件纳入正向激励（比如采购帮物流解决紧急发货）&lt;/li>
+&lt;/ul>
+&lt;h3 id="kpi设计的3个黄金法则">KPI设计的3个黄金法则&lt;/h3>
+&lt;p>&lt;strong>法则一：指标要对齐战略&lt;/strong>&lt;/p>
+&lt;p>公司战略如果是&amp;quot;抢占市场&amp;quot;，KPI就要偏向服务和速度；如果是&amp;quot;守住利润&amp;quot;，KPI就要偏向成本和效率。&lt;/p>
+&lt;p>别一边喊&amp;quot;客户第一&amp;quot;，一边考核降本率。&lt;/p>
+&lt;p>&lt;strong>法则二：指标要可行动&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;供应链总成本&amp;quot;这种指标没法行动——太大了，不知道该做什么。&lt;/p>
+&lt;p>要拆到可行动的层级：运费、仓储费、库存持有成本、采购成本——每个都有对应的团队可以改善。&lt;/p>
+&lt;p>&lt;strong>法则三：指标要少而精&lt;/strong>&lt;/p>
+&lt;p>超过8个KPI的考核体系，等于没有重点。&lt;/p>
+&lt;p>核心指标就5-6个：交付、成本、质量、库存、周转、客户满意度。够了。&lt;/p>
+&lt;p>其他的做监控指标，不考核、不排名、只做分析用。&lt;/p>
+&lt;h3 id="kpi是方向盘不是鞭子">KPI是方向盘，不是鞭子&lt;/h3>
+&lt;p>好的KPI让团队知道方向在哪、该往哪使劲。坏的KPI让团队互相拆台、数据造假、疲于应付。&lt;/p>
+&lt;p>设计KPI的时候，多问一句：&amp;ldquo;如果我达到了这个指标，公司真的变好了吗？&amp;rdquo;&lt;/p>
+&lt;p>如果答案是&amp;quot;不一定&amp;rdquo;，那这个指标就得改。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

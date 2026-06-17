@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物流园区 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E5%9B%AD%E5%8C%BA/</link><description>Recent content in 物流园区 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E6%B5%81%E5%9B%AD%E5%8C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>物流园区选错了，亏的不止是租金</title><link>https://supplychain-tips.pages.dev/posts/logistics-park-selection-mistakes/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/logistics-park-selection-mistakes/</guid><description>&lt;p>去年有个客户，租了个&amp;quot;便宜&amp;quot;的物流园区。&lt;/p>
+&lt;p>租金确实比市场价低20%。但半年后他算了一笔账，脸绿了。&lt;/p>
+&lt;ul>
+&lt;li>离高速口15公里，每趟多跑30分钟，每天多烧600块油钱&lt;/li>
+&lt;li>园区周边没有劳动力市场，招人比同行难3倍&lt;/li>
+&lt;li>园区变压器容量不够，旺季同时开设备就跳闸&lt;/li>
+&lt;li>消防验收不合格，被停业整改2次&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一年下来，&amp;ldquo;便宜&amp;quot;的园区比&amp;quot;贵&amp;quot;的多花了80万。&lt;/strong>&lt;/p>
+&lt;h3 id="误区一只看租金不看总成本">误区一：只看租金，不看总成本&lt;/h3>
+&lt;p>租金只是冰山一角。物流园区的总成本包括：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>成本项&lt;/th>
+ &lt;th>占比&lt;/th>
+ &lt;th>常被忽略&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>租金&lt;/td>
+ &lt;td>30-40%&lt;/td>
+ &lt;td>✅ 一定会看&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>物流运输&lt;/td>
+ &lt;td>25-35%&lt;/td>
+ &lt;td>❌ 经常忽略&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>人工成本&lt;/td>
+ &lt;td>15-25%&lt;/td>
+ &lt;td>❌ 经常忽略&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>水电物业&lt;/td>
+ &lt;td>5-10%&lt;/td>
+ &lt;td>❌ 偶尔看&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>隐性成本&lt;/td>
+ &lt;td>5-15%&lt;/td>
+ &lt;td>❌ 从不看&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>隐性成本&lt;/strong>才是最坑的：消防整改、限电限产、道路限行、政策变动。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：做TCO（总拥有成本）模型，把3-5年的所有成本都算进去，再比价。&lt;/p>
+&lt;h3 id="误区二不看交通只看地图">误区二：不看交通，只看地图&lt;/h3>
+&lt;p>地图上看着离高速很近，但实际开车进去要绕30分钟。地图上看着离城区不远，但早晚高峰堵成狗。&lt;/p>
+&lt;p>&lt;strong>必须实地测&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>从园区到主要客户/供应商的实际运输时间（分早中晚测）&lt;/li>
+&lt;li>附近有没有限行限载路段&lt;/li>
+&lt;li>园区门口大车进出是否方便&lt;/li>
+&lt;li>有没有铁路/港口/机场的接驳条件&lt;/li>
+&lt;/ul>
+&lt;h3 id="误区三忽视劳动力供给">误区三：忽视劳动力供给&lt;/h3>
+&lt;p>仓管、拣货、叉车——这些人不从天上掉下来。&lt;/p>
+&lt;p>选址之前先查：&lt;/p>
+&lt;ul>
+&lt;li>周边5公里内有没有居民区？年轻劳动力密度如何？&lt;/li>
+&lt;li>当地最低工资标准是多少？社保比例如何？&lt;/li>
+&lt;li>附近有没有竞争对手？抢人严重吗？&lt;/li>
+&lt;li>当地有没有劳务中介？&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>一个在偏远园区的仓库，招人成本可能比市区高30%以上。&lt;/strong>&lt;/p>
+&lt;h3 id="误区四不考虑扩展性">误区四：不考虑扩展性&lt;/h3>
+&lt;p>今年够用，3年后呢？&lt;/p>
+&lt;ul>
+&lt;li>园区还有空仓吗？能不能扩租？&lt;/li>
+&lt;li>周边有没有其他可用空间？&lt;/li>
+&lt;li>如果业务翻倍，现在的园区能不能承载？&lt;/li>
+&lt;/ul>
+&lt;p>我见过太多企业，业务一增长就得搬家。搬家一次，停产一周，隐性损失几十万。&lt;/p>
+&lt;h3 id="误区五不查政策风险">误区五：不查政策风险&lt;/h3>
+&lt;p>最后也是最容易踩大坑的：&lt;/p>
+&lt;ul>
+&lt;li>园区所在区域有没有拆迁规划？&lt;/li>
+&lt;li>环保要求会不会升级？（某些区域对仓储有特殊环保要求）&lt;/li>
+&lt;li>当地产业政策是否稳定？（有些地方今天招商、明天驱赶）&lt;/li>
+&lt;li>税收优惠是否真实？（有些承诺的退税根本兑现不了）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>选园区之前，去当地规划局网站查一圈，再找当地企业聊聊，比听招商PPT靠谱。&lt;/strong>&lt;/p>
+&lt;h3 id="选园区的5步法">选园区的5步法&lt;/h3>
+&lt;ol>
+&lt;li>列出你的硬性需求（面积、层高、承重、电力）&lt;/li>
+&lt;li>筛选3-5个候选园区&lt;/li>
+&lt;li>实地考察+成本测算（至少3次，不同时段）&lt;/li>
+&lt;li>查政策、查规划、查周边配套&lt;/li>
+&lt;li>做3年TCO对比表，用数据决策&lt;/li>
+&lt;/ol>
+&lt;p>租金便宜20%可能在总成本里只占3-5%。别为了省那点租金，赔了运费、人工和隐性成本。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>

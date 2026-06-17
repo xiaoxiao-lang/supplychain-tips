@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库人效 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E4%BA%BA%E6%95%88/</link><description>Recent content in 仓库人效 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E4%BA%BA%E6%95%88/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库人效低，不是人懒是管法错了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</guid><description>&lt;p>老板巡仓，看到几个拣货员在走道上晃，当场发飙：&amp;ldquo;都站着干嘛？干活啊！&amp;rdquo;&lt;/p>
+&lt;p>仓管小声说：&amp;ldquo;在等系统派单。&amp;rdquo;&lt;/p>
+&lt;p>老板听不进去：&amp;ldquo;人效太低了，加人！&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>这大概是80%仓库管理者的思维定式：人效低=加人。&lt;/strong>&lt;/p>
+&lt;p>但如果你仔细量过，会发现仓库里最大的时间黑洞不是&amp;quot;干活慢&amp;quot;，是**&amp;ldquo;没活干&amp;rdquo;**。&lt;/p>
+&lt;h3 id="仓库时间的真实分配">仓库时间的真实分配&lt;/h3>
+&lt;p>我拿秒表在一个3000平的仓库测过一天，拣货员8小时的真实分配：&lt;/p>
+&lt;ul>
+&lt;li>有效拣货作业：3.5小时（44%）&lt;/li>
+&lt;li>行走移动：2小时（25%）&lt;/li>
+&lt;li>等待（等单、等补货、等复核）：1.5小时（19%）&lt;/li>
+&lt;li>其他（休息、交接、找东西）：1小时（12%）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>等一算，真正在&amp;quot;干活&amp;quot;的时间不到一半。&lt;/strong>&lt;/p>
+&lt;p>加人能解决吗？不能。人多了，等待时间不变，只是更多人一起等。&lt;/p>
+&lt;h3 id="人效低的三个真正原因">人效低的三个真正原因&lt;/h3>
+&lt;p>&lt;strong>原因一：动线是反的&lt;/strong>&lt;/p>
+&lt;p>A类品（高频出库）放在仓库最深处，C类品（低频出库）放在门口。拣货员一趟走300米，其中200米在走空路。&lt;/p>
+&lt;p>&lt;strong>怎么改&lt;/strong>：按出库频率排位。A类品放最近、最方便的位置，C类品放角落。一个月调一次，因为季节性品类的频率会变。&lt;/p>
+&lt;p>调整后，平均拣货行走距离减少40%，等于白白多了40%的产能。&lt;/p>
+&lt;p>&lt;strong>原因二：任务分配是一刀切&lt;/strong>&lt;/p>
+&lt;p>所有拣货员拿到的任务量一样，但每个人的速度不一样。快的干完了等着，慢的还在排队。&lt;/p>
+&lt;p>&lt;strong>怎么改&lt;/strong>：动态派单。谁先完成上一单，系统立刻派下一单。快的多干，慢的少干，但总量不变。&lt;/p>
+&lt;p>如果没系统，手动也行：把任务分成小批次，谁先做完谁领下一批。别一个人抱着一整天的单子干。&lt;/p>
+&lt;p>&lt;strong>原因三：补货跟不上拣货&lt;/strong>&lt;/p>
+&lt;p>拣货员到了库位，发现货没补上来——等着。补货员补了半天，拣货员已经走了——白补。&lt;/p>
+&lt;p>&lt;strong>怎么改&lt;/strong>：补货节奏要领先拣货半拍。&lt;/p>
+&lt;p>具体做法：根据历史数据算出每个SKU的出库节奏，提前1-2小时补到拣货位。不是拣完了再补，是&lt;strong>还没拣就补好&lt;/strong>。&lt;/p>
+&lt;h3 id="人效提升的速赢三板斧">人效提升的速赢三板斧&lt;/h3>
+&lt;p>没预算上系统？这三招不花钱：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>重新排位&lt;/strong>：1天搞定，当天见效&lt;/li>
+&lt;li>&lt;strong>小批次派单&lt;/strong>：改个工作习惯，3天养成&lt;/li>
+&lt;li>&lt;strong>补货前置&lt;/strong>：列个清单，每天提前看哪些品要补&lt;/li>
+&lt;/ol>
+&lt;p>我见过最极端的案例：一个仓库没加人、没加设备，只做了动线优化和派单调整，人效提升了35%。&lt;/p>
+&lt;h3 id="人的问题80是管理的问题">人的问题，80%是管理的问题&lt;/h3>
+&lt;p>仓库人效低，先别怪人懒。&lt;/p>
+&lt;p>看看动线、看看任务分配、看看补货节奏。把这三个搞顺了，再考虑加不加人的问题。&lt;/p>
+&lt;p>大多数时候，&lt;strong>不是人不够，是人在等。&lt;/strong>&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货&lt;/p></description></item></channel></rss>
