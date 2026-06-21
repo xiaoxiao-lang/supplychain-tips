@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>供应商关系搞砸的3种死法，第2种90%的人正在经历</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</guid><description>&lt;p>上周有个采购朋友跟我吐槽：&amp;ldquo;我们跟供应商的关系就是——要货的时候打电话，不给货的时候翻脸。&amp;rdquo;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/</link><description>Recent content in 供应链 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>安全库存设多少才对？算了3年才发现公式少了两个变量</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-myth/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-myth/</guid><description>&lt;p>我干了6年供应链计划，前3年的安全库存全是拍脑袋。&lt;/p>
+&lt;p>不，说&amp;quot;拍脑袋&amp;quot;是美化——我是把教科书上的公式往Excel里一丢，觉得这就叫&amp;quot;科学管理&amp;quot;了。&lt;/p>
+&lt;p>结果呢？库存高了被财务骂，断货了被销售骂，两头不是人。&lt;/p>
+&lt;p>直到有一次，一个主力SKU断货整整两周，损失了将近80万的订单。老板把我叫到办公室，没骂我，就一句话：&amp;ldquo;你觉得问题出在哪？&amp;rdquo;&lt;/p>
+&lt;p>那天晚上我失眠了。翻来覆去想，终于想通了——教科书公式没毛病，但教科书假设的世界跟我面对的世界，根本不是同一个。&lt;/p>
+&lt;h3 id="你以为安全库存zσl就够了">你以为安全库存=Z×σ×√L就够了？&lt;/h3>
+&lt;p>学过供应链的都知道这个公式：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × σd × √L&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Z：服务水平对应的安全系数（95%就是1.65）&lt;/li>
+&lt;li>σd：需求标准差&lt;/li>
+&lt;li>L：提前期&lt;/li>
+&lt;/ul>
+&lt;p>这公式本身没错。但问题是，你把什么数据往里填？&lt;/p>
+&lt;p>我刚入行那年，把过去12个月的销量拉了个均值，算了个标准差，套进去得了个数，就当成金科玉律了。&lt;/p>
+&lt;p>一年后复盘，发现我设置的安全库存水平，有60%的SKU要么过量要么不足。&lt;/p>
+&lt;p>问题出在哪？&lt;/p>
+&lt;h3 id="第一个被忽略的变量需求的偏态">第一个被忽略的变量：需求的&amp;quot;偏态&amp;quot;&lt;/h3>
+&lt;p>那个公式默认需求是正态分布。但现实中，你的需求很可能是偏态的。&lt;/p>
+&lt;p>举个例子，我们有一款工业轴承，平时一个月卖200个，但每季度末客户会集中补货，能冲到800个。&lt;/p>
+&lt;p>如果你用全年数据算标准差，那个σd大得离谱，算出来的安全库存够你囤半年的货。&lt;/p>
+&lt;p>如果你只用&amp;quot;正常月份&amp;quot;的数据，季度末那一波断货断到你怀疑人生。&lt;/p>
+&lt;p>正确做法是什么？&lt;strong>分场景建模&lt;/strong>。&lt;/p>
+&lt;p>我给你一个实操方法：&lt;/p>
+&lt;ol>
+&lt;li>把历史需求数据画个直方图，看一眼分布形态&lt;/li>
+&lt;li>如果明显右偏（大部分时间低销量，偶尔暴增），用&lt;strong>分位数法&lt;/strong>替代标准差法&lt;/li>
+&lt;li>取你目标服务水平对应的分位数，减去平均需求，就是安全库存&lt;/li>
+&lt;/ol>
+&lt;p>比如你想达到95%不缺货，就看历史数据中95分位的需求量，减去平均需求。这个差值比正态分布算出来的靠谱一万倍。&lt;/p>
+&lt;h3 id="第二个被忽略的变量供应的不确定性">第二个被忽略的变量：供应的不确定性&lt;/h3>
+&lt;p>教科书公式只考虑了需求波动，默认供应商是机器人——说30天交货就30天交货。&lt;/p>
+&lt;p>现实呢？我有一家供应商，合同写着25天交货，实际数据是：&lt;/p>
+&lt;ul>
+&lt;li>最快：18天&lt;/li>
+&lt;li>最慢：47天&lt;/li>
+&lt;li>平均：28天&lt;/li>
+&lt;li>标准差：7天&lt;/li>
+&lt;/ul>
+&lt;p>看到了吗？提前期本身就是一个随机变量。&lt;/p>
+&lt;p>如果只考虑需求波动不考虑供应波动，你的安全库存至少被低估了30%。&lt;/p>
+&lt;p>改进公式是这样的：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × √(L̄ × σd² + d̄² × σL²)&lt;/strong>&lt;/p>
+&lt;p>其中：&lt;/p>
+&lt;ul>
+&lt;li>L̄：平均提前期&lt;/li>
+&lt;li>σd：需求标准差&lt;/li>
+&lt;li>d̄：平均需求&lt;/li>
+&lt;li>σL：提前期标准差&lt;/li>
+&lt;/ul>
+&lt;p>多了后面那一项&lt;code>d̄² × σL²&lt;/code>，就是供应端的不确定性贡献。&lt;/p>
+&lt;p>我加了这项之后，6个关键SKU的安全库存做了调整，第二年断货次数直接降了70%。&lt;/p>
+&lt;h3 id="还有一个没人告诉你的真相">还有一个没人告诉你的真相&lt;/h3>
+&lt;p>安全库存不是算一次就完事的。&lt;/p>
+&lt;p>我现在的做法是：&lt;strong>每月review一次，每季度用最新12个月数据重算一次&lt;/strong>。&lt;/p>
+&lt;p>因为你的需求在变、供应商在变、市场在变。今年Q1的安全库存用到Q3，等于用去年的日历过今年的日子。&lt;/p>
+&lt;p>另外，不同SKU不能用同一套服务水平。&lt;/p>
+&lt;p>用ABC分类的思路：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>（销售额前20%）：服务水平设99%，安全库存可以适当高，因为断货损失太大&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>（中间30%）：95%就够&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>（后50%）：90%甚至85%，多囤就是浪费钱&lt;/li>
+&lt;/ul>
+&lt;p>以前我把所有SKU一视同仁设95%，后来按ABC分层，总库存金额降了18%，断货率反而还降了。&lt;/p></description></item><item><title>供应商关系搞砸的3种死法，第2种90%的人正在经历</title><link>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supplier-relationship-failures/</guid><description>&lt;p>上周有个采购朋友跟我吐槽：&amp;ldquo;我们跟供应商的关系就是——要货的时候打电话，不给货的时候翻脸。&amp;rdquo;&lt;/p>
 &lt;p>我说你这不叫供应商关系，叫&amp;quot;交易关系&amp;quot;。&lt;/p>
 &lt;p>供应商关系管理这件事，很多人以为就是谈判压价、签合同、催交期。但真正搞砸的，往往不是价格谈不拢，而是关系本身出了问题。&lt;/p>
 &lt;p>今天讲3种最常见的&amp;quot;死法&amp;quot;，看看你中了几个。&lt;/p>

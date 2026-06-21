@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购合规不是走流程，是保你不进去</title><link>https://supplychain-tips.pages.dev/posts/procurement-compliance-saves-you/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-compliance-saves-you/</guid><description>&lt;p>一个采购经理朋友，上个月被调查了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>采购管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/</link><description>Recent content in 采购管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>采购审批从5天缩到1小时，我只改了3个流程</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimize/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimize/</guid><description>&lt;p>我上一家公司，买一支笔和买一台设备的审批流程是一模一样的。&lt;/p>
+&lt;p>你没听错——一支笔也要走&amp;quot;部门申请→主管审批→采购复核→财务审批→副总签字&amp;quot;五道流程。&lt;/p>
+&lt;p>你猜走完要多久？平均5天。&lt;/p>
+&lt;p>就为了一支笔。&lt;/p>
+&lt;p>更离谱的是，有一次生产线一个关键配件坏了，需要紧急采购，流程走了3天。产线停了3天，每天损失15万。而那配件的采购金额，不到2000块。&lt;/p>
+&lt;p>我接手采购流程优化之后，做了三件事，把平均审批时间从5天压缩到了1小时。&lt;/p>
+&lt;h3 id="第一刀按金额分级授权">第一刀：按金额分级授权&lt;/h3>
+&lt;p>这是最蠢但最常见的问题——不分青红皂白，所有采购需求统统走完完整流程。&lt;/p>
+&lt;p>我画了一张表给老板：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>金额区间&lt;/th>
+ &lt;th>审批层级&lt;/th>
+ &lt;th>平均耗时&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>0-500元&lt;/td>
+ &lt;td>部门主管直接批&lt;/td>
+ &lt;td>即时&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>500-5000元&lt;/td>
+ &lt;td>部门主管+采购经理&lt;/td>
+ &lt;td>0.5天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5000-5万&lt;/td>
+ &lt;td>部门主管+采购经理+财务&lt;/td>
+ &lt;td>1天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5万以上&lt;/td>
+ &lt;td>走完整流程&lt;/td>
+ &lt;td>3-5天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>老板一开始有顾虑：&amp;ldquo;小金额的会不会被滥用？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你先试一个月，看总金额有没有异常。如果出问题，多出来的成本我担。&amp;rdquo;&lt;/p>
+&lt;p>一个月后，500元以下采购的总额跟之前基本持平，没有滥用。因为每个部门的预算总额是锁死的，你在这乱花，月底就没钱干正事了，部门主管比你更紧张。&lt;/p>
+&lt;p>更重要的是：紧急采购不再卡流程了。5000以内的紧急配件，部门主管和采购经理两个人确认就走，2小时内搞定。&lt;/p>
+&lt;h3 id="第二刀砍掉财务审批这个堵点">第二刀：砍掉&amp;quot;财务审批&amp;quot;这个堵点&lt;/h3>
+&lt;p>传统流程里，财务审批是最大堵点。&lt;/p>
+&lt;p>财务部的逻辑是：我要审核每一笔采购的价格是否合理。&lt;/p>
+&lt;p>听起来没毛病？毛病大了。&lt;/p>
+&lt;p>首先，采购部存在的价值之一就是谈价格。你不信任采购部谈的价格，那要采购部干嘛？&lt;/p>
+&lt;p>其次，财务部懂物料价格吗？一个财务专员，今天审完差旅费，明天审办公用品，后天审工业原料，他哪知道工业轴承的合理价格是多少？&lt;/p>
+&lt;p>结果就是：财务不懂，但又不敢轻易批，拖着。一拖就是一两天下去了。&lt;/p>
+&lt;p>我的方案是：&lt;strong>把财务审批从&amp;quot;事前&amp;quot;挪到&amp;quot;事后&amp;quot;&lt;/strong>。&lt;/p>
+&lt;p>具体操作：&lt;/p>
+&lt;ul>
+&lt;li>采购前：财务不参与审批，由采购部按照谈判价格执行&lt;/li>
+&lt;li>采购后：财务部做抽样审计，抽查20%的采购订单，看价格是否存在异常&lt;/li>
+&lt;li>发现异常的，追责到人，该罚就罚&lt;/li>
+&lt;/ul>
+&lt;p>把&amp;quot;事前每单审&amp;quot;改成&amp;quot;事后按比例抽查&amp;quot;，堵点瞬间通了。&lt;/p>
+&lt;p>而且事后审计的效果比事前审批好得多，因为采购知道有可能被抽查到，反而更注意合规。&lt;/p>
+&lt;h3 id="第三刀电子化但不是买大系统">第三刀：电子化，但不是买大系统&lt;/h3>
+&lt;p>说到流程优化，很多人第一反应就是&amp;quot;上一套SRM系统吧，80万&amp;quot;。&lt;/p>
+&lt;p>我的建议是：先别急着买系统，先把流程理清晰了，用现成的工具也能跑起来。&lt;/p>
+&lt;p>我们用了三个工具：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>企业微信的审批功能&lt;/strong>：零成本，现有基础设施，表单可以自定义&lt;/li>
+&lt;li>&lt;strong>腾讯文档的多人在线表格&lt;/strong>：采购需求、供应商报价全部在线协同，告别邮件飞来飞去&lt;/li>
+&lt;li>&lt;strong>一个共享文件夹&lt;/strong>：按日期和供应商分类归档合同和单据&lt;/li>
+&lt;/ol>
+&lt;p>总共花了0元，跑了一年，完全够用。&lt;/p>
+&lt;p>关键是&amp;quot;流程跑通&amp;quot;，不是&amp;quot;工具炫酷&amp;quot;。等业务规模确实需要系统了，你知道你的流程长什么样，再去选型也不迟。&lt;/p>
+&lt;h3 id="结果">结果&lt;/h3>
+&lt;p>改完三个月后看数据：&lt;/p>
+&lt;ul>
+&lt;li>采购审批平均时间：从5天降到0.8天&lt;/li>
+&lt;li>紧急采购响应时间：从3天降到2小时&lt;/li>
+&lt;li>采购人员加班时长：减少40%&lt;/li>
+&lt;li>生产因缺料停线的次数：从月均4次降到0次&lt;/li>
+&lt;/ul>
+&lt;p>老板说了一句话让我觉得值了：&amp;ldquo;花80万上SRM系统可能也做不到这个效果。&amp;rdquo;&lt;/p>
+&lt;p>流程优化的本质不是买工具，是砍掉不创造价值但消耗时间的事。先问自己：这个审批节点不去掉会出什么事？如果答案只是&amp;quot;不合规矩&amp;quot;，那就把这个规矩改了。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购合规不是走流程，是保你不进去</title><link>https://supplychain-tips.pages.dev/posts/procurement-compliance-saves-you/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-compliance-saves-you/</guid><description>&lt;p>一个采购经理朋友，上个月被调查了。&lt;/p>
 &lt;p>原因很简单：供应商送了台笔记本，他收了。后来那个供应商出了质量问题，牵出来一堆事。&lt;/p>
 &lt;p>他跟我说：&amp;ldquo;就一台笔记本，几千块钱的事。&amp;rdquo;&lt;/p>
 &lt;p>我说：&amp;ldquo;几千块的东西，够立案了。&amp;rdquo;&lt;/p>

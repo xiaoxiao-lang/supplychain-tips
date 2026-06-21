@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</link><description>Recent content in 项目管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线3个月，我差点被全公司骂走：90%的人栽在同一个坑里</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>&amp;ldquo;ERP上线那天，我凌晨3点还在办公室。不是激动的，是害怕的。因为我知道明天整个公司的人都会来找我，而系统有一半的功能可能跑不通。&amp;rdquo;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</link><description>Recent content in 项目管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线当天，老板差点把我开了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-survival/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-survival/</guid><description>&lt;p>说出来不怕你笑话——ERP上线那天，销售部开不了单，仓库发不出货，财务对不上账。&lt;/p>
+&lt;p>老板在办公室当着全公司的面吼了三个字：&amp;ldquo;谁干的？&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;我。&amp;ldquo;我站起来。&lt;/p>
+&lt;p>然后老板沉默了十秒钟。那个沉默，比骂我还难受。&lt;/p>
+&lt;h3 id="erp项目最容易翻车的5个环节">ERP项目最容易翻车的5个环节&lt;/h3>
+&lt;p>缓过来之后，我复盘了整个ERP实施过程，总结了这5个坑。你要是正准备上ERP，先看完再去签合同。&lt;/p>
+&lt;p>&lt;strong>第一坑：先选软件，再理流程&lt;/strong>&lt;/p>
+&lt;p>几乎所有ERP失败的根源都是这个。&lt;/p>
+&lt;p>厂商销售说：&amp;ldquo;我们软件功能最强，你看这么多模块都有！&amp;rdquo; 你一听，牛，买。&lt;/p>
+&lt;p>然后实施的时候发现——你的实际业务流程跟软件的设计逻辑根本不是一回事。结果就是削足适履，逼着你的团队去适应软件的流程。&lt;/p>
+&lt;p>正确的顺序应该是：&lt;/p>
+&lt;ol>
+&lt;li>先花1-2个月，把公司所有业务流程梳理清楚（不要用软件，就用白板+便利贴）&lt;/li>
+&lt;li>拿梳理好的流程去匹配ERP产品&lt;/li>
+&lt;li>产品能匹配80%以上的，才进入候选名单&lt;/li>
+&lt;li>匹配不上那20%，评估是改流程还是做二次开发&lt;/li>
+&lt;/ol>
+&lt;p>先理流程再选软件，你的ERP项目成功率至少翻倍。&lt;/p>
+&lt;p>&lt;strong>第二坑：老板不参与&lt;/strong>&lt;/p>
+&lt;p>很多老板觉得ERP就是IT的事：&amp;ldquo;我把预算批了，你们去找厂商、去实施就行了。&amp;rdquo;&lt;/p>
+&lt;p>大错特错。&lt;/p>
+&lt;p>ERP不是IT项目，是&lt;strong>管理变革项目&lt;/strong>。它要改变每个部门的工作方式，必然遇到阻力。这种阻力只有老板能破除。&lt;/p>
+&lt;p>一个真实的例子：实施到一半，销售总监说&amp;quot;这个太麻烦了，我们以前Excel挺好的&amp;rdquo;。项目经理根本不敢怼销售总监——除非老板站出来说：&amp;ldquo;必须用，不用你就别干了。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>老板不需要全程参与，但必须在三个节点亲自到场&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>项目启动会（表明这是公司的决策、不是IT的折腾）&lt;/li>
+&lt;li>流程冲突的决策会（销售和财务打架时，谁来拍板）&lt;/li>
+&lt;li>上线前的动员会（宣布切换时间，要求所有人配合）&lt;/li>
+&lt;/ol>
+&lt;p>老板出现这三次，基本就够了。&lt;/p>
+&lt;p>&lt;strong>第三坑：数据迁移当&amp;quot;顺便的事&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;反正数据能从老系统导到新系统嘛，到时候再说。&amp;rdquo;&lt;/p>
+&lt;p>这个想法至少贡献了30%的ERP失败。&lt;/p>
+&lt;p>旧系统的数据质量远比你想象得差。物料编码重复、供应商名称不统一、库存数量不准确……你把这些垃圾数据导入新系统，新系统也变成了垃圾系统。&lt;/p>
+&lt;p>数据迁移至少需要&lt;strong>提前一个月&lt;/strong>准备：&lt;/p>
+&lt;ul>
+&lt;li>物料主数据：统一编码规则、清理重复项&lt;/li>
+&lt;li>客户/供应商主数据：统一命名、去重、补全字段&lt;/li>
+&lt;li>库存数据：先做一次全面盘点，以盘点结果为准&lt;/li>
+&lt;li>财务科目：确保新旧系统科目对照表明确&lt;/li>
+&lt;/ul>
+&lt;p>这一块你花的每一分钟，上线后都十倍回报。&lt;/p>
+&lt;p>&lt;strong>第四坑：全员培训=开两次会&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;我们做过培训了啊，上了两次课&amp;rdquo;——这话我听过无数遍，每次说完后面都跟着&amp;quot;但上线后大家都不会用&amp;quot;。&lt;/p>
+&lt;p>培训不是讲课，是&lt;strong>让每个人在自己岗位上实际操作一遍&lt;/strong>。&lt;/p>
+&lt;p>我的做法：&lt;/p>
+&lt;ol>
+&lt;li>培训分岗位、分场景，不做大课&lt;/li>
+&lt;li>每个岗位准备5-10个&amp;quot;日常操作场景&amp;quot;&lt;/li>
+&lt;li>培训方式是&amp;quot;我演示→你做→我检查→直到你独立完成&amp;quot;&lt;/li>
+&lt;li>培训完做考试：在测试系统里独立完成3个场景操作，通过才算数&lt;/li>
+&lt;/ol>
+&lt;p>这种培训方式比&amp;quot;上大课&amp;quot;多了3倍时间，但是上线后的混乱程度是前者的十分之一。&lt;/p>
+&lt;p>&lt;strong>第五坑：没有并行期&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;周五下班切换系统，周一直接上新系统，老系统停掉。&amp;rdquo;&lt;/p>
+&lt;p>这种&amp;quot;一刀切&amp;quot;式的上线，简直就是自杀。&lt;/p>
+&lt;p>必须有一个&lt;strong>新老系统并行的过渡期&lt;/strong>，建议至少2周：&lt;/p>
+&lt;ul>
+&lt;li>第1周：核心业务在新系统操作，但同时在老系统备份记录&lt;/li>
+&lt;li>第2周：逐步减少老系统的操作，增加新系统的比例&lt;/li>
+&lt;li>第3周：新系统独立运行，老系统只查不录&lt;/li>
+&lt;li>第4周：老系统彻底下线&lt;/li>
+&lt;/ul>
+&lt;p>这个并行期看起来&amp;quot;多花了一个月&amp;quot;，但它给你留了犯错和补救的时间。没有并行期，一个错误就直接变成事故。&lt;/p>
+&lt;h3 id="erp项目成功的三个标志">ERP项目成功的三个标志&lt;/h3>
+&lt;p>不是&amp;quot;系统上线了&amp;quot;，而是：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>所有核心业务流程都在系统里跑了&lt;/strong>（没人再用Excel当&amp;quot;影子系统&amp;quot;）&lt;/li>
+&lt;li>&lt;strong>数据准确率稳定在95%以上&lt;/strong>（库存、应收应付、订单状态都对得上）&lt;/li>
+&lt;li>&lt;strong>用户不再骂系统&lt;/strong>（不是喜欢，只是不骂了——这已经很高标准了）&lt;/li>
+&lt;/ol>
+&lt;p>做到这三条，你的ERP项目才算是真的成功。&lt;/p>
+&lt;h3 id="最后一句">最后一句&lt;/h3>
+&lt;p>ERP实施最难的不是技术，是&amp;quot;人&amp;quot;。是让习惯了10年Excel的人，去学一个他&amp;quot;觉得不需要&amp;quot;的系统。&lt;/p>
+&lt;p>这件事没有捷径，只有前置准备足够充分、老板立场足够坚定、培训足够扎实，才能趟过去。&lt;/p>
+&lt;p>我花了80万和半年时间才学会这些。你花5分钟看完了，希望你用得上。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>ERP上线3个月，我差点被全公司骂走：90%的人栽在同一个坑里</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-pain/</guid><description>&lt;p>&amp;ldquo;ERP上线那天，我凌晨3点还在办公室。不是激动的，是害怕的。因为我知道明天整个公司的人都会来找我，而系统有一半的功能可能跑不通。&amp;rdquo;&lt;/p>
 &lt;p>这是一个做ERP实施的朋友跟我说的原话。&lt;/p>
 &lt;p>ERP上线是供应链人职业生涯里最容易&amp;quot;一战成名&amp;quot;也最容易&amp;quot;一败涂地&amp;quot;的项目。做好了升职加薪，做砸了卷铺盖走人。&lt;/p>
 &lt;p>而做砸的概率，远超你的想象。业内普遍数据：ERP实施&amp;quot;不满意率&amp;quot;超过50%。&lt;/p>

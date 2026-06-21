@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>经济订货量算了个寂寞？3个原因让你白算了</title><link>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</guid><description>&lt;p>上学的时候，EOQ（经济订货量）公式是考试必考题。Q* = √(2DS/H)，背得滚瓜烂熟。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>经济订货量 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/</link><description>Recent content in 经济订货量 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%BB%8F%E6%B5%8E%E8%AE%A2%E8%B4%A7%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>算了一晚上EOQ，老板问'省了多少钱'，我沉默了</title><link>https://supplychain-tips.pages.dev/posts/eoq-real-cost/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-real-cost/</guid><description>&lt;p>这事发生在我刚入行第二年。&lt;/p>
+&lt;p>我做了一份长达30页的EOQ分析报告，把公司所有A类物料的&amp;quot;经济订货批量&amp;quot;算了一遍，精确到小数点后两位。&lt;/p>
+&lt;p>开会时候我用激光笔指着PPT：&amp;ldquo;根据EOQ模型，这个物料的每次最佳订货量应该是847.32件，而非现在的500件，这样可以降低总成本约8.7%。&amp;rdquo;&lt;/p>
+&lt;p>老板就一个问题：&amp;ldquo;那实际省了多少钱？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;呃……理论上……&amp;rdquo;&lt;/p>
+&lt;p>老板说：&amp;ldquo;行，你先回去算算我们去年有多少次紧急补货，再来说理论的事。&amp;rdquo;&lt;/p>
+&lt;h3 id="eoq在骗你什么">EOQ在骗你什么？&lt;/h3>
+&lt;p>EOQ公式大家都学过：&lt;/p>
+&lt;p>&lt;strong>EOQ = √(2DS/H)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>D：年需求量&lt;/li>
+&lt;li>S：每次订货成本&lt;/li>
+&lt;li>H：单位持有成本&lt;/li>
+&lt;/ul>
+&lt;p>公式很美，但它做了一个要命的假设——&lt;strong>S和H是固定的&lt;/strong>。&lt;/p>
+&lt;p>但现实是：&lt;/p>
+&lt;p>&lt;strong>每次订货成本S是分段的。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>订1-99件：供应商要排产，单价高&lt;/li>
+&lt;li>订100-499件：正常批次，单价正常&lt;/li>
+&lt;li>订500件以上：量大从优，单价有折扣&lt;/li>
+&lt;/ul>
+&lt;p>你的S（单位订货成本），跟订货量本身有关！但EOQ公式假设S是常数。&lt;/p>
+&lt;p>&lt;strong>持有成本H是会变的。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>你仓库还有空位的时候，多存一点边际持有成本接近零&lt;/li>
+&lt;li>你仓库快爆了，多存一箱都要在外面租临时库房，持有成本暴涨&lt;/li>
+&lt;/ul>
+&lt;p>你的H会随着库存水平跳变，但EOQ公式假装它是一条平滑的直线。&lt;/p>
+&lt;h3 id="eoq的3个最要命的误区">EOQ的3个最要命的误区&lt;/h3>
+&lt;p>&lt;strong>误区一：用全年数据算D&lt;/strong>&lt;/p>
+&lt;p>很多人拉过去12个月的总销量除以12算月均需求，然后推全年需求D。&lt;/p>
+&lt;p>但如果你有明显的淡旺季呢？&lt;/p>
+&lt;p>一个做节日礼品的企业，11-12月的需求占全年的60%。如果用全年均价算出来的EOQ，旺季断货断到怀疑人生，淡季库存堆到仓租爆炸。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：按照需求模式分段计算。旺季用旺季的EOQ，淡季用淡季的EOQ。&lt;/p>
+&lt;p>&lt;strong>误区二：忽视最小起订量（MOQ）&lt;/strong>&lt;/p>
+&lt;p>你精心算出来EOQ=847件，供应商说&amp;quot;不好意思，我们的MOQ是1000件&amp;quot;。&lt;/p>
+&lt;p>恭喜你，白算了。&lt;/p>
+&lt;p>在现实世界，&lt;strong>EOQ的结果必须在MOQ和包装规格的约束下取整&lt;/strong>。供应商一箱是50件，那你的订货量必须是50的倍数。在这些整数约束下求最优，才算&amp;quot;落地&amp;quot;的EOQ。&lt;/p>
+&lt;p>&lt;strong>误区三：把EOQ当成&amp;quot;每次就该订这么多&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>EOQ给你的不是&amp;quot;正确答案&amp;quot;，而是&amp;quot;最优区间&amp;quot;的参考点。&lt;/p>
+&lt;p>什么意思？你算出来847，实际上订800还是900，总成本的差异不到1%。你不需要纠结这几点。&lt;/p>
+&lt;p>EOQ的价值在于告诉你：&amp;ldquo;你现在一次订500太少了、一次订2000太多了，真正合理的区间在800-1000左右。&amp;rdquo;&lt;/p>
+&lt;h3 id="eoq的正确打开方式">EOQ的正确打开方式&lt;/h3>
+&lt;p>EOQ公式的真正价值不是那个数字本身，而是帮你&lt;strong>建立&amp;quot;订货成本vs持有成本&amp;quot;的权衡思维&lt;/strong>。&lt;/p>
+&lt;p>什么叫权衡思维？就是你脑子里始终有两笔账在打架：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>每次多订一点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>省了：订货费、运输费、数量折扣&lt;/li>
+&lt;li>亏了：仓租、资金占用、过期风险&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>每次少订一点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>省了：库存资金、仓储空间&lt;/li>
+&lt;li>亏了：频繁订货的行政成本、运费的批量折扣减少&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>EOQ就是在帮你找到这两个成本的平衡点。&lt;/p>
+&lt;p>我后来不再做30页的EOQ报告了。我改成了做一张简单的表：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>物料&lt;/th>
+ &lt;th>年用量&lt;/th>
+ &lt;th>当前订货批量&lt;/th>
+ &lt;th>建议订货批量&lt;/th>
+ &lt;th>预计年节约&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>A001&lt;/td>
+ &lt;td>5000&lt;/td>
+ &lt;td>400&lt;/td>
+ &lt;td>600-800&lt;/td>
+ &lt;td>¥3200&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>A002&lt;/td>
+ &lt;td>12000&lt;/td>
+ &lt;td>3000&lt;/td>
+ &lt;td>1500-2000&lt;/td>
+ &lt;td>¥5800&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>老板看得懂了，拍板也就快了。&lt;/p>
+&lt;h3 id="最后一句实在话">最后一句实在话&lt;/h3>
+&lt;p>EOQ公式没有被淘汰，被淘汰的是&amp;quot;拿着公式硬套现实&amp;quot;的做法。&lt;/p>
+&lt;p>你的供应商MOQ是多少？你的仓库还有多少空位？你的现金流允许多大的库存占用？旺季淡季的需求差几倍？&lt;/p>
+&lt;p>把这些&amp;quot;现实参数&amp;quot;加进去，EOQ才是活的计算，不是死的数学题。&lt;/p></description></item><item><title>经济订货量算了个寂寞？3个原因让你白算了</title><link>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-formula-why-it-fails/</guid><description>&lt;p>上学的时候，EOQ（经济订货量）公式是考试必考题。Q* = √(2DS/H)，背得滚瓜烂熟。&lt;/p>
 &lt;p>工作以后，我拿这个公式去算采购批量，结果被采购经理一句话怼回来：&amp;ldquo;你算的这个数，供应商根本不接单。&amp;rdquo;&lt;/p>
 &lt;p>后来我才明白，&lt;strong>EOQ不是算错了，是它的假设前提跟现实差了十万八千里。&lt;/strong>&lt;/p>
 &lt;h2 id="原因一eoq的假设条件在现实中几乎不存在">原因一：EOQ的假设条件在现实中几乎不存在&lt;/h2>

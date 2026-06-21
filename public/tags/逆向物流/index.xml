@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>逆向物流 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%80%86%E5%90%91%E7%89%A9%E6%B5%81/</link><description>Recent content in 逆向物流 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%80%86%E5%90%91%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml"/><item><title>逆向物流：退货率18%的公司，不搞等于白干</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</guid><description>&lt;h2 id="18退货率你算过成本吗">18%退货率，你算过成本吗？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>逆向物流 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E9%80%86%E5%90%91%E7%89%A9%E6%B5%81/</link><description>Recent content in 逆向物流 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E9%80%86%E5%90%91%E7%89%A9%E6%B5%81/index.xml" rel="self" type="application/rss+xml"/><item><title>退货率18%的公司不搞逆向物流，等于每年白扔一套房</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns/</guid><description>&lt;p>说出来你可能不信：很多公司的退货，就是堆在仓库角落没人管。&lt;/p>
+&lt;p>我见过最夸张的一家服装电商，退货率35%，退货商品堆满了整整一个200平的库房。退货堆在那儿半年没人处理，再去看，大部分已经过季、发霉、只能报废。&lt;/p>
+&lt;p>一年光退货损失，超过180万。&lt;/p>
+&lt;p>在深圳够付一套小户型首付了。&lt;/p>
+&lt;h3 id="退货不是麻烦是你赚钱的第二条腿">退货不是麻烦，是你赚钱的第二条腿&lt;/h3>
+&lt;p>大多数企业把退货当成&amp;quot;麻烦&amp;quot;来看。客服处理退货嫌烦，仓库收到退货嫌乱，财务看到退货嫌亏。&lt;/p>
+&lt;p>但有句话我反复跟团队说：&lt;strong>退货不会因为你不管它就消失。你越不管，它烂得越快。&lt;/strong>&lt;/p>
+&lt;p>而当你建立起一套逆向物流体系的时候，退货从&amp;quot;纯损失&amp;quot;变成了&amp;quot;可以部分追回的成本&amp;quot;。对于高退货率的品类（服装、鞋靴、3C配件），这甚至是一个竞争优势。&lt;/p>
+&lt;p>为什么呢？因为消费者退货体验好了，他下次还敢买。退货不用扯皮、退款快，整体满意度反而更高。&lt;/p>
+&lt;h3 id="逆向物流的三个关键环节">逆向物流的三个关键环节&lt;/h3>
+&lt;p>&lt;strong>第一关：退货收件和质检（48小时内出结果）&lt;/strong>&lt;/p>
+&lt;p>退货到了仓库，拖三天才拆包，拖一周才质检——这是最常见的懒政。&lt;/p>
+&lt;p>退货处理的时效性，比正向物流更重要。因为退货商品的价值在持续贬值——特别是服装，换季就废。&lt;/p>
+&lt;p>我的标准是：退货到达仓库的48小时内，必须完成拆包、质检、分类。&lt;/p>
+&lt;p>分类我建议分成四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>：完好，可重新上架销售（最快当天回库）&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>：轻微瑕疵，可折价销售或员工内购&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>：明显损坏，可返厂维修或拆件利用&lt;/li>
+&lt;li>&lt;strong>D类&lt;/strong>：无法利用，直接报废&lt;/li>
+&lt;/ul>
+&lt;p>质检做完后，每个SKU的去向就清楚了。&lt;/p>
+&lt;p>&lt;strong>第二关：翻新和重新上架（A/B类72小时回仓）&lt;/strong>&lt;/p>
+&lt;p>A类商品最简单——重新打包、贴标、上架，搞定。&lt;/p>
+&lt;p>B类商品需要&amp;quot;二次加工&amp;quot;：轻微污渍的干洗一下、小配件缺失的补上、包装破损的换个包装。这个流程如果够快，B类可以当&amp;quot;9成新&amp;quot;折价卖出，还能回75%以上的成本。&lt;/p>
+&lt;p>关键是怎么让这个流程快起来？&lt;/p>
+&lt;p>我当时的做法是在质检区旁边划出一个&amp;quot;退货翻新工作站&amp;quot;，配2个人，只负责B类商品的清理、熨烫、重新包装。质检完了直接丢过来，当天处理当天入库，不拖。&lt;/p>
+&lt;p>&lt;strong>第三关：报废品的数据反哺（D类是宝藏）&lt;/strong>&lt;/p>
+&lt;p>D类商品直接报废看着最亏，但D类包含的信息量其实最大。&lt;/p>
+&lt;p>每一个报废商品，记录：SKU、退回原因、客户反馈。三个月后拉一张表出来，你会发现：&lt;/p>
+&lt;ul>
+&lt;li>这个SKU退货率40%，退货原因80%都是&amp;quot;尺码偏小&amp;quot; → 你的尺码表有问题&lt;/li>
+&lt;li>这个供应商的退货率是其他的3倍，原因&amp;quot;材质描述不符&amp;quot; → 你的供应商品控不行&lt;/li>
+&lt;li>这个品类退货集中在到货后第2天，原因&amp;quot;跟图片不一样&amp;quot; → 你的详情页在过度美化&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>D类商品的报废数据，才是逆向物流给你的真正回报&lt;/strong>。&lt;/p>
+&lt;p>这些数据反哺给采购、品控、运营，改进一个点，可能给你省几十万。&lt;/p>
+&lt;h3 id="逆向物流还有第三个价值客户体验">逆向物流还有第三个价值：客户体验&lt;/h3>
+&lt;p>我合作过的一家运动鞋电商，退货流程是这样的：&lt;/p>
+&lt;ol>
+&lt;li>客户提交退货申请，系统秒批，1小时内顺丰上门取件&lt;/li>
+&lt;li>仓库收货24小时内质检完成&lt;/li>
+&lt;li>质检合格48小时内退款到账&lt;/li>
+&lt;/ol>
+&lt;p>听起来很&amp;quot;大冤种&amp;quot;对不对？这么积极主动处理退货。&lt;/p>
+&lt;p>但数据会说话：这家店的复购率是同行的1.8倍。退货客户中，有42%在3个月内再次下单。&lt;/p>
+&lt;p>因为用户不傻——退货不爽的店他再也不买了，退货痛快的店他去了一次还会去第二次、第三次。&lt;/p>
+&lt;h3 id="三个建议今天就能做">三个建议，今天就能做&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>设立专门的退货处理岗位&lt;/strong>，不要让正向拣货员&amp;quot;顺便&amp;quot;处理退货——&amp;ldquo;顺便&amp;quot;意味着排到最后&lt;/li>
+&lt;li>&lt;strong>退货质检48小时制&lt;/strong>，超时的订单负责人要解释原因&lt;/li>
+&lt;li>&lt;strong>每月出一份退货分析报告&lt;/strong>，按SKU和退货原因统计，发给品控和采购&lt;/li>
+&lt;/ol>
+&lt;p>逆向物流不是成本中心，是数据金矿。你不会挖，它才是废品。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>逆向物流：退货率18%的公司，不搞等于白干</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns-management/</guid><description>&lt;h2 id="18退货率你算过成本吗">18%退货率，你算过成本吗？&lt;/h2>
 &lt;p>电商行业平均退货率15%-25%，有的品类（服装）高达30%-40%。&lt;/p>
 &lt;p>退货率18%意味着什么？&lt;/p>
 &lt;ul>

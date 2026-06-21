@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>仓库管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link><description>Recent content in 仓库管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库人效比同行低30%？问题不在人，在布局</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout/</guid><description>&lt;p>我先说一个扎心的事实：你仓库的人不是在偷懒，是你的仓库布局在逼他们浪费时间。&lt;/p>
+&lt;p>我见过最离谱的一个仓库，拣货员每天微信步数3万+。你以为他很勤快？不是，是A类物料放在最远的角落，他每天来回走，光走路就走了半天。&lt;/p>
+&lt;p>后来我们做了一个实验：花了两个周末调整货位布局，拣货员的日均步数从3万降到了1.5万，出货量反而涨了20%。&lt;/p>
+&lt;p>人效提升的秘密根本不是管人，是管布局。&lt;/p>
+&lt;h3 id="动线设计别让你的仓库是个迷宫">动线设计：别让你的仓库是个迷宫&lt;/h3>
+&lt;p>我之前接手一个2000平的电商仓库，SKU大概3000个，每天出单1000左右。按理说面积和人员都够用。&lt;/p>
+&lt;p>但实际效率极低——拣一单平均要8分钟。&lt;/p>
+&lt;p>我进去转了一圈就发现问题了：&lt;/p>
+&lt;p>主通道是一条直线，但货架摆放得毫无规律——这个区域横着，那个区域竖着，中间还有两组货架莫名其妙斜着放。拣货员经常走进一个巷子发现是死胡同，再退出来。&lt;/p>
+&lt;p>这就是典型的动线问题。&lt;/p>
+&lt;p>仓库动线设计有一个基本原则：&lt;strong>U型或L型流动&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>收货口和发货口在同一边，物料从这头进去，从这头出来，整个仓库的东西流向像一个U。&lt;/li>
+&lt;li>主通道要宽（至少3米），叉车和人员都能通行&lt;/li>
+&lt;li>辅通道不需要太宽，但要确保不会走进去发现是死角&lt;/li>
+&lt;/ul>
+&lt;p>一个简单的检验方法：拿一张仓库平面图，用笔画出从收货到上架再到拣货再到发货的路径。如果画出来的线像个毛线团，那你每天至少有30%的人工浪费在无意义的行走上。&lt;/p>
+&lt;h3 id="货位分配把黄金位置留给a类物料">货位分配：把&amp;quot;黄金位置&amp;quot;留给A类物料&lt;/h3>
+&lt;p>你的货架有没有分&amp;quot;黄金位&amp;quot;&amp;ldquo;白银位&amp;quot;&amp;ldquo;青铜位&amp;rdquo;？&lt;/p>
+&lt;p>没有的话，你大概率和那位3万步的兄弟一样。&lt;/p>
+&lt;p>仓库位置有一个客观规律：越靠近发货口、越在腰部高度（不用弯腰也不用登高）的位置，取货效率越高。这就是&amp;quot;黄金位置&amp;rdquo;。&lt;/p>
+&lt;p>A类物料（占销售额70%的那20%的SKU），应该放在黄金位置。&lt;/p>
+&lt;p>C类物料（一年卖不了几次的），扔到最远的、最高的、最低的位置都无所谓，反正不常拿。&lt;/p>
+&lt;p>我们当时做的调整很简单：&lt;/p>
+&lt;ol>
+&lt;li>按「出库频次」给所有SKU排序&lt;/li>
+&lt;li>前20%高频的搬到离发货口最近的货架、腰部高度的位置&lt;/li>
+&lt;li>后50%低频的搬到最远端、高处和低处&lt;/li>
+&lt;/ol>
+&lt;p>就这么一个调整，拣货效率提升了30%。&lt;/p>
+&lt;p>而且操作没有任何成本——周末加两天班搞完，周一就开始见效了。&lt;/p>
+&lt;h3 id="拣货路径别让拣货员逛超市">拣货路径：别让拣货员逛超市&lt;/h3>
+&lt;p>你在超市买东西的时候，是不是推着购物车在货架之间瞎逛？看到想买的就拿。&lt;/p>
+&lt;p>仓库拣货不应该是这个逻辑。&lt;/p>
+&lt;p>一个好的拣货路径应该是：&lt;strong>一条路走过去，不走回头路，不遗漏&lt;/strong>。&lt;/p>
+&lt;p>实现方法有两种：&lt;/p>
+&lt;p>&lt;strong>方法一：波次拣货&lt;/strong>&lt;/p>
+&lt;p>把同一段时间内的订单汇总，按货架顺序重新排列拣货任务。比如有20张订单，订单A在Z1货架，订单B也在Z1货架，那就一起拣。&lt;/p>
+&lt;p>这样拣货员推着车从一个区域走到另一个区域，每个区域只去一次，效率最高。&lt;/p>
+&lt;p>&lt;strong>方法二：S型路径&lt;/strong>&lt;/p>
+&lt;p>每一排货架，拣货员从一头走到另一头，左拐进入下一排，再走到另一头，形成一条S型蛇形路线。这样永远不会走回头路。&lt;/p>
+&lt;p>别小看这个&amp;quot;S型&amp;quot;，一个仓库如果每天拣1000次货，每次省30秒，一天就省500分钟，折合8个多工时。一年下来是多少？&lt;/p>
+&lt;h3 id="还有一个常见的自欺欺人">还有一个常见的&amp;quot;自欺欺人&amp;quot;&lt;/h3>
+&lt;p>很多仓库在墙上贴了一张&amp;quot;仓位图&amp;quot;，看起来分区明确、井井有条。&lt;/p>
+&lt;p>但你随便找个拣货员问：&amp;ldquo;这个物料在哪？&amp;ldquo;他如果直接能回答出来不用查系统，说明物料位置经常在变、或者根本不按图放。&lt;/p>
+&lt;p>&lt;strong>库位准确率&lt;/strong>是仓库管理的底线。&lt;/p>
+&lt;p>如果系统显示某个物料在A-03-01，实际去找发现不在那里，那你的布局就全白做了——因为拣货员已经不信任系统了，他会按照自己的记忆去找，然后你的仓库就变成了一个巨大的&amp;quot;人脑数据库&amp;rdquo;。&lt;/p>
+&lt;p>保持库位准确率95%以上是基本功。做不到这一点，动线设计再漂亮也没用。&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>仓库人效低，90%不是因为人不行。&lt;/p>
+&lt;p>你先检查三件事：&lt;/p>
+&lt;ol>
+&lt;li>动线是不是一条流畅的U型/L型&lt;/li>
+&lt;li>A类物料是不是在黄金位置&lt;/li>
+&lt;li>拣货路径是不是S型不走回头路&lt;/li>
+&lt;/ol>
+&lt;p>这三件事搞定了还人效低，你再回来骂人。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>花80万上自动化设备，仓库效率反而降了20%：自动化不是买机器</title><link>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-automation-no-bs/</guid><description>&lt;p>花80万上了一整套自动化设备，AGV、传送带、自动分拣全配齐了，结果效率不升反降——这不是段子，是去年我一个同行朋友的真实遭遇。&lt;/p>
 &lt;p>设备跑得飞快，但人跟不上。操作工不会用，系统对接不上，故障处理全靠喊。三个月下来，老板脸都绿了。&lt;/p>
 &lt;p>仓储自动化到底该怎么搞？我总结了3条血泪教训。&lt;/p>
 &lt;h3 id="一自动化之前先把流程搞干净">一、自动化之前，先把流程搞干净&lt;/h3>

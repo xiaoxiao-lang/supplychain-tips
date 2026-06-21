@@ -1,4 +1,665 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>仓库人效低，不是人懒是管法错了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</guid><description>&lt;p>老板巡仓，看到几个拣货员在走道上晃，当场发飙：&amp;ldquo;都站着干嘛？干活啊！&amp;rdquo;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链管理指南</title><link>https://supplychain-tips.pages.dev/</link><description>Recent content on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>ERP上线当天，老板差点把我开了</title><link>https://supplychain-tips.pages.dev/posts/erp-implementation-survival/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/erp-implementation-survival/</guid><description>&lt;p>说出来不怕你笑话——ERP上线那天，销售部开不了单，仓库发不出货，财务对不上账。&lt;/p>
+&lt;p>老板在办公室当着全公司的面吼了三个字：&amp;ldquo;谁干的？&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;我。&amp;ldquo;我站起来。&lt;/p>
+&lt;p>然后老板沉默了十秒钟。那个沉默，比骂我还难受。&lt;/p>
+&lt;h3 id="erp项目最容易翻车的5个环节">ERP项目最容易翻车的5个环节&lt;/h3>
+&lt;p>缓过来之后，我复盘了整个ERP实施过程，总结了这5个坑。你要是正准备上ERP，先看完再去签合同。&lt;/p>
+&lt;p>&lt;strong>第一坑：先选软件，再理流程&lt;/strong>&lt;/p>
+&lt;p>几乎所有ERP失败的根源都是这个。&lt;/p>
+&lt;p>厂商销售说：&amp;ldquo;我们软件功能最强，你看这么多模块都有！&amp;rdquo; 你一听，牛，买。&lt;/p>
+&lt;p>然后实施的时候发现——你的实际业务流程跟软件的设计逻辑根本不是一回事。结果就是削足适履，逼着你的团队去适应软件的流程。&lt;/p>
+&lt;p>正确的顺序应该是：&lt;/p>
+&lt;ol>
+&lt;li>先花1-2个月，把公司所有业务流程梳理清楚（不要用软件，就用白板+便利贴）&lt;/li>
+&lt;li>拿梳理好的流程去匹配ERP产品&lt;/li>
+&lt;li>产品能匹配80%以上的，才进入候选名单&lt;/li>
+&lt;li>匹配不上那20%，评估是改流程还是做二次开发&lt;/li>
+&lt;/ol>
+&lt;p>先理流程再选软件，你的ERP项目成功率至少翻倍。&lt;/p>
+&lt;p>&lt;strong>第二坑：老板不参与&lt;/strong>&lt;/p>
+&lt;p>很多老板觉得ERP就是IT的事：&amp;ldquo;我把预算批了，你们去找厂商、去实施就行了。&amp;rdquo;&lt;/p>
+&lt;p>大错特错。&lt;/p>
+&lt;p>ERP不是IT项目，是&lt;strong>管理变革项目&lt;/strong>。它要改变每个部门的工作方式，必然遇到阻力。这种阻力只有老板能破除。&lt;/p>
+&lt;p>一个真实的例子：实施到一半，销售总监说&amp;quot;这个太麻烦了，我们以前Excel挺好的&amp;rdquo;。项目经理根本不敢怼销售总监——除非老板站出来说：&amp;ldquo;必须用，不用你就别干了。&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>老板不需要全程参与，但必须在三个节点亲自到场&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>项目启动会（表明这是公司的决策、不是IT的折腾）&lt;/li>
+&lt;li>流程冲突的决策会（销售和财务打架时，谁来拍板）&lt;/li>
+&lt;li>上线前的动员会（宣布切换时间，要求所有人配合）&lt;/li>
+&lt;/ol>
+&lt;p>老板出现这三次，基本就够了。&lt;/p>
+&lt;p>&lt;strong>第三坑：数据迁移当&amp;quot;顺便的事&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;反正数据能从老系统导到新系统嘛，到时候再说。&amp;rdquo;&lt;/p>
+&lt;p>这个想法至少贡献了30%的ERP失败。&lt;/p>
+&lt;p>旧系统的数据质量远比你想象得差。物料编码重复、供应商名称不统一、库存数量不准确……你把这些垃圾数据导入新系统，新系统也变成了垃圾系统。&lt;/p>
+&lt;p>数据迁移至少需要&lt;strong>提前一个月&lt;/strong>准备：&lt;/p>
+&lt;ul>
+&lt;li>物料主数据：统一编码规则、清理重复项&lt;/li>
+&lt;li>客户/供应商主数据：统一命名、去重、补全字段&lt;/li>
+&lt;li>库存数据：先做一次全面盘点，以盘点结果为准&lt;/li>
+&lt;li>财务科目：确保新旧系统科目对照表明确&lt;/li>
+&lt;/ul>
+&lt;p>这一块你花的每一分钟，上线后都十倍回报。&lt;/p>
+&lt;p>&lt;strong>第四坑：全员培训=开两次会&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;我们做过培训了啊，上了两次课&amp;rdquo;——这话我听过无数遍，每次说完后面都跟着&amp;quot;但上线后大家都不会用&amp;quot;。&lt;/p>
+&lt;p>培训不是讲课，是&lt;strong>让每个人在自己岗位上实际操作一遍&lt;/strong>。&lt;/p>
+&lt;p>我的做法：&lt;/p>
+&lt;ol>
+&lt;li>培训分岗位、分场景，不做大课&lt;/li>
+&lt;li>每个岗位准备5-10个&amp;quot;日常操作场景&amp;quot;&lt;/li>
+&lt;li>培训方式是&amp;quot;我演示→你做→我检查→直到你独立完成&amp;quot;&lt;/li>
+&lt;li>培训完做考试：在测试系统里独立完成3个场景操作，通过才算数&lt;/li>
+&lt;/ol>
+&lt;p>这种培训方式比&amp;quot;上大课&amp;quot;多了3倍时间，但是上线后的混乱程度是前者的十分之一。&lt;/p>
+&lt;p>&lt;strong>第五坑：没有并行期&lt;/strong>&lt;/p>
+&lt;p>&amp;ldquo;周五下班切换系统，周一直接上新系统，老系统停掉。&amp;rdquo;&lt;/p>
+&lt;p>这种&amp;quot;一刀切&amp;quot;式的上线，简直就是自杀。&lt;/p>
+&lt;p>必须有一个&lt;strong>新老系统并行的过渡期&lt;/strong>，建议至少2周：&lt;/p>
+&lt;ul>
+&lt;li>第1周：核心业务在新系统操作，但同时在老系统备份记录&lt;/li>
+&lt;li>第2周：逐步减少老系统的操作，增加新系统的比例&lt;/li>
+&lt;li>第3周：新系统独立运行，老系统只查不录&lt;/li>
+&lt;li>第4周：老系统彻底下线&lt;/li>
+&lt;/ul>
+&lt;p>这个并行期看起来&amp;quot;多花了一个月&amp;quot;，但它给你留了犯错和补救的时间。没有并行期，一个错误就直接变成事故。&lt;/p>
+&lt;h3 id="erp项目成功的三个标志">ERP项目成功的三个标志&lt;/h3>
+&lt;p>不是&amp;quot;系统上线了&amp;quot;，而是：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>所有核心业务流程都在系统里跑了&lt;/strong>（没人再用Excel当&amp;quot;影子系统&amp;quot;）&lt;/li>
+&lt;li>&lt;strong>数据准确率稳定在95%以上&lt;/strong>（库存、应收应付、订单状态都对得上）&lt;/li>
+&lt;li>&lt;strong>用户不再骂系统&lt;/strong>（不是喜欢，只是不骂了——这已经很高标准了）&lt;/li>
+&lt;/ol>
+&lt;p>做到这三条，你的ERP项目才算是真的成功。&lt;/p>
+&lt;h3 id="最后一句">最后一句&lt;/h3>
+&lt;p>ERP实施最难的不是技术，是&amp;quot;人&amp;quot;。是让习惯了10年Excel的人，去学一个他&amp;quot;觉得不需要&amp;quot;的系统。&lt;/p>
+&lt;p>这件事没有捷径，只有前置准备足够充分、老板立场足够坚定、培训足够扎实，才能趟过去。&lt;/p>
+&lt;p>我花了80万和半年时间才学会这些。你花5分钟看完了，希望你用得上。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>JIT搞了半年差点把产线饿死，劝你别盲目学丰田</title><link>https://supplychain-tips.pages.dev/posts/jit-not-zero-inventory/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-not-zero-inventory/</guid><description>&lt;p>2024年初，我们老板去了一趟日本，参观了丰田工厂，回来就&amp;quot;开悟&amp;quot;了。&lt;/p>
+&lt;p>周一早会上，他在白板上写了三个大字：&amp;ldquo;零库存&amp;rdquo;。&lt;/p>
+&lt;p>说：&amp;ldquo;丰田能做JIT，我们也能做。从下个月开始，所有物料按需到货，仓库能退的退，能清的清，以后不备库存了。&amp;rdquo;&lt;/p>
+&lt;p>我当时就说了一句话：&amp;ldquo;老板，JIT不是零库存。&amp;rdquo;&lt;/p>
+&lt;p>他没听。&lt;/p>
+&lt;p>半年后，我们的库存确实&amp;quot;归零&amp;quot;了——因为产线断料断到没办法开工。&lt;/p>
+&lt;h3 id="丰田的jit跟你理解的jit是两码事">丰田的JIT跟你理解的JIT是两码事&lt;/h3>
+&lt;p>JIT（Just In Time）的核心思想是对的：在需要的时候，按需要的数量，生产需要的产品。减少一切浪费，包括库存浪费。&lt;/p>
+&lt;p>但大多数人只看到了丰田的&amp;quot;零库存&amp;quot;结果，没看到丰田为这个结果付出的前提条件：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>极稳定的供应商网络&lt;/strong>：丰田的一级供应商就在丰田工厂周边，有的甚至用传送带直连。你从长三角采购、自己工厂在珠三角，运输都要3天，拿什么JIT？&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>极其精准的需求预测&lt;/strong>：丰田的看板系统跑了几十年，数据沉淀够深。你的需求波动大到一个促销就能翻三倍，JIT就是个笑话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>极其精密的排产体系&lt;/strong>：丰田能做到&amp;quot;平准化生产&amp;quot;，每天产量波动极小。你的生产计划今天100台明天500台，供应商根本没办法JIT配合你。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些前提条件，丰田花了50年才打磨出来。你花5天就想照搬？&lt;/p>
+&lt;h3 id="盲目jit的三种死法">盲目JIT的三种死法&lt;/h3>
+&lt;p>&lt;strong>第一种：供应商把你当&amp;quot;备胎&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>你要求供应商&amp;quot;按需发货、每天配送、不备库存&amp;quot;，人家嘴里说好好好，心里想的是：你又不给我独家合同，又不给我预付款，凭什么让我承担你的库存风险？&lt;/p>
+&lt;p>结果呢？你&amp;quot;JIT&amp;quot;的发货指令来了，供应商说&amp;quot;今天刚好没货，后天给你发&amp;quot;。你的产线就停着等吧。&lt;/p>
+&lt;p>&lt;strong>第二种：波动放大效应&lt;/strong>&lt;/p>
+&lt;p>供应链上每一环都在为&amp;quot;安全&amp;quot;做缓冲。你取消了库存这个缓冲，意味着任何上游的微小波动都会直接传导到你的产线。&lt;/p>
+&lt;p>供应商的机器坏了检修2小时 → 你的产线停一上午。物流公司堵车半小时 → 你的产线又停一下午。&lt;/p>
+&lt;p>这些&amp;quot;小波动&amp;quot;，在没有安全库存的情况下，每一次都是停产事故。&lt;/p>
+&lt;p>&lt;strong>第三种：成本没消失，只是转移了&lt;/strong>&lt;/p>
+&lt;p>JIT把库存成本&amp;quot;消灭&amp;quot;了，但它只是把成本转移到了其他地方。&lt;/p>
+&lt;ul>
+&lt;li>多频次小批量配送 → 运输成本飙升&lt;/li>
+&lt;li>紧急补货 → 更高的采购价&lt;/li>
+&lt;li>停线损失 → 比库存费贵得多&lt;/li>
+&lt;/ul>
+&lt;p>一家电子厂推行JIT后，表面库存降了60%，但运输成本涨了40%，紧急采购成本涨了35%，综合算下来总成本反而高了8%。&lt;/p>
+&lt;h3 id="你的正确姿势jit精神不是jit形式">你的正确姿势：JIT精神，不是JIT形式&lt;/h3>
+&lt;p>JIT的&amp;quot;精神&amp;quot;是对的——减少浪费、提高流动性、追求效率。但&amp;quot;形式&amp;quot;要符合你的实际情况。&lt;/p>
+&lt;p>我给你的建议分三步走：&lt;/p>
+&lt;p>&lt;strong>第一步：先做VMI，别急着做JIT&lt;/strong>&lt;/p>
+&lt;p>VMI（供应商管理库存）是一个很好的过渡方案。你的核心原料，让供应商在&amp;quot;你的仓库附近&amp;quot;或&amp;quot;你的仓库里&amp;quot;备货，你用多少结算多少。&lt;/p>
+&lt;p>这样你有了&amp;quot;准JIT&amp;quot;的供应效率，但又不承担断料风险。供应商也愿意配合，因为库存还是他的，物权没转移。&lt;/p>
+&lt;p>&lt;strong>第二步：核心物料的&amp;quot;安全缓冲&amp;quot;不能取消&lt;/strong>&lt;/p>
+&lt;p>划出你的Top 20核心物料（缺一个产线就停的那种），这些物料必须保有一定安全库存，不管老板怎么说。&lt;/p>
+&lt;p>你可以减少，但不能归零。哪怕只是2-3天的量，也给你留出了应对突发的时间窗口。&lt;/p>
+&lt;p>&lt;strong>第三步：先拿C类物料练手&lt;/strong>&lt;/p>
+&lt;p>C类物料——价值低、种类多、断料影响小的物料，先试行JIT。&lt;/p>
+&lt;p>这类物料即使出问题也不致命，正好用来磨合你的供应商响应体系。等C类跑顺了，再慢慢往B类扩展。&lt;/p>
+&lt;h3 id="最后说一句大实话">最后说一句大实话&lt;/h3>
+&lt;p>丰田的JIT是&amp;quot;供应链能力的终极体现&amp;quot;，不是&amp;quot;供应链能力的起点&amp;quot;。&lt;/p>
+&lt;p>你都没把供应商交货及时率做到95%以上，你的需求预测误差还在40%以上，你的排产还在做&amp;quot;紧急插单&amp;quot;和&amp;quot;加班赶工&amp;quot;，那就别想JIT。&lt;/p>
+&lt;p>先把这些基本功练好，你才有资格谈&amp;quot;零库存&amp;quot;。&lt;/p>
+&lt;p>否则就像我老板那样，去日本学了三天丰田，回来半年差点把工厂学没了。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>RFID到底该不该上？6家真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-cases/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-cases/</guid><description>&lt;p>每次有人问我&amp;quot;RFID该不该上&amp;quot;，我都反问他一个问题：&lt;/p>
+&lt;p>&amp;ldquo;你们现在条码扫描的准确率是多少？&amp;rdquo;&lt;/p>
+&lt;p>如果他愣了一下答不上来，我就知道——他还没到该上RFID的时候。&lt;/p>
+&lt;p>RFID不是什么神秘黑科技，说白了你把它理解成&amp;quot;可以批量读取的条码&amp;quot;就行了。核心技术问题早就解决了，关键问题是：&lt;strong>你的场景真的需要吗？&lt;/strong>&lt;/p>
+&lt;h3 id="案例一服装品牌上了值得">案例一：服装品牌——上了，值得&lt;/h3>
+&lt;p>一家年销6亿的女装品牌，SKU超5000个，全国300家门店+线上。&lt;/p>
+&lt;p>他们为什么要上RFID？因为盘点的噩梦。&lt;/p>
+&lt;p>5000个SKU，每个季度末盘点要关店两天，50个人加班搞。关键是盘完了不准，库存准确率只有85%左右。15%的误差，意味着系统里的库存跟实际经常对不上——电商超卖了发不出货，门店断码了补不到。&lt;/p>
+&lt;p>上了RFID之后：&lt;/p>
+&lt;ul>
+&lt;li>盘点：从2天缩短到2小时（手持扫描枪走一圈就行）&lt;/li>
+&lt;li>库存准确率：从85%提升到99%&lt;/li>
+&lt;li>成本：全套下来大概40万（含芯片、读写器、软件集成）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>ROI&lt;/strong>：每年节约盘点人力成本约30万，减少超卖损失约50万，一年就回本了。&lt;/p>
+&lt;h3 id="案例二3c代工厂上了半途而废">案例二：3C代工厂——上了，半途而废&lt;/h3>
+&lt;p>一家做手机壳和充电器的代工厂，老板看到RFID很兴奋：&amp;ldquo;每条产线装个读写通道，来料入库自动识别！&amp;rdquo;&lt;/p>
+&lt;p>花了60万上了一套，用了一个月就吃灰了。&lt;/p>
+&lt;p>原因？两个：&lt;/p>
+&lt;ol>
+&lt;li>金属环境干扰太严重。手机壳里含金属，充电器里也有金属组件，RFID读取距离从设计的3米缩到了0.5米，很多标签根本读不到&lt;/li>
+&lt;li>来料种类变化太快。今天做A客户的充电器，明天做B客户的手机壳，每种物料的RFID标签需要写入不同的信息，运维工作量巨大&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>教训&lt;/strong>：金属密集环境和物料频繁切换的场景，RFID的实际效果大打折扣。&lt;/p>
+&lt;h3 id="案例三医药批发上了但只做了一部分">案例三：医药批发——上了，但只做了一部分&lt;/h3>
+&lt;p>一家医药批发商，做医院配送的，每天发货上万件。&lt;/p>
+&lt;p>他们上了RFID，但不是全仓上，而是&lt;strong>只在发货出库环节用了RFID&lt;/strong>。&lt;/p>
+&lt;p>因为医药行业要求&amp;quot;批号追溯&amp;quot;，每个批号的药品发到哪家医院必须精准记录。以前是人工扫描+核对，每天发货要60个人。上了RFID发货通道后，货物走传送带经过读写器自动读取，发货人员减少到25人。&lt;/p>
+&lt;p>&lt;strong>他们的逻辑是&lt;/strong>：入库和存储环节继续用条码（因为上架是零散的，RFID效率优势不明显），只在出库这个集中批量操作的环节用RFID。&lt;/p>
+&lt;p>这种&amp;quot;按环节上RFID&amp;quot;的思路，比全仓铺开的成本低了70%，但核心价值拿到了。&lt;/p>
+&lt;h3 id="案例四汽配厂压根不需要">案例四：汽配厂——压根不需要&lt;/h3>
+&lt;p>一家做汽车零部件的二级供应商，老板跟风考察RFID。我帮他算了三笔账：&lt;/p>
+&lt;ul>
+&lt;li>他们的SKU不到200个&lt;/li>
+&lt;li>每天出库大约50个托盘，每个托盘上的零件都是同一种&lt;/li>
+&lt;li>条码扫描错误率不到0.5%&lt;/li>
+&lt;/ul>
+&lt;p>结论：完全没必要上RFID。200个SKU、每天50次扫描，人工就能搞定。上RFID纯属杀鸡用牛刀。&lt;/p>
+&lt;h3 id="案例五奢侈品电商必须上">案例五：奢侈品电商——必须上&lt;/h3>
+&lt;p>一家卖奢侈品包包的电商，年销2亿，客单价5000+。&lt;/p>
+&lt;p>他们最头疼的不是效率，是&lt;strong>调包&lt;/strong>。&lt;/p>
+&lt;p>有些用户买了真包，退回来的是高仿。人工质检很难100%识别。&lt;/p>
+&lt;p>他们上了RFID防伪：每个包包在入库时钉一个唯一的RFID芯片（藏在不容易发现的地方）。出库时扫描激活，退货回来再扫描验证。芯片ID在发货和退货时对不上，说明被调包了。&lt;/p>
+&lt;p>上了RFID之后，调包损失从每月20万降到几乎为零。光这一项，RFID投的那20万两个月就回本了。&lt;/p>
+&lt;h3 id="案例六快消品经销商上了但选错了">案例六：快消品经销商——上了，但选错了&lt;/h3>
+&lt;p>一家快消品经销商，做日化产品的。货值不高但品类多，仓库比较大。&lt;/p>
+&lt;p>他们选型时图便宜，用了一款国产的低成本UHF RFID系统。结果：&lt;/p>
+&lt;ul>
+&lt;li>液体产品（洗衣液、柔顺剂）多，RFID信号被液体吸收，误读率超过15%&lt;/li>
+&lt;li>标签成本0.3元/个，单品毛利才0.5元，贴标签就把利润吃没了&lt;/li>
+&lt;/ul>
+&lt;p>后来把液体品类的RFID撤了，退回条码。只保留了固体品类（肥皂、纸巾）的RFID。&lt;/p>
+&lt;p>&lt;strong>教训&lt;/strong>：液体会吸收UHF频段的射频信号，快消品毛利低不一定扛得住标签成本。&lt;/p>
+&lt;h3 id="给你一个决策框架">给你一个决策框架&lt;/h3>
+&lt;p>问自己三个问题，就能判断该不该上RFID：&lt;/p>
+&lt;p>&lt;strong>1. 你的扫描量够大吗？&lt;/strong>
+每天扫描/盘点超过1000次的，RFID的批量读取优势才能体现。低于500次的，条码完全应付得了。&lt;/p>
+&lt;p>&lt;strong>2. 你的物品适合RFID吗？&lt;/strong>
+金属包装、液体、太小的物品——RFID读取有困难。如果没有这些干扰因素，技术上可行。&lt;/p>
+&lt;p>&lt;strong>3. 你的场景有&amp;quot;防伪/防调包&amp;quot;需求吗？&lt;/strong>
+如果有，不管其他条件如何，RFID都值得考虑。因为这是条码做不到的。&lt;/p>
+&lt;p>三个都满足 → 立刻上
+满足两个 → 分步试点
+满足一个 → 慎重评估
+一个都不满足 → 别浪费钱&lt;/p>
+&lt;p>RFID不是万能药，但它确实是某些场景的最佳解。别听厂商忽悠，也别听&amp;quot;智商税&amp;quot;的言论，用自己的业务需求去套。&lt;/p></description></item><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-reduction-profit/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-reduction-profit/</guid><description>&lt;p>我曾经面对过一个魔幻场景。&lt;/p>
+&lt;p>一个做五金件的小企业，SKU数量2000个，年销售额才3000万。&lt;/p>
+&lt;p>平均每个SKU年销1.5万。&lt;/p>
+&lt;p>但其中有1200个SKU，年销量不到100件。最离谱的一个SKU，去年就卖了2个。&lt;/p>
+&lt;p>而每个SKU在仓库里至少占一个库位，库存周转天数平均280天。财务一核算，光这些&amp;quot;长尾SKU&amp;quot;一年的仓储和资金成本就超过60万。&lt;/p>
+&lt;p>问题是，这些SKU贡献的毛利加起来，不到40万。&lt;/p>
+&lt;p>也就是说，&lt;strong>有1200个SKU是净亏损的&lt;/strong>。&lt;/p>
+&lt;h3 id="为什么你不敢砍sku">为什么你不敢砍SKU？&lt;/h3>
+&lt;p>每次我建议砍SKU，客户第一反应都是：&amp;ldquo;万一客户要买呢？&amp;ldquo;&amp;ldquo;砍了客户会不会觉得我们不齐全？&amp;ldquo;&amp;ldquo;销售说这个不能少……&amp;rdquo;&lt;/p>
+&lt;p>三个&amp;quot;万一&amp;rdquo;，养了1200个赔钱货。&lt;/p>
+&lt;p>我理解这种恐惧——就像你清理衣柜，每件衣服都觉得&amp;quot;万一哪天穿呢&amp;rdquo;，结果柜子塞满了从来不穿的衣服。&lt;/p>
+&lt;p>但做生意不能用&amp;quot;万一&amp;quot;来决策。&lt;/p>
+&lt;p>用数据说话。&lt;/p>
+&lt;h3 id="怎么判断一个sku该不该砍">怎么判断一个SKU该不该砍？&lt;/h3>
+&lt;p>我做了一张简单的评估表，每个维度打分：&lt;/p>
+&lt;p>&lt;strong>维度一：销售额贡献（占总额的%）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：占总销售额的1%以上 → 3分&lt;/li>
+&lt;li>B：占0.1%-1% → 2分&lt;/li>
+&lt;li>C：占0.1%以下 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度二：毛利贡献&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：毛利率高于公司平均水平 → 3分&lt;/li>
+&lt;li>B：毛利中等 → 2分&lt;/li>
+&lt;li>C：微利甚至亏损 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度三：库存周转天数&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：小于60天 → 3分&lt;/li>
+&lt;li>B：60-180天 → 2分&lt;/li>
+&lt;li>C：大于180天 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度四：战略价值&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：引流品/搭配品/客户指定品 → 3分&lt;/li>
+&lt;li>B：有一定替代性但客户习惯使用 → 2分&lt;/li>
+&lt;li>C：纯长尾，有替代方案 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>四个维度总分：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>10-12分&lt;/strong>：核心SKU，重点维护&lt;/li>
+&lt;li>&lt;strong>7-9分&lt;/strong>：维持，但优化供应（比如提高起订量、减少备货深度）&lt;/li>
+&lt;li>&lt;strong>4-6分&lt;/strong>：观察期，设一个&amp;quot;最后通牒&amp;rdquo;：6个月内不改善就砍&lt;/li>
+&lt;li>&lt;strong>3分&lt;/strong>：立刻砍掉&lt;/li>
+&lt;/ul>
+&lt;p>这四维评分法很简单，但能让你的SKU决策从&amp;quot;我感觉&amp;quot;变成&amp;quot;数据说&amp;rdquo;。&lt;/p>
+&lt;h3 id="砍sku之后会发生什么">砍SKU之后会发生什么？&lt;/h3>
+&lt;p>我把那家五金件企业的提议给老板看：&amp;ldquo;建议砍掉评分3分以下的SKU，大约1200个。&amp;rdquo;&lt;/p>
+&lt;p>老板深吸一口气：&amp;ldquo;你确定不会丢客户？&amp;rdquo;&lt;/p>
+&lt;p>我帮他算了一笔账：&lt;/p>
+&lt;p>&lt;strong>砍掉的成本&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>仓储费：1200个库位 × 平均占用成本 = 约18万/年&lt;/li>
+&lt;li>库存资金占用：这些SKU的平均库存价值约200万 × 资金成本8% = 16万/年&lt;/li>
+&lt;li>管理成本：盘点、养护、系统维护等 ≈ 8万/年&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>砍掉节省的总成本：约42万/年&lt;/strong>&lt;/p></description></item><item><title>仓库人效比同行低30%？问题不在人，在布局</title><link>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-efficiency-layout/</guid><description>&lt;p>我先说一个扎心的事实：你仓库的人不是在偷懒，是你的仓库布局在逼他们浪费时间。&lt;/p>
+&lt;p>我见过最离谱的一个仓库，拣货员每天微信步数3万+。你以为他很勤快？不是，是A类物料放在最远的角落，他每天来回走，光走路就走了半天。&lt;/p>
+&lt;p>后来我们做了一个实验：花了两个周末调整货位布局，拣货员的日均步数从3万降到了1.5万，出货量反而涨了20%。&lt;/p>
+&lt;p>人效提升的秘密根本不是管人，是管布局。&lt;/p>
+&lt;h3 id="动线设计别让你的仓库是个迷宫">动线设计：别让你的仓库是个迷宫&lt;/h3>
+&lt;p>我之前接手一个2000平的电商仓库，SKU大概3000个，每天出单1000左右。按理说面积和人员都够用。&lt;/p>
+&lt;p>但实际效率极低——拣一单平均要8分钟。&lt;/p>
+&lt;p>我进去转了一圈就发现问题了：&lt;/p>
+&lt;p>主通道是一条直线，但货架摆放得毫无规律——这个区域横着，那个区域竖着，中间还有两组货架莫名其妙斜着放。拣货员经常走进一个巷子发现是死胡同，再退出来。&lt;/p>
+&lt;p>这就是典型的动线问题。&lt;/p>
+&lt;p>仓库动线设计有一个基本原则：&lt;strong>U型或L型流动&lt;/strong>。&lt;/p>
+&lt;ul>
+&lt;li>收货口和发货口在同一边，物料从这头进去，从这头出来，整个仓库的东西流向像一个U。&lt;/li>
+&lt;li>主通道要宽（至少3米），叉车和人员都能通行&lt;/li>
+&lt;li>辅通道不需要太宽，但要确保不会走进去发现是死角&lt;/li>
+&lt;/ul>
+&lt;p>一个简单的检验方法：拿一张仓库平面图，用笔画出从收货到上架再到拣货再到发货的路径。如果画出来的线像个毛线团，那你每天至少有30%的人工浪费在无意义的行走上。&lt;/p>
+&lt;h3 id="货位分配把黄金位置留给a类物料">货位分配：把&amp;quot;黄金位置&amp;quot;留给A类物料&lt;/h3>
+&lt;p>你的货架有没有分&amp;quot;黄金位&amp;quot;&amp;ldquo;白银位&amp;quot;&amp;ldquo;青铜位&amp;rdquo;？&lt;/p>
+&lt;p>没有的话，你大概率和那位3万步的兄弟一样。&lt;/p>
+&lt;p>仓库位置有一个客观规律：越靠近发货口、越在腰部高度（不用弯腰也不用登高）的位置，取货效率越高。这就是&amp;quot;黄金位置&amp;rdquo;。&lt;/p>
+&lt;p>A类物料（占销售额70%的那20%的SKU），应该放在黄金位置。&lt;/p>
+&lt;p>C类物料（一年卖不了几次的），扔到最远的、最高的、最低的位置都无所谓，反正不常拿。&lt;/p>
+&lt;p>我们当时做的调整很简单：&lt;/p>
+&lt;ol>
+&lt;li>按「出库频次」给所有SKU排序&lt;/li>
+&lt;li>前20%高频的搬到离发货口最近的货架、腰部高度的位置&lt;/li>
+&lt;li>后50%低频的搬到最远端、高处和低处&lt;/li>
+&lt;/ol>
+&lt;p>就这么一个调整，拣货效率提升了30%。&lt;/p>
+&lt;p>而且操作没有任何成本——周末加两天班搞完，周一就开始见效了。&lt;/p>
+&lt;h3 id="拣货路径别让拣货员逛超市">拣货路径：别让拣货员逛超市&lt;/h3>
+&lt;p>你在超市买东西的时候，是不是推着购物车在货架之间瞎逛？看到想买的就拿。&lt;/p>
+&lt;p>仓库拣货不应该是这个逻辑。&lt;/p>
+&lt;p>一个好的拣货路径应该是：&lt;strong>一条路走过去，不走回头路，不遗漏&lt;/strong>。&lt;/p>
+&lt;p>实现方法有两种：&lt;/p>
+&lt;p>&lt;strong>方法一：波次拣货&lt;/strong>&lt;/p>
+&lt;p>把同一段时间内的订单汇总，按货架顺序重新排列拣货任务。比如有20张订单，订单A在Z1货架，订单B也在Z1货架，那就一起拣。&lt;/p>
+&lt;p>这样拣货员推着车从一个区域走到另一个区域，每个区域只去一次，效率最高。&lt;/p>
+&lt;p>&lt;strong>方法二：S型路径&lt;/strong>&lt;/p>
+&lt;p>每一排货架，拣货员从一头走到另一头，左拐进入下一排，再走到另一头，形成一条S型蛇形路线。这样永远不会走回头路。&lt;/p>
+&lt;p>别小看这个&amp;quot;S型&amp;quot;，一个仓库如果每天拣1000次货，每次省30秒，一天就省500分钟，折合8个多工时。一年下来是多少？&lt;/p>
+&lt;h3 id="还有一个常见的自欺欺人">还有一个常见的&amp;quot;自欺欺人&amp;quot;&lt;/h3>
+&lt;p>很多仓库在墙上贴了一张&amp;quot;仓位图&amp;quot;，看起来分区明确、井井有条。&lt;/p>
+&lt;p>但你随便找个拣货员问：&amp;ldquo;这个物料在哪？&amp;ldquo;他如果直接能回答出来不用查系统，说明物料位置经常在变、或者根本不按图放。&lt;/p>
+&lt;p>&lt;strong>库位准确率&lt;/strong>是仓库管理的底线。&lt;/p>
+&lt;p>如果系统显示某个物料在A-03-01，实际去找发现不在那里，那你的布局就全白做了——因为拣货员已经不信任系统了，他会按照自己的记忆去找，然后你的仓库就变成了一个巨大的&amp;quot;人脑数据库&amp;rdquo;。&lt;/p>
+&lt;p>保持库位准确率95%以上是基本功。做不到这一点，动线设计再漂亮也没用。&lt;/p>
+&lt;h3 id="总结">总结&lt;/h3>
+&lt;p>仓库人效低，90%不是因为人不行。&lt;/p>
+&lt;p>你先检查三件事：&lt;/p>
+&lt;ol>
+&lt;li>动线是不是一条流畅的U型/L型&lt;/li>
+&lt;li>A类物料是不是在黄金位置&lt;/li>
+&lt;li>拣货路径是不是S型不走回头路&lt;/li>
+&lt;/ol>
+&lt;p>这三件事搞定了还人效低，你再回来骂人。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>供应链风险管理的3个层次，90%的企业只做第1层</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk-3-levels/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk-3-levels/</guid><description>&lt;p>2020年之后，&amp;ldquo;供应链风险&amp;quot;这五个字突然从一个理论概念变成了所有人切身感受到的东西。&lt;/p>
+&lt;p>缺芯、缺箱、缺工、缺电……供应链的脆弱性被摆在聚光灯下。&lt;/p>
+&lt;p>但三年过去了，我发现大多数企业的&amp;quot;供应链风险管理&amp;rdquo;，依然只有一句话：&lt;/p>
+&lt;p>&amp;ldquo;没事的，我们的供应商很多，东边不亮西边亮。&amp;rdquo;&lt;/p>
+&lt;p>真的吗？你&amp;quot;很多&amp;quot;的供应商里，有多少核心原材料的供应商其实只有一家？你的&amp;quot;备用供应商&amp;quot;，打过样了吗？送过货了吗？还是只存在于你的通讯录里？&lt;/p>
+&lt;h3 id="第1层识别你知道自己有多脆弱吗">第1层：识别——你知道自己有多脆弱吗？&lt;/h3>
+&lt;p>这一层是企业最普遍在做但做得最敷衍的。&lt;/p>
+&lt;p>典型表现：老板说&amp;quot;做个供应链风险评估&amp;quot;，然后你花一个下午画了张Excel表：供应商名称、供应品类、风险等级（高/中/低）。完事。&lt;/p>
+&lt;p>这不叫风险评估，这叫&amp;quot;给老板交作业&amp;quot;。&lt;/p>
+&lt;p>真正的风险识别要问三个问题：&lt;/p>
+&lt;p>&lt;strong>问题一：你的&amp;quot;单一供应点&amp;quot;在哪里？&lt;/strong>&lt;/p>
+&lt;p>注意，单一供应商和单一供应点不是一个概念。&lt;/p>
+&lt;p>你有3家供应商，但他们用的都是同一家上游原料厂——一旦那家原料厂出事，3家供应商一起停摆。你以为你分散了风险，实际上你把鸡蛋放在了三个篮子，但三个篮子都在一个架子上。&lt;/p>
+&lt;p>要做的是&lt;strong>溯源到最上游的依赖关系&lt;/strong>。特别是那些只有少数几个产区/矿区的原材料——比如稀土、锂、高端芯片、特种钢材。&lt;/p>
+&lt;p>&lt;strong>问题二：你的&amp;quot;集中度&amp;quot;是多少？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>前3大供应商占你采购额的百分比？&lt;/li>
+&lt;li>前3大客户占你销售额的百分比？&lt;/li>
+&lt;li>前3大物流通道占你运量的百分比？&lt;/li>
+&lt;/ul>
+&lt;p>任何一个&amp;quot;前3&amp;quot;超过50%，都是危险的集中度信号。&lt;/p>
+&lt;p>&lt;strong>问题三：你的&amp;quot;恢复时间&amp;quot;有多长？&lt;/strong>&lt;/p>
+&lt;p>关键供应商如果停产，你多久能找到替代？这个&amp;quot;找替代时间&amp;quot;才是你的真实风险暴露。&lt;/p>
+&lt;p>我见过一家企业，用的一套特殊原材料全球只有两家供应商能生产。一旦主供应商出问题，备选供应商的产能要排队至少3个月。&lt;/p>
+&lt;p>3个月的断料期——你的安全库存够撑3个月吗？&lt;/p>
+&lt;h3 id="第2层评估不是所有风险都值得管">第2层：评估——不是所有风险都值得管&lt;/h3>
+&lt;p>识别完风险，如果列出来200条，每条都紧张，那你等于什么都没干。&lt;/p>
+&lt;p>风险的严重程度 = &lt;strong>发生概率 × 影响程度&lt;/strong>&lt;/p>
+&lt;p>画一个2×2矩阵：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高概率+高影响&lt;/strong> → 必须管，优先投入资源&lt;/li>
+&lt;li>&lt;strong>低概率+高影响&lt;/strong> → 要有预案，但不一定投重金&lt;/li>
+&lt;li>&lt;strong>高概率+低影响&lt;/strong> → 常规管理即可，不用过度反应&lt;/li>
+&lt;li>&lt;strong>低概率+低影响&lt;/strong> → 接受它，不管也罢&lt;/li>
+&lt;/ul>
+&lt;p>你的资源有限，把80%精力放在&amp;quot;高×高&amp;quot;象限就够了。&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;ul>
+&lt;li>核心芯片供应商地震停产：低概率+高影响 → 不需要囤半年库存，但要有备用认证供应商&lt;/li>
+&lt;li>包装材料品质波动：高概率+低影响 → 加一道来料检验就行，不用换供应商&lt;/li>
+&lt;li>主要客户突然砍单：中概率+高影响 → 需要做需求预警和产能弹性&lt;/li>
+&lt;/ul>
+&lt;h3 id="第3层应对你的四个r齐了吗">第3层：应对——你的&amp;quot;四个R&amp;quot;齐了吗？&lt;/h3>
+&lt;p>供应链风险应对有经典的&amp;quot;4R框架&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>Robustness（鲁棒性）&lt;/strong>：抗打击能力，风险来了你别倒。&lt;/p>
+&lt;p>怎么做？&lt;/p>
+&lt;ul>
+&lt;li>安全库存：核心物料至少留2-4周的缓冲&lt;/li>
+&lt;li>多源供应：关键物料至少2家认证供应商，且都实际有过交货记录&lt;/li>
+&lt;li>弹性产能：保留10-20%的产能余量应对波动，别为了&amp;quot;满产率&amp;quot;把产能拉到100%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Redundancy（冗余性）&lt;/strong>：备份方案，A计划不行还有B计划。&lt;/p>
+&lt;p>注意：冗余要花钱，所以只针对&amp;quot;高概率+高影响&amp;quot;的风险。不要所有供应商都搞备份，那叫浪费。&lt;/p>
+&lt;p>&lt;strong>Responsiveness（响应速度）&lt;/strong>：出问题了你能多快反应。&lt;/p>
+&lt;p>新冠期间有一家工厂的做法可以借鉴：他们建立了一个&amp;quot;应急采购小组&amp;quot;，3个人，授权在断供时可在一定金额内直接找替代现货、先斩后奏。这个小组在最困难的时候保住了产线不停。&lt;/p>
+&lt;p>&lt;strong>Recovery（恢复能力）&lt;/strong>：受灾之后多快能回到正常状态。&lt;/p>
+&lt;p>有没有灾备计划（BCP）？关键数据有没有异地备份？有没有签好备用代工厂的框架协议？&lt;/p>
+&lt;p>四个R里面，大部分企业只做了Robustness（比如设安全库存），后面三个基本是空白。&lt;/p>
+&lt;h3 id="一个立即可用的风险清单">一个立即可用的风险清单&lt;/h3>
+&lt;p>我今天就给你一个可以马上去做的清单：&lt;/p></description></item><item><title>安全库存设多少才对？算了3年才发现公式少了两个变量</title><link>https://supplychain-tips.pages.dev/posts/safety-stock-myth/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/safety-stock-myth/</guid><description>&lt;p>我干了6年供应链计划，前3年的安全库存全是拍脑袋。&lt;/p>
+&lt;p>不，说&amp;quot;拍脑袋&amp;quot;是美化——我是把教科书上的公式往Excel里一丢，觉得这就叫&amp;quot;科学管理&amp;quot;了。&lt;/p>
+&lt;p>结果呢？库存高了被财务骂，断货了被销售骂，两头不是人。&lt;/p>
+&lt;p>直到有一次，一个主力SKU断货整整两周，损失了将近80万的订单。老板把我叫到办公室，没骂我，就一句话：&amp;ldquo;你觉得问题出在哪？&amp;rdquo;&lt;/p>
+&lt;p>那天晚上我失眠了。翻来覆去想，终于想通了——教科书公式没毛病，但教科书假设的世界跟我面对的世界，根本不是同一个。&lt;/p>
+&lt;h3 id="你以为安全库存zσl就够了">你以为安全库存=Z×σ×√L就够了？&lt;/h3>
+&lt;p>学过供应链的都知道这个公式：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × σd × √L&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Z：服务水平对应的安全系数（95%就是1.65）&lt;/li>
+&lt;li>σd：需求标准差&lt;/li>
+&lt;li>L：提前期&lt;/li>
+&lt;/ul>
+&lt;p>这公式本身没错。但问题是，你把什么数据往里填？&lt;/p>
+&lt;p>我刚入行那年，把过去12个月的销量拉了个均值，算了个标准差，套进去得了个数，就当成金科玉律了。&lt;/p>
+&lt;p>一年后复盘，发现我设置的安全库存水平，有60%的SKU要么过量要么不足。&lt;/p>
+&lt;p>问题出在哪？&lt;/p>
+&lt;h3 id="第一个被忽略的变量需求的偏态">第一个被忽略的变量：需求的&amp;quot;偏态&amp;quot;&lt;/h3>
+&lt;p>那个公式默认需求是正态分布。但现实中，你的需求很可能是偏态的。&lt;/p>
+&lt;p>举个例子，我们有一款工业轴承，平时一个月卖200个，但每季度末客户会集中补货，能冲到800个。&lt;/p>
+&lt;p>如果你用全年数据算标准差，那个σd大得离谱，算出来的安全库存够你囤半年的货。&lt;/p>
+&lt;p>如果你只用&amp;quot;正常月份&amp;quot;的数据，季度末那一波断货断到你怀疑人生。&lt;/p>
+&lt;p>正确做法是什么？&lt;strong>分场景建模&lt;/strong>。&lt;/p>
+&lt;p>我给你一个实操方法：&lt;/p>
+&lt;ol>
+&lt;li>把历史需求数据画个直方图，看一眼分布形态&lt;/li>
+&lt;li>如果明显右偏（大部分时间低销量，偶尔暴增），用&lt;strong>分位数法&lt;/strong>替代标准差法&lt;/li>
+&lt;li>取你目标服务水平对应的分位数，减去平均需求，就是安全库存&lt;/li>
+&lt;/ol>
+&lt;p>比如你想达到95%不缺货，就看历史数据中95分位的需求量，减去平均需求。这个差值比正态分布算出来的靠谱一万倍。&lt;/p>
+&lt;h3 id="第二个被忽略的变量供应的不确定性">第二个被忽略的变量：供应的不确定性&lt;/h3>
+&lt;p>教科书公式只考虑了需求波动，默认供应商是机器人——说30天交货就30天交货。&lt;/p>
+&lt;p>现实呢？我有一家供应商，合同写着25天交货，实际数据是：&lt;/p>
+&lt;ul>
+&lt;li>最快：18天&lt;/li>
+&lt;li>最慢：47天&lt;/li>
+&lt;li>平均：28天&lt;/li>
+&lt;li>标准差：7天&lt;/li>
+&lt;/ul>
+&lt;p>看到了吗？提前期本身就是一个随机变量。&lt;/p>
+&lt;p>如果只考虑需求波动不考虑供应波动，你的安全库存至少被低估了30%。&lt;/p>
+&lt;p>改进公式是这样的：&lt;/p>
+&lt;p>&lt;strong>安全库存 = Z × √(L̄ × σd² + d̄² × σL²)&lt;/strong>&lt;/p>
+&lt;p>其中：&lt;/p>
+&lt;ul>
+&lt;li>L̄：平均提前期&lt;/li>
+&lt;li>σd：需求标准差&lt;/li>
+&lt;li>d̄：平均需求&lt;/li>
+&lt;li>σL：提前期标准差&lt;/li>
+&lt;/ul>
+&lt;p>多了后面那一项&lt;code>d̄² × σL²&lt;/code>，就是供应端的不确定性贡献。&lt;/p>
+&lt;p>我加了这项之后，6个关键SKU的安全库存做了调整，第二年断货次数直接降了70%。&lt;/p>
+&lt;h3 id="还有一个没人告诉你的真相">还有一个没人告诉你的真相&lt;/h3>
+&lt;p>安全库存不是算一次就完事的。&lt;/p>
+&lt;p>我现在的做法是：&lt;strong>每月review一次，每季度用最新12个月数据重算一次&lt;/strong>。&lt;/p>
+&lt;p>因为你的需求在变、供应商在变、市场在变。今年Q1的安全库存用到Q3，等于用去年的日历过今年的日子。&lt;/p>
+&lt;p>另外，不同SKU不能用同一套服务水平。&lt;/p>
+&lt;p>用ABC分类的思路：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>（销售额前20%）：服务水平设99%，安全库存可以适当高，因为断货损失太大&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>（中间30%）：95%就够&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>（后50%）：90%甚至85%，多囤就是浪费钱&lt;/li>
+&lt;/ul>
+&lt;p>以前我把所有SKU一视同仁设95%，后来按ABC分层，总库存金额降了18%，断货率反而还降了。&lt;/p></description></item><item><title>算了一晚上EOQ，老板问'省了多少钱'，我沉默了</title><link>https://supplychain-tips.pages.dev/posts/eoq-real-cost/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/eoq-real-cost/</guid><description>&lt;p>这事发生在我刚入行第二年。&lt;/p>
+&lt;p>我做了一份长达30页的EOQ分析报告，把公司所有A类物料的&amp;quot;经济订货批量&amp;quot;算了一遍，精确到小数点后两位。&lt;/p>
+&lt;p>开会时候我用激光笔指着PPT：&amp;ldquo;根据EOQ模型，这个物料的每次最佳订货量应该是847.32件，而非现在的500件，这样可以降低总成本约8.7%。&amp;rdquo;&lt;/p>
+&lt;p>老板就一个问题：&amp;ldquo;那实际省了多少钱？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;呃……理论上……&amp;rdquo;&lt;/p>
+&lt;p>老板说：&amp;ldquo;行，你先回去算算我们去年有多少次紧急补货，再来说理论的事。&amp;rdquo;&lt;/p>
+&lt;h3 id="eoq在骗你什么">EOQ在骗你什么？&lt;/h3>
+&lt;p>EOQ公式大家都学过：&lt;/p>
+&lt;p>&lt;strong>EOQ = √(2DS/H)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>D：年需求量&lt;/li>
+&lt;li>S：每次订货成本&lt;/li>
+&lt;li>H：单位持有成本&lt;/li>
+&lt;/ul>
+&lt;p>公式很美，但它做了一个要命的假设——&lt;strong>S和H是固定的&lt;/strong>。&lt;/p>
+&lt;p>但现实是：&lt;/p>
+&lt;p>&lt;strong>每次订货成本S是分段的。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>订1-99件：供应商要排产，单价高&lt;/li>
+&lt;li>订100-499件：正常批次，单价正常&lt;/li>
+&lt;li>订500件以上：量大从优，单价有折扣&lt;/li>
+&lt;/ul>
+&lt;p>你的S（单位订货成本），跟订货量本身有关！但EOQ公式假设S是常数。&lt;/p>
+&lt;p>&lt;strong>持有成本H是会变的。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>你仓库还有空位的时候，多存一点边际持有成本接近零&lt;/li>
+&lt;li>你仓库快爆了，多存一箱都要在外面租临时库房，持有成本暴涨&lt;/li>
+&lt;/ul>
+&lt;p>你的H会随着库存水平跳变，但EOQ公式假装它是一条平滑的直线。&lt;/p>
+&lt;h3 id="eoq的3个最要命的误区">EOQ的3个最要命的误区&lt;/h3>
+&lt;p>&lt;strong>误区一：用全年数据算D&lt;/strong>&lt;/p>
+&lt;p>很多人拉过去12个月的总销量除以12算月均需求，然后推全年需求D。&lt;/p>
+&lt;p>但如果你有明显的淡旺季呢？&lt;/p>
+&lt;p>一个做节日礼品的企业，11-12月的需求占全年的60%。如果用全年均价算出来的EOQ，旺季断货断到怀疑人生，淡季库存堆到仓租爆炸。&lt;/p>
+&lt;p>&lt;strong>正确做法&lt;/strong>：按照需求模式分段计算。旺季用旺季的EOQ，淡季用淡季的EOQ。&lt;/p>
+&lt;p>&lt;strong>误区二：忽视最小起订量（MOQ）&lt;/strong>&lt;/p>
+&lt;p>你精心算出来EOQ=847件，供应商说&amp;quot;不好意思，我们的MOQ是1000件&amp;quot;。&lt;/p>
+&lt;p>恭喜你，白算了。&lt;/p>
+&lt;p>在现实世界，&lt;strong>EOQ的结果必须在MOQ和包装规格的约束下取整&lt;/strong>。供应商一箱是50件，那你的订货量必须是50的倍数。在这些整数约束下求最优，才算&amp;quot;落地&amp;quot;的EOQ。&lt;/p>
+&lt;p>&lt;strong>误区三：把EOQ当成&amp;quot;每次就该订这么多&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>EOQ给你的不是&amp;quot;正确答案&amp;quot;，而是&amp;quot;最优区间&amp;quot;的参考点。&lt;/p>
+&lt;p>什么意思？你算出来847，实际上订800还是900，总成本的差异不到1%。你不需要纠结这几点。&lt;/p>
+&lt;p>EOQ的价值在于告诉你：&amp;ldquo;你现在一次订500太少了、一次订2000太多了，真正合理的区间在800-1000左右。&amp;rdquo;&lt;/p>
+&lt;h3 id="eoq的正确打开方式">EOQ的正确打开方式&lt;/h3>
+&lt;p>EOQ公式的真正价值不是那个数字本身，而是帮你&lt;strong>建立&amp;quot;订货成本vs持有成本&amp;quot;的权衡思维&lt;/strong>。&lt;/p>
+&lt;p>什么叫权衡思维？就是你脑子里始终有两笔账在打架：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>每次多订一点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>省了：订货费、运输费、数量折扣&lt;/li>
+&lt;li>亏了：仓租、资金占用、过期风险&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>每次少订一点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>省了：库存资金、仓储空间&lt;/li>
+&lt;li>亏了：频繁订货的行政成本、运费的批量折扣减少&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>EOQ就是在帮你找到这两个成本的平衡点。&lt;/p>
+&lt;p>我后来不再做30页的EOQ报告了。我改成了做一张简单的表：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>物料&lt;/th>
+ &lt;th>年用量&lt;/th>
+ &lt;th>当前订货批量&lt;/th>
+ &lt;th>建议订货批量&lt;/th>
+ &lt;th>预计年节约&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>A001&lt;/td>
+ &lt;td>5000&lt;/td>
+ &lt;td>400&lt;/td>
+ &lt;td>600-800&lt;/td>
+ &lt;td>¥3200&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>A002&lt;/td>
+ &lt;td>12000&lt;/td>
+ &lt;td>3000&lt;/td>
+ &lt;td>1500-2000&lt;/td>
+ &lt;td>¥5800&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>老板看得懂了，拍板也就快了。&lt;/p>
+&lt;h3 id="最后一句实在话">最后一句实在话&lt;/h3>
+&lt;p>EOQ公式没有被淘汰，被淘汰的是&amp;quot;拿着公式硬套现实&amp;quot;的做法。&lt;/p>
+&lt;p>你的供应商MOQ是多少？你的仓库还有多少空位？你的现金流允许多大的库存占用？旺季淡季的需求差几倍？&lt;/p>
+&lt;p>把这些&amp;quot;现实参数&amp;quot;加进去，EOQ才是活的计算，不是死的数学题。&lt;/p></description></item><item><title>退货率18%的公司不搞逆向物流，等于每年白扔一套房</title><link>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/reverse-logistics-returns/</guid><description>&lt;p>说出来你可能不信：很多公司的退货，就是堆在仓库角落没人管。&lt;/p>
+&lt;p>我见过最夸张的一家服装电商，退货率35%，退货商品堆满了整整一个200平的库房。退货堆在那儿半年没人处理，再去看，大部分已经过季、发霉、只能报废。&lt;/p>
+&lt;p>一年光退货损失，超过180万。&lt;/p>
+&lt;p>在深圳够付一套小户型首付了。&lt;/p>
+&lt;h3 id="退货不是麻烦是你赚钱的第二条腿">退货不是麻烦，是你赚钱的第二条腿&lt;/h3>
+&lt;p>大多数企业把退货当成&amp;quot;麻烦&amp;quot;来看。客服处理退货嫌烦，仓库收到退货嫌乱，财务看到退货嫌亏。&lt;/p>
+&lt;p>但有句话我反复跟团队说：&lt;strong>退货不会因为你不管它就消失。你越不管，它烂得越快。&lt;/strong>&lt;/p>
+&lt;p>而当你建立起一套逆向物流体系的时候，退货从&amp;quot;纯损失&amp;quot;变成了&amp;quot;可以部分追回的成本&amp;quot;。对于高退货率的品类（服装、鞋靴、3C配件），这甚至是一个竞争优势。&lt;/p>
+&lt;p>为什么呢？因为消费者退货体验好了，他下次还敢买。退货不用扯皮、退款快，整体满意度反而更高。&lt;/p>
+&lt;h3 id="逆向物流的三个关键环节">逆向物流的三个关键环节&lt;/h3>
+&lt;p>&lt;strong>第一关：退货收件和质检（48小时内出结果）&lt;/strong>&lt;/p>
+&lt;p>退货到了仓库，拖三天才拆包，拖一周才质检——这是最常见的懒政。&lt;/p>
+&lt;p>退货处理的时效性，比正向物流更重要。因为退货商品的价值在持续贬值——特别是服装，换季就废。&lt;/p>
+&lt;p>我的标准是：退货到达仓库的48小时内，必须完成拆包、质检、分类。&lt;/p>
+&lt;p>分类我建议分成四档：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A类&lt;/strong>：完好，可重新上架销售（最快当天回库）&lt;/li>
+&lt;li>&lt;strong>B类&lt;/strong>：轻微瑕疵，可折价销售或员工内购&lt;/li>
+&lt;li>&lt;strong>C类&lt;/strong>：明显损坏，可返厂维修或拆件利用&lt;/li>
+&lt;li>&lt;strong>D类&lt;/strong>：无法利用，直接报废&lt;/li>
+&lt;/ul>
+&lt;p>质检做完后，每个SKU的去向就清楚了。&lt;/p>
+&lt;p>&lt;strong>第二关：翻新和重新上架（A/B类72小时回仓）&lt;/strong>&lt;/p>
+&lt;p>A类商品最简单——重新打包、贴标、上架，搞定。&lt;/p>
+&lt;p>B类商品需要&amp;quot;二次加工&amp;quot;：轻微污渍的干洗一下、小配件缺失的补上、包装破损的换个包装。这个流程如果够快，B类可以当&amp;quot;9成新&amp;quot;折价卖出，还能回75%以上的成本。&lt;/p>
+&lt;p>关键是怎么让这个流程快起来？&lt;/p>
+&lt;p>我当时的做法是在质检区旁边划出一个&amp;quot;退货翻新工作站&amp;quot;，配2个人，只负责B类商品的清理、熨烫、重新包装。质检完了直接丢过来，当天处理当天入库，不拖。&lt;/p>
+&lt;p>&lt;strong>第三关：报废品的数据反哺（D类是宝藏）&lt;/strong>&lt;/p>
+&lt;p>D类商品直接报废看着最亏，但D类包含的信息量其实最大。&lt;/p>
+&lt;p>每一个报废商品，记录：SKU、退回原因、客户反馈。三个月后拉一张表出来，你会发现：&lt;/p>
+&lt;ul>
+&lt;li>这个SKU退货率40%，退货原因80%都是&amp;quot;尺码偏小&amp;quot; → 你的尺码表有问题&lt;/li>
+&lt;li>这个供应商的退货率是其他的3倍，原因&amp;quot;材质描述不符&amp;quot; → 你的供应商品控不行&lt;/li>
+&lt;li>这个品类退货集中在到货后第2天，原因&amp;quot;跟图片不一样&amp;quot; → 你的详情页在过度美化&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>D类商品的报废数据，才是逆向物流给你的真正回报&lt;/strong>。&lt;/p>
+&lt;p>这些数据反哺给采购、品控、运营，改进一个点，可能给你省几十万。&lt;/p>
+&lt;h3 id="逆向物流还有第三个价值客户体验">逆向物流还有第三个价值：客户体验&lt;/h3>
+&lt;p>我合作过的一家运动鞋电商，退货流程是这样的：&lt;/p>
+&lt;ol>
+&lt;li>客户提交退货申请，系统秒批，1小时内顺丰上门取件&lt;/li>
+&lt;li>仓库收货24小时内质检完成&lt;/li>
+&lt;li>质检合格48小时内退款到账&lt;/li>
+&lt;/ol>
+&lt;p>听起来很&amp;quot;大冤种&amp;quot;对不对？这么积极主动处理退货。&lt;/p>
+&lt;p>但数据会说话：这家店的复购率是同行的1.8倍。退货客户中，有42%在3个月内再次下单。&lt;/p>
+&lt;p>因为用户不傻——退货不爽的店他再也不买了，退货痛快的店他去了一次还会去第二次、第三次。&lt;/p>
+&lt;h3 id="三个建议今天就能做">三个建议，今天就能做&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>设立专门的退货处理岗位&lt;/strong>，不要让正向拣货员&amp;quot;顺便&amp;quot;处理退货——&amp;ldquo;顺便&amp;quot;意味着排到最后&lt;/li>
+&lt;li>&lt;strong>退货质检48小时制&lt;/strong>，超时的订单负责人要解释原因&lt;/li>
+&lt;li>&lt;strong>每月出一份退货分析报告&lt;/strong>，按SKU和退货原因统计，发给品控和采购&lt;/li>
+&lt;/ol>
+&lt;p>逆向物流不是成本中心，是数据金矿。你不会挖，它才是废品。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>采购审批从5天缩到1小时，我只改了3个流程</title><link>https://supplychain-tips.pages.dev/posts/procurement-process-optimize/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/procurement-process-optimize/</guid><description>&lt;p>我上一家公司，买一支笔和买一台设备的审批流程是一模一样的。&lt;/p>
+&lt;p>你没听错——一支笔也要走&amp;quot;部门申请→主管审批→采购复核→财务审批→副总签字&amp;quot;五道流程。&lt;/p>
+&lt;p>你猜走完要多久？平均5天。&lt;/p>
+&lt;p>就为了一支笔。&lt;/p>
+&lt;p>更离谱的是，有一次生产线一个关键配件坏了，需要紧急采购，流程走了3天。产线停了3天，每天损失15万。而那配件的采购金额，不到2000块。&lt;/p>
+&lt;p>我接手采购流程优化之后，做了三件事，把平均审批时间从5天压缩到了1小时。&lt;/p>
+&lt;h3 id="第一刀按金额分级授权">第一刀：按金额分级授权&lt;/h3>
+&lt;p>这是最蠢但最常见的问题——不分青红皂白，所有采购需求统统走完完整流程。&lt;/p>
+&lt;p>我画了一张表给老板：&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>金额区间&lt;/th>
+ &lt;th>审批层级&lt;/th>
+ &lt;th>平均耗时&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>0-500元&lt;/td>
+ &lt;td>部门主管直接批&lt;/td>
+ &lt;td>即时&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>500-5000元&lt;/td>
+ &lt;td>部门主管+采购经理&lt;/td>
+ &lt;td>0.5天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5000-5万&lt;/td>
+ &lt;td>部门主管+采购经理+财务&lt;/td>
+ &lt;td>1天&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5万以上&lt;/td>
+ &lt;td>走完整流程&lt;/td>
+ &lt;td>3-5天&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>老板一开始有顾虑：&amp;ldquo;小金额的会不会被滥用？&amp;rdquo;&lt;/p>
+&lt;p>我说：&amp;ldquo;你先试一个月，看总金额有没有异常。如果出问题，多出来的成本我担。&amp;rdquo;&lt;/p>
+&lt;p>一个月后，500元以下采购的总额跟之前基本持平，没有滥用。因为每个部门的预算总额是锁死的，你在这乱花，月底就没钱干正事了，部门主管比你更紧张。&lt;/p>
+&lt;p>更重要的是：紧急采购不再卡流程了。5000以内的紧急配件，部门主管和采购经理两个人确认就走，2小时内搞定。&lt;/p>
+&lt;h3 id="第二刀砍掉财务审批这个堵点">第二刀：砍掉&amp;quot;财务审批&amp;quot;这个堵点&lt;/h3>
+&lt;p>传统流程里，财务审批是最大堵点。&lt;/p>
+&lt;p>财务部的逻辑是：我要审核每一笔采购的价格是否合理。&lt;/p>
+&lt;p>听起来没毛病？毛病大了。&lt;/p>
+&lt;p>首先，采购部存在的价值之一就是谈价格。你不信任采购部谈的价格，那要采购部干嘛？&lt;/p>
+&lt;p>其次，财务部懂物料价格吗？一个财务专员，今天审完差旅费，明天审办公用品，后天审工业原料，他哪知道工业轴承的合理价格是多少？&lt;/p>
+&lt;p>结果就是：财务不懂，但又不敢轻易批，拖着。一拖就是一两天下去了。&lt;/p>
+&lt;p>我的方案是：&lt;strong>把财务审批从&amp;quot;事前&amp;quot;挪到&amp;quot;事后&amp;quot;&lt;/strong>。&lt;/p>
+&lt;p>具体操作：&lt;/p>
+&lt;ul>
+&lt;li>采购前：财务不参与审批，由采购部按照谈判价格执行&lt;/li>
+&lt;li>采购后：财务部做抽样审计，抽查20%的采购订单，看价格是否存在异常&lt;/li>
+&lt;li>发现异常的，追责到人，该罚就罚&lt;/li>
+&lt;/ul>
+&lt;p>把&amp;quot;事前每单审&amp;quot;改成&amp;quot;事后按比例抽查&amp;quot;，堵点瞬间通了。&lt;/p>
+&lt;p>而且事后审计的效果比事前审批好得多，因为采购知道有可能被抽查到，反而更注意合规。&lt;/p>
+&lt;h3 id="第三刀电子化但不是买大系统">第三刀：电子化，但不是买大系统&lt;/h3>
+&lt;p>说到流程优化，很多人第一反应就是&amp;quot;上一套SRM系统吧，80万&amp;quot;。&lt;/p>
+&lt;p>我的建议是：先别急着买系统，先把流程理清晰了，用现成的工具也能跑起来。&lt;/p>
+&lt;p>我们用了三个工具：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>企业微信的审批功能&lt;/strong>：零成本，现有基础设施，表单可以自定义&lt;/li>
+&lt;li>&lt;strong>腾讯文档的多人在线表格&lt;/strong>：采购需求、供应商报价全部在线协同，告别邮件飞来飞去&lt;/li>
+&lt;li>&lt;strong>一个共享文件夹&lt;/strong>：按日期和供应商分类归档合同和单据&lt;/li>
+&lt;/ol>
+&lt;p>总共花了0元，跑了一年，完全够用。&lt;/p>
+&lt;p>关键是&amp;quot;流程跑通&amp;quot;，不是&amp;quot;工具炫酷&amp;quot;。等业务规模确实需要系统了，你知道你的流程长什么样，再去选型也不迟。&lt;/p>
+&lt;h3 id="结果">结果&lt;/h3>
+&lt;p>改完三个月后看数据：&lt;/p>
+&lt;ul>
+&lt;li>采购审批平均时间：从5天降到0.8天&lt;/li>
+&lt;li>紧急采购响应时间：从3天降到2小时&lt;/li>
+&lt;li>采购人员加班时长：减少40%&lt;/li>
+&lt;li>生产因缺料停线的次数：从月均4次降到0次&lt;/li>
+&lt;/ul>
+&lt;p>老板说了一句话让我觉得值了：&amp;ldquo;花80万上SRM系统可能也做不到这个效果。&amp;rdquo;&lt;/p>
+&lt;p>流程优化的本质不是买工具，是砍掉不创造价值但消耗时间的事。先问自己：这个审批节点不去掉会出什么事？如果答案只是&amp;quot;不合规矩&amp;quot;，那就把这个规矩改了。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>仓库人效低，不是人懒是管法错了</title><link>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/warehouse-labor-productivity-management/</guid><description>&lt;p>老板巡仓，看到几个拣货员在走道上晃，当场发飙：&amp;ldquo;都站着干嘛？干活啊！&amp;rdquo;&lt;/p>
 &lt;p>仓管小声说：&amp;ldquo;在等系统派单。&amp;rdquo;&lt;/p>
 &lt;p>老板听不进去：&amp;ldquo;人效太低了，加人！&amp;rdquo;&lt;/p>
 &lt;p>&lt;strong>这大概是80%仓库管理者的思维定式：人效低=加人。&lt;/strong>&lt;/p>

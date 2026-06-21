@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物联网 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E7%BD%91/</link><description>Recent content in 物联网 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>物联网 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E7%BD%91/</link><description>Recent content in 物联网 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E7%89%A9%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml"/><item><title>RFID到底该不该上？6家真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-real-cases/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-real-cases/</guid><description>&lt;p>每次有人问我&amp;quot;RFID该不该上&amp;quot;，我都反问他一个问题：&lt;/p>
+&lt;p>&amp;ldquo;你们现在条码扫描的准确率是多少？&amp;rdquo;&lt;/p>
+&lt;p>如果他愣了一下答不上来，我就知道——他还没到该上RFID的时候。&lt;/p>
+&lt;p>RFID不是什么神秘黑科技，说白了你把它理解成&amp;quot;可以批量读取的条码&amp;quot;就行了。核心技术问题早就解决了，关键问题是：&lt;strong>你的场景真的需要吗？&lt;/strong>&lt;/p>
+&lt;h3 id="案例一服装品牌上了值得">案例一：服装品牌——上了，值得&lt;/h3>
+&lt;p>一家年销6亿的女装品牌，SKU超5000个，全国300家门店+线上。&lt;/p>
+&lt;p>他们为什么要上RFID？因为盘点的噩梦。&lt;/p>
+&lt;p>5000个SKU，每个季度末盘点要关店两天，50个人加班搞。关键是盘完了不准，库存准确率只有85%左右。15%的误差，意味着系统里的库存跟实际经常对不上——电商超卖了发不出货，门店断码了补不到。&lt;/p>
+&lt;p>上了RFID之后：&lt;/p>
+&lt;ul>
+&lt;li>盘点：从2天缩短到2小时（手持扫描枪走一圈就行）&lt;/li>
+&lt;li>库存准确率：从85%提升到99%&lt;/li>
+&lt;li>成本：全套下来大概40万（含芯片、读写器、软件集成）&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>ROI&lt;/strong>：每年节约盘点人力成本约30万，减少超卖损失约50万，一年就回本了。&lt;/p>
+&lt;h3 id="案例二3c代工厂上了半途而废">案例二：3C代工厂——上了，半途而废&lt;/h3>
+&lt;p>一家做手机壳和充电器的代工厂，老板看到RFID很兴奋：&amp;ldquo;每条产线装个读写通道，来料入库自动识别！&amp;rdquo;&lt;/p>
+&lt;p>花了60万上了一套，用了一个月就吃灰了。&lt;/p>
+&lt;p>原因？两个：&lt;/p>
+&lt;ol>
+&lt;li>金属环境干扰太严重。手机壳里含金属，充电器里也有金属组件，RFID读取距离从设计的3米缩到了0.5米，很多标签根本读不到&lt;/li>
+&lt;li>来料种类变化太快。今天做A客户的充电器，明天做B客户的手机壳，每种物料的RFID标签需要写入不同的信息，运维工作量巨大&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>教训&lt;/strong>：金属密集环境和物料频繁切换的场景，RFID的实际效果大打折扣。&lt;/p>
+&lt;h3 id="案例三医药批发上了但只做了一部分">案例三：医药批发——上了，但只做了一部分&lt;/h3>
+&lt;p>一家医药批发商，做医院配送的，每天发货上万件。&lt;/p>
+&lt;p>他们上了RFID，但不是全仓上，而是&lt;strong>只在发货出库环节用了RFID&lt;/strong>。&lt;/p>
+&lt;p>因为医药行业要求&amp;quot;批号追溯&amp;quot;，每个批号的药品发到哪家医院必须精准记录。以前是人工扫描+核对，每天发货要60个人。上了RFID发货通道后，货物走传送带经过读写器自动读取，发货人员减少到25人。&lt;/p>
+&lt;p>&lt;strong>他们的逻辑是&lt;/strong>：入库和存储环节继续用条码（因为上架是零散的，RFID效率优势不明显），只在出库这个集中批量操作的环节用RFID。&lt;/p>
+&lt;p>这种&amp;quot;按环节上RFID&amp;quot;的思路，比全仓铺开的成本低了70%，但核心价值拿到了。&lt;/p>
+&lt;h3 id="案例四汽配厂压根不需要">案例四：汽配厂——压根不需要&lt;/h3>
+&lt;p>一家做汽车零部件的二级供应商，老板跟风考察RFID。我帮他算了三笔账：&lt;/p>
+&lt;ul>
+&lt;li>他们的SKU不到200个&lt;/li>
+&lt;li>每天出库大约50个托盘，每个托盘上的零件都是同一种&lt;/li>
+&lt;li>条码扫描错误率不到0.5%&lt;/li>
+&lt;/ul>
+&lt;p>结论：完全没必要上RFID。200个SKU、每天50次扫描，人工就能搞定。上RFID纯属杀鸡用牛刀。&lt;/p>
+&lt;h3 id="案例五奢侈品电商必须上">案例五：奢侈品电商——必须上&lt;/h3>
+&lt;p>一家卖奢侈品包包的电商，年销2亿，客单价5000+。&lt;/p>
+&lt;p>他们最头疼的不是效率，是&lt;strong>调包&lt;/strong>。&lt;/p>
+&lt;p>有些用户买了真包，退回来的是高仿。人工质检很难100%识别。&lt;/p>
+&lt;p>他们上了RFID防伪：每个包包在入库时钉一个唯一的RFID芯片（藏在不容易发现的地方）。出库时扫描激活，退货回来再扫描验证。芯片ID在发货和退货时对不上，说明被调包了。&lt;/p>
+&lt;p>上了RFID之后，调包损失从每月20万降到几乎为零。光这一项，RFID投的那20万两个月就回本了。&lt;/p>
+&lt;h3 id="案例六快消品经销商上了但选错了">案例六：快消品经销商——上了，但选错了&lt;/h3>
+&lt;p>一家快消品经销商，做日化产品的。货值不高但品类多，仓库比较大。&lt;/p>
+&lt;p>他们选型时图便宜，用了一款国产的低成本UHF RFID系统。结果：&lt;/p>
+&lt;ul>
+&lt;li>液体产品（洗衣液、柔顺剂）多，RFID信号被液体吸收，误读率超过15%&lt;/li>
+&lt;li>标签成本0.3元/个，单品毛利才0.5元，贴标签就把利润吃没了&lt;/li>
+&lt;/ul>
+&lt;p>后来把液体品类的RFID撤了，退回条码。只保留了固体品类（肥皂、纸巾）的RFID。&lt;/p>
+&lt;p>&lt;strong>教训&lt;/strong>：液体会吸收UHF频段的射频信号，快消品毛利低不一定扛得住标签成本。&lt;/p>
+&lt;h3 id="给你一个决策框架">给你一个决策框架&lt;/h3>
+&lt;p>问自己三个问题，就能判断该不该上RFID：&lt;/p>
+&lt;p>&lt;strong>1. 你的扫描量够大吗？&lt;/strong>
+每天扫描/盘点超过1000次的，RFID的批量读取优势才能体现。低于500次的，条码完全应付得了。&lt;/p>
+&lt;p>&lt;strong>2. 你的物品适合RFID吗？&lt;/strong>
+金属包装、液体、太小的物品——RFID读取有困难。如果没有这些干扰因素，技术上可行。&lt;/p>
+&lt;p>&lt;strong>3. 你的场景有&amp;quot;防伪/防调包&amp;quot;需求吗？&lt;/strong>
+如果有，不管其他条件如何，RFID都值得考虑。因为这是条码做不到的。&lt;/p>
+&lt;p>三个都满足 → 立刻上
+满足两个 → 分步试点
+满足一个 → 慎重评估
+一个都不满足 → 别浪费钱&lt;/p>
+&lt;p>RFID不是万能药，但它确实是某些场景的最佳解。别听厂商忽悠，也别听&amp;quot;智商税&amp;quot;的言论，用自己的业务需求去套。&lt;/p></description></item><item><title>RFID到底该不该上？6个真实案例告诉你答案</title><link>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/rfid-implementation-should-you-or-not/</guid><description>&lt;h2 id="rfid被吹上天也被踩入地">RFID：被吹上天，也被踩入地&lt;/h2>
 &lt;p>提到RFID，你肯定听过两种声音：&lt;/p>
 &lt;p>&lt;strong>甲方&lt;/strong>：&amp;ldquo;RFID太贵了，一个标签1块钱，我们10万个SKU，光标签就10万，还有读写器、天线、软件，上百万的投入，3年收不回成本。&amp;rdquo;&lt;/p>
 &lt;p>&lt;strong>乙方&lt;/strong>：&amp;ldquo;RFID是仓储的未来，不用RFID的仓库就是落后的，人力成本越来越高，不上RFID迟早被淘汰。&amp;rdquo;&lt;/p>

@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JIT准时制 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/jit%E5%87%86%E6%97%B6%E5%88%B6/</link><description>Recent content in JIT准时制 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/jit%E5%87%86%E6%97%B6%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</guid><description>&lt;p>上个月一个做电子制造的同行跟我说，他们老板学了两天丰田生产方式，回来就下令&amp;quot;库存砍到零，全面推行JIT&amp;quot;。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JIT准时制 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/jit%E5%87%86%E6%97%B6%E5%88%B6/</link><description>Recent content in JIT准时制 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/jit%E5%87%86%E6%97%B6%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>JIT搞了半年差点把产线饿死，劝你别盲目学丰田</title><link>https://supplychain-tips.pages.dev/posts/jit-not-zero-inventory/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-not-zero-inventory/</guid><description>&lt;p>2024年初，我们老板去了一趟日本，参观了丰田工厂，回来就&amp;quot;开悟&amp;quot;了。&lt;/p>
+&lt;p>周一早会上，他在白板上写了三个大字：&amp;ldquo;零库存&amp;rdquo;。&lt;/p>
+&lt;p>说：&amp;ldquo;丰田能做JIT，我们也能做。从下个月开始，所有物料按需到货，仓库能退的退，能清的清，以后不备库存了。&amp;rdquo;&lt;/p>
+&lt;p>我当时就说了一句话：&amp;ldquo;老板，JIT不是零库存。&amp;rdquo;&lt;/p>
+&lt;p>他没听。&lt;/p>
+&lt;p>半年后，我们的库存确实&amp;quot;归零&amp;quot;了——因为产线断料断到没办法开工。&lt;/p>
+&lt;h3 id="丰田的jit跟你理解的jit是两码事">丰田的JIT跟你理解的JIT是两码事&lt;/h3>
+&lt;p>JIT（Just In Time）的核心思想是对的：在需要的时候，按需要的数量，生产需要的产品。减少一切浪费，包括库存浪费。&lt;/p>
+&lt;p>但大多数人只看到了丰田的&amp;quot;零库存&amp;quot;结果，没看到丰田为这个结果付出的前提条件：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>极稳定的供应商网络&lt;/strong>：丰田的一级供应商就在丰田工厂周边，有的甚至用传送带直连。你从长三角采购、自己工厂在珠三角，运输都要3天，拿什么JIT？&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>极其精准的需求预测&lt;/strong>：丰田的看板系统跑了几十年，数据沉淀够深。你的需求波动大到一个促销就能翻三倍，JIT就是个笑话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>极其精密的排产体系&lt;/strong>：丰田能做到&amp;quot;平准化生产&amp;quot;，每天产量波动极小。你的生产计划今天100台明天500台，供应商根本没办法JIT配合你。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>这些前提条件，丰田花了50年才打磨出来。你花5天就想照搬？&lt;/p>
+&lt;h3 id="盲目jit的三种死法">盲目JIT的三种死法&lt;/h3>
+&lt;p>&lt;strong>第一种：供应商把你当&amp;quot;备胎&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>你要求供应商&amp;quot;按需发货、每天配送、不备库存&amp;quot;，人家嘴里说好好好，心里想的是：你又不给我独家合同，又不给我预付款，凭什么让我承担你的库存风险？&lt;/p>
+&lt;p>结果呢？你&amp;quot;JIT&amp;quot;的发货指令来了，供应商说&amp;quot;今天刚好没货，后天给你发&amp;quot;。你的产线就停着等吧。&lt;/p>
+&lt;p>&lt;strong>第二种：波动放大效应&lt;/strong>&lt;/p>
+&lt;p>供应链上每一环都在为&amp;quot;安全&amp;quot;做缓冲。你取消了库存这个缓冲，意味着任何上游的微小波动都会直接传导到你的产线。&lt;/p>
+&lt;p>供应商的机器坏了检修2小时 → 你的产线停一上午。物流公司堵车半小时 → 你的产线又停一下午。&lt;/p>
+&lt;p>这些&amp;quot;小波动&amp;quot;，在没有安全库存的情况下，每一次都是停产事故。&lt;/p>
+&lt;p>&lt;strong>第三种：成本没消失，只是转移了&lt;/strong>&lt;/p>
+&lt;p>JIT把库存成本&amp;quot;消灭&amp;quot;了，但它只是把成本转移到了其他地方。&lt;/p>
+&lt;ul>
+&lt;li>多频次小批量配送 → 运输成本飙升&lt;/li>
+&lt;li>紧急补货 → 更高的采购价&lt;/li>
+&lt;li>停线损失 → 比库存费贵得多&lt;/li>
+&lt;/ul>
+&lt;p>一家电子厂推行JIT后，表面库存降了60%，但运输成本涨了40%，紧急采购成本涨了35%，综合算下来总成本反而高了8%。&lt;/p>
+&lt;h3 id="你的正确姿势jit精神不是jit形式">你的正确姿势：JIT精神，不是JIT形式&lt;/h3>
+&lt;p>JIT的&amp;quot;精神&amp;quot;是对的——减少浪费、提高流动性、追求效率。但&amp;quot;形式&amp;quot;要符合你的实际情况。&lt;/p>
+&lt;p>我给你的建议分三步走：&lt;/p>
+&lt;p>&lt;strong>第一步：先做VMI，别急着做JIT&lt;/strong>&lt;/p>
+&lt;p>VMI（供应商管理库存）是一个很好的过渡方案。你的核心原料，让供应商在&amp;quot;你的仓库附近&amp;quot;或&amp;quot;你的仓库里&amp;quot;备货，你用多少结算多少。&lt;/p>
+&lt;p>这样你有了&amp;quot;准JIT&amp;quot;的供应效率，但又不承担断料风险。供应商也愿意配合，因为库存还是他的，物权没转移。&lt;/p>
+&lt;p>&lt;strong>第二步：核心物料的&amp;quot;安全缓冲&amp;quot;不能取消&lt;/strong>&lt;/p>
+&lt;p>划出你的Top 20核心物料（缺一个产线就停的那种），这些物料必须保有一定安全库存，不管老板怎么说。&lt;/p>
+&lt;p>你可以减少，但不能归零。哪怕只是2-3天的量，也给你留出了应对突发的时间窗口。&lt;/p>
+&lt;p>&lt;strong>第三步：先拿C类物料练手&lt;/strong>&lt;/p>
+&lt;p>C类物料——价值低、种类多、断料影响小的物料，先试行JIT。&lt;/p>
+&lt;p>这类物料即使出问题也不致命，正好用来磨合你的供应商响应体系。等C类跑顺了，再慢慢往B类扩展。&lt;/p>
+&lt;h3 id="最后说一句大实话">最后说一句大实话&lt;/h3>
+&lt;p>丰田的JIT是&amp;quot;供应链能力的终极体现&amp;quot;，不是&amp;quot;供应链能力的起点&amp;quot;。&lt;/p>
+&lt;p>你都没把供应商交货及时率做到95%以上，你的需求预测误差还在40%以上，你的排产还在做&amp;quot;紧急插单&amp;quot;和&amp;quot;加班赶工&amp;quot;，那就别想JIT。&lt;/p>
+&lt;p>先把这些基本功练好，你才有资格谈&amp;quot;零库存&amp;quot;。&lt;/p>
+&lt;p>否则就像我老板那样，去日本学了三天丰田，回来半年差点把工厂学没了。&lt;/p>
+&lt;p>关注公众号「甲方乙方供应链」获取更多干货。&lt;/p></description></item><item><title>JIT不是零库存！90%的人从一开始就理解错了</title><link>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/jit-misconceptions-625/</guid><description>&lt;p>上个月一个做电子制造的同行跟我说，他们老板学了两天丰田生产方式，回来就下令&amp;quot;库存砍到零，全面推行JIT&amp;quot;。&lt;/p>
 &lt;p>结果？第一个月缺料停线5次，客户投诉8起，生产部门差点集体辞职。&lt;/p>
 &lt;p>我问他：&amp;ldquo;你们做JIT之前，供应商交期合格率多少？质量合格率多少？设备OEE多少？&amp;rdquo;&lt;/p>
 &lt;p>他答不上来。&lt;/p>

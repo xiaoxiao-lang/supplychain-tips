@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链韧性不是多囤货，是能在3天内切换</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</guid><description>&lt;p>2020年疫情的时候，有个做汽车零部件的朋友，唯一的供应商在武汉。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>供应链风险 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/</link><description>Recent content in 供应链风险 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E9%A3%8E%E9%99%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>供应链风险管理的3个层次，90%的企业只做第1层</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-risk-3-levels/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-risk-3-levels/</guid><description>&lt;p>2020年之后，&amp;ldquo;供应链风险&amp;quot;这五个字突然从一个理论概念变成了所有人切身感受到的东西。&lt;/p>
+&lt;p>缺芯、缺箱、缺工、缺电……供应链的脆弱性被摆在聚光灯下。&lt;/p>
+&lt;p>但三年过去了，我发现大多数企业的&amp;quot;供应链风险管理&amp;rdquo;，依然只有一句话：&lt;/p>
+&lt;p>&amp;ldquo;没事的，我们的供应商很多，东边不亮西边亮。&amp;rdquo;&lt;/p>
+&lt;p>真的吗？你&amp;quot;很多&amp;quot;的供应商里，有多少核心原材料的供应商其实只有一家？你的&amp;quot;备用供应商&amp;quot;，打过样了吗？送过货了吗？还是只存在于你的通讯录里？&lt;/p>
+&lt;h3 id="第1层识别你知道自己有多脆弱吗">第1层：识别——你知道自己有多脆弱吗？&lt;/h3>
+&lt;p>这一层是企业最普遍在做但做得最敷衍的。&lt;/p>
+&lt;p>典型表现：老板说&amp;quot;做个供应链风险评估&amp;quot;，然后你花一个下午画了张Excel表：供应商名称、供应品类、风险等级（高/中/低）。完事。&lt;/p>
+&lt;p>这不叫风险评估，这叫&amp;quot;给老板交作业&amp;quot;。&lt;/p>
+&lt;p>真正的风险识别要问三个问题：&lt;/p>
+&lt;p>&lt;strong>问题一：你的&amp;quot;单一供应点&amp;quot;在哪里？&lt;/strong>&lt;/p>
+&lt;p>注意，单一供应商和单一供应点不是一个概念。&lt;/p>
+&lt;p>你有3家供应商，但他们用的都是同一家上游原料厂——一旦那家原料厂出事，3家供应商一起停摆。你以为你分散了风险，实际上你把鸡蛋放在了三个篮子，但三个篮子都在一个架子上。&lt;/p>
+&lt;p>要做的是&lt;strong>溯源到最上游的依赖关系&lt;/strong>。特别是那些只有少数几个产区/矿区的原材料——比如稀土、锂、高端芯片、特种钢材。&lt;/p>
+&lt;p>&lt;strong>问题二：你的&amp;quot;集中度&amp;quot;是多少？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>前3大供应商占你采购额的百分比？&lt;/li>
+&lt;li>前3大客户占你销售额的百分比？&lt;/li>
+&lt;li>前3大物流通道占你运量的百分比？&lt;/li>
+&lt;/ul>
+&lt;p>任何一个&amp;quot;前3&amp;quot;超过50%，都是危险的集中度信号。&lt;/p>
+&lt;p>&lt;strong>问题三：你的&amp;quot;恢复时间&amp;quot;有多长？&lt;/strong>&lt;/p>
+&lt;p>关键供应商如果停产，你多久能找到替代？这个&amp;quot;找替代时间&amp;quot;才是你的真实风险暴露。&lt;/p>
+&lt;p>我见过一家企业，用的一套特殊原材料全球只有两家供应商能生产。一旦主供应商出问题，备选供应商的产能要排队至少3个月。&lt;/p>
+&lt;p>3个月的断料期——你的安全库存够撑3个月吗？&lt;/p>
+&lt;h3 id="第2层评估不是所有风险都值得管">第2层：评估——不是所有风险都值得管&lt;/h3>
+&lt;p>识别完风险，如果列出来200条，每条都紧张，那你等于什么都没干。&lt;/p>
+&lt;p>风险的严重程度 = &lt;strong>发生概率 × 影响程度&lt;/strong>&lt;/p>
+&lt;p>画一个2×2矩阵：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>高概率+高影响&lt;/strong> → 必须管，优先投入资源&lt;/li>
+&lt;li>&lt;strong>低概率+高影响&lt;/strong> → 要有预案，但不一定投重金&lt;/li>
+&lt;li>&lt;strong>高概率+低影响&lt;/strong> → 常规管理即可，不用过度反应&lt;/li>
+&lt;li>&lt;strong>低概率+低影响&lt;/strong> → 接受它，不管也罢&lt;/li>
+&lt;/ul>
+&lt;p>你的资源有限，把80%精力放在&amp;quot;高×高&amp;quot;象限就够了。&lt;/p>
+&lt;p>举个例子：&lt;/p>
+&lt;ul>
+&lt;li>核心芯片供应商地震停产：低概率+高影响 → 不需要囤半年库存，但要有备用认证供应商&lt;/li>
+&lt;li>包装材料品质波动：高概率+低影响 → 加一道来料检验就行，不用换供应商&lt;/li>
+&lt;li>主要客户突然砍单：中概率+高影响 → 需要做需求预警和产能弹性&lt;/li>
+&lt;/ul>
+&lt;h3 id="第3层应对你的四个r齐了吗">第3层：应对——你的&amp;quot;四个R&amp;quot;齐了吗？&lt;/h3>
+&lt;p>供应链风险应对有经典的&amp;quot;4R框架&amp;quot;：&lt;/p>
+&lt;p>&lt;strong>Robustness（鲁棒性）&lt;/strong>：抗打击能力，风险来了你别倒。&lt;/p>
+&lt;p>怎么做？&lt;/p>
+&lt;ul>
+&lt;li>安全库存：核心物料至少留2-4周的缓冲&lt;/li>
+&lt;li>多源供应：关键物料至少2家认证供应商，且都实际有过交货记录&lt;/li>
+&lt;li>弹性产能：保留10-20%的产能余量应对波动，别为了&amp;quot;满产率&amp;quot;把产能拉到100%&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Redundancy（冗余性）&lt;/strong>：备份方案，A计划不行还有B计划。&lt;/p>
+&lt;p>注意：冗余要花钱，所以只针对&amp;quot;高概率+高影响&amp;quot;的风险。不要所有供应商都搞备份，那叫浪费。&lt;/p>
+&lt;p>&lt;strong>Responsiveness（响应速度）&lt;/strong>：出问题了你能多快反应。&lt;/p>
+&lt;p>新冠期间有一家工厂的做法可以借鉴：他们建立了一个&amp;quot;应急采购小组&amp;quot;，3个人，授权在断供时可在一定金额内直接找替代现货、先斩后奏。这个小组在最困难的时候保住了产线不停。&lt;/p>
+&lt;p>&lt;strong>Recovery（恢复能力）&lt;/strong>：受灾之后多快能回到正常状态。&lt;/p>
+&lt;p>有没有灾备计划（BCP）？关键数据有没有异地备份？有没有签好备用代工厂的框架协议？&lt;/p>
+&lt;p>四个R里面，大部分企业只做了Robustness（比如设安全库存），后面三个基本是空白。&lt;/p>
+&lt;h3 id="一个立即可用的风险清单">一个立即可用的风险清单&lt;/h3>
+&lt;p>我今天就给你一个可以马上去做的清单：&lt;/p></description></item><item><title>供应链韧性不是多囤货，是能在3天内切换</title><link>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/supply-chain-resilience-three-day-switch/</guid><description>&lt;p>2020年疫情的时候，有个做汽车零部件的朋友，唯一的供应商在武汉。&lt;/p>
 &lt;p>停工2个月。他公司差点跟着倒。&lt;/p>
 &lt;p>事后他跟我说：&amp;ldquo;我以后要多备6个月的安全库存。&amp;rdquo;&lt;/p>
 &lt;p>我说：&amp;ldquo;那不是韧性，那是烧钱。&amp;rdquo;&lt;/p>

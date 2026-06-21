@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>品类管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%93%81%E7%B1%BB%E7%AE%A1%E7%90%86/</link><description>Recent content in 品类管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%93%81%E7%B1%BB%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从5000砍到800，库存降了60%还没丢客户</title><link>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</guid><description>&lt;p>三年前，我接手了一个做五金配件公司的供应链。他们的SKU数量是4862个。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>品类管理 on 供应链管理指南</title><link>https://supplychain-tips.pages.dev/tags/%E5%93%81%E7%B1%BB%E7%AE%A1%E7%90%86/</link><description>Recent content in 品类管理 on 供应链管理指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://supplychain-tips.pages.dev/tags/%E5%93%81%E7%B1%BB%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>SKU从2000砍到800，库存成本降了40%的秘密</title><link>https://supplychain-tips.pages.dev/posts/sku-reduction-profit/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-reduction-profit/</guid><description>&lt;p>我曾经面对过一个魔幻场景。&lt;/p>
+&lt;p>一个做五金件的小企业，SKU数量2000个，年销售额才3000万。&lt;/p>
+&lt;p>平均每个SKU年销1.5万。&lt;/p>
+&lt;p>但其中有1200个SKU，年销量不到100件。最离谱的一个SKU，去年就卖了2个。&lt;/p>
+&lt;p>而每个SKU在仓库里至少占一个库位，库存周转天数平均280天。财务一核算，光这些&amp;quot;长尾SKU&amp;quot;一年的仓储和资金成本就超过60万。&lt;/p>
+&lt;p>问题是，这些SKU贡献的毛利加起来，不到40万。&lt;/p>
+&lt;p>也就是说，&lt;strong>有1200个SKU是净亏损的&lt;/strong>。&lt;/p>
+&lt;h3 id="为什么你不敢砍sku">为什么你不敢砍SKU？&lt;/h3>
+&lt;p>每次我建议砍SKU，客户第一反应都是：&amp;ldquo;万一客户要买呢？&amp;ldquo;&amp;ldquo;砍了客户会不会觉得我们不齐全？&amp;ldquo;&amp;ldquo;销售说这个不能少……&amp;rdquo;&lt;/p>
+&lt;p>三个&amp;quot;万一&amp;rdquo;，养了1200个赔钱货。&lt;/p>
+&lt;p>我理解这种恐惧——就像你清理衣柜，每件衣服都觉得&amp;quot;万一哪天穿呢&amp;rdquo;，结果柜子塞满了从来不穿的衣服。&lt;/p>
+&lt;p>但做生意不能用&amp;quot;万一&amp;quot;来决策。&lt;/p>
+&lt;p>用数据说话。&lt;/p>
+&lt;h3 id="怎么判断一个sku该不该砍">怎么判断一个SKU该不该砍？&lt;/h3>
+&lt;p>我做了一张简单的评估表，每个维度打分：&lt;/p>
+&lt;p>&lt;strong>维度一：销售额贡献（占总额的%）&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：占总销售额的1%以上 → 3分&lt;/li>
+&lt;li>B：占0.1%-1% → 2分&lt;/li>
+&lt;li>C：占0.1%以下 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度二：毛利贡献&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：毛利率高于公司平均水平 → 3分&lt;/li>
+&lt;li>B：毛利中等 → 2分&lt;/li>
+&lt;li>C：微利甚至亏损 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度三：库存周转天数&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：小于60天 → 3分&lt;/li>
+&lt;li>B：60-180天 → 2分&lt;/li>
+&lt;li>C：大于180天 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>维度四：战略价值&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A：引流品/搭配品/客户指定品 → 3分&lt;/li>
+&lt;li>B：有一定替代性但客户习惯使用 → 2分&lt;/li>
+&lt;li>C：纯长尾，有替代方案 → 1分&lt;/li>
+&lt;/ul>
+&lt;p>四个维度总分：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>10-12分&lt;/strong>：核心SKU，重点维护&lt;/li>
+&lt;li>&lt;strong>7-9分&lt;/strong>：维持，但优化供应（比如提高起订量、减少备货深度）&lt;/li>
+&lt;li>&lt;strong>4-6分&lt;/strong>：观察期，设一个&amp;quot;最后通牒&amp;rdquo;：6个月内不改善就砍&lt;/li>
+&lt;li>&lt;strong>3分&lt;/strong>：立刻砍掉&lt;/li>
+&lt;/ul>
+&lt;p>这四维评分法很简单，但能让你的SKU决策从&amp;quot;我感觉&amp;quot;变成&amp;quot;数据说&amp;rdquo;。&lt;/p>
+&lt;h3 id="砍sku之后会发生什么">砍SKU之后会发生什么？&lt;/h3>
+&lt;p>我把那家五金件企业的提议给老板看：&amp;ldquo;建议砍掉评分3分以下的SKU，大约1200个。&amp;rdquo;&lt;/p>
+&lt;p>老板深吸一口气：&amp;ldquo;你确定不会丢客户？&amp;rdquo;&lt;/p>
+&lt;p>我帮他算了一笔账：&lt;/p>
+&lt;p>&lt;strong>砍掉的成本&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>仓储费：1200个库位 × 平均占用成本 = 约18万/年&lt;/li>
+&lt;li>库存资金占用：这些SKU的平均库存价值约200万 × 资金成本8% = 16万/年&lt;/li>
+&lt;li>管理成本：盘点、养护、系统维护等 ≈ 8万/年&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>砍掉节省的总成本：约42万/年&lt;/strong>&lt;/p></description></item><item><title>SKU从5000砍到800，库存降了60%还没丢客户</title><link>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://supplychain-tips.pages.dev/posts/sku-management-optimization/</guid><description>&lt;p>三年前，我接手了一个做五金配件公司的供应链。他们的SKU数量是4862个。&lt;/p>
 &lt;p>但你知道这4862个SKU里，有多少个在前三个月里有销售记录吗？不到2100个。对，超过一半的SKU在3个月内一单都没卖过。&lt;/p>
 &lt;p>而这些&amp;quot;僵尸SKU&amp;quot;占了多少库存？37%。将近四成的库存资金，压在了一年也卖不出几件的东西上。&lt;/p>
 &lt;p>九个月后，我把SKU从4862砍到了823个。库存从2600万降到980万。销售额呢？从8000万涨到了8600万。&lt;/p>

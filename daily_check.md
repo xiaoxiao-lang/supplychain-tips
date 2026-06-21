@@ -200,3 +200,13 @@
   - 🔴 CF Pages 线上仍卡在 2026-06-14，今日 10 篇未生效
   - 🟡 Hugo 编译未跑通沙箱校验，本地 publish.bat 应已自跑；如未跑需手动 hugo --minify + git push
   - 行动项：①确认 publish.bat 已完成 hugo + push 链路 ②排查 CF Pages webhook ③若 24h 内未上线则手动 git push origin main
+
+## 2026-06-21 巡检报告
+
+=== SEO站点日报 ===
+📝 今日文章：0篇（content/posts/）
+🔨 Hugo编译：✅ 743页/1162ms
+🌐 线上最新：2026-06-16（CF Pages滞后6天）
+📌 Git本地：未提交（3 modified + 1 untracked，a719bb3 待 commit）
+🚀 Git远程：未推送，HEAD领先origin/main（git-remote-https沙箱不可用）
+💡 建议：🟡 0篇属正常晚间节奏（a719bb3 已含 6/17 的 10 篇）；🔴 CF Pages 持续滞后需手动触发重建；🔴 Git 积压需 push
